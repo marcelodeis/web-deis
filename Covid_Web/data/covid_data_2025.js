@@ -1,0 +1,17232 @@
+window.COVID_DATA_2025 = {
+  "fecha_actualizacion": "27/07/2026",
+  "fuente": "COVID-19 (Ocurrencia + Residencia)",
+  "headers": [
+    "Moderna Actualizada",
+    "Moderna JN.1",
+    "Pfizer Actualizada",
+    "Pfizer JN.1"
+  ],
+  "meses_base": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "semanas_base": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53
+  ],
+  "velocidad_promedio": 5,
+  "data_ocurrencia": [
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Manuel Rodríguez",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Manuel Rodríguez",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "5": 3
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "22": 3
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Manuel Rodríguez",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 2,
+          "4": 6,
+          "5": 2
+        },
+        "Pfizer JN.1": {
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 2,
+          "15": 2,
+          "16": 2,
+          "17": 2,
+          "20": 1,
+          "21": 1
+        },
+        "Pfizer JN.1": {
+          "25": 1
+        }
+      },
+      "total": 11
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Manuel Rodríguez",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1,
+          "4": 1
+        },
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 1,
+          "14": 1
+        },
+        "Pfizer JN.1": {
+          "13": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Manuel Rodríguez",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 23,
+          "4": 24,
+          "5": 1,
+          "7": 1
+        },
+        "Pfizer JN.1": {
+          "3": 11,
+          "6": 3
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "11": 2,
+          "12": 12,
+          "13": 9,
+          "14": 7,
+          "15": 7,
+          "16": 5,
+          "17": 4,
+          "18": 1,
+          "20": 1,
+          "27": 1
+        },
+        "Pfizer JN.1": {
+          "13": 11,
+          "23": 3
+        }
+      },
+      "total": 63
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Casos especiales",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "18": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 53,
+          "5": 9,
+          "6": 3,
+          "7": 3
+        },
+        "Pfizer JN.1": {
+          "3": 15,
+          "5": 7,
+          "6": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 3,
+          "15": 32,
+          "16": 7,
+          "17": 8,
+          "18": 3,
+          "19": 2,
+          "20": 4,
+          "21": 3,
+          "26": 3,
+          "27": 3
+        },
+        "Pfizer JN.1": {
+          "11": 5,
+          "13": 10,
+          "19": 5,
+          "22": 2,
+          "24": 1,
+          "25": 1
+        }
+      },
+      "total": 92
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Embarazadas",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "2": 1,
+          "3": 1,
+          "4": 4
+        },
+        "Pfizer JN.1": {
+          "3": 3,
+          "5": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 1,
+          "14": 1,
+          "15": 2,
+          "17": 1,
+          "9": 1
+        },
+        "Pfizer JN.1": {
+          "12": 1,
+          "13": 2,
+          "22": 2
+        }
+      },
+      "total": 11
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "6": 26,
+          "7": 9
+        },
+        "Pfizer JN.1": {
+          "3": 164,
+          "4": 9,
+          "5": 51,
+          "6": 9
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "26": 24,
+          "27": 9,
+          "28": 2
+        },
+        "Pfizer JN.1": {
+          "11": 19,
+          "12": 70,
+          "13": 70,
+          "14": 5,
+          "18": 30,
+          "19": 16,
+          "21": 1,
+          "22": 13,
+          "23": 2,
+          "24": 4,
+          "25": 3
+        }
+      },
+      "total": 268
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna Actualizada": {
+          "1": 3
+        },
+        "Moderna JN.1": {
+          "1": 1,
+          "2": 1,
+          "3": 33,
+          "4": 275,
+          "5": 81,
+          "6": 6,
+          "7": 15,
+          "8": 9
+        },
+        "Pfizer JN.1": {
+          "5": 4,
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Moderna Actualizada": {
+          "3": 1,
+          "4": 2
+        },
+        "Moderna JN.1": {
+          "10": 8,
+          "11": 9,
+          "13": 3,
+          "14": 68,
+          "15": 60,
+          "16": 28,
+          "17": 89,
+          "18": 36,
+          "19": 27,
+          "20": 38,
+          "21": 16,
+          "26": 6,
+          "27": 2,
+          "29": 2,
+          "30": 4,
+          "31": 7,
+          "32": 3,
+          "34": 4,
+          "35": 2,
+          "5": 1,
+          "8": 1,
+          "9": 7
+        },
+        "Pfizer JN.1": {
+          "21": 4,
+          "24": 1
+        }
+      },
+      "total": 429
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "P. de salud: Adm. apoyo no clinico FFAA y de orden",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 12,
+          "5": 6
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 12,
+          "19": 1,
+          "21": 5
+        }
+      },
+      "total": 18
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "P. de salud: Administrativo de apoyo no clinico sector privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1,
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "17": 1,
+          "21": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "P. de salud: Administrativo de apoyo no clinico sector público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 15
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "17": 15
+        }
+      },
+      "total": 15
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1,
+          "4": 20,
+          "5": 6,
+          "6": 1,
+          "7": 5,
+          "8": 4
+        },
+        "Pfizer JN.1": {
+          "3": 3,
+          "5": 6,
+          "6": 13
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 7,
+          "16": 5,
+          "17": 6,
+          "18": 2,
+          "19": 3,
+          "21": 3,
+          "27": 1,
+          "28": 1,
+          "30": 1,
+          "31": 3,
+          "35": 4,
+          "9": 1
+        },
+        "Pfizer JN.1": {
+          "13": 3,
+          "18": 1,
+          "19": 2,
+          "22": 3,
+          "23": 2,
+          "24": 10,
+          "25": 1
+        }
+      },
+      "total": 59
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "P. de salud: Alumnos en práctica, sector privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 2
+        },
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "17": 1,
+          "18": 1
+        },
+        "Pfizer JN.1": {
+          "13": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "P. de salud: FFAA y de orden",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 5
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1,
+          "16": 1,
+          "17": 3
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "P. de salud: Privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1,
+          "4": 4,
+          "5": 3
+        },
+        "Pfizer JN.1": {
+          "4": 1,
+          "5": 13
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 1,
+          "17": 4,
+          "19": 2,
+          "20": 1
+        },
+        "Pfizer JN.1": {
+          "18": 1,
+          "19": 13
+        }
+      },
+      "total": 22
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "2": 8,
+          "3": 10,
+          "4": 26,
+          "5": 23,
+          "7": 2
+        },
+        "Pfizer JN.1": {
+          "3": 41,
+          "5": 6
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 6,
+          "13": 2,
+          "14": 4,
+          "15": 4,
+          "16": 10,
+          "17": 5,
+          "18": 3,
+          "19": 10,
+          "20": 5,
+          "21": 8,
+          "27": 2,
+          "9": 10
+        },
+        "Pfizer JN.1": {
+          "11": 24,
+          "12": 11,
+          "13": 6,
+          "18": 2,
+          "19": 1,
+          "21": 2,
+          "22": 1
+        }
+      },
+      "total": 116
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Paciente inmunocomprometido de 12 años en adelante",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 2
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "11": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Paciente inmunocomprometido de 6 meses en adelante",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 3,
+          "5": 1,
+          "8": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 1,
+          "12": 1,
+          "14": 1,
+          "20": 1,
+          "33": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna Actualizada": {
+          "1": 4
+        },
+        "Moderna JN.1": {
+          "1": 2,
+          "2": 4,
+          "3": 215,
+          "4": 747,
+          "5": 111,
+          "6": 8,
+          "7": 22,
+          "8": 8
+        },
+        "Pfizer JN.1": {
+          "3": 732,
+          "4": 7,
+          "5": 67,
+          "6": 26
+        }
+      },
+      "datos_se": {
+        "Moderna Actualizada": {
+          "3": 3,
+          "4": 1
+        },
+        "Moderna JN.1": {
+          "10": 100,
+          "11": 53,
+          "12": 4,
+          "13": 5,
+          "14": 245,
+          "15": 242,
+          "16": 129,
+          "17": 122,
+          "18": 52,
+          "19": 38,
+          "20": 57,
+          "21": 16,
+          "26": 5,
+          "27": 9,
+          "28": 4,
+          "29": 7,
+          "30": 3,
+          "31": 2,
+          "32": 5,
+          "33": 2,
+          "34": 1,
+          "5": 2,
+          "6": 2,
+          "8": 1,
+          "9": 11
+        },
+        "Pfizer JN.1": {
+          "11": 118,
+          "12": 277,
+          "13": 336,
+          "14": 1,
+          "18": 26,
+          "19": 23,
+          "21": 4,
+          "22": 21,
+          "23": 12,
+          "24": 13,
+          "25": 1
+        }
+      },
+      "total": 1953
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 3,
+          "6": 1
+        },
+        "Pfizer JN.1": {
+          "3": 3,
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 1,
+          "15": 1,
+          "16": 1,
+          "23": 1
+        },
+        "Pfizer JN.1": {
+          "12": 3,
+          "21": 1
+        }
+      },
+      "total": 8
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "Embarazadas",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        },
+        "Pfizer JN.1": {
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 1
+        },
+        "Pfizer JN.1": {
+          "21": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "6": 1,
+          "7": 2
+        },
+        "Pfizer JN.1": {
+          "3": 25,
+          "4": 1,
+          "5": 36
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "26": 1,
+          "27": 2
+        },
+        "Pfizer JN.1": {
+          "11": 16,
+          "12": 9,
+          "18": 14,
+          "19": 8,
+          "20": 5,
+          "21": 10
+        }
+      },
+      "total": 65
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "2": 1,
+          "3": 20,
+          "4": 157,
+          "5": 6,
+          "6": 8
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 4,
+          "13": 11,
+          "14": 42,
+          "15": 58,
+          "16": 29,
+          "17": 20,
+          "18": 13,
+          "22": 6,
+          "23": 8,
+          "9": 1
+        }
+      },
+      "total": 192
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "2": 1,
+          "3": 22,
+          "4": 6
+        },
+        "Pfizer JN.1": {
+          "5": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 22,
+          "16": 5,
+          "18": 1,
+          "6": 1
+        },
+        "Pfizer JN.1": {
+          "19": 2
+        }
+      },
+      "total": 31
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "P. de salud: Alumnos en práctica, sector privado",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "11": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "P. de salud: FFAA y de orden",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "18": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "P. de salud: Privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 10,
+          "4": 5
+        },
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 9,
+          "13": 1,
+          "14": 3,
+          "16": 1,
+          "17": 1
+        },
+        "Pfizer JN.1": {
+          "12": 1
+        }
+      },
+      "total": 16
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 4,
+          "4": 9,
+          "5": 1
+        },
+        "Pfizer JN.1": {
+          "3": 20,
+          "5": 5
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 3,
+          "14": 4,
+          "15": 1,
+          "16": 2,
+          "17": 3,
+          "22": 1
+        },
+        "Pfizer JN.1": {
+          "11": 20,
+          "18": 2,
+          "21": 3
+        }
+      },
+      "total": 39
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "Paciente inmunocomprometido de 12 años en adelante",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "21": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "Paciente inmunocomprometido de 6 meses en adelante",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 16,
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 16,
+          "14": 1
+        }
+      },
+      "total": 17
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna Actualizada": {
+          "1": 3
+        },
+        "Moderna JN.1": {
+          "2": 1,
+          "3": 87,
+          "4": 289,
+          "5": 5,
+          "6": 4,
+          "7": 1
+        },
+        "Pfizer JN.1": {
+          "3": 65,
+          "4": 2,
+          "5": 41
+        }
+      },
+      "datos_se": {
+        "Moderna Actualizada": {
+          "2": 1,
+          "3": 2
+        },
+        "Moderna JN.1": {
+          "12": 17,
+          "13": 62,
+          "14": 82,
+          "15": 106,
+          "16": 64,
+          "17": 31,
+          "18": 14,
+          "22": 5,
+          "23": 3,
+          "25": 1,
+          "27": 1,
+          "6": 1
+        },
+        "Pfizer JN.1": {
+          "11": 22,
+          "12": 43,
+          "18": 11,
+          "19": 11,
+          "20": 6,
+          "21": 15
+        }
+      },
+      "total": 498
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Casos especiales",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "19": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 4,
+          "4": 4,
+          "6": 1
+        },
+        "Pfizer JN.1": {
+          "3": 5,
+          "5": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 4,
+          "14": 2,
+          "15": 1,
+          "17": 1,
+          "25": 1
+        },
+        "Pfizer JN.1": {
+          "11": 3,
+          "12": 2,
+          "19": 2
+        }
+      },
+      "total": 16
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Embarazadas",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 5,
+          "5": 2,
+          "6": 1,
+          "7": 1,
+          "8": 2
+        },
+        "Pfizer JN.1": {
+          "3": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1,
+          "17": 4,
+          "20": 1,
+          "22": 1,
+          "26": 1,
+          "27": 1,
+          "33": 1,
+          "34": 1
+        },
+        "Pfizer JN.1": {
+          "11": 2
+        }
+      },
+      "total": 13
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "6": 6,
+          "7": 3
+        },
+        "Pfizer JN.1": {
+          "3": 98,
+          "4": 32,
+          "5": 49,
+          "6": 6
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "25": 4,
+          "26": 2,
+          "27": 2,
+          "28": 1
+        },
+        "Pfizer JN.1": {
+          "11": 16,
+          "12": 50,
+          "13": 23,
+          "14": 12,
+          "15": 1,
+          "16": 15,
+          "17": 4,
+          "18": 18,
+          "19": 29,
+          "21": 11,
+          "24": 6
+        }
+      },
+      "total": 194
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "1": 1,
+          "3": 45,
+          "4": 220,
+          "5": 38,
+          "6": 16,
+          "7": 2,
+          "8": 6
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 10,
+          "13": 35,
+          "14": 42,
+          "15": 48,
+          "16": 17,
+          "17": 59,
+          "18": 54,
+          "19": 10,
+          "20": 16,
+          "21": 4,
+          "22": 8,
+          "23": 10,
+          "24": 1,
+          "25": 2,
+          "26": 3,
+          "30": 2,
+          "33": 1,
+          "34": 5,
+          "5": 1
+        }
+      },
+      "total": 328
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "P. de salud: Administrativo de apoyo no clinico sector privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "17": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "P. de salud: Administrativo de apoyo no clinico sector público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 8
+        },
+        "Pfizer JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1,
+          "16": 3,
+          "17": 3,
+          "18": 1
+        },
+        "Pfizer JN.1": {
+          "17": 1
+        }
+      },
+      "total": 9
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1,
+          "5": 1
+        },
+        "Pfizer JN.1": {
+          "3": 2,
+          "4": 2,
+          "5": 3
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "16": 1,
+          "19": 1
+        },
+        "Pfizer JN.1": {
+          "11": 1,
+          "12": 1,
+          "16": 2,
+          "18": 1,
+          "19": 2
+        }
+      },
+      "total": 9
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "P. de salud: FFAA y de orden",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1,
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1,
+          "26": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "P. de salud: Privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 2,
+          "4": 6,
+          "5": 1,
+          "6": 2
+        },
+        "Pfizer JN.1": {
+          "3": 4
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 1,
+          "13": 1,
+          "14": 2,
+          "15": 2,
+          "16": 1,
+          "17": 1,
+          "22": 1,
+          "23": 1,
+          "25": 1
+        },
+        "Pfizer JN.1": {
+          "11": 2,
+          "12": 1,
+          "13": 1
+        }
+      },
+      "total": 15
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 15,
+          "4": 9,
+          "5": 2,
+          "6": 1,
+          "7": 2,
+          "8": 1
+        },
+        "Pfizer JN.1": {
+          "3": 23,
+          "6": 3
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 10,
+          "13": 5,
+          "14": 5,
+          "15": 2,
+          "17": 2,
+          "20": 2,
+          "23": 1,
+          "28": 1,
+          "30": 1,
+          "33": 1
+        },
+        "Pfizer JN.1": {
+          "11": 10,
+          "12": 10,
+          "13": 3,
+          "24": 2,
+          "25": 1
+        }
+      },
+      "total": 56
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Paciente inmunocomprometido de 12 años en adelante",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "13": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Personas NO vacunadas con esquema primario",
+      "datos_mes": {
+        "Moderna Actualizada": {
+          "1": 2
+        }
+      },
+      "datos_se": {
+        "Moderna Actualizada": {
+          "2": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "1": 2,
+          "2": 1,
+          "3": 93,
+          "4": 200,
+          "5": 17,
+          "6": 20,
+          "7": 3
+        },
+        "Pfizer JN.1": {
+          "3": 280,
+          "4": 24,
+          "5": 42,
+          "6": 3
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 11,
+          "13": 82,
+          "14": 63,
+          "15": 60,
+          "16": 18,
+          "17": 46,
+          "18": 13,
+          "19": 3,
+          "20": 10,
+          "21": 1,
+          "22": 3,
+          "23": 8,
+          "25": 4,
+          "26": 7,
+          "27": 1,
+          "28": 2,
+          "30": 1,
+          "5": 2,
+          "9": 1
+        },
+        "Pfizer JN.1": {
+          "11": 65,
+          "12": 150,
+          "13": 38,
+          "14": 30,
+          "15": 2,
+          "16": 12,
+          "17": 1,
+          "18": 13,
+          "19": 22,
+          "21": 13,
+          "24": 3
+        }
+      },
+      "total": 685
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "Casos especiales",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1,
+          "4": 9,
+          "5": 1
+        },
+        "Pfizer JN.1": {
+          "3": 2,
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 1,
+          "14": 1,
+          "15": 5,
+          "17": 3,
+          "21": 1
+        },
+        "Pfizer JN.1": {
+          "10": 1,
+          "13": 1,
+          "19": 1
+        }
+      },
+      "total": 14
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "Embarazadas",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        },
+        "Pfizer JN.1": {
+          "3": 2,
+          "4": 1,
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 1
+        },
+        "Pfizer JN.1": {
+          "11": 1,
+          "12": 1,
+          "17": 1,
+          "24": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 91,
+          "4": 4,
+          "5": 19,
+          "6": 13
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "10": 16,
+          "11": 34,
+          "12": 14,
+          "13": 24,
+          "14": 3,
+          "17": 4,
+          "18": 3,
+          "19": 8,
+          "22": 8,
+          "23": 9,
+          "24": 4
+        }
+      },
+      "total": 127
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 39,
+          "4": 129,
+          "5": 5
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 28,
+          "14": 51,
+          "15": 46,
+          "16": 27,
+          "17": 10,
+          "18": 6,
+          "19": 2,
+          "20": 1,
+          "21": 2
+        }
+      },
+      "total": 173
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "P. de salud: Adm. apoyo no clinico FFAA y de orden",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "13": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "P. de salud: Administrativo de apoyo no clinico sector privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "P. de salud: Administrativo de apoyo no clinico sector público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "datos_mes": {
+        "Moderna Actualizada": {
+          "1": 1
+        },
+        "Moderna JN.1": {
+          "3": 1,
+          "4": 4
+        },
+        "Pfizer JN.1": {
+          "3": 5,
+          "6": 2
+        }
+      },
+      "datos_se": {
+        "Moderna Actualizada": {
+          "3": 1
+        },
+        "Moderna JN.1": {
+          "13": 1,
+          "15": 3,
+          "18": 1
+        },
+        "Pfizer JN.1": {
+          "13": 5,
+          "23": 1,
+          "24": 1
+        }
+      },
+      "total": 13
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "P. de salud: Privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 2
+        },
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 1,
+          "18": 1
+        },
+        "Pfizer JN.1": {
+          "11": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 3,
+          "4": 9
+        },
+        "Pfizer JN.1": {
+          "3": 9
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 3,
+          "14": 6,
+          "15": 2,
+          "17": 1
+        },
+        "Pfizer JN.1": {
+          "10": 3,
+          "11": 2,
+          "13": 4
+        }
+      },
+      "total": 21
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "Paciente inmunocomprometido de 6 meses en adelante",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna Actualizada": {
+          "1": 2
+        },
+        "Moderna JN.1": {
+          "3": 91,
+          "4": 226,
+          "5": 29
+        },
+        "Pfizer JN.1": {
+          "3": 228,
+          "4": 12,
+          "5": 28,
+          "6": 4
+        }
+      },
+      "datos_se": {
+        "Moderna Actualizada": {
+          "2": 2
+        },
+        "Moderna JN.1": {
+          "13": 59,
+          "14": 127,
+          "15": 71,
+          "16": 29,
+          "17": 15,
+          "18": 16,
+          "19": 6,
+          "20": 19,
+          "21": 4
+        },
+        "Pfizer JN.1": {
+          "10": 31,
+          "11": 82,
+          "12": 53,
+          "13": 53,
+          "14": 9,
+          "17": 12,
+          "18": 5,
+          "19": 16,
+          "22": 7,
+          "23": 4
+        }
+      },
+      "total": 620
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 5
+        },
+        "Pfizer JN.1": {
+          "5": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1,
+          "17": 4
+        },
+        "Pfizer JN.1": {
+          "19": 1,
+          "20": 1
+        }
+      },
+      "total": 7
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "7": 9
+        },
+        "Pfizer JN.1": {
+          "5": 88,
+          "6": 3
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "27": 5,
+          "28": 4
+        },
+        "Pfizer JN.1": {
+          "18": 1,
+          "19": 51,
+          "20": 25,
+          "21": 9,
+          "22": 2,
+          "23": 2,
+          "24": 1
+        }
+      },
+      "total": 100
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 39,
+          "4": 86,
+          "7": 5,
+          "8": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 20,
+          "13": 17,
+          "14": 25,
+          "15": 20,
+          "16": 6,
+          "17": 21,
+          "18": 16,
+          "28": 1,
+          "29": 1,
+          "30": 3,
+          "33": 1
+        }
+      },
+      "total": 131
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 3,
+          "4": 1,
+          "7": 2
+        },
+        "Pfizer JN.1": {
+          "5": 1,
+          "6": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 1,
+          "13": 2,
+          "17": 1,
+          "27": 1,
+          "28": 1
+        },
+        "Pfizer JN.1": {
+          "22": 1,
+          "23": 1,
+          "24": 1
+        }
+      },
+      "total": 9
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "P. de salud: Privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "2": 1,
+          "3": 1,
+          "4": 6,
+          "8": 1
+        },
+        "Pfizer JN.1": {
+          "5": 4
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 1,
+          "14": 1,
+          "15": 4,
+          "16": 1,
+          "35": 1,
+          "6": 1
+        },
+        "Pfizer JN.1": {
+          "19": 4
+        }
+      },
+      "total": 13
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 58,
+          "4": 112,
+          "7": 8
+        },
+        "Pfizer JN.1": {
+          "5": 35,
+          "6": 5
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 25,
+          "13": 30,
+          "14": 37,
+          "15": 29,
+          "16": 23,
+          "17": 24,
+          "18": 2,
+          "27": 1,
+          "28": 4,
+          "29": 2,
+          "30": 1
+        },
+        "Pfizer JN.1": {
+          "18": 2,
+          "19": 22,
+          "20": 8,
+          "21": 2,
+          "22": 1,
+          "23": 3,
+          "24": 2
+        }
+      },
+      "total": 218
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 4,
+          "4": 9
+        },
+        "Pfizer JN.1": {
+          "5": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 4,
+          "14": 3,
+          "15": 1,
+          "18": 5
+        },
+        "Pfizer JN.1": {
+          "19": 1,
+          "21": 1
+        }
+      },
+      "total": 15
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 7,
+          "5": 61,
+          "6": 48
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "12": 6,
+          "13": 1,
+          "19": 15,
+          "20": 7,
+          "21": 11,
+          "22": 28,
+          "23": 33,
+          "24": 15
+        }
+      },
+      "total": 116
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 21,
+          "4": 117
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 12,
+          "14": 44,
+          "15": 41,
+          "16": 7,
+          "17": 19,
+          "18": 15
+        }
+      },
+      "total": 138
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "P. de salud: Administrativo de apoyo no clinico sector público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "16": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 4
+        },
+        "Pfizer JN.1": {
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "16": 2,
+          "17": 2
+        },
+        "Pfizer JN.1": {
+          "21": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "P. de salud: Privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 12
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 12
+        }
+      },
+      "total": 12
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 2,
+          "4": 4
+        },
+        "Pfizer JN.1": {
+          "5": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 2,
+          "16": 2,
+          "17": 2
+        },
+        "Pfizer JN.1": {
+          "19": 2
+        }
+      },
+      "total": 8
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "Paciente inmunocomprometido de 6 meses en adelante",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 22,
+          "4": 134
+        },
+        "Pfizer JN.1": {
+          "3": 12,
+          "5": 54,
+          "6": 12
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 21,
+          "14": 21,
+          "15": 57,
+          "16": 18,
+          "17": 27,
+          "18": 12
+        },
+        "Pfizer JN.1": {
+          "12": 12,
+          "19": 30,
+          "20": 11,
+          "21": 5,
+          "22": 8,
+          "23": 9,
+          "24": 3
+        }
+      },
+      "total": 234
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Mutual CCHC Osorno",
+      "criterio": "P. de salud: Privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 9
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 5,
+          "13": 4
+        }
+      },
+      "total": 9
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Mutual CCHC Osorno",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Clínica Alemana de Osorno",
+      "criterio": "Embarazadas",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 2
+        },
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 2
+        },
+        "Pfizer JN.1": {
+          "12": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Clínica Alemana de Osorno",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 5,
+          "5": 8,
+          "6": 4
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "13": 5,
+          "19": 1,
+          "20": 6,
+          "22": 1,
+          "23": 4
+        }
+      },
+      "total": 17
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Clínica Alemana de Osorno",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 8,
+          "8": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 3,
+          "16": 5,
+          "32": 1,
+          "35": 1
+        }
+      },
+      "total": 10
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Clínica Alemana de Osorno",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "20": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Clínica Alemana de Osorno",
+      "criterio": "P. de salud: Alumnos en práctica, sector privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 9
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 9
+        }
+      },
+      "total": 9
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Clínica Alemana de Osorno",
+      "criterio": "P. de salud: Privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 5,
+          "4": 79
+        },
+        "Pfizer JN.1": {
+          "3": 11,
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 5,
+          "15": 76,
+          "16": 2,
+          "17": 1
+        },
+        "Pfizer JN.1": {
+          "11": 2,
+          "12": 1,
+          "13": 8,
+          "19": 1
+        }
+      },
+      "total": 96
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Clínica Alemana de Osorno",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 2
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "12": 1,
+          "13": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Clínica Alemana de Osorno",
+      "criterio": "Paciente inmunocomprometido de 12 años en adelante",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "13": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Clínica Alemana de Osorno",
+      "criterio": "Paciente inmunocomprometido de 6 meses en adelante",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "8": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "35": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Clínica Alemana de Osorno",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 25,
+          "6": 1,
+          "7": 1
+        },
+        "Pfizer JN.1": {
+          "3": 27,
+          "5": 12,
+          "6": 6
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 17,
+          "16": 6,
+          "17": 1,
+          "18": 1,
+          "26": 1,
+          "27": 1
+        },
+        "Pfizer JN.1": {
+          "11": 4,
+          "12": 2,
+          "13": 21,
+          "19": 5,
+          "20": 2,
+          "22": 5,
+          "23": 6
+        }
+      },
+      "total": 72
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Clínica de la ACHS Osorno",
+      "criterio": "P. de salud: Privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "2": 9
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "9": 9
+        }
+      },
+      "total": 9
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Clínica de la ACHS Osorno",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "2": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "9": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 2,
+          "5": 3,
+          "6": 1
+        },
+        "Pfizer JN.1": {
+          "3": 2,
+          "4": 5,
+          "5": 6
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "16": 1,
+          "18": 1,
+          "19": 2,
+          "20": 1,
+          "25": 1
+        },
+        "Pfizer JN.1": {
+          "12": 1,
+          "13": 1,
+          "14": 2,
+          "15": 3,
+          "20": 2,
+          "21": 2,
+          "22": 2
+        }
+      },
+      "total": 19
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "Embarazadas",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1
+        },
+        "Pfizer JN.1": {
+          "3": 6,
+          "4": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 1
+        },
+        "Pfizer JN.1": {
+          "12": 1,
+          "13": 3,
+          "14": 2,
+          "15": 2
+        }
+      },
+      "total": 9
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "6": 13,
+          "7": 1
+        },
+        "Pfizer JN.1": {
+          "3": 63,
+          "4": 130,
+          "5": 77,
+          "6": 46
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "25": 3,
+          "26": 10,
+          "29": 1
+        },
+        "Pfizer JN.1": {
+          "12": 29,
+          "13": 30,
+          "14": 32,
+          "15": 51,
+          "16": 38,
+          "17": 13,
+          "18": 6,
+          "19": 10,
+          "20": 15,
+          "21": 20,
+          "22": 26,
+          "23": 22,
+          "24": 15,
+          "25": 9
+        }
+      },
+      "total": 330
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 14,
+          "4": 53,
+          "5": 58,
+          "6": 5,
+          "7": 21,
+          "8": 15
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 12,
+          "13": 2,
+          "15": 5,
+          "16": 5,
+          "17": 26,
+          "18": 17,
+          "19": 14,
+          "20": 36,
+          "21": 7,
+          "22": 1,
+          "23": 1,
+          "24": 3,
+          "26": 1,
+          "29": 8,
+          "30": 12,
+          "31": 1,
+          "32": 4,
+          "34": 9,
+          "35": 2
+        }
+      },
+      "total": 166
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "P. de salud: Adm. apoyo no clinico FFAA y de orden",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "20": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 4,
+          "5": 12,
+          "6": 2,
+          "7": 1
+        },
+        "Pfizer JN.1": {
+          "3": 31,
+          "4": 9,
+          "5": 7,
+          "6": 3
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "17": 1,
+          "18": 3,
+          "19": 2,
+          "20": 10,
+          "24": 1,
+          "25": 1,
+          "30": 1
+        },
+        "Pfizer JN.1": {
+          "13": 9,
+          "14": 25,
+          "15": 5,
+          "16": 1,
+          "21": 4,
+          "22": 3,
+          "23": 1,
+          "24": 2
+        }
+      },
+      "total": 69
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "P. de salud: Alumnos en práctica, sector privado",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "20": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "P. de salud: FFAA y de orden",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "19": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "P. de salud: Privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "7": 1
+        },
+        "Pfizer JN.1": {
+          "3": 5,
+          "4": 4,
+          "5": 2,
+          "6": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "29": 1
+        },
+        "Pfizer JN.1": {
+          "12": 1,
+          "13": 4,
+          "14": 1,
+          "15": 1,
+          "16": 1,
+          "17": 1,
+          "20": 2,
+          "24": 2
+        }
+      },
+      "total": 14
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 59,
+          "4": 16,
+          "5": 28,
+          "6": 8,
+          "7": 2,
+          "8": 1
+        },
+        "Pfizer JN.1": {
+          "3": 503,
+          "4": 106,
+          "5": 41,
+          "6": 16
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 4,
+          "13": 55,
+          "16": 1,
+          "17": 7,
+          "18": 8,
+          "19": 3,
+          "20": 20,
+          "21": 1,
+          "22": 4,
+          "23": 4,
+          "24": 1,
+          "25": 2,
+          "26": 1,
+          "29": 1,
+          "30": 1,
+          "35": 1
+        },
+        "Pfizer JN.1": {
+          "12": 113,
+          "13": 273,
+          "14": 157,
+          "15": 41,
+          "16": 19,
+          "17": 6,
+          "18": 1,
+          "19": 2,
+          "20": 1,
+          "21": 28,
+          "22": 9,
+          "23": 13,
+          "24": 3
+        }
+      },
+      "total": 780
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "Paciente inmunocomprometido de 6 meses en adelante",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "16": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 22,
+          "4": 34,
+          "5": 37,
+          "6": 4,
+          "7": 8,
+          "8": 5
+        },
+        "Pfizer JN.1": {
+          "3": 154,
+          "4": 214,
+          "5": 36,
+          "6": 29
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 20,
+          "13": 2,
+          "16": 2,
+          "17": 21,
+          "18": 11,
+          "19": 12,
+          "20": 24,
+          "21": 1,
+          "25": 4,
+          "29": 5,
+          "31": 3,
+          "32": 4,
+          "34": 1
+        },
+        "Pfizer JN.1": {
+          "12": 60,
+          "13": 83,
+          "14": 81,
+          "15": 82,
+          "16": 44,
+          "17": 18,
+          "18": 2,
+          "19": 9,
+          "20": 5,
+          "21": 12,
+          "22": 8,
+          "23": 14,
+          "24": 10,
+          "25": 5
+        }
+      },
+      "total": 543
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Policlínico Centro de Cumplimiento Penitenciario de Osorno",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 8
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "12": 7,
+          "13": 1
+        }
+      },
+      "total": 8
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Policlínico Centro de Cumplimiento Penitenciario de Osorno",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 3
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 2,
+          "14": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Policlínico Centro de Cumplimiento Penitenciario de Osorno",
+      "criterio": "P. de salud: FFAA y de orden",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 213
+        },
+        "Pfizer JN.1": {
+          "3": 287
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 122,
+          "14": 91
+        },
+        "Pfizer JN.1": {
+          "12": 191,
+          "13": 96
+        }
+      },
+      "total": 500
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Policlínico Centro de Cumplimiento Penitenciario de Osorno",
+      "criterio": "Paciente inmunocomprometido de 12 años en adelante",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 2
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "12": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Policlínico Centro de Cumplimiento Penitenciario de Osorno",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 4
+        },
+        "Pfizer JN.1": {
+          "3": 27
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 1,
+          "14": 3
+        },
+        "Pfizer JN.1": {
+          "12": 22,
+          "13": 5
+        }
+      },
+      "total": 31
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "Casos especiales",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 1,
+          "5": 2
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "13": 1,
+          "21": 2
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 7,
+          "4": 11,
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 1,
+          "13": 6,
+          "14": 6,
+          "15": 3,
+          "16": 1,
+          "18": 1,
+          "20": 1
+        }
+      },
+      "total": 19
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "P. de salud: Administrativo de apoyo no clinico sector público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 7
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 5,
+          "15": 2
+        }
+      },
+      "total": 7
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 5
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 5
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 11,
+          "4": 10,
+          "5": 1
+        },
+        "Pfizer JN.1": {
+          "3": 5,
+          "5": 4
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 4,
+          "13": 7,
+          "14": 2,
+          "15": 2,
+          "16": 3,
+          "18": 3,
+          "19": 1
+        },
+        "Pfizer JN.1": {
+          "13": 5,
+          "18": 3,
+          "19": 1
+        }
+      },
+      "total": 31
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Pichi Damas",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Pichi Damas",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1,
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 1,
+          "14": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Pichi Damas",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Pichi Damas",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 12,
+          "4": 12
+        },
+        "Pfizer JN.1": {
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 8,
+          "13": 4,
+          "14": 4,
+          "15": 7,
+          "17": 1
+        },
+        "Pfizer JN.1": {
+          "24": 1
+        }
+      },
+      "total": 25
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Vacunatorio Sociedad Centro Médico Cochrane SA",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1,
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "17": 1,
+          "19": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Vacunatorio Sociedad Centro Médico Cochrane SA",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "7": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "28": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Vacunatorio Sociedad Centro Médico Cochrane SA",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "5": 1,
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "22": 1,
+          "24": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Vacunatorio Sociedad Centro Médico Cochrane SA",
+      "criterio": "P. de salud: Privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "24": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Vacunatorio Sociedad Centro Médico Cochrane SA",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 2,
+          "5": 6,
+          "6": 3
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "17": 2,
+          "19": 1,
+          "20": 3,
+          "22": 2,
+          "24": 3
+        }
+      },
+      "total": 11
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Vacunatorio VAXPLUS",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 3,
+          "4": 6,
+          "5": 8
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "13": 2,
+          "14": 1,
+          "15": 1,
+          "16": 5,
+          "20": 2,
+          "21": 5,
+          "22": 1
+        }
+      },
+      "total": 17
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Vacunatorio VAXPLUS",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 4
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 2,
+          "16": 2
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Vacunatorio VAXPLUS",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "4": 2
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "15": 1,
+          "16": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Vacunatorio VAXPLUS",
+      "criterio": "P. de salud: FFAA y de orden",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 3
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "13": 3
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Vacunatorio VAXPLUS",
+      "criterio": "P. de salud: Privado",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 5,
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "13": 5,
+          "15": 1
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Vacunatorio VAXPLUS",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "15": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Vacunatorio VAXPLUS",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 1,
+          "4": 8,
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "13": 1,
+          "14": 5,
+          "15": 3,
+          "19": 1
+        }
+      },
+      "total": 10
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1,
+          "7": 1
+        },
+        "Pfizer JN.1": {
+          "3": 5,
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1,
+          "28": 1
+        },
+        "Pfizer JN.1": {
+          "12": 1,
+          "13": 3,
+          "14": 2
+        }
+      },
+      "total": 8
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "Embarazadas",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 3
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "11": 2,
+          "12": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "7": 2
+        },
+        "Pfizer JN.1": {
+          "3": 16,
+          "4": 6,
+          "5": 3,
+          "6": 4
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "28": 2
+        },
+        "Pfizer JN.1": {
+          "11": 6,
+          "12": 1,
+          "13": 9,
+          "14": 6,
+          "21": 3,
+          "23": 3,
+          "24": 1
+        }
+      },
+      "total": 31
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 12,
+          "7": 1,
+          "8": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 2,
+          "15": 7,
+          "17": 2,
+          "18": 1,
+          "30": 1,
+          "32": 1,
+          "35": 1
+        }
+      },
+      "total": 15
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "P. de salud: Adm. apoyo no clinico FFAA y de orden",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 3
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 2,
+          "18": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        },
+        "Pfizer JN.1": {
+          "3": 3
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        },
+        "Pfizer JN.1": {
+          "11": 1,
+          "12": 1,
+          "13": 1
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "P. de salud: Privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 2
+        },
+        "Pfizer JN.1": {
+          "3": 19,
+          "4": 1,
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 1,
+          "15": 1
+        },
+        "Pfizer JN.1": {
+          "10": 7,
+          "11": 9,
+          "12": 1,
+          "13": 1,
+          "14": 2,
+          "24": 1
+        }
+      },
+      "total": 23
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "Paciente inmunocomprometido de 6 meses en adelante",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 32
+        },
+        "Pfizer JN.1": {
+          "3": 80,
+          "4": 10,
+          "5": 3,
+          "6": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 4,
+          "15": 16,
+          "17": 8,
+          "18": 4
+        },
+        "Pfizer JN.1": {
+          "11": 19,
+          "12": 8,
+          "13": 43,
+          "14": 20,
+          "21": 3,
+          "23": 2
+        }
+      },
+      "total": 127
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural La Calo",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 5
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "13": 5
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural La Calo",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "13": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Rupanco",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 2
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "12": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Rupanco",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 2
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "12": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Rupanco",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 2
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "12": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "5": 2
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "21": 1,
+          "22": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "5": 32,
+          "6": 6
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "19": 15,
+          "20": 13,
+          "21": 3,
+          "22": 1,
+          "23": 6
+        }
+      },
+      "total": 38
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna Actualizada": {
+          "1": 2
+        },
+        "Moderna JN.1": {
+          "2": 3,
+          "3": 53,
+          "4": 58,
+          "7": 5,
+          "8": 2
+        }
+      },
+      "datos_se": {
+        "Moderna Actualizada": {
+          "4": 2
+        },
+        "Moderna JN.1": {
+          "12": 18,
+          "13": 31,
+          "14": 14,
+          "15": 27,
+          "16": 5,
+          "17": 11,
+          "18": 5,
+          "29": 1,
+          "30": 4,
+          "35": 2,
+          "6": 1,
+          "8": 2
+        }
+      },
+      "total": 123
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "2": 5,
+          "3": 1,
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "11": 1,
+          "15": 1,
+          "6": 2,
+          "9": 3
+        }
+      },
+      "total": 7
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "P. de salud: Alumnos en práctica, sector privado",
+      "datos_mes": {
+        "Moderna Actualizada": {
+          "1": 1
+        }
+      },
+      "datos_se": {
+        "Moderna Actualizada": {
+          "4": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "P. de salud: Privado",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "19": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "2": 5,
+          "3": 9,
+          "4": 9,
+          "7": 1
+        },
+        "Pfizer JN.1": {
+          "5": 7
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 6,
+          "13": 3,
+          "14": 3,
+          "15": 1,
+          "16": 2,
+          "17": 2,
+          "18": 1,
+          "29": 1,
+          "6": 2,
+          "7": 2,
+          "8": 1
+        },
+        "Pfizer JN.1": {
+          "19": 2,
+          "20": 2,
+          "21": 2,
+          "22": 1
+        }
+      },
+      "total": 31
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "Paciente inmunocomprometido de 12 años en adelante",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "20": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "Paciente inmunocomprometido de 6 meses en adelante",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna Actualizada": {
+          "1": 2
+        },
+        "Moderna JN.1": {
+          "2": 6,
+          "3": 82,
+          "4": 96,
+          "7": 3
+        },
+        "Pfizer JN.1": {
+          "4": 3,
+          "5": 26,
+          "6": 4
+        }
+      },
+      "datos_se": {
+        "Moderna Actualizada": {
+          "4": 2
+        },
+        "Moderna JN.1": {
+          "11": 4,
+          "12": 26,
+          "13": 45,
+          "14": 28,
+          "15": 37,
+          "16": 16,
+          "17": 18,
+          "18": 4,
+          "29": 2,
+          "30": 1,
+          "7": 3,
+          "8": 2,
+          "9": 1
+        },
+        "Pfizer JN.1": {
+          "18": 6,
+          "19": 9,
+          "20": 7,
+          "21": 5,
+          "22": 2,
+          "23": 2,
+          "24": 2
+        }
+      },
+      "total": 222
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Hospital de Purranque Dr. Juan Hepp Dubiau",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "12": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Hospital de Purranque Dr. Juan Hepp Dubiau",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 10
+        },
+        "Pfizer JN.1": {
+          "3": 50
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 10
+        },
+        "Pfizer JN.1": {
+          "11": 24,
+          "12": 15,
+          "13": 11
+        }
+      },
+      "total": 60
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Hospital de Purranque Dr. Juan Hepp Dubiau",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1
+        },
+        "Pfizer JN.1": {
+          "3": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 1
+        },
+        "Pfizer JN.1": {
+          "12": 2
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro Comunitario de Salud Familiar El Encanto",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 3
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "12": 3
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro Comunitario de Salud Familiar El Encanto",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "12": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro Comunitario de Salud Familiar El Encanto",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 14,
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "12": 14,
+          "14": 1
+        }
+      },
+      "total": 15
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        },
+        "Pfizer JN.1": {
+          "3": 3,
+          "4": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        },
+        "Pfizer JN.1": {
+          "11": 1,
+          "12": 1,
+          "13": 1,
+          "14": 2
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 56,
+          "4": 18
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "10": 5,
+          "11": 10,
+          "12": 12,
+          "13": 27,
+          "14": 20
+        }
+      },
+      "total": 74
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "1": 1,
+          "3": 4,
+          "4": 45,
+          "5": 13,
+          "6": 2,
+          "7": 1,
+          "8": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 4,
+          "14": 3,
+          "15": 26,
+          "16": 5,
+          "17": 7,
+          "18": 4,
+          "19": 3,
+          "20": 4,
+          "21": 5,
+          "22": 1,
+          "23": 2,
+          "29": 1,
+          "32": 1,
+          "5": 1
+        }
+      },
+      "total": 67
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 3
+        },
+        "Pfizer JN.1": {
+          "3": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 1,
+          "17": 2
+        },
+        "Pfizer JN.1": {
+          "11": 1,
+          "13": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "P. de salud: Alumnos en práctica, sector privado",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "11": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "P. de salud: Privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 2
+        },
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 2
+        },
+        "Pfizer JN.1": {
+          "11": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "1": 3,
+          "2": 1,
+          "3": 1,
+          "4": 7
+        },
+        "Pfizer JN.1": {
+          "3": 17,
+          "4": 4
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 1,
+          "14": 1,
+          "15": 2,
+          "16": 2,
+          "17": 2,
+          "5": 3,
+          "9": 1
+        },
+        "Pfizer JN.1": {
+          "11": 3,
+          "12": 4,
+          "13": 10,
+          "14": 4
+        }
+      },
+      "total": 33
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "1": 1,
+          "2": 1,
+          "3": 10,
+          "4": 97,
+          "5": 15,
+          "6": 9,
+          "8": 1
+        },
+        "Pfizer JN.1": {
+          "3": 160,
+          "4": 37
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 10,
+          "14": 5,
+          "15": 38,
+          "16": 15,
+          "17": 24,
+          "18": 15,
+          "19": 2,
+          "20": 10,
+          "21": 3,
+          "23": 9,
+          "32": 1,
+          "5": 1,
+          "9": 1
+        },
+        "Pfizer JN.1": {
+          "10": 25,
+          "11": 20,
+          "12": 37,
+          "13": 68,
+          "14": 47
+        }
+      },
+      "total": 331
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Posta de Salud Rural Desagüe Rupanco",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Posta de Salud Rural Desagüe Rupanco",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro Comunitario de Salud Familiar Riachuelo",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "20": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro Comunitario de Salud Familiar Riachuelo",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 4
+        },
+        "Pfizer JN.1": {
+          "3": 3
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 3,
+          "17": 1
+        },
+        "Pfizer JN.1": {
+          "13": 3
+        }
+      },
+      "total": 7
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "Casos especiales",
+      "datos_mes": {
+        "Pfizer Actualizada": {
+          "1": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer Actualizada": {
+          "4": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 2,
+          "5": 1
+        },
+        "Pfizer JN.1": {
+          "3": 3
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1,
+          "17": 1,
+          "20": 1
+        },
+        "Pfizer JN.1": {
+          "11": 1,
+          "13": 2
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 30,
+          "4": 6,
+          "5": 2
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "11": 2,
+          "12": 14,
+          "13": 14,
+          "17": 1,
+          "18": 6,
+          "19": 1
+        }
+      },
+      "total": 38
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1,
+          "4": 20,
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 1,
+          "14": 5,
+          "15": 14,
+          "17": 1,
+          "20": 1
+        }
+      },
+      "total": 22
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "P. de salud: Administrativo de apoyo no clinico sector privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "P. de salud: Administrativo de apoyo no clinico sector público",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "12": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        },
+        "Pfizer JN.1": {
+          "3": 4,
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        },
+        "Pfizer JN.1": {
+          "12": 3,
+          "13": 1,
+          "18": 1
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "P. de salud: Privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 2,
+          "5": 2
+        },
+        "Pfizer JN.1": {
+          "3": 1,
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 1,
+          "15": 1,
+          "20": 1,
+          "21": 1
+        },
+        "Pfizer JN.1": {
+          "13": 1,
+          "18": 1
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 4,
+          "4": 42,
+          "5": 8,
+          "6": 1
+        },
+        "Pfizer Actualizada": {
+          "1": 1
+        },
+        "Pfizer JN.1": {
+          "3": 101,
+          "4": 6,
+          "5": 5
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 4,
+          "14": 8,
+          "15": 25,
+          "17": 9,
+          "19": 3,
+          "20": 2,
+          "21": 2,
+          "22": 1,
+          "23": 1
+        },
+        "Pfizer Actualizada": {
+          "4": 1
+        },
+        "Pfizer JN.1": {
+          "10": 2,
+          "11": 25,
+          "12": 32,
+          "13": 42,
+          "17": 2,
+          "18": 6,
+          "19": 3
+        }
+      },
+      "total": 168
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Hospital de Río Negro",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "15": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Hospital de Río Negro",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 4
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "12": 2,
+          "14": 2
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Hospital de Río Negro",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "12": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Hospital de Río Negro",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 5
+        },
+        "Pfizer JN.1": {
+          "3": 27
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "11": 5
+        },
+        "Pfizer JN.1": {
+          "11": 10,
+          "12": 16,
+          "13": 1
+        }
+      },
+      "total": 32
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Hospital de Río Negro",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 9,
+          "4": 5
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "12": 5,
+          "14": 4,
+          "15": 5
+        }
+      },
+      "total": 14
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "16": 1,
+          "17": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "12": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 2,
+          "4": 15,
+          "5": 1,
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "11": 2,
+          "15": 6,
+          "16": 3,
+          "17": 5,
+          "18": 1,
+          "21": 1,
+          "24": 1
+        }
+      },
+      "total": 19
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1,
+          "7": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "11": 1,
+          "28": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "2": 8,
+          "4": 2,
+          "5": 1
+        },
+        "Pfizer JN.1": {
+          "3": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1,
+          "17": 1,
+          "20": 1,
+          "9": 8
+        },
+        "Pfizer JN.1": {
+          "13": 2
+        }
+      },
+      "total": 13
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 2,
+          "4": 37,
+          "5": 6,
+          "6": 1,
+          "8": 6
+        },
+        "Pfizer JN.1": {
+          "3": 15,
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "11": 2,
+          "15": 7,
+          "16": 25,
+          "17": 5,
+          "20": 2,
+          "21": 2,
+          "22": 2,
+          "24": 1,
+          "34": 6
+        },
+        "Pfizer JN.1": {
+          "12": 8,
+          "13": 7,
+          "14": 1
+        }
+      },
+      "total": 68
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "Casos especiales",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "19": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 11,
+          "4": 18
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 2,
+          "13": 3,
+          "14": 14,
+          "15": 5,
+          "16": 2,
+          "17": 1,
+          "18": 2
+        }
+      },
+      "total": 29
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "P. de salud: Adm. apoyo no clinico FFAA y de orden",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "19": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "P. de salud: Privado",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "16": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 3,
+          "4": 6
+        },
+        "Pfizer JN.1": {
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 1,
+          "13": 2,
+          "17": 1,
+          "18": 5
+        },
+        "Pfizer JN.1": {
+          "22": 1
+        }
+      },
+      "total": 10
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "Paciente inmunocomprometido de 12 años en adelante",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "24": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 40,
+          "4": 36
+        },
+        "Pfizer JN.1": {
+          "5": 10,
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 19,
+          "13": 20,
+          "14": 11,
+          "15": 5,
+          "16": 5,
+          "17": 5,
+          "18": 11
+        },
+        "Pfizer JN.1": {
+          "18": 2,
+          "19": 2,
+          "20": 3,
+          "22": 3,
+          "23": 1
+        }
+      },
+      "total": 87
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 3
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 2,
+          "16": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 2
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "13": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 11,
+          "5": 7,
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 4,
+          "16": 1,
+          "17": 2,
+          "18": 4,
+          "21": 6,
+          "22": 1,
+          "24": 1
+        }
+      },
+      "total": 19
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 8,
+          "4": 10
+        },
+        "Pfizer JN.1": {
+          "3": 4
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 5,
+          "13": 3,
+          "14": 4,
+          "15": 2,
+          "17": 4
+        },
+        "Pfizer JN.1": {
+          "12": 2,
+          "13": 2
+        }
+      },
+      "total": 22
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 31,
+          "5": 4,
+          "7": 1
+        },
+        "Pfizer JN.1": {
+          "3": 6
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 5,
+          "15": 6,
+          "16": 7,
+          "17": 4,
+          "18": 9,
+          "21": 4,
+          "27": 1
+        },
+        "Pfizer JN.1": {
+          "12": 4,
+          "13": 2
+        }
+      },
+      "total": 42
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "5": 3,
+          "6": 4
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "22": 3,
+          "23": 2,
+          "24": 2
+        }
+      },
+      "total": 7
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1,
+          "4": 7,
+          "5": 5,
+          "7": 3
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 1,
+          "15": 4,
+          "16": 1,
+          "17": 2,
+          "20": 2,
+          "21": 3,
+          "30": 2,
+          "31": 1
+        }
+      },
+      "total": 16
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 3,
+          "4": 4,
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 3,
+          "15": 2,
+          "16": 2,
+          "21": 1
+        }
+      },
+      "total": 8
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "2": 1,
+          "3": 6,
+          "4": 4,
+          "5": 3,
+          "8": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 2,
+          "12": 3,
+          "13": 1,
+          "14": 1,
+          "16": 1,
+          "17": 2,
+          "21": 3,
+          "34": 1,
+          "9": 1
+        }
+      },
+      "total": 15
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 23,
+          "4": 50,
+          "5": 16,
+          "7": 1,
+          "8": 2
+        },
+        "Pfizer JN.1": {
+          "5": 8,
+          "6": 7
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 4,
+          "12": 2,
+          "13": 17,
+          "14": 9,
+          "15": 16,
+          "16": 8,
+          "17": 17,
+          "19": 7,
+          "20": 5,
+          "21": 4,
+          "30": 1,
+          "32": 2
+        },
+        "Pfizer JN.1": {
+          "22": 8,
+          "23": 5,
+          "24": 2
+        }
+      },
+      "total": 107
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "5": 1,
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "21": 1,
+          "24": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 4,
+          "4": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 2,
+          "12": 2,
+          "14": 2
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "P. de salud: Público",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 11,
+          "4": 2
+        },
+        "Pfizer JN.1": {
+          "3": 1,
+          "5": 1,
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 9,
+          "12": 1,
+          "13": 1,
+          "17": 2
+        },
+        "Pfizer JN.1": {
+          "11": 1,
+          "21": 1,
+          "24": 1
+        }
+      },
+      "total": 16
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "Personas de 60 y más años",
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 22,
+          "4": 4
+        },
+        "Pfizer JN.1": {
+          "3": 11,
+          "5": 3,
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 11,
+          "11": 5,
+          "12": 3,
+          "13": 3,
+          "14": 1,
+          "17": 3
+        },
+        "Pfizer JN.1": {
+          "11": 11,
+          "20": 1,
+          "21": 2,
+          "24": 1
+        }
+      },
+      "total": 41
+    }
+  ],
+  "data_residencia": [
+    {
+      "comuna": "Osorno",
+      "criterio": "Casos especiales",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 2,
+          "4": 4
+        },
+        "Pfizer JN.1": {
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 2,
+          "15": 2,
+          "18": 2
+        },
+        "Pfizer JN.1": {
+          "19": 1
+        }
+      },
+      "total": 7
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 10,
+          "4": 87,
+          "5": 16,
+          "6": 6,
+          "7": 3
+        },
+        "Pfizer JN.1": {
+          "3": 27,
+          "4": 5,
+          "5": 21,
+          "6": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 1,
+          "13": 9,
+          "14": 10,
+          "15": 42,
+          "16": 9,
+          "17": 17,
+          "18": 9,
+          "19": 7,
+          "20": 5,
+          "21": 4,
+          "23": 1,
+          "25": 2,
+          "26": 3,
+          "27": 3
+        },
+        "Pfizer JN.1": {
+          "10": 1,
+          "11": 8,
+          "12": 6,
+          "13": 12,
+          "14": 2,
+          "15": 3,
+          "19": 10,
+          "20": 3,
+          "21": 4,
+          "22": 4,
+          "24": 1,
+          "25": 1
+        }
+      },
+      "total": 177
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Embarazadas",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "2": 1,
+          "3": 2,
+          "4": 13,
+          "5": 2,
+          "6": 1,
+          "7": 1,
+          "8": 2
+        },
+        "Pfizer JN.1": {
+          "3": 14,
+          "4": 3,
+          "5": 3,
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 1,
+          "13": 1,
+          "14": 3,
+          "15": 5,
+          "17": 5,
+          "20": 1,
+          "22": 1,
+          "26": 1,
+          "27": 1,
+          "33": 1,
+          "34": 1,
+          "9": 1
+        },
+        "Pfizer JN.1": {
+          "11": 3,
+          "12": 4,
+          "13": 5,
+          "14": 2,
+          "15": 2,
+          "17": 1,
+          "21": 1,
+          "22": 2,
+          "24": 1
+        }
+      },
+      "total": 43
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "6": 45,
+          "7": 25
+        },
+        "Pfizer JN.1": {
+          "3": 464,
+          "4": 181,
+          "5": 402,
+          "6": 128,
+          "7": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "25": 7,
+          "26": 36,
+          "27": 18,
+          "28": 9
+        },
+        "Pfizer JN.1": {
+          "10": 16,
+          "11": 85,
+          "12": 185,
+          "13": 157,
+          "14": 49,
+          "15": 55,
+          "16": 57,
+          "17": 21,
+          "18": 73,
+          "19": 138,
+          "20": 60,
+          "21": 69,
+          "22": 82,
+          "23": 70,
+          "24": 46,
+          "25": 12,
+          "28": 1,
+          "29": 1
+        }
+      },
+      "total": 1247
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna Actualizada": {
+          "1": 3
+        },
+        "Moderna JN.1": {
+          "1": 2,
+          "2": 2,
+          "3": 226,
+          "4": 1093,
+          "5": 197,
+          "6": 38,
+          "7": 45,
+          "8": 32
+        },
+        "Pfizer JN.1": {
+          "5": 4,
+          "6": 2
+        }
+      },
+      "datos_se": {
+        "Moderna Actualizada": {
+          "3": 1,
+          "4": 2
+        },
+        "Moderna JN.1": {
+          "10": 18,
+          "11": 9,
+          "12": 39,
+          "13": 119,
+          "14": 288,
+          "15": 291,
+          "16": 132,
+          "17": 253,
+          "18": 165,
+          "19": 56,
+          "20": 93,
+          "21": 30,
+          "22": 16,
+          "23": 19,
+          "24": 5,
+          "25": 3,
+          "26": 11,
+          "27": 2,
+          "28": 3,
+          "29": 11,
+          "30": 21,
+          "31": 8,
+          "32": 8,
+          "33": 2,
+          "34": 18,
+          "35": 4,
+          "5": 2,
+          "8": 1,
+          "9": 8
+        },
+        "Pfizer JN.1": {
+          "21": 4,
+          "24": 1,
+          "25": 1
+        }
+      },
+      "total": 1644
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "P. de salud: Adm. apoyo no clinico FFAA y de orden",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 229,
+          "5": 11
+        },
+        "Pfizer JN.1": {
+          "3": 1,
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 10,
+          "15": 155,
+          "16": 54,
+          "17": 10,
+          "18": 5,
+          "19": 1,
+          "21": 5
+        },
+        "Pfizer JN.1": {
+          "13": 1,
+          "20": 1
+        }
+      },
+      "total": 242
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "P. de salud: Administrativo de apoyo no clinico sector privado",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1,
+          "4": 6,
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 1,
+          "15": 2,
+          "17": 4,
+          "21": 1
+        }
+      },
+      "total": 8
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "P. de salud: Administrativo de apoyo no clinico sector público",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1,
+          "4": 37
+        },
+        "Pfizer JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 1,
+          "14": 5,
+          "15": 3,
+          "16": 4,
+          "17": 24,
+          "18": 1
+        },
+        "Pfizer JN.1": {
+          "17": 1
+        }
+      },
+      "total": 39
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna Actualizada": {
+          "1": 1
+        },
+        "Moderna JN.1": {
+          "2": 1,
+          "3": 28,
+          "4": 48,
+          "5": 19,
+          "6": 3,
+          "7": 8,
+          "8": 4
+        },
+        "Pfizer JN.1": {
+          "3": 38,
+          "4": 13,
+          "5": 18,
+          "6": 20
+        }
+      },
+      "datos_se": {
+        "Moderna Actualizada": {
+          "3": 1
+        },
+        "Moderna JN.1": {
+          "10": 1,
+          "12": 1,
+          "13": 25,
+          "15": 16,
+          "16": 14,
+          "17": 11,
+          "18": 7,
+          "19": 6,
+          "20": 10,
+          "21": 3,
+          "24": 1,
+          "25": 1,
+          "27": 2,
+          "28": 2,
+          "30": 2,
+          "31": 3,
+          "35": 4,
+          "6": 1,
+          "9": 1
+        },
+        "Pfizer JN.1": {
+          "11": 1,
+          "12": 1,
+          "13": 17,
+          "14": 22,
+          "15": 6,
+          "16": 4,
+          "18": 2,
+          "19": 6,
+          "20": 1,
+          "21": 5,
+          "22": 4,
+          "23": 5,
+          "24": 14,
+          "25": 1
+        }
+      },
+      "total": 201
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "P. de salud: Alumnos en práctica, sector privado",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 12
+        },
+        "Pfizer JN.1": {
+          "3": 2,
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 10,
+          "17": 1,
+          "18": 1
+        },
+        "Pfizer JN.1": {
+          "11": 1,
+          "13": 1,
+          "20": 1
+        }
+      },
+      "total": 15
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "P. de salud: FFAA y de orden",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 213,
+          "4": 12,
+          "5": 1,
+          "6": 1
+        },
+        "Pfizer JN.1": {
+          "3": 290,
+          "4": 1,
+          "5": 20
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 122,
+          "14": 95,
+          "15": 3,
+          "16": 2,
+          "17": 3,
+          "19": 1,
+          "26": 1
+        },
+        "Pfizer JN.1": {
+          "12": 191,
+          "13": 99,
+          "18": 1,
+          "21": 20
+        }
+      },
+      "total": 538
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "P. de salud: Privado",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "2": 7,
+          "3": 27,
+          "4": 109,
+          "5": 4,
+          "6": 3,
+          "7": 1
+        },
+        "Pfizer JN.1": {
+          "3": 27,
+          "4": 7,
+          "5": 16,
+          "6": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 12,
+          "12": 9,
+          "13": 6,
+          "14": 18,
+          "15": 79,
+          "16": 4,
+          "17": 7,
+          "18": 1,
+          "19": 2,
+          "20": 1,
+          "22": 1,
+          "23": 1,
+          "24": 1,
+          "25": 1,
+          "29": 1,
+          "9": 7
+        },
+        "Pfizer JN.1": {
+          "11": 5,
+          "12": 4,
+          "13": 18,
+          "14": 1,
+          "15": 2,
+          "16": 1,
+          "17": 1,
+          "18": 2,
+          "19": 14,
+          "20": 2,
+          "24": 2
+        }
+      },
+      "total": 203
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "P. de salud: Público",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "2": 9,
+          "3": 105,
+          "4": 89,
+          "5": 51,
+          "6": 9,
+          "7": 4,
+          "8": 3
+        },
+        "Pfizer JN.1": {
+          "3": 609,
+          "4": 106,
+          "5": 59,
+          "6": 18
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 27,
+          "11": 3,
+          "12": 6,
+          "13": 66,
+          "14": 25,
+          "15": 14,
+          "16": 17,
+          "17": 22,
+          "18": 12,
+          "19": 13,
+          "20": 26,
+          "21": 8,
+          "22": 4,
+          "23": 5,
+          "24": 1,
+          "25": 2,
+          "26": 1,
+          "27": 2,
+          "28": 1,
+          "30": 1,
+          "33": 1,
+          "35": 2,
+          "6": 1,
+          "9": 10
+        },
+        "Pfizer JN.1": {
+          "10": 5,
+          "11": 68,
+          "12": 142,
+          "13": 287,
+          "14": 147,
+          "15": 41,
+          "16": 19,
+          "17": 6,
+          "18": 5,
+          "19": 9,
+          "20": 1,
+          "21": 34,
+          "22": 10,
+          "23": 11,
+          "24": 6,
+          "25": 1
+        }
+      },
+      "total": 1062
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Paciente inmunocomprometido de 12 años en adelante",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 6
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "11": 2,
+          "12": 2,
+          "13": 2
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Paciente inmunocomprometido de 12 años en adelante",
+      "es_mayor_60": true,
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "21": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Paciente inmunocomprometido de 6 meses en adelante",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 16,
+          "4": 4,
+          "5": 1,
+          "8": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 1,
+          "12": 14,
+          "14": 3,
+          "15": 1,
+          "16": 1,
+          "20": 1,
+          "33": 1,
+          "35": 1
+        }
+      },
+      "total": 23
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Paciente inmunocomprometido de 6 meses en adelante",
+      "es_mayor_60": true,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 3
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "12": 3
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Personas NO vacunadas con esquema primario",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna Actualizada": {
+          "1": 2
+        }
+      },
+      "datos_se": {
+        "Moderna Actualizada": {
+          "2": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Personas de 60 y más años",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 7,
+          "4": 9,
+          "7": 2
+        },
+        "Pfizer JN.1": {
+          "3": 1,
+          "4": 6,
+          "5": 7,
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 2,
+          "11": 2,
+          "12": 1,
+          "13": 2,
+          "14": 1,
+          "15": 3,
+          "16": 3,
+          "17": 2,
+          "27": 1,
+          "30": 1
+        },
+        "Pfizer JN.1": {
+          "14": 2,
+          "15": 2,
+          "16": 1,
+          "17": 1,
+          "18": 1,
+          "19": 4,
+          "20": 2,
+          "22": 1,
+          "23": 1
+        }
+      },
+      "total": 33
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Personas de 60 y más años",
+      "es_mayor_60": true,
+      "datos_mes": {
+        "Moderna Actualizada": {
+          "1": 9
+        },
+        "Moderna JN.1": {
+          "1": 4,
+          "2": 7,
+          "3": 634,
+          "4": 1814,
+          "5": 209,
+          "6": 40,
+          "7": 42,
+          "8": 13
+        },
+        "Pfizer JN.1": {
+          "3": 1536,
+          "4": 258,
+          "5": 314,
+          "6": 89
+        }
+      },
+      "datos_se": {
+        "Moderna Actualizada": {
+          "2": 3,
+          "3": 5,
+          "4": 1
+        },
+        "Moderna JN.1": {
+          "10": 109,
+          "11": 54,
+          "12": 89,
+          "13": 282,
+          "14": 596,
+          "15": 596,
+          "16": 295,
+          "17": 293,
+          "18": 126,
+          "19": 61,
+          "20": 114,
+          "21": 22,
+          "22": 10,
+          "23": 11,
+          "24": 3,
+          "25": 9,
+          "26": 13,
+          "27": 13,
+          "28": 11,
+          "29": 14,
+          "30": 4,
+          "31": 4,
+          "32": 9,
+          "33": 2,
+          "34": 2,
+          "5": 4,
+          "6": 3,
+          "8": 1,
+          "9": 13
+        },
+        "Pfizer JN.1": {
+          "10": 31,
+          "11": 291,
+          "12": 618,
+          "13": 548,
+          "14": 124,
+          "15": 84,
+          "16": 54,
+          "17": 30,
+          "18": 61,
+          "19": 136,
+          "20": 30,
+          "21": 51,
+          "22": 50,
+          "23": 50,
+          "24": 33,
+          "25": 6
+        }
+      },
+      "total": 4969
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1,
+          "7": 1
+        },
+        "Pfizer JN.1": {
+          "3": 5,
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1,
+          "28": 1
+        },
+        "Pfizer JN.1": {
+          "12": 1,
+          "13": 3,
+          "14": 2
+        }
+      },
+      "total": 8
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Embarazadas",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 3
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "11": 2,
+          "12": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "6": 1,
+          "7": 2
+        },
+        "Pfizer JN.1": {
+          "3": 23,
+          "4": 5,
+          "5": 5,
+          "6": 4
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "25": 1,
+          "28": 2
+        },
+        "Pfizer JN.1": {
+          "11": 6,
+          "12": 3,
+          "13": 14,
+          "14": 5,
+          "19": 2,
+          "21": 3,
+          "23": 3,
+          "24": 1
+        }
+      },
+      "total": 40
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 15,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 2,
+          "15": 8,
+          "17": 4,
+          "18": 1,
+          "19": 1,
+          "26": 1,
+          "30": 1,
+          "32": 1,
+          "35": 1
+        }
+      },
+      "total": 20
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "P. de salud: Adm. apoyo no clinico FFAA y de orden",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 3
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 2,
+          "18": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 3
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "11": 1,
+          "12": 1,
+          "13": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "P. de salud: Privado",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "P. de salud: Público",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1,
+          "4": 2,
+          "6": 1
+        },
+        "Pfizer JN.1": {
+          "3": 14,
+          "4": 1,
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 1,
+          "14": 1,
+          "15": 1,
+          "26": 1
+        },
+        "Pfizer JN.1": {
+          "10": 4,
+          "11": 5,
+          "12": 3,
+          "13": 1,
+          "14": 2,
+          "24": 1
+        }
+      },
+      "total": 20
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Paciente inmunocomprometido de 6 meses en adelante",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Personas de 60 y más años",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "12": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Personas de 60 y más años",
+      "es_mayor_60": true,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 33
+        },
+        "Pfizer JN.1": {
+          "3": 80,
+          "4": 10,
+          "5": 4,
+          "6": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 5,
+          "15": 16,
+          "17": 8,
+          "18": 4
+        },
+        "Pfizer JN.1": {
+          "11": 19,
+          "12": 8,
+          "13": 43,
+          "14": 20,
+          "19": 1,
+          "21": 3,
+          "23": 2
+        }
+      },
+      "total": 129
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "5": 2
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "21": 1,
+          "22": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "6": 1,
+          "7": 1
+        },
+        "Pfizer JN.1": {
+          "4": 2,
+          "5": 34,
+          "6": 6
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "26": 1,
+          "28": 1
+        },
+        "Pfizer JN.1": {
+          "18": 3,
+          "19": 15,
+          "20": 14,
+          "21": 3,
+          "22": 1,
+          "23": 6
+        }
+      },
+      "total": 44
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna Actualizada": {
+          "1": 2
+        },
+        "Moderna JN.1": {
+          "2": 3,
+          "3": 54,
+          "4": 61,
+          "7": 5,
+          "8": 2
+        }
+      },
+      "datos_se": {
+        "Moderna Actualizada": {
+          "4": 2
+        },
+        "Moderna JN.1": {
+          "12": 18,
+          "13": 31,
+          "14": 16,
+          "15": 28,
+          "16": 5,
+          "17": 12,
+          "18": 5,
+          "29": 1,
+          "30": 4,
+          "35": 2,
+          "6": 1,
+          "8": 2
+        }
+      },
+      "total": 127
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "P. de salud: Administrativo de apoyo no clinico sector público",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "2": 5,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "11": 1,
+          "15": 1,
+          "19": 1,
+          "6": 2,
+          "9": 3
+        },
+        "Pfizer JN.1": {
+          "12": 1
+        }
+      },
+      "total": 9
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "P. de salud: Alumnos en práctica, sector privado",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna Actualizada": {
+          "1": 1
+        }
+      },
+      "datos_se": {
+        "Moderna Actualizada": {
+          "4": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "P. de salud: Privado",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 1,
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "13": 1,
+          "19": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "P. de salud: Público",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "2": 5,
+          "3": 17,
+          "4": 9,
+          "7": 1
+        },
+        "Pfizer JN.1": {
+          "3": 33,
+          "4": 1,
+          "5": 8
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 8,
+          "12": 6,
+          "13": 3,
+          "14": 3,
+          "15": 1,
+          "16": 2,
+          "17": 2,
+          "18": 1,
+          "29": 1,
+          "6": 2,
+          "7": 2,
+          "8": 1
+        },
+        "Pfizer JN.1": {
+          "11": 18,
+          "12": 9,
+          "13": 6,
+          "14": 1,
+          "19": 2,
+          "20": 2,
+          "21": 3,
+          "22": 1
+        }
+      },
+      "total": 74
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Paciente inmunocomprometido de 12 años en adelante",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "20": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Paciente inmunocomprometido de 6 meses en adelante",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Personas de 60 y más años",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 4
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 3,
+          "16": 1
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Personas de 60 y más años",
+      "es_mayor_60": true,
+      "datos_mes": {
+        "Moderna Actualizada": {
+          "1": 2
+        },
+        "Moderna JN.1": {
+          "2": 6,
+          "3": 83,
+          "4": 92,
+          "7": 3
+        },
+        "Pfizer JN.1": {
+          "3": 2,
+          "4": 3,
+          "5": 26,
+          "6": 4
+        }
+      },
+      "datos_se": {
+        "Moderna Actualizada": {
+          "4": 2
+        },
+        "Moderna JN.1": {
+          "10": 1,
+          "11": 4,
+          "12": 26,
+          "13": 45,
+          "14": 25,
+          "15": 37,
+          "16": 15,
+          "17": 18,
+          "18": 4,
+          "29": 2,
+          "30": 1,
+          "7": 3,
+          "8": 2,
+          "9": 1
+        },
+        "Pfizer JN.1": {
+          "11": 1,
+          "12": 1,
+          "18": 6,
+          "19": 9,
+          "20": 7,
+          "21": 5,
+          "22": 2,
+          "23": 2,
+          "24": 2
+        }
+      },
+      "total": 221
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        },
+        "Pfizer JN.1": {
+          "3": 3,
+          "4": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        },
+        "Pfizer JN.1": {
+          "11": 1,
+          "12": 1,
+          "13": 1,
+          "14": 2
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 59,
+          "4": 18
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "10": 5,
+          "11": 10,
+          "12": 15,
+          "13": 27,
+          "14": 20
+        }
+      },
+      "total": 77
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "1": 1,
+          "3": 4,
+          "4": 47,
+          "5": 13,
+          "6": 2,
+          "7": 1,
+          "8": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 4,
+          "14": 3,
+          "15": 26,
+          "16": 5,
+          "17": 9,
+          "18": 4,
+          "19": 3,
+          "20": 4,
+          "21": 5,
+          "22": 1,
+          "23": 2,
+          "29": 1,
+          "32": 1,
+          "35": 1,
+          "5": 1
+        }
+      },
+      "total": 70
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 3
+        },
+        "Pfizer JN.1": {
+          "3": 2,
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "14": 1,
+          "17": 2
+        },
+        "Pfizer JN.1": {
+          "11": 1,
+          "13": 1,
+          "22": 1
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "P. de salud: Alumnos en práctica, sector privado",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "11": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "P. de salud: Privado",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 2
+        },
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 2
+        },
+        "Pfizer JN.1": {
+          "11": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "P. de salud: Público",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "1": 3,
+          "2": 1,
+          "3": 3,
+          "4": 7
+        },
+        "Pfizer JN.1": {
+          "3": 18,
+          "4": 4
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 1,
+          "13": 2,
+          "14": 1,
+          "15": 2,
+          "16": 2,
+          "17": 2,
+          "5": 3,
+          "9": 1
+        },
+        "Pfizer JN.1": {
+          "11": 3,
+          "12": 5,
+          "13": 10,
+          "14": 4
+        }
+      },
+      "total": 36
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "Personas de 60 y más años",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1,
+          "4": 2
+        },
+        "Pfizer JN.1": {
+          "3": 1,
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 1,
+          "15": 1,
+          "17": 1
+        },
+        "Pfizer JN.1": {
+          "12": 1,
+          "14": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "Personas de 60 y más años",
+      "es_mayor_60": true,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "1": 1,
+          "2": 1,
+          "3": 9,
+          "4": 96,
+          "5": 15,
+          "6": 9,
+          "8": 1
+        },
+        "Pfizer JN.1": {
+          "3": 173,
+          "4": 37
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 9,
+          "14": 5,
+          "15": 38,
+          "16": 15,
+          "17": 23,
+          "18": 15,
+          "19": 2,
+          "20": 10,
+          "21": 3,
+          "23": 9,
+          "32": 1,
+          "5": 1,
+          "9": 1
+        },
+        "Pfizer JN.1": {
+          "10": 25,
+          "11": 20,
+          "12": 50,
+          "13": 68,
+          "14": 47
+        }
+      },
+      "total": 342
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "Casos especiales",
+      "es_mayor_60": true,
+      "datos_mes": {
+        "Pfizer Actualizada": {
+          "1": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer Actualizada": {
+          "4": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 2,
+          "5": 1
+        },
+        "Pfizer JN.1": {
+          "3": 3,
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1,
+          "17": 1,
+          "20": 1
+        },
+        "Pfizer JN.1": {
+          "11": 1,
+          "13": 2,
+          "15": 1
+        }
+      },
+      "total": 7
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 33,
+          "4": 7,
+          "5": 2,
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "11": 2,
+          "12": 16,
+          "13": 14,
+          "14": 2,
+          "17": 1,
+          "18": 6,
+          "19": 1,
+          "23": 1
+        }
+      },
+      "total": 43
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1,
+          "4": 20,
+          "5": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 1,
+          "14": 5,
+          "15": 14,
+          "17": 1,
+          "20": 2
+        }
+      },
+      "total": 23
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "P. de salud: Administrativo de apoyo no clinico sector privado",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "P. de salud: Administrativo de apoyo no clinico sector público",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "12": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        },
+        "Pfizer JN.1": {
+          "3": 5,
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        },
+        "Pfizer JN.1": {
+          "12": 4,
+          "13": 1,
+          "18": 1
+        }
+      },
+      "total": 7
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "P. de salud: Privado",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "15": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "P. de salud: Público",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 2,
+          "4": 2,
+          "5": 2,
+          "7": 2
+        },
+        "Pfizer JN.1": {
+          "3": 25,
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "11": 2,
+          "14": 1,
+          "15": 1,
+          "20": 1,
+          "21": 1,
+          "29": 1,
+          "30": 1
+        },
+        "Pfizer JN.1": {
+          "11": 5,
+          "12": 17,
+          "13": 2,
+          "14": 1,
+          "18": 1
+        }
+      },
+      "total": 34
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "Personas de 60 y más años",
+      "es_mayor_60": true,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 4,
+          "4": 46,
+          "5": 8,
+          "6": 1
+        },
+        "Pfizer Actualizada": {
+          "1": 1
+        },
+        "Pfizer JN.1": {
+          "3": 112,
+          "4": 12,
+          "5": 5
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 4,
+          "14": 8,
+          "15": 28,
+          "17": 10,
+          "19": 3,
+          "20": 2,
+          "21": 2,
+          "22": 1,
+          "23": 1
+        },
+        "Pfizer Actualizada": {
+          "4": 1
+        },
+        "Pfizer JN.1": {
+          "10": 2,
+          "11": 25,
+          "12": 37,
+          "13": 45,
+          "14": 4,
+          "15": 5,
+          "17": 2,
+          "18": 6,
+          "19": 3
+        }
+      },
+      "total": 189
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "Casos especiales",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "19": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "Cuidadores/as y funcionarios de Establecimientos de Larga Estadia de Adultos Mayores (ELEAM)",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1,
+          "4": 5
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "13": 1,
+          "15": 2,
+          "16": 2,
+          "17": 1
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "7": 1
+        },
+        "Pfizer JN.1": {
+          "3": 3,
+          "5": 1,
+          "7": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "29": 1
+        },
+        "Pfizer JN.1": {
+          "12": 1,
+          "13": 2,
+          "21": 1,
+          "27": 1
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 13,
+          "4": 42,
+          "5": 8,
+          "6": 2
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "11": 2,
+          "12": 2,
+          "13": 3,
+          "14": 14,
+          "15": 14,
+          "16": 6,
+          "17": 7,
+          "18": 7,
+          "21": 7,
+          "22": 1,
+          "24": 2
+        }
+      },
+      "total": 65
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "P. de salud: Adm. apoyo no clinico FFAA y de orden",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "19": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "11": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "P. de salud: Privado",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "4": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "16": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "P. de salud: Público",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "2": 8,
+          "3": 4,
+          "4": 15,
+          "5": 1
+        },
+        "Pfizer JN.1": {
+          "3": 4,
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 1,
+          "12": 1,
+          "13": 2,
+          "14": 1,
+          "15": 3,
+          "17": 6,
+          "18": 5,
+          "20": 1,
+          "9": 8
+        },
+        "Pfizer JN.1": {
+          "12": 1,
+          "13": 3,
+          "22": 1
+        }
+      },
+      "total": 33
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "Paciente inmunocomprometido de 12 años en adelante",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "24": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "Personas de 60 y más años",
+      "es_mayor_60": true,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 42,
+          "4": 104,
+          "5": 10,
+          "6": 1,
+          "7": 2,
+          "8": 6
+        },
+        "Pfizer JN.1": {
+          "3": 21,
+          "4": 1,
+          "5": 10,
+          "6": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "11": 2,
+          "12": 18,
+          "13": 21,
+          "14": 16,
+          "15": 18,
+          "16": 37,
+          "17": 14,
+          "18": 20,
+          "20": 2,
+          "21": 6,
+          "22": 2,
+          "24": 1,
+          "27": 1,
+          "31": 1,
+          "34": 6
+        },
+        "Pfizer JN.1": {
+          "12": 12,
+          "13": 9,
+          "14": 1,
+          "18": 2,
+          "19": 2,
+          "20": 3,
+          "22": 3,
+          "23": 1
+        }
+      },
+      "total": 198
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "Enfermos crónicos desde los 12 a 59 años",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Pfizer JN.1": {
+          "4": 1,
+          "5": 4,
+          "6": 5
+        }
+      },
+      "datos_se": {
+        "Pfizer JN.1": {
+          "14": 1,
+          "21": 1,
+          "22": 3,
+          "23": 2,
+          "24": 3
+        }
+      },
+      "total": 10
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "Enfermos crónicos desde los 6 meses a 59 años",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 5,
+          "4": 10,
+          "5": 5,
+          "7": 3
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 2,
+          "12": 2,
+          "13": 1,
+          "14": 2,
+          "15": 4,
+          "16": 1,
+          "17": 3,
+          "20": 2,
+          "21": 3,
+          "30": 2,
+          "31": 1
+        }
+      },
+      "total": 23
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "P. de salud: Alumnos en práctica sector público",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 3,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 2,
+          "12": 1,
+          "16": 1,
+          "21": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "P. de salud: Público",
+      "es_mayor_60": false,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "2": 1,
+          "3": 19,
+          "4": 6,
+          "5": 3,
+          "8": 1
+        },
+        "Pfizer JN.1": {
+          "3": 4,
+          "5": 1
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 11,
+          "12": 4,
+          "13": 4,
+          "14": 1,
+          "16": 1,
+          "17": 4,
+          "21": 3,
+          "34": 1,
+          "9": 1
+        },
+        "Pfizer JN.1": {
+          "11": 1,
+          "13": 3,
+          "21": 1
+        }
+      },
+      "total": 35
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "Personas de 60 y más años",
+      "es_mayor_60": true,
+      "datos_mes": {
+        "Moderna JN.1": {
+          "3": 44,
+          "4": 56,
+          "5": 17,
+          "7": 1,
+          "8": 2
+        },
+        "Pfizer JN.1": {
+          "3": 15,
+          "4": 1,
+          "5": 12,
+          "6": 7
+        }
+      },
+      "datos_se": {
+        "Moderna JN.1": {
+          "10": 15,
+          "11": 5,
+          "12": 4,
+          "13": 20,
+          "14": 10,
+          "15": 16,
+          "16": 8,
+          "17": 22,
+          "19": 7,
+          "20": 6,
+          "21": 4,
+          "30": 1,
+          "32": 2
+        },
+        "Pfizer JN.1": {
+          "11": 12,
+          "13": 3,
+          "16": 1,
+          "19": 1,
+          "20": 1,
+          "21": 2,
+          "22": 8,
+          "23": 5,
+          "24": 2
+        }
+      },
+      "total": 155
+    }
+  ],
+  "metas": {
+    "15101.0": {
+      "Criterios": {
+        "Región": 15.0,
+        "Personas de 60 y más años": 46907.0,
+        "Crónicos": 21357.0,
+        "Embaraz.": 2026.0,
+        "Cuid./Func. ELEAM": 581.0,
+        "P. Salud Público": 4401.0,
+        "P. Salud Privado": 613.0,
+        "TOTAL": 75885.0,
+        "Personas de 60 y más años.1": 5743.0,
+        "Crónicos.1": 4439.0,
+        "Embaraz..1": 26.0,
+        "Cuid./Func. ELEAM.1": 66.0,
+        "P. Salud Público.1": 1572.0,
+        "P. Salud Privado.1": 155.0,
+        "Otros": 505.0,
+        "TOTAL.1": 12506.0,
+        "Crónicos.2": 0.20784754413072998,
+        "Embaraz..2": 0.012833168805528134,
+        "Cuid./Func. ELEAM.2": 0.11359724612736662,
+        "P. Salud Público.2": 0.35719154737559644,
+        "P. Salud Privado.2": 0.2528548123980424,
+        "TOTAL.2": 0.16480200303090203
+      },
+      "Poblacion_Objetivo": 75885.0
+    },
+    "15102.0": {
+      "Criterios": {
+        "Región": 15.0,
+        "Personas de 60 y más años": 380.0,
+        "Crónicos": 97.0,
+        "Embaraz.": 3.0,
+        "Cuid./Func. ELEAM": 3.0,
+        "P. Salud Público": 21.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 504.0,
+        "Personas de 60 y más años.1": 19.0,
+        "Crónicos.1": 16.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 16.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 51.0,
+        "Personas de 60 y más años.2": 0.05,
+        "Crónicos.2": 0.16494845360824742,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.7619047619047619,
+        "TOTAL.2": 0.10119047619047619
+      },
+      "Poblacion_Objetivo": 504.0
+    },
+    "15202.0": {
+      "Criterios": {
+        "Región": 15.0,
+        "Personas de 60 y más años": 204.0,
+        "Crónicos": 50.0,
+        "Embaraz.": 5.0,
+        "Cuid./Func. ELEAM": 0.0,
+        "P. Salud Público": 15.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 274.0,
+        "Personas de 60 y más años.1": 3.0,
+        "Crónicos.1": 0.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 1.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 4.0,
+        "Personas de 60 y más años.2": 0.014705882352941176,
+        "Crónicos.2": 0.0,
+        "Embaraz..2": 0.0,
+        "P. Salud Público.2": 0.06666666666666667,
+        "TOTAL.2": 0.014598540145985401
+      },
+      "Poblacion_Objetivo": 274.0
+    },
+    "15201.0": {
+      "Criterios": {
+        "Región": 15.0,
+        "Personas de 60 y más años": 485.0,
+        "Crónicos": 185.0,
+        "Embaraz.": 9.0,
+        "Cuid./Func. ELEAM": 1.0,
+        "P. Salud Público": 48.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 728.0,
+        "Personas de 60 y más años.1": 5.0,
+        "Crónicos.1": 7.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 6.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 18.0,
+        "Personas de 60 y más años.2": 0.010309278350515464,
+        "Crónicos.2": 0.03783783783783784,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.125,
+        "TOTAL.2": 0.024725274725274724
+      },
+      "Poblacion_Objetivo": 728.0
+    },
+    "1107.0": {
+      "Criterios": {
+        "Región": 1.0,
+        "Personas de 60 y más años": 12650.0,
+        "Crónicos": 11094.0,
+        "Embaraz.": 1712.0,
+        "Cuid./Func. ELEAM": 369.0,
+        "P. Salud Público": 1314.0,
+        "P. Salud Privado": 209.0,
+        "TOTAL": 27348.0,
+        "Personas de 60 y más años.1": 1468.0,
+        "Crónicos.1": 1600.0,
+        "Embaraz..1": 21.0,
+        "Cuid./Func. ELEAM.1": 26.0,
+        "P. Salud Público.1": 346.0,
+        "P. Salud Privado.1": 31.0,
+        "Otros": 14.0,
+        "TOTAL.1": 3506.0,
+        "Personas de 60 y más años.2": 0.11604743083003953,
+        "Crónicos.2": 0.1442221020371372,
+        "Embaraz..2": 0.012266355140186916,
+        "Cuid./Func. ELEAM.2": 0.07046070460704607,
+        "P. Salud Público.2": 0.2633181126331811,
+        "P. Salud Privado.2": 0.14832535885167464,
+        "TOTAL.2": 0.12819950270586514
+      },
+      "Poblacion_Objetivo": 27348.0
+    },
+    "1402.0": {
+      "Criterios": {
+        "Región": 1.0,
+        "Personas de 60 y más años": 353.0,
+        "Crónicos": 92.0,
+        "Embaraz.": 16.0,
+        "Cuid./Func. ELEAM": 7.0,
+        "P. Salud Público": 38.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 506.0,
+        "Personas de 60 y más años.1": 22.0,
+        "Crónicos.1": 14.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 11.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 1.0,
+        "TOTAL.1": 49.0,
+        "Personas de 60 y más años.2": 0.06232294617563739,
+        "Crónicos.2": 0.15217391304347827,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.14285714285714285,
+        "P. Salud Público.2": 0.2894736842105263,
+        "TOTAL.2": 0.09683794466403162
+      },
+      "Poblacion_Objetivo": 506.0
+    },
+    "1403.0": {
+      "Criterios": {
+        "Región": 1.0,
+        "Personas de 60 y más años": 413.0,
+        "Crónicos": 50.0,
+        "Embaraz.": 11.0,
+        "Cuid./Func. ELEAM": 5.0,
+        "P. Salud Público": 52.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 531.0,
+        "Personas de 60 y más años.1": 8.0,
+        "Crónicos.1": 3.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 48.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 59.0,
+        "Personas de 60 y más años.2": 0.01937046004842615,
+        "Crónicos.2": 0.06,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.9230769230769231,
+        "TOTAL.2": 0.1111111111111111
+      },
+      "Poblacion_Objetivo": 531.0
+    },
+    "1404.0": {
+      "Criterios": {
+        "Región": 1.0,
+        "Personas de 60 y más años": 777.0,
+        "Crónicos": 273.0,
+        "Embaraz.": 38.0,
+        "Cuid./Func. ELEAM": 7.0,
+        "P. Salud Público": 65.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 1160.0,
+        "Personas de 60 y más años.1": 64.0,
+        "Crónicos.1": 59.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 6.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 130.0,
+        "Personas de 60 y más años.2": 0.08236808236808237,
+        "Crónicos.2": 0.21611721611721613,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.14285714285714285,
+        "P. Salud Público.2": 0.09230769230769231,
+        "TOTAL.2": 0.11206896551724138
+      },
+      "Poblacion_Objetivo": 1160.0
+    },
+    "1101.0": {
+      "Criterios": {
+        "Región": 1.0,
+        "Personas de 60 y más años": 38976.0,
+        "Crónicos": 25561.0,
+        "Embaraz.": 1646.0,
+        "Cuid./Func. ELEAM": 932.0,
+        "P. Salud Público": 6608.0,
+        "P. Salud Privado": 1909.0,
+        "TOTAL": 75632.0,
+        "Personas de 60 y más años.1": 6714.0,
+        "Crónicos.1": 5182.0,
+        "Embaraz..1": 38.0,
+        "Cuid./Func. ELEAM.1": 182.0,
+        "P. Salud Público.1": 1533.0,
+        "P. Salud Privado.1": 155.0,
+        "Otros": 13.0,
+        "TOTAL.1": 13817.0,
+        "Personas de 60 y más años.2": 0.17225985221674878,
+        "Crónicos.2": 0.20273072258518837,
+        "Embaraz..2": 0.023086269744835967,
+        "Cuid./Func. ELEAM.2": 0.19527896995708155,
+        "P. Salud Público.2": 0.2319915254237288,
+        "P. Salud Privado.2": 0.08119434258774227,
+        "TOTAL.2": 0.18268722233975038
+      },
+      "Poblacion_Objetivo": 75632.0
+    },
+    "1405.0": {
+      "Criterios": {
+        "Región": 1.0,
+        "Personas de 60 y más años": 1458.0,
+        "Crónicos": 553.0,
+        "Embaraz.": 64.0,
+        "Cuid./Func. ELEAM": 1.0,
+        "P. Salud Público": 136.0,
+        "P. Salud Privado": 14.0,
+        "TOTAL": 2226.0,
+        "Personas de 60 y más años.1": 121.0,
+        "Crónicos.1": 41.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 14.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 178.0,
+        "Personas de 60 y más años.2": 0.08299039780521263,
+        "Crónicos.2": 0.07414104882459313,
+        "Embaraz..2": 0.015625,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.10294117647058823,
+        "P. Salud Privado.2": 0.07142857142857142,
+        "TOTAL.2": 0.07996406109613657
+      },
+      "Poblacion_Objetivo": 2226.0
+    },
+    "1401.0": {
+      "Criterios": {
+        "Región": 1.0,
+        "Personas de 60 y más años": 2796.0,
+        "Crónicos": 1776.0,
+        "Embaraz.": 166.0,
+        "Cuid./Func. ELEAM": 63.0,
+        "P. Salud Público": 220.0,
+        "P. Salud Privado": 17.0,
+        "TOTAL": 5038.0,
+        "Personas de 60 y más años.1": 342.0,
+        "Crónicos.1": 257.0,
+        "Embaraz..1": 45.0,
+        "Cuid./Func. ELEAM.1": 13.0,
+        "P. Salud Público.1": 47.0,
+        "P. Salud Privado.1": 4.0,
+        "Otros": 0.0,
+        "TOTAL.1": 708.0,
+        "Personas de 60 y más años.2": 0.1223175965665236,
+        "Crónicos.2": 0.1447072072072072,
+        "Embaraz..2": 0.2710843373493976,
+        "Cuid./Func. ELEAM.2": 0.20634920634920634,
+        "P. Salud Público.2": 0.21363636363636362,
+        "P. Salud Privado.2": 0.23529411764705882,
+        "TOTAL.2": 0.1405319571258436
+      },
+      "Poblacion_Objetivo": 5038.0
+    },
+    "2101.0": {
+      "Criterios": {
+        "Región": 2.0,
+        "Personas de 60 y más años": 62063.0,
+        "Crónicos": 26383.0,
+        "Embaraz.": 3315.0,
+        "Cuid./Func. ELEAM": 823.0,
+        "P. Salud Público": 6616.0,
+        "P. Salud Privado": 3411.0,
+        "TOTAL": 102611.0,
+        "Personas de 60 y más años.1": 9718.0,
+        "Crónicos.1": 4353.0,
+        "Embaraz..1": 204.0,
+        "Cuid./Func. ELEAM.1": 135.0,
+        "P. Salud Público.1": 492.0,
+        "P. Salud Privado.1": 139.0,
+        "Otros": 43.0,
+        "TOTAL.1": 15084.0,
+        "Personas de 60 y más años.2": 0.1565828271272739,
+        "Crónicos.2": 0.16499260887692832,
+        "Embaraz..2": 0.06153846153846154,
+        "Cuid./Func. ELEAM.2": 0.16403402187120292,
+        "P. Salud Público.2": 0.0743651753325272,
+        "P. Salud Privado.2": 0.04075051304602756,
+        "TOTAL.2": 0.14700178343452455
+      },
+      "Poblacion_Objetivo": 102611.0
+    },
+    "2201.0": {
+      "Criterios": {
+        "Región": 2.0,
+        "Personas de 60 y más años": 24802.0,
+        "Crónicos": 16513.0,
+        "Embaraz.": 1564.0,
+        "Cuid./Func. ELEAM": 385.0,
+        "P. Salud Público": 2461.0,
+        "P. Salud Privado": 1297.0,
+        "TOTAL": 47022.0,
+        "Personas de 60 y más años.1": 5144.0,
+        "Crónicos.1": 5260.0,
+        "Embaraz..1": 40.0,
+        "Cuid./Func. ELEAM.1": 277.0,
+        "P. Salud Público.1": 547.0,
+        "P. Salud Privado.1": 191.0,
+        "Otros": 419.0,
+        "TOTAL.1": 11878.0,
+        "Personas de 60 y más años.2": 0.20740262882025642,
+        "Crónicos.2": 0.3185369103130867,
+        "Embaraz..2": 0.02557544757033248,
+        "Cuid./Func. ELEAM.2": 0.7194805194805195,
+        "P. Salud Público.2": 0.22226737098740348,
+        "P. Salud Privado.2": 0.14726291441788744,
+        "TOTAL.2": 0.2526051635404704
+      },
+      "Poblacion_Objetivo": 47022.0
+    },
+    "2302.0": {
+      "Criterios": {
+        "Región": 2.0,
+        "Personas de 60 y más años": 826.0,
+        "Crónicos": 301.0,
+        "Embaraz.": 39.0,
+        "Cuid./Func. ELEAM": 1.0,
+        "P. Salud Público": 41.0,
+        "P. Salud Privado": 50.0,
+        "TOTAL": 1258.0,
+        "Personas de 60 y más años.1": 36.0,
+        "Crónicos.1": 34.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 3.0,
+        "P. Salud Privado.1": 14.0,
+        "Otros": 1.0,
+        "TOTAL.1": 88.0,
+        "Personas de 60 y más años.2": 0.043583535108958835,
+        "Crónicos.2": 0.11295681063122924,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.07317073170731707,
+        "P. Salud Privado.2": 0.28,
+        "TOTAL.2": 0.06995230524642289
+      },
+      "Poblacion_Objetivo": 1258.0
+    },
+    "2102.0": {
+      "Criterios": {
+        "Región": 2.0,
+        "Personas de 60 y más años": 1899.0,
+        "Crónicos": 1149.0,
+        "Embaraz.": 141.0,
+        "Cuid./Func. ELEAM": 24.0,
+        "P. Salud Público": 181.0,
+        "P. Salud Privado": 11.0,
+        "TOTAL": 3405.0,
+        "Personas de 60 y más años.1": 184.0,
+        "Crónicos.1": 207.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 10.0,
+        "P. Salud Público.1": 24.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 425.0,
+        "Personas de 60 y más años.2": 0.09689310163243813,
+        "Crónicos.2": 0.1801566579634465,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.4166666666666667,
+        "P. Salud Público.2": 0.13259668508287292,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.12481644640234948
+      },
+      "Poblacion_Objetivo": 3405.0
+    },
+    "2202.0": {
+      "Criterios": {
+        "Región": 2.0,
+        "Personas de 60 y más años": 41.0,
+        "Crónicos": 8.0,
+        "Embaraz.": 0.0,
+        "Cuid./Func. ELEAM": 0.0,
+        "P. Salud Público": 3.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 52.0,
+        "Personas de 60 y más años.1": 10.0,
+        "Crónicos.1": 48.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 1.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 59.0,
+        "Personas de 60 y más años.2": 0.24390243902439024,
+        "Crónicos.2": 6.0,
+        "P. Salud Público.2": 0.3333333333333333,
+        "TOTAL.2": 1.1346153846153846
+      },
+      "Poblacion_Objetivo": 52.0
+    },
+    "2203.0": {
+      "Criterios": {
+        "Región": 2.0,
+        "Personas de 60 y más años": 1361.0,
+        "Crónicos": 357.0,
+        "Embaraz.": 107.0,
+        "Cuid./Func. ELEAM": 46.0,
+        "P. Salud Público": 87.0,
+        "P. Salud Privado": 5.0,
+        "TOTAL": 1963.0,
+        "Personas de 60 y más años.1": 158.0,
+        "Crónicos.1": 116.0,
+        "Embaraz..1": 23.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 42.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 1.0,
+        "TOTAL.1": 342.0,
+        "Personas de 60 y más años.2": 0.11609110947832477,
+        "Crónicos.2": 0.32492997198879553,
+        "Embaraz..2": 0.21495327102803738,
+        "Cuid./Func. ELEAM.2": 0.021739130434782608,
+        "P. Salud Público.2": 0.4827586206896552,
+        "P. Salud Privado.2": 0.2,
+        "TOTAL.2": 0.17422312786551197
+      },
+      "Poblacion_Objetivo": 1963.0
+    },
+    "2103.0": {
+      "Criterios": {
+        "Región": 2.0,
+        "Personas de 60 y más años": 167.0,
+        "Crónicos": 317.0,
+        "Embaraz.": 13.0,
+        "Cuid./Func. ELEAM": 0.0,
+        "P. Salud Público": 34.0,
+        "P. Salud Privado": 1.0,
+        "TOTAL": 532.0,
+        "Personas de 60 y más años.1": 13.0,
+        "Crónicos.1": 12.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 3.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 28.0,
+        "Personas de 60 y más años.2": 0.07784431137724551,
+        "Crónicos.2": 0.03785488958990536,
+        "Embaraz..2": 0.0,
+        "P. Salud Público.2": 0.08823529411764706,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.05263157894736842
+      },
+      "Poblacion_Objetivo": 532.0
+    },
+    "2104.0": {
+      "Criterios": {
+        "Región": 2.0,
+        "Personas de 60 y más años": 2399.0,
+        "Crónicos": 1234.0,
+        "Embaraz.": 95.0,
+        "Cuid./Func. ELEAM": 26.0,
+        "P. Salud Público": 202.0,
+        "P. Salud Privado": 9.0,
+        "TOTAL": 3965.0,
+        "Personas de 60 y más años.1": 73.0,
+        "Crónicos.1": 174.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 25.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 274.0,
+        "Personas de 60 y más años.2": 0.03042934556065027,
+        "Crónicos.2": 0.14100486223662884,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.07692307692307693,
+        "P. Salud Público.2": 0.12376237623762376,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.0691046658259773
+      },
+      "Poblacion_Objetivo": 3965.0
+    },
+    "2301.0": {
+      "Criterios": {
+        "Región": 2.0,
+        "Personas de 60 y más años": 5205.0,
+        "Crónicos": 1336.0,
+        "Embaraz.": 196.0,
+        "Cuid./Func. ELEAM": 0.0,
+        "P. Salud Público": 299.0,
+        "P. Salud Privado": 21.0,
+        "TOTAL": 7057.0,
+        "Personas de 60 y más años.1": 167.0,
+        "Crónicos.1": 167.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 10.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 344.0,
+        "Personas de 60 y más años.2": 0.03208453410182517,
+        "Crónicos.2": 0.125,
+        "Embaraz..2": 0.0,
+        "P. Salud Público.2": 0.033444816053511704,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.04874592603089131
+      },
+      "Poblacion_Objetivo": 7057.0
+    },
+    "3302.0": {
+      "Criterios": {
+        "Región": 3.0,
+        "Personas de 60 y más años": 1605.0,
+        "Crónicos": 620.0,
+        "Embaraz.": 30.0,
+        "Cuid./Func. ELEAM": 57.0,
+        "P. Salud Público": 101.0,
+        "P. Salud Privado": 2.0,
+        "TOTAL": 2415.0,
+        "Personas de 60 y más años.1": 108.0,
+        "Crónicos.1": 46.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 5.0,
+        "P. Salud Público.1": 21.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 1.0,
+        "TOTAL.1": 181.0,
+        "Personas de 60 y más años.2": 0.06728971962616823,
+        "Crónicos.2": 0.07419354838709677,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.08771929824561403,
+        "P. Salud Público.2": 0.2079207920792079,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.07494824016563147
+      },
+      "Poblacion_Objetivo": 2415.0
+    },
+    "3102.0": {
+      "Criterios": {
+        "Región": 3.0,
+        "Personas de 60 y más años": 3938.0,
+        "Crónicos": 1851.0,
+        "Embaraz.": 142.0,
+        "Cuid./Func. ELEAM": 37.0,
+        "P. Salud Público": 236.0,
+        "P. Salud Privado": 21.0,
+        "TOTAL": 6225.0,
+        "Personas de 60 y más años.1": 595.0,
+        "Crónicos.1": 257.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 16.0,
+        "P. Salud Privado.1": 3.0,
+        "Otros": 0.0,
+        "TOTAL.1": 872.0,
+        "Personas de 60 y más años.2": 0.1510919248349416,
+        "Crónicos.2": 0.1388438681793625,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.02702702702702703,
+        "P. Salud Público.2": 0.06779661016949153,
+        "P. Salud Privado.2": 0.14285714285714285,
+        "TOTAL.2": 0.14008032128514056
+      },
+      "Poblacion_Objetivo": 6225.0
+    },
+    "3201.0": {
+      "Criterios": {
+        "Región": 3.0,
+        "Personas de 60 y más años": 2654.0,
+        "Crónicos": 2556.0,
+        "Embaraz.": 105.0,
+        "Cuid./Func. ELEAM": 17.0,
+        "P. Salud Público": 188.0,
+        "P. Salud Privado": 24.0,
+        "TOTAL": 5544.0,
+        "Personas de 60 y más años.1": 179.0,
+        "Crónicos.1": 98.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 21.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 301.0,
+        "Personas de 60 y más años.2": 0.06744536548605878,
+        "Crónicos.2": 0.03834115805946792,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.11764705882352941,
+        "P. Salud Público.2": 0.11170212765957446,
+        "P. Salud Privado.2": 0.041666666666666664,
+        "TOTAL.2": 0.054292929292929296
+      },
+      "Poblacion_Objetivo": 5544.0
+    },
+    "3101.0": {
+      "Criterios": {
+        "Región": 3.0,
+        "Personas de 60 y más años": 29733.0,
+        "Crónicos": 19073.0,
+        "Embaraz.": 1451.0,
+        "Cuid./Func. ELEAM": 645.0,
+        "P. Salud Público": 2837.0,
+        "P. Salud Privado": 481.0,
+        "TOTAL": 54220.0,
+        "Personas de 60 y más años.1": 3673.0,
+        "Crónicos.1": 2764.0,
+        "Embaraz..1": 15.0,
+        "Cuid./Func. ELEAM.1": 85.0,
+        "P. Salud Público.1": 683.0,
+        "P. Salud Privado.1": 52.0,
+        "Otros": 11.0,
+        "TOTAL.1": 7283.0,
+        "Personas de 60 y más años.2": 0.12353277503111021,
+        "Crónicos.2": 0.14491689823310439,
+        "Embaraz..2": 0.010337698139214336,
+        "Cuid./Func. ELEAM.2": 0.13178294573643412,
+        "P. Salud Público.2": 0.24074726824109977,
+        "P. Salud Privado.2": 0.10810810810810811,
+        "TOTAL.2": 0.13432312799704907
+      },
+      "Poblacion_Objetivo": 54220.0
+    },
+    "3202.0": {
+      "Criterios": {
+        "Región": 3.0,
+        "Personas de 60 y más años": 2102.0,
+        "Crónicos": 924.0,
+        "Embaraz.": 85.0,
+        "Cuid./Func. ELEAM": 45.0,
+        "P. Salud Público": 267.0,
+        "P. Salud Privado": 93.0,
+        "TOTAL": 3516.0,
+        "Personas de 60 y más años.1": 87.0,
+        "Crónicos.1": 53.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 15.0,
+        "P. Salud Privado.1": 11.0,
+        "Otros": 0.0,
+        "TOTAL.1": 167.0,
+        "Personas de 60 y más años.2": 0.04138915318744053,
+        "Crónicos.2": 0.05735930735930736,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.022222222222222223,
+        "P. Salud Público.2": 0.056179775280898875,
+        "P. Salud Privado.2": 0.11827956989247312,
+        "TOTAL.2": 0.0474971558589306
+      },
+      "Poblacion_Objetivo": 3516.0
+    },
+    "3303.0": {
+      "Criterios": {
+        "Región": 3.0,
+        "Personas de 60 y más años": 1747.0,
+        "Crónicos": 1303.0,
+        "Embaraz.": 48.0,
+        "Cuid./Func. ELEAM": 36.0,
+        "P. Salud Público": 106.0,
+        "P. Salud Privado": 2.0,
+        "TOTAL": 3242.0,
+        "Personas de 60 y más años.1": 102.0,
+        "Crónicos.1": 72.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 9.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 183.0,
+        "Personas de 60 y más años.2": 0.05838580423583286,
+        "Crónicos.2": 0.05525709900230238,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.08490566037735849,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.05644663787785318
+      },
+      "Poblacion_Objetivo": 3242.0
+    },
+    "3304.0": {
+      "Criterios": {
+        "Región": 3.0,
+        "Personas de 60 y más años": 2605.0,
+        "Crónicos": 1097.0,
+        "Embaraz.": 87.0,
+        "Cuid./Func. ELEAM": 38.0,
+        "P. Salud Público": 236.0,
+        "P. Salud Privado": 7.0,
+        "TOTAL": 4070.0,
+        "Personas de 60 y más años.1": 107.0,
+        "Crónicos.1": 47.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 11.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 1.0,
+        "TOTAL.1": 166.0,
+        "Personas de 60 y más años.2": 0.04107485604606526,
+        "Crónicos.2": 0.04284412032816773,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.046610169491525424,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.04078624078624079
+      },
+      "Poblacion_Objetivo": 4070.0
+    },
+    "3103.0": {
+      "Criterios": {
+        "Región": 3.0,
+        "Personas de 60 y más años": 2294.0,
+        "Crónicos": 2897.0,
+        "Embaraz.": 95.0,
+        "Cuid./Func. ELEAM": 8.0,
+        "P. Salud Público": 183.0,
+        "P. Salud Privado": 10.0,
+        "TOTAL": 5487.0,
+        "Personas de 60 y más años.1": 568.0,
+        "Crónicos.1": 986.0,
+        "Embaraz..1": 9.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 20.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1586.0,
+        "Personas de 60 y más años.2": 0.24760244115082825,
+        "Crónicos.2": 0.3403520883672765,
+        "Embaraz..2": 0.09473684210526316,
+        "Cuid./Func. ELEAM.2": 0.125,
+        "P. Salud Público.2": 0.1092896174863388,
+        "P. Salud Privado.2": 0.2,
+        "TOTAL.2": 0.2890468379806816
+      },
+      "Poblacion_Objetivo": 5487.0
+    },
+    "3301.0": {
+      "Criterios": {
+        "Región": 3.0,
+        "Personas de 60 y más años": 12401.0,
+        "Crónicos": 6456.0,
+        "Embaraz.": 414.0,
+        "Cuid./Func. ELEAM": 413.0,
+        "P. Salud Público": 1118.0,
+        "P. Salud Privado": 115.0,
+        "TOTAL": 20917.0,
+        "Personas de 60 y más años.1": 1048.0,
+        "Crónicos.1": 592.0,
+        "Embaraz..1": 7.0,
+        "Cuid./Func. ELEAM.1": 25.0,
+        "P. Salud Público.1": 131.0,
+        "P. Salud Privado.1": 6.0,
+        "Otros": 3.0,
+        "TOTAL.1": 1812.0,
+        "Personas de 60 y más años.2": 0.08450931376501895,
+        "Crónicos.2": 0.09169764560099132,
+        "Embaraz..2": 0.016908212560386472,
+        "Cuid./Func. ELEAM.2": 0.06053268765133172,
+        "P. Salud Público.2": 0.11717352415026834,
+        "P. Salud Privado.2": 0.05217391304347826,
+        "TOTAL.2": 0.0866281015441985
+      },
+      "Poblacion_Objetivo": 20917.0
+    },
+    "4103.0": {
+      "Criterios": {
+        "Región": 4.0,
+        "Personas de 60 y más años": 2717.0,
+        "Crónicos": 2032.0,
+        "Embaraz.": 66.0,
+        "Cuid./Func. ELEAM": 64.0,
+        "P. Salud Público": 170.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 5049.0,
+        "Personas de 60 y más años.1": 302.0,
+        "Crónicos.1": 191.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 19.0,
+        "P. Salud Público.1": 37.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 2.0,
+        "TOTAL.1": 551.0,
+        "Personas de 60 y más años.2": 0.111152005888848,
+        "Crónicos.2": 0.09399606299212598,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.296875,
+        "P. Salud Público.2": 0.21764705882352942,
+        "TOTAL.2": 0.10913052089522678
+      },
+      "Poblacion_Objetivo": 5049.0
+    },
+    "4202.0": {
+      "Criterios": {
+        "Región": 4.0,
+        "Personas de 60 y más años": 3018.0,
+        "Crónicos": 1512.0,
+        "Embaraz.": 46.0,
+        "Cuid./Func. ELEAM": 13.0,
+        "P. Salud Público": 106.0,
+        "P. Salud Privado": 5.0,
+        "TOTAL": 4700.0,
+        "Personas de 60 y más años.1": 73.0,
+        "Crónicos.1": 44.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 11.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 128.0,
+        "Personas de 60 y más años.2": 0.024188204108681246,
+        "Crónicos.2": 0.0291005291005291,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.10377358490566038,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.02723404255319149
+      },
+      "Poblacion_Objetivo": 4700.0
+    },
+    "4302.0": {
+      "Criterios": {
+        "Región": 4.0,
+        "Personas de 60 y más años": 4231.0,
+        "Crónicos": 1446.0,
+        "Embaraz.": 67.0,
+        "Cuid./Func. ELEAM": 132.0,
+        "P. Salud Público": 288.0,
+        "P. Salud Privado": 11.0,
+        "TOTAL": 6175.0,
+        "Personas de 60 y más años.1": 139.0,
+        "Crónicos.1": 109.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 5.0,
+        "P. Salud Público.1": 36.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 289.0,
+        "Personas de 60 y más años.2": 0.03285275348617348,
+        "Crónicos.2": 0.07538035961272475,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.03787878787878788,
+        "P. Salud Público.2": 0.125,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.04680161943319838
+      },
+      "Poblacion_Objetivo": 6175.0
+    },
+    "4102.0": {
+      "Criterios": {
+        "Región": 4.0,
+        "Personas de 60 y más años": 53203.0,
+        "Crónicos": 26092.0,
+        "Embaraz.": 1872.0,
+        "Cuid./Func. ELEAM": 1907.0,
+        "P. Salud Público": 3918.0,
+        "P. Salud Privado": 306.0,
+        "TOTAL": 87298.0,
+        "Personas de 60 y más años.1": 10495.0,
+        "Crónicos.1": 6817.0,
+        "Embaraz..1": 93.0,
+        "Cuid./Func. ELEAM.1": 732.0,
+        "P. Salud Público.1": 1278.0,
+        "P. Salud Privado.1": 159.0,
+        "Otros": 22.0,
+        "TOTAL.1": 19596.0,
+        "Personas de 60 y más años.2": 0.19726331221923576,
+        "Crónicos.2": 0.26126782155449946,
+        "Embaraz..2": 0.049679487179487176,
+        "Cuid./Func. ELEAM.2": 0.3838489774514945,
+        "P. Salud Público.2": 0.32618683001531396,
+        "P. Salud Privado.2": 0.5196078431372549,
+        "TOTAL.2": 0.2244724965062201
+      },
+      "Poblacion_Objetivo": 87298.0
+    },
+    "4201.0": {
+      "Criterios": {
+        "Región": 4.0,
+        "Personas de 60 y más años": 7867.0,
+        "Crónicos": 2563.0,
+        "Embaraz.": 233.0,
+        "Cuid./Func. ELEAM": 199.0,
+        "P. Salud Público": 709.0,
+        "P. Salud Privado": 53.0,
+        "TOTAL": 11624.0,
+        "Personas de 60 y más años.1": 348.0,
+        "Crónicos.1": 87.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 39.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 478.0,
+        "Personas de 60 y más años.2": 0.04423541375365451,
+        "Crónicos.2": 0.03394459617635583,
+        "Embaraz..2": 0.008583690987124463,
+        "Cuid./Func. ELEAM.2": 0.005025125628140704,
+        "P. Salud Público.2": 0.05500705218617771,
+        "P. Salud Privado.2": 0.018867924528301886,
+        "TOTAL.2": 0.04112181693048864
+      },
+      "Poblacion_Objetivo": 11624.0
+    },
+    "4104.0": {
+      "Criterios": {
+        "Región": 4.0,
+        "Personas de 60 y más años": 1092.0,
+        "Crónicos": 447.0,
+        "Embaraz.": 39.0,
+        "Cuid./Func. ELEAM": 17.0,
+        "P. Salud Público": 82.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 1677.0,
+        "Personas de 60 y más años.1": 73.0,
+        "Crónicos.1": 47.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 5.0,
+        "P. Salud Público.1": 25.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 150.0,
+        "Personas de 60 y más años.2": 0.06684981684981685,
+        "Crónicos.2": 0.10514541387024609,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.29411764705882354,
+        "P. Salud Público.2": 0.3048780487804878,
+        "TOTAL.2": 0.08944543828264759
+      },
+      "Poblacion_Objetivo": 1677.0
+    },
+    "4101.0": {
+      "Criterios": {
+        "Región": 4.0,
+        "Personas de 60 y más años": 52457.0,
+        "Crónicos": 19199.0,
+        "Embaraz.": 1731.0,
+        "Cuid./Func. ELEAM": 1035.0,
+        "P. Salud Público": 4743.0,
+        "P. Salud Privado": 1540.0,
+        "TOTAL": 80705.0,
+        "Personas de 60 y más años.1": 10301.0,
+        "Crónicos.1": 5872.0,
+        "Embaraz..1": 33.0,
+        "Cuid./Func. ELEAM.1": 283.0,
+        "P. Salud Público.1": 647.0,
+        "P. Salud Privado.1": 422.0,
+        "Otros": 7.0,
+        "TOTAL.1": 17565.0,
+        "Personas de 60 y más años.2": 0.19637036048573117,
+        "Crónicos.2": 0.305849262982447,
+        "Embaraz..2": 0.019064124783362217,
+        "Cuid./Func. ELEAM.2": 0.27342995169082124,
+        "P. Salud Público.2": 0.13641155386885936,
+        "P. Salud Privado.2": 0.274025974025974,
+        "TOTAL.2": 0.21764450777523078
+      },
+      "Poblacion_Objetivo": 80705.0
+    },
+    "4203.0": {
+      "Criterios": {
+        "Región": 4.0,
+        "Personas de 60 y más años": 5548.0,
+        "Crónicos": 1976.0,
+        "Embaraz.": 152.0,
+        "Cuid./Func. ELEAM": 88.0,
+        "P. Salud Público": 387.0,
+        "P. Salud Privado": 34.0,
+        "TOTAL": 8185.0,
+        "Personas de 60 y más años.1": 469.0,
+        "Crónicos.1": 198.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 3.0,
+        "P. Salud Público.1": 14.0,
+        "P. Salud Privado.1": 4.0,
+        "Otros": 0.0,
+        "TOTAL.1": 689.0,
+        "Personas de 60 y más años.2": 0.08453496755587599,
+        "Crónicos.2": 0.10020242914979757,
+        "Embaraz..2": 0.006578947368421052,
+        "Cuid./Func. ELEAM.2": 0.03409090909090909,
+        "P. Salud Público.2": 0.03617571059431524,
+        "P. Salud Privado.2": 0.11764705882352941,
+        "TOTAL.2": 0.0841783750763592
+      },
+      "Poblacion_Objetivo": 8185.0
+    },
+    "4303.0": {
+      "Criterios": {
+        "Región": 4.0,
+        "Personas de 60 y más años": 7260.0,
+        "Crónicos": 2130.0,
+        "Embaraz.": 225.0,
+        "Cuid./Func. ELEAM": 240.0,
+        "P. Salud Público": 422.0,
+        "P. Salud Privado": 3.0,
+        "TOTAL": 10280.0,
+        "Personas de 60 y más años.1": 322.0,
+        "Crónicos.1": 127.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 4.0,
+        "P. Salud Público.1": 25.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 479.0,
+        "Personas de 60 y más años.2": 0.04435261707988981,
+        "Crónicos.2": 0.05962441314553991,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.016666666666666666,
+        "P. Salud Público.2": 0.05924170616113744,
+        "P. Salud Privado.2": 0.3333333333333333,
+        "TOTAL.2": 0.04659533073929961
+      },
+      "Poblacion_Objetivo": 10280.0
+    },
+    "4301.0": {
+      "Criterios": {
+        "Región": 4.0,
+        "Personas de 60 y más años": 26050.0,
+        "Crónicos": 8204.0,
+        "Embaraz.": 847.0,
+        "Cuid./Func. ELEAM": 610.0,
+        "P. Salud Público": 3121.0,
+        "P. Salud Privado": 323.0,
+        "TOTAL": 39155.0,
+        "Personas de 60 y más años.1": 2392.0,
+        "Crónicos.1": 792.0,
+        "Embaraz..1": 5.0,
+        "Cuid./Func. ELEAM.1": 40.0,
+        "P. Salud Público.1": 357.0,
+        "P. Salud Privado.1": 60.0,
+        "Otros": 4.0,
+        "TOTAL.1": 3650.0,
+        "Personas de 60 y más años.2": 0.09182341650671785,
+        "Crónicos.2": 0.09653827401267674,
+        "Embaraz..2": 0.0059031877213695395,
+        "Cuid./Func. ELEAM.2": 0.06557377049180328,
+        "P. Salud Público.2": 0.1143864146107017,
+        "P. Salud Privado.2": 0.18575851393188855,
+        "TOTAL.2": 0.09321925679989784
+      },
+      "Poblacion_Objetivo": 39155.0
+    },
+    "4105.0": {
+      "Criterios": {
+        "Región": 4.0,
+        "Personas de 60 y más años": 1173.0,
+        "Crónicos": 552.0,
+        "Embaraz.": 23.0,
+        "Cuid./Func. ELEAM": 49.0,
+        "P. Salud Público": 90.0,
+        "P. Salud Privado": 5.0,
+        "TOTAL": 1892.0,
+        "Personas de 60 y más años.1": 119.0,
+        "Crónicos.1": 83.0,
+        "Embaraz..1": 15.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 17.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 4.0,
+        "TOTAL.1": 239.0,
+        "Personas de 60 y más años.2": 0.10144927536231885,
+        "Crónicos.2": 0.1503623188405797,
+        "Embaraz..2": 0.6521739130434783,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.18888888888888888,
+        "P. Salud Privado.2": 0.2,
+        "TOTAL.2": 0.1263213530655391
+      },
+      "Poblacion_Objetivo": 1892.0
+    },
+    "4304.0": {
+      "Criterios": {
+        "Región": 4.0,
+        "Personas de 60 y más años": 3145.0,
+        "Crónicos": 1042.0,
+        "Embaraz.": 77.0,
+        "Cuid./Func. ELEAM": 71.0,
+        "P. Salud Público": 156.0,
+        "P. Salud Privado": 5.0,
+        "TOTAL": 4496.0,
+        "Personas de 60 y más años.1": 261.0,
+        "Crónicos.1": 60.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 8.0,
+        "P. Salud Público.1": 8.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 339.0,
+        "Personas de 60 y más años.2": 0.08298887122416534,
+        "Crónicos.2": 0.05758157389635317,
+        "Embaraz..2": 0.012987012987012988,
+        "Cuid./Func. ELEAM.2": 0.11267605633802817,
+        "P. Salud Público.2": 0.05128205128205128,
+        "P. Salud Privado.2": 0.2,
+        "TOTAL.2": 0.07540035587188612
+      },
+      "Poblacion_Objetivo": 4496.0
+    },
+    "4305.0": {
+      "Criterios": {
+        "Región": 4.0,
+        "Personas de 60 y más años": 1393.0,
+        "Crónicos": 735.0,
+        "Embaraz.": 12.0,
+        "Cuid./Func. ELEAM": 14.0,
+        "P. Salud Público": 80.0,
+        "P. Salud Privado": 1.0,
+        "TOTAL": 2235.0,
+        "Personas de 60 y más años.1": 39.0,
+        "Crónicos.1": 47.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 20.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 107.0,
+        "Personas de 60 y más años.2": 0.02799712849964106,
+        "Crónicos.2": 0.06394557823129252,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.25,
+        "P. Salud Privado.2": 1.0,
+        "TOTAL.2": 0.04787472035794183
+      },
+      "Poblacion_Objetivo": 2235.0
+    },
+    "4204.0": {
+      "Criterios": {
+        "Región": 4.0,
+        "Personas de 60 y más años": 6930.0,
+        "Crónicos": 3022.0,
+        "Embaraz.": 188.0,
+        "Cuid./Func. ELEAM": 153.0,
+        "P. Salud Público": 461.0,
+        "P. Salud Privado": 35.0,
+        "TOTAL": 10789.0,
+        "Personas de 60 y más años.1": 487.0,
+        "Crónicos.1": 297.0,
+        "Embaraz..1": 4.0,
+        "Cuid./Func. ELEAM.1": 8.0,
+        "P. Salud Público.1": 22.0,
+        "P. Salud Privado.1": 4.0,
+        "Otros": 0.0,
+        "TOTAL.1": 822.0,
+        "Personas de 60 y más años.2": 0.07027417027417028,
+        "Crónicos.2": 0.09827928524156188,
+        "Embaraz..2": 0.02127659574468085,
+        "Cuid./Func. ELEAM.2": 0.05228758169934641,
+        "P. Salud Público.2": 0.04772234273318872,
+        "P. Salud Privado.2": 0.11428571428571428,
+        "TOTAL.2": 0.07618871072388544
+      },
+      "Poblacion_Objetivo": 10789.0
+    },
+    "4106.0": {
+      "Criterios": {
+        "Región": 4.0,
+        "Personas de 60 y más años": 6629.0,
+        "Crónicos": 3955.0,
+        "Embaraz.": 189.0,
+        "Cuid./Func. ELEAM": 56.0,
+        "P. Salud Público": 335.0,
+        "P. Salud Privado": 48.0,
+        "TOTAL": 11212.0,
+        "Personas de 60 y más años.1": 708.0,
+        "Crónicos.1": 361.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 3.0,
+        "P. Salud Público.1": 25.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1100.0,
+        "Personas de 60 y más años.2": 0.1068034394327953,
+        "Crónicos.2": 0.09127686472819216,
+        "Embaraz..2": 0.005291005291005291,
+        "Cuid./Func. ELEAM.2": 0.05357142857142857,
+        "P. Salud Público.2": 0.07462686567164178,
+        "P. Salud Privado.2": 0.041666666666666664,
+        "TOTAL.2": 0.09810916874777025
+      },
+      "Poblacion_Objetivo": 11212.0
+    },
+    "5301.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 14920.0,
+        "Crónicos": 8151.0,
+        "Embaraz.": 505.0,
+        "Cuid./Func. ELEAM": 696.0,
+        "P. Salud Público": 1683.0,
+        "P. Salud Privado": 307.0,
+        "TOTAL": 26262.0,
+        "Personas de 60 y más años.1": 1721.0,
+        "Crónicos.1": 769.0,
+        "Embaraz..1": 6.0,
+        "Cuid./Func. ELEAM.1": 35.0,
+        "P. Salud Público.1": 231.0,
+        "P. Salud Privado.1": 36.0,
+        "Otros": 3.0,
+        "TOTAL.1": 2801.0,
+        "Personas de 60 y más años.2": 0.1153485254691689,
+        "Crónicos.2": 0.09434425223898908,
+        "Embaraz..2": 0.011881188118811881,
+        "Cuid./Func. ELEAM.2": 0.05028735632183908,
+        "P. Salud Público.2": 0.13725490196078433,
+        "P. Salud Privado.2": 0.11726384364820847,
+        "TOTAL.2": 0.10665600487396237
+      },
+      "Poblacion_Objetivo": 26262.0
+    },
+    "5302.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 3479.0,
+        "Crónicos": 2506.0,
+        "Embaraz.": 108.0,
+        "Cuid./Func. ELEAM": 24.0,
+        "P. Salud Público": 150.0,
+        "P. Salud Privado": 12.0,
+        "TOTAL": 6279.0,
+        "Personas de 60 y más años.1": 174.0,
+        "Crónicos.1": 73.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 3.0,
+        "P. Salud Público.1": 11.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 0.0,
+        "TOTAL.1": 264.0,
+        "Personas de 60 y más años.2": 0.050014371945961485,
+        "Crónicos.2": 0.029130087789305665,
+        "Embaraz..2": 0.009259259259259259,
+        "Cuid./Func. ELEAM.2": 0.125,
+        "P. Salud Público.2": 0.07333333333333333,
+        "P. Salud Privado.2": 0.16666666666666666,
+        "TOTAL.2": 0.042044911610129
+      },
+      "Poblacion_Objetivo": 6279.0
+    },
+    "5303.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 2288.0,
+        "Crónicos": 1420.0,
+        "Embaraz.": 74.0,
+        "Cuid./Func. ELEAM": 162.0,
+        "P. Salud Público": 129.0,
+        "P. Salud Privado": 38.0,
+        "TOTAL": 4111.0,
+        "Personas de 60 y más años.1": 423.0,
+        "Crónicos.1": 195.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 17.0,
+        "P. Salud Público.1": 27.0,
+        "P. Salud Privado.1": 18.0,
+        "Otros": 0.0,
+        "TOTAL.1": 681.0,
+        "Personas de 60 y más años.2": 0.18487762237762237,
+        "Crónicos.2": 0.13732394366197184,
+        "Embaraz..2": 0.013513513513513514,
+        "Cuid./Func. ELEAM.2": 0.10493827160493827,
+        "P. Salud Público.2": 0.20930232558139536,
+        "P. Salud Privado.2": 0.47368421052631576,
+        "TOTAL.2": 0.16565312576015567
+      },
+      "Poblacion_Objetivo": 4111.0
+    },
+    "5304.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 4519.0,
+        "Crónicos": 2191.0,
+        "Embaraz.": 140.0,
+        "Cuid./Func. ELEAM": 170.0,
+        "P. Salud Público": 246.0,
+        "P. Salud Privado": 25.0,
+        "TOTAL": 7291.0,
+        "Personas de 60 y más años.1": 404.0,
+        "Crónicos.1": 142.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 4.0,
+        "P. Salud Público.1": 21.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 1.0,
+        "TOTAL.1": 575.0,
+        "Personas de 60 y más años.2": 0.08940030980305377,
+        "Crónicos.2": 0.06481058877225011,
+        "Embaraz..2": 0.007142857142857143,
+        "Cuid./Func. ELEAM.2": 0.023529411764705882,
+        "P. Salud Público.2": 0.08536585365853659,
+        "P. Salud Privado.2": 0.08,
+        "TOTAL.2": 0.07886435331230283
+      },
+      "Poblacion_Objetivo": 7291.0
+    },
+    "5701.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 17745.0,
+        "Crónicos": 10240.0,
+        "Embaraz.": 606.0,
+        "Cuid./Func. ELEAM": 288.0,
+        "P. Salud Público": 2345.0,
+        "P. Salud Privado": 178.0,
+        "TOTAL": 31402.0,
+        "Personas de 60 y más años.1": 2455.0,
+        "Crónicos.1": 1914.0,
+        "Embaraz..1": 9.0,
+        "Cuid./Func. ELEAM.1": 31.0,
+        "P. Salud Público.1": 570.0,
+        "P. Salud Privado.1": 55.0,
+        "Otros": 10.0,
+        "TOTAL.1": 5044.0,
+        "Personas de 60 y más años.2": 0.13834883065652295,
+        "Crónicos.2": 0.1869140625,
+        "Embaraz..2": 0.01485148514851485,
+        "Cuid./Func. ELEAM.2": 0.1076388888888889,
+        "P. Salud Público.2": 0.24307036247334754,
+        "P. Salud Privado.2": 0.3089887640449438,
+        "TOTAL.2": 0.16062671167441564
+      },
+      "Poblacion_Objetivo": 31402.0
+    },
+    "5702.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 3497.0,
+        "Crónicos": 2261.0,
+        "Embaraz.": 95.0,
+        "Cuid./Func. ELEAM": 155.0,
+        "P. Salud Público": 169.0,
+        "P. Salud Privado": 7.0,
+        "TOTAL": 6184.0,
+        "Personas de 60 y más años.1": 129.0,
+        "Crónicos.1": 85.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 18.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 233.0,
+        "Personas de 60 y más años.2": 0.036888761795824995,
+        "Crónicos.2": 0.03759398496240601,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0064516129032258064,
+        "P. Salud Público.2": 0.10650887573964497,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.03767787839586029
+      },
+      "Poblacion_Objetivo": 6184.0
+    },
+    "5703.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 5936.0,
+        "Crónicos": 2024.0,
+        "Embaraz.": 211.0,
+        "Cuid./Func. ELEAM": 104.0,
+        "P. Salud Público": 366.0,
+        "P. Salud Privado": 33.0,
+        "TOTAL": 8674.0,
+        "Personas de 60 y más años.1": 683.0,
+        "Crónicos.1": 214.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 48.0,
+        "P. Salud Privado.1": 7.0,
+        "Otros": 0.0,
+        "TOTAL.1": 954.0,
+        "Personas de 60 y más años.2": 0.11506064690026954,
+        "Crónicos.2": 0.10573122529644269,
+        "Embaraz..2": 0.004739336492890996,
+        "Cuid./Func. ELEAM.2": 0.009615384615384616,
+        "P. Salud Público.2": 0.13114754098360656,
+        "P. Salud Privado.2": 0.21212121212121213,
+        "TOTAL.2": 0.10998385981092922
+      },
+      "Poblacion_Objetivo": 8674.0
+    },
+    "5704.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 1670.0,
+        "Crónicos": 1098.0,
+        "Embaraz.": 55.0,
+        "Cuid./Func. ELEAM": 50.0,
+        "P. Salud Público": 94.0,
+        "P. Salud Privado": 18.0,
+        "TOTAL": 2985.0,
+        "Personas de 60 y más años.1": 132.0,
+        "Crónicos.1": 42.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 3.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 178.0,
+        "Personas de 60 y más años.2": 0.07904191616766468,
+        "Crónicos.2": 0.03825136612021858,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.031914893617021274,
+        "P. Salud Privado.2": 0.05555555555555555,
+        "TOTAL.2": 0.05963149078726968
+      },
+      "Poblacion_Objetivo": 2985.0
+    },
+    "5705.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 4478.0,
+        "Crónicos": 1836.0,
+        "Embaraz.": 118.0,
+        "Cuid./Func. ELEAM": 107.0,
+        "P. Salud Público": 696.0,
+        "P. Salud Privado": 50.0,
+        "TOTAL": 7285.0,
+        "Personas de 60 y más años.1": 694.0,
+        "Crónicos.1": 424.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 6.0,
+        "P. Salud Público.1": 142.0,
+        "P. Salud Privado.1": 18.0,
+        "Otros": 5.0,
+        "TOTAL.1": 1289.0,
+        "Personas de 60 y más años.2": 0.15497990174184903,
+        "Crónicos.2": 0.23093681917211328,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.056074766355140186,
+        "P. Salud Público.2": 0.20402298850574713,
+        "P. Salud Privado.2": 0.36,
+        "TOTAL.2": 0.17693891557995883
+      },
+      "Poblacion_Objetivo": 7285.0
+    },
+    "5706.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 3683.0,
+        "Crónicos": 1910.0,
+        "Embaraz.": 87.0,
+        "Cuid./Func. ELEAM": 60.0,
+        "P. Salud Público": 176.0,
+        "P. Salud Privado": 12.0,
+        "TOTAL": 5928.0,
+        "Personas de 60 y más años.1": 448.0,
+        "Crónicos.1": 181.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 6.0,
+        "P. Salud Público.1": 38.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 3.0,
+        "TOTAL.1": 679.0,
+        "Personas de 60 y más años.2": 0.12163996741786587,
+        "Crónicos.2": 0.09476439790575916,
+        "Embaraz..2": 0.011494252873563218,
+        "Cuid./Func. ELEAM.2": 0.1,
+        "P. Salud Público.2": 0.2159090909090909,
+        "P. Salud Privado.2": 0.16666666666666666,
+        "TOTAL.2": 0.11454116059379217
+      },
+      "Poblacion_Objetivo": 5928.0
+    },
+    "5101.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 73290.0,
+        "Crónicos": 34056.0,
+        "Embaraz.": 1758.0,
+        "Cuid./Func. ELEAM": 1579.0,
+        "P. Salud Público": 8049.0,
+        "P. Salud Privado": 1306.0,
+        "TOTAL": 120038.0,
+        "Personas de 60 y más años.1": 10245.0,
+        "Crónicos.1": 7639.0,
+        "Embaraz..1": 44.0,
+        "Cuid./Func. ELEAM.1": 691.0,
+        "P. Salud Público.1": 1699.0,
+        "P. Salud Privado.1": 320.0,
+        "Otros": 37.0,
+        "TOTAL.1": 20675.0,
+        "Personas de 60 y más años.2": 0.13978714695047073,
+        "Crónicos.2": 0.22430702372562838,
+        "Embaraz..2": 0.02502844141069397,
+        "Cuid./Func. ELEAM.2": 0.4376187460417986,
+        "P. Salud Público.2": 0.21108212200273327,
+        "P. Salud Privado.2": 0.2450229709035222,
+        "TOTAL.2": 0.17223712491044502
+      },
+      "Poblacion_Objetivo": 120038.0
+    },
+    "5102.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 6455.0,
+        "Crónicos": 2620.0,
+        "Embaraz.": 216.0,
+        "Cuid./Func. ELEAM": 319.0,
+        "P. Salud Público": 424.0,
+        "P. Salud Privado": 76.0,
+        "TOTAL": 10110.0,
+        "Personas de 60 y más años.1": 527.0,
+        "Crónicos.1": 213.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 5.0,
+        "P. Salud Público.1": 40.0,
+        "P. Salud Privado.1": 5.0,
+        "Otros": 2.0,
+        "TOTAL.1": 794.0,
+        "Personas de 60 y más años.2": 0.08164213787761425,
+        "Crónicos.2": 0.08129770992366413,
+        "Embaraz..2": 0.009259259259259259,
+        "Cuid./Func. ELEAM.2": 0.01567398119122257,
+        "P. Salud Público.2": 0.09433962264150944,
+        "P. Salud Privado.2": 0.06578947368421052,
+        "TOTAL.2": 0.07853610286844709
+      },
+      "Poblacion_Objetivo": 10110.0
+    },
+    "5104.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 215.0,
+        "Crónicos": 144.0,
+        "Embaraz.": 5.0,
+        "Cuid./Func. ELEAM": 3.0,
+        "P. Salud Público": 32.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 399.0,
+        "Personas de 60 y más años.1": 27.0,
+        "Crónicos.1": 32.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 18.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 2.0,
+        "TOTAL.1": 79.0,
+        "Personas de 60 y más años.2": 0.12558139534883722,
+        "Crónicos.2": 0.2222222222222222,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.5625,
+        "TOTAL.2": 0.19799498746867167
+      },
+      "Poblacion_Objetivo": 399.0
+    },
+    "5201.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 1096.0,
+        "Crónicos": 413.0,
+        "Embaraz.": 83.0,
+        "Cuid./Func. ELEAM": 32.0,
+        "P. Salud Público": 241.0,
+        "P. Salud Privado": 14.0,
+        "TOTAL": 1879.0,
+        "Personas de 60 y más años.1": 159.0,
+        "Crónicos.1": 110.0,
+        "Embaraz..1": 10.0,
+        "Cuid./Func. ELEAM.1": 3.0,
+        "P. Salud Público.1": 36.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 318.0,
+        "Personas de 60 y más años.2": 0.14507299270072993,
+        "Crónicos.2": 0.26634382566585957,
+        "Embaraz..2": 0.12048192771084337,
+        "Cuid./Func. ELEAM.2": 0.09375,
+        "P. Salud Público.2": 0.14937759336099585,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.1692389568919638
+      },
+      "Poblacion_Objetivo": 1879.0
+    },
+    "5601.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 21923.0,
+        "Crónicos": 10862.0,
+        "Embaraz.": 701.0,
+        "Cuid./Func. ELEAM": 741.0,
+        "P. Salud Público": 2279.0,
+        "P. Salud Privado": 354.0,
+        "TOTAL": 36860.0,
+        "Personas de 60 y más años.1": 2322.0,
+        "Crónicos.1": 833.0,
+        "Embaraz..1": 10.0,
+        "Cuid./Func. ELEAM.1": 24.0,
+        "P. Salud Público.1": 352.0,
+        "P. Salud Privado.1": 112.0,
+        "Otros": 2.0,
+        "TOTAL.1": 3655.0,
+        "Personas de 60 y más años.2": 0.10591616110933723,
+        "Crónicos.2": 0.07668937580556066,
+        "Embaraz..2": 0.014265335235378032,
+        "Cuid./Func. ELEAM.2": 0.032388663967611336,
+        "P. Salud Público.2": 0.15445370776656428,
+        "P. Salud Privado.2": 0.3163841807909605,
+        "TOTAL.2": 0.0991589799240369
+      },
+      "Poblacion_Objetivo": 36860.0
+    },
+    "5602.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 4994.0,
+        "Crónicos": 2155.0,
+        "Embaraz.": 120.0,
+        "Cuid./Func. ELEAM": 36.0,
+        "P. Salud Público": 210.0,
+        "P. Salud Privado": 15.0,
+        "TOTAL": 7530.0,
+        "Personas de 60 y más años.1": 628.0,
+        "Crónicos.1": 112.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 4.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 748.0,
+        "Personas de 60 y más años.2": 0.12575090108129755,
+        "Crónicos.2": 0.05197215777262181,
+        "Embaraz..2": 0.016666666666666666,
+        "Cuid./Func. ELEAM.2": 0.027777777777777776,
+        "P. Salud Público.2": 0.01904761904761905,
+        "P. Salud Privado.2": 0.06666666666666667,
+        "TOTAL.2": 0.09933598937583002
+      },
+      "Poblacion_Objetivo": 7530.0
+    },
+    "5603.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 7560.0,
+        "Crónicos": 2498.0,
+        "Embaraz.": 184.0,
+        "Cuid./Func. ELEAM": 76.0,
+        "P. Salud Público": 234.0,
+        "P. Salud Privado": 25.0,
+        "TOTAL": 10577.0,
+        "Personas de 60 y más años.1": 1514.0,
+        "Crónicos.1": 483.0,
+        "Embaraz..1": 4.0,
+        "Cuid./Func. ELEAM.1": 10.0,
+        "P. Salud Público.1": 51.0,
+        "P. Salud Privado.1": 4.0,
+        "Otros": 0.0,
+        "TOTAL.1": 2066.0,
+        "Personas de 60 y más años.2": 0.20026455026455026,
+        "Crónicos.2": 0.1933546837469976,
+        "Embaraz..2": 0.021739130434782608,
+        "Cuid./Func. ELEAM.2": 0.13157894736842105,
+        "P. Salud Público.2": 0.21794871794871795,
+        "P. Salud Privado.2": 0.16,
+        "TOTAL.2": 0.19532948851281082
+      },
+      "Poblacion_Objetivo": 10577.0
+    },
+    "5604.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 6299.0,
+        "Crónicos": 1312.0,
+        "Embaraz.": 135.0,
+        "Cuid./Func. ELEAM": 196.0,
+        "P. Salud Público": 254.0,
+        "P. Salud Privado": 23.0,
+        "TOTAL": 8219.0,
+        "Personas de 60 y más años.1": 1979.0,
+        "Crónicos.1": 367.0,
+        "Embaraz..1": 3.0,
+        "Cuid./Func. ELEAM.1": 27.0,
+        "P. Salud Público.1": 90.0,
+        "P. Salud Privado.1": 10.0,
+        "Otros": 1.0,
+        "TOTAL.1": 2477.0,
+        "Personas de 60 y más años.2": 0.3141768534688046,
+        "Crónicos.2": 0.27972560975609756,
+        "Embaraz..2": 0.022222222222222223,
+        "Cuid./Func. ELEAM.2": 0.1377551020408163,
+        "P. Salud Público.2": 0.3543307086614173,
+        "P. Salud Privado.2": 0.43478260869565216,
+        "TOTAL.2": 0.3013748631220343
+      },
+      "Poblacion_Objetivo": 8219.0
+    },
+    "5605.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 5272.0,
+        "Crónicos": 1484.0,
+        "Embaraz.": 114.0,
+        "Cuid./Func. ELEAM": 107.0,
+        "P. Salud Público": 196.0,
+        "P. Salud Privado": 11.0,
+        "TOTAL": 7184.0,
+        "Personas de 60 y más años.1": 1107.0,
+        "Crónicos.1": 259.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 7.0,
+        "P. Salud Público.1": 53.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1429.0,
+        "Personas de 60 y más años.2": 0.2099772382397572,
+        "Crónicos.2": 0.17452830188679244,
+        "Embaraz..2": 0.008771929824561403,
+        "Cuid./Func. ELEAM.2": 0.06542056074766354,
+        "P. Salud Público.2": 0.27040816326530615,
+        "P. Salud Privado.2": 0.18181818181818182,
+        "TOTAL.2": 0.1989142538975501
+      },
+      "Poblacion_Objetivo": 7184.0
+    },
+    "5606.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 2931.0,
+        "Crónicos": 1529.0,
+        "Embaraz.": 94.0,
+        "Cuid./Func. ELEAM": 101.0,
+        "P. Salud Público": 134.0,
+        "P. Salud Privado": 35.0,
+        "TOTAL": 4824.0,
+        "Personas de 60 y más años.1": 965.0,
+        "Crónicos.1": 274.0,
+        "Embaraz..1": 6.0,
+        "Cuid./Func. ELEAM.1": 11.0,
+        "P. Salud Público.1": 33.0,
+        "P. Salud Privado.1": 9.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1298.0,
+        "Personas de 60 y más años.2": 0.3292391675196179,
+        "Crónicos.2": 0.17920209287115763,
+        "Embaraz..2": 0.06382978723404255,
+        "Cuid./Func. ELEAM.2": 0.10891089108910891,
+        "P. Salud Público.2": 0.2462686567164179,
+        "P. Salud Privado.2": 0.2571428571428571,
+        "TOTAL.2": 0.26907131011608626
+      },
+      "Poblacion_Objetivo": 4824.0
+    },
+    "5103.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 10090.0,
+        "Crónicos": 5668.0,
+        "Embaraz.": 382.0,
+        "Cuid./Func. ELEAM": 242.0,
+        "P. Salud Público": 433.0,
+        "P. Salud Privado": 351.0,
+        "TOTAL": 17166.0,
+        "Personas de 60 y más años.1": 2284.0,
+        "Crónicos.1": 661.0,
+        "Embaraz..1": 12.0,
+        "Cuid./Func. ELEAM.1": 11.0,
+        "P. Salud Público.1": 27.0,
+        "P. Salud Privado.1": 7.0,
+        "Otros": 1.0,
+        "TOTAL.1": 3003.0,
+        "Personas de 60 y más años.2": 0.2263627353815659,
+        "Crónicos.2": 0.1166196189131969,
+        "Embaraz..2": 0.031413612565445025,
+        "Cuid./Func. ELEAM.2": 0.045454545454545456,
+        "P. Salud Público.2": 0.06235565819861432,
+        "P. Salud Privado.2": 0.019943019943019943,
+        "TOTAL.2": 0.17493883257602236
+      },
+      "Poblacion_Objetivo": 17166.0
+    },
+    "5105.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 5263.0,
+        "Crónicos": 3298.0,
+        "Embaraz.": 193.0,
+        "Cuid./Func. ELEAM": 28.0,
+        "P. Salud Público": 182.0,
+        "P. Salud Privado": 28.0,
+        "TOTAL": 8992.0,
+        "Personas de 60 y más años.1": 812.0,
+        "Crónicos.1": 258.0,
+        "Embaraz..1": 3.0,
+        "Cuid./Func. ELEAM.1": 5.0,
+        "P. Salud Público.1": 17.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 3.0,
+        "TOTAL.1": 1099.0,
+        "Personas de 60 y más años.2": 0.15428462853885616,
+        "Crónicos.2": 0.0782292298362644,
+        "Embaraz..2": 0.015544041450777202,
+        "Cuid./Func. ELEAM.2": 0.17857142857142858,
+        "P. Salud Público.2": 0.09340659340659341,
+        "P. Salud Privado.2": 0.03571428571428571,
+        "TOTAL.2": 0.12221975088967972
+      },
+      "Poblacion_Objetivo": 8992.0
+    },
+    "5107.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 8869.0,
+        "Crónicos": 2924.0,
+        "Embaraz.": 258.0,
+        "Cuid./Func. ELEAM": 142.0,
+        "P. Salud Público": 512.0,
+        "P. Salud Privado": 65.0,
+        "TOTAL": 12770.0,
+        "Personas de 60 y más años.1": 918.0,
+        "Crónicos.1": 319.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 31.0,
+        "P. Salud Público.1": 59.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1330.0,
+        "Personas de 60 y más años.2": 0.10350659600856918,
+        "Crónicos.2": 0.10909712722298222,
+        "Embaraz..2": 0.003875968992248062,
+        "Cuid./Func. ELEAM.2": 0.21830985915492956,
+        "P. Salud Público.2": 0.115234375,
+        "P. Salud Privado.2": 0.03076923076923077,
+        "TOTAL.2": 0.10415035238841033
+      },
+      "Poblacion_Objetivo": 12770.0
+    },
+    "5109.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 91969.0,
+        "Crónicos": 26412.0,
+        "Embaraz.": 2155.0,
+        "Cuid./Func. ELEAM": 2504.0,
+        "P. Salud Público": 7827.0,
+        "P. Salud Privado": 4968.0,
+        "TOTAL": 135835.0,
+        "Personas de 60 y más años.1": 9575.0,
+        "Crónicos.1": 4630.0,
+        "Embaraz..1": 32.0,
+        "Cuid./Func. ELEAM.1": 618.0,
+        "P. Salud Público.1": 1620.0,
+        "P. Salud Privado.1": 912.0,
+        "Otros": 40.0,
+        "TOTAL.1": 17427.0,
+        "Personas de 60 y más años.2": 0.10411116789352934,
+        "Crónicos.2": 0.17529910646675753,
+        "Embaraz..2": 0.014849187935034803,
+        "Cuid./Func. ELEAM.2": 0.24680511182108625,
+        "P. Salud Público.2": 0.20697585281717132,
+        "P. Salud Privado.2": 0.18357487922705315,
+        "TOTAL.2": 0.12829535833916147
+      },
+      "Poblacion_Objetivo": 135835.0
+    },
+    "5401.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 8898.0,
+        "Crónicos": 3283.0,
+        "Embaraz.": 241.0,
+        "Cuid./Func. ELEAM": 302.0,
+        "P. Salud Público": 521.0,
+        "P. Salud Privado": 65.0,
+        "TOTAL": 13310.0,
+        "Personas de 60 y más años.1": 744.0,
+        "Crónicos.1": 446.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 16.0,
+        "P. Salud Público.1": 25.0,
+        "P. Salud Privado.1": 19.0,
+        "Otros": 2.0,
+        "TOTAL.1": 1253.0,
+        "Personas de 60 y más años.2": 0.08361429534726905,
+        "Crónicos.2": 0.13585135546756016,
+        "Embaraz..2": 0.004149377593360996,
+        "Cuid./Func. ELEAM.2": 0.052980132450331126,
+        "P. Salud Público.2": 0.04798464491362764,
+        "P. Salud Privado.2": 0.2923076923076923,
+        "TOTAL.2": 0.0941397445529677
+      },
+      "Poblacion_Objetivo": 13310.0
+    },
+    "5402.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 4509.0,
+        "Crónicos": 1703.0,
+        "Embaraz.": 121.0,
+        "Cuid./Func. ELEAM": 117.0,
+        "P. Salud Público": 224.0,
+        "P. Salud Privado": 13.0,
+        "TOTAL": 6687.0,
+        "Personas de 60 y más años.1": 639.0,
+        "Crónicos.1": 235.0,
+        "Embaraz..1": 3.0,
+        "Cuid./Func. ELEAM.1": 4.0,
+        "P. Salud Público.1": 37.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 2.0,
+        "TOTAL.1": 922.0,
+        "Personas de 60 y más años.2": 0.14171656686626746,
+        "Crónicos.2": 0.13799177921315325,
+        "Embaraz..2": 0.024793388429752067,
+        "Cuid./Func. ELEAM.2": 0.03418803418803419,
+        "P. Salud Público.2": 0.16517857142857142,
+        "P. Salud Privado.2": 0.15384615384615385,
+        "TOTAL.2": 0.13787946762374756
+      },
+      "Poblacion_Objetivo": 6687.0
+    },
+    "5403.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 1498.0,
+        "Crónicos": 1477.0,
+        "Embaraz.": 62.0,
+        "Cuid./Func. ELEAM": 10.0,
+        "P. Salud Público": 95.0,
+        "P. Salud Privado": 3.0,
+        "TOTAL": 3145.0,
+        "Personas de 60 y más años.1": 394.0,
+        "Crónicos.1": 213.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 7.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 1.0,
+        "TOTAL.1": 618.0,
+        "Personas de 60 y más años.2": 0.2630173564753004,
+        "Crónicos.2": 0.14421123899796887,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.1,
+        "P. Salud Público.2": 0.07368421052631578,
+        "P. Salud Privado.2": 0.6666666666666666,
+        "TOTAL.2": 0.19650238473767886
+      },
+      "Poblacion_Objetivo": 3145.0
+    },
+    "5404.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 2652.0,
+        "Crónicos": 1191.0,
+        "Embaraz.": 73.0,
+        "Cuid./Func. ELEAM": 35.0,
+        "P. Salud Público": 203.0,
+        "P. Salud Privado": 2.0,
+        "TOTAL": 4156.0,
+        "Personas de 60 y más años.1": 191.0,
+        "Crónicos.1": 102.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 3.0,
+        "P. Salud Público.1": 22.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 0.0,
+        "TOTAL.1": 320.0,
+        "Personas de 60 y más años.2": 0.07202111613876319,
+        "Crónicos.2": 0.08564231738035265,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.08571428571428572,
+        "P. Salud Público.2": 0.10837438423645321,
+        "P. Salud Privado.2": 1.0,
+        "TOTAL.2": 0.07699711260827719
+      },
+      "Poblacion_Objetivo": 4156.0
+    },
+    "5405.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 2059.0,
+        "Crónicos": 964.0,
+        "Embaraz.": 63.0,
+        "Cuid./Func. ELEAM": 42.0,
+        "P. Salud Público": 132.0,
+        "P. Salud Privado": 21.0,
+        "TOTAL": 3281.0,
+        "Personas de 60 y más años.1": 629.0,
+        "Crónicos.1": 171.0,
+        "Embaraz..1": 3.0,
+        "Cuid./Func. ELEAM.1": 17.0,
+        "P. Salud Público.1": 13.0,
+        "P. Salud Privado.1": 3.0,
+        "Otros": 0.0,
+        "TOTAL.1": 836.0,
+        "Personas de 60 y más años.2": 0.3054881010199126,
+        "Crónicos.2": 0.17738589211618258,
+        "Embaraz..2": 0.047619047619047616,
+        "Cuid./Func. ELEAM.2": 0.40476190476190477,
+        "P. Salud Público.2": 0.09848484848484848,
+        "P. Salud Privado.2": 0.14285714285714285,
+        "TOTAL.2": 0.25480036574215176
+      },
+      "Poblacion_Objetivo": 3281.0
+    },
+    "5501.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 23081.0,
+        "Crónicos": 8986.0,
+        "Embaraz.": 676.0,
+        "Cuid./Func. ELEAM": 850.0,
+        "P. Salud Público": 3119.0,
+        "P. Salud Privado": 407.0,
+        "TOTAL": 37119.0,
+        "Personas de 60 y más años.1": 2031.0,
+        "Crónicos.1": 889.0,
+        "Embaraz..1": 6.0,
+        "Cuid./Func. ELEAM.1": 147.0,
+        "P. Salud Público.1": 436.0,
+        "P. Salud Privado.1": 41.0,
+        "Otros": 2.0,
+        "TOTAL.1": 3552.0,
+        "Personas de 60 y más años.2": 0.08799445431307136,
+        "Crónicos.2": 0.09893167148898287,
+        "Embaraz..2": 0.008875739644970414,
+        "Cuid./Func. ELEAM.2": 0.17294117647058824,
+        "P. Salud Público.2": 0.1397883937159346,
+        "P. Salud Privado.2": 0.10073710073710074,
+        "TOTAL.2": 0.09569223308817587
+      },
+      "Poblacion_Objetivo": 37119.0
+    },
+    "5502.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 12135.0,
+        "Crónicos": 5650.0,
+        "Embaraz.": 340.0,
+        "Cuid./Func. ELEAM": 135.0,
+        "P. Salud Público": 687.0,
+        "P. Salud Privado": 189.0,
+        "TOTAL": 19136.0,
+        "Personas de 60 y más años.1": 1326.0,
+        "Crónicos.1": 862.0,
+        "Embaraz..1": 5.0,
+        "Cuid./Func. ELEAM.1": 27.0,
+        "P. Salud Público.1": 109.0,
+        "P. Salud Privado.1": 16.0,
+        "Otros": 1.0,
+        "TOTAL.1": 2346.0,
+        "Personas de 60 y más años.2": 0.1092707045735476,
+        "Crónicos.2": 0.15256637168141593,
+        "Embaraz..2": 0.014705882352941176,
+        "Cuid./Func. ELEAM.2": 0.2,
+        "P. Salud Público.2": 0.1586608442503639,
+        "P. Salud Privado.2": 0.08465608465608465,
+        "TOTAL.2": 0.12259615384615384
+      },
+      "Poblacion_Objetivo": 19136.0
+    },
+    "5503.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 4003.0,
+        "Crónicos": 1968.0,
+        "Embaraz.": 167.0,
+        "Cuid./Func. ELEAM": 69.0,
+        "P. Salud Público": 202.0,
+        "P. Salud Privado": 26.0,
+        "TOTAL": 6435.0,
+        "Personas de 60 y más años.1": 850.0,
+        "Crónicos.1": 517.0,
+        "Embaraz..1": 3.0,
+        "Cuid./Func. ELEAM.1": 14.0,
+        "P. Salud Público.1": 59.0,
+        "P. Salud Privado.1": 7.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1450.0,
+        "Personas de 60 y más años.2": 0.21234074444166876,
+        "Crónicos.2": 0.2627032520325203,
+        "Embaraz..2": 0.017964071856287425,
+        "Cuid./Func. ELEAM.2": 0.2028985507246377,
+        "P. Salud Público.2": 0.29207920792079206,
+        "P. Salud Privado.2": 0.2692307692307692,
+        "TOTAL.2": 0.22533022533022534
+      },
+      "Poblacion_Objetivo": 6435.0
+    },
+    "5504.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 5088.0,
+        "Crónicos": 4950.0,
+        "Embaraz.": 186.0,
+        "Cuid./Func. ELEAM": 25.0,
+        "P. Salud Público": 296.0,
+        "P. Salud Privado": 37.0,
+        "TOTAL": 10582.0,
+        "Personas de 60 y más años.1": 424.0,
+        "Crónicos.1": 485.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 12.0,
+        "P. Salud Público.1": 53.0,
+        "P. Salud Privado.1": 15.0,
+        "Otros": 0.0,
+        "TOTAL.1": 990.0,
+        "Personas de 60 y más años.2": 0.08333333333333333,
+        "Crónicos.2": 0.09797979797979799,
+        "Embaraz..2": 0.005376344086021506,
+        "Cuid./Func. ELEAM.2": 0.48,
+        "P. Salud Público.2": 0.17905405405405406,
+        "P. Salud Privado.2": 0.40540540540540543,
+        "TOTAL.2": 0.09355509355509356
+      },
+      "Poblacion_Objetivo": 10582.0
+    },
+    "5506.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 5333.0,
+        "Crónicos": 2977.0,
+        "Embaraz.": 126.0,
+        "Cuid./Func. ELEAM": 131.0,
+        "P. Salud Público": 188.0,
+        "P. Salud Privado": 27.0,
+        "TOTAL": 8782.0,
+        "Personas de 60 y más años.1": 764.0,
+        "Crónicos.1": 388.0,
+        "Embaraz..1": 3.0,
+        "Cuid./Func. ELEAM.1": 28.0,
+        "P. Salud Público.1": 49.0,
+        "P. Salud Privado.1": 21.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1253.0,
+        "Personas de 60 y más años.2": 0.14325895368460528,
+        "Crónicos.2": 0.13033254954652335,
+        "Embaraz..2": 0.023809523809523808,
+        "Cuid./Func. ELEAM.2": 0.21374045801526717,
+        "P. Salud Público.2": 0.26063829787234044,
+        "P. Salud Privado.2": 0.7777777777777778,
+        "TOTAL.2": 0.14267820542017765
+      },
+      "Poblacion_Objetivo": 8782.0
+    },
+    "5801.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 42857.0,
+        "Crónicos": 11319.0,
+        "Embaraz.": 906.0,
+        "Cuid./Func. ELEAM": 914.0,
+        "P. Salud Público": 2165.0,
+        "P. Salud Privado": 771.0,
+        "TOTAL": 58932.0,
+        "Personas de 60 y más años.1": 5788.0,
+        "Crónicos.1": 2028.0,
+        "Embaraz..1": 34.0,
+        "Cuid./Func. ELEAM.1": 104.0,
+        "P. Salud Público.1": 456.0,
+        "P. Salud Privado.1": 239.0,
+        "Otros": 15.0,
+        "TOTAL.1": 8664.0,
+        "Personas de 60 y más años.2": 0.1350537835126117,
+        "Crónicos.2": 0.1791677710045057,
+        "Embaraz..2": 0.037527593818984545,
+        "Cuid./Func. ELEAM.2": 0.1137855579868709,
+        "P. Salud Público.2": 0.21062355658198614,
+        "P. Salud Privado.2": 0.3099870298313878,
+        "TOTAL.2": 0.14701690083486052
+      },
+      "Poblacion_Objetivo": 58932.0
+    },
+    "5802.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 12034.0,
+        "Crónicos": 3470.0,
+        "Embaraz.": 372.0,
+        "Cuid./Func. ELEAM": 296.0,
+        "P. Salud Público": 811.0,
+        "P. Salud Privado": 264.0,
+        "TOTAL": 17247.0,
+        "Personas de 60 y más años.1": 1580.0,
+        "Crónicos.1": 411.0,
+        "Embaraz..1": 5.0,
+        "Cuid./Func. ELEAM.1": 45.0,
+        "P. Salud Público.1": 92.0,
+        "P. Salud Privado.1": 66.0,
+        "Otros": 0.0,
+        "TOTAL.1": 2199.0,
+        "Personas de 60 y más años.2": 0.13129466511550605,
+        "Crónicos.2": 0.11844380403458213,
+        "Embaraz..2": 0.013440860215053764,
+        "Cuid./Func. ELEAM.2": 0.15202702702702703,
+        "P. Salud Público.2": 0.11344019728729964,
+        "P. Salud Privado.2": 0.25,
+        "TOTAL.2": 0.12750043485823623
+      },
+      "Poblacion_Objetivo": 17247.0
+    },
+    "5803.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 5437.0,
+        "Crónicos": 1864.0,
+        "Embaraz.": 130.0,
+        "Cuid./Func. ELEAM": 76.0,
+        "P. Salud Público": 185.0,
+        "P. Salud Privado": 9.0,
+        "TOTAL": 7701.0,
+        "Personas de 60 y más años.1": 550.0,
+        "Crónicos.1": 135.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 4.0,
+        "P. Salud Público.1": 12.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 702.0,
+        "Personas de 60 y más años.2": 0.10115872723928637,
+        "Crónicos.2": 0.07242489270386267,
+        "Embaraz..2": 0.007692307692307693,
+        "Cuid./Func. ELEAM.2": 0.05263157894736842,
+        "P. Salud Público.2": 0.06486486486486487,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.09115699259836385
+      },
+      "Poblacion_Objetivo": 7701.0
+    },
+    "5804.0": {
+      "Criterios": {
+        "Región": 5.0,
+        "Personas de 60 y más años": 33216.0,
+        "Crónicos": 9309.0,
+        "Embaraz.": 855.0,
+        "Cuid./Func. ELEAM": 1348.0,
+        "P. Salud Público": 1496.0,
+        "P. Salud Privado": 435.0,
+        "TOTAL": 46659.0,
+        "Personas de 60 y más años.1": 3378.0,
+        "Crónicos.1": 1019.0,
+        "Embaraz..1": 9.0,
+        "Cuid./Func. ELEAM.1": 101.0,
+        "P. Salud Público.1": 163.0,
+        "P. Salud Privado.1": 47.0,
+        "Otros": 2.0,
+        "TOTAL.1": 4719.0,
+        "Personas de 60 y más años.2": 0.10169797687861272,
+        "Crónicos.2": 0.10946395960898056,
+        "Embaraz..2": 0.010526315789473684,
+        "Cuid./Func. ELEAM.2": 0.07492581602373888,
+        "P. Salud Público.2": 0.1089572192513369,
+        "P. Salud Privado.2": 0.10804597701149425,
+        "TOTAL.2": 0.1011380441072462
+      },
+      "Poblacion_Objetivo": 46659.0
+    },
+    "13101.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 71390.0,
+        "Crónicos": 31477.0,
+        "Embaraz.": 3155.0,
+        "Cuid./Func. ELEAM": 2114.0,
+        "P. Salud Público": 13335.0,
+        "P. Salud Privado": 7649.0,
+        "TOTAL": 129120.0,
+        "Personas de 60 y más años.1": 23261.0,
+        "Crónicos.1": 23340.0,
+        "Embaraz..1": 638.0,
+        "Cuid./Func. ELEAM.1": 2485.0,
+        "P. Salud Público.1": 6047.0,
+        "P. Salud Privado.1": 3494.0,
+        "Otros": 182.0,
+        "TOTAL.1": 59447.0,
+        "Personas de 60 y más años.2": 0.3258299481720129,
+        "Crónicos.2": 0.7414937891158624,
+        "Embaraz..2": 0.2022187004754358,
+        "Cuid./Func. ELEAM.2": 1.1754966887417218,
+        "P. Salud Público.2": 0.45346831646044244,
+        "P. Salud Privado.2": 0.4567917374820238,
+        "TOTAL.2": 0.46040117719950435
+      },
+      "Poblacion_Objetivo": 129120.0
+    },
+    "13102.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 16917.0,
+        "Crónicos": 9908.0,
+        "Embaraz.": 620.0,
+        "Cuid./Func. ELEAM": 336.0,
+        "P. Salud Público": 779.0,
+        "P. Salud Privado": 123.0,
+        "TOTAL": 28683.0,
+        "Personas de 60 y más años.1": 5002.0,
+        "Crónicos.1": 3731.0,
+        "Embaraz..1": 50.0,
+        "Cuid./Func. ELEAM.1": 243.0,
+        "P. Salud Público.1": 341.0,
+        "P. Salud Privado.1": 46.0,
+        "Otros": 5.0,
+        "TOTAL.1": 9418.0,
+        "Personas de 60 y más años.2": 0.29567890287876103,
+        "Crónicos.2": 0.3765643924101736,
+        "Embaraz..2": 0.08064516129032258,
+        "Cuid./Func. ELEAM.2": 0.7232142857142857,
+        "P. Salud Público.2": 0.43774069319640563,
+        "P. Salud Privado.2": 0.37398373983739835,
+        "TOTAL.2": 0.3283478018338389
+      },
+      "Poblacion_Objetivo": 28683.0
+    },
+    "13106.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 42418.0,
+        "Crónicos": 17127.0,
+        "Embaraz.": 1515.0,
+        "Cuid./Func. ELEAM": 679.0,
+        "P. Salud Público": 1678.0,
+        "P. Salud Privado": 4165.0,
+        "TOTAL": 67582.0,
+        "Personas de 60 y más años.1": 7967.0,
+        "Crónicos.1": 11874.0,
+        "Embaraz..1": 136.0,
+        "Cuid./Func. ELEAM.1": 264.0,
+        "P. Salud Público.1": 1603.0,
+        "P. Salud Privado.1": 1645.0,
+        "Otros": 17.0,
+        "TOTAL.1": 23506.0,
+        "Personas de 60 y más años.2": 0.1878212079777453,
+        "Crónicos.2": 0.6932912944473638,
+        "Embaraz..2": 0.08976897689768977,
+        "Cuid./Func. ELEAM.2": 0.38880706921944036,
+        "P. Salud Público.2": 0.9553039332538736,
+        "P. Salud Privado.2": 0.3949579831932773,
+        "TOTAL.2": 0.34781450682134296
+      },
+      "Poblacion_Objetivo": 67582.0
+    },
+    "13119.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 101382.0,
+        "Crónicos": 46085.0,
+        "Embaraz.": 2914.0,
+        "Cuid./Func. ELEAM": 901.0,
+        "P. Salud Público": 6195.0,
+        "P. Salud Privado": 1597.0,
+        "TOTAL": 159074.0,
+        "Personas de 60 y más años.1": 31039.0,
+        "Crónicos.1": 14201.0,
+        "Embaraz..1": 266.0,
+        "Cuid./Func. ELEAM.1": 654.0,
+        "P. Salud Público.1": 2862.0,
+        "P. Salud Privado.1": 937.0,
+        "Otros": 12.0,
+        "TOTAL.1": 49971.0,
+        "Personas de 60 y más años.2": 0.30615888422007853,
+        "Crónicos.2": 0.30814798741456007,
+        "Embaraz..2": 0.091283459162663,
+        "Cuid./Func. ELEAM.2": 0.7258601553829079,
+        "P. Salud Público.2": 0.46198547215496366,
+        "P. Salud Privado.2": 0.5867251095804634,
+        "TOTAL.2": 0.31413681682738853
+      },
+      "Poblacion_Objetivo": 159074.0
+    },
+    "13104.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 29694.0,
+        "Crónicos": 9351.0,
+        "Embaraz.": 780.0,
+        "Cuid./Func. ELEAM": 1180.0,
+        "P. Salud Público": 1239.0,
+        "P. Salud Privado": 248.0,
+        "TOTAL": 42492.0,
+        "Personas de 60 y más años.1": 6510.0,
+        "Crónicos.1": 1972.0,
+        "Embaraz..1": 63.0,
+        "Cuid./Func. ELEAM.1": 100.0,
+        "P. Salud Público.1": 477.0,
+        "P. Salud Privado.1": 53.0,
+        "Otros": 1.0,
+        "TOTAL.1": 9176.0,
+        "Personas de 60 y más años.2": 0.21923620933521923,
+        "Crónicos.2": 0.21088653619933698,
+        "Embaraz..2": 0.08076923076923077,
+        "Cuid./Func. ELEAM.2": 0.0847457627118644,
+        "P. Salud Público.2": 0.38498789346246975,
+        "P. Salud Privado.2": 0.21370967741935484,
+        "TOTAL.2": 0.21594653111173867
+      },
+      "Poblacion_Objetivo": 42492.0
+    },
+    "13107.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 18382.0,
+        "Crónicos": 14184.0,
+        "Embaraz.": 704.0,
+        "Cuid./Func. ELEAM": 369.0,
+        "P. Salud Público": 874.0,
+        "P. Salud Privado": 758.0,
+        "TOTAL": 35271.0,
+        "Personas de 60 y más años.1": 5555.0,
+        "Crónicos.1": 6212.0,
+        "Embaraz..1": 75.0,
+        "Cuid./Func. ELEAM.1": 323.0,
+        "P. Salud Público.1": 482.0,
+        "P. Salud Privado.1": 261.0,
+        "Otros": 14.0,
+        "TOTAL.1": 12922.0,
+        "Personas de 60 y más años.2": 0.3021978021978022,
+        "Crónicos.2": 0.4379582628313593,
+        "Embaraz..2": 0.10653409090909091,
+        "Cuid./Func. ELEAM.2": 0.8753387533875339,
+        "P. Salud Público.2": 0.551487414187643,
+        "P. Salud Privado.2": 0.34432717678100266,
+        "TOTAL.2": 0.366363301295682
+      },
+      "Poblacion_Objetivo": 35271.0
+    },
+    "13108.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 27309.0,
+        "Crónicos": 9005.0,
+        "Embaraz.": 963.0,
+        "Cuid./Func. ELEAM": 1468.0,
+        "P. Salud Público": 7438.0,
+        "P. Salud Privado": 4528.0,
+        "TOTAL": 50711.0,
+        "Personas de 60 y más años.1": 7441.0,
+        "Crónicos.1": 5224.0,
+        "Embaraz..1": 108.0,
+        "Cuid./Func. ELEAM.1": 1301.0,
+        "P. Salud Público.1": 4618.0,
+        "P. Salud Privado.1": 2242.0,
+        "Otros": 6.0,
+        "TOTAL.1": 20940.0,
+        "Personas de 60 y más años.2": 0.2724742758797466,
+        "Crónicos.2": 0.5801221543586896,
+        "Embaraz..2": 0.11214953271028037,
+        "Cuid./Func. ELEAM.2": 0.8862397820163488,
+        "P. Salud Público.2": 0.6208658241462759,
+        "P. Salud Privado.2": 0.49514134275618377,
+        "TOTAL.2": 0.41292816154286055
+      },
+      "Poblacion_Objetivo": 50711.0
+    },
+    "13125.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 30210.0,
+        "Crónicos": 22821.0,
+        "Embaraz.": 1433.0,
+        "Cuid./Func. ELEAM": 652.0,
+        "P. Salud Público": 1233.0,
+        "P. Salud Privado": 418.0,
+        "TOTAL": 56767.0,
+        "Personas de 60 y más años.1": 5456.0,
+        "Crónicos.1": 3870.0,
+        "Embaraz..1": 55.0,
+        "Cuid./Func. ELEAM.1": 82.0,
+        "P. Salud Público.1": 333.0,
+        "P. Salud Privado.1": 254.0,
+        "Otros": 28.0,
+        "TOTAL.1": 10078.0,
+        "Personas de 60 y más años.2": 0.1806024495200265,
+        "Crónicos.2": 0.1695806494018667,
+        "Embaraz..2": 0.03838101884159107,
+        "Cuid./Func. ELEAM.2": 0.12576687116564417,
+        "P. Salud Público.2": 0.27007299270072993,
+        "P. Salud Privado.2": 0.6076555023923444,
+        "TOTAL.2": 0.17753272147550514
+      },
+      "Poblacion_Objetivo": 56767.0
+    },
+    "13127.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 40666.0,
+        "Crónicos": 13399.0,
+        "Embaraz.": 1084.0,
+        "Cuid./Func. ELEAM": 1042.0,
+        "P. Salud Público": 1660.0,
+        "P. Salud Privado": 3639.0,
+        "TOTAL": 61490.0,
+        "Personas de 60 y más años.1": 7854.0,
+        "Crónicos.1": 3879.0,
+        "Embaraz..1": 42.0,
+        "Cuid./Func. ELEAM.1": 174.0,
+        "P. Salud Público.1": 771.0,
+        "P. Salud Privado.1": 1410.0,
+        "Otros": 13.0,
+        "TOTAL.1": 14143.0,
+        "Personas de 60 y más años.2": 0.1931343136772734,
+        "Crónicos.2": 0.2894992163594298,
+        "Embaraz..2": 0.03874538745387454,
+        "Cuid./Func. ELEAM.2": 0.16698656429942418,
+        "P. Salud Público.2": 0.4644578313253012,
+        "P. Salud Privado.2": 0.38746908491343773,
+        "TOTAL.2": 0.23000487884208815
+      },
+      "Poblacion_Objetivo": 61490.0
+    },
+    "13301.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 22026.0,
+        "Crónicos": 12198.0,
+        "Embaraz.": 1565.0,
+        "Cuid./Func. ELEAM": 482.0,
+        "P. Salud Público": 1158.0,
+        "P. Salud Privado": 1127.0,
+        "TOTAL": 38556.0,
+        "Personas de 60 y más años.1": 4235.0,
+        "Crónicos.1": 2471.0,
+        "Embaraz..1": 103.0,
+        "Cuid./Func. ELEAM.1": 71.0,
+        "P. Salud Público.1": 309.0,
+        "P. Salud Privado.1": 295.0,
+        "Otros": 12.0,
+        "TOTAL.1": 7496.0,
+        "Personas de 60 y más años.2": 0.19227276854626352,
+        "Crónicos.2": 0.20257419249057224,
+        "Embaraz..2": 0.065814696485623,
+        "Cuid./Func. ELEAM.2": 0.14730290456431536,
+        "P. Salud Público.2": 0.266839378238342,
+        "P. Salud Privado.2": 0.26175687666370895,
+        "TOTAL.2": 0.19441850814399833
+      },
+      "Poblacion_Objetivo": 38556.0
+    },
+    "13302.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 15705.0,
+        "Crónicos": 8870.0,
+        "Embaraz.": 1279.0,
+        "Cuid./Func. ELEAM": 360.0,
+        "P. Salud Público": 733.0,
+        "P. Salud Privado": 204.0,
+        "TOTAL": 27151.0,
+        "Personas de 60 y más años.1": 2777.0,
+        "Crónicos.1": 2051.0,
+        "Embaraz..1": 34.0,
+        "Cuid./Func. ELEAM.1": 32.0,
+        "P. Salud Público.1": 146.0,
+        "P. Salud Privado.1": 71.0,
+        "Otros": 5.0,
+        "TOTAL.1": 5116.0,
+        "Personas de 60 y más años.2": 0.17682266794014645,
+        "Crónicos.2": 0.23122886133032694,
+        "Embaraz..2": 0.026583268178264268,
+        "Cuid./Func. ELEAM.2": 0.08888888888888889,
+        "P. Salud Público.2": 0.19918144611186903,
+        "P. Salud Privado.2": 0.3480392156862745,
+        "TOTAL.2": 0.1884276822216493
+      },
+      "Poblacion_Objetivo": 27151.0
+    },
+    "13303.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 3994.0,
+        "Crónicos": 1986.0,
+        "Embaraz.": 161.0,
+        "Cuid./Func. ELEAM": 73.0,
+        "P. Salud Público": 333.0,
+        "P. Salud Privado": 27.0,
+        "TOTAL": 6574.0,
+        "Personas de 60 y más años.1": 895.0,
+        "Crónicos.1": 476.0,
+        "Embaraz..1": 9.0,
+        "Cuid./Func. ELEAM.1": 23.0,
+        "P. Salud Público.1": 88.0,
+        "P. Salud Privado.1": 26.0,
+        "Otros": 1.0,
+        "TOTAL.1": 1518.0,
+        "Personas de 60 y más años.2": 0.22408612919379067,
+        "Crónicos.2": 0.23967774420946628,
+        "Embaraz..2": 0.055900621118012424,
+        "Cuid./Func. ELEAM.2": 0.3150684931506849,
+        "P. Salud Público.2": 0.26426426426426425,
+        "P. Salud Privado.2": 0.9629629629629629,
+        "TOTAL.2": 0.23090964405232736
+      },
+      "Poblacion_Objetivo": 6574.0
+    },
+    "13103.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 28030.0,
+        "Crónicos": 22680.0,
+        "Embaraz.": 996.0,
+        "Cuid./Func. ELEAM": 389.0,
+        "P. Salud Público": 905.0,
+        "P. Salud Privado": 93.0,
+        "TOTAL": 53093.0,
+        "Personas de 60 y más años.1": 4435.0,
+        "Crónicos.1": 3145.0,
+        "Embaraz..1": 30.0,
+        "Cuid./Func. ELEAM.1": 37.0,
+        "P. Salud Público.1": 168.0,
+        "P. Salud Privado.1": 14.0,
+        "Otros": 3.0,
+        "TOTAL.1": 7832.0,
+        "Personas de 60 y más años.2": 0.15822333214413128,
+        "Crónicos.2": 0.13866843033509701,
+        "Embaraz..2": 0.030120481927710843,
+        "Cuid./Func. ELEAM.2": 0.09511568123393316,
+        "P. Salud Público.2": 0.1856353591160221,
+        "P. Salud Privado.2": 0.15053763440860216,
+        "TOTAL.2": 0.1475147382894167
+      },
+      "Poblacion_Objetivo": 53093.0
+    },
+    "13117.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 23033.0,
+        "Crónicos": 14323.0,
+        "Embaraz.": 515.0,
+        "Cuid./Func. ELEAM": 1871.0,
+        "P. Salud Público": 1127.0,
+        "P. Salud Privado": 208.0,
+        "TOTAL": 41077.0,
+        "Personas de 60 y más años.1": 8937.0,
+        "Crónicos.1": 4762.0,
+        "Embaraz..1": 29.0,
+        "Cuid./Func. ELEAM.1": 480.0,
+        "P. Salud Público.1": 431.0,
+        "P. Salud Privado.1": 110.0,
+        "Otros": 18.0,
+        "TOTAL.1": 14767.0,
+        "Personas de 60 y más años.2": 0.38800850952980503,
+        "Crónicos.2": 0.33247224743419673,
+        "Embaraz..2": 0.05631067961165048,
+        "Cuid./Func. ELEAM.2": 0.256547300908605,
+        "P. Salud Público.2": 0.3824312333629104,
+        "P. Salud Privado.2": 0.5288461538461539,
+        "TOTAL.2": 0.35949558146894856
+      },
+      "Poblacion_Objetivo": 41077.0
+    },
+    "13124.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 40806.0,
+        "Crónicos": 38613.0,
+        "Embaraz.": 1422.0,
+        "Cuid./Func. ELEAM": 561.0,
+        "P. Salud Público": 2579.0,
+        "P. Salud Privado": 383.0,
+        "TOTAL": 84364.0,
+        "Personas de 60 y más años.1": 8598.0,
+        "Crónicos.1": 7725.0,
+        "Embaraz..1": 67.0,
+        "Cuid./Func. ELEAM.1": 222.0,
+        "P. Salud Público.1": 689.0,
+        "P. Salud Privado.1": 150.0,
+        "Otros": 1.0,
+        "TOTAL.1": 17452.0,
+        "Personas de 60 y más años.2": 0.21070430818997207,
+        "Crónicos.2": 0.20006215523269366,
+        "Embaraz..2": 0.047116736990154715,
+        "Cuid./Func. ELEAM.2": 0.39572192513368987,
+        "P. Salud Público.2": 0.26715781310585496,
+        "P. Salud Privado.2": 0.391644908616188,
+        "TOTAL.2": 0.20686548764876014
+      },
+      "Poblacion_Objetivo": 84364.0
+    },
+    "13126.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 29756.0,
+        "Crónicos": 11355.0,
+        "Embaraz.": 946.0,
+        "Cuid./Func. ELEAM": 657.0,
+        "P. Salud Público": 3898.0,
+        "P. Salud Privado": 183.0,
+        "TOTAL": 46795.0,
+        "Personas de 60 y más años.1": 4696.0,
+        "Crónicos.1": 2338.0,
+        "Embaraz..1": 22.0,
+        "Cuid./Func. ELEAM.1": 99.0,
+        "P. Salud Público.1": 1257.0,
+        "P. Salud Privado.1": 46.0,
+        "Otros": 3.0,
+        "TOTAL.1": 8461.0,
+        "Personas de 60 y más años.2": 0.15781691087511762,
+        "Crónicos.2": 0.20590048436811978,
+        "Embaraz..2": 0.023255813953488372,
+        "Cuid./Func. ELEAM.2": 0.1506849315068493,
+        "P. Salud Público.2": 0.3224730631092868,
+        "P. Salud Privado.2": 0.25136612021857924,
+        "TOTAL.2": 0.18080991558927237
+      },
+      "Poblacion_Objetivo": 46795.0
+    },
+    "13128.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 28461.0,
+        "Crónicos": 22381.0,
+        "Embaraz.": 1078.0,
+        "Cuid./Func. ELEAM": 236.0,
+        "P. Salud Público": 1041.0,
+        "P. Salud Privado": 49.0,
+        "TOTAL": 53246.0,
+        "Personas de 60 y más años.1": 6681.0,
+        "Crónicos.1": 6775.0,
+        "Embaraz..1": 29.0,
+        "Cuid./Func. ELEAM.1": 52.0,
+        "P. Salud Público.1": 476.0,
+        "P. Salud Privado.1": 38.0,
+        "Otros": 0.0,
+        "TOTAL.1": 14051.0,
+        "Personas de 60 y más años.2": 0.23474227890797933,
+        "Crónicos.2": 0.30271212188910235,
+        "Embaraz..2": 0.026901669758812616,
+        "Cuid./Func. ELEAM.2": 0.22033898305084745,
+        "P. Salud Público.2": 0.457252641690682,
+        "P. Salud Privado.2": 0.7755102040816326,
+        "TOTAL.2": 0.2638883672012921
+      },
+      "Poblacion_Objetivo": 53246.0
+    },
+    "13501.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 29013.0,
+        "Crónicos": 9476.0,
+        "Embaraz.": 1215.0,
+        "Cuid./Func. ELEAM": 547.0,
+        "P. Salud Público": 2214.0,
+        "P. Salud Privado": 676.0,
+        "TOTAL": 43141.0,
+        "Personas de 60 y más años.1": 3147.0,
+        "Crónicos.1": 1435.0,
+        "Embaraz..1": 64.0,
+        "Cuid./Func. ELEAM.1": 39.0,
+        "P. Salud Público.1": 361.0,
+        "P. Salud Privado.1": 141.0,
+        "Otros": 1.0,
+        "TOTAL.1": 5188.0,
+        "Personas de 60 y más años.2": 0.10846861751628581,
+        "Crónicos.2": 0.15143520472773322,
+        "Embaraz..2": 0.05267489711934156,
+        "Cuid./Func. ELEAM.2": 0.0712979890310786,
+        "P. Salud Público.2": 0.16305329719963865,
+        "P. Salud Privado.2": 0.20857988165680474,
+        "TOTAL.2": 0.12025683224774576
+      },
+      "Poblacion_Objetivo": 43141.0
+    },
+    "13502.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 1543.0,
+        "Crónicos": 1517.0,
+        "Embaraz.": 84.0,
+        "Cuid./Func. ELEAM": 81.0,
+        "P. Salud Público": 145.0,
+        "P. Salud Privado": 7.0,
+        "TOTAL": 3377.0,
+        "Personas de 60 y más años.1": 231.0,
+        "Crónicos.1": 166.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 9.0,
+        "P. Salud Público.1": 35.0,
+        "P. Salud Privado.1": 6.0,
+        "Otros": 2.0,
+        "TOTAL.1": 449.0,
+        "Personas de 60 y más años.2": 0.14970836033700582,
+        "Crónicos.2": 0.1094264996704021,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.1111111111111111,
+        "P. Salud Público.2": 0.2413793103448276,
+        "P. Salud Privado.2": 0.8571428571428571,
+        "TOTAL.2": 0.13295824696476163
+      },
+      "Poblacion_Objetivo": 3377.0
+    },
+    "13503.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 7758.0,
+        "Crónicos": 3487.0,
+        "Embaraz.": 241.0,
+        "Cuid./Func. ELEAM": 256.0,
+        "P. Salud Público": 374.0,
+        "P. Salud Privado": 64.0,
+        "TOTAL": 12180.0,
+        "Personas de 60 y más años.1": 1656.0,
+        "Crónicos.1": 772.0,
+        "Embaraz..1": 21.0,
+        "Cuid./Func. ELEAM.1": 74.0,
+        "P. Salud Público.1": 88.0,
+        "P. Salud Privado.1": 48.0,
+        "Otros": 1.0,
+        "TOTAL.1": 2660.0,
+        "Personas de 60 y más años.2": 0.21345707656612528,
+        "Crónicos.2": 0.22139374820762833,
+        "Embaraz..2": 0.08713692946058091,
+        "Cuid./Func. ELEAM.2": 0.2890625,
+        "P. Salud Público.2": 0.23529411764705882,
+        "P. Salud Privado.2": 0.75,
+        "TOTAL.2": 0.21839080459770116
+      },
+      "Poblacion_Objetivo": 12180.0
+    },
+    "13504.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 3109.0,
+        "Crónicos": 1215.0,
+        "Embaraz.": 118.0,
+        "Cuid./Func. ELEAM": 65.0,
+        "P. Salud Público": 145.0,
+        "P. Salud Privado": 22.0,
+        "TOTAL": 4674.0,
+        "Personas de 60 y más años.1": 573.0,
+        "Crónicos.1": 118.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 29.0,
+        "P. Salud Privado.1": 29.0,
+        "Otros": 0.0,
+        "TOTAL.1": 750.0,
+        "Personas de 60 y más años.2": 0.1843036346091991,
+        "Crónicos.2": 0.097119341563786,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.015384615384615385,
+        "P. Salud Público.2": 0.2,
+        "P. Salud Privado.2": 1.3181818181818181,
+        "TOTAL.2": 0.16046213093709885
+      },
+      "Poblacion_Objetivo": 4674.0
+    },
+    "13505.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 2883.0,
+        "Crónicos": 1343.0,
+        "Embaraz.": 116.0,
+        "Cuid./Func. ELEAM": 38.0,
+        "P. Salud Público": 178.0,
+        "P. Salud Privado": 22.0,
+        "TOTAL": 4580.0,
+        "Personas de 60 y más años.1": 418.0,
+        "Crónicos.1": 259.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 32.0,
+        "P. Salud Privado.1": 6.0,
+        "Otros": 0.0,
+        "TOTAL.1": 718.0,
+        "Personas de 60 y más años.2": 0.14498785986819285,
+        "Crónicos.2": 0.1928518242740134,
+        "Embaraz..2": 0.008620689655172414,
+        "Cuid./Func. ELEAM.2": 0.05263157894736842,
+        "P. Salud Público.2": 0.1797752808988764,
+        "P. Salud Privado.2": 0.2727272727272727,
+        "TOTAL.2": 0.15676855895196506
+      },
+      "Poblacion_Objetivo": 4580.0
+    },
+    "13601.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 14563.0,
+        "Crónicos": 6722.0,
+        "Embaraz.": 529.0,
+        "Cuid./Func. ELEAM": 411.0,
+        "P. Salud Público": 1499.0,
+        "P. Salud Privado": 226.0,
+        "TOTAL": 23950.0,
+        "Personas de 60 y más años.1": 1865.0,
+        "Crónicos.1": 869.0,
+        "Embaraz..1": 13.0,
+        "Cuid./Func. ELEAM.1": 38.0,
+        "P. Salud Público.1": 501.0,
+        "P. Salud Privado.1": 45.0,
+        "Otros": 1.0,
+        "TOTAL.1": 3332.0,
+        "Personas de 60 y más años.2": 0.12806427247133145,
+        "Crónicos.2": 0.1292770008925915,
+        "Embaraz..2": 0.024574669187145556,
+        "Cuid./Func. ELEAM.2": 0.09245742092457421,
+        "P. Salud Público.2": 0.3342228152101401,
+        "P. Salud Privado.2": 0.19911504424778761,
+        "TOTAL.2": 0.1391231732776618
+      },
+      "Poblacion_Objetivo": 23950.0
+    },
+    "13602.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 7444.0,
+        "Crónicos": 4144.0,
+        "Embaraz.": 296.0,
+        "Cuid./Func. ELEAM": 83.0,
+        "P. Salud Público": 406.0,
+        "P. Salud Privado": 17.0,
+        "TOTAL": 12390.0,
+        "Personas de 60 y más años.1": 1854.0,
+        "Crónicos.1": 1567.0,
+        "Embaraz..1": 14.0,
+        "Cuid./Func. ELEAM.1": 49.0,
+        "P. Salud Público.1": 133.0,
+        "P. Salud Privado.1": 21.0,
+        "Otros": 1.0,
+        "TOTAL.1": 3639.0,
+        "Personas de 60 y más años.2": 0.24905964535196132,
+        "Crónicos.2": 0.3781370656370656,
+        "Embaraz..2": 0.0472972972972973,
+        "Cuid./Func. ELEAM.2": 0.5903614457831325,
+        "P. Salud Público.2": 0.3275862068965517,
+        "P. Salud Privado.2": 1.2352941176470589,
+        "TOTAL.2": 0.2937046004842615
+      },
+      "Poblacion_Objetivo": 12390.0
+    },
+    "13603.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 7502.0,
+        "Crónicos": 3736.0,
+        "Embaraz.": 283.0,
+        "Cuid./Func. ELEAM": 199.0,
+        "P. Salud Público": 438.0,
+        "P. Salud Privado": 48.0,
+        "TOTAL": 12206.0,
+        "Personas de 60 y más años.1": 2294.0,
+        "Crónicos.1": 1277.0,
+        "Embaraz..1": 11.0,
+        "Cuid./Func. ELEAM.1": 48.0,
+        "P. Salud Público.1": 181.0,
+        "P. Salud Privado.1": 52.0,
+        "Otros": 5.0,
+        "TOTAL.1": 3868.0,
+        "Personas de 60 y más años.2": 0.30578512396694213,
+        "Crónicos.2": 0.3418094218415418,
+        "Embaraz..2": 0.038869257950530034,
+        "Cuid./Func. ELEAM.2": 0.24120603015075376,
+        "P. Salud Público.2": 0.4132420091324201,
+        "P. Salud Privado.2": 1.0833333333333333,
+        "TOTAL.2": 0.31689333114861545
+      },
+      "Poblacion_Objetivo": 12206.0
+    },
+    "13604.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 12889.0,
+        "Crónicos": 6227.0,
+        "Embaraz.": 671.0,
+        "Cuid./Func. ELEAM": 1178.0,
+        "P. Salud Público": 625.0,
+        "P. Salud Privado": 250.0,
+        "TOTAL": 21840.0,
+        "Personas de 60 y más años.1": 2674.0,
+        "Crónicos.1": 1231.0,
+        "Embaraz..1": 25.0,
+        "Cuid./Func. ELEAM.1": 59.0,
+        "P. Salud Público.1": 188.0,
+        "P. Salud Privado.1": 68.0,
+        "Otros": 1.0,
+        "TOTAL.1": 4246.0,
+        "Personas de 60 y más años.2": 0.20746372876095895,
+        "Crónicos.2": 0.19768748996306407,
+        "Embaraz..2": 0.037257824143070044,
+        "Cuid./Func. ELEAM.2": 0.0500848896434635,
+        "P. Salud Público.2": 0.3008,
+        "P. Salud Privado.2": 0.272,
+        "TOTAL.2": 0.19441391941391942
+      },
+      "Poblacion_Objetivo": 21840.0
+    },
+    "13605.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 18351.0,
+        "Crónicos": 6839.0,
+        "Embaraz.": 574.0,
+        "Cuid./Func. ELEAM": 846.0,
+        "P. Salud Público": 1150.0,
+        "P. Salud Privado": 210.0,
+        "TOTAL": 27970.0,
+        "Personas de 60 y más años.1": 3904.0,
+        "Crónicos.1": 2399.0,
+        "Embaraz..1": 66.0,
+        "Cuid./Func. ELEAM.1": 197.0,
+        "P. Salud Público.1": 381.0,
+        "P. Salud Privado.1": 95.0,
+        "Otros": 4.0,
+        "TOTAL.1": 7046.0,
+        "Personas de 60 y más años.2": 0.21274045011171053,
+        "Crónicos.2": 0.3507822781108349,
+        "Embaraz..2": 0.11498257839721254,
+        "Cuid./Func. ELEAM.2": 0.23286052009456265,
+        "P. Salud Público.2": 0.331304347826087,
+        "P. Salud Privado.2": 0.4523809523809524,
+        "TOTAL.2": 0.25191276367536647
+      },
+      "Poblacion_Objetivo": 27970.0
+    },
+    "13113.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 23234.0,
+        "Crónicos": 7084.0,
+        "Embaraz.": 433.0,
+        "Cuid./Func. ELEAM": 783.0,
+        "P. Salud Público": 2539.0,
+        "P. Salud Privado": 822.0,
+        "TOTAL": 34895.0,
+        "Personas de 60 y más años.1": 9699.0,
+        "Crónicos.1": 3508.0,
+        "Embaraz..1": 62.0,
+        "Cuid./Func. ELEAM.1": 556.0,
+        "P. Salud Público.1": 914.0,
+        "P. Salud Privado.1": 396.0,
+        "Otros": 19.0,
+        "TOTAL.1": 15154.0,
+        "Personas de 60 y más años.2": 0.41744856675561676,
+        "Crónicos.2": 0.49520045172219085,
+        "Embaraz..2": 0.14318706697459585,
+        "Cuid./Func. ELEAM.2": 0.7100893997445722,
+        "P. Salud Público.2": 0.35998424576604965,
+        "P. Salud Privado.2": 0.48175182481751827,
+        "TOTAL.2": 0.43427425132540476
+      },
+      "Poblacion_Objetivo": 34895.0
+    },
+    "13114.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 84331.0,
+        "Crónicos": 12655.0,
+        "Embaraz.": 2212.0,
+        "Cuid./Func. ELEAM": 1795.0,
+        "P. Salud Público": 1519.0,
+        "P. Salud Privado": 11458.0,
+        "TOTAL": 113970.0,
+        "Personas de 60 y más años.1": 28803.0,
+        "Crónicos.1": 6461.0,
+        "Embaraz..1": 317.0,
+        "Cuid./Func. ELEAM.1": 1029.0,
+        "P. Salud Público.1": 1012.0,
+        "P. Salud Privado.1": 2943.0,
+        "Otros": 16.0,
+        "TOTAL.1": 40581.0,
+        "Personas de 60 y más años.2": 0.341546999324092,
+        "Crónicos.2": 0.5105491900434611,
+        "Embaraz..2": 0.14330922242314648,
+        "Cuid./Func. ELEAM.2": 0.5732590529247911,
+        "P. Salud Público.2": 0.6662277814351547,
+        "P. Salud Privado.2": 0.2568511083958806,
+        "TOTAL.2": 0.3560673861542511
+      },
+      "Poblacion_Objetivo": 113970.0
+    },
+    "13115.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 19091.0,
+        "Crónicos": 5322.0,
+        "Embaraz.": 754.0,
+        "Cuid./Func. ELEAM": 545.0,
+        "P. Salud Público": 673.0,
+        "P. Salud Privado": 2773.0,
+        "TOTAL": 29158.0,
+        "Personas de 60 y más años.1": 8238.0,
+        "Crónicos.1": 2960.0,
+        "Embaraz..1": 103.0,
+        "Cuid./Func. ELEAM.1": 374.0,
+        "P. Salud Público.1": 636.0,
+        "P. Salud Privado.1": 992.0,
+        "Otros": 33.0,
+        "TOTAL.1": 13336.0,
+        "Personas de 60 y más años.2": 0.4315122308941386,
+        "Crónicos.2": 0.5561818865088313,
+        "Embaraz..2": 0.13660477453580902,
+        "Cuid./Func. ELEAM.2": 0.6862385321100918,
+        "P. Salud Público.2": 0.9450222882615156,
+        "P. Salud Privado.2": 0.3577353047241255,
+        "TOTAL.2": 0.45737018999931406
+      },
+      "Poblacion_Objetivo": 29158.0
+    },
+    "13118.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 32063.0,
+        "Crónicos": 11570.0,
+        "Embaraz.": 779.0,
+        "Cuid./Func. ELEAM": 1187.0,
+        "P. Salud Público": 1112.0,
+        "P. Salud Privado": 1999.0,
+        "TOTAL": 48710.0,
+        "Personas de 60 y más años.1": 9327.0,
+        "Crónicos.1": 4164.0,
+        "Embaraz..1": 92.0,
+        "Cuid./Func. ELEAM.1": 440.0,
+        "P. Salud Público.1": 925.0,
+        "P. Salud Privado.1": 496.0,
+        "Otros": 5.0,
+        "TOTAL.1": 15449.0,
+        "Personas de 60 y más años.2": 0.29089604840470323,
+        "Crónicos.2": 0.3598962834917891,
+        "Embaraz..2": 0.11810012836970475,
+        "Cuid./Func. ELEAM.2": 0.37068239258635216,
+        "P. Salud Público.2": 0.8318345323741008,
+        "P. Salud Privado.2": 0.2481240620310155,
+        "TOTAL.2": 0.31716280024635596
+      },
+      "Poblacion_Objetivo": 48710.0
+    },
+    "13120.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 60192.0,
+        "Crónicos": 15219.0,
+        "Embaraz.": 1683.0,
+        "Cuid./Func. ELEAM": 2365.0,
+        "P. Salud Público": 2418.0,
+        "P. Salud Privado": 2681.0,
+        "TOTAL": 84558.0,
+        "Personas de 60 y más años.1": 20214.0,
+        "Crónicos.1": 6630.0,
+        "Embaraz..1": 250.0,
+        "Cuid./Func. ELEAM.1": 1594.0,
+        "P. Salud Público.1": 1641.0,
+        "P. Salud Privado.1": 624.0,
+        "Otros": 56.0,
+        "TOTAL.1": 31009.0,
+        "Personas de 60 y más años.2": 0.33582535885167464,
+        "Crónicos.2": 0.4356396609501281,
+        "Embaraz..2": 0.14854426619132502,
+        "Cuid./Func. ELEAM.2": 0.6739957716701903,
+        "P. Salud Público.2": 0.6786600496277916,
+        "P. Salud Privado.2": 0.23274897426333457,
+        "TOTAL.2": 0.3667187019560538
+      },
+      "Poblacion_Objetivo": 84558.0
+    },
+    "13122.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 48205.0,
+        "Crónicos": 23499.0,
+        "Embaraz.": 1481.0,
+        "Cuid./Func. ELEAM": 1372.0,
+        "P. Salud Público": 3748.0,
+        "P. Salud Privado": 655.0,
+        "TOTAL": 78960.0,
+        "Personas de 60 y más años.1": 12942.0,
+        "Crónicos.1": 6841.0,
+        "Embaraz..1": 121.0,
+        "Cuid./Func. ELEAM.1": 471.0,
+        "P. Salud Público.1": 1566.0,
+        "P. Salud Privado.1": 316.0,
+        "Otros": 20.0,
+        "TOTAL.1": 22277.0,
+        "Personas de 60 y más años.2": 0.2684783736126958,
+        "Crónicos.2": 0.2911187710115324,
+        "Embaraz..2": 0.08170155300472653,
+        "Cuid./Func. ELEAM.2": 0.3432944606413994,
+        "P. Salud Público.2": 0.41782283884738525,
+        "P. Salud Privado.2": 0.48244274809160304,
+        "TOTAL.2": 0.2821301925025329
+      },
+      "Poblacion_Objetivo": 78960.0
+    },
+    "13123.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 37700.0,
+        "Crónicos": 8288.0,
+        "Embaraz.": 1056.0,
+        "Cuid./Func. ELEAM": 958.0,
+        "P. Salud Público": 9186.0,
+        "P. Salud Privado": 12391.0,
+        "TOTAL": 69579.0,
+        "Personas de 60 y más años.1": 16036.0,
+        "Crónicos.1": 7928.0,
+        "Embaraz..1": 209.0,
+        "Cuid./Func. ELEAM.1": 983.0,
+        "P. Salud Público.1": 4794.0,
+        "P. Salud Privado.1": 4635.0,
+        "Otros": 204.0,
+        "TOTAL.1": 34789.0,
+        "Personas de 60 y más años.2": 0.4253580901856764,
+        "Crónicos.2": 0.9565637065637066,
+        "Embaraz..2": 0.19791666666666666,
+        "Cuid./Func. ELEAM.2": 1.0260960334029228,
+        "P. Salud Público.2": 0.5218811234487263,
+        "P. Salud Privado.2": 0.3740618190622226,
+        "TOTAL.2": 0.49999281392374134
+      },
+      "Poblacion_Objetivo": 69579.0
+    },
+    "13132.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 25798.0,
+        "Crónicos": 3795.0,
+        "Embaraz.": 956.0,
+        "Cuid./Func. ELEAM": 800.0,
+        "P. Salud Público": 779.0,
+        "P. Salud Privado": 7524.0,
+        "TOTAL": 39652.0,
+        "Personas de 60 y más años.1": 11716.0,
+        "Crónicos.1": 2835.0,
+        "Embaraz..1": 130.0,
+        "Cuid./Func. ELEAM.1": 772.0,
+        "P. Salud Público.1": 465.0,
+        "P. Salud Privado.1": 1106.0,
+        "Otros": 22.0,
+        "TOTAL.1": 17046.0,
+        "Personas de 60 y más años.2": 0.45414373207225367,
+        "Crónicos.2": 0.7470355731225297,
+        "Embaraz..2": 0.13598326359832635,
+        "Cuid./Func. ELEAM.2": 0.965,
+        "P. Salud Público.2": 0.5969191270860077,
+        "P. Salud Privado.2": 0.14699627857522593,
+        "TOTAL.2": 0.42989004337738324
+      },
+      "Poblacion_Objetivo": 39652.0
+    },
+    "13105.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 34850.0,
+        "Crónicos": 20972.0,
+        "Embaraz.": 962.0,
+        "Cuid./Func. ELEAM": 844.0,
+        "P. Salud Público": 2230.0,
+        "P. Salud Privado": 415.0,
+        "TOTAL": 60273.0,
+        "Personas de 60 y más años.1": 10500.0,
+        "Crónicos.1": 7105.0,
+        "Embaraz..1": 98.0,
+        "Cuid./Func. ELEAM.1": 149.0,
+        "P. Salud Público.1": 969.0,
+        "P. Salud Privado.1": 324.0,
+        "Otros": 2.0,
+        "TOTAL.1": 19147.0,
+        "Personas de 60 y más años.2": 0.3012912482065997,
+        "Crónicos.2": 0.338785046728972,
+        "Embaraz..2": 0.10187110187110188,
+        "Cuid./Func. ELEAM.2": 0.17654028436018956,
+        "P. Salud Público.2": 0.43452914798206277,
+        "P. Salud Privado.2": 0.7807228915662651,
+        "TOTAL.2": 0.31767126242264365
+      },
+      "Poblacion_Objetivo": 60273.0
+    },
+    "13109.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 23128.0,
+        "Crónicos": 16887.0,
+        "Embaraz.": 765.0,
+        "Cuid./Func. ELEAM": 995.0,
+        "P. Salud Público": 829.0,
+        "P. Salud Privado": 522.0,
+        "TOTAL": 43126.0,
+        "Personas de 60 y más años.1": 9091.0,
+        "Crónicos.1": 6585.0,
+        "Embaraz..1": 74.0,
+        "Cuid./Func. ELEAM.1": 548.0,
+        "P. Salud Público.1": 588.0,
+        "P. Salud Privado.1": 279.0,
+        "Otros": 3.0,
+        "TOTAL.1": 17168.0,
+        "Personas de 60 y más años.2": 0.39307333102732617,
+        "Crónicos.2": 0.3899449280511636,
+        "Embaraz..2": 0.09673202614379085,
+        "Cuid./Func. ELEAM.2": 0.5507537688442211,
+        "P. Salud Público.2": 0.7092882991556092,
+        "P. Salud Privado.2": 0.5344827586206896,
+        "TOTAL.2": 0.39808931966794975
+      },
+      "Poblacion_Objetivo": 43126.0
+    },
+    "13116.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 20196.0,
+        "Crónicos": 9631.0,
+        "Embaraz.": 588.0,
+        "Cuid./Func. ELEAM": 437.0,
+        "P. Salud Público": 1048.0,
+        "P. Salud Privado": 143.0,
+        "TOTAL": 32043.0,
+        "Personas de 60 y más años.1": 4272.0,
+        "Crónicos.1": 2119.0,
+        "Embaraz..1": 8.0,
+        "Cuid./Func. ELEAM.1": 85.0,
+        "P. Salud Público.1": 241.0,
+        "P. Salud Privado.1": 48.0,
+        "Otros": 25.0,
+        "TOTAL.1": 6798.0,
+        "Personas de 60 y más años.2": 0.21152703505644682,
+        "Crónicos.2": 0.22001868964801163,
+        "Embaraz..2": 0.013605442176870748,
+        "Cuid./Func. ELEAM.2": 0.1945080091533181,
+        "P. Salud Público.2": 0.2299618320610687,
+        "P. Salud Privado.2": 0.3356643356643357,
+        "TOTAL.2": 0.2121524201853759
+      },
+      "Poblacion_Objetivo": 32043.0
+    },
+    "13121.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 24512.0,
+        "Crónicos": 7735.0,
+        "Embaraz.": 592.0,
+        "Cuid./Func. ELEAM": 350.0,
+        "P. Salud Público": 1060.0,
+        "P. Salud Privado": 276.0,
+        "TOTAL": 34525.0,
+        "Personas de 60 y más años.1": 6669.0,
+        "Crónicos.1": 2560.0,
+        "Embaraz..1": 26.0,
+        "Cuid./Func. ELEAM.1": 100.0,
+        "P. Salud Público.1": 301.0,
+        "P. Salud Privado.1": 137.0,
+        "Otros": 3.0,
+        "TOTAL.1": 9796.0,
+        "Personas de 60 y más años.2": 0.2720708224543081,
+        "Crónicos.2": 0.33096315449256625,
+        "Embaraz..2": 0.04391891891891892,
+        "Cuid./Func. ELEAM.2": 0.2857142857142857,
+        "P. Salud Público.2": 0.2839622641509434,
+        "P. Salud Privado.2": 0.4963768115942029,
+        "TOTAL.2": 0.2837364228819696
+      },
+      "Poblacion_Objetivo": 34525.0
+    },
+    "13129.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 24284.0,
+        "Crónicos": 14134.0,
+        "Embaraz.": 585.0,
+        "Cuid./Func. ELEAM": 920.0,
+        "P. Salud Público": 806.0,
+        "P. Salud Privado": 599.0,
+        "TOTAL": 41328.0,
+        "Personas de 60 y más años.1": 6012.0,
+        "Crónicos.1": 5107.0,
+        "Embaraz..1": 36.0,
+        "Cuid./Func. ELEAM.1": 414.0,
+        "P. Salud Público.1": 480.0,
+        "P. Salud Privado.1": 50.0,
+        "Otros": 4.0,
+        "TOTAL.1": 12103.0,
+        "Personas de 60 y más años.2": 0.24757041673529898,
+        "Crónicos.2": 0.3613272958822697,
+        "Embaraz..2": 0.06153846153846154,
+        "Cuid./Func. ELEAM.2": 0.45,
+        "P. Salud Público.2": 0.5955334987593052,
+        "P. Salud Privado.2": 0.08347245409015025,
+        "TOTAL.2": 0.2928523035230352
+      },
+      "Poblacion_Objetivo": 41328.0
+    },
+    "13130.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 29797.0,
+        "Crónicos": 15754.0,
+        "Embaraz.": 1231.0,
+        "Cuid./Func. ELEAM": 1840.0,
+        "P. Salud Público": 7073.0,
+        "P. Salud Privado": 618.0,
+        "TOTAL": 56313.0,
+        "Personas de 60 y más años.1": 10255.0,
+        "Crónicos.1": 6647.0,
+        "Embaraz..1": 163.0,
+        "Cuid./Func. ELEAM.1": 1281.0,
+        "P. Salud Público.1": 2917.0,
+        "P. Salud Privado.1": 395.0,
+        "Otros": 172.0,
+        "TOTAL.1": 21830.0,
+        "Personas de 60 y más años.2": 0.3441621639762392,
+        "Crónicos.2": 0.4219245905801701,
+        "Embaraz..2": 0.132412672623883,
+        "Cuid./Func. ELEAM.2": 0.696195652173913,
+        "P. Salud Público.2": 0.41241340308214336,
+        "P. Salud Privado.2": 0.63915857605178,
+        "TOTAL.2": 0.3876547156074086
+      },
+      "Poblacion_Objetivo": 56313.0
+    },
+    "13401.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 54525.0,
+        "Crónicos": 34191.0,
+        "Embaraz.": 2300.0,
+        "Cuid./Func. ELEAM": 1214.0,
+        "P. Salud Público": 4253.0,
+        "P. Salud Privado": 1337.0,
+        "TOTAL": 97820.0,
+        "Personas de 60 y más años.1": 9844.0,
+        "Crónicos.1": 8082.0,
+        "Embaraz..1": 57.0,
+        "Cuid./Func. ELEAM.1": 293.0,
+        "P. Salud Público.1": 1194.0,
+        "P. Salud Privado.1": 333.0,
+        "Otros": 13.0,
+        "TOTAL.1": 19816.0,
+        "Personas de 60 y más años.2": 0.18054103622191656,
+        "Crónicos.2": 0.23637799420900238,
+        "Embaraz..2": 0.024782608695652172,
+        "Cuid./Func. ELEAM.2": 0.2413509060955519,
+        "P. Salud Público.2": 0.28074300493769105,
+        "P. Salud Privado.2": 0.24906507105459985,
+        "TOTAL.2": 0.20257616029441833
+      },
+      "Poblacion_Objetivo": 97820.0
+    },
+    "13402.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 18199.0,
+        "Crónicos": 10326.0,
+        "Embaraz.": 1099.0,
+        "Cuid./Func. ELEAM": 394.0,
+        "P. Salud Público": 1345.0,
+        "P. Salud Privado": 520.0,
+        "TOTAL": 31883.0,
+        "Personas de 60 y más años.1": 2919.0,
+        "Crónicos.1": 1337.0,
+        "Embaraz..1": 52.0,
+        "Cuid./Func. ELEAM.1": 17.0,
+        "P. Salud Público.1": 302.0,
+        "P. Salud Privado.1": 156.0,
+        "Otros": 4.0,
+        "TOTAL.1": 4787.0,
+        "Personas de 60 y más años.2": 0.16039342821034122,
+        "Crónicos.2": 0.1294789850861902,
+        "Embaraz..2": 0.047315741583257506,
+        "Cuid./Func. ELEAM.2": 0.04314720812182741,
+        "P. Salud Público.2": 0.2245353159851301,
+        "P. Salud Privado.2": 0.3,
+        "TOTAL.2": 0.15014270928080795
+      },
+      "Poblacion_Objetivo": 31883.0
+    },
+    "13403.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 5211.0,
+        "Crónicos": 2381.0,
+        "Embaraz.": 173.0,
+        "Cuid./Func. ELEAM": 162.0,
+        "P. Salud Público": 264.0,
+        "P. Salud Privado": 67.0,
+        "TOTAL": 8258.0,
+        "Personas de 60 y más años.1": 958.0,
+        "Crónicos.1": 363.0,
+        "Embaraz..1": 8.0,
+        "Cuid./Func. ELEAM.1": 23.0,
+        "P. Salud Público.1": 54.0,
+        "P. Salud Privado.1": 33.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1439.0,
+        "Personas de 60 y más años.2": 0.18384187296104396,
+        "Crónicos.2": 0.1524569508609828,
+        "Embaraz..2": 0.046242774566473986,
+        "Cuid./Func. ELEAM.2": 0.1419753086419753,
+        "P. Salud Público.2": 0.20454545454545456,
+        "P. Salud Privado.2": 0.4925373134328358,
+        "TOTAL.2": 0.1742552676192783
+      },
+      "Poblacion_Objetivo": 8258.0
+    },
+    "13404.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 15168.0,
+        "Crónicos": 8836.0,
+        "Embaraz.": 652.0,
+        "Cuid./Func. ELEAM": 540.0,
+        "P. Salud Público": 707.0,
+        "P. Salud Privado": 129.0,
+        "TOTAL": 26032.0,
+        "Personas de 60 y más años.1": 3820.0,
+        "Crónicos.1": 2864.0,
+        "Embaraz..1": 124.0,
+        "Cuid./Func. ELEAM.1": 226.0,
+        "P. Salud Público.1": 273.0,
+        "P. Salud Privado.1": 144.0,
+        "Otros": 0.0,
+        "TOTAL.1": 7451.0,
+        "Personas de 60 y más años.2": 0.2518459915611814,
+        "Crónicos.2": 0.32412856496152104,
+        "Embaraz..2": 0.1901840490797546,
+        "Cuid./Func. ELEAM.2": 0.4185185185185185,
+        "P. Salud Público.2": 0.38613861386138615,
+        "P. Salud Privado.2": 1.1162790697674418,
+        "TOTAL.2": 0.28622464658881375
+      },
+      "Poblacion_Objetivo": 26032.0
+    },
+    "13110.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 88857.0,
+        "Crónicos": 29302.0,
+        "Embaraz.": 2508.0,
+        "Cuid./Func. ELEAM": 1282.0,
+        "P. Salud Público": 5632.0,
+        "P. Salud Privado": 4766.0,
+        "TOTAL": 132347.0,
+        "Personas de 60 y más años.1": 34635.0,
+        "Crónicos.1": 20285.0,
+        "Embaraz..1": 407.0,
+        "Cuid./Func. ELEAM.1": 3003.0,
+        "P. Salud Público.1": 2631.0,
+        "P. Salud Privado.1": 2429.0,
+        "Otros": 30.0,
+        "TOTAL.1": 63420.0,
+        "Personas de 60 y más años.2": 0.3897835848610689,
+        "Crónicos.2": 0.6922735649443724,
+        "Embaraz..2": 0.16228070175438597,
+        "Cuid./Func. ELEAM.2": 2.342433697347894,
+        "P. Salud Público.2": 0.46715198863636365,
+        "P. Salud Privado.2": 0.509651699538397,
+        "TOTAL.2": 0.4791948438574354
+      },
+      "Poblacion_Objetivo": 132347.0
+    },
+    "13111.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 25070.0,
+        "Crónicos": 10834.0,
+        "Embaraz.": 720.0,
+        "Cuid./Func. ELEAM": 302.0,
+        "P. Salud Público": 1171.0,
+        "P. Salud Privado": 149.0,
+        "TOTAL": 38246.0,
+        "Personas de 60 y más años.1": 6372.0,
+        "Crónicos.1": 3241.0,
+        "Embaraz..1": 26.0,
+        "Cuid./Func. ELEAM.1": 68.0,
+        "P. Salud Público.1": 362.0,
+        "P. Salud Privado.1": 62.0,
+        "Otros": 1.0,
+        "TOTAL.1": 10132.0,
+        "Personas de 60 y más años.2": 0.25416832867969685,
+        "Crónicos.2": 0.29915082148790845,
+        "Embaraz..2": 0.03611111111111111,
+        "Cuid./Func. ELEAM.2": 0.2251655629139073,
+        "P. Salud Público.2": 0.30913748932536295,
+        "P. Salud Privado.2": 0.4161073825503356,
+        "TOTAL.2": 0.26491659258484546
+      },
+      "Poblacion_Objetivo": 38246.0
+    },
+    "13112.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 31784.0,
+        "Crónicos": 11211.0,
+        "Embaraz.": 1279.0,
+        "Cuid./Func. ELEAM": 471.0,
+        "P. Salud Público": 1485.0,
+        "P. Salud Privado": 246.0,
+        "TOTAL": 46476.0,
+        "Personas de 60 y más años.1": 6549.0,
+        "Crónicos.1": 3568.0,
+        "Embaraz..1": 64.0,
+        "Cuid./Func. ELEAM.1": 211.0,
+        "P. Salud Público.1": 437.0,
+        "P. Salud Privado.1": 90.0,
+        "Otros": 5.0,
+        "TOTAL.1": 10924.0,
+        "Personas de 60 y más años.2": 0.2060470677070224,
+        "Crónicos.2": 0.31825885291231826,
+        "Embaraz..2": 0.05003909304143862,
+        "Cuid./Func. ELEAM.2": 0.44798301486199577,
+        "P. Salud Público.2": 0.2942760942760943,
+        "P. Salud Privado.2": 0.36585365853658536,
+        "TOTAL.2": 0.23504604527067735
+      },
+      "Poblacion_Objetivo": 46476.0
+    },
+    "13131.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 18997.0,
+        "Crónicos": 17803.0,
+        "Embaraz.": 525.0,
+        "Cuid./Func. ELEAM": 502.0,
+        "P. Salud Público": 3348.0,
+        "P. Salud Privado": 108.0,
+        "TOTAL": 41283.0,
+        "Personas de 60 y más años.1": 2999.0,
+        "Crónicos.1": 2650.0,
+        "Embaraz..1": 41.0,
+        "Cuid./Func. ELEAM.1": 136.0,
+        "P. Salud Público.1": 1384.0,
+        "P. Salud Privado.1": 36.0,
+        "Otros": 4.0,
+        "TOTAL.1": 7250.0,
+        "Personas de 60 y más años.2": 0.1578670316365742,
+        "Crónicos.2": 0.1488513171937314,
+        "Embaraz..2": 0.07809523809523809,
+        "Cuid./Func. ELEAM.2": 0.27091633466135456,
+        "P. Salud Público.2": 0.4133811230585424,
+        "P. Salud Privado.2": 0.3333333333333333,
+        "TOTAL.2": 0.17561708209190224
+      },
+      "Poblacion_Objetivo": 41283.0
+    },
+    "13201.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 98129.0,
+        "Crónicos": 37341.0,
+        "Embaraz.": 3687.0,
+        "Cuid./Func. ELEAM": 2852.0,
+        "P. Salud Público": 9581.0,
+        "P. Salud Privado": 1404.0,
+        "TOTAL": 152994.0,
+        "Personas de 60 y más años.1": 24188.0,
+        "Crónicos.1": 11885.0,
+        "Embaraz..1": 316.0,
+        "Cuid./Func. ELEAM.1": 1650.0,
+        "P. Salud Público.1": 2700.0,
+        "P. Salud Privado.1": 640.0,
+        "Otros": 45.0,
+        "TOTAL.1": 41424.0,
+        "Personas de 60 y más años.2": 0.24649186275209164,
+        "Crónicos.2": 0.3182828526284781,
+        "Embaraz..2": 0.08570653647952264,
+        "Cuid./Func. ELEAM.2": 0.5785413744740533,
+        "P. Salud Público.2": 0.2818077444943117,
+        "P. Salud Privado.2": 0.45584045584045585,
+        "TOTAL.2": 0.27075571591042785
+      },
+      "Poblacion_Objetivo": 152994.0
+    },
+    "13202.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 6005.0,
+        "Crónicos": 2031.0,
+        "Embaraz.": 225.0,
+        "Cuid./Func. ELEAM": 245.0,
+        "P. Salud Público": 412.0,
+        "P. Salud Privado": 49.0,
+        "TOTAL": 8967.0,
+        "Personas de 60 y más años.1": 2486.0,
+        "Crónicos.1": 1015.0,
+        "Embaraz..1": 18.0,
+        "Cuid./Func. ELEAM.1": 178.0,
+        "P. Salud Público.1": 169.0,
+        "P. Salud Privado.1": 49.0,
+        "Otros": 0.0,
+        "TOTAL.1": 3915.0,
+        "Personas de 60 y más años.2": 0.41398834304746046,
+        "Crónicos.2": 0.499753815854259,
+        "Embaraz..2": 0.08,
+        "Cuid./Func. ELEAM.2": 0.726530612244898,
+        "P. Salud Público.2": 0.41019417475728154,
+        "P. Salud Privado.2": 1.0,
+        "TOTAL.2": 0.43660086985613916
+      },
+      "Poblacion_Objetivo": 8967.0
+    },
+    "13203.0": {
+      "Criterios": {
+        "Región": 13.0,
+        "Personas de 60 y más años": 4035.0,
+        "Crónicos": 1687.0,
+        "Embaraz.": 109.0,
+        "Cuid./Func. ELEAM": 144.0,
+        "P. Salud Público": 666.0,
+        "P. Salud Privado": 40.0,
+        "TOTAL": 6681.0,
+        "Personas de 60 y más años.1": 965.0,
+        "Crónicos.1": 373.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 17.0,
+        "P. Salud Público.1": 257.0,
+        "P. Salud Privado.1": 11.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1625.0,
+        "Personas de 60 y más años.2": 0.23915737298636927,
+        "Crónicos.2": 0.22110254890337877,
+        "Embaraz..2": 0.01834862385321101,
+        "Cuid./Func. ELEAM.2": 0.11805555555555555,
+        "P. Salud Público.2": 0.3858858858858859,
+        "P. Salud Privado.2": 0.275,
+        "TOTAL.2": 0.24322706181709325
+      },
+      "Poblacion_Objetivo": 6681.0
+    },
+    "6302.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 4198.0,
+        "Crónicos": 2529.0,
+        "Embaraz.": 109.0,
+        "Cuid./Func. ELEAM": 145.0,
+        "P. Salud Público": 185.0,
+        "P. Salud Privado": 44.0,
+        "TOTAL": 7210.0,
+        "Personas de 60 y más años.1": 357.0,
+        "Crónicos.1": 100.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 4.0,
+        "P. Salud Público.1": 29.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 1.0,
+        "TOTAL.1": 493.0,
+        "Personas de 60 y más años.2": 0.08504049547403525,
+        "Crónicos.2": 0.039541320680110716,
+        "Embaraz..2": 0.009174311926605505,
+        "Cuid./Func. ELEAM.2": 0.027586206896551724,
+        "P. Salud Público.2": 0.15675675675675677,
+        "P. Salud Privado.2": 0.022727272727272728,
+        "TOTAL.2": 0.06837725381414701
+      },
+      "Poblacion_Objetivo": 7210.0
+    },
+    "6303.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 8548.0,
+        "Crónicos": 5909.0,
+        "Embaraz.": 253.0,
+        "Cuid./Func. ELEAM": 175.0,
+        "P. Salud Público": 429.0,
+        "P. Salud Privado": 59.0,
+        "TOTAL": 15373.0,
+        "Personas de 60 y más años.1": 413.0,
+        "Crónicos.1": 311.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 8.0,
+        "P. Salud Público.1": 35.0,
+        "P. Salud Privado.1": 6.0,
+        "Otros": 0.0,
+        "TOTAL.1": 774.0,
+        "Personas de 60 y más años.2": 0.04831539541413196,
+        "Crónicos.2": 0.05263157894736842,
+        "Embaraz..2": 0.003952569169960474,
+        "Cuid./Func. ELEAM.2": 0.045714285714285714,
+        "P. Salud Público.2": 0.08158508158508158,
+        "P. Salud Privado.2": 0.1016949152542373,
+        "TOTAL.2": 0.05034801274962597
+      },
+      "Poblacion_Objetivo": 15373.0
+    },
+    "6102.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 3054.0,
+        "Crónicos": 1842.0,
+        "Embaraz.": 89.0,
+        "Cuid./Func. ELEAM": 51.0,
+        "P. Salud Público": 305.0,
+        "P. Salud Privado": 42.0,
+        "TOTAL": 5383.0,
+        "Personas de 60 y más años.1": 591.0,
+        "Crónicos.1": 353.0,
+        "Embaraz..1": 3.0,
+        "Cuid./Func. ELEAM.1": 17.0,
+        "P. Salud Público.1": 68.0,
+        "P. Salud Privado.1": 9.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1041.0,
+        "Personas de 60 y más años.2": 0.19351669941060903,
+        "Crónicos.2": 0.19163952225841477,
+        "Embaraz..2": 0.033707865168539325,
+        "Cuid./Func. ELEAM.2": 0.3333333333333333,
+        "P. Salud Público.2": 0.22295081967213115,
+        "P. Salud Privado.2": 0.21428571428571427,
+        "TOTAL.2": 0.19338658740479286
+      },
+      "Poblacion_Objetivo": 5383.0
+    },
+    "6103.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 2114.0,
+        "Crónicos": 1033.0,
+        "Embaraz.": 57.0,
+        "Cuid./Func. ELEAM": 38.0,
+        "P. Salud Público": 178.0,
+        "P. Salud Privado": 6.0,
+        "TOTAL": 3426.0,
+        "Personas de 60 y más años.1": 220.0,
+        "Crónicos.1": 182.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 7.0,
+        "P. Salud Público.1": 46.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 0.0,
+        "TOTAL.1": 457.0,
+        "Personas de 60 y más años.2": 0.10406811731315042,
+        "Crónicos.2": 0.17618586640851888,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.18421052631578946,
+        "P. Salud Público.2": 0.25842696629213485,
+        "P. Salud Privado.2": 0.3333333333333333,
+        "TOTAL.2": 0.1333917104495038
+      },
+      "Poblacion_Objetivo": 3426.0
+    },
+    "6104.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 5222.0,
+        "Crónicos": 2275.0,
+        "Embaraz.": 164.0,
+        "Cuid./Func. ELEAM": 90.0,
+        "P. Salud Público": 227.0,
+        "P. Salud Privado": 23.0,
+        "TOTAL": 8001.0,
+        "Personas de 60 y más años.1": 388.0,
+        "Crónicos.1": 193.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 9.0,
+        "P. Salud Público.1": 23.0,
+        "P. Salud Privado.1": 9.0,
+        "Otros": 1.0,
+        "TOTAL.1": 625.0,
+        "Personas de 60 y más años.2": 0.07430103408655687,
+        "Crónicos.2": 0.08483516483516483,
+        "Embaraz..2": 0.012195121951219513,
+        "Cuid./Func. ELEAM.2": 0.1,
+        "P. Salud Público.2": 0.1013215859030837,
+        "P. Salud Privado.2": 0.391304347826087,
+        "TOTAL.2": 0.07811523559555056
+      },
+      "Poblacion_Objetivo": 8001.0
+    },
+    "6105.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 5150.0,
+        "Crónicos": 3018.0,
+        "Embaraz.": 134.0,
+        "Cuid./Func. ELEAM": 150.0,
+        "P. Salud Público": 307.0,
+        "P. Salud Privado": 25.0,
+        "TOTAL": 8784.0,
+        "Personas de 60 y más años.1": 446.0,
+        "Crónicos.1": 340.0,
+        "Embaraz..1": 3.0,
+        "Cuid./Func. ELEAM.1": 10.0,
+        "P. Salud Público.1": 44.0,
+        "P. Salud Privado.1": 5.0,
+        "Otros": 0.0,
+        "TOTAL.1": 848.0,
+        "Personas de 60 y más años.2": 0.08660194174757281,
+        "Crónicos.2": 0.1126573889993373,
+        "Embaraz..2": 0.022388059701492536,
+        "Cuid./Func. ELEAM.2": 0.06666666666666667,
+        "P. Salud Público.2": 0.14332247557003258,
+        "P. Salud Privado.2": 0.2,
+        "TOTAL.2": 0.0965391621129326
+      },
+      "Poblacion_Objetivo": 8784.0
+    },
+    "6106.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 6999.0,
+        "Crónicos": 3316.0,
+        "Embaraz.": 282.0,
+        "Cuid./Func. ELEAM": 249.0,
+        "P. Salud Público": 297.0,
+        "P. Salud Privado": 41.0,
+        "TOTAL": 11184.0,
+        "Personas de 60 y más años.1": 342.0,
+        "Crónicos.1": 181.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 7.0,
+        "P. Salud Público.1": 20.0,
+        "P. Salud Privado.1": 8.0,
+        "Otros": 0.0,
+        "TOTAL.1": 560.0,
+        "Personas de 60 y más años.2": 0.0488641234462066,
+        "Crónicos.2": 0.054583835946924,
+        "Embaraz..2": 0.0070921985815602835,
+        "Cuid./Func. ELEAM.2": 0.028112449799196786,
+        "P. Salud Público.2": 0.06734006734006734,
+        "P. Salud Privado.2": 0.1951219512195122,
+        "TOTAL.2": 0.05007153075822604
+      },
+      "Poblacion_Objetivo": 11184.0
+    },
+    "6202.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 971.0,
+        "Crónicos": 825.0,
+        "Embaraz.": 33.0,
+        "Cuid./Func. ELEAM": 20.0,
+        "P. Salud Público": 79.0,
+        "P. Salud Privado": 1.0,
+        "TOTAL": 1929.0,
+        "Personas de 60 y más años.1": 102.0,
+        "Crónicos.1": 41.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 3.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 146.0,
+        "Personas de 60 y más años.2": 0.10504634397528322,
+        "Crónicos.2": 0.0496969696969697,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.0379746835443038,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.07568688439606014
+      },
+      "Poblacion_Objetivo": 1929.0
+    },
+    "6107.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 6604.0,
+        "Crónicos": 3500.0,
+        "Embaraz.": 225.0,
+        "Cuid./Func. ELEAM": 399.0,
+        "P. Salud Público": 307.0,
+        "P. Salud Privado": 72.0,
+        "TOTAL": 11107.0,
+        "Personas de 60 y más años.1": 1146.0,
+        "Crónicos.1": 409.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 67.0,
+        "P. Salud Público.1": 29.0,
+        "P. Salud Privado.1": 10.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1663.0,
+        "Personas de 60 y más años.2": 0.1735311932162326,
+        "Crónicos.2": 0.11685714285714285,
+        "Embaraz..2": 0.008888888888888889,
+        "Cuid./Func. ELEAM.2": 0.16791979949874686,
+        "P. Salud Público.2": 0.09446254071661238,
+        "P. Salud Privado.2": 0.1388888888888889,
+        "TOTAL.2": 0.14972539839740703
+      },
+      "Poblacion_Objetivo": 11107.0
+    },
+    "6203.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 1917.0,
+        "Crónicos": 1834.0,
+        "Embaraz.": 62.0,
+        "Cuid./Func. ELEAM": 21.0,
+        "P. Salud Público": 193.0,
+        "P. Salud Privado": 14.0,
+        "TOTAL": 4041.0,
+        "Personas de 60 y más años.1": 490.0,
+        "Crónicos.1": 364.0,
+        "Embaraz..1": 6.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 31.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 894.0,
+        "Personas de 60 y más años.2": 0.2556077203964528,
+        "Crónicos.2": 0.1984732824427481,
+        "Embaraz..2": 0.0967741935483871,
+        "Cuid./Func. ELEAM.2": 0.09523809523809523,
+        "P. Salud Público.2": 0.16062176165803108,
+        "P. Salud Privado.2": 0.07142857142857142,
+        "TOTAL.2": 0.2212323682256867
+      },
+      "Poblacion_Objetivo": 4041.0
+    },
+    "6304.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 2184.0,
+        "Crónicos": 1019.0,
+        "Embaraz.": 64.0,
+        "Cuid./Func. ELEAM": 90.0,
+        "P. Salud Público": 141.0,
+        "P. Salud Privado": 7.0,
+        "TOTAL": 3505.0,
+        "Personas de 60 y más años.1": 156.0,
+        "Crónicos.1": 46.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 8.0,
+        "P. Salud Público.1": 5.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 215.0,
+        "Personas de 60 y más años.2": 0.07142857142857142,
+        "Crónicos.2": 0.045142296368989206,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.08888888888888889,
+        "P. Salud Público.2": 0.03546099290780142,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.06134094151212553
+      },
+      "Poblacion_Objetivo": 3505.0
+    },
+    "6108.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 10599.0,
+        "Crónicos": 5659.0,
+        "Embaraz.": 453.0,
+        "Cuid./Func. ELEAM": 136.0,
+        "P. Salud Público": 306.0,
+        "P. Salud Privado": 122.0,
+        "TOTAL": 17275.0,
+        "Personas de 60 y más años.1": 947.0,
+        "Crónicos.1": 700.0,
+        "Embaraz..1": 12.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 32.0,
+        "P. Salud Privado.1": 6.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1698.0,
+        "Personas de 60 y más años.2": 0.08934805170299084,
+        "Crónicos.2": 0.12369676621311186,
+        "Embaraz..2": 0.026490066225165563,
+        "Cuid./Func. ELEAM.2": 0.007352941176470588,
+        "P. Salud Público.2": 0.10457516339869281,
+        "P. Salud Privado.2": 0.04918032786885246,
+        "TOTAL.2": 0.09829232995658466
+      },
+      "Poblacion_Objetivo": 17275.0
+    },
+    "6109.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 3543.0,
+        "Crónicos": 2456.0,
+        "Embaraz.": 87.0,
+        "Cuid./Func. ELEAM": 116.0,
+        "P. Salud Público": 145.0,
+        "P. Salud Privado": 5.0,
+        "TOTAL": 6352.0,
+        "Personas de 60 y más años.1": 445.0,
+        "Crónicos.1": 210.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 9.0,
+        "P. Salud Público.1": 23.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 689.0,
+        "Personas de 60 y más años.2": 0.1255997742026531,
+        "Crónicos.2": 0.08550488599348534,
+        "Embaraz..2": 0.011494252873563218,
+        "Cuid./Func. ELEAM.2": 0.07758620689655173,
+        "P. Salud Público.2": 0.15862068965517243,
+        "P. Salud Privado.2": 0.2,
+        "TOTAL.2": 0.1084697732997481
+      },
+      "Poblacion_Objetivo": 6352.0
+    },
+    "6204.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 2217.0,
+        "Crónicos": 1146.0,
+        "Embaraz.": 64.0,
+        "Cuid./Func. ELEAM": 117.0,
+        "P. Salud Público": 172.0,
+        "P. Salud Privado": 9.0,
+        "TOTAL": 3725.0,
+        "Personas de 60 y más años.1": 351.0,
+        "Crónicos.1": 122.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 9.0,
+        "P. Salud Público.1": 23.0,
+        "P. Salud Privado.1": 8.0,
+        "Otros": 1.0,
+        "TOTAL.1": 515.0,
+        "Personas de 60 y más años.2": 0.15832205683355885,
+        "Crónicos.2": 0.10645724258289703,
+        "Embaraz..2": 0.015625,
+        "Cuid./Func. ELEAM.2": 0.07692307692307693,
+        "P. Salud Público.2": 0.13372093023255813,
+        "P. Salud Privado.2": 0.8888888888888888,
+        "TOTAL.2": 0.138255033557047
+      },
+      "Poblacion_Objetivo": 3725.0
+    },
+    "6110.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 6112.0,
+        "Crónicos": 4011.0,
+        "Embaraz.": 211.0,
+        "Cuid./Func. ELEAM": 61.0,
+        "P. Salud Público": 299.0,
+        "P. Salud Privado": 25.0,
+        "TOTAL": 10719.0,
+        "Personas de 60 y más años.1": 917.0,
+        "Crónicos.1": 831.0,
+        "Embaraz..1": 5.0,
+        "Cuid./Func. ELEAM.1": 14.0,
+        "P. Salud Público.1": 32.0,
+        "P. Salud Privado.1": 6.0,
+        "Otros": 6.0,
+        "TOTAL.1": 1811.0,
+        "Personas de 60 y más años.2": 0.150032722513089,
+        "Crónicos.2": 0.20718025430067316,
+        "Embaraz..2": 0.023696682464454975,
+        "Cuid./Func. ELEAM.2": 0.22950819672131148,
+        "P. Salud Público.2": 0.10702341137123746,
+        "P. Salud Privado.2": 0.24,
+        "TOTAL.2": 0.16895232764250395
+      },
+      "Poblacion_Objetivo": 10719.0
+    },
+    "6305.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 4569.0,
+        "Crónicos": 1856.0,
+        "Embaraz.": 140.0,
+        "Cuid./Func. ELEAM": 123.0,
+        "P. Salud Público": 203.0,
+        "P. Salud Privado": 26.0,
+        "TOTAL": 6917.0,
+        "Personas de 60 y más años.1": 355.0,
+        "Crónicos.1": 222.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 10.0,
+        "P. Salud Público.1": 49.0,
+        "P. Salud Privado.1": 5.0,
+        "Otros": 0.0,
+        "TOTAL.1": 643.0,
+        "Personas de 60 y más años.2": 0.07769752681111841,
+        "Crónicos.2": 0.11961206896551724,
+        "Embaraz..2": 0.014285714285714285,
+        "Cuid./Func. ELEAM.2": 0.08130081300813008,
+        "P. Salud Público.2": 0.2413793103448276,
+        "P. Salud Privado.2": 0.19230769230769232,
+        "TOTAL.2": 0.09295937545178545
+      },
+      "Poblacion_Objetivo": 6917.0
+    },
+    "6205.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 2522.0,
+        "Crónicos": 1048.0,
+        "Embaraz.": 44.0,
+        "Cuid./Func. ELEAM": 21.0,
+        "P. Salud Público": 120.0,
+        "P. Salud Privado": 3.0,
+        "TOTAL": 3758.0,
+        "Personas de 60 y más años.1": 502.0,
+        "Crónicos.1": 141.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 10.0,
+        "P. Salud Público.1": 17.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 672.0,
+        "Personas de 60 y más años.2": 0.19904837430610625,
+        "Crónicos.2": 0.13454198473282442,
+        "Embaraz..2": 0.022727272727272728,
+        "Cuid./Func. ELEAM.2": 0.47619047619047616,
+        "P. Salud Público.2": 0.14166666666666666,
+        "P. Salud Privado.2": 0.3333333333333333,
+        "TOTAL.2": 0.17881852048962213
+      },
+      "Poblacion_Objetivo": 3758.0
+    },
+    "6111.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 3123.0,
+        "Crónicos": 2718.0,
+        "Embaraz.": 109.0,
+        "Cuid./Func. ELEAM": 66.0,
+        "P. Salud Público": 154.0,
+        "P. Salud Privado": 20.0,
+        "TOTAL": 6190.0,
+        "Personas de 60 y más años.1": 347.0,
+        "Crónicos.1": 358.0,
+        "Embaraz..1": 3.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 26.0,
+        "P. Salud Privado.1": 13.0,
+        "Otros": 0.0,
+        "TOTAL.1": 749.0,
+        "Personas de 60 y más años.2": 0.1111111111111111,
+        "Crónicos.2": 0.13171449595290655,
+        "Embaraz..2": 0.027522935779816515,
+        "Cuid./Func. ELEAM.2": 0.030303030303030304,
+        "P. Salud Público.2": 0.16883116883116883,
+        "P. Salud Privado.2": 0.65,
+        "TOTAL.2": 0.1210016155088853
+      },
+      "Poblacion_Objetivo": 6190.0
+    },
+    "6306.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 3235.0,
+        "Crónicos": 3059.0,
+        "Embaraz.": 83.0,
+        "Cuid./Func. ELEAM": 23.0,
+        "P. Salud Público": 118.0,
+        "P. Salud Privado": 7.0,
+        "TOTAL": 6525.0,
+        "Personas de 60 y más años.1": 189.0,
+        "Crónicos.1": 160.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 4.0,
+        "P. Salud Público.1": 16.0,
+        "P. Salud Privado.1": 6.0,
+        "Otros": 0.0,
+        "TOTAL.1": 375.0,
+        "Personas de 60 y más años.2": 0.05842349304482226,
+        "Crónicos.2": 0.05230467473030402,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.17391304347826086,
+        "P. Salud Público.2": 0.13559322033898305,
+        "P. Salud Privado.2": 0.8571428571428571,
+        "TOTAL.2": 0.05747126436781609
+      },
+      "Poblacion_Objetivo": 6525.0
+    },
+    "6206.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 2015.0,
+        "Crónicos": 797.0,
+        "Embaraz.": 45.0,
+        "Cuid./Func. ELEAM": 20.0,
+        "P. Salud Público": 107.0,
+        "P. Salud Privado": 2.0,
+        "TOTAL": 2986.0,
+        "Personas de 60 y más años.1": 172.0,
+        "Crónicos.1": 59.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 12.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 1.0,
+        "TOTAL.1": 246.0,
+        "Personas de 60 y más años.2": 0.08535980148883375,
+        "Crónicos.2": 0.0740276035131744,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.05,
+        "P. Salud Público.2": 0.11214953271028037,
+        "P. Salud Privado.2": 0.5,
+        "TOTAL.2": 0.08238446081714669
+      },
+      "Poblacion_Objetivo": 2986.0
+    },
+    "6307.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 3130.0,
+        "Crónicos": 2101.0,
+        "Embaraz.": 80.0,
+        "Cuid./Func. ELEAM": 123.0,
+        "P. Salud Público": 135.0,
+        "P. Salud Privado": 16.0,
+        "TOTAL": 5585.0,
+        "Personas de 60 y más años.1": 129.0,
+        "Crónicos.1": 53.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 3.0,
+        "P. Salud Público.1": 17.0,
+        "P. Salud Privado.1": 8.0,
+        "Otros": 0.0,
+        "TOTAL.1": 211.0,
+        "Personas de 60 y más años.2": 0.04121405750798722,
+        "Crónicos.2": 0.025226082817705855,
+        "Embaraz..2": 0.0125,
+        "Cuid./Func. ELEAM.2": 0.024390243902439025,
+        "P. Salud Público.2": 0.1259259259259259,
+        "P. Salud Privado.2": 0.5,
+        "TOTAL.2": 0.037779767233661596
+      },
+      "Poblacion_Objetivo": 5585.0
+    },
+    "6112.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 3572.0,
+        "Crónicos": 1794.0,
+        "Embaraz.": 101.0,
+        "Cuid./Func. ELEAM": 62.0,
+        "P. Salud Público": 265.0,
+        "P. Salud Privado": 42.0,
+        "TOTAL": 5836.0,
+        "Personas de 60 y más años.1": 503.0,
+        "Crónicos.1": 173.0,
+        "Embaraz..1": 12.0,
+        "Cuid./Func. ELEAM.1": 13.0,
+        "P. Salud Público.1": 39.0,
+        "P. Salud Privado.1": 4.0,
+        "Otros": 2.0,
+        "TOTAL.1": 746.0,
+        "Personas de 60 y más años.2": 0.14081746920492721,
+        "Crónicos.2": 0.09643255295429208,
+        "Embaraz..2": 0.1188118811881188,
+        "Cuid./Func. ELEAM.2": 0.20967741935483872,
+        "P. Salud Público.2": 0.1471698113207547,
+        "P. Salud Privado.2": 0.09523809523809523,
+        "TOTAL.2": 0.12782727895819054
+      },
+      "Poblacion_Objetivo": 5836.0
+    },
+    "6113.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 5355.0,
+        "Crónicos": 3376.0,
+        "Embaraz.": 164.0,
+        "Cuid./Func. ELEAM": 134.0,
+        "P. Salud Público": 264.0,
+        "P. Salud Privado": 48.0,
+        "TOTAL": 9341.0,
+        "Personas de 60 y más años.1": 368.0,
+        "Crónicos.1": 207.0,
+        "Embaraz..1": 10.0,
+        "Cuid./Func. ELEAM.1": 7.0,
+        "P. Salud Público.1": 15.0,
+        "P. Salud Privado.1": 3.0,
+        "Otros": 0.0,
+        "TOTAL.1": 610.0,
+        "Personas de 60 y más años.2": 0.06872082166199814,
+        "Crónicos.2": 0.06131516587677725,
+        "Embaraz..2": 0.06097560975609756,
+        "Cuid./Func. ELEAM.2": 0.05223880597014925,
+        "P. Salud Público.2": 0.056818181818181816,
+        "P. Salud Privado.2": 0.0625,
+        "TOTAL.2": 0.06530350069585697
+      },
+      "Poblacion_Objetivo": 9341.0
+    },
+    "6201.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 4594.0,
+        "Crónicos": 2001.0,
+        "Embaraz.": 183.0,
+        "Cuid./Func. ELEAM": 122.0,
+        "P. Salud Público": 300.0,
+        "P. Salud Privado": 76.0,
+        "TOTAL": 7276.0,
+        "Personas de 60 y más años.1": 698.0,
+        "Crónicos.1": 464.0,
+        "Embaraz..1": 5.0,
+        "Cuid./Func. ELEAM.1": 17.0,
+        "P. Salud Público.1": 24.0,
+        "P. Salud Privado.1": 10.0,
+        "Otros": 5.0,
+        "TOTAL.1": 1223.0,
+        "Personas de 60 y más años.2": 0.151937309534175,
+        "Crónicos.2": 0.2318840579710145,
+        "Embaraz..2": 0.0273224043715847,
+        "Cuid./Func. ELEAM.2": 0.13934426229508196,
+        "P. Salud Público.2": 0.08,
+        "P. Salud Privado.2": 0.13157894736842105,
+        "TOTAL.2": 0.16808686091258934
+      },
+      "Poblacion_Objetivo": 7276.0
+    },
+    "6308.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 2291.0,
+        "Crónicos": 1189.0,
+        "Embaraz.": 73.0,
+        "Cuid./Func. ELEAM": 60.0,
+        "P. Salud Público": 114.0,
+        "P. Salud Privado": 22.0,
+        "TOTAL": 3749.0,
+        "Personas de 60 y más años.1": 96.0,
+        "Crónicos.1": 11.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 2.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 0.0,
+        "TOTAL.1": 111.0,
+        "Personas de 60 y más años.2": 0.041903099083369706,
+        "Crónicos.2": 0.009251471825063078,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.017543859649122806,
+        "P. Salud Privado.2": 0.09090909090909091,
+        "TOTAL.2": 0.029607895438783675
+      },
+      "Poblacion_Objetivo": 3749.0
+    },
+    "6309.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 1167.0,
+        "Crónicos": 749.0,
+        "Embaraz.": 24.0,
+        "Cuid./Func. ELEAM": 13.0,
+        "P. Salud Público": 56.0,
+        "P. Salud Privado": 3.0,
+        "TOTAL": 2012.0,
+        "Personas de 60 y más años.1": 127.0,
+        "Crónicos.1": 32.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 7.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 166.0,
+        "Personas de 60 y más años.2": 0.10882604970008569,
+        "Crónicos.2": 0.042723631508678236,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.125,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.08250497017892644
+      },
+      "Poblacion_Objetivo": 2012.0
+    },
+    "6114.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 3381.0,
+        "Crónicos": 3059.0,
+        "Embaraz.": 125.0,
+        "Cuid./Func. ELEAM": 161.0,
+        "P. Salud Público": 175.0,
+        "P. Salud Privado": 32.0,
+        "TOTAL": 6933.0,
+        "Personas de 60 y más años.1": 406.0,
+        "Crónicos.1": 167.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 16.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 589.0,
+        "Personas de 60 y más años.2": 0.12008281573498965,
+        "Crónicos.2": 0.05459300424975482,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.09142857142857143,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.0849560075003606
+      },
+      "Poblacion_Objetivo": 6933.0
+    },
+    "6101.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 58725.0,
+        "Crónicos": 25572.0,
+        "Embaraz.": 1730.0,
+        "Cuid./Func. ELEAM": 1441.0,
+        "P. Salud Público": 5735.0,
+        "P. Salud Privado": 3645.0,
+        "TOTAL": 96848.0,
+        "Personas de 60 y más años.1": 10070.0,
+        "Crónicos.1": 4900.0,
+        "Embaraz..1": 42.0,
+        "Cuid./Func. ELEAM.1": 363.0,
+        "P. Salud Público.1": 1207.0,
+        "P. Salud Privado.1": 445.0,
+        "Otros": 242.0,
+        "TOTAL.1": 17269.0,
+        "Personas de 60 y más años.2": 0.17147722435078758,
+        "Crónicos.2": 0.1916158298138589,
+        "Embaraz..2": 0.024277456647398842,
+        "Cuid./Func. ELEAM.2": 0.25190839694656486,
+        "P. Salud Público.2": 0.21046207497820402,
+        "P. Salud Privado.2": 0.12208504801097393,
+        "TOTAL.2": 0.17831034197918388
+      },
+      "Poblacion_Objetivo": 96848.0
+    },
+    "6115.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 14119.0,
+        "Crónicos": 6104.0,
+        "Embaraz.": 520.0,
+        "Cuid./Func. ELEAM": 372.0,
+        "P. Salud Público": 1319.0,
+        "P. Salud Privado": 108.0,
+        "TOTAL": 22542.0,
+        "Personas de 60 y más años.1": 1660.0,
+        "Crónicos.1": 698.0,
+        "Embaraz..1": 17.0,
+        "Cuid./Func. ELEAM.1": 63.0,
+        "P. Salud Público.1": 183.0,
+        "P. Salud Privado.1": 15.0,
+        "Otros": 1.0,
+        "TOTAL.1": 2637.0,
+        "Personas de 60 y más años.2": 0.11757206601034068,
+        "Crónicos.2": 0.11435124508519004,
+        "Embaraz..2": 0.032692307692307694,
+        "Cuid./Func. ELEAM.2": 0.1693548387096774,
+        "P. Salud Público.2": 0.13874147081122062,
+        "P. Salud Privado.2": 0.1388888888888889,
+        "TOTAL.2": 0.11698163428267234
+      },
+      "Poblacion_Objetivo": 22542.0
+    },
+    "6116.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 6066.0,
+        "Crónicos": 6608.0,
+        "Embaraz.": 202.0,
+        "Cuid./Func. ELEAM": 252.0,
+        "P. Salud Público": 319.0,
+        "P. Salud Privado": 141.0,
+        "TOTAL": 13588.0,
+        "Personas de 60 y más años.1": 506.0,
+        "Crónicos.1": 284.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 15.0,
+        "P. Salud Privado.1": 8.0,
+        "Otros": 1.0,
+        "TOTAL.1": 815.0,
+        "Personas de 60 y más años.2": 0.08341575997362348,
+        "Crónicos.2": 0.04297820823244552,
+        "Embaraz..2": 0.0049504950495049506,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.047021943573667714,
+        "P. Salud Privado.2": 0.05673758865248227,
+        "TOTAL.2": 0.05997939358257286
+      },
+      "Poblacion_Objetivo": 13588.0
+    },
+    "6301.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 17756.0,
+        "Crónicos": 6865.0,
+        "Embaraz.": 600.0,
+        "Cuid./Func. ELEAM": 346.0,
+        "P. Salud Público": 1676.0,
+        "P. Salud Privado": 456.0,
+        "TOTAL": 27699.0,
+        "Personas de 60 y más años.1": 1936.0,
+        "Crónicos.1": 1115.0,
+        "Embaraz..1": 7.0,
+        "Cuid./Func. ELEAM.1": 43.0,
+        "P. Salud Público.1": 286.0,
+        "P. Salud Privado.1": 117.0,
+        "Otros": 1.0,
+        "TOTAL.1": 3505.0,
+        "Personas de 60 y más años.2": 0.10903356611849516,
+        "Crónicos.2": 0.16241806263656228,
+        "Embaraz..2": 0.011666666666666667,
+        "Cuid./Func. ELEAM.2": 0.12427745664739884,
+        "P. Salud Público.2": 0.17064439140811455,
+        "P. Salud Privado.2": 0.2565789473684211,
+        "TOTAL.2": 0.12653886421892488
+      },
+      "Poblacion_Objetivo": 27699.0
+    },
+    "6117.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 12889.0,
+        "Crónicos": 7632.0,
+        "Embaraz.": 328.0,
+        "Cuid./Func. ELEAM": 179.0,
+        "P. Salud Público": 724.0,
+        "P. Salud Privado": 166.0,
+        "TOTAL": 21918.0,
+        "Personas de 60 y más años.1": 1047.0,
+        "Crónicos.1": 320.0,
+        "Embaraz..1": 4.0,
+        "Cuid./Func. ELEAM.1": 5.0,
+        "P. Salud Público.1": 88.0,
+        "P. Salud Privado.1": 18.0,
+        "Otros": 2.0,
+        "TOTAL.1": 1484.0,
+        "Personas de 60 y más años.2": 0.08123205834432462,
+        "Crónicos.2": 0.041928721174004195,
+        "Embaraz..2": 0.012195121951219513,
+        "Cuid./Func. ELEAM.2": 0.027932960893854747,
+        "P. Salud Público.2": 0.12154696132596685,
+        "P. Salud Privado.2": 0.10843373493975904,
+        "TOTAL.2": 0.06770690756455881
+      },
+      "Poblacion_Objetivo": 21918.0
+    },
+    "6310.0": {
+      "Criterios": {
+        "Región": 6.0,
+        "Personas de 60 y más años": 10001.0,
+        "Crónicos": 4716.0,
+        "Embaraz.": 282.0,
+        "Cuid./Func. ELEAM": 227.0,
+        "P. Salud Público": 1163.0,
+        "P. Salud Privado": 178.0,
+        "TOTAL": 16567.0,
+        "Personas de 60 y más años.1": 950.0,
+        "Crónicos.1": 604.0,
+        "Embaraz..1": 5.0,
+        "Cuid./Func. ELEAM.1": 41.0,
+        "P. Salud Público.1": 423.0,
+        "P. Salud Privado.1": 31.0,
+        "Otros": 1.0,
+        "TOTAL.1": 2055.0,
+        "Personas de 60 y más años.2": 0.09499050094990501,
+        "Crónicos.2": 0.1280746395250212,
+        "Embaraz..2": 0.01773049645390071,
+        "Cuid./Func. ELEAM.2": 0.18061674008810572,
+        "P. Salud Público.2": 0.36371453138435084,
+        "P. Salud Privado.2": 0.17415730337078653,
+        "TOTAL.2": 0.12404176978330415
+      },
+      "Poblacion_Objetivo": 16567.0
+    },
+    "7201.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 12535.0,
+        "Crónicos": 4304.0,
+        "Embaraz.": 302.0,
+        "Cuid./Func. ELEAM": 175.0,
+        "P. Salud Público": 931.0,
+        "P. Salud Privado": 127.0,
+        "TOTAL": 18374.0,
+        "Personas de 60 y más años.1": 896.0,
+        "Crónicos.1": 518.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 6.0,
+        "P. Salud Público.1": 58.0,
+        "P. Salud Privado.1": 13.0,
+        "Otros": 454.0,
+        "TOTAL.1": 1947.0,
+        "Personas de 60 y más años.2": 0.07147985640207419,
+        "Crónicos.2": 0.12035315985130111,
+        "Embaraz..2": 0.006622516556291391,
+        "Cuid./Func. ELEAM.2": 0.03428571428571429,
+        "P. Salud Público.2": 0.06229860365198711,
+        "P. Salud Privado.2": 0.10236220472440945,
+        "TOTAL.2": 0.10596495047349516
+      },
+      "Poblacion_Objetivo": 18374.0
+    },
+    "7202.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 2502.0,
+        "Crónicos": 2211.0,
+        "Embaraz.": 59.0,
+        "Cuid./Func. ELEAM": 15.0,
+        "P. Salud Público": 176.0,
+        "P. Salud Privado": 4.0,
+        "TOTAL": 4967.0,
+        "Personas de 60 y más años.1": 246.0,
+        "Crónicos.1": 145.0,
+        "Embaraz..1": 4.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 22.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 419.0,
+        "Personas de 60 y más años.2": 0.09832134292565947,
+        "Crónicos.2": 0.06558118498417007,
+        "Embaraz..2": 0.06779661016949153,
+        "Cuid./Func. ELEAM.2": 0.06666666666666667,
+        "P. Salud Público.2": 0.125,
+        "P. Salud Privado.2": 0.25,
+        "TOTAL.2": 0.08435675458022951
+      },
+      "Poblacion_Objetivo": 4967.0
+    },
+    "7402.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 5701.0,
+        "Crónicos": 2928.0,
+        "Embaraz.": 157.0,
+        "Cuid./Func. ELEAM": 170.0,
+        "P. Salud Público": 344.0,
+        "P. Salud Privado": 44.0,
+        "TOTAL": 9344.0,
+        "Personas de 60 y más años.1": 922.0,
+        "Crónicos.1": 442.0,
+        "Embaraz..1": 19.0,
+        "Cuid./Func. ELEAM.1": 26.0,
+        "P. Salud Público.1": 83.0,
+        "P. Salud Privado.1": 10.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1502.0,
+        "Personas de 60 y más años.2": 0.1617260129801789,
+        "Crónicos.2": 0.15095628415300547,
+        "Embaraz..2": 0.12101910828025478,
+        "Cuid./Func. ELEAM.2": 0.15294117647058825,
+        "P. Salud Público.2": 0.24127906976744187,
+        "P. Salud Privado.2": 0.22727272727272727,
+        "TOTAL.2": 0.16074486301369864
+      },
+      "Poblacion_Objetivo": 9344.0
+    },
+    "7102.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 9891.0,
+        "Crónicos": 5335.0,
+        "Embaraz.": 340.0,
+        "Cuid./Func. ELEAM": 108.0,
+        "P. Salud Público": 726.0,
+        "P. Salud Privado": 75.0,
+        "TOTAL": 16475.0,
+        "Personas de 60 y más años.1": 932.0,
+        "Crónicos.1": 555.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 4.0,
+        "P. Salud Público.1": 211.0,
+        "P. Salud Privado.1": 11.0,
+        "Otros": 3.0,
+        "TOTAL.1": 1717.0,
+        "Personas de 60 y más años.2": 0.09422707511879487,
+        "Crónicos.2": 0.10402999062792877,
+        "Embaraz..2": 0.0029411764705882353,
+        "Cuid./Func. ELEAM.2": 0.037037037037037035,
+        "P. Salud Público.2": 0.290633608815427,
+        "P. Salud Privado.2": 0.14666666666666667,
+        "TOTAL.2": 0.1042185128983308
+      },
+      "Poblacion_Objetivo": 16475.0
+    },
+    "7103.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 3113.0,
+        "Crónicos": 975.0,
+        "Embaraz.": 48.0,
+        "Cuid./Func. ELEAM": 21.0,
+        "P. Salud Público": 177.0,
+        "P. Salud Privado": 1.0,
+        "TOTAL": 4335.0,
+        "Personas de 60 y más años.1": 254.0,
+        "Crónicos.1": 135.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 4.0,
+        "P. Salud Público.1": 26.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 422.0,
+        "Personas de 60 y más años.2": 0.08159331834243495,
+        "Crónicos.2": 0.13846153846153847,
+        "Embaraz..2": 0.041666666666666664,
+        "Cuid./Func. ELEAM.2": 0.19047619047619047,
+        "P. Salud Público.2": 0.14689265536723164,
+        "P. Salud Privado.2": 1.0,
+        "TOTAL.2": 0.09734717416378316
+      },
+      "Poblacion_Objetivo": 4335.0
+    },
+    "7301.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 35196.0,
+        "Crónicos": 20983.0,
+        "Embaraz.": 1168.0,
+        "Cuid./Func. ELEAM": 383.0,
+        "P. Salud Público": 4065.0,
+        "P. Salud Privado": 849.0,
+        "TOTAL": 62644.0,
+        "Personas de 60 y más años.1": 3255.0,
+        "Crónicos.1": 2438.0,
+        "Embaraz..1": 16.0,
+        "Cuid./Func. ELEAM.1": 14.0,
+        "P. Salud Público.1": 1026.0,
+        "P. Salud Privado.1": 79.0,
+        "Otros": 1.0,
+        "TOTAL.1": 6829.0,
+        "Personas de 60 y más años.2": 0.09248210023866349,
+        "Crónicos.2": 0.1161892960968403,
+        "Embaraz..2": 0.0136986301369863,
+        "Cuid./Func. ELEAM.2": 0.03655352480417755,
+        "P. Salud Público.2": 0.2523985239852399,
+        "P. Salud Privado.2": 0.09305064782096584,
+        "TOTAL.2": 0.10901283442947449
+      },
+      "Poblacion_Objetivo": 62644.0
+    },
+    "7104.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 947.0,
+        "Crónicos": 671.0,
+        "Embaraz.": 26.0,
+        "Cuid./Func. ELEAM": 14.0,
+        "P. Salud Público": 102.0,
+        "P. Salud Privado": 6.0,
+        "TOTAL": 1766.0,
+        "Personas de 60 y más años.1": 21.0,
+        "Crónicos.1": 21.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 6.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 49.0,
+        "Personas de 60 y más años.2": 0.022175290390707498,
+        "Crónicos.2": 0.03129657228017884,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.058823529411764705,
+        "P. Salud Privado.2": 0.16666666666666666,
+        "TOTAL.2": 0.027746319365798414
+      },
+      "Poblacion_Objetivo": 1766.0
+    },
+    "7302.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 2996.0,
+        "Crónicos": 1330.0,
+        "Embaraz.": 75.0,
+        "Cuid./Func. ELEAM": 38.0,
+        "P. Salud Público": 207.0,
+        "P. Salud Privado": 25.0,
+        "TOTAL": 4671.0,
+        "Personas de 60 y más años.1": 158.0,
+        "Crónicos.1": 58.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 30.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 248.0,
+        "Personas de 60 y más años.2": 0.0527369826435247,
+        "Crónicos.2": 0.04360902255639098,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.05263157894736842,
+        "P. Salud Público.2": 0.14492753623188406,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.0530935559837294
+      },
+      "Poblacion_Objetivo": 4671.0
+    },
+    "7303.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 1840.0,
+        "Crónicos": 857.0,
+        "Embaraz.": 46.0,
+        "Cuid./Func. ELEAM": 63.0,
+        "P. Salud Público": 208.0,
+        "P. Salud Privado": 9.0,
+        "TOTAL": 3023.0,
+        "Personas de 60 y más años.1": 290.0,
+        "Crónicos.1": 132.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 56.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 0.0,
+        "TOTAL.1": 482.0,
+        "Personas de 60 y más años.2": 0.15760869565217392,
+        "Crónicos.2": 0.15402567094515754,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.031746031746031744,
+        "P. Salud Público.2": 0.2692307692307692,
+        "P. Salud Privado.2": 0.2222222222222222,
+        "TOTAL.2": 0.15944426066821038
+      },
+      "Poblacion_Objetivo": 3023.0
+    },
+    "7401.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 23811.0,
+        "Crónicos": 11037.0,
+        "Embaraz.": 722.0,
+        "Cuid./Func. ELEAM": 348.0,
+        "P. Salud Público": 2570.0,
+        "P. Salud Privado": 178.0,
+        "TOTAL": 38666.0,
+        "Personas de 60 y más años.1": 2505.0,
+        "Crónicos.1": 1129.0,
+        "Embaraz..1": 5.0,
+        "Cuid./Func. ELEAM.1": 18.0,
+        "P. Salud Público.1": 524.0,
+        "P. Salud Privado.1": 23.0,
+        "Otros": 2.0,
+        "TOTAL.1": 4206.0,
+        "Personas de 60 y más años.2": 0.10520347738440217,
+        "Crónicos.2": 0.10229228957144151,
+        "Embaraz..2": 0.006925207756232687,
+        "Cuid./Func. ELEAM.2": 0.05172413793103448,
+        "P. Salud Público.2": 0.20389105058365758,
+        "P. Salud Privado.2": 0.12921348314606743,
+        "TOTAL.2": 0.10877773754719909
+      },
+      "Poblacion_Objetivo": 38666.0
+    },
+    "7403.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 8011.0,
+        "Crónicos": 4209.0,
+        "Embaraz.": 233.0,
+        "Cuid./Func. ELEAM": 113.0,
+        "P. Salud Público": 398.0,
+        "P. Salud Privado": 22.0,
+        "TOTAL": 12986.0,
+        "Personas de 60 y más años.1": 578.0,
+        "Crónicos.1": 285.0,
+        "Embaraz..1": 3.0,
+        "Cuid./Func. ELEAM.1": 9.0,
+        "P. Salud Público.1": 42.0,
+        "P. Salud Privado.1": 16.0,
+        "Otros": 2.0,
+        "TOTAL.1": 935.0,
+        "Personas de 60 y más años.2": 0.07215079266009237,
+        "Crónicos.2": 0.06771204561653599,
+        "Embaraz..2": 0.012875536480686695,
+        "Cuid./Func. ELEAM.2": 0.07964601769911504,
+        "P. Salud Público.2": 0.10552763819095477,
+        "P. Salud Privado.2": 0.7272727272727273,
+        "TOTAL.2": 0.07200061604805175
+      },
+      "Poblacion_Objetivo": 12986.0
+    },
+    "7105.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 9440.0,
+        "Crónicos": 4332.0,
+        "Embaraz.": 446.0,
+        "Cuid./Func. ELEAM": 10.0,
+        "P. Salud Público": 359.0,
+        "P. Salud Privado": 26.0,
+        "TOTAL": 14613.0,
+        "Personas de 60 y más años.1": 693.0,
+        "Crónicos.1": 679.0,
+        "Embaraz..1": 3.0,
+        "Cuid./Func. ELEAM.1": 19.0,
+        "P. Salud Público.1": 87.0,
+        "P. Salud Privado.1": 5.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1486.0,
+        "Personas de 60 y más años.2": 0.07341101694915254,
+        "Crónicos.2": 0.15674053554939982,
+        "Embaraz..2": 0.006726457399103139,
+        "Cuid./Func. ELEAM.2": 1.9,
+        "P. Salud Público.2": 0.24233983286908078,
+        "P. Salud Privado.2": 0.19230769230769232,
+        "TOTAL.2": 0.10169027578183809
+      },
+      "Poblacion_Objetivo": 14613.0
+    },
+    "7304.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 11828.0,
+        "Crónicos": 4631.0,
+        "Embaraz.": 349.0,
+        "Cuid./Func. ELEAM": 209.0,
+        "P. Salud Público": 722.0,
+        "P. Salud Privado": 101.0,
+        "TOTAL": 17840.0,
+        "Personas de 60 y más años.1": 1025.0,
+        "Crónicos.1": 657.0,
+        "Embaraz..1": 3.0,
+        "Cuid./Func. ELEAM.1": 29.0,
+        "P. Salud Público.1": 135.0,
+        "P. Salud Privado.1": 9.0,
+        "Otros": 2.0,
+        "TOTAL.1": 1860.0,
+        "Personas de 60 y más años.2": 0.08665877578626986,
+        "Crónicos.2": 0.14187000647808248,
+        "Embaraz..2": 0.008595988538681949,
+        "Cuid./Func. ELEAM.2": 0.13875598086124402,
+        "P. Salud Público.2": 0.18698060941828254,
+        "P. Salud Privado.2": 0.0891089108910891,
+        "TOTAL.2": 0.10426008968609865
+      },
+      "Poblacion_Objetivo": 17840.0
+    },
+    "7404.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 11397.0,
+        "Crónicos": 7114.0,
+        "Embaraz.": 304.0,
+        "Cuid./Func. ELEAM": 175.0,
+        "P. Salud Público": 773.0,
+        "P. Salud Privado": 48.0,
+        "TOTAL": 19811.0,
+        "Personas de 60 y más años.1": 505.0,
+        "Crónicos.1": 351.0,
+        "Embaraz..1": 4.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 62.0,
+        "P. Salud Privado.1": 3.0,
+        "Otros": 0.0,
+        "TOTAL.1": 927.0,
+        "Personas de 60 y más años.2": 0.04430990611564447,
+        "Crónicos.2": 0.049339330896823165,
+        "Embaraz..2": 0.013157894736842105,
+        "Cuid./Func. ELEAM.2": 0.011428571428571429,
+        "P. Salud Público.2": 0.08020698576972833,
+        "P. Salud Privado.2": 0.0625,
+        "TOTAL.2": 0.04679218615920448
+      },
+      "Poblacion_Objetivo": 19811.0
+    },
+    "7106.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 2448.0,
+        "Crónicos": 1348.0,
+        "Embaraz.": 65.0,
+        "Cuid./Func. ELEAM": 66.0,
+        "P. Salud Público": 143.0,
+        "P. Salud Privado": 11.0,
+        "TOTAL": 4081.0,
+        "Personas de 60 y más años.1": 293.0,
+        "Crónicos.1": 152.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 24.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 0.0,
+        "TOTAL.1": 472.0,
+        "Personas de 60 y más años.2": 0.11968954248366014,
+        "Crónicos.2": 0.11275964391691394,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.015151515151515152,
+        "P. Salud Público.2": 0.16783216783216784,
+        "P. Salud Privado.2": 0.18181818181818182,
+        "TOTAL.2": 0.1156579269786817
+      },
+      "Poblacion_Objetivo": 4081.0
+    },
+    "7203.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 2411.0,
+        "Crónicos": 1496.0,
+        "Embaraz.": 59.0,
+        "Cuid./Func. ELEAM": 34.0,
+        "P. Salud Público": 149.0,
+        "P. Salud Privado": 1.0,
+        "TOTAL": 4150.0,
+        "Personas de 60 y más años.1": 99.0,
+        "Crónicos.1": 18.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 7.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 3.0,
+        "TOTAL.1": 130.0,
+        "Personas de 60 y más años.2": 0.04106180008295313,
+        "Crónicos.2": 0.012032085561497326,
+        "Embaraz..2": 0.01694915254237288,
+        "Cuid./Func. ELEAM.2": 0.058823529411764705,
+        "P. Salud Público.2": 0.04697986577181208,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.03132530120481928
+      },
+      "Poblacion_Objetivo": 4150.0
+    },
+    "7107.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 2346.0,
+        "Crónicos": 1228.0,
+        "Embaraz.": 69.0,
+        "Cuid./Func. ELEAM": 62.0,
+        "P. Salud Público": 156.0,
+        "P. Salud Privado": 9.0,
+        "TOTAL": 3870.0,
+        "Personas de 60 y más años.1": 326.0,
+        "Crónicos.1": 313.0,
+        "Embaraz..1": 4.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 53.0,
+        "P. Salud Privado.1": 4.0,
+        "Otros": 0.0,
+        "TOTAL.1": 702.0,
+        "Personas de 60 y más años.2": 0.13895993179880647,
+        "Crónicos.2": 0.254885993485342,
+        "Embaraz..2": 0.057971014492753624,
+        "Cuid./Func. ELEAM.2": 0.03225806451612903,
+        "P. Salud Público.2": 0.33974358974358976,
+        "P. Salud Privado.2": 0.4444444444444444,
+        "TOTAL.2": 0.1813953488372093
+      },
+      "Poblacion_Objetivo": 3870.0
+    },
+    "7305.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 2903.0,
+        "Crónicos": 2738.0,
+        "Embaraz.": 59.0,
+        "Cuid./Func. ELEAM": 7.0,
+        "P. Salud Público": 141.0,
+        "P. Salud Privado": 5.0,
+        "TOTAL": 5853.0,
+        "Personas de 60 y más años.1": 334.0,
+        "Crónicos.1": 306.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 42.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 684.0,
+        "Personas de 60 y más años.2": 0.11505339304168102,
+        "Crónicos.2": 0.11176040905770636,
+        "Embaraz..2": 0.01694915254237288,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.2978723404255319,
+        "P. Salud Privado.2": 0.2,
+        "TOTAL.2": 0.1168631471040492
+      },
+      "Poblacion_Objetivo": 5853.0
+    },
+    "7405.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 5401.0,
+        "Crónicos": 2945.0,
+        "Embaraz.": 121.0,
+        "Cuid./Func. ELEAM": 71.0,
+        "P. Salud Público": 320.0,
+        "P. Salud Privado": 11.0,
+        "TOTAL": 8869.0,
+        "Personas de 60 y más años.1": 523.0,
+        "Crónicos.1": 308.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 10.0,
+        "P. Salud Público.1": 24.0,
+        "P. Salud Privado.1": 5.0,
+        "Otros": 0.0,
+        "TOTAL.1": 870.0,
+        "Personas de 60 y más años.2": 0.09683391964451027,
+        "Crónicos.2": 0.10458404074702886,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.14084507042253522,
+        "P. Salud Público.2": 0.075,
+        "P. Salud Privado.2": 0.45454545454545453,
+        "TOTAL.2": 0.09809448641334988
+      },
+      "Poblacion_Objetivo": 8869.0
+    },
+    "7108.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 3691.0,
+        "Crónicos": 2694.0,
+        "Embaraz.": 92.0,
+        "Cuid./Func. ELEAM": 13.0,
+        "P. Salud Público": 169.0,
+        "P. Salud Privado": 2.0,
+        "TOTAL": 6661.0,
+        "Personas de 60 y más años.1": 312.0,
+        "Crónicos.1": 217.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 19.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 1.0,
+        "TOTAL.1": 551.0,
+        "Personas de 60 y más años.2": 0.08452993768626388,
+        "Crónicos.2": 0.08054936896807721,
+        "Embaraz..2": 0.010869565217391304,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.11242603550295859,
+        "P. Salud Privado.2": 0.5,
+        "TOTAL.2": 0.08272031226542562
+      },
+      "Poblacion_Objetivo": 6661.0
+    },
+    "7306.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 3638.0,
+        "Crónicos": 2090.0,
+        "Embaraz.": 134.0,
+        "Cuid./Func. ELEAM": 30.0,
+        "P. Salud Público": 167.0,
+        "P. Salud Privado": 12.0,
+        "TOTAL": 6071.0,
+        "Personas de 60 y más años.1": 128.0,
+        "Crónicos.1": 65.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 18.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 0.0,
+        "TOTAL.1": 213.0,
+        "Personas de 60 y más años.2": 0.035184167124793844,
+        "Crónicos.2": 0.03110047846889952,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.10778443113772455,
+        "P. Salud Privado.2": 0.16666666666666666,
+        "TOTAL.2": 0.035084829517377694
+      },
+      "Poblacion_Objetivo": 6071.0
+    },
+    "7307.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 4620.0,
+        "Crónicos": 1592.0,
+        "Embaraz.": 130.0,
+        "Cuid./Func. ELEAM": 81.0,
+        "P. Salud Público": 207.0,
+        "P. Salud Privado": 17.0,
+        "TOTAL": 6647.0,
+        "Personas de 60 y más años.1": 213.0,
+        "Crónicos.1": 103.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 29.0,
+        "P. Salud Privado.1": 7.0,
+        "Otros": 0.0,
+        "TOTAL.1": 353.0,
+        "Personas de 60 y más años.2": 0.046103896103896105,
+        "Crónicos.2": 0.06469849246231156,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.012345679012345678,
+        "P. Salud Público.2": 0.14009661835748793,
+        "P. Salud Privado.2": 0.4117647058823529,
+        "TOTAL.2": 0.05310666466074921
+      },
+      "Poblacion_Objetivo": 6647.0
+    },
+    "7109.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 11002.0,
+        "Crónicos": 4624.0,
+        "Embaraz.": 383.0,
+        "Cuid./Func. ELEAM": 160.0,
+        "P. Salud Público": 447.0,
+        "P. Salud Privado": 58.0,
+        "TOTAL": 16674.0,
+        "Personas de 60 y más años.1": 667.0,
+        "Crónicos.1": 484.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 13.0,
+        "P. Salud Público.1": 129.0,
+        "P. Salud Privado.1": 21.0,
+        "Otros": 3.0,
+        "TOTAL.1": 1318.0,
+        "Personas de 60 y más años.2": 0.06062534084711871,
+        "Crónicos.2": 0.1046712802768166,
+        "Embaraz..2": 0.0026109660574412533,
+        "Cuid./Func. ELEAM.2": 0.08125,
+        "P. Salud Público.2": 0.28859060402684567,
+        "P. Salud Privado.2": 0.3620689655172414,
+        "TOTAL.2": 0.07904522010315461
+      },
+      "Poblacion_Objetivo": 16674.0
+    },
+    "7406.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 12128.0,
+        "Crónicos": 5517.0,
+        "Embaraz.": 385.0,
+        "Cuid./Func. ELEAM": 106.0,
+        "P. Salud Público": 741.0,
+        "P. Salud Privado": 122.0,
+        "TOTAL": 18999.0,
+        "Personas de 60 y más años.1": 1994.0,
+        "Crónicos.1": 1263.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 9.0,
+        "P. Salud Público.1": 98.0,
+        "P. Salud Privado.1": 47.0,
+        "Otros": 4.0,
+        "TOTAL.1": 3417.0,
+        "Personas de 60 y más años.2": 0.16441292875989447,
+        "Crónicos.2": 0.22892876563349646,
+        "Embaraz..2": 0.005194805194805195,
+        "Cuid./Func. ELEAM.2": 0.08490566037735849,
+        "P. Salud Público.2": 0.13225371120107962,
+        "P. Salud Privado.2": 0.38524590163934425,
+        "TOTAL.2": 0.1798515711353229
+      },
+      "Poblacion_Objetivo": 18999.0
+    },
+    "7110.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 2425.0,
+        "Crónicos": 1096.0,
+        "Embaraz.": 97.0,
+        "Cuid./Func. ELEAM": 63.0,
+        "P. Salud Público": 129.0,
+        "P. Salud Privado": 19.0,
+        "TOTAL": 3829.0,
+        "Personas de 60 y más años.1": 522.0,
+        "Crónicos.1": 387.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 66.0,
+        "P. Salud Público.1": 44.0,
+        "P. Salud Privado.1": 7.0,
+        "Otros": 5.0,
+        "TOTAL.1": 1031.0,
+        "Personas de 60 y más años.2": 0.21525773195876288,
+        "Crónicos.2": 0.3531021897810219,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 1.0476190476190477,
+        "P. Salud Público.2": 0.34108527131782945,
+        "P. Salud Privado.2": 0.3684210526315789,
+        "TOTAL.2": 0.2692609036301907
+      },
+      "Poblacion_Objetivo": 3829.0
+    },
+    "7101.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 53507.0,
+        "Crónicos": 33651.0,
+        "Embaraz.": 1714.0,
+        "Cuid./Func. ELEAM": 931.0,
+        "P. Salud Público": 8068.0,
+        "P. Salud Privado": 2106.0,
+        "TOTAL": 99977.0,
+        "Personas de 60 y más años.1": 10684.0,
+        "Crónicos.1": 9933.0,
+        "Embaraz..1": 37.0,
+        "Cuid./Func. ELEAM.1": 309.0,
+        "P. Salud Público.1": 2336.0,
+        "P. Salud Privado.1": 836.0,
+        "Otros": 7.0,
+        "TOTAL.1": 24142.0,
+        "Personas de 60 y más años.2": 0.19967480890350794,
+        "Crónicos.2": 0.29517696353748774,
+        "Embaraz..2": 0.021586931155192533,
+        "Cuid./Func. ELEAM.2": 0.3319011815252417,
+        "P. Salud Público.2": 0.28953891918691127,
+        "P. Salud Privado.2": 0.3969610636277303,
+        "TOTAL.2": 0.24147553937405603
+      },
+      "Poblacion_Objetivo": 99977.0
+    },
+    "7308.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 7246.0,
+        "Crónicos": 3919.0,
+        "Embaraz.": 222.0,
+        "Cuid./Func. ELEAM": 80.0,
+        "P. Salud Público": 378.0,
+        "P. Salud Privado": 12.0,
+        "TOTAL": 11857.0,
+        "Personas de 60 y más años.1": 336.0,
+        "Crónicos.1": 309.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 39.0,
+        "P. Salud Privado.1": 4.0,
+        "Otros": 0.0,
+        "TOTAL.1": 689.0,
+        "Personas de 60 y más años.2": 0.046370411261385594,
+        "Crónicos.2": 0.07884664455218168,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0125,
+        "P. Salud Público.2": 0.10317460317460317,
+        "P. Salud Privado.2": 0.3333333333333333,
+        "TOTAL.2": 0.05810913384498608
+      },
+      "Poblacion_Objetivo": 11857.0
+    },
+    "7309.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 1291.0,
+        "Crónicos": 501.0,
+        "Embaraz.": 18.0,
+        "Cuid./Func. ELEAM": 44.0,
+        "P. Salud Público": 83.0,
+        "P. Salud Privado": 10.0,
+        "TOTAL": 1947.0,
+        "Personas de 60 y más años.1": 53.0,
+        "Crónicos.1": 29.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 5.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 88.0,
+        "Personas de 60 y más años.2": 0.041053446940356314,
+        "Crónicos.2": 0.05788423153692615,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.022727272727272728,
+        "P. Salud Público.2": 0.060240963855421686,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.04519774011299435
+      },
+      "Poblacion_Objetivo": 1947.0
+    },
+    "7407.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 4741.0,
+        "Crónicos": 1598.0,
+        "Embaraz.": 103.0,
+        "Cuid./Func. ELEAM": 93.0,
+        "P. Salud Público": 238.0,
+        "P. Salud Privado": 5.0,
+        "TOTAL": 6778.0,
+        "Personas de 60 y más años.1": 366.0,
+        "Crónicos.1": 160.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 4.0,
+        "P. Salud Público.1": 37.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 1.0,
+        "TOTAL.1": 571.0,
+        "Personas de 60 y más años.2": 0.07719890318498207,
+        "Crónicos.2": 0.10012515644555695,
+        "Embaraz..2": 0.009708737864077669,
+        "Cuid./Func. ELEAM.2": 0.043010752688172046,
+        "P. Salud Público.2": 0.15546218487394958,
+        "P. Salud Privado.2": 0.4,
+        "TOTAL.2": 0.08424313956919445
+      },
+      "Poblacion_Objetivo": 6778.0
+    },
+    "7408.0": {
+      "Criterios": {
+        "Región": 7.0,
+        "Personas de 60 y más años": 4501.0,
+        "Crónicos": 2769.0,
+        "Embaraz.": 127.0,
+        "Cuid./Func. ELEAM": 76.0,
+        "P. Salud Público": 261.0,
+        "P. Salud Privado": 14.0,
+        "TOTAL": 7748.0,
+        "Personas de 60 y más años.1": 237.0,
+        "Crónicos.1": 177.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 3.0,
+        "P. Salud Público.1": 22.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 440.0,
+        "Personas de 60 y más años.2": 0.05265496556320817,
+        "Crónicos.2": 0.06392199349945829,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.039473684210526314,
+        "P. Salud Público.2": 0.0842911877394636,
+        "P. Salud Privado.2": 0.07142857142857142,
+        "TOTAL.2": 0.05678884873515746
+      },
+      "Poblacion_Objetivo": 7748.0
+    },
+    "16101.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 45982.0,
+        "Crónicos": 29391.0,
+        "Embaraz.": 1446.0,
+        "Cuid./Func. ELEAM": 2791.0,
+        "P. Salud Público": 6844.0,
+        "P. Salud Privado": 1642.0,
+        "TOTAL": 88096.0,
+        "Personas de 60 y más años.1": 9518.0,
+        "Crónicos.1": 8951.0,
+        "Embaraz..1": 41.0,
+        "Cuid./Func. ELEAM.1": 679.0,
+        "P. Salud Público.1": 1135.0,
+        "P. Salud Privado.1": 327.0,
+        "Otros": 32.0,
+        "TOTAL.1": 20683.0,
+        "Personas de 60 y más años.2": 0.2069940411465356,
+        "Crónicos.2": 0.30454901160219117,
+        "Embaraz..2": 0.028354080221300138,
+        "Cuid./Func. ELEAM.2": 0.24328197778573987,
+        "P. Salud Público.2": 0.16583869082407948,
+        "P. Salud Privado.2": 0.19914738124238734,
+        "TOTAL.2": 0.23477796948783144
+      },
+      "Poblacion_Objetivo": 88096.0
+    },
+    "16102.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 5792.0,
+        "Crónicos": 3351.0,
+        "Embaraz.": 160.0,
+        "Cuid./Func. ELEAM": 196.0,
+        "P. Salud Público": 534.0,
+        "P. Salud Privado": 45.0,
+        "TOTAL": 10078.0,
+        "Personas de 60 y más años.1": 579.0,
+        "Crónicos.1": 249.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 62.0,
+        "P. Salud Privado.1": 3.0,
+        "Otros": 12.0,
+        "TOTAL.1": 908.0,
+        "Personas de 60 y más años.2": 0.09996546961325967,
+        "Crónicos.2": 0.07430617726051925,
+        "Embaraz..2": 0.0125,
+        "Cuid./Func. ELEAM.2": 0.00510204081632653,
+        "P. Salud Público.2": 0.11610486891385768,
+        "P. Salud Privado.2": 0.06666666666666667,
+        "TOTAL.2": 0.09009724151617385
+      },
+      "Poblacion_Objetivo": 10078.0
+    },
+    "16202.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 1765.0,
+        "Crónicos": 959.0,
+        "Embaraz.": 30.0,
+        "Cuid./Func. ELEAM": 29.0,
+        "P. Salud Público": 128.0,
+        "P. Salud Privado": 2.0,
+        "TOTAL": 2913.0,
+        "Personas de 60 y más años.1": 353.0,
+        "Crónicos.1": 89.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 15.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 460.0,
+        "Personas de 60 y más años.2": 0.2,
+        "Crónicos.2": 0.09280500521376434,
+        "Embaraz..2": 0.03333333333333333,
+        "Cuid./Func. ELEAM.2": 0.06896551724137931,
+        "P. Salud Público.2": 0.1171875,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.1579128046687264
+      },
+      "Poblacion_Objetivo": 2913.0
+    },
+    "16203.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 4471.0,
+        "Crónicos": 2723.0,
+        "Embaraz.": 111.0,
+        "Cuid./Func. ELEAM": 208.0,
+        "P. Salud Público": 416.0,
+        "P. Salud Privado": 62.0,
+        "TOTAL": 7991.0,
+        "Personas de 60 y más años.1": 292.0,
+        "Crónicos.1": 118.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 15.0,
+        "P. Salud Público.1": 29.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 1.0,
+        "TOTAL.1": 456.0,
+        "Personas de 60 y más años.2": 0.06530977409975397,
+        "Crónicos.2": 0.04333455747337495,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.07211538461538461,
+        "P. Salud Público.2": 0.06971153846153846,
+        "P. Salud Privado.2": 0.016129032258064516,
+        "TOTAL.2": 0.057064197221874606
+      },
+      "Poblacion_Objetivo": 7991.0
+    },
+    "16302.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 6263.0,
+        "Crónicos": 5339.0,
+        "Embaraz.": 238.0,
+        "Cuid./Func. ELEAM": 79.0,
+        "P. Salud Público": 362.0,
+        "P. Salud Privado": 9.0,
+        "TOTAL": 12290.0,
+        "Personas de 60 y más años.1": 200.0,
+        "Crónicos.1": 120.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 14.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 2.0,
+        "TOTAL.1": 338.0,
+        "Personas de 60 y más años.2": 0.03193357815743254,
+        "Crónicos.2": 0.022476119123431355,
+        "Embaraz..2": 0.004201680672268907,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.03867403314917127,
+        "P. Salud Privado.2": 0.1111111111111111,
+        "TOTAL.2": 0.027502034174125306
+      },
+      "Poblacion_Objetivo": 12290.0
+    },
+    "16103.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 6523.0,
+        "Crónicos": 5644.0,
+        "Embaraz.": 238.0,
+        "Cuid./Func. ELEAM": 149.0,
+        "P. Salud Público": 433.0,
+        "P. Salud Privado": 29.0,
+        "TOTAL": 13016.0,
+        "Personas de 60 y más años.1": 784.0,
+        "Crónicos.1": 361.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 6.0,
+        "P. Salud Público.1": 47.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1202.0,
+        "Personas de 60 y más años.2": 0.12019009658132761,
+        "Crónicos.2": 0.06396172927002126,
+        "Embaraz..2": 0.008403361344537815,
+        "Cuid./Func. ELEAM.2": 0.040268456375838924,
+        "P. Salud Público.2": 0.10854503464203233,
+        "P. Salud Privado.2": 0.06896551724137931,
+        "TOTAL.2": 0.0923478795328826
+      },
+      "Poblacion_Objetivo": 13016.0
+    },
+    "16104.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 3331.0,
+        "Crónicos": 1941.0,
+        "Embaraz.": 94.0,
+        "Cuid./Func. ELEAM": 102.0,
+        "P. Salud Público": 307.0,
+        "P. Salud Privado": 4.0,
+        "TOTAL": 5779.0,
+        "Personas de 60 y más años.1": 64.0,
+        "Crónicos.1": 17.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 9.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 3.0,
+        "TOTAL.1": 95.0,
+        "Personas de 60 y más años.2": 0.019213449414590213,
+        "Crónicos.2": 0.008758371973209686,
+        "Embaraz..2": 0.010638297872340425,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.029315960912052116,
+        "P. Salud Privado.2": 0.25,
+        "TOTAL.2": 0.016438830247447654
+      },
+      "Poblacion_Objetivo": 5779.0
+    },
+    "16204.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 1714.0,
+        "Crónicos": 864.0,
+        "Embaraz.": 38.0,
+        "Cuid./Func. ELEAM": 97.0,
+        "P. Salud Público": 128.0,
+        "P. Salud Privado": 3.0,
+        "TOTAL": 2844.0,
+        "Personas de 60 y más años.1": 95.0,
+        "Crónicos.1": 60.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 18.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 175.0,
+        "Personas de 60 y más años.2": 0.05542590431738623,
+        "Crónicos.2": 0.06944444444444445,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.010309278350515464,
+        "P. Salud Público.2": 0.140625,
+        "P. Salud Privado.2": 0.3333333333333333,
+        "TOTAL.2": 0.061533052039381156
+      },
+      "Poblacion_Objetivo": 2844.0
+    },
+    "16303.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 3627.0,
+        "Crónicos": 3696.0,
+        "Embaraz.": 60.0,
+        "Cuid./Func. ELEAM": 17.0,
+        "P. Salud Público": 150.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 7550.0,
+        "Personas de 60 y más años.1": 92.0,
+        "Crónicos.1": 27.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 4.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 1.0,
+        "TOTAL.1": 124.0,
+        "Personas de 60 y más años.2": 0.025365315687896333,
+        "Crónicos.2": 0.007305194805194805,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.02666666666666667,
+        "TOTAL.2": 0.01642384105960265
+      },
+      "Poblacion_Objetivo": 7550.0
+    },
+    "16105.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 2170.0,
+        "Crónicos": 1443.0,
+        "Embaraz.": 55.0,
+        "Cuid./Func. ELEAM": 38.0,
+        "P. Salud Público": 171.0,
+        "P. Salud Privado": 5.0,
+        "TOTAL": 3882.0,
+        "Personas de 60 y más años.1": 265.0,
+        "Crónicos.1": 132.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 7.0,
+        "P. Salud Público.1": 9.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 0.0,
+        "TOTAL.1": 415.0,
+        "Personas de 60 y más años.2": 0.12211981566820276,
+        "Crónicos.2": 0.09147609147609148,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.18421052631578946,
+        "P. Salud Público.2": 0.05263157894736842,
+        "P. Salud Privado.2": 0.4,
+        "TOTAL.2": 0.10690365790829469
+      },
+      "Poblacion_Objetivo": 3882.0
+    },
+    "16106.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 3249.0,
+        "Crónicos": 1844.0,
+        "Embaraz.": 66.0,
+        "Cuid./Func. ELEAM": 108.0,
+        "P. Salud Público": 199.0,
+        "P. Salud Privado": 3.0,
+        "TOTAL": 5469.0,
+        "Personas de 60 y más años.1": 283.0,
+        "Crónicos.1": 85.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 5.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 375.0,
+        "Personas de 60 y más años.2": 0.0871037242228378,
+        "Crónicos.2": 0.04609544468546638,
+        "Embaraz..2": 0.015151515151515152,
+        "Cuid./Func. ELEAM.2": 0.009259259259259259,
+        "P. Salud Público.2": 0.02512562814070352,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.06856829402084476
+      },
+      "Poblacion_Objetivo": 5469.0
+    },
+    "16205.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 1495.0,
+        "Crónicos": 1028.0,
+        "Embaraz.": 24.0,
+        "Cuid./Func. ELEAM": 62.0,
+        "P. Salud Público": 89.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 2698.0,
+        "Personas de 60 y más años.1": 77.0,
+        "Crónicos.1": 49.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 9.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 135.0,
+        "Personas de 60 y más años.2": 0.05150501672240803,
+        "Crónicos.2": 0.047665369649805445,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.10112359550561797,
+        "TOTAL.2": 0.050037064492216454
+      },
+      "Poblacion_Objetivo": 2698.0
+    },
+    "16107.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 5796.0,
+        "Crónicos": 2213.0,
+        "Embaraz.": 109.0,
+        "Cuid./Func. ELEAM": 498.0,
+        "P. Salud Público": 303.0,
+        "P. Salud Privado": 46.0,
+        "TOTAL": 8965.0,
+        "Personas de 60 y más años.1": 293.0,
+        "Crónicos.1": 68.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 11.0,
+        "P. Salud Público.1": 7.0,
+        "P. Salud Privado.1": 7.0,
+        "Otros": 0.0,
+        "TOTAL.1": 388.0,
+        "Personas de 60 y más años.2": 0.050552104899930984,
+        "Crónicos.2": 0.030727519204699502,
+        "Embaraz..2": 0.01834862385321101,
+        "Cuid./Func. ELEAM.2": 0.02208835341365462,
+        "P. Salud Público.2": 0.0231023102310231,
+        "P. Salud Privado.2": 0.15217391304347827,
+        "TOTAL.2": 0.04327941996653653
+      },
+      "Poblacion_Objetivo": 8965.0
+    },
+    "16201.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 3416.0,
+        "Crónicos": 1498.0,
+        "Embaraz.": 76.0,
+        "Cuid./Func. ELEAM": 20.0,
+        "P. Salud Público": 248.0,
+        "P. Salud Privado": 15.0,
+        "TOTAL": 5273.0,
+        "Personas de 60 y más años.1": 352.0,
+        "Crónicos.1": 278.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 31.0,
+        "P. Salud Privado.1": 6.0,
+        "Otros": 0.0,
+        "TOTAL.1": 667.0,
+        "Personas de 60 y más años.2": 0.10304449648711944,
+        "Crónicos.2": 0.1855807743658211,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.125,
+        "P. Salud Privado.2": 0.4,
+        "TOTAL.2": 0.1264934572349706
+      },
+      "Poblacion_Objetivo": 5273.0
+    },
+    "16206.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 2078.0,
+        "Crónicos": 1329.0,
+        "Embaraz.": 41.0,
+        "Cuid./Func. ELEAM": 18.0,
+        "P. Salud Público": 106.0,
+        "P. Salud Privado": 2.0,
+        "TOTAL": 3574.0,
+        "Personas de 60 y más años.1": 146.0,
+        "Crónicos.1": 49.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 6.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 201.0,
+        "Personas de 60 y más años.2": 0.07025986525505294,
+        "Crónicos.2": 0.03686982693754703,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.05660377358490566,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.05623950755456072
+      },
+      "Poblacion_Objetivo": 3574.0
+    },
+    "16301.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 14509.0,
+        "Crónicos": 9547.0,
+        "Embaraz.": 408.0,
+        "Cuid./Func. ELEAM": 294.0,
+        "P. Salud Público": 1646.0,
+        "P. Salud Privado": 71.0,
+        "TOTAL": 26475.0,
+        "Personas de 60 y más años.1": 799.0,
+        "Crónicos.1": 433.0,
+        "Embaraz..1": 5.0,
+        "Cuid./Func. ELEAM.1": 4.0,
+        "P. Salud Público.1": 93.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1336.0,
+        "Personas de 60 y más años.2": 0.055069267351299196,
+        "Crónicos.2": 0.04535456164240075,
+        "Embaraz..2": 0.012254901960784314,
+        "Cuid./Func. ELEAM.2": 0.013605442176870748,
+        "P. Salud Público.2": 0.056500607533414335,
+        "P. Salud Privado.2": 0.028169014084507043,
+        "TOTAL.2": 0.05046270066100095
+      },
+      "Poblacion_Objetivo": 26475.0
+    },
+    "16304.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 1387.0,
+        "Crónicos": 827.0,
+        "Embaraz.": 33.0,
+        "Cuid./Func. ELEAM": 30.0,
+        "P. Salud Público": 118.0,
+        "P. Salud Privado": 3.0,
+        "TOTAL": 2398.0,
+        "Personas de 60 y más años.1": 120.0,
+        "Crónicos.1": 53.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 14.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 190.0,
+        "Personas de 60 y más años.2": 0.08651766402307137,
+        "Crónicos.2": 0.06408706166868199,
+        "Embaraz..2": 0.030303030303030304,
+        "Cuid./Func. ELEAM.2": 0.03333333333333333,
+        "P. Salud Público.2": 0.11864406779661017,
+        "P. Salud Privado.2": 0.3333333333333333,
+        "TOTAL.2": 0.07923269391159299
+      },
+      "Poblacion_Objetivo": 2398.0
+    },
+    "16108.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 4492.0,
+        "Crónicos": 2735.0,
+        "Embaraz.": 99.0,
+        "Cuid./Func. ELEAM": 124.0,
+        "P. Salud Público": 359.0,
+        "P. Salud Privado": 8.0,
+        "TOTAL": 7817.0,
+        "Personas de 60 y más años.1": 335.0,
+        "Crónicos.1": 132.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 45.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 0.0,
+        "TOTAL.1": 518.0,
+        "Personas de 60 y más años.2": 0.07457702582368655,
+        "Crónicos.2": 0.04826325411334552,
+        "Embaraz..2": 0.020202020202020204,
+        "Cuid./Func. ELEAM.2": 0.016129032258064516,
+        "P. Salud Público.2": 0.12534818941504178,
+        "P. Salud Privado.2": 0.25,
+        "TOTAL.2": 0.0662658308814123
+      },
+      "Poblacion_Objetivo": 7817.0
+    },
+    "16305.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 3336.0,
+        "Crónicos": 1500.0,
+        "Embaraz.": 84.0,
+        "Cuid./Func. ELEAM": 151.0,
+        "P. Salud Público": 211.0,
+        "P. Salud Privado": 11.0,
+        "TOTAL": 5293.0,
+        "Personas de 60 y más años.1": 100.0,
+        "Crónicos.1": 24.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 2.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 127.0,
+        "Personas de 60 y más años.2": 0.02997601918465228,
+        "Crónicos.2": 0.016,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.006622516556291391,
+        "P. Salud Público.2": 0.009478672985781991,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.02399395427923673
+      },
+      "Poblacion_Objetivo": 5293.0
+    },
+    "16207.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 1689.0,
+        "Crónicos": 1615.0,
+        "Embaraz.": 30.0,
+        "Cuid./Func. ELEAM": 25.0,
+        "P. Salud Público": 109.0,
+        "P. Salud Privado": 1.0,
+        "TOTAL": 3469.0,
+        "Personas de 60 y más años.1": 83.0,
+        "Crónicos.1": 23.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 5.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 1.0,
+        "TOTAL.1": 112.0,
+        "Personas de 60 y más años.2": 0.04914150384843102,
+        "Crónicos.2": 0.014241486068111455,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.045871559633027525,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.03228596137215336
+      },
+      "Poblacion_Objetivo": 3469.0
+    },
+    "16109.0": {
+      "Criterios": {
+        "Región": 16.0,
+        "Personas de 60 y más años": 4901.0,
+        "Crónicos": 2874.0,
+        "Embaraz.": 106.0,
+        "Cuid./Func. ELEAM": 173.0,
+        "P. Salud Público": 363.0,
+        "P. Salud Privado": 56.0,
+        "TOTAL": 8473.0,
+        "Personas de 60 y más años.1": 301.0,
+        "Crónicos.1": 116.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 12.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 53.0,
+        "TOTAL.1": 484.0,
+        "Personas de 60 y más años.2": 0.0614160375433585,
+        "Crónicos.2": 0.04036186499652053,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.03305785123966942,
+        "P. Salud Privado.2": 0.03571428571428571,
+        "TOTAL.2": 0.057122624808214326
+      },
+      "Poblacion_Objetivo": 8473.0
+    },
+    "8101.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 54006.0,
+        "Crónicos": 18229.0,
+        "Embaraz.": 1433.0,
+        "Cuid./Func. ELEAM": 1274.0,
+        "P. Salud Público": 8926.0,
+        "P. Salud Privado": 3202.0,
+        "TOTAL": 87070.0,
+        "Personas de 60 y más años.1": 10287.0,
+        "Crónicos.1": 4031.0,
+        "Embaraz..1": 35.0,
+        "Cuid./Func. ELEAM.1": 298.0,
+        "P. Salud Público.1": 1491.0,
+        "P. Salud Privado.1": 580.0,
+        "Otros": 27.0,
+        "TOTAL.1": 16749.0,
+        "Personas de 60 y más años.2": 0.1904788356849239,
+        "Crónicos.2": 0.2211311646277909,
+        "Embaraz..2": 0.024424284717376135,
+        "Cuid./Func. ELEAM.2": 0.23390894819466249,
+        "P. Salud Público.2": 0.16704010755097468,
+        "P. Salud Privado.2": 0.1811367895065584,
+        "TOTAL.2": 0.19236246698059034
+      },
+      "Poblacion_Objetivo": 87070.0
+    },
+    "8102.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 24385.0,
+        "Crónicos": 8636.0,
+        "Embaraz.": 985.0,
+        "Cuid./Func. ELEAM": 439.0,
+        "P. Salud Público": 1800.0,
+        "P. Salud Privado": 109.0,
+        "TOTAL": 36354.0,
+        "Personas de 60 y más años.1": 2486.0,
+        "Crónicos.1": 854.0,
+        "Embaraz..1": 6.0,
+        "Cuid./Func. ELEAM.1": 20.0,
+        "P. Salud Público.1": 218.0,
+        "P. Salud Privado.1": 5.0,
+        "Otros": 6.0,
+        "TOTAL.1": 3595.0,
+        "Personas de 60 y más años.2": 0.10194791880254254,
+        "Crónicos.2": 0.09888837424733674,
+        "Embaraz..2": 0.006091370558375634,
+        "Cuid./Func. ELEAM.2": 0.04555808656036447,
+        "P. Salud Público.2": 0.12111111111111111,
+        "P. Salud Privado.2": 0.045871559633027525,
+        "TOTAL.2": 0.09888870550695934
+      },
+      "Poblacion_Objetivo": 36354.0
+    },
+    "8103.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 19352.0,
+        "Crónicos": 8352.0,
+        "Embaraz.": 462.0,
+        "Cuid./Func. ELEAM": 428.0,
+        "P. Salud Público": 944.0,
+        "P. Salud Privado": 74.0,
+        "TOTAL": 29612.0,
+        "Personas de 60 y más años.1": 1480.0,
+        "Crónicos.1": 411.0,
+        "Embaraz..1": 4.0,
+        "Cuid./Func. ELEAM.1": 7.0,
+        "P. Salud Público.1": 87.0,
+        "P. Salud Privado.1": 8.0,
+        "Otros": 2.0,
+        "TOTAL.1": 1999.0,
+        "Personas de 60 y más años.2": 0.07647788342290203,
+        "Crónicos.2": 0.04920977011494253,
+        "Embaraz..2": 0.008658008658008658,
+        "Cuid./Func. ELEAM.2": 0.016355140186915886,
+        "P. Salud Público.2": 0.09216101694915255,
+        "P. Salud Privado.2": 0.10810810810810811,
+        "TOTAL.2": 0.06750641631770904
+      },
+      "Poblacion_Objetivo": 29612.0
+    },
+    "8104.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 3473.0,
+        "Crónicos": 1231.0,
+        "Embaraz.": 81.0,
+        "Cuid./Func. ELEAM": 85.0,
+        "P. Salud Público": 274.0,
+        "P. Salud Privado": 7.0,
+        "TOTAL": 5151.0,
+        "Personas de 60 y más años.1": 296.0,
+        "Crónicos.1": 62.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 13.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 374.0,
+        "Personas de 60 y más años.2": 0.08522890872444572,
+        "Crónicos.2": 0.050365556458164096,
+        "Embaraz..2": 0.012345679012345678,
+        "Cuid./Func. ELEAM.2": 0.023529411764705882,
+        "P. Salud Público.2": 0.04744525547445255,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.07260726072607261
+      },
+      "Poblacion_Objetivo": 5151.0
+    },
+    "8105.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 5500.0,
+        "Crónicos": 2035.0,
+        "Embaraz.": 163.0,
+        "Cuid./Func. ELEAM": 140.0,
+        "P. Salud Público": 323.0,
+        "P. Salud Privado": 17.0,
+        "TOTAL": 8178.0,
+        "Personas de 60 y más años.1": 315.0,
+        "Crónicos.1": 72.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 11.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 399.0,
+        "Personas de 60 y más años.2": 0.057272727272727274,
+        "Crónicos.2": 0.03538083538083538,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.007142857142857143,
+        "P. Salud Público.2": 0.034055727554179564,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.04878943506969919
+      },
+      "Poblacion_Objetivo": 8178.0
+    },
+    "8106.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 10594.0,
+        "Crónicos": 3658.0,
+        "Embaraz.": 286.0,
+        "Cuid./Func. ELEAM": 265.0,
+        "P. Salud Público": 1165.0,
+        "P. Salud Privado": 40.0,
+        "TOTAL": 16008.0,
+        "Personas de 60 y más años.1": 659.0,
+        "Crónicos.1": 174.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 4.0,
+        "P. Salud Público.1": 94.0,
+        "P. Salud Privado.1": 4.0,
+        "Otros": 3.0,
+        "TOTAL.1": 938.0,
+        "Personas de 60 y más años.2": 0.06220502171040211,
+        "Crónicos.2": 0.047566976489885185,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.01509433962264151,
+        "P. Salud Público.2": 0.08068669527896996,
+        "P. Salud Privado.2": 0.1,
+        "TOTAL.2": 0.05859570214892554
+      },
+      "Poblacion_Objetivo": 16008.0
+    },
+    "8107.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 11006.0,
+        "Crónicos": 7240.0,
+        "Embaraz.": 342.0,
+        "Cuid./Func. ELEAM": 99.0,
+        "P. Salud Público": 1306.0,
+        "P. Salud Privado": 32.0,
+        "TOTAL": 20025.0,
+        "Personas de 60 y más años.1": 1070.0,
+        "Crónicos.1": 550.0,
+        "Embaraz..1": 3.0,
+        "Cuid./Func. ELEAM.1": 5.0,
+        "P. Salud Público.1": 162.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1791.0,
+        "Personas de 60 y más años.2": 0.09721969834635653,
+        "Crónicos.2": 0.07596685082872928,
+        "Embaraz..2": 0.008771929824561403,
+        "Cuid./Func. ELEAM.2": 0.050505050505050504,
+        "P. Salud Público.2": 0.12404287901990811,
+        "P. Salud Privado.2": 0.03125,
+        "TOTAL.2": 0.08943820224719101
+      },
+      "Poblacion_Objetivo": 20025.0
+    },
+    "8108.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 25820.0,
+        "Crónicos": 10229.0,
+        "Embaraz.": 1065.0,
+        "Cuid./Func. ELEAM": 474.0,
+        "P. Salud Público": 1391.0,
+        "P. Salud Privado": 252.0,
+        "TOTAL": 39231.0,
+        "Personas de 60 y más años.1": 4816.0,
+        "Crónicos.1": 1882.0,
+        "Embaraz..1": 26.0,
+        "Cuid./Func. ELEAM.1": 42.0,
+        "P. Salud Público.1": 258.0,
+        "P. Salud Privado.1": 94.0,
+        "Otros": 15.0,
+        "TOTAL.1": 7133.0,
+        "Personas de 60 y más años.2": 0.18652207591014716,
+        "Crónicos.2": 0.1839867044676899,
+        "Embaraz..2": 0.024413145539906103,
+        "Cuid./Func. ELEAM.2": 0.08860759493670886,
+        "P. Salud Público.2": 0.1854780733285406,
+        "P. Salud Privado.2": 0.373015873015873,
+        "TOTAL.2": 0.18182049909510337
+      },
+      "Poblacion_Objetivo": 39231.0
+    },
+    "8109.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 3758.0,
+        "Crónicos": 1197.0,
+        "Embaraz.": 103.0,
+        "Cuid./Func. ELEAM": 103.0,
+        "P. Salud Público": 272.0,
+        "P. Salud Privado": 13.0,
+        "TOTAL": 5446.0,
+        "Personas de 60 y más años.1": 303.0,
+        "Crónicos.1": 88.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 5.0,
+        "P. Salud Público.1": 31.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 427.0,
+        "Personas de 60 y más años.2": 0.08062799361362427,
+        "Crónicos.2": 0.07351712614870509,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.04854368932038835,
+        "P. Salud Público.2": 0.11397058823529412,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.07840616966580977
+      },
+      "Poblacion_Objetivo": 5446.0
+    },
+    "8110.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 35909.0,
+        "Crónicos": 19643.0,
+        "Embaraz.": 952.0,
+        "Cuid./Func. ELEAM": 637.0,
+        "P. Salud Público": 5143.0,
+        "P. Salud Privado": 1282.0,
+        "TOTAL": 63566.0,
+        "Personas de 60 y más años.1": 4494.0,
+        "Crónicos.1": 2396.0,
+        "Embaraz..1": 11.0,
+        "Cuid./Func. ELEAM.1": 227.0,
+        "P. Salud Público.1": 1379.0,
+        "P. Salud Privado.1": 190.0,
+        "Otros": 21.0,
+        "TOTAL.1": 8718.0,
+        "Personas de 60 y más años.2": 0.12514968392325043,
+        "Crónicos.2": 0.12197729471058393,
+        "Embaraz..2": 0.011554621848739496,
+        "Cuid./Func. ELEAM.2": 0.3563579277864992,
+        "P. Salud Público.2": 0.2681314407933113,
+        "P. Salud Privado.2": 0.1482059282371295,
+        "TOTAL.2": 0.13714879023377277
+      },
+      "Poblacion_Objetivo": 63566.0
+    },
+    "8111.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 14788.0,
+        "Crónicos": 5368.0,
+        "Embaraz.": 370.0,
+        "Cuid./Func. ELEAM": 343.0,
+        "P. Salud Público": 1549.0,
+        "P. Salud Privado": 116.0,
+        "TOTAL": 22534.0,
+        "Personas de 60 y más años.1": 1605.0,
+        "Crónicos.1": 507.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 61.0,
+        "P. Salud Público.1": 150.0,
+        "P. Salud Privado.1": 25.0,
+        "Otros": 3.0,
+        "TOTAL.1": 2353.0,
+        "Personas de 60 y más años.2": 0.10853394644306194,
+        "Crónicos.2": 0.09444858420268257,
+        "Embaraz..2": 0.005405405405405406,
+        "Cuid./Func. ELEAM.2": 0.17784256559766765,
+        "P. Salud Público.2": 0.09683666881859264,
+        "P. Salud Privado.2": 0.21551724137931033,
+        "TOTAL.2": 0.10441998757433212
+      },
+      "Poblacion_Objetivo": 22534.0
+    },
+    "8112.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 21991.0,
+        "Crónicos": 12344.0,
+        "Embaraz.": 559.0,
+        "Cuid./Func. ELEAM": 363.0,
+        "P. Salud Público": 829.0,
+        "P. Salud Privado": 1288.0,
+        "TOTAL": 37374.0,
+        "Personas de 60 y más años.1": 4861.0,
+        "Crónicos.1": 4560.0,
+        "Embaraz..1": 14.0,
+        "Cuid./Func. ELEAM.1": 142.0,
+        "P. Salud Público.1": 209.0,
+        "P. Salud Privado.1": 224.0,
+        "Otros": 2.0,
+        "TOTAL.1": 10012.0,
+        "Personas de 60 y más años.2": 0.2210449729434769,
+        "Crónicos.2": 0.3694102397926118,
+        "Embaraz..2": 0.025044722719141325,
+        "Cuid./Func. ELEAM.2": 0.39118457300275483,
+        "P. Salud Público.2": 0.25211097708082025,
+        "P. Salud Privado.2": 0.17391304347826086,
+        "TOTAL.2": 0.26788676620110236
+      },
+      "Poblacion_Objetivo": 37374.0
+    },
+    "8201.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 5622.0,
+        "Crónicos": 2405.0,
+        "Embaraz.": 203.0,
+        "Cuid./Func. ELEAM": 158.0,
+        "P. Salud Público": 650.0,
+        "P. Salud Privado": 23.0,
+        "TOTAL": 9061.0,
+        "Personas de 60 y más años.1": 410.0,
+        "Crónicos.1": 156.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 3.0,
+        "P. Salud Público.1": 60.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 67.0,
+        "TOTAL.1": 696.0,
+        "Personas de 60 y más años.2": 0.07292778370686588,
+        "Crónicos.2": 0.06486486486486487,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0189873417721519,
+        "P. Salud Público.2": 0.09230769230769231,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.07681271382849575
+      },
+      "Poblacion_Objetivo": 9061.0
+    },
+    "8202.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 7951.0,
+        "Crónicos": 3805.0,
+        "Embaraz.": 274.0,
+        "Cuid./Func. ELEAM": 204.0,
+        "P. Salud Público": 748.0,
+        "P. Salud Privado": 43.0,
+        "TOTAL": 13025.0,
+        "Personas de 60 y más años.1": 962.0,
+        "Crónicos.1": 397.0,
+        "Embaraz..1": 5.0,
+        "Cuid./Func. ELEAM.1": 15.0,
+        "P. Salud Público.1": 109.0,
+        "P. Salud Privado.1": 7.0,
+        "Otros": 1.0,
+        "TOTAL.1": 1496.0,
+        "Personas de 60 y más años.2": 0.12099107030562194,
+        "Crónicos.2": 0.10433639947437583,
+        "Embaraz..2": 0.01824817518248175,
+        "Cuid./Func. ELEAM.2": 0.07352941176470588,
+        "P. Salud Público.2": 0.14572192513368984,
+        "P. Salud Privado.2": 0.16279069767441862,
+        "TOTAL.2": 0.11485604606525912
+      },
+      "Poblacion_Objetivo": 13025.0
+    },
+    "8203.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 8024.0,
+        "Crónicos": 4230.0,
+        "Embaraz.": 273.0,
+        "Cuid./Func. ELEAM": 131.0,
+        "P. Salud Público": 944.0,
+        "P. Salud Privado": 38.0,
+        "TOTAL": 13640.0,
+        "Personas de 60 y más años.1": 900.0,
+        "Crónicos.1": 543.0,
+        "Embaraz..1": 5.0,
+        "Cuid./Func. ELEAM.1": 25.0,
+        "P. Salud Público.1": 128.0,
+        "P. Salud Privado.1": 11.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1612.0,
+        "Personas de 60 y más años.2": 0.11216350947158524,
+        "Crónicos.2": 0.12836879432624113,
+        "Embaraz..2": 0.018315018315018316,
+        "Cuid./Func. ELEAM.2": 0.19083969465648856,
+        "P. Salud Público.2": 0.13559322033898305,
+        "P. Salud Privado.2": 0.2894736842105263,
+        "TOTAL.2": 0.11818181818181818
+      },
+      "Poblacion_Objetivo": 13640.0
+    },
+    "8204.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 1609.0,
+        "Crónicos": 767.0,
+        "Embaraz.": 52.0,
+        "Cuid./Func. ELEAM": 54.0,
+        "P. Salud Público": 227.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 2709.0,
+        "Personas de 60 y más años.1": 164.0,
+        "Crónicos.1": 77.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 5.0,
+        "P. Salud Público.1": 15.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 261.0,
+        "Personas de 60 y más años.2": 0.1019266625233064,
+        "Crónicos.2": 0.10039113428943937,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.09259259259259259,
+        "P. Salud Público.2": 0.06607929515418502,
+        "TOTAL.2": 0.09634551495016612
+      },
+      "Poblacion_Objetivo": 2709.0
+    },
+    "8205.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 7270.0,
+        "Crónicos": 2735.0,
+        "Embaraz.": 243.0,
+        "Cuid./Func. ELEAM": 147.0,
+        "P. Salud Público": 1353.0,
+        "P. Salud Privado": 51.0,
+        "TOTAL": 11799.0,
+        "Personas de 60 y más años.1": 1005.0,
+        "Crónicos.1": 410.0,
+        "Embaraz..1": 4.0,
+        "Cuid./Func. ELEAM.1": 89.0,
+        "P. Salud Público.1": 206.0,
+        "P. Salud Privado.1": 10.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1724.0,
+        "Personas de 60 y más años.2": 0.13823933975240715,
+        "Crónicos.2": 0.14990859232175502,
+        "Embaraz..2": 0.01646090534979424,
+        "Cuid./Func. ELEAM.2": 0.6054421768707483,
+        "P. Salud Público.2": 0.15225424981522542,
+        "P. Salud Privado.2": 0.19607843137254902,
+        "TOTAL.2": 0.1461140774641919
+      },
+      "Poblacion_Objetivo": 11799.0
+    },
+    "8206.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 4529.0,
+        "Crónicos": 2076.0,
+        "Embaraz.": 177.0,
+        "Cuid./Func. ELEAM": 80.0,
+        "P. Salud Público": 342.0,
+        "P. Salud Privado": 7.0,
+        "TOTAL": 7211.0,
+        "Personas de 60 y más años.1": 373.0,
+        "Crónicos.1": 136.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 15.0,
+        "P. Salud Público.1": 61.0,
+        "P. Salud Privado.1": 3.0,
+        "Otros": 0.0,
+        "TOTAL.1": 588.0,
+        "Personas de 60 y más años.2": 0.08235813645396335,
+        "Crónicos.2": 0.06551059730250482,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.1875,
+        "P. Salud Público.2": 0.1783625730994152,
+        "P. Salud Privado.2": 0.42857142857142855,
+        "TOTAL.2": 0.08154208847593954
+      },
+      "Poblacion_Objetivo": 7211.0
+    },
+    "8207.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 2031.0,
+        "Crónicos": 933.0,
+        "Embaraz.": 92.0,
+        "Cuid./Func. ELEAM": 88.0,
+        "P. Salud Público": 213.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 3357.0,
+        "Personas de 60 y más años.1": 46.0,
+        "Crónicos.1": 30.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 4.0,
+        "P. Salud Público.1": 7.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 88.0,
+        "Personas de 60 y más años.2": 0.022648941408173313,
+        "Crónicos.2": 0.03215434083601286,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.045454545454545456,
+        "P. Salud Público.2": 0.03286384976525822,
+        "TOTAL.2": 0.026213881441763478
+      },
+      "Poblacion_Objetivo": 3357.0
+    },
+    "8301.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 44258.0,
+        "Crónicos": 23651.0,
+        "Embaraz.": 1760.0,
+        "Cuid./Func. ELEAM": 2145.0,
+        "P. Salud Público": 6069.0,
+        "P. Salud Privado": 1182.0,
+        "TOTAL": 79065.0,
+        "Personas de 60 y más años.1": 7905.0,
+        "Crónicos.1": 3928.0,
+        "Embaraz..1": 40.0,
+        "Cuid./Func. ELEAM.1": 362.0,
+        "P. Salud Público.1": 1080.0,
+        "P. Salud Privado.1": 200.0,
+        "Otros": 15.0,
+        "TOTAL.1": 13530.0,
+        "Personas de 60 y más años.2": 0.17861177640200643,
+        "Crónicos.2": 0.1660817724409116,
+        "Embaraz..2": 0.022727272727272728,
+        "Cuid./Func. ELEAM.2": 0.16876456876456877,
+        "P. Salud Público.2": 0.17795353435491842,
+        "P. Salud Privado.2": 0.1692047377326565,
+        "TOTAL.2": 0.17112502371466515
+      },
+      "Poblacion_Objetivo": 79065.0
+    },
+    "8302.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 1201.0,
+        "Crónicos": 472.0,
+        "Embaraz.": 25.0,
+        "Cuid./Func. ELEAM": 16.0,
+        "P. Salud Público": 80.0,
+        "P. Salud Privado": 3.0,
+        "TOTAL": 1797.0,
+        "Personas de 60 y más años.1": 53.0,
+        "Crónicos.1": 13.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 6.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 1.0,
+        "TOTAL.1": 74.0,
+        "Personas de 60 y más años.2": 0.008238928939237899,
+        "Crónicos.2": 0.01288404360753221,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.019736842105263157,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.010776829815895825
+      },
+      "Poblacion_Objetivo": 1797.0
+    },
+    "8303.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 6734.0,
+        "Crónicos": 3769.0,
+        "Embaraz.": 203.0,
+        "Cuid./Func. ELEAM": 86.0,
+        "P. Salud Público": 431.0,
+        "P. Salud Privado": 43.0,
+        "TOTAL": 11266.0,
+        "Personas de 60 y más años.1": 828.0,
+        "Crónicos.1": 336.0,
+        "Embaraz..1": 4.0,
+        "Cuid./Func. ELEAM.1": 17.0,
+        "P. Salud Público.1": 70.0,
+        "P. Salud Privado.1": 5.0,
+        "Otros": 3.0,
+        "TOTAL.1": 1263.0,
+        "Personas de 60 y más años.2": 0.12295812295812296,
+        "Crónicos.2": 0.0891483152029716,
+        "Embaraz..2": 0.019704433497536946,
+        "Cuid./Func. ELEAM.2": 0.19767441860465115,
+        "P. Salud Público.2": 0.16241299303944315,
+        "P. Salud Privado.2": 0.11627906976744186,
+        "TOTAL.2": 0.11210722527960235
+      },
+      "Poblacion_Objetivo": 11266.0
+    },
+    "8304.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 5726.0,
+        "Crónicos": 2703.0,
+        "Embaraz.": 143.0,
+        "Cuid./Func. ELEAM": 131.0,
+        "P. Salud Público": 599.0,
+        "P. Salud Privado": 61.0,
+        "TOTAL": 9363.0,
+        "Personas de 60 y más años.1": 633.0,
+        "Crónicos.1": 285.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 25.0,
+        "P. Salud Público.1": 55.0,
+        "P. Salud Privado.1": 11.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1010.0,
+        "Personas de 60 y más años.2": 0.11054837582954942,
+        "Crónicos.2": 0.10543840177580466,
+        "Embaraz..2": 0.006993006993006993,
+        "Cuid./Func. ELEAM.2": 0.19083969465648856,
+        "P. Salud Público.2": 0.09181969949916527,
+        "P. Salud Privado.2": 0.18032786885245902,
+        "TOTAL.2": 0.10787140873651607
+      },
+      "Poblacion_Objetivo": 9363.0
+    },
+    "8305.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 7221.0,
+        "Crónicos": 4226.0,
+        "Embaraz.": 212.0,
+        "Cuid./Func. ELEAM": 403.0,
+        "P. Salud Público": 537.0,
+        "P. Salud Privado": 46.0,
+        "TOTAL": 12645.0,
+        "Personas de 60 y más años.1": 498.0,
+        "Crónicos.1": 173.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 35.0,
+        "P. Salud Público.1": 64.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 161.0,
+        "TOTAL.1": 933.0,
+        "Personas de 60 y más años.2": 0.06896551724137931,
+        "Crónicos.2": 0.04093705631803123,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.08684863523573201,
+        "P. Salud Público.2": 0.1191806331471136,
+        "P. Salud Privado.2": 0.043478260869565216,
+        "TOTAL.2": 0.0737841043890866
+      },
+      "Poblacion_Objetivo": 12645.0
+    },
+    "8306.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 6098.0,
+        "Crónicos": 2605.0,
+        "Embaraz.": 178.0,
+        "Cuid./Func. ELEAM": 92.0,
+        "P. Salud Público": 460.0,
+        "P. Salud Privado": 54.0,
+        "TOTAL": 9487.0,
+        "Personas de 60 y más años.1": 195.0,
+        "Crónicos.1": 46.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 9.0,
+        "P. Salud Privado.1": 4.0,
+        "Otros": 0.0,
+        "TOTAL.1": 255.0,
+        "Personas de 60 y más años.2": 0.03197769760577238,
+        "Crónicos.2": 0.017658349328214973,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.010869565217391304,
+        "P. Salud Público.2": 0.01956521739130435,
+        "P. Salud Privado.2": 0.07407407407407407,
+        "TOTAL.2": 0.02687888689786023
+      },
+      "Poblacion_Objetivo": 9487.0
+    },
+    "8307.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 2377.0,
+        "Crónicos": 1180.0,
+        "Embaraz.": 86.0,
+        "Cuid./Func. ELEAM": 36.0,
+        "P. Salud Público": 168.0,
+        "P. Salud Privado": 11.0,
+        "TOTAL": 3858.0,
+        "Personas de 60 y más años.1": 104.0,
+        "Crónicos.1": 32.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 11.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 148.0,
+        "Personas de 60 y más años.2": 0.04375262936474548,
+        "Crónicos.2": 0.02711864406779661,
+        "Embaraz..2": 0.011627906976744186,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.06547619047619048,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.0383618455158113
+      },
+      "Poblacion_Objetivo": 3858.0
+    },
+    "8308.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 1353.0,
+        "Crónicos": 642.0,
+        "Embaraz.": 22.0,
+        "Cuid./Func. ELEAM": 39.0,
+        "P. Salud Público": 85.0,
+        "P. Salud Privado": 2.0,
+        "TOTAL": 2143.0,
+        "Personas de 60 y más años.1": 217.0,
+        "Crónicos.1": 52.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 3.0,
+        "P. Salud Público.1": 10.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 1.0,
+        "TOTAL.1": 284.0,
+        "Personas de 60 y más años.2": 0.16038433111603842,
+        "Crónicos.2": 0.08099688473520249,
+        "Embaraz..2": 0.045454545454545456,
+        "Cuid./Func. ELEAM.2": 0.07692307692307693,
+        "P. Salud Público.2": 0.11764705882352941,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.13252449836677554
+      },
+      "Poblacion_Objetivo": 2143.0
+    },
+    "8309.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 2833.0,
+        "Crónicos": 1196.0,
+        "Embaraz.": 62.0,
+        "Cuid./Func. ELEAM": 103.0,
+        "P. Salud Público": 193.0,
+        "P. Salud Privado": 2.0,
+        "TOTAL": 4389.0,
+        "Personas de 60 y más años.1": 224.0,
+        "Crónicos.1": 53.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 12.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 290.0,
+        "Personas de 60 y más años.2": 0.07906812566184257,
+        "Crónicos.2": 0.04431438127090301,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.009708737864077669,
+        "P. Salud Público.2": 0.06217616580310881,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.0660742766005924
+      },
+      "Poblacion_Objetivo": 4389.0
+    },
+    "8310.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 992.0,
+        "Crónicos": 668.0,
+        "Embaraz.": 23.0,
+        "Cuid./Func. ELEAM": 51.0,
+        "P. Salud Público": 112.0,
+        "P. Salud Privado": 3.0,
+        "TOTAL": 1849.0,
+        "Personas de 60 y más años.1": 54.0,
+        "Crónicos.1": 7.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 7.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 1.0,
+        "TOTAL.1": 70.0,
+        "Personas de 60 y más años.2": 0.05443548387096774,
+        "Crónicos.2": 0.010479041916167664,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.0625,
+        "P. Salud Privado.2": 0.3333333333333333,
+        "TOTAL.2": 0.03785830178474851
+      },
+      "Poblacion_Objetivo": 1849.0
+    },
+    "8311.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 3578.0,
+        "Crónicos": 2560.0,
+        "Embaraz.": 98.0,
+        "Cuid./Func. ELEAM": 61.0,
+        "P. Salud Público": 427.0,
+        "P. Salud Privado": 14.0,
+        "TOTAL": 6738.0,
+        "Personas de 60 y más años.1": 586.0,
+        "Crónicos.1": 388.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 10.0,
+        "P. Salud Público.1": 93.0,
+        "P. Salud Privado.1": 6.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1083.0,
+        "Personas de 60 y más años.2": 0.16377864728898825,
+        "Crónicos.2": 0.1515625,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.16393442622950818,
+        "P. Salud Público.2": 0.21779859484777517,
+        "P. Salud Privado.2": 0.42857142857142855,
+        "TOTAL.2": 0.16073018699910951
+      },
+      "Poblacion_Objetivo": 6738.0
+    },
+    "8312.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 4083.0,
+        "Crónicos": 2532.0,
+        "Embaraz.": 101.0,
+        "Cuid./Func. ELEAM": 160.0,
+        "P. Salud Público": 399.0,
+        "P. Salud Privado": 19.0,
+        "TOTAL": 7294.0,
+        "Personas de 60 y más años.1": 375.0,
+        "Crónicos.1": 232.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 9.0,
+        "P. Salud Público.1": 34.0,
+        "P. Salud Privado.1": 3.0,
+        "Otros": 0.0,
+        "TOTAL.1": 654.0,
+        "Personas de 60 y más años.2": 0.09184423218221896,
+        "Crónicos.2": 0.09162717219589257,
+        "Embaraz..2": 0.009900990099009901,
+        "Cuid./Func. ELEAM.2": 0.05625,
+        "P. Salud Público.2": 0.08521303258145363,
+        "P. Salud Privado.2": 0.15789473684210525,
+        "TOTAL.2": 0.08966273649574993
+      },
+      "Poblacion_Objetivo": 7294.0
+    },
+    "8313.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 6351.0,
+        "Crónicos": 3146.0,
+        "Embaraz.": 149.0,
+        "Cuid./Func. ELEAM": 102.0,
+        "P. Salud Público": 465.0,
+        "P. Salud Privado": 37.0,
+        "TOTAL": 10250.0,
+        "Personas de 60 y más años.1": 317.0,
+        "Crónicos.1": 131.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 10.0,
+        "P. Salud Público.1": 25.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 485.0,
+        "Personas de 60 y más años.2": 0.04991339946465124,
+        "Crónicos.2": 0.041640178003814365,
+        "Embaraz..2": 0.006711409395973154,
+        "Cuid./Func. ELEAM.2": 0.09803921568627451,
+        "P. Salud Público.2": 0.053763440860215055,
+        "P. Salud Privado.2": 0.02702702702702703,
+        "TOTAL.2": 0.04731707317073171
+      },
+      "Poblacion_Objetivo": 10250.0
+    },
+    "8314.0": {
+      "Criterios": {
+        "Región": 8.0,
+        "Personas de 60 y más años": 971.0,
+        "Crónicos": 1009.0,
+        "Embaraz.": 71.0,
+        "Cuid./Func. ELEAM": 22.0,
+        "P. Salud Público": 152.0,
+        "P. Salud Privado": 2.0,
+        "TOTAL": 2227.0,
+        "Personas de 60 y más años.1": 8.0,
+        "Crónicos.1": 13.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 3.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 24.0,
+        "Personas de 60 y más años.2": 0.008238928939237899,
+        "Crónicos.2": 0.01288404360753221,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.019736842105263157,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.010776829815895825
+      },
+      "Poblacion_Objetivo": 2227.0
+    },
+    "9201.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 12755.0,
+        "Crónicos": 5355.0,
+        "Embaraz.": 451.0,
+        "Cuid./Func. ELEAM": 597.0,
+        "P. Salud Público": 2360.0,
+        "P. Salud Privado": 85.0,
+        "TOTAL": 21603.0,
+        "Personas de 60 y más años.1": 1765.0,
+        "Crónicos.1": 921.0,
+        "Embaraz..1": 8.0,
+        "Cuid./Func. ELEAM.1": 35.0,
+        "P. Salud Público.1": 495.0,
+        "P. Salud Privado.1": 20.0,
+        "Otros": 3.0,
+        "TOTAL.1": 3247.0,
+        "Personas de 60 y más años.2": 0.13837710701685613,
+        "Crónicos.2": 0.17198879551820728,
+        "Embaraz..2": 0.017738359201773836,
+        "Cuid./Func. ELEAM.2": 0.05862646566164154,
+        "P. Salud Público.2": 0.2097457627118644,
+        "P. Salud Privado.2": 0.23529411764705882,
+        "TOTAL.2": 0.15030319862981995
+      },
+      "Poblacion_Objetivo": 21603.0
+    },
+    "9202.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 5749.0,
+        "Crónicos": 2323.0,
+        "Embaraz.": 170.0,
+        "Cuid./Func. ELEAM": 139.0,
+        "P. Salud Público": 557.0,
+        "P. Salud Privado": 30.0,
+        "TOTAL": 8968.0,
+        "Personas de 60 y más años.1": 879.0,
+        "Crónicos.1": 378.0,
+        "Embaraz..1": 3.0,
+        "Cuid./Func. ELEAM.1": 16.0,
+        "P. Salud Público.1": 72.0,
+        "P. Salud Privado.1": 8.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1356.0,
+        "Personas de 60 y más años.2": 0.15289615585319186,
+        "Crónicos.2": 0.16272061988807576,
+        "Embaraz..2": 0.01764705882352941,
+        "Cuid./Func. ELEAM.2": 0.11510791366906475,
+        "P. Salud Público.2": 0.12926391382405744,
+        "P. Salud Privado.2": 0.26666666666666666,
+        "TOTAL.2": 0.1512042818911686
+      },
+      "Poblacion_Objetivo": 8968.0
+    },
+    "9203.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 4978.0,
+        "Crónicos": 1990.0,
+        "Embaraz.": 118.0,
+        "Cuid./Func. ELEAM": 186.0,
+        "P. Salud Público": 291.0,
+        "P. Salud Privado": 39.0,
+        "TOTAL": 7602.0,
+        "Personas de 60 y más años.1": 324.0,
+        "Crónicos.1": 163.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 8.0,
+        "P. Salud Público.1": 32.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 1.0,
+        "TOTAL.1": 531.0,
+        "Personas de 60 y más años.2": 0.0650863800723182,
+        "Crónicos.2": 0.08190954773869347,
+        "Embaraz..2": 0.00847457627118644,
+        "Cuid./Func. ELEAM.2": 0.043010752688172046,
+        "P. Salud Público.2": 0.10996563573883161,
+        "P. Salud Privado.2": 0.05128205128205128,
+        "TOTAL.2": 0.06985003946329914
+      },
+      "Poblacion_Objetivo": 7602.0
+    },
+    "9204.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 2005.0,
+        "Crónicos": 1109.0,
+        "Embaraz.": 76.0,
+        "Cuid./Func. ELEAM": 2.0,
+        "P. Salud Público": 122.0,
+        "P. Salud Privado": 1.0,
+        "TOTAL": 3315.0,
+        "Personas de 60 y más años.1": 109.0,
+        "Crónicos.1": 53.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 8.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 170.0,
+        "Personas de 60 y más años.2": 0.0543640897755611,
+        "Crónicos.2": 0.047790802524797116,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.06557377049180328,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.05128205128205128
+      },
+      "Poblacion_Objetivo": 3315.0
+    },
+    "9205.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 2494.0,
+        "Crónicos": 947.0,
+        "Embaraz.": 96.0,
+        "Cuid./Func. ELEAM": 27.0,
+        "P. Salud Público": 267.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 3831.0,
+        "Personas de 60 y más años.1": 40.0,
+        "Crónicos.1": 31.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 79.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 0.0,
+        "TOTAL.1": 152.0,
+        "Personas de 60 y más años.2": 0.01603849238171612,
+        "Crónicos.2": 0.03273495248152059,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.2958801498127341,
+        "TOTAL.2": 0.03967632471939441
+      },
+      "Poblacion_Objetivo": 3831.0
+    },
+    "9206.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 1968.0,
+        "Crónicos": 894.0,
+        "Embaraz.": 80.0,
+        "Cuid./Func. ELEAM": 91.0,
+        "P. Salud Público": 143.0,
+        "P. Salud Privado": 2.0,
+        "TOTAL": 3178.0,
+        "Personas de 60 y más años.1": 55.0,
+        "Crónicos.1": 37.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 14.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 107.0,
+        "Personas de 60 y más años.2": 0.027947154471544715,
+        "Crónicos.2": 0.04138702460850112,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.01098901098901099,
+        "P. Salud Público.2": 0.0979020979020979,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.03366897419760856
+      },
+      "Poblacion_Objetivo": 3178.0
+    },
+    "9207.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 2446.0,
+        "Crónicos": 1359.0,
+        "Embaraz.": 73.0,
+        "Cuid./Func. ELEAM": 116.0,
+        "P. Salud Público": 168.0,
+        "P. Salud Privado": 4.0,
+        "TOTAL": 4166.0,
+        "Personas de 60 y más años.1": 84.0,
+        "Crónicos.1": 95.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 7.0,
+        "P. Salud Público.1": 16.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 202.0,
+        "Personas de 60 y más años.2": 0.03434178250204415,
+        "Crónicos.2": 0.06990434142752024,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0603448275862069,
+        "P. Salud Público.2": 0.09523809523809523,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.048487758041286605
+      },
+      "Poblacion_Objetivo": 4166.0
+    },
+    "9208.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 3095.0,
+        "Crónicos": 1978.0,
+        "Embaraz.": 97.0,
+        "Cuid./Func. ELEAM": 138.0,
+        "P. Salud Público": 222.0,
+        "P. Salud Privado": 12.0,
+        "TOTAL": 5542.0,
+        "Personas de 60 y más años.1": 359.0,
+        "Crónicos.1": 202.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 3.0,
+        "P. Salud Público.1": 29.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 595.0,
+        "Personas de 60 y más años.2": 0.1159935379644588,
+        "Crónicos.2": 0.10212335692618807,
+        "Embaraz..2": 0.020618556701030927,
+        "Cuid./Func. ELEAM.2": 0.021739130434782608,
+        "P. Salud Público.2": 0.13063063063063063,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.10736196319018405
+      },
+      "Poblacion_Objetivo": 5542.0
+    },
+    "9209.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 2436.0,
+        "Crónicos": 2029.0,
+        "Embaraz.": 82.0,
+        "Cuid./Func. ELEAM": 59.0,
+        "P. Salud Público": 176.0,
+        "P. Salud Privado": 5.0,
+        "TOTAL": 4787.0,
+        "Personas de 60 y más años.1": 188.0,
+        "Crónicos.1": 141.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 32.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 365.0,
+        "Personas de 60 y más años.2": 0.07717569786535304,
+        "Crónicos.2": 0.06949236076885165,
+        "Embaraz..2": 0.012195121951219513,
+        "Cuid./Func. ELEAM.2": 0.03389830508474576,
+        "P. Salud Público.2": 0.18181818181818182,
+        "P. Salud Privado.2": 0.2,
+        "TOTAL.2": 0.07624817213285982
+      },
+      "Poblacion_Objetivo": 4787.0
+    },
+    "9210.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 5152.0,
+        "Crónicos": 2657.0,
+        "Embaraz.": 147.0,
+        "Cuid./Func. ELEAM": 253.0,
+        "P. Salud Público": 406.0,
+        "P. Salud Privado": 36.0,
+        "TOTAL": 8651.0,
+        "Personas de 60 y más años.1": 434.0,
+        "Crónicos.1": 271.0,
+        "Embaraz..1": 4.0,
+        "Cuid./Func. ELEAM.1": 5.0,
+        "P. Salud Público.1": 30.0,
+        "P. Salud Privado.1": 3.0,
+        "Otros": 0.0,
+        "TOTAL.1": 747.0,
+        "Personas de 60 y más años.2": 0.08423913043478261,
+        "Crónicos.2": 0.10199473089951072,
+        "Embaraz..2": 0.027210884353741496,
+        "Cuid./Func. ELEAM.2": 0.019762845849802372,
+        "P. Salud Público.2": 0.07389162561576355,
+        "P. Salud Privado.2": 0.08333333333333333,
+        "TOTAL.2": 0.08634839902901399
+      },
+      "Poblacion_Objetivo": 8651.0
+    },
+    "9211.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 8646.0,
+        "Crónicos": 3071.0,
+        "Embaraz.": 261.0,
+        "Cuid./Func. ELEAM": 204.0,
+        "P. Salud Público": 1675.0,
+        "P. Salud Privado": 43.0,
+        "TOTAL": 13900.0,
+        "Personas de 60 y más años.1": 677.0,
+        "Crónicos.1": 193.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 20.0,
+        "P. Salud Público.1": 162.0,
+        "P. Salud Privado.1": 5.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1057.0,
+        "Personas de 60 y más años.2": 0.07830210501966227,
+        "Crónicos.2": 0.06284597850862911,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.09803921568627451,
+        "P. Salud Público.2": 0.09671641791044776,
+        "P. Salud Privado.2": 0.11627906976744186,
+        "TOTAL.2": 0.0760431654676259
+      },
+      "Poblacion_Objetivo": 13900.0
+    },
+    "9101.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 59560.0,
+        "Crónicos": 21254.0,
+        "Embaraz.": 2171.0,
+        "Cuid./Func. ELEAM": 1988.0,
+        "P. Salud Público": 7796.0,
+        "P. Salud Privado": 3684.0,
+        "TOTAL": 96453.0,
+        "Personas de 60 y más años.1": 11003.0,
+        "Crónicos.1": 5423.0,
+        "Embaraz..1": 96.0,
+        "Cuid./Func. ELEAM.1": 355.0,
+        "P. Salud Público.1": 2821.0,
+        "P. Salud Privado.1": 504.0,
+        "Otros": 66.0,
+        "TOTAL.1": 20268.0,
+        "Personas de 60 y más años.2": 0.18473807924781732,
+        "Crónicos.2": 0.25515197139362,
+        "Embaraz..2": 0.044219253800092125,
+        "Cuid./Func. ELEAM.2": 0.17857142857142858,
+        "P. Salud Público.2": 0.36185223191380195,
+        "P. Salud Privado.2": 0.13680781758957655,
+        "TOTAL.2": 0.21013343286367453
+      },
+      "Poblacion_Objetivo": 96453.0
+    },
+    "9102.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 6494.0,
+        "Crónicos": 3281.0,
+        "Embaraz.": 163.0,
+        "Cuid./Func. ELEAM": 201.0,
+        "P. Salud Público": 588.0,
+        "P. Salud Privado": 12.0,
+        "TOTAL": 10739.0,
+        "Personas de 60 y más años.1": 530.0,
+        "Crónicos.1": 239.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 12.0,
+        "P. Salud Público.1": 69.0,
+        "P. Salud Privado.1": 4.0,
+        "Otros": 0.0,
+        "TOTAL.1": 856.0,
+        "Personas de 60 y más años.2": 0.0816137973514013,
+        "Crónicos.2": 0.07284364523011277,
+        "Embaraz..2": 0.012269938650306749,
+        "Cuid./Func. ELEAM.2": 0.05970149253731343,
+        "P. Salud Público.2": 0.11734693877551021,
+        "P. Salud Privado.2": 0.3333333333333333,
+        "TOTAL.2": 0.07970947015550796
+      },
+      "Poblacion_Objetivo": 10739.0
+    },
+    "9103.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 5221.0,
+        "Crónicos": 2143.0,
+        "Embaraz.": 103.0,
+        "Cuid./Func. ELEAM": 145.0,
+        "P. Salud Público": 404.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 8016.0,
+        "Personas de 60 y más años.1": 228.0,
+        "Crónicos.1": 73.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 7.0,
+        "P. Salud Público.1": 15.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 323.0,
+        "Personas de 60 y más años.2": 0.04366979505841793,
+        "Crónicos.2": 0.03406439570695287,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.04827586206896552,
+        "P. Salud Público.2": 0.03712871287128713,
+        "TOTAL.2": 0.040294411177644714
+      },
+      "Poblacion_Objetivo": 8016.0
+    },
+    "9104.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 1719.0,
+        "Crónicos": 975.0,
+        "Embaraz.": 60.0,
+        "Cuid./Func. ELEAM": 21.0,
+        "P. Salud Público": 111.0,
+        "P. Salud Privado": 3.0,
+        "TOTAL": 2889.0,
+        "Personas de 60 y más años.1": 214.0,
+        "Crónicos.1": 124.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 22.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 0.0,
+        "TOTAL.1": 363.0,
+        "Personas de 60 y más años.2": 0.12449098312972659,
+        "Crónicos.2": 0.12717948717948718,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.047619047619047616,
+        "P. Salud Público.2": 0.1981981981981982,
+        "P. Salud Privado.2": 0.6666666666666666,
+        "TOTAL.2": 0.1256490134994808
+      },
+      "Poblacion_Objetivo": 2889.0
+    },
+    "9105.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 6301.0,
+        "Crónicos": 2987.0,
+        "Embaraz.": 156.0,
+        "Cuid./Func. ELEAM": 150.0,
+        "P. Salud Público": 269.0,
+        "P. Salud Privado": 9.0,
+        "TOTAL": 9872.0,
+        "Personas de 60 y más años.1": 654.0,
+        "Crónicos.1": 327.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 9.0,
+        "P. Salud Público.1": 29.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 2.0,
+        "TOTAL.1": 1022.0,
+        "Personas de 60 y más años.2": 0.10379304872242501,
+        "Crónicos.2": 0.10947438901908269,
+        "Embaraz..2": 0.00641025641025641,
+        "Cuid./Func. ELEAM.2": 0.06,
+        "P. Salud Público.2": 0.10780669144981413,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.10352512155591573
+      },
+      "Poblacion_Objetivo": 9872.0
+    },
+    "9106.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 3021.0,
+        "Crónicos": 1705.0,
+        "Embaraz.": 73.0,
+        "Cuid./Func. ELEAM": 119.0,
+        "P. Salud Público": 283.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 5201.0,
+        "Personas de 60 y más años.1": 105.0,
+        "Crónicos.1": 38.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 3.0,
+        "P. Salud Público.1": 11.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 157.0,
+        "Personas de 60 y más años.2": 0.03475670307845084,
+        "Crónicos.2": 0.022287390029325515,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.025210084033613446,
+        "P. Salud Público.2": 0.038869257950530034,
+        "TOTAL.2": 0.030186502595654682
+      },
+      "Poblacion_Objetivo": 5201.0
+    },
+    "9107.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 4156.0,
+        "Crónicos": 1648.0,
+        "Embaraz.": 95.0,
+        "Cuid./Func. ELEAM": 161.0,
+        "P. Salud Público": 350.0,
+        "P. Salud Privado": 9.0,
+        "TOTAL": 6419.0,
+        "Personas de 60 y más años.1": 454.0,
+        "Crónicos.1": 139.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 11.0,
+        "P. Salud Público.1": 35.0,
+        "P. Salud Privado.1": 3.0,
+        "Otros": 8.0,
+        "TOTAL.1": 652.0,
+        "Personas de 60 y más años.2": 0.10923965351299326,
+        "Crónicos.2": 0.08434466019417476,
+        "Embaraz..2": 0.021052631578947368,
+        "Cuid./Func. ELEAM.2": 0.06832298136645963,
+        "P. Salud Público.2": 0.1,
+        "P. Salud Privado.2": 0.3333333333333333,
+        "TOTAL.2": 0.10157345380900452
+      },
+      "Poblacion_Objetivo": 6419.0
+    },
+    "9108.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 8675.0,
+        "Crónicos": 5842.0,
+        "Embaraz.": 343.0,
+        "Cuid./Func. ELEAM": 119.0,
+        "P. Salud Público": 1187.0,
+        "P. Salud Privado": 16.0,
+        "TOTAL": 16182.0,
+        "Personas de 60 y más años.1": 709.0,
+        "Crónicos.1": 320.0,
+        "Embaraz..1": 6.0,
+        "Cuid./Func. ELEAM.1": 3.0,
+        "P. Salud Público.1": 58.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 5.0,
+        "TOTAL.1": 1103.0,
+        "Personas de 60 y más años.2": 0.08172910662824208,
+        "Crónicos.2": 0.054775761725436495,
+        "Embaraz..2": 0.01749271137026239,
+        "Cuid./Func. ELEAM.2": 0.025210084033613446,
+        "P. Salud Público.2": 0.04886267902274642,
+        "P. Salud Privado.2": 0.125,
+        "TOTAL.2": 0.06816215548139909
+      },
+      "Poblacion_Objetivo": 16182.0
+    },
+    "9109.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 6202.0,
+        "Crónicos": 2761.0,
+        "Embaraz.": 156.0,
+        "Cuid./Func. ELEAM": 101.0,
+        "P. Salud Público": 401.0,
+        "P. Salud Privado": 25.0,
+        "TOTAL": 9646.0,
+        "Personas de 60 y más años.1": 217.0,
+        "Crónicos.1": 105.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 16.0,
+        "P. Salud Privado.1": 3.0,
+        "Otros": 2.0,
+        "TOTAL.1": 344.0,
+        "Personas de 60 y más años.2": 0.034988713318284424,
+        "Crónicos.2": 0.03802969938428106,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.009900990099009901,
+        "P. Salud Público.2": 0.0399002493765586,
+        "P. Salud Privado.2": 0.12,
+        "TOTAL.2": 0.03566245075679038
+      },
+      "Poblacion_Objetivo": 9646.0
+    },
+    "9110.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 1799.0,
+        "Crónicos": 647.0,
+        "Embaraz.": 44.0,
+        "Cuid./Func. ELEAM": 34.0,
+        "P. Salud Público": 128.0,
+        "P. Salud Privado": 1.0,
+        "TOTAL": 2653.0,
+        "Personas de 60 y más años.1": 31.0,
+        "Crónicos.1": 7.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 7.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 45.0,
+        "Personas de 60 y más años.2": 0.017231795441912175,
+        "Crónicos.2": 0.010819165378670788,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.0546875,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.016961929890689786
+      },
+      "Poblacion_Objetivo": 2653.0
+    },
+    "9111.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 8258.0,
+        "Crónicos": 4026.0,
+        "Embaraz.": 259.0,
+        "Cuid./Func. ELEAM": 375.0,
+        "P. Salud Público": 1425.0,
+        "P. Salud Privado": 141.0,
+        "TOTAL": 14484.0,
+        "Personas de 60 y más años.1": 442.0,
+        "Crónicos.1": 219.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 9.0,
+        "P. Salud Público.1": 96.0,
+        "P. Salud Privado.1": 6.0,
+        "Otros": 3.0,
+        "TOTAL.1": 777.0,
+        "Personas de 60 y más años.2": 0.053523855655122306,
+        "Crónicos.2": 0.05439642324888227,
+        "Embaraz..2": 0.007722007722007722,
+        "Cuid./Func. ELEAM.2": 0.024,
+        "P. Salud Público.2": 0.06736842105263158,
+        "P. Salud Privado.2": 0.0425531914893617,
+        "TOTAL.2": 0.05364540182270091
+      },
+      "Poblacion_Objetivo": 14484.0
+    },
+    "9112.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 15247.0,
+        "Crónicos": 7599.0,
+        "Embaraz.": 632.0,
+        "Cuid./Func. ELEAM": 421.0,
+        "P. Salud Público": 2389.0,
+        "P. Salud Privado": 242.0,
+        "TOTAL": 26530.0,
+        "Personas de 60 y más años.1": 1443.0,
+        "Crónicos.1": 714.0,
+        "Embaraz..1": 4.0,
+        "Cuid./Func. ELEAM.1": 18.0,
+        "P. Salud Público.1": 370.0,
+        "P. Salud Privado.1": 13.0,
+        "Otros": 0.0,
+        "TOTAL.1": 2562.0,
+        "Personas de 60 y más años.2": 0.09464156883321309,
+        "Crónicos.2": 0.09395973154362416,
+        "Embaraz..2": 0.006329113924050633,
+        "Cuid./Func. ELEAM.2": 0.04275534441805225,
+        "P. Salud Público.2": 0.15487651737128505,
+        "P. Salud Privado.2": 0.05371900826446281,
+        "TOTAL.2": 0.09656992084432718
+      },
+      "Poblacion_Objetivo": 26530.0
+    },
+    "9113.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 1680.0,
+        "Crónicos": 944.0,
+        "Embaraz.": 44.0,
+        "Cuid./Func. ELEAM": 73.0,
+        "P. Salud Público": 120.0,
+        "P. Salud Privado": 2.0,
+        "TOTAL": 2863.0,
+        "Personas de 60 y más años.1": 111.0,
+        "Crónicos.1": 31.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 3.0,
+        "P. Salud Público.1": 14.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 160.0,
+        "Personas de 60 y más años.2": 0.06607142857142857,
+        "Crónicos.2": 0.03283898305084746,
+        "Embaraz..2": 0.022727272727272728,
+        "Cuid./Func. ELEAM.2": 0.0410958904109589,
+        "P. Salud Público.2": 0.11666666666666667,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.055885434858539994
+      },
+      "Poblacion_Objetivo": 2863.0
+    },
+    "9114.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 6806.0,
+        "Crónicos": 2797.0,
+        "Embaraz.": 189.0,
+        "Cuid./Func. ELEAM": 168.0,
+        "P. Salud Público": 1111.0,
+        "P. Salud Privado": 22.0,
+        "TOTAL": 11093.0,
+        "Personas de 60 y más años.1": 911.0,
+        "Crónicos.1": 407.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 11.0,
+        "P. Salud Público.1": 149.0,
+        "P. Salud Privado.1": 6.0,
+        "Otros": 1.0,
+        "TOTAL.1": 1487.0,
+        "Personas de 60 y más años.2": 0.1338524831031443,
+        "Crónicos.2": 0.14551304969610296,
+        "Embaraz..2": 0.010582010582010581,
+        "Cuid./Func. ELEAM.2": 0.06547619047619048,
+        "P. Salud Público.2": 0.1341134113411341,
+        "P. Salud Privado.2": 0.2727272727272727,
+        "TOTAL.2": 0.13404849905345714
+      },
+      "Poblacion_Objetivo": 11093.0
+    },
+    "9115.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 5784.0,
+        "Crónicos": 4634.0,
+        "Embaraz.": 262.0,
+        "Cuid./Func. ELEAM": 44.0,
+        "P. Salud Público": 274.0,
+        "P. Salud Privado": 187.0,
+        "TOTAL": 11185.0,
+        "Personas de 60 y más años.1": 847.0,
+        "Crónicos.1": 340.0,
+        "Embaraz..1": 3.0,
+        "Cuid./Func. ELEAM.1": 4.0,
+        "P. Salud Público.1": 30.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1224.0,
+        "Personas de 60 y más años.2": 0.14643845089903182,
+        "Crónicos.2": 0.073370738023306,
+        "Embaraz..2": 0.011450381679389313,
+        "Cuid./Func. ELEAM.2": 0.09090909090909091,
+        "P. Salud Público.2": 0.10948905109489052,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.1094322753687975
+      },
+      "Poblacion_Objetivo": 11185.0
+    },
+    "9116.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 3458.0,
+        "Crónicos": 1630.0,
+        "Embaraz.": 70.0,
+        "Cuid./Func. ELEAM": 213.0,
+        "P. Salud Público": 300.0,
+        "P. Salud Privado": 5.0,
+        "TOTAL": 5676.0,
+        "Personas de 60 y más años.1": 271.0,
+        "Crónicos.1": 90.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 11.0,
+        "P. Salud Público.1": 46.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 421.0,
+        "Personas de 60 y más años.2": 0.078368999421631,
+        "Crónicos.2": 0.05521472392638037,
+        "Embaraz..2": 0.02857142857142857,
+        "Cuid./Func. ELEAM.2": 0.051643192488262914,
+        "P. Salud Público.2": 0.15333333333333332,
+        "P. Salud Privado.2": 0.2,
+        "TOTAL.2": 0.07417195207892882
+      },
+      "Poblacion_Objetivo": 5676.0
+    },
+    "9117.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 4420.0,
+        "Crónicos": 1602.0,
+        "Embaraz.": 88.0,
+        "Cuid./Func. ELEAM": 168.0,
+        "P. Salud Público": 175.0,
+        "P. Salud Privado": 5.0,
+        "TOTAL": 6458.0,
+        "Personas de 60 y más años.1": 153.0,
+        "Crónicos.1": 54.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 8.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 217.0,
+        "Personas de 60 y más años.2": 0.03461538461538462,
+        "Crónicos.2": 0.033707865168539325,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.005952380952380952,
+        "P. Salud Público.2": 0.045714285714285714,
+        "P. Salud Privado.2": 0.2,
+        "TOTAL.2": 0.03360173428305977
+      },
+      "Poblacion_Objetivo": 6458.0
+    },
+    "9118.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 2608.0,
+        "Crónicos": 2282.0,
+        "Embaraz.": 61.0,
+        "Cuid./Func. ELEAM": 23.0,
+        "P. Salud Público": 208.0,
+        "P. Salud Privado": 1.0,
+        "TOTAL": 5183.0,
+        "Personas de 60 y más años.1": 127.0,
+        "Crónicos.1": 51.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 8.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 186.0,
+        "Personas de 60 y más años.2": 0.04869631901840491,
+        "Crónicos.2": 0.022348816827344433,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.038461538461538464,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.035886552189851435
+      },
+      "Poblacion_Objetivo": 5183.0
+    },
+    "9119.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 6710.0,
+        "Crónicos": 3293.0,
+        "Embaraz.": 213.0,
+        "Cuid./Func. ELEAM": 163.0,
+        "P. Salud Público": 478.0,
+        "P. Salud Privado": 36.0,
+        "TOTAL": 10893.0,
+        "Personas de 60 y más años.1": 386.0,
+        "Crónicos.1": 212.0,
+        "Embaraz..1": 7.0,
+        "Cuid./Func. ELEAM.1": 11.0,
+        "P. Salud Público.1": 64.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 14.0,
+        "TOTAL.1": 695.0,
+        "Personas de 60 y más años.2": 0.05752608047690015,
+        "Crónicos.2": 0.06437898572730033,
+        "Embaraz..2": 0.03286384976525822,
+        "Cuid./Func. ELEAM.2": 0.06748466257668712,
+        "P. Salud Público.2": 0.13389121338912133,
+        "P. Salud Privado.2": 0.027777777777777776,
+        "TOTAL.2": 0.06380244193518773
+      },
+      "Poblacion_Objetivo": 10893.0
+    },
+    "9120.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 12832.0,
+        "Crónicos": 5054.0,
+        "Embaraz.": 544.0,
+        "Cuid./Func. ELEAM": 445.0,
+        "P. Salud Público": 1501.0,
+        "P. Salud Privado": 81.0,
+        "TOTAL": 20457.0,
+        "Personas de 60 y más años.1": 1186.0,
+        "Crónicos.1": 544.0,
+        "Embaraz..1": 4.0,
+        "Cuid./Func. ELEAM.1": 73.0,
+        "P. Salud Público.1": 298.0,
+        "P. Salud Privado.1": 19.0,
+        "Otros": 5.0,
+        "TOTAL.1": 2129.0,
+        "Personas de 60 y más años.2": 0.09242518703241895,
+        "Crónicos.2": 0.1076375148397309,
+        "Embaraz..2": 0.007352941176470588,
+        "Cuid./Func. ELEAM.2": 0.16404494382022472,
+        "P. Salud Público.2": 0.19853431045969352,
+        "P. Salud Privado.2": 0.2345679012345679,
+        "TOTAL.2": 0.10407195580974728
+      },
+      "Poblacion_Objetivo": 20457.0
+    },
+    "9121.0": {
+      "Criterios": {
+        "Región": 9.0,
+        "Personas de 60 y más años": 3058.0,
+        "Crónicos": 1021.0,
+        "Embaraz.": 88.0,
+        "Cuid./Func. ELEAM": 81.0,
+        "P. Salud Público": 130.0,
+        "P. Salud Privado": 11.0,
+        "TOTAL": 4389.0,
+        "Personas de 60 y más años.1": 103.0,
+        "Crónicos.1": 33.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 12.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 150.0,
+        "Personas de 60 y más años.2": 0.03368214519293656,
+        "Crónicos.2": 0.03232125367286973,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.024691358024691357,
+        "P. Salud Público.2": 0.09230769230769231,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.03417634996582365
+      },
+      "Poblacion_Objetivo": 4389.0
+    },
+    "14102.0": {
+      "Criterios": {
+        "Región": 14.0,
+        "Personas de 60 y más años": 1467.0,
+        "Crónicos": 900.0,
+        "Embaraz.": 34.0,
+        "Cuid./Func. ELEAM": 23.0,
+        "P. Salud Público": 139.0,
+        "P. Salud Privado": 11.0,
+        "TOTAL": 2574.0,
+        "Personas de 60 y más años.1": 50.0,
+        "Crónicos.1": 22.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 7.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 79.0,
+        "Personas de 60 y más años.2": 0.03408316291751875,
+        "Crónicos.2": 0.024444444444444446,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.050359712230215826,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.030691530691530692
+      },
+      "Poblacion_Objetivo": 2574.0
+    },
+    "14202.0": {
+      "Criterios": {
+        "Región": 14.0,
+        "Personas de 60 y más años": 3318.0,
+        "Crónicos": 1480.0,
+        "Embaraz.": 116.0,
+        "Cuid./Func. ELEAM": 50.0,
+        "P. Salud Público": 207.0,
+        "P. Salud Privado": 3.0,
+        "TOTAL": 5174.0,
+        "Personas de 60 y más años.1": 114.0,
+        "Crónicos.1": 37.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 14.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 166.0,
+        "Personas de 60 y más años.2": 0.034358047016274866,
+        "Crónicos.2": 0.025,
+        "Embaraz..2": 0.008620689655172414,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.06763285024154589,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.03208349439505218
+      },
+      "Poblacion_Objetivo": 5174.0
+    },
+    "14201.0": {
+      "Criterios": {
+        "Región": 14.0,
+        "Personas de 60 y más años": 9806.0,
+        "Crónicos": 3312.0,
+        "Embaraz.": 243.0,
+        "Cuid./Func. ELEAM": 390.0,
+        "P. Salud Público": 639.0,
+        "P. Salud Privado": 119.0,
+        "TOTAL": 14509.0,
+        "Personas de 60 y más años.1": 609.0,
+        "Crónicos.1": 222.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 40.0,
+        "P. Salud Público.1": 63.0,
+        "P. Salud Privado.1": 12.0,
+        "Otros": 3.0,
+        "TOTAL.1": 951.0,
+        "Personas de 60 y más años.2": 0.06210483377523965,
+        "Crónicos.2": 0.06702898550724638,
+        "Embaraz..2": 0.00823045267489712,
+        "Cuid./Func. ELEAM.2": 0.10256410256410256,
+        "P. Salud Público.2": 0.09859154929577464,
+        "P. Salud Privado.2": 0.10084033613445378,
+        "TOTAL.2": 0.06554552346819216
+      },
+      "Poblacion_Objetivo": 14509.0
+    },
+    "14203.0": {
+      "Criterios": {
+        "Región": 14.0,
+        "Personas de 60 y más años": 2684.0,
+        "Crónicos": 880.0,
+        "Embaraz.": 75.0,
+        "Cuid./Func. ELEAM": 10.0,
+        "P. Salud Público": 182.0,
+        "P. Salud Privado": 10.0,
+        "TOTAL": 3841.0,
+        "Personas de 60 y más años.1": 104.0,
+        "Crónicos.1": 63.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 12.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 9.0,
+        "TOTAL.1": 190.0,
+        "Personas de 60 y más años.2": 0.038748137108792845,
+        "Crónicos.2": 0.0715909090909091,
+        "Embaraz..2": 0.013333333333333334,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.06593406593406594,
+        "P. Salud Privado.2": 0.1,
+        "TOTAL.2": 0.04946628482166102
+      },
+      "Poblacion_Objetivo": 3841.0
+    },
+    "14103.0": {
+      "Criterios": {
+        "Región": 14.0,
+        "Personas de 60 y más años": 4231.0,
+        "Crónicos": 1502.0,
+        "Embaraz.": 110.0,
+        "Cuid./Func. ELEAM": 104.0,
+        "P. Salud Público": 282.0,
+        "P. Salud Privado": 31.0,
+        "TOTAL": 6260.0,
+        "Personas de 60 y más años.1": 205.0,
+        "Crónicos.1": 64.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 6.0,
+        "P. Salud Público.1": 23.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 1.0,
+        "TOTAL.1": 301.0,
+        "Personas de 60 y más años.2": 0.04845190262349326,
+        "Crónicos.2": 0.0426098535286285,
+        "Embaraz..2": 0.00909090909090909,
+        "Cuid./Func. ELEAM.2": 0.057692307692307696,
+        "P. Salud Público.2": 0.08156028368794327,
+        "P. Salud Privado.2": 0.03225806451612903,
+        "TOTAL.2": 0.048083067092651754
+      },
+      "Poblacion_Objetivo": 6260.0
+    },
+    "14104.0": {
+      "Criterios": {
+        "Región": 14.0,
+        "Personas de 60 y más años": 4748.0,
+        "Crónicos": 2193.0,
+        "Embaraz.": 169.0,
+        "Cuid./Func. ELEAM": 53.0,
+        "P. Salud Público": 326.0,
+        "P. Salud Privado": 8.0,
+        "TOTAL": 7497.0,
+        "Personas de 60 y más años.1": 183.0,
+        "Crónicos.1": 59.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 40.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 1.0,
+        "TOTAL.1": 284.0,
+        "Personas de 60 y más años.2": 0.038542544229149114,
+        "Crónicos.2": 0.026903784769721842,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.12269938650306748,
+        "P. Salud Privado.2": 0.125,
+        "TOTAL.2": 0.037881819394424435
+      },
+      "Poblacion_Objetivo": 7497.0
+    },
+    "14105.0": {
+      "Criterios": {
+        "Región": 14.0,
+        "Personas de 60 y más años": 1794.0,
+        "Crónicos": 868.0,
+        "Embaraz.": 52.0,
+        "Cuid./Func. ELEAM": 32.0,
+        "P. Salud Público": 136.0,
+        "P. Salud Privado": 10.0,
+        "TOTAL": 2892.0,
+        "Personas de 60 y más años.1": 156.0,
+        "Crónicos.1": 66.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 6.0,
+        "P. Salud Público.1": 11.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 240.0,
+        "Personas de 60 y más años.2": 0.08695652173913043,
+        "Crónicos.2": 0.07603686635944701,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.1875,
+        "P. Salud Público.2": 0.08088235294117647,
+        "P. Salud Privado.2": 0.1,
+        "TOTAL.2": 0.08298755186721991
+      },
+      "Poblacion_Objetivo": 2892.0
+    },
+    "14106.0": {
+      "Criterios": {
+        "Región": 14.0,
+        "Personas de 60 y más años": 5091.0,
+        "Crónicos": 2366.0,
+        "Embaraz.": 186.0,
+        "Cuid./Func. ELEAM": 193.0,
+        "P. Salud Público": 422.0,
+        "P. Salud Privado": 31.0,
+        "TOTAL": 8289.0,
+        "Personas de 60 y más años.1": 347.0,
+        "Crónicos.1": 145.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 12.0,
+        "P. Salud Público.1": 58.0,
+        "P. Salud Privado.1": 3.0,
+        "Otros": 1.0,
+        "TOTAL.1": 566.0,
+        "Personas de 60 y más años.2": 0.06815949715183657,
+        "Crónicos.2": 0.06128486897717667,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.06217616580310881,
+        "P. Salud Público.2": 0.13744075829383887,
+        "P. Salud Privado.2": 0.0967741935483871,
+        "TOTAL.2": 0.06828326698033538
+      },
+      "Poblacion_Objetivo": 8289.0
+    },
+    "14107.0": {
+      "Criterios": {
+        "Región": 14.0,
+        "Personas de 60 y más años": 5136.0,
+        "Crónicos": 1763.0,
+        "Embaraz.": 134.0,
+        "Cuid./Func. ELEAM": 197.0,
+        "P. Salud Público": 450.0,
+        "P. Salud Privado": 24.0,
+        "TOTAL": 7704.0,
+        "Personas de 60 y más años.1": 351.0,
+        "Crónicos.1": 117.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 6.0,
+        "P. Salud Público.1": 38.0,
+        "P. Salud Privado.1": 12.0,
+        "Otros": 0.0,
+        "TOTAL.1": 524.0,
+        "Personas de 60 y más años.2": 0.0683411214953271,
+        "Crónicos.2": 0.06636415201361316,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.030456852791878174,
+        "P. Salud Público.2": 0.08444444444444445,
+        "P. Salud Privado.2": 0.5,
+        "TOTAL.2": 0.0680166147455867
+      },
+      "Poblacion_Objetivo": 7704.0
+    },
+    "14108.0": {
+      "Criterios": {
+        "Región": 14.0,
+        "Personas de 60 y más años": 8234.0,
+        "Crónicos": 3772.0,
+        "Embaraz.": 281.0,
+        "Cuid./Func. ELEAM": 159.0,
+        "P. Salud Público": 493.0,
+        "P. Salud Privado": 107.0,
+        "TOTAL": 13046.0,
+        "Personas de 60 y más años.1": 540.0,
+        "Crónicos.1": 211.0,
+        "Embaraz..1": 3.0,
+        "Cuid./Func. ELEAM.1": 18.0,
+        "P. Salud Público.1": 44.0,
+        "P. Salud Privado.1": 10.0,
+        "Otros": 2.0,
+        "TOTAL.1": 828.0,
+        "Personas de 60 y más años.2": 0.06558173427252854,
+        "Crónicos.2": 0.05593849416755037,
+        "Embaraz..2": 0.010676156583629894,
+        "Cuid./Func. ELEAM.2": 0.11320754716981132,
+        "P. Salud Público.2": 0.08924949290060852,
+        "P. Salud Privado.2": 0.09345794392523364,
+        "TOTAL.2": 0.0634677295722827
+      },
+      "Poblacion_Objetivo": 13046.0
+    },
+    "14204.0": {
+      "Criterios": {
+        "Región": 14.0,
+        "Personas de 60 y más años": 8584.0,
+        "Crónicos": 2809.0,
+        "Embaraz.": 217.0,
+        "Cuid./Func. ELEAM": 81.0,
+        "P. Salud Público": 411.0,
+        "P. Salud Privado": 18.0,
+        "TOTAL": 12120.0,
+        "Personas de 60 y más años.1": 131.0,
+        "Crónicos.1": 79.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 32.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 1.0,
+        "TOTAL.1": 247.0,
+        "Personas de 60 y más años.2": 0.015260950605778192,
+        "Crónicos.2": 0.028123887504449982,
+        "Embaraz..2": 0.004608294930875576,
+        "Cuid./Func. ELEAM.2": 0.012345679012345678,
+        "P. Salud Público.2": 0.07785888077858881,
+        "P. Salud Privado.2": 0.1111111111111111,
+        "TOTAL.2": 0.02037953795379538
+      },
+      "Poblacion_Objetivo": 12120.0
+    },
+    "14101.0": {
+      "Criterios": {
+        "Región": 14.0,
+        "Personas de 60 y más años": 37494.0,
+        "Crónicos": 16879.0,
+        "Embaraz.": 1147.0,
+        "Cuid./Func. ELEAM": 620.0,
+        "P. Salud Público": 5390.0,
+        "P. Salud Privado": 1289.0,
+        "TOTAL": 62819.0,
+        "Personas de 60 y más años.1": 5901.0,
+        "Crónicos.1": 3877.0,
+        "Embaraz..1": 37.0,
+        "Cuid./Func. ELEAM.1": 544.0,
+        "P. Salud Público.1": 1847.0,
+        "P. Salud Privado.1": 305.0,
+        "Otros": 233.0,
+        "TOTAL.1": 12744.0,
+        "Personas de 60 y más años.2": 0.15738518162906065,
+        "Crónicos.2": 0.22969370223354463,
+        "Embaraz..2": 0.03225806451612903,
+        "Cuid./Func. ELEAM.2": 0.8774193548387097,
+        "P. Salud Público.2": 0.34267161410018554,
+        "P. Salud Privado.2": 0.2366175329712956,
+        "TOTAL.2": 0.20286855887549946
+      },
+      "Poblacion_Objetivo": 62819.0
+    },
+    "10201.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 9552.0,
+        "Crónicos": 3890.0,
+        "Embaraz.": 385.0,
+        "Cuid./Func. ELEAM": 262.0,
+        "P. Salud Público": 1533.0,
+        "P. Salud Privado": 134.0,
+        "TOTAL": 15756.0,
+        "Personas de 60 y más años.1": 790.0,
+        "Crónicos.1": 843.0,
+        "Embaraz..1": 4.0,
+        "Cuid./Func. ELEAM.1": 9.0,
+        "P. Salud Público.1": 343.0,
+        "P. Salud Privado.1": 21.0,
+        "Otros": 2.0,
+        "TOTAL.1": 2012.0,
+        "Personas de 60 y más años.2": 0.08270519262981575,
+        "Crónicos.2": 0.2167095115681234,
+        "Embaraz..2": 0.01038961038961039,
+        "Cuid./Func. ELEAM.2": 0.03435114503816794,
+        "P. Salud Público.2": 0.2237442922374429,
+        "P. Salud Privado.2": 0.15671641791044777,
+        "TOTAL.2": 0.1276973851231277
+      },
+      "Poblacion_Objetivo": 15756.0
+    },
+    "10202.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 9958.0,
+        "Crónicos": 3075.0,
+        "Embaraz.": 274.0,
+        "Cuid./Func. ELEAM": 91.0,
+        "P. Salud Público": 953.0,
+        "P. Salud Privado": 61.0,
+        "TOTAL": 14412.0,
+        "Personas de 60 y más años.1": 438.0,
+        "Crónicos.1": 156.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 3.0,
+        "P. Salud Público.1": 60.0,
+        "P. Salud Privado.1": 6.0,
+        "Otros": 0.0,
+        "TOTAL.1": 663.0,
+        "Personas de 60 y más años.2": 0.04398473589074111,
+        "Crónicos.2": 0.050731707317073174,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.03296703296703297,
+        "P. Salud Público.2": 0.06295907660020986,
+        "P. Salud Privado.2": 0.09836065573770492,
+        "TOTAL.2": 0.04600333055786844
+      },
+      "Poblacion_Objetivo": 14412.0
+    },
+    "10203.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 3435.0,
+        "Crónicos": 1443.0,
+        "Embaraz.": 121.0,
+        "Cuid./Func. ELEAM": 0.0,
+        "P. Salud Público": 230.0,
+        "P. Salud Privado": 9.0,
+        "TOTAL": 5238.0,
+        "Personas de 60 y más años.1": 227.0,
+        "Crónicos.1": 115.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 27.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 369.0,
+        "Personas de 60 y más años.2": 0.0660844250363901,
+        "Crónicos.2": 0.07969507969507969,
+        "Embaraz..2": 0.0,
+        "P. Salud Público.2": 0.11739130434782609,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.070446735395189
+      },
+      "Poblacion_Objetivo": 5238.0
+    },
+    "10204.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 1064.0,
+        "Crónicos": 545.0,
+        "Embaraz.": 19.0,
+        "Cuid./Func. ELEAM": 10.0,
+        "P. Salud Público": 115.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 1753.0,
+        "Personas de 60 y más años.1": 90.0,
+        "Crónicos.1": 43.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 28.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 162.0,
+        "Personas de 60 y más años.2": 0.08458646616541353,
+        "Crónicos.2": 0.07889908256880734,
+        "Embaraz..2": 0.05263157894736842,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.24347826086956523,
+        "TOTAL.2": 0.09241300627495722
+      },
+      "Poblacion_Objetivo": 1753.0
+    },
+    "10205.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 3142.0,
+        "Crónicos": 1369.0,
+        "Embaraz.": 115.0,
+        "Cuid./Func. ELEAM": 22.0,
+        "P. Salud Público": 191.0,
+        "P. Salud Privado": 11.0,
+        "TOTAL": 4850.0,
+        "Personas de 60 y más años.1": 110.0,
+        "Crónicos.1": 90.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 22.0,
+        "P. Salud Privado.1": 3.0,
+        "Otros": 4.0,
+        "TOTAL.1": 230.0,
+        "Personas de 60 y más años.2": 0.03500954805856143,
+        "Crónicos.2": 0.06574141709276844,
+        "Embaraz..2": 0.008695652173913044,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.11518324607329843,
+        "P. Salud Privado.2": 0.2727272727272727,
+        "TOTAL.2": 0.04742268041237113
+      },
+      "Poblacion_Objetivo": 4850.0
+    },
+    "10206.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 1146.0,
+        "Crónicos": 312.0,
+        "Embaraz.": 20.0,
+        "Cuid./Func. ELEAM": 3.0,
+        "P. Salud Público": 90.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 1571.0,
+        "Personas de 60 y más años.1": 31.0,
+        "Crónicos.1": 15.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 9.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 56.0,
+        "Personas de 60 y más años.2": 0.027050610820244327,
+        "Crónicos.2": 0.04807692307692308,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.3333333333333333,
+        "P. Salud Público.2": 0.1,
+        "TOTAL.2": 0.03564608529598982
+      },
+      "Poblacion_Objetivo": 1571.0
+    },
+    "10207.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 1299.0,
+        "Crónicos": 449.0,
+        "Embaraz.": 38.0,
+        "Cuid./Func. ELEAM": 30.0,
+        "P. Salud Público": 172.0,
+        "P. Salud Privado": 1.0,
+        "TOTAL": 1989.0,
+        "Personas de 60 y más años.1": 75.0,
+        "Crónicos.1": 30.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 6.0,
+        "P. Salud Público.1": 25.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 136.0,
+        "Personas de 60 y más años.2": 0.057736720554272515,
+        "Crónicos.2": 0.066815144766147,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.2,
+        "P. Salud Público.2": 0.14534883720930233,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.06837606837606838
+      },
+      "Poblacion_Objetivo": 1989.0
+    },
+    "10208.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 4379.0,
+        "Crónicos": 2085.0,
+        "Embaraz.": 260.0,
+        "Cuid./Func. ELEAM": 56.0,
+        "P. Salud Público": 880.0,
+        "P. Salud Privado": 136.0,
+        "TOTAL": 7796.0,
+        "Personas de 60 y más años.1": 228.0,
+        "Crónicos.1": 206.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 251.0,
+        "P. Salud Privado.1": 14.0,
+        "Otros": 0.0,
+        "TOTAL.1": 703.0,
+        "Personas de 60 y más años.2": 0.05206668189084266,
+        "Crónicos.2": 0.09880095923261391,
+        "Embaraz..2": 0.007692307692307693,
+        "Cuid./Func. ELEAM.2": 0.03571428571428571,
+        "P. Salud Público.2": 0.2852272727272727,
+        "P. Salud Privado.2": 0.10294117647058823,
+        "TOTAL.2": 0.09017444843509492
+      },
+      "Poblacion_Objetivo": 7796.0
+    },
+    "10209.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 2313.0,
+        "Crónicos": 693.0,
+        "Embaraz.": 44.0,
+        "Cuid./Func. ELEAM": 24.0,
+        "P. Salud Público": 144.0,
+        "P. Salud Privado": 3.0,
+        "TOTAL": 3221.0,
+        "Personas de 60 y más años.1": 63.0,
+        "Crónicos.1": 30.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 11.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 104.0,
+        "Personas de 60 y más años.2": 0.027237354085603113,
+        "Crónicos.2": 0.04329004329004329,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.0763888888888889,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.03228810928283142
+      },
+      "Poblacion_Objetivo": 3221.0
+    },
+    "10210.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 2108.0,
+        "Crónicos": 844.0,
+        "Embaraz.": 36.0,
+        "Cuid./Func. ELEAM": 51.0,
+        "P. Salud Público": 274.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 3313.0,
+        "Personas de 60 y más años.1": 130.0,
+        "Crónicos.1": 82.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 46.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 0.0,
+        "TOTAL.1": 262.0,
+        "Personas de 60 y más años.2": 0.061669829222011384,
+        "Crónicos.2": 0.0971563981042654,
+        "Embaraz..2": 0.027777777777777776,
+        "Cuid./Func. ELEAM.2": 0.0196078431372549,
+        "P. Salud Público.2": 0.1678832116788321,
+        "TOTAL.2": 0.07908240265620284
+      },
+      "Poblacion_Objetivo": 3313.0
+    },
+    "10101.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 45941.0,
+        "Crónicos": 29705.0,
+        "Embaraz.": 2028.0,
+        "Cuid./Func. ELEAM": 962.0,
+        "P. Salud Público": 7540.0,
+        "P. Salud Privado": 1762.0,
+        "TOTAL": 87938.0,
+        "Personas de 60 y más años.1": 5616.0,
+        "Crónicos.1": 9462.0,
+        "Embaraz..1": 45.0,
+        "Cuid./Func. ELEAM.1": 145.0,
+        "P. Salud Público.1": 2261.0,
+        "P. Salud Privado.1": 551.0,
+        "Otros": 70.0,
+        "TOTAL.1": 18150.0,
+        "Personas de 60 y más años.2": 0.12224374741516293,
+        "Crónicos.2": 0.3185322336307019,
+        "Embaraz..2": 0.022189349112426034,
+        "Cuid./Func. ELEAM.2": 0.15072765072765074,
+        "P. Salud Público.2": 0.29986737400530505,
+        "P. Salud Privado.2": 0.31271282633371167,
+        "TOTAL.2": 0.20639541495144306
+      },
+      "Poblacion_Objetivo": 87938.0
+    },
+    "10102.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 8469.0,
+        "Crónicos": 3045.0,
+        "Embaraz.": 271.0,
+        "Cuid./Func. ELEAM": 83.0,
+        "P. Salud Público": 681.0,
+        "P. Salud Privado": 9.0,
+        "TOTAL": 12558.0,
+        "Personas de 60 y más años.1": 398.0,
+        "Crónicos.1": 340.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 11.0,
+        "P. Salud Público.1": 86.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 4.0,
+        "TOTAL.1": 841.0,
+        "Personas de 60 y más años.2": 0.04699492265910969,
+        "Crónicos.2": 0.1116584564860427,
+        "Embaraz..2": 0.0036900369003690036,
+        "Cuid./Func. ELEAM.2": 0.13253012048192772,
+        "P. Salud Público.2": 0.1262848751835536,
+        "P. Salud Privado.2": 0.1111111111111111,
+        "TOTAL.2": 0.06696926262143653
+      },
+      "Poblacion_Objetivo": 12558.0
+    },
+    "10103.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 1129.0,
+        "Crónicos": 269.0,
+        "Embaraz.": 24.0,
+        "Cuid./Func. ELEAM": 9.0,
+        "P. Salud Público": 65.0,
+        "P. Salud Privado": 3.0,
+        "TOTAL": 1499.0,
+        "Personas de 60 y más años.1": 29.0,
+        "Crónicos.1": 13.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 7.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 49.0,
+        "Personas de 60 y más años.2": 0.025686448184233834,
+        "Crónicos.2": 0.048327137546468404,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.1076923076923077,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.03268845897264843
+      },
+      "Poblacion_Objetivo": 1499.0
+    },
+    "10104.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 3365.0,
+        "Crónicos": 1168.0,
+        "Embaraz.": 99.0,
+        "Cuid./Func. ELEAM": 49.0,
+        "P. Salud Público": 217.0,
+        "P. Salud Privado": 4.0,
+        "TOTAL": 4902.0,
+        "Personas de 60 y más años.1": 91.0,
+        "Crónicos.1": 63.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 13.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 170.0,
+        "Personas de 60 y más años.2": 0.027043090638930165,
+        "Crónicos.2": 0.05393835616438356,
+        "Embaraz..2": 0.020202020202020204,
+        "Cuid./Func. ELEAM.2": 0.02040816326530612,
+        "P. Salud Público.2": 0.059907834101382486,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.0346797225622195
+      },
+      "Poblacion_Objetivo": 4902.0
+    },
+    "10105.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 4569.0,
+        "Crónicos": 2711.0,
+        "Embaraz.": 185.0,
+        "Cuid./Func. ELEAM": 64.0,
+        "P. Salud Público": 441.0,
+        "P. Salud Privado": 33.0,
+        "TOTAL": 8003.0,
+        "Personas de 60 y más años.1": 470.0,
+        "Crónicos.1": 416.0,
+        "Embaraz..1": 6.0,
+        "Cuid./Func. ELEAM.1": 8.0,
+        "P. Salud Público.1": 52.0,
+        "P. Salud Privado.1": 15.0,
+        "Otros": 0.0,
+        "TOTAL.1": 967.0,
+        "Personas de 60 y más años.2": 0.10286714817246663,
+        "Crónicos.2": 0.1534489118406492,
+        "Embaraz..2": 0.032432432432432434,
+        "Cuid./Func. ELEAM.2": 0.125,
+        "P. Salud Público.2": 0.11791383219954649,
+        "P. Salud Privado.2": 0.45454545454545453,
+        "TOTAL.2": 0.120829688866675
+      },
+      "Poblacion_Objetivo": 8003.0
+    },
+    "10106.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 4576.0,
+        "Crónicos": 1477.0,
+        "Embaraz.": 127.0,
+        "Cuid./Func. ELEAM": 51.0,
+        "P. Salud Público": 241.0,
+        "P. Salud Privado": 25.0,
+        "TOTAL": 6497.0,
+        "Personas de 60 y más años.1": 182.0,
+        "Crónicos.1": 95.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 18.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 1.0,
+        "TOTAL.1": 298.0,
+        "Personas de 60 y más años.2": 0.03977272727272727,
+        "Crónicos.2": 0.06431956668923494,
+        "Embaraz..2": 0.007874015748031496,
+        "Cuid./Func. ELEAM.2": 0.0196078431372549,
+        "P. Salud Público.2": 0.07468879668049792,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.04586732338002155
+      },
+      "Poblacion_Objetivo": 6497.0
+    },
+    "10107.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 4138.0,
+        "Crónicos": 2469.0,
+        "Embaraz.": 154.0,
+        "Cuid./Func. ELEAM": 30.0,
+        "P. Salud Público": 280.0,
+        "P. Salud Privado": 12.0,
+        "TOTAL": 7083.0,
+        "Personas de 60 y más años.1": 174.0,
+        "Crónicos.1": 88.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 15.0,
+        "P. Salud Privado.1": 5.0,
+        "Otros": 0.0,
+        "TOTAL.1": 284.0,
+        "Personas de 60 y más años.2": 0.04204929917834703,
+        "Crónicos.2": 0.03564196030781693,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.06666666666666667,
+        "P. Salud Público.2": 0.05357142857142857,
+        "P. Salud Privado.2": 0.4166666666666667,
+        "TOTAL.2": 0.04009600451785966
+      },
+      "Poblacion_Objetivo": 7083.0
+    },
+    "10108.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 4151.0,
+        "Crónicos": 1025.0,
+        "Embaraz.": 100.0,
+        "Cuid./Func. ELEAM": 29.0,
+        "P. Salud Público": 287.0,
+        "P. Salud Privado": 14.0,
+        "TOTAL": 5606.0,
+        "Personas de 60 y más años.1": 55.0,
+        "Crónicos.1": 19.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 3.0,
+        "P. Salud Público.1": 15.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 93.0,
+        "Personas de 60 y más años.2": 0.013249819320645628,
+        "Crónicos.2": 0.018536585365853658,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.10344827586206896,
+        "P. Salud Público.2": 0.05226480836236934,
+        "P. Salud Privado.2": 0.07142857142857142,
+        "TOTAL.2": 0.01658936853371388
+      },
+      "Poblacion_Objetivo": 5606.0
+    },
+    "10109.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 9524.0,
+        "Crónicos": 3497.0,
+        "Embaraz.": 440.0,
+        "Cuid./Func. ELEAM": 311.0,
+        "P. Salud Público": 445.0,
+        "P. Salud Privado": 612.0,
+        "TOTAL": 14829.0,
+        "Personas de 60 y más años.1": 1039.0,
+        "Crónicos.1": 414.0,
+        "Embaraz..1": 31.0,
+        "Cuid./Func. ELEAM.1": 13.0,
+        "P. Salud Público.1": 113.0,
+        "P. Salud Privado.1": 135.0,
+        "Otros": 2.0,
+        "TOTAL.1": 1747.0,
+        "Personas de 60 y más años.2": 0.10909281814363712,
+        "Crónicos.2": 0.11838718901915928,
+        "Embaraz..2": 0.07045454545454545,
+        "Cuid./Func. ELEAM.2": 0.04180064308681672,
+        "P. Salud Público.2": 0.2539325842696629,
+        "P. Salud Privado.2": 0.22058823529411764,
+        "TOTAL.2": 0.11780969721491671
+      },
+      "Poblacion_Objetivo": 14829.0
+    },
+    "10401.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 1135.0,
+        "Crónicos": 402.0,
+        "Embaraz.": 23.0,
+        "Cuid./Func. ELEAM": 5.0,
+        "P. Salud Público": 144.0,
+        "P. Salud Privado": 1.0,
+        "TOTAL": 1710.0,
+        "Personas de 60 y más años.1": 9.0,
+        "Crónicos.1": 5.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 8.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 23.0,
+        "Personas de 60 y más años.2": 0.007929515418502203,
+        "Crónicos.2": 0.012437810945273632,
+        "Embaraz..2": 0.043478260869565216,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.05555555555555555,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.013450292397660818
+      },
+      "Poblacion_Objetivo": 1710.0
+    },
+    "10402.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 646.0,
+        "Crónicos": 224.0,
+        "Embaraz.": 20.0,
+        "Cuid./Func. ELEAM": 3.0,
+        "P. Salud Público": 116.0,
+        "P. Salud Privado": 1.0,
+        "TOTAL": 1010.0,
+        "Personas de 60 y más años.1": 18.0,
+        "Crónicos.1": 9.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 14.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 1.0,
+        "TOTAL.1": 42.0,
+        "Personas de 60 y más años.2": 0.02786377708978328,
+        "Crónicos.2": 0.04017857142857143,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.1206896551724138,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.041584158415841586
+      },
+      "Poblacion_Objetivo": 1010.0
+    },
+    "10403.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 2006.0,
+        "Crónicos": 944.0,
+        "Embaraz.": 51.0,
+        "Cuid./Func. ELEAM": 32.0,
+        "P. Salud Público": 119.0,
+        "P. Salud Privado": 3.0,
+        "TOTAL": 3155.0,
+        "Personas de 60 y más años.1": 73.0,
+        "Crónicos.1": 94.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 16.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 1.0,
+        "TOTAL.1": 187.0,
+        "Personas de 60 y más años.2": 0.036390827517447655,
+        "Crónicos.2": 0.09957627118644068,
+        "Embaraz..2": 0.0196078431372549,
+        "Cuid./Func. ELEAM.2": 0.0625,
+        "P. Salud Público.2": 0.13445378151260504,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.059270998415213945
+      },
+      "Poblacion_Objetivo": 3155.0
+    },
+    "10404.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 515.0,
+        "Crónicos": 139.0,
+        "Embaraz.": 11.0,
+        "Cuid./Func. ELEAM": 6.0,
+        "P. Salud Público": 73.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 744.0,
+        "Personas de 60 y más años.1": 22.0,
+        "Crónicos.1": 10.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 17.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 1.0,
+        "TOTAL.1": 50.0,
+        "Personas de 60 y más años.2": 0.04271844660194175,
+        "Crónicos.2": 0.07194244604316546,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.2328767123287671,
+        "TOTAL.2": 0.06720430107526881
+      },
+      "Poblacion_Objetivo": 744.0
+    },
+    "10301.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 37554.0,
+        "Crónicos": 14449.0,
+        "Embaraz.": 1136.0,
+        "Cuid./Func. ELEAM": 1332.0,
+        "P. Salud Público": 5053.0,
+        "P. Salud Privado": 878.0,
+        "TOTAL": 60402.0,
+        "Personas de 60 y más años.1": 4993.0,
+        "Crónicos.1": 2809.0,
+        "Embaraz..1": 43.0,
+        "Cuid./Func. ELEAM.1": 175.0,
+        "P. Salud Público.1": 1807.0,
+        "P. Salud Privado.1": 222.0,
+        "Otros": 6.0,
+        "TOTAL.1": 10055.0,
+        "Personas de 60 y más años.2": 0.13295521116259254,
+        "Crónicos.2": 0.19440791750294137,
+        "Embaraz..2": 0.037852112676056336,
+        "Cuid./Func. ELEAM.2": 0.1313813813813814,
+        "P. Salud Público.2": 0.35760934098555314,
+        "P. Salud Privado.2": 0.2528473804100228,
+        "TOTAL.2": 0.16646799774841892
+      },
+      "Poblacion_Objetivo": 60402.0
+    },
+    "10302.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 2134.0,
+        "Crónicos": 1056.0,
+        "Embaraz.": 52.0,
+        "Cuid./Func. ELEAM": 52.0,
+        "P. Salud Público": 224.0,
+        "P. Salud Privado": 2.0,
+        "TOTAL": 3520.0,
+        "Personas de 60 y más años.1": 130.0,
+        "Crónicos.1": 52.0,
+        "Embaraz..1": 3.0,
+        "Cuid./Func. ELEAM.1": 8.0,
+        "P. Salud Público.1": 32.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 226.0,
+        "Personas de 60 y más años.2": 0.06091846298031865,
+        "Crónicos.2": 0.04924242424242424,
+        "Embaraz..2": 0.057692307692307696,
+        "Cuid./Func. ELEAM.2": 0.15384615384615385,
+        "P. Salud Público.2": 0.14285714285714285,
+        "P. Salud Privado.2": 0.5,
+        "TOTAL.2": 0.06420454545454546
+      },
+      "Poblacion_Objetivo": 3520.0
+    },
+    "10303.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 5482.0,
+        "Crónicos": 3115.0,
+        "Embaraz.": 126.0,
+        "Cuid./Func. ELEAM": 111.0,
+        "P. Salud Público": 564.0,
+        "P. Salud Privado": 19.0,
+        "TOTAL": 9417.0,
+        "Personas de 60 y más años.1": 223.0,
+        "Crónicos.1": 161.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 99.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 486.0,
+        "Personas de 60 y más años.2": 0.040678584458226925,
+        "Crónicos.2": 0.051685393258426963,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.018018018018018018,
+        "P. Salud Público.2": 0.17553191489361702,
+        "P. Salud Privado.2": 0.05263157894736842,
+        "TOTAL.2": 0.05160879260911118
+      },
+      "Poblacion_Objetivo": 9417.0
+    },
+    "10304.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 2998.0,
+        "Crónicos": 1628.0,
+        "Embaraz.": 92.0,
+        "Cuid./Func. ELEAM": 87.0,
+        "P. Salud Público": 263.0,
+        "P. Salud Privado": 17.0,
+        "TOTAL": 5085.0,
+        "Personas de 60 y más años.1": 347.0,
+        "Crónicos.1": 145.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 6.0,
+        "P. Salud Público.1": 39.0,
+        "P. Salud Privado.1": 4.0,
+        "Otros": 0.0,
+        "TOTAL.1": 541.0,
+        "Personas de 60 y más años.2": 0.11574382921947965,
+        "Crónicos.2": 0.08906633906633907,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.06896551724137931,
+        "P. Salud Público.2": 0.1482889733840304,
+        "P. Salud Privado.2": 0.23529411764705882,
+        "TOTAL.2": 0.1063913470993117
+      },
+      "Poblacion_Objetivo": 5085.0
+    },
+    "10305.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 3892.0,
+        "Crónicos": 1435.0,
+        "Embaraz.": 95.0,
+        "Cuid./Func. ELEAM": 119.0,
+        "P. Salud Público": 346.0,
+        "P. Salud Privado": 10.0,
+        "TOTAL": 5897.0,
+        "Personas de 60 y más años.1": 188.0,
+        "Crónicos.1": 65.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 7.0,
+        "P. Salud Público.1": 46.0,
+        "P. Salud Privado.1": 2.0,
+        "Otros": 0.0,
+        "TOTAL.1": 308.0,
+        "Personas de 60 y más años.2": 0.048304213771839674,
+        "Crónicos.2": 0.04529616724738676,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.058823529411764705,
+        "P. Salud Público.2": 0.1329479768786127,
+        "P. Salud Privado.2": 0.2,
+        "TOTAL.2": 0.05222994743089707
+      },
+      "Poblacion_Objetivo": 5897.0
+    },
+    "10306.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 2301.0,
+        "Crónicos": 1255.0,
+        "Embaraz.": 38.0,
+        "Cuid./Func. ELEAM": 110.0,
+        "P. Salud Público": 291.0,
+        "P. Salud Privado": 4.0,
+        "TOTAL": 3999.0,
+        "Personas de 60 y más años.1": 198.0,
+        "Crónicos.1": 71.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 6.0,
+        "P. Salud Público.1": 48.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 1.0,
+        "TOTAL.1": 325.0,
+        "Personas de 60 y más años.2": 0.08604954367666232,
+        "Crónicos.2": 0.05657370517928287,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.05454545454545454,
+        "P. Salud Público.2": 0.16494845360824742,
+        "P. Salud Privado.2": 0.25,
+        "TOTAL.2": 0.08127031757939485
+      },
+      "Poblacion_Objetivo": 3999.0
+    },
+    "10307.0": {
+      "Criterios": {
+        "Región": 10.0,
+        "Personas de 60 y más años": 3062.0,
+        "Crónicos": 1216.0,
+        "Embaraz.": 61.0,
+        "Cuid./Func. ELEAM": 49.0,
+        "P. Salud Público": 314.0,
+        "P. Salud Privado": 12.0,
+        "TOTAL": 4714.0,
+        "Personas de 60 y más años.1": 155.0,
+        "Crónicos.1": 31.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 39.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 225.0,
+        "Personas de 60 y más años.2": 0.05062050947093403,
+        "Crónicos.2": 0.02549342105263158,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.12420382165605096,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.047730165464573614
+      },
+      "Poblacion_Objetivo": 4714.0
+    },
+    "11201.0": {
+      "Criterios": {
+        "Región": 11.0,
+        "Personas de 60 y más años": 4349.0,
+        "Crónicos": 2018.0,
+        "Embaraz.": 168.0,
+        "Cuid./Func. ELEAM": 54.0,
+        "P. Salud Público": 801.0,
+        "P. Salud Privado": 8.0,
+        "TOTAL": 7398.0,
+        "Personas de 60 y más años.1": 277.0,
+        "Crónicos.1": 272.0,
+        "Embaraz..1": 3.0,
+        "Cuid./Func. ELEAM.1": 7.0,
+        "P. Salud Público.1": 55.0,
+        "P. Salud Privado.1": 3.0,
+        "Otros": 0.0,
+        "TOTAL.1": 617.0,
+        "Personas de 60 y más años.2": 0.06369280294320534,
+        "Crónicos.2": 0.13478691774033696,
+        "Embaraz..2": 0.017857142857142856,
+        "Cuid./Func. ELEAM.2": 0.12962962962962962,
+        "P. Salud Público.2": 0.0686641697877653,
+        "P. Salud Privado.2": 0.375,
+        "TOTAL.2": 0.08340091916734252
+      },
+      "Poblacion_Objetivo": 7398.0
+    },
+    "11401.0": {
+      "Criterios": {
+        "Región": 11.0,
+        "Personas de 60 y más años": 1182.0,
+        "Crónicos": 433.0,
+        "Embaraz.": 29.0,
+        "Cuid./Func. ELEAM": 57.0,
+        "P. Salud Público": 141.0,
+        "P. Salud Privado": 12.0,
+        "TOTAL": 1854.0,
+        "Personas de 60 y más años.1": 59.0,
+        "Crónicos.1": 42.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 11.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 1.0,
+        "TOTAL.1": 113.0,
+        "Personas de 60 y más años.2": 0.04991539763113367,
+        "Crónicos.2": 0.09699769053117784,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.07801418439716312,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.06094929881337648
+      },
+      "Poblacion_Objetivo": 1854.0
+    },
+    "11202.0": {
+      "Criterios": {
+        "Región": 11.0,
+        "Personas de 60 y más años": 1005.0,
+        "Crónicos": 545.0,
+        "Embaraz.": 32.0,
+        "Cuid./Func. ELEAM": 33.0,
+        "P. Salud Público": 203.0,
+        "P. Salud Privado": 1.0,
+        "TOTAL": 1819.0,
+        "Personas de 60 y más años.1": 95.0,
+        "Crónicos.1": 51.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 2.0,
+        "P. Salud Público.1": 34.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 182.0,
+        "Personas de 60 y más años.2": 0.0945273631840796,
+        "Crónicos.2": 0.09357798165137615,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.06060606060606061,
+        "P. Salud Público.2": 0.16748768472906403,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.1000549752611325
+      },
+      "Poblacion_Objetivo": 1819.0
+    },
+    "11301.0": {
+      "Criterios": {
+        "Región": 11.0,
+        "Personas de 60 y más años": 715.0,
+        "Crónicos": 259.0,
+        "Embaraz.": 27.0,
+        "Cuid./Func. ELEAM": 18.0,
+        "P. Salud Público": 172.0,
+        "P. Salud Privado": 2.0,
+        "TOTAL": 1193.0,
+        "Personas de 60 y más años.1": 174.0,
+        "Crónicos.1": 64.0,
+        "Embaraz..1": 2.0,
+        "Cuid./Func. ELEAM.1": 10.0,
+        "P. Salud Público.1": 46.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 297.0,
+        "Personas de 60 y más años.2": 0.24335664335664337,
+        "Crónicos.2": 0.2471042471042471,
+        "Embaraz..2": 0.07407407407407407,
+        "Cuid./Func. ELEAM.2": 0.5555555555555556,
+        "P. Salud Público.2": 0.26744186046511625,
+        "P. Salud Privado.2": 0.5,
+        "TOTAL.2": 0.24895222129086336
+      },
+      "Poblacion_Objetivo": 1193.0
+    },
+    "11101.0": {
+      "Criterios": {
+        "Región": 11.0,
+        "Personas de 60 y más años": 11095.0,
+        "Crónicos": 3764.0,
+        "Embaraz.": 396.0,
+        "Cuid./Func. ELEAM": 287.0,
+        "P. Salud Público": 2374.0,
+        "P. Salud Privado": 194.0,
+        "TOTAL": 18110.0,
+        "Personas de 60 y más años.1": 1675.0,
+        "Crónicos.1": 1218.0,
+        "Embaraz..1": 14.0,
+        "Cuid./Func. ELEAM.1": 113.0,
+        "P. Salud Público.1": 517.0,
+        "P. Salud Privado.1": 61.0,
+        "Otros": 40.0,
+        "TOTAL.1": 3638.0,
+        "Personas de 60 y más años.2": 0.1509689049121226,
+        "Crónicos.2": 0.3235919234856536,
+        "Embaraz..2": 0.03535353535353535,
+        "Cuid./Func. ELEAM.2": 0.39372822299651566,
+        "P. Salud Público.2": 0.21777590564448188,
+        "P. Salud Privado.2": 0.31443298969072164,
+        "TOTAL.2": 0.20088348978464937
+      },
+      "Poblacion_Objetivo": 18110.0
+    },
+    "11203.0": {
+      "Criterios": {
+        "Región": 11.0,
+        "Personas de 60 y más años": 242.0,
+        "Crónicos": 129.0,
+        "Embaraz.": 9.0,
+        "Cuid./Func. ELEAM": 3.0,
+        "P. Salud Público": 33.0,
+        "P. Salud Privado": 2.0,
+        "TOTAL": 418.0,
+        "Personas de 60 y más años.1": 2.0,
+        "Crónicos.1": 8.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 14.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 2.0,
+        "TOTAL.1": 26.0,
+        "Personas de 60 y más años.2": 0.008264462809917356,
+        "Crónicos.2": 0.06201550387596899,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.42424242424242425,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.06220095693779904
+      },
+      "Poblacion_Objetivo": 418.0
+    },
+    "11102.0": {
+      "Criterios": {
+        "Región": 11.0,
+        "Personas de 60 y más años": 246.0,
+        "Crónicos": 98.0,
+        "Embaraz.": 1.0,
+        "Cuid./Func. ELEAM": 1.0,
+        "P. Salud Público": 16.0,
+        "P. Salud Privado": 1.0,
+        "TOTAL": 363.0,
+        "Personas de 60 y más años.1": 13.0,
+        "Crónicos.1": 10.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 4.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 3.0,
+        "TOTAL.1": 31.0,
+        "Personas de 60 y más años.2": 0.052845528455284556,
+        "Crónicos.2": 0.10204081632653061,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.25,
+        "P. Salud Privado.2": 1.0,
+        "TOTAL.2": 0.08539944903581267
+      },
+      "Poblacion_Objetivo": 363.0
+    },
+    "11302.0": {
+      "Criterios": {
+        "Región": 11.0,
+        "Personas de 60 y más años": 98.0,
+        "Crónicos": 73.0,
+        "Embaraz.": 10.0,
+        "Cuid./Func. ELEAM": 2.0,
+        "P. Salud Público": 14.0,
+        "P. Salud Privado": 1.0,
+        "TOTAL": 198.0,
+        "Personas de 60 y más años.1": 14.0,
+        "Crónicos.1": 0.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 0.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 14.0,
+        "Personas de 60 y más años.2": 0.14285714285714285,
+        "Crónicos.2": 0.0,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.0,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.0707070707070707
+      },
+      "Poblacion_Objetivo": 198.0
+    },
+    "11402.0": {
+      "Criterios": {
+        "Región": 11.0,
+        "Personas de 60 y más años": 817.0,
+        "Crónicos": 226.0,
+        "Embaraz.": 15.0,
+        "Cuid./Func. ELEAM": 11.0,
+        "P. Salud Público": 43.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 1112.0,
+        "Personas de 60 y más años.1": 18.0,
+        "Crónicos.1": 7.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 2.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 27.0,
+        "Personas de 60 y más años.2": 0.022031823745410038,
+        "Crónicos.2": 0.030973451327433628,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.046511627906976744,
+        "TOTAL.2": 0.024280575539568347
+      },
+      "Poblacion_Objetivo": 1112.0
+    },
+    "11303.0": {
+      "Criterios": {
+        "Región": 11.0,
+        "Personas de 60 y más años": 85.0,
+        "Crónicos": 66.0,
+        "Embaraz.": 3.0,
+        "Cuid./Func. ELEAM": 3.0,
+        "P. Salud Público": 10.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 167.0,
+        "Personas de 60 y más años.1": 7.0,
+        "Crónicos.1": 0.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 0.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 7.0,
+        "Personas de 60 y más años.2": 0.08235294117647059,
+        "Crónicos.2": 0.0,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.0,
+        "TOTAL.2": 0.041916167664670656
+      },
+      "Poblacion_Objetivo": 167.0
+    },
+    "12202.0": {
+      "Criterios": {
+        "Región": 12.0,
+        "Personas de 60 y más años": 6.0,
+        "Crónicos": 65.0,
+        "Embaraz.": 4.0,
+        "Cuid./Func. ELEAM": 7.0,
+        "P. Salud Público": 0.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 82.0,
+        "Personas de 60 y más años.1": 19.0,
+        "Crónicos.1": 0.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 0.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 19.0,
+        "Personas de 60 y más años.2": 3.1666666666666665,
+        "Crónicos.2": 0.0,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "TOTAL.2": 0.23170731707317074
+      },
+      "Poblacion_Objetivo": 82.0
+    },
+    "12201.0": {
+      "Criterios": {
+        "Región": 12.0,
+        "Personas de 60 y más años": 140.0,
+        "Crónicos": 181.0,
+        "Embaraz.": 13.0,
+        "Cuid./Func. ELEAM": 1.0,
+        "P. Salud Público": 101.0,
+        "P. Salud Privado": 2.0,
+        "TOTAL": 438.0,
+        "Personas de 60 y más años.1": 46.0,
+        "Crónicos.1": 81.0,
+        "Embaraz..1": 6.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 59.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 193.0,
+        "Personas de 60 y más años.2": 0.32857142857142857,
+        "Crónicos.2": 0.44751381215469616,
+        "Embaraz..2": 0.46153846153846156,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.5841584158415841,
+        "P. Salud Privado.2": 0.5,
+        "TOTAL.2": 0.4406392694063927
+      },
+      "Poblacion_Objetivo": 438.0
+    },
+    "12102.0": {
+      "Criterios": {
+        "Región": 12.0,
+        "Personas de 60 y más años": 64.0,
+        "Crónicos": 51.0,
+        "Embaraz.": 0.0,
+        "Cuid./Func. ELEAM": 0.0,
+        "P. Salud Público": 13.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 128.0,
+        "Personas de 60 y más años.1": 8.0,
+        "Crónicos.1": 0.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 3.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 11.0,
+        "Personas de 60 y más años.2": 0.125,
+        "Crónicos.2": 0.0,
+        "P. Salud Público.2": 0.23076923076923078,
+        "TOTAL.2": 0.0859375
+      },
+      "Poblacion_Objetivo": 128.0
+    },
+    "12401.0": {
+      "Criterios": {
+        "Región": 12.0,
+        "Personas de 60 y más años": 5564.0,
+        "Crónicos": 1642.0,
+        "Embaraz.": 163.0,
+        "Cuid./Func. ELEAM": 12.0,
+        "P. Salud Público": 776.0,
+        "P. Salud Privado": 11.0,
+        "TOTAL": 8168.0,
+        "Personas de 60 y más años.1": 210.0,
+        "Crónicos.1": 94.0,
+        "Embaraz..1": 1.0,
+        "Cuid./Func. ELEAM.1": 1.0,
+        "P. Salud Público.1": 42.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 6.0,
+        "TOTAL.1": 355.0,
+        "Personas de 60 y más años.2": 0.037742631200575125,
+        "Crónicos.2": 0.057247259439707675,
+        "Embaraz..2": 0.006134969325153374,
+        "Cuid./Func. ELEAM.2": 0.08333333333333333,
+        "P. Salud Público.2": 0.05412371134020619,
+        "P. Salud Privado.2": 0.09090909090909091,
+        "TOTAL.2": 0.043462291870714986
+      },
+      "Poblacion_Objetivo": 8168.0
+    },
+    "12301.0": {
+      "Criterios": {
+        "Región": 12.0,
+        "Personas de 60 y más años": 1398.0,
+        "Crónicos": 382.0,
+        "Embaraz.": 42.0,
+        "Cuid./Func. ELEAM": 30.0,
+        "P. Salud Público": 213.0,
+        "P. Salud Privado": 16.0,
+        "TOTAL": 2081.0,
+        "Personas de 60 y más años.1": 78.0,
+        "Crónicos.1": 34.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 5.0,
+        "P. Salud Privado.1": 1.0,
+        "Otros": 0.0,
+        "TOTAL.1": 118.0,
+        "Personas de 60 y más años.2": 0.055793991416309016,
+        "Crónicos.2": 0.08900523560209424,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.023474178403755867,
+        "P. Salud Privado.2": 0.0625,
+        "TOTAL.2": 0.05670350792888035
+      },
+      "Poblacion_Objetivo": 2081.0
+    },
+    "12302.0": {
+      "Criterios": {
+        "Región": 12.0,
+        "Personas de 60 y más años": 106.0,
+        "Crónicos": 47.0,
+        "Embaraz.": 2.0,
+        "Cuid./Func. ELEAM": 2.0,
+        "P. Salud Público": 0.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 157.0,
+        "Personas de 60 y más años.1": 9.0,
+        "Crónicos.1": 0.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 0.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 9.0,
+        "Personas de 60 y más años.2": 0.08490566037735849,
+        "Crónicos.2": 0.0,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "TOTAL.2": 0.05732484076433121
+      },
+      "Poblacion_Objetivo": 157.0
+    },
+    "12101.0": {
+      "Criterios": {
+        "Región": 12.0,
+        "Personas de 60 y más años": 30182.0,
+        "Crónicos": 14575.0,
+        "Embaraz.": 853.0,
+        "Cuid./Func. ELEAM": 242.0,
+        "P. Salud Público": 4038.0,
+        "P. Salud Privado": 799.0,
+        "TOTAL": 50689.0,
+        "Personas de 60 y más años.1": 3704.0,
+        "Crónicos.1": 3343.0,
+        "Embaraz..1": 19.0,
+        "Cuid./Func. ELEAM.1": 39.0,
+        "P. Salud Público.1": 1159.0,
+        "P. Salud Privado.1": 90.0,
+        "Otros": 87.0,
+        "TOTAL.1": 8441.0,
+        "Personas de 60 y más años.2": 0.12272215227619111,
+        "Crónicos.2": 0.22936535162950258,
+        "Embaraz..2": 0.022274325908558032,
+        "Cuid./Func. ELEAM.2": 0.16115702479338842,
+        "P. Salud Público.2": 0.2870232788509163,
+        "P. Salud Privado.2": 0.11264080100125157,
+        "TOTAL.2": 0.16652528161928623
+      },
+      "Poblacion_Objetivo": 50689.0
+    },
+    "12103.0": {
+      "Criterios": {
+        "Región": 12.0,
+        "Personas de 60 y más años": 55.0,
+        "Crónicos": 39.0,
+        "Embaraz.": 1.0,
+        "Cuid./Func. ELEAM": 0.0,
+        "P. Salud Público": 6.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 101.0,
+        "Personas de 60 y más años.1": 0.0,
+        "Crónicos.1": 5.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 6.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 11.0,
+        "Personas de 60 y más años.2": 0.0,
+        "Crónicos.2": 0.1282051282051282,
+        "Embaraz..2": 0.0,
+        "P. Salud Público.2": 1.0,
+        "TOTAL.2": 0.10891089108910891
+      },
+      "Poblacion_Objetivo": 101.0
+    },
+    "12104.0": {
+      "Criterios": {
+        "Región": 12.0,
+        "Personas de 60 y más años": 123.0,
+        "Crónicos": 68.0,
+        "Embaraz.": 1.0,
+        "Cuid./Func. ELEAM": 2.0,
+        "P. Salud Público": 5.0,
+        "P. Salud Privado": 1.0,
+        "TOTAL": 200.0,
+        "Personas de 60 y más años.1": 1.0,
+        "Crónicos.1": 0.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 0.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 1.0,
+        "Personas de 60 y más años.2": 0.008130081300813009,
+        "Crónicos.2": 0.0,
+        "Embaraz..2": 0.0,
+        "Cuid./Func. ELEAM.2": 0.0,
+        "P. Salud Público.2": 0.0,
+        "P. Salud Privado.2": 0.0,
+        "TOTAL.2": 0.005
+      },
+      "Poblacion_Objetivo": 200.0
+    },
+    "12303.0": {
+      "Criterios": {
+        "Región": 12.0,
+        "Personas de 60 y más años": 31.0,
+        "Crónicos": 16.0,
+        "Embaraz.": 1.0,
+        "Cuid./Func. ELEAM": 0.0,
+        "P. Salud Público": 0.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 48.0,
+        "Personas de 60 y más años.1": 0.0,
+        "Crónicos.1": 0.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 0.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 0.0,
+        "Personas de 60 y más años.2": 0.0,
+        "Crónicos.2": 0.0,
+        "Embaraz..2": 0.0,
+        "TOTAL.2": 0.0
+      },
+      "Poblacion_Objetivo": 48.0
+    },
+    "12402.0": {
+      "Criterios": {
+        "Región": 12.0,
+        "Personas de 60 y más años": 112.0,
+        "Crónicos": 83.0,
+        "Embaraz.": 0.0,
+        "Cuid./Func. ELEAM": 1.0,
+        "P. Salud Público": 12.0,
+        "P. Salud Privado": 0.0,
+        "TOTAL": 208.0,
+        "Personas de 60 y más años.1": 0.0,
+        "Crónicos.1": 0.0,
+        "Embaraz..1": 0.0,
+        "Cuid./Func. ELEAM.1": 0.0,
+        "P. Salud Público.1": 0.0,
+        "P. Salud Privado.1": 0.0,
+        "Otros": 0.0,
+        "TOTAL.1": 0.0,
+        "Personas de 60 y más años.2": 0.0,
+        "Crónicos.2": 0.0,
+        "Embaraz..2": 0.0,
+        "TOTAL.2": 0.0
+      },
+      "Poblacion_Objetivo": 208.0
+    }
+  }
+};

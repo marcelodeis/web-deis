@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Programáticas 2026 · Servicio de Salud Osorno</title>
+    <meta name="description" content="Dashboard de Geointeligencia para Vacunas Programáticas 2026 del Servicio de Salud Osorno. Cobertura, producción y análisis interactivo.">
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx-js-style@1.2.0/dist/xlsx.bundle.js" crossorigin="anonymous"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css?v=8">
+
+    <!-- Data -->
+    <script src="programaticas_data_2025_v4.js"></script>
+    <script src="programaticas_data_2026_v3.js"></script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- ── HEADER ── -->
+        <header id="dashboardHeader">
+            <div class="header-main">
+                <div class="header-brand">
+                    <div class="brand-icon">
+                        <i class="fas fa-syringe"></i>
+                    </div>
+                    <div>
+                        <h1>VACUNAS PROGRAMÁTICAS <span class="year-badge" id="headerYearBadge">2026</span></h1>
+                        <p class="header-subtitle">SERVICIO DE SALUD OSORNO · Geointeligencia PNI</p>
+                    </div>
+                </div>
+                <div class="header-meta">
+                    <span class="meta-badge" id="reportDate">
+                        <i class="fas fa-calendar-alt"></i> Cargando...
+                    </span>
+                    <span class="meta-badge source-badge">
+                        <i class="fas fa-database"></i> RNI · DEIS
+                    </span>
+                </div>
+            </div>
+            <div class="header-actions">
+                <div class="year-toggle-wrapper">
+                    <label class="year-toggle-label">AÑO CAMPAÑA</label>
+                    <div class="year-toggle">
+                        <button onclick="switchYear('2025')" id="btnYear2025" class="year-toggle-btn">2025</button>
+                        <button onclick="switchYear('2026')" id="btnYear2026" class="year-toggle-btn active">2026</button>
+                    </div>
+                </div>
+                <button id="themeToggleBtn" class="btn-icon" title="Alternar Modo Oscuro">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button onclick="window.print()" class="btn-icon" title="Imprimir Reporte">
+                    <i class="fas fa-print"></i>
+                </button>
+                <select id="globalComunaFilter" class="filter-select">
+                    <option value="all">🏛️ Todas las Comunas</option>
+                </select>
+            </div>
+        </header>
+
+        <main>
+            <!-- ── NAVIGATION TABS ── -->
+            <nav class="tab-nav" id="tabNav">
+                <button class="tab-btn active" data-tab="cobertura">
+                    <i class="fas fa-chart-pie"></i> Cobertura (Residencia)
+                </button>
+                <button class="tab-btn" data-tab="produccion">
+                    <i class="fas fa-hospital"></i> Producción (Ocurrencia)
+                </button>
+                <button class="tab-btn" data-tab="detalle">
+                    <i class="fas fa-table"></i> Matriz Técnica
+                </button>
+            </nav>
+
+            <!-- ══════════════ TAB 1: COBERTURA ══════════════ -->
+            <section class="tab-content active" id="tab-cobertura">
+                <!-- KPI Cards -->
+                <div class="kpi-grid">
+                    <div class="kpi-card glass" id="kpi-total-dosis">
+                        <div class="kpi-icon-wrap blue">
+                            <i class="fas fa-syringe"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <span class="kpi-label">TOTAL DOSIS APLICADAS</span>
+                            <span class="kpi-value" id="kpiTotalDosis">--</span>
+                            <span class="kpi-sub" id="kpiTotalDosisContext">Residencia provincial</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card glass" id="kpi-best">
+                        <div class="kpi-icon-wrap green">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <span class="kpi-label">MEJOR COBERTURA</span>
+                            <span class="kpi-value" id="kpiBestVac">--</span>
+                            <span class="kpi-sub" id="kpiBestPct">--</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card glass" id="kpi-worst">
+                        <div class="kpi-icon-wrap amber">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <span class="kpi-label">VACUNA REZAGADA</span>
+                            <span class="kpi-value" id="kpiWorstVac">--</span>
+                            <span class="kpi-sub" id="kpiWorstPct">--</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card glass" id="kpi-comunas">
+                        <div class="kpi-icon-wrap purple">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <span class="kpi-label">COMUNAS MONITOREADAS</span>
+                            <span class="kpi-value" id="kpiComunas">7</span>
+                            <span class="kpi-sub">Provincia de Osorno</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts Row -->
+                <div class="charts-grid">
+                    <div class="card glass chart-card wide">
+                        <div class="card-header">
+                            <h3><i class="fas fa-chart-bar"></i> Cobertura por Vacuna (Provincial)</h3>
+                            <span class="card-badge">Residencia</span>
+                        </div>
+                        <div class="chart-wrap">
+                            <canvas id="chartCoberturaVacuna"></canvas>
+                        </div>
+                    </div>
+                    <div class="card glass chart-card">
+                        <div class="card-header">
+                            <h3><i class="fas fa-chart-doughnut"></i> Distribución de Dosis</h3>
+                            <span class="card-badge">Top 8</span>
+                        </div>
+                        <div class="chart-wrap">
+                            <canvas id="chartDistribucion"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Heatmap comunas -->
+                <div class="card glass chart-card full-width">
+                    <div class="card-header">
+                        <strong><i class="fas fa-microscope"></i> Nota Metodológica (Corte 1° Trim. - Marzo) - BASE RESIDENCIA:</strong> Las coberturas presentadas corresponden a un <strong>avance trimestral</strong>. El cálculo de cobertura (Dosis / Población) se basa en <span class="card-badge">% Cobertura</span>
+                    </div>
+                    <div class="heatmap-container" id="heatmapContainer">
+                        <!-- Generated by JS -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- ══════════════ TAB 2: PRODUCCIÓN ══════════════ -->
+            <section class="tab-content" id="tab-produccion">
+                <div class="kpi-grid">
+                    <div class="kpi-card glass">
+                        <div class="kpi-icon-wrap blue">
+                            <i class="fas fa-hospital"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <span class="kpi-label">ESTABLECIMIENTOS</span>
+                            <span class="kpi-value" id="kpiEstabs">--</span>
+                            <span class="kpi-sub">Con producción registrada</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card glass">
+                        <div class="kpi-icon-wrap green">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <span class="kpi-label">TOP ESTABLECIMIENTO</span>
+                            <span class="kpi-value small-text" id="kpiTopEstab">--</span>
+                            <span class="kpi-sub" id="kpiTopEstabCount">--</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card glass">
+                        <div class="kpi-icon-wrap amber">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <span class="kpi-label">TOTAL PRODUCCIÓN</span>
+                            <span class="kpi-value" id="kpiTotalProd">--</span>
+                            <span class="kpi-sub">Ocurrencia provincial</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card glass">
+                        <div class="kpi-icon-wrap purple">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <span class="kpi-label">PROMEDIO POR CENTRO</span>
+                            <span class="kpi-value" id="kpiAvgProd">--</span>
+                            <span class="kpi-sub">dosis por establecimiento</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Top 10 Chart -->
+                <div class="charts-grid">
+                    <div class="card glass chart-card wide">
+                        <div class="card-header">
+                            <h3 id="rankingTitle"><i class="fas fa-ranking-star"></i> Ranking Top 10 Establecimientos
+                                <button class="info-btn" onclick="openHelpModal('chartTopEstabs')"><i class="fas fa-info"></i></button>
+                            </h3>
+                            <span class="card-badge">Ocurrencia</span>
+                        </div>
+                        <div class="chart-wrap tall">
+                            <canvas id="chartTopEstabs"></canvas>
+                        </div>
+                    </div>
+                    <div class="card glass chart-card">
+                        <div class="card-header">
+                            <h3><i class="fas fa-city"></i> Distribución Provincial de Dosis</h3>
+                            <span class="card-badge">Ocurrencia</span>
+                        </div>
+                        <div class="chart-wrap">
+                            <canvas id="chartProdComuna"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Full production table -->
+                <div class="card glass full-width">
+                    <!-- NEW EXCEL-LIKE FILTER BAR -->
+                    <div class="excel-header-container">
+                        <div class="matriz-title">
+                            <h2>Matriz Técnica Territorial
+                                <button class="info-btn" onclick="openHelpModal('tableProdContainer')"><i class="fas fa-info"></i></button>
+                            </h2>
+                            <span class="subtitle">PROVINCIAL <span style="font-weight:400" id="matrizYearTitle">(BASE OCURRENCIA 2026)</span></span>
+                        </div>
+                        
+                        <div class="excel-filter-bar">
+                            <div class="filter-group">
+                                <label>COMUNA</label>
+                                <div class="multi-select-container" id="matrizComunaMultiSelect">
+                                    <div class="multi-select-header" onclick="this.parentElement.classList.toggle('open')">
+                                        <span class="selected-text">Todas las Comunas</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="multi-select-options">
+                                        <label><input type="checkbox" value="all" checked id="comunaSelectAll"> Todas las Comunas</label>
+                                        <div id="comunaOptionsList"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter-group">
+                                <label>ESTABLECIMIENTO</label>
+                                <div class="search-input-wrap">
+                                    <i class="fas fa-search"></i>
+                                    <input type="text" id="searchEstab" placeholder="Buscar...">
+                                </div>
+                            </div>
+                            <div class="filter-group">
+                                <label>VACUNA</label>
+                                <div class="multi-select-container" id="matrizVacunaBaseMultiSelect">
+                                    <div class="multi-select-header" onclick="this.parentElement.classList.toggle('open')">
+                                        <span class="selected-text">Todas las Vacunas</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="multi-select-options">
+                                        <label><input type="checkbox" value="all" checked id="vacunaBaseSelectAll"> Todas las Vacunas</label>
+                                        <div id="vacunaBaseOptionsList"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter-group">
+                                <label>CRITERIO DE ELEGIBILIDAD</label>
+                                <div class="multi-select-container" id="matrizVacunaMultiSelect">
+                                    <div class="multi-select-header" onclick="this.parentElement.classList.toggle('open')">
+                                        <span class="selected-text">Todos los Criterios</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="multi-select-options">
+                                        <label><input type="checkbox" value="all" checked id="vacunaSelectAll"> Todos los Criterios</label>
+                                        <div id="vacunaOptionsList"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter-group">
+                                <label>DOSIS</label>
+                                <div class="multi-select-container" id="matrizDosisMultiSelect">
+                                    <div class="multi-select-header" onclick="this.parentElement.classList.toggle('open')">
+                                        <span class="selected-text">Todas las Dosis</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="multi-select-options">
+                                        <label><input type="checkbox" value="all" checked id="dosisSelectAll"> Todas las Dosis</label>
+                                        <div id="dosisOptionsList"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter-group">
+                                <label>FECHA DE CORTE (MES)</label>
+                                <div class="multi-select-container" id="matrizFechaCorteMultiSelect">
+                                    <div class="multi-select-header" onclick="this.parentElement.classList.toggle('open')">
+                                        <span class="selected-text">Todos los Meses</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="multi-select-options">
+                                        <label><input type="checkbox" value="all" checked id="fechaCorteSelectAll"> Todos los Meses</label>
+                                        <div id="fechaCorteOptionsList"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter-group">
+                                <label>AÑO CAMPAÑA</label>
+                                <div class="toggle-group">
+                                    <button class="toggle-btn" onclick="switchYear('2025')" id="btnYear2025Prod">2025</button>
+                                    <button class="toggle-btn active" onclick="switchYear('2026')" id="btnYear2026Prod">2026</button>
+                                </div>
+                            </div>
+                            <div class="filter-group" style="justify-content: flex-end;">
+                                <button id="btnExportExcel" class="btn-excel"><i class="fas fa-file-excel"></i> Excel</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="table-responsive" id="tableProdContainer">
+                        <!-- Generated by JS -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- ══════════════ TAB 3: MATRIZ TÉCNICA ══════════════ -->
+            <section class="tab-content" id="tab-detalle">
+                <div class="card glass full-width">
+                    <div class="card-header">
+                        <h3><i class="fas fa-clipboard-list"></i> Matriz Técnica de Cobertura por Comuna</h3>
+                        <span class="card-badge">Residencia vs Metas</span>
+                        <!-- Ayuda Interpretativa Modal Backdrop -->
+                        <div id="helpModalBackdrop" class="help-modal-backdrop" onclick="closeHelpModal()" style="display: none;"></div>
+                        
+                        <!-- Ayuda Interpretativa Modal Window -->
+                        <div id="helpModalWindow" class="help-modal-window fade-in" style="display: none;">
+                            <button class="help-modal-close" onclick="closeHelpModal()">
+                                <i class="fas fa-times"></i>
+                            </button>
+                            <div class="help-modal-header" id="helpModalHeader" title="Arrastra para mover">
+                                <h2 id="helpModalTitle">Título del Gráfico</h2>
+                                <div class="help-modal-context">
+                                    <i class="fas fa-map-marker-alt"></i> Contexto de Análisis Actual: <span id="helpModalContext">Provincia de Osorno (Todas las comunas)</span>
+                                </div>
+                            </div>
+                            <div class="help-modal-body" id="helpModalBody">
+                                <!-- Se inyecta por JS -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-responsive" id="tableMatrizContainer">
+                        <!-- Generated by JS -->
+                    </div>
+                </div>
+
+                <div class="charts-grid equal">
+                    <div class="card glass chart-card">
+                        <div class="card-header">
+                            <h3><i class="fas fa-chart-radar"></i> Radar de Cobertura por Comuna</h3>
+                        </div>
+                        <div class="chart-wrap">
+                            <canvas id="chartRadar"></canvas>
+                        </div>
+                    </div>
+                    <div class="card glass chart-card">
+                        <div class="card-header">
+                            <h3><i class="fas fa-chart-area"></i> Tendencia Mensual (Producción)</h3>
+                        </div>
+                        <div class="chart-wrap">
+                            <canvas id="chartTendencia"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Dashboard Geointeligencia PNI · Servicio de Salud Osorno · <span id="footerYear">2026</span></p>
+            <p class="footer-sub">Datos extraídos del Registro Nacional de Inmunizaciones (RNI) · DEIS, Ministerio de Salud</p>
+        </footer>
+    </div>
+
+    <script src="modal.js?v=1.0"></script>
+    <script src="app_v9.js?v=1.22"></script>
+    <link rel="stylesheet" href="styles.css?v=1.17">
+</body>
+</html>
