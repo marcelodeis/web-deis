@@ -941,5 +941,6 @@ var DASHBOARD_DATA_OFFLINE_2025 = {
       }
     }
   },
-  "total_rescates": 1374
+  "total_rescates": 1374,
+  "archivo_rescates": "Rescates_VRS_Pendientes_2025_21-07-2026.xlsx"
 };

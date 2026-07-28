@@ -1082,7 +1082,13 @@ function renderBarChart(data) {
     const coms = [...new Set(data.map(i => i.comuna))];
     const rawData = coms.map(c => {
         const meta = getMetaTotal(c);
-        const total = data.filter(i => i.comuna === c).reduce((s, i) => s + i.total, 0);
+        const total = data.filter(i => i.comuna === c).reduce((s, i) => {
+            let validSum = 0;
+            Object.entries(i.datos).forEach(([g,v]) => {
+                if (g !== 'Otras prioridades') validSum += v;
+            });
+            return s + validSum;
+        }, 0);
         const val = meta > 0 ? (total / meta) * 100 : 0;
         return { label: c, value: val };
     });

@@ -251,6 +251,9 @@ if 'FECHA_INMUNIZACION' in df_resi.columns:
     df_resi_valid_dates = df_resi_valid_dates.dropna(subset=['FECHA_DT'])
     df_resi_valid_dates['SE'] = df_resi_valid_dates['FECHA_DT'].apply(get_epi_week)
     
+    if 'CRITERIO_ELEGIBILIDAD' in df_resi_valid_dates.columns:
+        df_resi_valid_dates = df_resi_valid_dates[df_resi_valid_dates['CRITERIO_ELEGIBILIDAD'] != 'Otras prioridades']
+        
     semanas_grouped = df_resi_valid_dates.groupby(['COMUNA_CANONICA', 'SE']).size().reset_index(name='count')
     
     for _, row in semanas_grouped.iterrows():
