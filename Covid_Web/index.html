@@ -21,7 +21,11 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css?v=5">
-    
+
+    <!-- Premium Features CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../shared/global_premium.css?v=2">
+
     <style>
         .kpi-grid.four-cols {
             grid-template-columns: repeat(4, 1fr);
@@ -61,6 +65,51 @@
     </script>
 </head>
 <body>
+    <!-- ── BARRA DE NAVEGACIÓN GLOBAL RNI ── -->
+                <!-- 🛸 BARRA DE NAVEGACIÓN GLOBAL RNI 🛸 -->
+    <nav class="global-nav-bar">
+        <div class="global-nav-left">
+            <a href="../Portal_Web/index.html" class="btn-portal-rni">
+                <i class="fas fa-home"></i> Portal RNI
+            </a>
+        </div>
+        
+        <div class="global-nav-center d-none d-md-flex">
+            <a href="https://estadisticas.ssosorno.cl/index.php" style="color: #ffffff; display: flex; align-items: center; text-decoration: none;">
+                <!-- Mini Logo DEIS SVG -->
+                <svg viewBox="0 0 400 300" height="40" style="margin-right: 15px;" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0" y="100" width="50" height="150" fill="#0072bc" />
+                    <rect x="60" y="40" width="50" height="210" fill="#00adef" />
+                    <rect x="120" y="0" width="120" height="250" fill="#ffffff" />
+                    <text font-family="'Inter', Arial, sans-serif" font-weight="700" font-size="130" letter-spacing="-3">
+                        <tspan x="140" y="220" fill="#0b1f40">D</tspan>
+                        <tspan x="250" y="220" fill="#ffffff">EIS</tspan>
+                    </text>
+                    <text x="255" y="250" font-family="'Inter', Arial, sans-serif" font-weight="500" font-size="26" fill="#ffffff" letter-spacing="1">OSORNO</text>
+                </svg>
+                <div style="line-height: 1.2;">
+                    <div style="font-weight: 700; font-size: 16px; letter-spacing: 0.5px; color: #ffffff;">SERVICIO DE SALUD OSORNO</div>
+                    <div style="font-size: 12px; font-weight: 400; opacity: 0.8; color: #ffffff;">Departamento de Estadísticas e Información de Salud</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="global-nav-right">
+            <button class="global-nav-dropdown-btn">
+                <i class="fas fa-syringe"></i> Cambiar Vacuna <i class="fas fa-chevron-down" style="font-size: 0.7rem; margin-left: 2px;"></i>
+            </button>
+            <div class="global-nav-dropdown-content">
+                <a href="../Influenza_Web/index.html" ><i class="fas fa-virus" style="color: #3b82f6;"></i> Campaña Influenza</a>
+                <a href="../VPH_Web/index.html" ><i class="fas fa-ribbon" style="color: #ec4899;"></i> Vacuna VPH</a>
+                <a href="../Covid_Web/index.html" class="active"><i class="fas fa-biohazard" style="color: #10b981;"></i> Campaña COVID-19</a>
+                <a href="../VRS/index.html" ><i class="fas fa-shield-virus" style="color: #8b5cf6;"></i> Campaña VRS</a>
+                <a href="../Programáticas_Web/index.html" ><i class="fas fa-syringe" style="color: #f59e0b;"></i> Vacunas Programáticas</a>
+                <div style="border-top: 1px solid #e2e8f0; margin: 4px 0;"></div>
+                <a href="../Portal_Web/index.html" style="color: #64748b;"><i class="fas fa-arrow-left"></i> Volver al Menú Principal</a>
+            </div>
+        </div>
+    </nav>
+
     <div id="loader-overlay" class="loader-overlay" style="display: none; position: fixed; inset: 0; background: rgba(255,255,255,0.8); z-index: 9999; justify-content: center; align-items: center;">
         <div class="spinner" style="width: 50px; height: 50px; border: 5px solid var(--minsal-blue); border-top-color: transparent; border-radius: 50%; animation: spin 1s linear infinite;"></div>
     </div>
@@ -104,7 +153,7 @@
                 <button id="themeToggleBtn" class="btn-export" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.3); color: white; padding: 8px 12px;" title="Alternar Modo Oscuro">
                     <i class="fas fa-moon"></i>
                 </button>
-            </div>
+</div>
         </header>
 
         <main>
@@ -115,6 +164,9 @@
                 </button>
                 <button class="tab-btn" data-tab="produccion">
                     <i class="fas fa-hospital"></i> Producción (Ocurrencia)
+                </button>
+                            <button class="tab-btn" data-tab="autoconsulta" style="margin-left: auto;">
+                    <i class="fas fa-search"></i> Autoconsulta de Vacunación
                 </button>
             </nav>
 
@@ -224,26 +276,83 @@
                                 </div>
                             </div>
                         </div>
-
                         <!-- Panel Táctico Flotante (Leyenda del Mapa) -->
-                        <div class="map-tactical-panel" style="width: 210px; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); padding: 12px; border-radius: 12px; border: 1px solid rgba(49,46,129,0.15); box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
-                            <div style="font-size: 0.72rem; font-weight: 800; color: #312e81; margin-bottom: 8px; border-bottom: 1px solid rgba(49,46,129,0.12); padding-bottom: 4px; letter-spacing: 0.5px;">INTENSIDAD VACUNACIÓN</div>
-                            <div class="map-legend" style="margin-bottom: 12px;">
-                                <div class="legend-item"><span class="dot" style="background:#10b981; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> Alto (>80% del máx)</div>
-                                <div class="legend-item"><span class="dot" style="background:#f59e0b; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> Medio (51-80%)</div>
-                                <div class="legend-item"><span class="dot" style="background:#ef4444; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> Bajo (<50%)</div>
+                        <style>
+                            .map-tactical-panel {
+                                position: absolute;
+                                top: auto !important;
+                                bottom: 35px !important;
+                                right: auto !important;
+                                left: 20px !important;
+                                z-index: 1000;
+                                width: 250px;
+                                padding: 0 !important;
+                                box-sizing: border-box;
+                                background: rgba(255,255,255,0.95);
+                                backdrop-filter: blur(10px);
+                                border-radius: 12px;
+                                border: 1px solid rgba(49,46,129,0.15);
+                                box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+                                max-height: 48px;
+                                overflow: hidden;
+                                transition: max-height 0.4s ease, box-shadow 0.3s ease;
+                            }
+                            .map-tactical-panel:hover {
+                                max-height: 600px;
+                                box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+                            }
+                            .map-tactical-panel-header {
+                                height: 48px;
+                                padding: 0 16px;
+                                font-size: 0.75rem;
+                                font-weight: 800;
+                                color: #312e81;
+                                cursor: default;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                letter-spacing: 0.5px;
+                            }
+                            .map-tactical-panel:hover .map-tactical-panel-header i {
+                                transform: rotate(180deg);
+                            }
+                            .map-tactical-panel-header i {
+                                transition: transform 0.3s ease;
+                            }
+                            .map-tactical-panel-content {
+                                padding: 0 12px 12px 12px;
+                                opacity: 0;
+                                transition: opacity 0.3s ease 0.1s;
+                            }
+                            .map-tactical-panel:hover .map-tactical-panel-content {
+                                opacity: 1;
+                            }
+                        </style>
+                        <div class="map-tactical-panel">
+                            <div class="map-tactical-panel-header">
+                                <span><i class="fa-solid fa-map" style="margin-right: 6px;"></i> LEYENDA DEL MAPA</span>
+                                <i class="fa-solid fa-chevron-down"></i>
                             </div>
-                            <div style="font-size: 0.72rem; font-weight: 800; color: #312e81; margin-bottom: 8px; border-bottom: 1px solid rgba(49,46,129,0.12); padding-bottom: 4px; letter-spacing: 0.5px;">RED ASISTENCIAL</div>
-                            <div class="map-legend">
-                                <div class="legend-item" style="margin-bottom: 4px;"><span class="dot" style="background:#312e81; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> Hospitales</div>
-                                <div class="legend-item" style="margin-bottom: 4px;"><span class="dot" style="background:#14b8a6; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> CESFAM</div>
-                                <div class="legend-item" style="margin-bottom: 4px;"><span class="dot" style="background:#f59e0b; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> Cecosf / Urgencia</div>
-                                <div class="legend-item" style="margin-bottom: 4px;"><span class="dot" style="background:#64748b; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> Postas Rurales</div>
-                            </div>
-                            <div style="font-size: 0.65rem; color: #64748b; margin-top: 10px; border-top: 1px dashed rgba(0,0,0,0.08); padding-top: 6px; font-style: italic; line-height: 1.25;">
-                                * El color del polígono indica la intensidad relativa de vacunación comunal. Los íconos representan los centros de salud.
+                            <div class="map-tactical-panel-content">
+                                <div style="font-size: 0.72rem; font-weight: 800; color: #312e81; margin-bottom: 8px; border-bottom: 1px solid rgba(49,46,129,0.12); padding-bottom: 4px; letter-spacing: 0.5px;">INTENSIDAD VACUNACIÓN</div>
+                                <div class="map-legend" style="margin-bottom: 12px;">
+                                    <div class="legend-item"><span class="dot" style="background:#10b981; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> Alto (>80% del máx)</div>
+                                    <div class="legend-item"><span class="dot" style="background:#f59e0b; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> Medio (51-80%)</div>
+                                    <div class="legend-item"><span class="dot" style="background:#ef4444; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> Bajo (<50%)</div>
+                                </div>
+                                <div style="font-size: 0.72rem; font-weight: 800; color: #312e81; margin-bottom: 8px; border-bottom: 1px solid rgba(49,46,129,0.12); padding-bottom: 4px; letter-spacing: 0.5px;">RED ASISTENCIAL</div>
+                                <div class="map-legend">
+                                    <div class="legend-item" style="margin-bottom: 4px;"><span class="dot" style="background:#312e81; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> Hospitales</div>
+                                    <div class="legend-item" style="margin-bottom: 4px;"><span class="dot" style="background:#14b8a6; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> CESFAM</div>
+                                    <div class="legend-item" style="margin-bottom: 4px;"><span class="dot" style="background:#f59e0b; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> Cecosf / Urgencia</div>
+                                    <div class="legend-item" style="margin-bottom: 4px;"><span class="dot" style="background:#64748b; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> Postas Rurales</div>
+                                </div>
+                                <div style="font-size: 0.65rem; color: #64748b; margin-top: 10px; border-top: 1px dashed rgba(0,0,0,0.08); padding-top: 6px; font-style: italic; line-height: 1.25;">
+                                    * El color del polígono indica la intensidad relativa de vacunación comunal. Los íconos representan los centros de salud.
+                                </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
 
@@ -422,6 +531,157 @@
                     <!-- JS genera la tabla -->
                 </div>
             </section>
+            </section>
+            </div>
+            
+            <!-- ── TAB 3: AUTOCONSULTA ── -->
+            <div class="tab-content" id="tab-autoconsulta">
+                                                <section class="autoconsulta-section">
+                    <div class="autoconsulta-header">
+                        <div class="autoconsulta-header-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                        <div>
+                            <h2 class="autoconsulta-title">Consultar estado de vacunación desde archivo Excel</h2>
+                            <p class="autoconsulta-subtitle">Suba un archivo con una columna de RUT y obtenga automáticamente el estado de vacunación contra <strong>COVID-19</strong>, junto con un resumen estadístico y resultados exportables.</p>
+                        </div>
+                    </div>
+
+                    <!-- 3 Steps -->
+                    <div class="autoconsulta-steps-container">
+                        <div class="autoconsulta-step">
+                            <div class="step-number">1</div>
+                            <div class="step-title"><i class="fas fa-file-excel" style="color: #10b981;"></i> Prepare su archivo Excel</div>
+                            <div class="step-desc">Debe contener una columna con RUT.</div>
+                        </div>
+                        <div class="autoconsulta-step">
+                            <div class="step-number">2</div>
+                            <div class="step-title"><i class="fas fa-upload" style="color: var(--minsal-blue, #0f69b4);"></i> Súbalo en esta sección</div>
+                            <div class="step-desc">Arrástrelo o selecciónelo desde su equipo.</div>
+                        </div>
+                        <div class="autoconsulta-step">
+                            <div class="step-number">3</div>
+                            <div class="step-title"><i class="fas fa-chart-line" style="color: #a78bfa;"></i> Revise y exporte los resultados</div>
+                            <div class="step-desc">Obtendrá un resumen del estado de vacunación y resultados descargables.</div>
+                        </div>
+                    </div>
+
+                    <!-- Zona de Drop Principal -->
+                    <div class="autoconsulta-drop-zone" id="autoconsultaDropZone" onclick="document.getElementById('autoconsultaFileInput').click()">
+                        <input type="file" id="autoconsultaFileInput" accept=".xlsx,.xls,.xlsm" style="display: none;" />
+                        <div class="autoconsulta-drop-icon" style="height: 120px; display: flex; align-items: center; justify-content: center; margin-bottom: 15px;">
+                            <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;">
+                                <defs>
+                                    <filter id="anim-shadow" x="-20%" y="-20%" width="140%" height="140%">
+                                        <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.08" />
+                                    </filter>
+                                </defs>
+                                <style>
+                                    .doc-in { animation: docInFlow 4s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+                                    .sys-screen { animation: sysPulse 4s ease-in-out infinite; }
+                                    .sys-spinner { animation: sysSpin 4s linear infinite; transform-origin: 60px 60px; }
+                                    .doc-out { animation: docOutFlow 4s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+                                    
+                                    @keyframes docInFlow {
+                                        0% { transform: translate(-30px, 15px) scale(0.8) rotate(-10deg); opacity: 0; }
+                                        15% { transform: translate(-10px, 0px) scale(1) rotate(0deg); opacity: 1; }
+                                        25% { transform: translate(5px, 10px) scale(0.5); opacity: 0; }
+                                        100% { transform: translate(5px, 10px) scale(0.5); opacity: 0; }
+                                    }
+                                    
+                                    @keyframes sysPulse {
+                                        0%, 20% { fill: #f1f5f9; }
+                                        25%, 50% { fill: #e0f2fe; }
+                                        55%, 100% { fill: #f1f5f9; }
+                                    }
+                                    
+                                    @keyframes sysSpin {
+                                        0%, 20% { opacity: 0; transform: rotate(0deg) scale(0.5); }
+                                        25% { opacity: 1; transform: rotate(90deg) scale(1); stroke: #0ea5e9; }
+                                        45% { opacity: 1; transform: rotate(360deg) scale(1); stroke: #0284c7; }
+                                        50%, 100% { opacity: 0; transform: rotate(450deg) scale(0.5); }
+                                    }
+                                    
+                                    @keyframes docOutFlow {
+                                        0%, 45% { transform: translate(5px, 10px) scale(0.5); opacity: 0; }
+                                        55% { transform: translate(15px, -15px) scale(1) rotate(5deg); opacity: 1; }
+                                        75% { transform: translate(25px, -20px) scale(1) rotate(10deg); opacity: 1; }
+                                        90%, 100% { transform: translate(40px, -10px) scale(0.8) rotate(15deg); opacity: 0; }
+                                    }
+                                </style>
+                                <g class="doc-in">
+                                    <rect x="25" y="45" width="28" height="38" rx="4" fill="#0f69b4" filter="url(#anim-shadow)" />
+                                    <path d="M 32 55 L 46 55 M 32 63 L 46 63 M 32 71 L 40 71" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+                                    <rect x="33" y="42" width="12" height="12" rx="2" fill="#38bdf8" opacity="0.9" />
+                                    <text x="35" y="51" fill="#ffffff" font-size="8" font-family="sans-serif" font-weight="bold">X</text>
+                                </g>
+                                <g class="doc-out">
+                                    <rect x="55" y="25" width="34" height="46" rx="4" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#anim-shadow)" />
+                                    <path d="M 64 42 L 69 47 L 79 36" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <rect x="63" y="54" width="4" height="8" rx="1" fill="#cbd5e1" />
+                                    <rect x="69" y="50" width="4" height="12" rx="1" fill="#94a3b8" />
+                                    <rect x="75" y="44" width="4" height="18" rx="1" fill="#0f69b4" />
+                                </g>
+                                <g>
+                                    <rect x="40" y="45" width="40" height="30" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="2" filter="url(#anim-shadow)" />
+                                    <path d="M 50 75 L 70 75 L 75 82 L 45 82 Z" fill="#94a3b8" />
+                                    <rect x="43" y="48" width="34" height="24" rx="1" class="sys-screen" />
+                                    <circle cx="60" cy="60" r="6" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-dasharray="10 6" stroke-linecap="round" class="sys-spinner" />
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 class="autoconsulta-drop-title">Suba su archivo para comenzar</h3>
+                        <p class="autoconsulta-drop-subtitle">Arrastre aquí su archivo Excel o haga clic para seleccionarlo.<br>Debe contener una columna con RUT.</p>
+                        <div class="autoconsulta-drop-formats">
+                            <span class="format-badge">.xlsx</span>
+                            <span class="format-badge">.xls</span>
+                            <span class="format-badge">.xlsm</span>
+                        </div>
+                        <div class="autoconsulta-actions">
+                            <button class="btn-primary-action" onclick="event.stopPropagation(); document.getElementById('autoconsultaFileInput').click()">
+                                <i class="fas fa-folder-open"></i> Seleccionar archivo
+                            </button>
+                            <button class="btn-secondary-action" onclick="event.stopPropagation(); window.downloadTemplate()">
+                                <i class="fas fa-download"></i> Descargar plantilla Excel
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Info banner moved to the bottom -->
+                    <div class="autoconsulta-info-compact">
+                        <div class="info-compact-item">
+                            <div class="info-compact-icon"><i class="fas fa-shield-alt"></i></div>
+                            <div class="info-compact-text">
+                                <strong>Procesamiento Local</strong>
+                                El procesamiento se realiza localmente en su navegador. Los datos del archivo no se envían fuera de su equipo.
+                            </div>
+                        </div>
+                        <div class="info-compact-item">
+                            <div class="info-compact-icon"><i class="fas fa-file-excel"></i></div>
+                            <div class="info-compact-text">
+                                <strong>Formatos Aceptados</strong>
+                                Excel (.xlsx, .xls). Se aceptan RUTs con o sin puntos, con o sin guión, y con o sin dígito verificador.
+                            </div>
+                        </div>
+                        <div class="info-compact-item">
+                            <div class="info-compact-icon"><i class="fas fa-database"></i></div>
+                            <div class="info-compact-text">
+                                <strong>Fuente de Datos</strong>
+                                COVID-19 por Residencia 2026 — DEIS MINSAL.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Progreso -->
+                    <div class="autoconsulta-progress-area" id="autoconsultaProgress" style="display: none;"></div>
+
+                    <!-- Resultados -->
+                    <div class="autoconsulta-results-area" id="autoconsultaResults" style="display: none;"></div>
+
+                    <!-- Error -->
+                    <div class="autoconsulta-error-area" id="autoconsultaError" style="display: none;"></div>
+
+                </section>
             </div>
         </main>
         
@@ -459,7 +719,11 @@
     <script src="data/covid_data_2026.js"></script>
     <script src="data/comunas_osorno.js"></script>
     <script src="data/data_establecimientos.js"></script>
-    <script src="bundle.js?v=43"></script>
+    <script src="bundle.js?v=45"></script>
+    <script src="covid_runs_index.js?v=4"></script>
+    <script src="autoconsulta.js?v=62"></script>
+    <script src="../shared/global_premium.js?v=5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const tabBtns = document.querySelectorAll('.tab-btn');

@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Observatorio Epidemiológico VPH (2014-2026) | Servicio de Salud Osorno</title>
+    <meta name="description" content="Observatorio Epidemiológico de Cobertura y Producción de Vacunación contra el Virus del Papiloma Humano (VPH) del Servicio de Salud Osorno.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Chart.js & Plugins -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+    
+    <!-- SheetJS with Full Cell Styles (xlsx-js-style) -->
+    <script src="https://cdn.jsdelivr.net/npm/xlsx-js-style@1.2.0/dist/xlsx.bundle.js"></script>
+    
+    <!-- html2canvas (Card & Chart Screenshot) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css?v=4.0">
+
+    <!-- Premium Features CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../shared/global_premium.css?v=2">
+</head>
+<body class="theme-light">
+    <!-- 🏥 BARRA DE NAVEGACIÓN GLOBAL RNI 🏥 -->
+                <!-- 🛸 BARRA DE NAVEGACIÓN GLOBAL RNI 🛸 -->
+    <nav class="global-nav-bar">
+        <div class="global-nav-left">
+            <a href="../Portal_Web/index.html" class="btn-portal-rni">
+                <i class="fas fa-home"></i> Portal RNI
+            </a>
+        </div>
+        
+        <div class="global-nav-center d-none d-md-flex">
+            <a href="https://estadisticas.ssosorno.cl/index.php" style="color: #ffffff; display: flex; align-items: center; text-decoration: none;">
+                <!-- Mini Logo DEIS SVG -->
+                <svg viewBox="0 0 400 300" height="40" style="margin-right: 15px;" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0" y="100" width="50" height="150" fill="#0072bc" />
+                    <rect x="60" y="40" width="50" height="210" fill="#00adef" />
+                    <rect x="120" y="0" width="120" height="250" fill="#ffffff" />
+                    <text font-family="'Inter', Arial, sans-serif" font-weight="700" font-size="130" letter-spacing="-3">
+                        <tspan x="140" y="220" fill="#0b1f40">D</tspan>
+                        <tspan x="250" y="220" fill="#ffffff">EIS</tspan>
+                    </text>
+                    <text x="255" y="250" font-family="'Inter', Arial, sans-serif" font-weight="500" font-size="26" fill="#ffffff" letter-spacing="1">OSORNO</text>
+                </svg>
+                <div style="line-height: 1.2;">
+                    <div style="font-weight: 700; font-size: 16px; letter-spacing: 0.5px; color: #ffffff;">SERVICIO DE SALUD OSORNO</div>
+                    <div style="font-size: 12px; font-weight: 400; opacity: 0.8; color: #ffffff;">Departamento de Estadísticas e Información de Salud</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="global-nav-right">
+            <button class="global-nav-dropdown-btn">
+                <i class="fas fa-syringe"></i> Cambiar Vacuna <i class="fas fa-chevron-down" style="font-size: 0.7rem; margin-left: 2px;"></i>
+            </button>
+            <div class="global-nav-dropdown-content">
+                <a href="../Influenza_Web/index.html" ><i class="fas fa-virus" style="color: #3b82f6;"></i> Campaña Influenza</a>
+                <a href="../VPH_Web/index.html" class="active"><i class="fas fa-ribbon" style="color: #ec4899;"></i> Vacuna VPH</a>
+                <a href="../Covid_Web/index.html" ><i class="fas fa-biohazard" style="color: #10b981;"></i> Campaña COVID-19</a>
+                <a href="../VRS/index.html" ><i class="fas fa-shield-virus" style="color: #8b5cf6;"></i> Campaña VRS</a>
+                <a href="../Programáticas_Web/index.html" ><i class="fas fa-syringe" style="color: #f59e0b;"></i> Vacunas Programáticas</a>
+                <div style="border-top: 1px solid #e2e8f0; margin: 4px 0;"></div>
+                <a href="../Portal_Web/index.html" style="color: #64748b;"><i class="fas fa-arrow-left"></i> Volver al Menú Principal</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Contenedor Principal del Dashboard -->
+    <div class="dashboard-container">
+        
+        <!-- ── HEADER INSTITUCIONAL MINSAL ── -->
+        <header id="dashboardHeader">
+            <div class="header-main">
+                <div class="header-brand">
+                    <div class="brand-icon">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <div>
+                        <h1>OBSERVATORIO EPIDEMIOLÓGICO VPH</h1>
+                        <p class="header-subtitle">SERVICIO DE SALUD OSORNO · Geointeligencia PNI</p>
+                    </div>
+                </div>
+                <div style="margin-top: 15px;">
+                    <span class="meta-badge">
+                        <i class="fas fa-clock" style="color: #60a5fa;"></i> 
+                        <span id="headerFechaCorte"></span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="header-actions">
+                <div class="header-buttons-container" style="display: flex; gap: 8px; flex-wrap: wrap;">
+
+                    <select id="globalTipoFilter" class="glass-input main-filter" style="background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.3); padding: 8px 12px; border-radius: 8px; font-weight: 500; outline: none; cursor: pointer; min-width: 150px;">
+                        <option value="all" style="color: black;">Públicos y Privados</option>
+                        <option value="publico" style="color: black;">Solo Públicos</option>
+                        <option value="privado" style="color: black;">Solo Privados</option>
+                    </select>
+
+                    <button id="btnFichaMetodologica" class="btn-export btn-methodology" onclick="openMethodologyModal()" title="Consultar Ficha Técnica, Fórmulas e Hitos Normativos">
+                        <i class="fas fa-book-medical"></i> Metodología
+                    </button>
+                    <button id="btnExportExcel" class="btn-export btn-export-excel" title="Descargar Reporte Excel">
+                        <i class="fas fa-file-excel"></i> Exportar Excel
+                    </button>
+                    <button id="btnPrintReport" class="btn-export btn-export-print" title="Imprimir Reporte">
+                        <i class="fas fa-print"></i> Imprimir
+                    </button>
+                    <button id="btnToggleTheme" class="btn-export btn-theme-toggle" title="Alternar Modo Oscuro / Claro">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- ── BARRA DE PESTAÑAS (NAVIGATION TABS — 2 VISTAS MAESTRAS) ── -->
+            <nav class="tab-nav" id="tabNav">
+                <button class="tab-btn active" data-tab="tab-cobertura" onclick="switchTab('tab-cobertura')">
+                    <i class="fas fa-chart-pie"></i> Cobertura (Base Residencia)
+                </button>
+                <button class="tab-btn" data-tab="tab-produccion" onclick="switchTab('tab-produccion')">
+                    <i class="fas fa-hospital"></i> Producción (Base Ocurrencia)
+                </button>
+                <button class="tab-btn" data-tab="tab-autoconsulta" onclick="switchTab('tab-autoconsulta')" style="margin-left: auto;">
+                    <i class="fas fa-search-plus"></i> Autoconsulta de Vacunación
+                </button>
+            </nav>
+
+            <!-- ═════════════════════════════════════════════════════════════ -->
+            <!-- TAB 1: COBERTURA (BASE RESIDENCIA — INDICADOR 15 AÑOS) -->
+            <!-- ═════════════════════════════════════════════════════════════ -->
+            <section id="tab-cobertura" class="tab-content tab-panel active">
+                
+                <!-- Resumen de Filtro Activo -->
+                <div class="filter-summary-bar glass" id="filterSummaryContainer">
+                    <div id="filterSummaryText">
+                        <i class="fas fa-circle-info icon-info"></i> Mostrando: <strong>Serie Histórica Completa (2015-2026)</strong> • <strong>Provincia de Osorno</strong> • <strong>Ambos Sexos</strong>
+                    </div>
+
+                </div>
+
+                <!-- Grid de KPIs Estratégicos -->
+                <div class="kpi-grid">
+                    <!-- KPI 1: Cobertura a los 15 Años -->
+                    <div class="kpi-card glass border-primary">
+                        <div class="kpi-header">
+                            <span class="kpi-title">COBERTURA A LOS 15 AÑOS</span>
+                            <i class="fa-solid fa-shield-virus kpi-icon"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <div class="kpi-main-val" id="kpiCobActual">--%</div>
+                            <div class="kpi-sub-badge" id="kpiMetaStatus"><i class="fa-solid fa-circle-check"></i> Meta 80%</div>
+                        </div>
+                        <div class="kpi-footer">
+                            <div>Esquema Completo: <strong id="kpiNumActual">--</strong></div>
+                            <div>Población Objetivo (DEIS): <strong id="kpiDenActual">--</strong></div>
+                        </div>
+                    </div>
+
+                    <!-- KPI 2: Cobertura por Sexo -->
+                    <div class="kpi-card glass border-fem">
+                        <div class="kpi-header">
+                            <span class="kpi-title">PARIDAD DE COBERTURA (SEXO)</span>
+                            <i class="fa-solid fa-venus-mars kpi-icon text-purple"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <div class="kpi-dual-val">
+                                <div class="val-fem">
+                                    <span class="label"><i class="fa-solid fa-venus"></i> Mujeres</span>
+                                    <span class="value" id="kpiCobFem">--%</span>
+                                </div>
+                                <div class="val-separator"></div>
+                                <div class="val-masc">
+                                    <span class="label"><i class="fa-solid fa-mars"></i> Hombres</span>
+                                    <span class="value" id="kpiCobMasc">--%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kpi-footer">
+                            <div>Razón Paridad (M/H): <strong id="kpiGPI">--</strong></div>
+                            <div>Diferencia: <strong id="kpiDiffSex">-- pts</strong></div>
+                        </div>
+                    </div>
+
+                    <!-- KPI 3: Total Dosis Históricas Administradas -->
+                    <div class="kpi-card glass border-accent">
+                        <div class="kpi-header">
+                            <span class="kpi-title">TOTAL DOSIS APLICADAS (RESIDENCIA)</span>
+                            <i class="fa-solid fa-syringe kpi-icon text-teal"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <div class="kpi-main-val text-teal" id="kpiTotalDosisHistoricas">--</div>
+                            <div class="kpi-sub-text">Producción acumulada RNI en residentes</div>
+                        </div>
+                        <div class="kpi-footer">
+                            <div>1ª Dosis: <strong id="kpiDosis1">--</strong> • 2ª Dosis: <strong id="kpiDosis2">--</strong></div>
+                            <div>Dosis Única: <strong id="kpiDosisUnica">--</strong></div>
+                        </div>
+                    </div>
+
+                    <!-- KPI 4: Equidad y Dispersión Comunal -->
+                    <div class="kpi-card glass border-warning">
+                        <div class="kpi-header">
+                            <span class="kpi-title">DISPERSIÓN TERRITORIAL (7 COMUNAS)</span>
+                            <i class="fa-solid fa-scale-balanced kpi-icon text-amber"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <div class="kpi-main-val text-amber" id="kpiBrechaComunal">-- pts</div>
+                            <div class="kpi-sub-text">Brecha Máx. vs Mín. entre comunas</div>
+                        </div>
+                        <div class="kpi-footer">
+                            <div>Líder: <strong id="kpiComunaMax">--</strong></div>
+                            <div>Rezagada: <strong id="kpiComunaMin">--</strong></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fila 1 de Gráficos Ejecutivos Principales -->
+                <div class="charts-row">
+                    <!-- Gráfico 1: Evolución Temporal Cobertura 15 Años -->
+                    <div class="chart-card glass flex-2" id="cardEvolucionCobertura">
+                        <div class="card-header">
+                            <div class="card-title-group">
+                                <h2 class="card-title">
+                                    <i class="fa-solid fa-chart-line"></i> Evolución de Cobertura a los 15 Años (2015–2026)
+                                    <div class="card-header-actions">
+                                        <button class="chart-help-btn" onclick="openHelpModal('evolucionCobertura', this)" title="Ayuda Interpretativa">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-icon">
+                                                <circle cx="12" cy="12" r="10"></circle>
+                                                <line x1="12" y1="16" x2="12" y2="12"></line>
+                                                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                            </svg>
+                                        </button>
+                                        <button class="card-screenshot-btn" onclick="downloadCardImage('cardEvolucionCobertura', 'VPH_Evolucion_Cobertura_15Anos')" title="Descargar Captura PNG">
+                                            <i class="fa-solid fa-camera"></i>
+                                        </button>
+                                    </div>
+                                </h2>
+                                <p class="card-subtitle">% personas residentes con esquema completo al cumplir 15 años (Denominador DEIS: Nacimientos − Defunciones 0-14a)</p>
+                            </div>
+                            <div class="card-tools">
+                                <span class="chart-legend-badge bg-fem">Mujeres</span>
+                                <span class="chart-legend-badge bg-masc">Hombres</span>
+                            </div>
+                        </div>
+                        <div class="chart-container" style="height: 340px;">
+                            <canvas id="chartEvolucionCobertura"></canvas>
+                        </div>
+                        <div class="chart-footnote">
+                            <i class="fa-solid fa-circle-info"></i> <strong>Simbología & Metas:</strong> Línea punteada verde = Meta Sanitaria MINSAL (80%). Línea dorada = Meta Estratégica OMS (90%).
+                        </div>
+                    </div>
+
+                    <!-- Gráfico 2: Semáforo y Ranking Comunal -->
+                    <div class="chart-card glass flex-1" id="cardRankingComunas">
+                        <div class="card-header">
+                            <div class="card-title-group">
+                                <h2 class="card-title">
+                                    <i class="fa-solid fa-ranking-star"></i> Ranking Comunal
+                                    <div class="card-header-actions">
+                                        <button class="chart-help-btn" onclick="openHelpModal('rankingComunas', this)" title="Ayuda Interpretativa">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-icon">
+                                                <circle cx="12" cy="12" r="10"></circle>
+                                                <line x1="12" y1="16" x2="12" y2="12"></line>
+                                                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                            </svg>
+                                        </button>
+                                        <button class="card-screenshot-btn" onclick="downloadCardImage('cardRankingComunas', 'VPH_Ranking_Comunal')" title="Descargar Captura PNG">
+                                            <i class="fa-solid fa-camera"></i>
+                                        </button>
+                                    </div>
+                                </h2>
+                                <p class="card-subtitle">Cobertura año seleccionado vs Meta</p>
+                            </div>
+                        </div>
+                        <div class="comunas-ranking-list" id="rankingComunasContainer">
+                            <!-- Inyectado dinámicamente -->
+                        </div>
+                        <div class="chart-footnote">
+                            <span class="dot dot-green"></span> ≥ 80% (Cumple) 
+                            <span class="dot dot-yellow"></span> 60-79% (Alerta) 
+                            <span class="dot dot-red"></span> &lt; 60% (Crítico)
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ── CENTRO DE INTELIGENCIA EPIDEMIOLÓGICA & TRANSICIÓN ── -->
+                <div class="section-divider">
+                    <div class="section-divider-line"></div>
+                    <span class="section-divider-badge"><i class="fas fa-dna"></i> Inteligencia Epidemiológica & Dinámica de Vacunación</span>
+                    <div class="section-divider-line"></div>
+                </div>
+
+                <!-- Fila 2 de Gráficos Epidemiológicos (Drop-out y Transición Tecnológica) -->
+                <div class="charts-row">
+                    <!-- Gráfico 3: Tasa de Abandono (Drop-out) de 1ª a 2ª Dosis -->
+                    <div class="chart-card glass flex-1" id="cardDropoutEvolucion">
+                        <div class="card-header">
+                            <div class="card-title-group">
+                                <h2 class="card-title">
+                                    <i class="fas fa-person-walking-dashed-line-arrow-right"></i> Tasa de Deserción / Abandono (Drop-out) por Sexo
+                                    <div class="card-header-actions">
+                                        <button class="chart-help-btn" onclick="openHelpModal('dropoutEvolucion', this)" title="Ayuda Interpretativa">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-icon">
+                                                <circle cx="12" cy="12" r="10"></circle>
+                                                <line x1="12" y1="16" x2="12" y2="12"></line>
+                                                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                            </svg>
+                                        </button>
+                                        <button class="card-screenshot-btn" onclick="downloadCardImage('cardDropoutEvolucion', 'VPH_Tasa_Desercion_Dropout')" title="Descargar Captura PNG">
+                                            <i class="fa-solid fa-camera"></i>
+                                        </button>
+                                    </div>
+                                </h2>
+                                <p class="card-subtitle">% personas con 1ª dosis que no completaron su 2ª dosis (Cohortes con esquema multidosis)</p>
+                            </div>
+                        </div>
+                        <div class="chart-container" style="height: 310px;">
+                            <canvas id="chartDropoutEvolucion"></canvas>
+                        </div>
+                        <div class="chart-footnote">
+                            <i class="fas fa-info-circle"></i> Con la transición a <strong>Dosis Única (Nonavalente)</strong> desde 2024, el drop-out se neutraliza en las nuevas cohortes.
+                        </div>
+                    </div>
+
+                    <!-- Gráfico 4: Transición de Vacunas: Tetravalente vs Nonavalente -->
+                    <div class="chart-card glass flex-1" id="cardVacunasTransicion">
+                        <div class="card-header">
+                            <div class="card-title-group">
+                                <h2 class="card-title">
+                                    <i class="fas fa-vial-circle-check"></i> Tipos de Vacuna VPH Administradas por Año
+                                    <div class="card-header-actions">
+                                        <button class="chart-help-btn" onclick="openHelpModal('vacunasTransicion', this)" title="Ayuda Interpretativa">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-icon">
+                                                <circle cx="12" cy="12" r="10"></circle>
+                                                <line x1="12" y1="16" x2="12" y2="12"></line>
+                                                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                            </svg>
+                                        </button>
+                                        <button class="card-screenshot-btn" onclick="downloadCardImage('cardVacunasTransicion', 'VPH_Transicion_Vacunas')" title="Descargar Captura PNG">
+                                            <i class="fa-solid fa-camera"></i>
+                                        </button>
+                                    </div>
+                                </h2>
+                                <p class="card-subtitle">Evolución de Gardasil 4 (Tetravalente) a Gardasil 9 (Nonavalente)</p>
+                            </div>
+                        </div>
+                        <div class="chart-container" style="height: 310px;">
+                            <canvas id="chartVacunasTransicion"></canvas>
+                        </div>
+                        <div class="chart-footnote">
+                            <i class="fas fa-syringe"></i> Fuente: Registro Nacional de Inmunizaciones (RNI) por Residencia.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Matriz Oficial de Cobertura Comunal Consolidada -->
+                <div class="table-card glass" id="cardMatrizOficial" style="margin-top: 2rem;">
+                    <div class="card-header">
+                        <div class="card-title-group">
+                            <h2 class="card-title">
+                                <i class="fa-solid fa-table-list"></i> Matriz Oficial de Cobertura VPH por Comuna y Año de Evaluación (2015–2026)
+                                <div class="card-header-actions">
+                                    <button class="chart-help-btn" onclick="openHelpModal('tablaResumenEjecutivo', this)" title="Ayuda Interpretativa">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-icon">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <line x1="12" y1="16" x2="12" y2="12"></line>
+                                            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                        </svg>
+                                    </button>
+                                    <button class="card-screenshot-btn" onclick="downloadCardImage('cardMatrizOficial', 'VPH_Matriz_Oficial_Cobertura_2015_2026')" title="Descargar Captura PNG">
+                                        <i class="fa-solid fa-camera"></i>
+                                    </button>
+                                </div>
+                            </h2>
+                            <p class="card-subtitle">Porcentaje de personas de 15 años con esquema completo según base de residencia (Denominador Vital DEIS)</p>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="custom-table" id="tablaResumenEjecutivo">
+                            <thead>
+                                <tr>
+                                    <th>Comuna</th>
+                                    <th>2015</th>
+                                    <th>2016</th>
+                                    <th>2017</th>
+                                    <th>2018</th>
+                                    <th>2019</th>
+                                    <th>2020</th>
+                                    <th>2021</th>
+                                    <th>2022</th>
+                                    <th>2023</th>
+                                    <th>2024</th>
+                                    <th>2025</th>
+                                    <th>2026*</th>
+                                    <th>Prom. Histórico</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Inyectado dinámicamente -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="chart-footnote">
+                        * <strong>Nota Técnica:</strong> El año 2026 corresponde al corte preliminar oficial en desarrollo continuo durante el año escolar en curso (Fecha de corte de datos: <strong>05-08-2026 12:18:08</strong> • Fuente: RNI / DEIS).
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═════════════════════════════════════════════════════════════ -->
+            <!-- TAB 2: PRODUCCIÓN (BASE OCURRENCIA — RED ASISTENCIAL) -->
+            <!-- ═════════════════════════════════════════════════════════════ -->
+            <section id="tab-produccion" class="tab-content tab-panel">
+
+                <!-- KPIs Resumen de Producción Filtrada -->
+                <div class="kpi-grid produccion-kpis">
+                    <div class="kpi-card glass">
+                        <div class="kpi-header">
+                            <span class="kpi-title">TOTAL DOSIS ADMINISTRADAS</span>
+                            <i class="fas fa-syringe kpi-icon"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <span class="kpi-main-val" id="kpiEstabTotalDosis">--</span>
+                            <span class="kpi-sub-badge badge-green" id="kpiEstabDosisPct">100% Red</span>
+                        </div>
+                        <div class="kpi-footer">
+                            <span>Base Ocurrencia en Red Asistencial</span>
+                        </div>
+                    </div>
+
+                    <div class="kpi-card glass">
+                        <div class="kpi-header">
+                            <span class="kpi-title">ESTABLECIMIENTOS ACTIVOS</span>
+                            <i class="fas fa-hospital-user kpi-icon"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <span class="kpi-main-val" id="kpiEstabCentrosActivos">--</span>
+                            <span class="kpi-sub-badge badge-green">Puntos de Red</span>
+                        </div>
+                        <div class="kpi-footer">
+                            <span id="kpiEstabCentrosDetalle">Centros con registros en el filtro</span>
+                        </div>
+                    </div>
+
+                    <div class="kpi-card glass">
+                        <div class="kpi-header">
+                            <span class="kpi-title">CENTRO CON MAYOR PRODUCCIÓN</span>
+                            <i class="fas fa-trophy kpi-icon"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <span class="kpi-main-val text-sm-estab" id="kpiEstabLiderNombre">--</span>
+                        </div>
+                        <div class="kpi-footer">
+                            <strong id="kpiEstabLiderDosis">-- dosis administradas</strong>
+                        </div>
+                    </div>
+
+                    <div class="kpi-card glass">
+                        <div class="kpi-header">
+                            <span class="kpi-title">DISTRIBUCIÓN POR SEXO</span>
+                            <i class="fas fa-venus-mars kpi-icon"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <div class="kpi-dual-val">
+                                <div class="val-fem">
+                                    <span class="label">MUJERES</span>
+                                    <span class="value" id="kpiEstabMujeresDosis">--</span>
+                                </div>
+                                <div class="val-separator"></div>
+                                <div class="val-masc">
+                                    <span class="label">HOMBRES</span>
+                                    <span class="value" id="kpiEstabHombresDosis">--</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kpi-footer">
+                            <span id="kpiEstabSexoRatio">Proporción en centros asistenciales</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tabla Interactiva de Producción Territorial -->
+                <div class="table-card glass" id="cardMatrizEstablecimientos">
+                    <div class="card-header">
+                        <div class="card-title-group">
+                            <h2 class="card-title">
+                                <i class="fas fa-table-list"></i> Matriz Técnica Territorial de Ocurrencia por Establecimiento
+                                <div class="card-header-actions">
+                                    <button class="chart-help-btn" onclick="openHelpModal('matrizEstablecimientos', this)" title="Ayuda Interpretativa">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-icon">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <line x1="12" y1="16" x2="12" y2="12"></line>
+                                            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                        </svg>
+                                    </button>
+                                    <button class="card-screenshot-btn" onclick="downloadCardImage('cardMatrizEstablecimientos', 'VPH_Matriz_Establecimientos_Ocurrencia')" title="Descargar Captura PNG">
+                                        <i class="fa-solid fa-camera"></i>
+                                    </button>
+                                    <button class="card-excel-btn" onclick="exportarMatrizEstablecimientosExcel()" title="Exportar Matriz a Microsoft Excel (.xlsx)">
+                                        <i class="fa-solid fa-file-excel"></i> Exportar a Excel
+                                    </button>
+                                </div>
+                            </h2>
+                            <p class="card-subtitle" id="matrizEstabSubtitulo">Detalle de dosis por sexo, esquema y biológico administrado en cada centro de salud</p>
+                        </div>
+                        <div class="table-header-meta">
+                            <span class="badge-record-count" id="badgeTotalCentros">Mostrando 0 establecimientos</span>
+                        </div>
+                    </div>
+
+                    <div class="table-estab-scroll-container">
+                        <table class="custom-table table-estab-matrix" id="tablaMatrizEstablecimientos">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Establecimiento de Salud</th>
+                                    <th>Comuna</th>
+                                    <th class="th-sortable" id="thSortDosis" style="cursor: pointer;">Total Dosis <i class="fas fa-sort"></i></th>
+                                    <th>Mujeres</th>
+                                    <th>Hombres</th>
+                                    <th>Dosis Única</th>
+                                    <th>1ª Dosis</th>
+                                    <th>2ª Dosis</th>
+                                    <th>Gardasil 9 (Nonav.)</th>
+                                    <th>Gardasil 4 (Tetra.)</th>
+                                    <th>Cervarix / Otra</th>
+                                    <th>% Aporte</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyMatrizEstablecimientos">
+                                <!-- Inyectado dinámicamente -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="chart-footnote" style="margin-top: 0.6rem;">
+                        <i class="fas fa-info-circle"></i> <strong>Nota Técnica:</strong> Registros vigentes DEIS/RNI sin EPRO en base ocurrencia territorial. Los datos del año 2026 corresponden al corte oficial del <strong>05-08-2026 12:18:08</strong> (RNI - DEIS).
+                    </div>
+                </div>
+            </section>
+
+            <!-- ── TAB 3: AUTOCONSULTA ── -->
+            <section id="tab-autoconsulta" class="tab-content tab-panel">
+                <section class="autoconsulta-section">
+                    <div class="autoconsulta-header">
+                        <div class="autoconsulta-header-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                        <div>
+                            <h2 class="autoconsulta-title">Consultar estado de vacunación desde archivo Excel</h2>
+                            <p class="autoconsulta-subtitle">Suba un archivo con una columna de RUT y obtenga automáticamente el estado de vacunación contra <strong>VPH</strong>, junto con un resumen estadístico y resultados exportables.</p>
+                        </div>
+                    </div>
+
+                    <!-- 3 Steps -->
+                    <div class="autoconsulta-steps-container">
+                        <div class="autoconsulta-step">
+                            <div class="step-number">1</div>
+                            <div class="step-title"><i class="fas fa-file-excel" style="color: #10b981;"></i> Prepare su archivo Excel</div>
+                            <div class="step-desc">Debe contener una columna con RUT.</div>
+                        </div>
+                        <div class="autoconsulta-step">
+                            <div class="step-number">2</div>
+                            <div class="step-title"><i class="fas fa-upload" style="color: var(--minsal-blue, #0f69b4);"></i> Súbalo en esta sección</div>
+                            <div class="step-desc">Arrástrelo o selecciónelo desde su equipo.</div>
+                        </div>
+                        <div class="autoconsulta-step">
+                            <div class="step-number">3</div>
+                            <div class="step-title"><i class="fas fa-chart-line" style="color: #a78bfa;"></i> Revise y exporte los resultados</div>
+                            <div class="step-desc">Obtendrá un resumen del estado de vacunación y resultados descargables.</div>
+                        </div>
+                    </div>
+
+                    <!-- Zona de Drop Principal -->
+                    <div class="autoconsulta-drop-zone" id="autoconsultaDropZone" onclick="document.getElementById('autoconsultaFileInput').click()">
+                        <input type="file" id="autoconsultaFileInput" accept=".xlsx,.xls,.xlsm" style="display: none;" />
+                        <div class="autoconsulta-drop-icon" style="height: 120px; display: flex; align-items: center; justify-content: center; margin-bottom: 15px;">
+                            <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;">
+                                <defs>
+                                    <filter id="anim-shadow" x="-20%" y="-20%" width="140%" height="140%">
+                                        <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.08" />
+                                    </filter>
+                                </defs>
+                                <style>
+                                    .doc-in { animation: docInFlow 4s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+                                    .sys-screen { animation: sysPulse 4s ease-in-out infinite; }
+                                    .sys-spinner { animation: sysSpin 4s linear infinite; transform-origin: 60px 60px; }
+                                    .doc-out { animation: docOutFlow 4s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+                                    
+                                    @keyframes docInFlow {
+                                        0% { transform: translate(-30px, 15px) scale(0.8) rotate(-10deg); opacity: 0; }
+                                        15% { transform: translate(-10px, 0px) scale(1) rotate(0deg); opacity: 1; }
+                                        25% { transform: translate(5px, 10px) scale(0.5); opacity: 0; }
+                                        100% { transform: translate(5px, 10px) scale(0.5); opacity: 0; }
+                                    }
+                                    
+                                    @keyframes sysPulse {
+                                        0%, 20% { fill: #f1f5f9; }
+                                        25%, 50% { fill: #e0f2fe; }
+                                        55%, 100% { fill: #f1f5f9; }
+                                    }
+                                    
+                                    @keyframes sysSpin {
+                                        0%, 20% { opacity: 0; transform: rotate(0deg) scale(0.5); }
+                                        25% { opacity: 1; transform: rotate(90deg) scale(1); stroke: #0ea5e9; }
+                                        45% { opacity: 1; transform: rotate(360deg) scale(1); stroke: #0284c7; }
+                                        50%, 100% { opacity: 0; transform: rotate(450deg) scale(0.5); }
+                                    }
+                                    
+                                    @keyframes docOutFlow {
+                                        0%, 45% { transform: translate(5px, 10px) scale(0.5); opacity: 0; }
+                                        55% { transform: translate(15px, -15px) scale(1) rotate(5deg); opacity: 1; }
+                                        75% { transform: translate(25px, -20px) scale(1) rotate(10deg); opacity: 1; }
+                                        90%, 100% { transform: translate(40px, -10px) scale(0.8) rotate(15deg); opacity: 0; }
+                                    }
+                                </style>
+                                <g class="doc-in">
+                                    <rect x="25" y="45" width="28" height="38" rx="4" fill="#0f69b4" filter="url(#anim-shadow)" />
+                                    <path d="M 32 55 L 46 55 M 32 63 L 46 63 M 32 71 L 40 71" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+                                    <rect x="33" y="42" width="12" height="12" rx="2" fill="#38bdf8" opacity="0.9" />
+                                    <text x="35" y="51" fill="#ffffff" font-size="8" font-family="sans-serif" font-weight="bold">X</text>
+                                </g>
+                                <g class="doc-out">
+                                    <rect x="55" y="25" width="34" height="46" rx="4" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#anim-shadow)" />
+                                    <path d="M 64 42 L 69 47 L 79 36" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <rect x="63" y="54" width="4" height="8" rx="1" fill="#cbd5e1" />
+                                    <rect x="69" y="50" width="4" height="12" rx="1" fill="#94a3b8" />
+                                    <rect x="75" y="44" width="4" height="18" rx="1" fill="#0f69b4" />
+                                </g>
+                                <g>
+                                    <rect x="40" y="45" width="40" height="30" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="2" filter="url(#anim-shadow)" />
+                                    <path d="M 50 75 L 70 75 L 75 82 L 45 82 Z" fill="#94a3b8" />
+                                    <rect x="43" y="48" width="34" height="24" rx="1" class="sys-screen" />
+                                    <circle cx="60" cy="60" r="6" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-dasharray="10 6" stroke-linecap="round" class="sys-spinner" />
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 class="autoconsulta-drop-title">Suba su archivo para comenzar</h3>
+                        <p class="autoconsulta-drop-subtitle">Arrastre aquí su archivo Excel o haga clic para seleccionarlo.<br>Debe contener una columna con RUT.</p>
+                        <div class="autoconsulta-drop-formats">
+                            <span class="format-badge">.xlsx</span>
+                            <span class="format-badge">.xls</span>
+                            <span class="format-badge">.xlsm</span>
+                        </div>
+                        <div class="autoconsulta-actions">
+                            <button class="btn-primary-action" onclick="event.stopPropagation(); document.getElementById('autoconsultaFileInput').click()">
+                                <i class="fas fa-folder-open"></i> Seleccionar archivo
+                            </button>
+                            <button class="btn-secondary-action" onclick="event.stopPropagation(); window.downloadTemplate()">
+                                <i class="fas fa-download"></i> Descargar plantilla Excel
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Info banner moved to the bottom -->
+                    <div class="autoconsulta-info-compact">
+                        <div class="info-compact-item">
+                            <div class="info-compact-icon"><i class="fas fa-shield-alt"></i></div>
+                            <div class="info-compact-text">
+                                <strong>Procesamiento Local</strong>
+                                El procesamiento se realiza localmente en su navegador. Los datos del archivo no se envían fuera de su equipo.
+                            </div>
+                        </div>
+                        <div class="info-compact-item">
+                            <div class="info-compact-icon"><i class="fas fa-file-excel"></i></div>
+                            <div class="info-compact-text">
+                                <strong>Formatos Aceptados</strong>
+                                Excel (.xlsx, .xls). Se aceptan RUTs con o sin puntos, con o sin guión, y con o sin dígito verificador.
+                            </div>
+                        </div>
+                        <div class="info-compact-item">
+                            <div class="info-compact-icon"><i class="fas fa-database"></i></div>
+                            <div class="info-compact-text">
+                                <strong>Fuente de Datos</strong>
+                                VPH Ocurrencia Histórica — DEIS MINSAL.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Progreso -->
+                    <div class="autoconsulta-progress-area" id="autoconsultaProgress" style="display: none;"></div>
+
+                    <!-- Resultados -->
+                    <div class="autoconsulta-results-area" id="autoconsultaResults" style="display: none;"></div>
+
+                    <!-- Error -->
+                    <div class="autoconsulta-error-area" id="autoconsultaError" style="display: none;"></div>
+
+                </section>
+            </section>
+
+        </main>
+
+        <!-- ── NOTAS TÉCNICAS Y METODOLÓGICAS AL PIE (ESTÁNDAR MINSAL / DEIS) ── -->
+        <section class="glass minsal-border footer-methodology-box">
+            <h3 class="methodology-box-title"><i class="fas fa-microscope"></i> NOTAS TÉCNICAS Y METODOLÓGICAS DEIS / MINSAL</h3>
+            <div class="methodology-box-content">
+                <p>
+                    <strong>Fuente Oficial:</strong> Departamento de Estadísticas e Información de Salud (DEIS) y Registro Nacional de Inmunizaciones (RNI) – Ministerio de Salud de Chile.
+                </p>
+                <p>
+                    <strong>Criterio Territorial (Base Residencia):</strong> Las coberturas corresponden a personas residentes en la Provincia de Osorno (comunas de Osorno, Puerto Octay, Purranque, Puyehue, Río Negro, San Juan de la Costa y San Pablo).
+                </p>
+                <p>
+                    <strong>Denominador Vital Ajustado:</strong> Población objetivo calculada a partir de los nacidos vivos oficiales DEIS de la cohorte correspondiente menos las defunciones acumuladas antes de los 15 años de edad.
+                </p>
+                <p>
+                    <strong>Filtros de Calidad Mandatorios:</strong> Vacuna administrada = "SI", registros vigentes (eliminados = "NO"), exclusión estricta de registros y dosis clasificados como EPRO.
+                </p>
+                <p>
+                    <strong>Criterio de Esquema Completo:</strong> 2 o más dosis (o dosis única) para cohortes 2015-2024; 1 dosis única de vacuna Nonavalente (Gardasil 9) a partir del año escolar 2024.
+                </p>
+            </div>
+        </section>
+
+        <!-- Footer Oficial -->
+        <footer class="main-footer">
+            <div class="footer-left">
+                <p><strong>Observatorio Epidemiológico VPH</strong> • Departamento de Estadísticas e Información de Salud (DEIS) y Epidemiología • Servicio de Salud Osorno</p>
+                <p class="footer-sub">Plataforma desarrollada para monitoreo directivo, análisis territorial y respaldo de publicaciones científicas.</p>
+            </div>
+            <div class="footer-right">
+                <span class="badge-minsal">MINSAL • GOBIERNO DE CHILE</span>
+            </div>
+        </footer>
+    </div>
+
+    <!-- ── MODAL DE FICHA METODOLÓGICA & HITOS NORMATIVOS OFICIALES ── -->
+    <div id="modalFichaMetodologica" class="methodology-modal-overlay" onclick="if(event.target===this) closeMethodologyModal()" style="display: none;">
+        <div class="methodology-modal-dialog">
+            <div class="methodology-modal-header">
+                <div class="modal-header-brand">
+                    <div class="modal-header-icon"><i class="fas fa-book-medical"></i></div>
+                    <div>
+                        <h2>Ficha Técnica y Respaldo Metodológico Oficial</h2>
+                        <p>Estándares del Ministerio de Salud de Chile, DEIS y Organización Mundial de la Salud (OMS)</p>
+                    </div>
+                </div>
+                <button class="modal-close-btn" onclick="closeMethodologyModal()" aria-label="Cerrar Ficha Metodológica">&times;</button>
+            </div>
+            <div class="methodology-modal-body">
+                <div class="methodology-grid">
+                    <div class="method-box">
+                        <h3><i class="fas fa-calculator"></i> 1. Definición y Fórmula del Indicador</h3>
+                        <p><strong>Indicador:</strong> Cobertura de vacunación contra el Virus del Papiloma Humano (VPH) en personas de 15 años cumplidos.</p>
+                        <div class="formula-box">
+                            <div class="formula-container">
+                                <span class="formula-title-text">Cobertura (%) =</span>
+                                <div class="formula-fraction">
+                                    <div class="fraction-num">Personas de 15 años con Esquema Completo (RNI)</div>
+                                    <div class="fraction-bar"></div>
+                                    <div class="fraction-den">Nacidos Vivos (DEIS) &minus; Defunciones menores de 15 años (DEIS)</div>
+                                </div>
+                                <span class="formula-multiply">&times; 100</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="method-box">
+                        <h3><i class="fas fa-users"></i> 2. Definición de Numerador y Denominador</h3>
+                        <ul>
+                            <li><strong>Numerador:</strong> Personas con residencia en la Provincia de Osorno que cuentan con esquema completo de vacunación VPH al cumplir 15 años según el RNI.</li>
+                            <li><strong>Denominador (Población Objetivo):</strong> Total de nacidos vivos de la cohorte correspondiente (año evaluación − 15 años) según estadísticas vitales DEIS, descontando defunciones infantiles y juveniles.</li>
+                        </ul>
+                    </div>
+
+                    <div class="method-box">
+                        <h3><i class="fas fa-filter"></i> 3. Criterios de Inclusión y Validación Oficial</h3>
+                        <ul>
+                            <li><strong>Vacunación efectiva:</strong> Solo registros confirmados con vacuna administrada ("SI").</li>
+                            <li><strong>Registros vigentes:</strong> Se excluyen registros eliminados o anulados ("NO").</li>
+                            <li><strong>Exclusión de provisorios:</strong> Sin registros clasificados como EPRO.</li>
+                            <li><strong>Residencia Provincial:</strong> 7 comunas del Servicio de Salud Osorno (10301 a 10307).</li>
+                        </ul>
+                    </div>
+
+                    <div class="method-box">
+                        <h3><i class="fas fa-vial"></i> 4. Criterio de Esquema Completo según Normativa PNI</h3>
+                        <ul>
+                            <li><strong>Esquema Nonavalente (desde 2024):</strong> 1 dosis de vacuna VPH Nonavalente (Gardasil 9) constituye esquema completo universal.</li>
+                            <li><strong>Registro de Dosis Única:</strong> Cualquier registro clasificado como dosis única en el RNI se considera completo.</li>
+                            <li><strong>Esquema Multidosis (2014 a 2023):</strong> Personas con 2 o más dosis de vacuna VPH (Tetravalente o Bivalente).</li>
+                        </ul>
+                    </div>
+
+                    <div class="method-box">
+                        <h3><i class="fas fa-database"></i> 5. Fuentes de Información Oficiales</h3>
+                        <ul>
+                            <li><strong>Registro Nacional de Inmunizaciones (RNI 2014–2026):</strong> Ministerio de Salud de Chile.</li>
+                            <li><strong>Estadísticas de Natalidad (2000–2021):</strong> Base oficial DEIS de nacidos vivos por comuna de residencia.</li>
+                            <li><strong>Estadísticas de Mortalidad (1999–2026):</strong> Base oficial DEIS de defunciones por cohorte y comuna.</li>
+                        </ul>
+                    </div>
+
+                    <div class="method-box alert-box">
+                        <h3><i class="fas fa-triangle-exclamation"></i> 6. Nota Metodológica sobre el Año 2026</h3>
+                        <p>Los datos del año 2026 reflejan el corte de información disponible a la fecha. Debido a que la campaña escolar se ejecuta durante el año escolar, los valores se actualizan periódicamente hasta el cierre anual.</p>
+                    </div>
+                </div>
+
+                <!-- Línea de Tiempo de Hitos Normativos Oficiales -->
+                <div class="timeline-modal-section">
+                    <div class="section-divider" style="margin: 2rem 0 1.5rem 0;">
+                        <div class="section-divider-line"></div>
+                        <span class="section-divider-badge"><i class="fas fa-timeline"></i> Hitos Normativos y Evolución del Programa VPH en Chile (2014–2026)</span>
+                        <div class="section-divider-line"></div>
+                    </div>
+                    <div class="timeline-container" id="timelineContainer">
+                        <!-- Inyectado dinámicamente -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Spotlight Overlay y Modal de Ayuda Interpretativa Dinámica -->
+    <div id="spotlightOverlay" class="spotlight-overlay" onclick="closeHelpModal()"></div>
+    
+    <div id="helpModal" class="help-modal-content" role="dialog" aria-labelledby="helpModalTitle">
+        <button class="help-modal-close" onclick="closeHelpModal()" aria-label="Cerrar ventana de ayuda">&times;</button>
+        <div class="help-modal-header" id="helpModalHeader">
+            <div class="help-modal-icon-badge"><i class="fas fa-stethoscope"></i></div>
+            <div class="help-modal-header-text">
+                <h3 id="helpModalTitle">Ayuda Interpretativa Epidemiológica</h3>
+                <span class="help-modal-subtitle" id="helpModalSubtitle">Análisis Dinámico Ajustado a Filtros Activos</span>
+            </div>
+        </div>
+        <div id="helpModalBody" class="help-modal-body">
+            <!-- Inyectado dinámicamente según la realidad epidemiológica y estadística filtrada -->
+        </div>
+    </div>
+
+    <!-- Scripts de Datos y Lógica -->
+    <script src="dashboard_data_vph.js?v=50"></script>
+    
+    <!-- Premium Features JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="../shared/global_premium.js?v=3"></script>
+    <script src="vph_runs_index.js?v=2"></script>
+    <script src="autoconsulta.js?v=60"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
+

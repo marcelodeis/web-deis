@@ -1,0 +1,38 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+.env
+
+# Archivos de caché
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Dependencias Node
+node_modules/
+
+# Archivos de datos pesados y temporales
+*.xlsx
+*.csv
+*.zip
+*.pdf
+*.log
+
+# Carpetas de despliegue generadas automáticamente
+cloudflare/
+
+# Respaldos
+Respaldos/
+Respaldos_Proyecto/
+
+# Carpetas de datos pesados (si las hubiera)
+BASE DATOS MINSAL/
+Archivos_Excel/
+Documentos_PDF/
+
+# Editores
+.vscode/
+.cursor/
+.idea/
+.DS_Store

@@ -38,6 +38,29 @@ def get_epi_week(d):
     wednesday = d + timedelta(days=3 - day_of_week)
     return (wednesday.timetuple().tm_yday - 1) // 7 + 1
 
+# Patrón para identificar establecimientos privados por nombre
+PRIVADOS_PATRON = r'clinica|mutual|achs|particular|privad|isapre|mutualidad|vaxplus|cochrane'
+# Códigos DEIS conocidos de establecimientos privados en la provincia
+DEIS_PRIVADOS = {'201811','23-203','23-205','23-209','23-212'}
+
+def clasificar_tipo_establecimiento(df):
+    """Clasifica cada registro como 'Público' o 'Privado' basándose en el nombre
+    del establecimiento y/o su código DEIS. NO excluye registros."""
+    mask_privado = pd.Series(False, index=df.index)
+    
+    if 'ESTABLECIMIENTO' in df.columns:
+        mask_privado |= df['ESTABLECIMIENTO'].str.lower().str.contains(PRIVADOS_PATRON, na=False)
+    
+    if 'CODIGO_DEIS' in df.columns:
+        mask_privado |= df['CODIGO_DEIS'].isin(DEIS_PRIVADOS)
+    
+    df['TIPO_ESTABLECIMIENTO'] = mask_privado.map({True: 'Privado', False: 'Público'})
+    
+    n_priv = mask_privado.sum()
+    n_pub = (~mask_privado).sum()
+    print(f"   Clasificación: {n_pub:,} públicos + {n_priv:,} privados = {len(df):,} total")
+    return df
+
 def calcular_dv_chile(cuerpo_numerico: str) -> str:
     try:
         suma = 0
@@ -53,6 +76,46 @@ def calcular_dv_chile(cuerpo_numerico: str) -> str:
         return str(resto)
     except Exception:
         return '?'
+
+def leer_defunciones_vrs():
+    print("\nLeyendo bases históricas de DEFUNCIONES para descartar fallecidos (VRS)...")
+    base_dir = r"C:\Antigravity IDE\WEB DEIS\BASE DATOS MINSAL"
+    defunciones_set = set()
+    
+    # Buscar archivos DEF*.csv y DEF*.xlsx (desde 1999 hasta 2026)
+    archivos_def = []
+    for root, _, files in os.walk(base_dir):
+        for f in files:
+            if f.upper().startswith("DEF") and (f.endswith(".csv") or f.endswith(".xlsx")):
+                archivos_def.append(os.path.join(root, f))
+                
+    for archivo in sorted(archivos_def):
+        try:
+            if archivo.endswith(".csv"):
+                df = pd.read_csv(archivo, sep="|", usecols=lambda c: 'RUN' in str(c).upper(), dtype=str, encoding='utf-8')
+                if df.empty:
+                    df = pd.read_csv(archivo, sep=";", usecols=lambda c: 'RUN' in str(c).upper(), dtype=str, encoding='utf-8')
+            else:
+                df = pd.read_excel(archivo, usecols=lambda c: 'RUN' in str(c).upper(), dtype=str)
+                
+            for col in df.columns:
+                if 'RUN' in col.upper():
+                    cleaned = df[col].apply(normalizar_run_sin_dv)
+                    defunciones_set.update(cleaned.dropna().unique())
+                    break
+        except Exception as e:
+            try:
+                if archivo.endswith(".csv"):
+                    df = pd.read_csv(archivo, sep="|", usecols=lambda c: 'RUN' in str(c).upper(), dtype=str, encoding='latin-1')
+                    for col in df.columns:
+                        if 'RUN' in col.upper():
+                            defunciones_set.update(df[col].apply(normalizar_run_sin_dv).dropna().unique())
+                            break
+            except Exception:
+                pass
+                
+    print(f"Total RUN fallecidos históricos encontrados: {len(defunciones_set)}\n")
+    return defunciones_set
 
 def normalizar_run_sin_dv(val) -> str:
     if pd.isna(val):
@@ -112,6 +175,8 @@ def clean_and_filter_df(df_path, filter_col_codigo):
     
     if 'RUN' in df.columns:
         df['RUN_NORMALIZADO'] = df['RUN'].apply(normalizar_run_sin_dv)
+    
+    df = clasificar_tipo_establecimiento(df)
     
     print(f"   Total registros válidos post-filtro: {len(df):,}")
     return df
@@ -190,11 +255,14 @@ meses_base = []
 if 'MES' in df_ocur.columns:
     meses_base = sorted(df_ocur['MES'].dropna().unique().astype(int).tolist())
 
-grouped_ocur = df_ocur.groupby(['COMUNA_CANONICA', 'ESTABLECIMIENTO', 'CRITERIO_ELEGIBILIDAD', 'MES']).size().reset_index(name='count')
+grouped_ocur = df_ocur.groupby(['COMUNA_CANONICA', 'ESTABLECIMIENTO', 'TIPO_ESTABLECIMIENTO', 'CRITERIO_ELEGIBILIDAD', 'MES']).size().reset_index(name='count')
 all_criterios_ocur = sorted(df_ocur['CRITERIO_ELEGIBILIDAD'].dropna().unique().tolist())
 
+# Crear lookup de tipo por establecimiento
+tipo_lookup = df_ocur.groupby('ESTABLECIMIENTO')['TIPO_ESTABLECIMIENTO'].first().to_dict()
+
 data_ocurrencia = []
-for (comuna, estab), sub in grouped_ocur.groupby(['COMUNA_CANONICA', 'ESTABLECIMIENTO']):
+for (comuna, estab, tipo), sub in grouped_ocur.groupby(['COMUNA_CANONICA', 'ESTABLECIMIENTO', 'TIPO_ESTABLECIMIENTO']):
     datos = {}
     for crit, sub_crit in sub.groupby('CRITERIO_ELEGIBILIDAD'):
         datos[crit] = {str(int(row['MES'])): int(row['count']) for _, row in sub_crit.iterrows() if pd.notna(row['MES'])}
@@ -206,10 +274,22 @@ for (comuna, estab), sub in grouped_ocur.groupby(['COMUNA_CANONICA', 'ESTABLECIM
     data_ocurrencia.append({
         "comuna": comuna,
         "establecimiento": estab,
+        "tipo": tipo,
         "datos": datos,
         "total": total
     })
 data_ocurrencia.sort(key=lambda x: (x['comuna'], -x['total']))
+
+# Resumen por tipo de establecimiento por comuna
+resumen_tipo = {}
+for com in COMUNAS_OSORNO:
+    sub_pub = df_ocur[(df_ocur['COMUNA_CANONICA'] == com) & (df_ocur['TIPO_ESTABLECIMIENTO'] == 'Público')]
+    sub_priv = df_ocur[(df_ocur['COMUNA_CANONICA'] == com) & (df_ocur['TIPO_ESTABLECIMIENTO'] == 'Privado')]
+    resumen_tipo[com] = {"publico": len(sub_pub), "privado": len(sub_priv)}
+
+# Listar establecimientos privados encontrados
+estab_privados = df_ocur[df_ocur['TIPO_ESTABLECIMIENTO'] == 'Privado']['ESTABLECIMIENTO'].unique().tolist()
+print(f"\n   Establecimientos PRIVADOS encontrados ({len(estab_privados)}): {estab_privados}")
 
 # ── 2. Pipeline de Residencia ───────────────────────
 if os.path.exists(CSV_RESIDENCIA_PATH):
@@ -353,6 +433,9 @@ if YEAR in ['2025', '2026']:
         if 'RUN_NORMALIZADO' in df_resi.columns:
             vacunados_set = set(df_resi['RUN_NORMALIZADO'].dropna().unique())
         
+        # Leer defunciones
+        defunciones_set = leer_defunciones_vrs()
+        
         rescates_list = []
         
         for comuna in COMUNAS_OSORNO:
@@ -378,6 +461,7 @@ if YEAR in ['2025', '2026']:
                     row_dict = row.to_dict()
                     row_dict['GRUPO_ELEGIBILIDAD'] = 'Recién Nacido' if row['FECHA'] >= pd.to_datetime('2026-03-01') else 'Lactante'
                     row_dict['COMUNA_CANONICA'] = comuna
+                    row_dict['ESTADO_VITAL'] = 'FALLECIDO' if run_norm in defunciones_set else 'VIVO'
                     rescates_list.append(row_dict)
             
             total_meta = lactantes + recien_nacidos
@@ -417,6 +501,28 @@ if YEAR in ['2025', '2026']:
             if not df_rescates.empty:
                 if 'FECHA' in df_rescates.columns:
                     df_rescates['FECHA'] = df_rescates['FECHA'].dt.strftime('%Y-%m-%d')
+                
+                def format_run_with_dv(run_val):
+                    try:
+                        run_str = str(run_val).replace('.','').replace('-','').strip()
+                        if not run_str or not run_str.isdigit(): return run_val
+                        r = int(run_str)
+                        if r == 0: return run_val
+                        s = 1
+                        m = 0
+                        temp_r = r
+                        while temp_r:
+                            s = (s + temp_r % 10 * (9 - m % 6)) % 11
+                            temp_r //= 10
+                            m += 1
+                        dv = 'K' if s == 10 else str(s)
+                        return f"{run_str}-{dv}"
+                    except:
+                        return run_val
+                        
+                for col in df_rescates.columns:
+                    if 'RUN' in str(col).upper():
+                        df_rescates[col] = df_rescates[col].apply(format_run_with_dv)
                 
                 cols = list(df_rescates.columns)
                 if 'GRUPO_ELEGIBILIDAD' in cols: cols.remove('GRUPO_ELEGIBILIDAD')

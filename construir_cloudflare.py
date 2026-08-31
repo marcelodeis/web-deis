@@ -6,13 +6,17 @@ from datetime import datetime
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Directorio de salida para Cloudflare
-CLOUDFLARE_DIR = os.path.join(ROOT_DIR, 'cloudflare')
+TIMESTAMP = datetime.now().strftime("%Y-%m-%d_%H-%M")
+ENTREGAS_DIR = os.path.join(ROOT_DIR, 'Entregas_Cloudflare')
+CLOUDFLARE_DIR = os.path.join(ENTREGAS_DIR, f'Entrega_{TIMESTAMP}')
 
 # Carpetas a ignorar al copiar los dashboards
 IGNORE_PATTERNS = shutil.ignore_patterns(
     '.venv', '.trunk', '__pycache__', '.git', '.github', '.cursor',
     'node_modules', '*.log', '.env', 'Scripts_Procesamiento', 'generar_datos.py',
-    '*.zip', '*.pdf', 'cloudflare', 'Respaldos_Proyecto', 'Documentos_PDF', 'Archivos_Excel'
+    '*.zip', '*.pdf', 'cloudflare', 'Respaldos_Proyecto', 'Documentos_PDF', 'Archivos_Excel',
+    'Cloudflare_FINAL_Subir', 'cloudflare_deploy', 'Respaldos', 'BASE DATOS MINSAL', 'Base Datos Minsal',
+    'Entregas_Cloudflare'
 )
 
 def limpiar_directorio_cloudflare():
@@ -46,18 +50,56 @@ def copiar_dashboard(nombre_origen, nombre_destino):
     else:
         print(f"ADVERTENCIA: No se encontró la carpeta {nombre_origen}")
 
+def copiar_shared():
+    print("Copiando recursos compartidos (shared)...")
+    shared_dir = os.path.join(ROOT_DIR, 'shared')
+    destino_shared = os.path.join(CLOUDFLARE_DIR, 'shared')
+    if os.path.exists(shared_dir):
+        shutil.copytree(shared_dir, destino_shared, ignore=IGNORE_PATTERNS)
+        print("Carpeta 'shared' copiada exitosamente.")
+    else:
+        print("ADVERTENCIA: No se encontró la carpeta 'shared'.")
+
+def arreglar_enlaces_html():
+    print("Arreglando enlaces internos en archivos HTML...")
+    reemplazos = {
+        '../Influenza_Web/index.html': '/influenza/',
+        '../Covid_Web/index.html': '/covid/',
+        '../VRS/index.html': '/vrs/',
+        '../VPH_Web/index.html': '/vph/',
+        '../Programáticas_Web/index.html': '/programaticas/',
+        '../Portal_Web/index.html': '/',
+        '../shared/': '/shared/'
+    }
+    for root_dir, dirs, files in os.walk(CLOUDFLARE_DIR):
+        for file in files:
+            if file.endswith('.html'):
+                filepath = os.path.join(root_dir, file)
+                with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+                    content = f.read()
+                
+                for viejo, nuevo in reemplazos.items():
+                    content = content.replace(viejo, nuevo)
+                
+                with open(filepath, 'w', encoding='utf-8') as f:
+                    f.write(content)
+    print("Enlaces HTML arreglados correctamente.")
+
 def construir():
     print("=== INICIANDO CONSTRUCCIÓN PARA CLOUDFLARE ===")
+    
     limpiar_directorio_cloudflare()
     
-    # 1. Copiar el Portal Central a la raíz
     copiar_portal()
+    copiar_shared()
     
-    # 2. Copiar los 4 Dashboards como sub-rutas
     copiar_dashboard('Influenza_Web', 'influenza')
     copiar_dashboard('Covid_Web', 'covid')
     copiar_dashboard('VRS', 'vrs')
+    copiar_dashboard('VPH_Web', 'vph')
     copiar_dashboard('Programáticas_Web', 'programaticas')
+    
+    arreglar_enlaces_html()
     
     print("\n=== ¡CONSTRUCCIÓN COMPLETADA! ===")
     print("La carpeta 'cloudflare' está lista para ser subida a Cloudflare Pages.")
@@ -66,6 +108,7 @@ def construir():
     print(" - www.rni.cl/influenza/")
     print(" - www.rni.cl/covid/")
     print(" - www.rni.cl/vrs/")
+    print(" - www.rni.cl/vph/")
     print(" - www.rni.cl/programaticas/")
     
     guardar_respaldo()

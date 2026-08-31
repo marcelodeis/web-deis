@@ -1,0 +1,5791 @@
+var DASHBOARD_DATA_OFFLINE_2025 = {
+  "fecha_actualizacion": "07/06/2026 18:40",
+  "fuente": "Archivos Híbridos (Ocurrencia + Residencia)",
+  "headers": [
+    "Cuidadores de adultos mayores y funcionarios de los ELEAM",
+    "Embarazadas",
+    "Enfermos cronicos de 11 a 59 años de edad",
+    "Escolares de 1° a 5° año básico",
+    "Estrategia Capullo",
+    "GES",
+    "Ley Ricarte Soto",
+    "Niños y niñas de 6 meses a 5 años de edad",
+    "Otras prioridades",
+    "P. de salud: Privado",
+    "P. de salud: Público",
+    "Personas mayores de 60 años y más (año 1966)",
+    "Trabajadores de avícolas, ganaderas y de criaderos de cerdo",
+    "Trabajadores de la educación preescolar y escolar hasta 8° basico"
+  ],
+  "meses_base": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "data_ocurrencia": [
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 137,
+          "4": 217,
+          "5": 111,
+          "6": 27
+        },
+        "Embarazadas": {
+          "3": 95,
+          "4": 32,
+          "5": 17,
+          "6": 12,
+          "7": 14,
+          "8": 15,
+          "9": 4,
+          "10": 17,
+          "11": 12,
+          "12": 8
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 851,
+          "4": 961,
+          "5": 544,
+          "6": 146,
+          "7": 84,
+          "8": 25,
+          "9": 6,
+          "10": 10,
+          "11": 7,
+          "12": 6
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 98,
+          "4": 891,
+          "5": 1019,
+          "6": 93,
+          "7": 18,
+          "8": 3,
+          "9": 3,
+          "10": 1,
+          "12": 1
+        },
+        "Estrategia Capullo": {
+          "3": 2,
+          "4": 2,
+          "5": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 333,
+          "4": 684,
+          "5": 414,
+          "6": 95,
+          "7": 62,
+          "8": 61,
+          "9": 49,
+          "10": 46,
+          "11": 47,
+          "12": 23
+        },
+        "Otras prioridades": {
+          "3": 46,
+          "4": 388,
+          "5": 159,
+          "6": 261,
+          "7": 231,
+          "8": 62,
+          "9": 26,
+          "10": 31,
+          "11": 8,
+          "12": 12
+        },
+        "P. de salud: Privado": {
+          "3": 13,
+          "4": 29,
+          "5": 52,
+          "6": 1,
+          "11": 1
+        },
+        "P. de salud: Público": {
+          "3": 212,
+          "4": 106,
+          "5": 97,
+          "6": 17,
+          "7": 12,
+          "9": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 2951,
+          "4": 2144,
+          "5": 647,
+          "6": 171,
+          "7": 136,
+          "8": 37,
+          "9": 13,
+          "10": 5,
+          "11": 17,
+          "12": 8
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 3,
+          "4": 14,
+          "5": 34,
+          "6": 2
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 36,
+          "4": 341,
+          "5": 351,
+          "6": 24,
+          "7": 8
+        },
+        "GES": {},
+        "Ley Ricarte Soto": {}
+      },
+      "total": 16011
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 72,
+          "4": 21,
+          "5": 18,
+          "7": 1
+        },
+        "Embarazadas": {
+          "3": 64,
+          "4": 20,
+          "5": 9,
+          "6": 5,
+          "7": 9,
+          "8": 8,
+          "9": 6,
+          "10": 6,
+          "11": 7,
+          "12": 2
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 668,
+          "4": 797,
+          "5": 426,
+          "6": 207,
+          "7": 16,
+          "8": 4,
+          "9": 1,
+          "10": 2,
+          "11": 1,
+          "12": 5
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 45,
+          "4": 716,
+          "5": 842,
+          "6": 35,
+          "7": 3,
+          "8": 4,
+          "9": 1,
+          "11": 1
+        },
+        "Estrategia Capullo": {
+          "3": 5,
+          "4": 8,
+          "5": 1
+        },
+        "Ley Ricarte Soto": {
+          "9": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 364,
+          "4": 493,
+          "5": 285,
+          "6": 79,
+          "7": 55,
+          "8": 22,
+          "9": 19,
+          "10": 21,
+          "11": 17,
+          "12": 10
+        },
+        "Otras prioridades": {
+          "3": 107,
+          "4": 99,
+          "5": 143,
+          "6": 62,
+          "7": 52,
+          "8": 19,
+          "9": 6,
+          "10": 4,
+          "11": 1,
+          "12": 11
+        },
+        "P. de salud: Privado": {
+          "3": 31,
+          "4": 5,
+          "5": 11
+        },
+        "P. de salud: Público": {
+          "3": 130,
+          "4": 11,
+          "5": 10,
+          "6": 4,
+          "7": 1,
+          "8": 1,
+          "11": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 1674,
+          "4": 810,
+          "5": 290,
+          "6": 84,
+          "7": 23,
+          "8": 16,
+          "9": 7,
+          "10": 5,
+          "11": 1
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 2,
+          "5": 2
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 39,
+          "4": 184,
+          "5": 136,
+          "6": 2
+        },
+        "GES": {}
+      },
+      "total": 9386
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 123,
+          "4": 78,
+          "5": 29,
+          "6": 1
+        },
+        "Embarazadas": {
+          "3": 49,
+          "4": 18,
+          "5": 13,
+          "6": 10,
+          "7": 6,
+          "8": 6,
+          "9": 4,
+          "10": 6,
+          "11": 3,
+          "12": 8
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 675,
+          "4": 357,
+          "5": 713,
+          "6": 1018,
+          "7": 121,
+          "8": 9,
+          "9": 1,
+          "11": 1
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 48,
+          "4": 697,
+          "5": 273,
+          "6": 20,
+          "7": 5,
+          "10": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 130,
+          "4": 481,
+          "5": 198,
+          "6": 69,
+          "7": 47,
+          "8": 30,
+          "9": 29,
+          "10": 30,
+          "11": 16,
+          "12": 10
+        },
+        "Otras prioridades": {
+          "3": 67,
+          "4": 78,
+          "5": 30,
+          "6": 57,
+          "7": 25,
+          "8": 8,
+          "9": 5,
+          "10": 9,
+          "12": 1
+        },
+        "P. de salud: Privado": {
+          "3": 2,
+          "4": 32,
+          "5": 3,
+          "6": 1
+        },
+        "P. de salud: Público": {
+          "3": 91,
+          "4": 33,
+          "5": 8,
+          "7": 3,
+          "8": 2
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 1565,
+          "4": 753,
+          "5": 331,
+          "6": 213,
+          "7": 78,
+          "8": 31,
+          "9": 2,
+          "10": 4,
+          "11": 3,
+          "12": 2
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 1,
+          "4": 1,
+          "6": 1
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 3,
+          "4": 199,
+          "5": 68
+        },
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {}
+      },
+      "total": 9043
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 41,
+          "4": 61,
+          "5": 36,
+          "6": 7
+        },
+        "Embarazadas": {
+          "3": 60,
+          "4": 17,
+          "5": 10,
+          "6": 4,
+          "7": 8,
+          "8": 5,
+          "9": 4,
+          "10": 3,
+          "11": 2,
+          "12": 3
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 598,
+          "4": 525,
+          "5": 246,
+          "6": 77,
+          "7": 15
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 74,
+          "4": 998,
+          "5": 146,
+          "6": 26,
+          "7": 10
+        },
+        "Estrategia Capullo": {
+          "3": 2,
+          "4": 3,
+          "5": 3
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "1": 3,
+          "2": 3,
+          "3": 240,
+          "4": 550,
+          "5": 169,
+          "6": 63,
+          "7": 29,
+          "8": 21,
+          "9": 6,
+          "10": 1,
+          "11": 4,
+          "12": 3
+        },
+        "Otras prioridades": {
+          "1": 2,
+          "3": 138,
+          "4": 222,
+          "5": 82,
+          "6": 68,
+          "7": 40,
+          "8": 4,
+          "9": 2,
+          "10": 1,
+          "12": 2
+        },
+        "P. de salud: Privado": {
+          "3": 27,
+          "4": 11,
+          "5": 4,
+          "6": 4,
+          "9": 1
+        },
+        "P. de salud: Público": {
+          "1": 1,
+          "3": 137,
+          "4": 21,
+          "5": 2,
+          "6": 2,
+          "7": 3
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 1444,
+          "4": 921,
+          "5": 327,
+          "6": 75,
+          "7": 45,
+          "8": 8,
+          "9": 3,
+          "12": 2
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "4": 5,
+          "5": 3
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 31,
+          "4": 210,
+          "5": 28,
+          "6": 1
+        },
+        "GES": {},
+        "Ley Ricarte Soto": {}
+      },
+      "total": 7953
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 36,
+          "4": 35,
+          "5": 20,
+          "6": 4,
+          "7": 1
+        },
+        "Embarazadas": {
+          "3": 51,
+          "4": 25,
+          "5": 7,
+          "6": 14,
+          "7": 18,
+          "8": 8,
+          "9": 9,
+          "10": 8,
+          "11": 7
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 533,
+          "4": 582,
+          "5": 293,
+          "6": 45,
+          "7": 42,
+          "8": 13,
+          "9": 5,
+          "10": 5
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 102,
+          "4": 1489,
+          "5": 26,
+          "6": 7,
+          "7": 6,
+          "9": 1,
+          "10": 2
+        },
+        "Estrategia Capullo": {
+          "3": 1,
+          "4": 3
+        },
+        "Ley Ricarte Soto": {
+          "4": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 409,
+          "4": 532,
+          "5": 127,
+          "6": 66,
+          "7": 65,
+          "8": 41,
+          "9": 42,
+          "10": 37,
+          "11": 9,
+          "12": 1
+        },
+        "Otras prioridades": {
+          "3": 13,
+          "4": 64,
+          "5": 182,
+          "6": 13,
+          "7": 65,
+          "8": 10,
+          "9": 9,
+          "10": 8,
+          "12": 1
+        },
+        "P. de salud: Privado": {
+          "3": 2,
+          "4": 3
+        },
+        "P. de salud: Público": {
+          "3": 141,
+          "4": 33,
+          "5": 12,
+          "6": 4,
+          "7": 10
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 1040,
+          "4": 605,
+          "5": 273,
+          "6": 50,
+          "7": 44,
+          "8": 11,
+          "9": 5,
+          "10": 4,
+          "11": 2
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 8,
+          "4": 2,
+          "5": 15
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 85,
+          "4": 303,
+          "5": 3,
+          "6": 3
+        },
+        "GES": {}
+      },
+      "total": 7751
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 54,
+          "4": 36,
+          "5": 16,
+          "6": 5
+        },
+        "Embarazadas": {
+          "3": 43,
+          "4": 27,
+          "5": 7,
+          "6": 6,
+          "7": 5,
+          "8": 6,
+          "9": 2,
+          "10": 5,
+          "11": 3
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 541,
+          "4": 586,
+          "5": 203,
+          "6": 89,
+          "7": 22,
+          "8": 3,
+          "9": 2,
+          "10": 2
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 47,
+          "4": 1323,
+          "5": 34,
+          "6": 3,
+          "7": 8,
+          "8": 1,
+          "10": 1,
+          "11": 2
+        },
+        "Estrategia Capullo": {
+          "3": 3,
+          "4": 2,
+          "5": 2
+        },
+        "Ley Ricarte Soto": {
+          "3": 1,
+          "9": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "1": 1,
+          "3": 275,
+          "4": 549,
+          "5": 82,
+          "6": 48,
+          "7": 24,
+          "8": 37,
+          "9": 21,
+          "10": 22,
+          "11": 18,
+          "12": 2
+        },
+        "Otras prioridades": {
+          "3": 112,
+          "4": 267,
+          "5": 136,
+          "6": 25,
+          "7": 29,
+          "8": 25,
+          "9": 7,
+          "10": 8
+        },
+        "P. de salud: Privado": {
+          "3": 17,
+          "4": 15,
+          "5": 2,
+          "6": 3
+        },
+        "P. de salud: Público": {
+          "3": 128,
+          "4": 32,
+          "5": 9,
+          "6": 6,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 4
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 1258,
+          "4": 603,
+          "5": 155,
+          "6": 59,
+          "7": 13,
+          "8": 5,
+          "9": 1,
+          "11": 1
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 1,
+          "4": 58,
+          "5": 2,
+          "6": 1
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 72,
+          "4": 285,
+          "5": 11,
+          "6": 1,
+          "7": 1
+        },
+        "GES": {}
+      },
+      "total": 7525
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 16,
+          "4": 13,
+          "5": 30,
+          "6": 6,
+          "7": 1,
+          "8": 2
+        },
+        "Embarazadas": {
+          "3": 14,
+          "4": 9,
+          "5": 3,
+          "6": 2,
+          "7": 4,
+          "8": 1
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "1": 5,
+          "3": 326,
+          "4": 417,
+          "5": 346,
+          "6": 198,
+          "7": 132,
+          "8": 107,
+          "9": 9,
+          "10": 14,
+          "11": 3,
+          "12": 7
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 23,
+          "4": 40,
+          "5": 22,
+          "6": 6,
+          "7": 2,
+          "8": 1,
+          "11": 1,
+          "12": 1
+        },
+        "Estrategia Capullo": {
+          "3": 24,
+          "4": 8,
+          "5": 6,
+          "6": 3,
+          "7": 3,
+          "8": 1
+        },
+        "Ley Ricarte Soto": {
+          "1": 2,
+          "3": 1,
+          "4": 3,
+          "5": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 16,
+          "4": 41,
+          "5": 24,
+          "6": 11,
+          "7": 1,
+          "8": 1,
+          "10": 3,
+          "12": 1
+        },
+        "Otras prioridades": {
+          "1": 1,
+          "3": 29,
+          "4": 16,
+          "5": 29,
+          "6": 29,
+          "7": 100,
+          "8": 40,
+          "9": 6,
+          "10": 5
+        },
+        "P. de salud: Privado": {
+          "3": 13,
+          "4": 14,
+          "5": 11,
+          "6": 1
+        },
+        "P. de salud: Público": {
+          "1": 1,
+          "3": 2361,
+          "4": 423,
+          "5": 112,
+          "6": 56,
+          "7": 33,
+          "8": 5,
+          "9": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "1": 2,
+          "3": 632,
+          "4": 520,
+          "5": 183,
+          "6": 72,
+          "7": 42,
+          "8": 31,
+          "9": 1,
+          "10": 3
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 2
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 6,
+          "4": 9,
+          "5": 5,
+          "6": 4
+        },
+        "GES": {}
+      },
+      "total": 6721
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Clínica Alemana de Osorno",
+      "tipo": "Privado",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 3,
+          "4": 2,
+          "5": 2,
+          "6": 1
+        },
+        "Embarazadas": {
+          "3": 20,
+          "4": 16,
+          "5": 6,
+          "6": 4,
+          "7": 2,
+          "9": 3,
+          "10": 2,
+          "11": 1
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "1": 1,
+          "3": 53,
+          "4": 95,
+          "5": 33,
+          "6": 16,
+          "7": 3,
+          "9": 1,
+          "10": 2
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 28,
+          "4": 35,
+          "5": 12,
+          "6": 4,
+          "7": 5,
+          "9": 1
+        },
+        "Estrategia Capullo": {
+          "3": 3
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "1": 2,
+          "3": 115,
+          "4": 152,
+          "5": 104,
+          "6": 66,
+          "7": 57,
+          "8": 31,
+          "9": 26,
+          "10": 27,
+          "11": 11,
+          "12": 6
+        },
+        "Otras prioridades": {
+          "1": 1,
+          "3": 16,
+          "4": 86,
+          "5": 140,
+          "6": 17,
+          "7": 9,
+          "8": 4,
+          "9": 4,
+          "10": 5,
+          "12": 3
+        },
+        "P. de salud: Privado": {
+          "3": 423,
+          "4": 108,
+          "5": 5,
+          "6": 2,
+          "7": 1
+        },
+        "P. de salud: Público": {
+          "3": 6,
+          "4": 5,
+          "5": 4,
+          "6": 1,
+          "9": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 182,
+          "4": 163,
+          "5": 55,
+          "6": 10,
+          "7": 4
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "4": 138
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 7,
+          "4": 8,
+          "5": 2,
+          "6": 1
+        },
+        "GES": {},
+        "Ley Ricarte Soto": {}
+      },
+      "total": 2362
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 15,
+          "4": 1,
+          "5": 7
+        },
+        "Embarazadas": {
+          "3": 2,
+          "6": 1,
+          "8": 2
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 103,
+          "4": 62,
+          "5": 34,
+          "6": 9,
+          "7": 3,
+          "8": 2,
+          "11": 1
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 85,
+          "4": 180,
+          "5": 13,
+          "8": 1,
+          "9": 1,
+          "10": 2
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 38,
+          "4": 73,
+          "5": 11,
+          "6": 9,
+          "7": 5,
+          "8": 2,
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "12": 1
+        },
+        "Otras prioridades": {
+          "7": 2
+        },
+        "P. de salud: Privado": {
+          "5": 1
+        },
+        "P. de salud: Público": {
+          "3": 46,
+          "4": 4,
+          "5": 3,
+          "7": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 281,
+          "4": 83,
+          "5": 28,
+          "6": 11,
+          "7": 3,
+          "9": 1,
+          "11": 1
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 16,
+          "4": 15,
+          "5": 7,
+          "6": 1,
+          "7": 1
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 35,
+          "4": 46,
+          "5": 3
+        },
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {}
+      },
+      "total": 1255
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Manuel Rodríguez",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 4,
+          "4": 1,
+          "5": 1,
+          "6": 1
+        },
+        "Embarazadas": {
+          "3": 8,
+          "4": 2,
+          "6": 2,
+          "8": 1,
+          "9": 2,
+          "12": 2
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 57,
+          "4": 54,
+          "5": 29,
+          "6": 6,
+          "7": 6,
+          "8": 4,
+          "9": 1,
+          "12": 1
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 3,
+          "4": 2,
+          "5": 2,
+          "6": 1,
+          "7": 1,
+          "12": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 17,
+          "4": 118,
+          "5": 17,
+          "6": 3,
+          "7": 10,
+          "8": 3,
+          "9": 3,
+          "10": 4,
+          "11": 4
+        },
+        "Otras prioridades": {
+          "4": 8,
+          "5": 1,
+          "6": 2,
+          "7": 6,
+          "8": 1,
+          "9": 1
+        },
+        "P. de salud: Privado": {
+          "3": 1,
+          "4": 2,
+          "5": 1
+        },
+        "P. de salud: Público": {
+          "3": 15,
+          "4": 3,
+          "5": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 224,
+          "4": 104,
+          "5": 33,
+          "6": 30,
+          "7": 16,
+          "8": 4,
+          "9": 1,
+          "10": 2,
+          "12": 1
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "4": 37,
+          "5": 1
+        },
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {}
+      },
+      "total": 866
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Murrinumo",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "4": 6,
+          "5": 2,
+          "6": 1
+        },
+        "Embarazadas": {
+          "3": 6,
+          "4": 4,
+          "5": 2,
+          "7": 3,
+          "8": 3,
+          "9": 4,
+          "10": 4,
+          "11": 1,
+          "12": 2
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 50,
+          "4": 31,
+          "5": 32,
+          "6": 51,
+          "7": 30,
+          "8": 1,
+          "9": 2,
+          "10": 1,
+          "11": 1
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 30,
+          "4": 3,
+          "5": 4,
+          "6": 5,
+          "7": 1,
+          "9": 1
+        },
+        "Estrategia Capullo": {
+          "4": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 16,
+          "4": 52,
+          "5": 26,
+          "6": 21,
+          "7": 13,
+          "8": 2,
+          "9": 7,
+          "10": 2,
+          "11": 5,
+          "12": 1
+        },
+        "Otras prioridades": {
+          "3": 1,
+          "4": 7,
+          "5": 3,
+          "7": 19,
+          "8": 1
+        },
+        "P. de salud: Privado": {
+          "3": 1
+        },
+        "P. de salud: Público": {
+          "3": 13,
+          "4": 2,
+          "5": 1,
+          "6": 2,
+          "7": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 103,
+          "4": 67,
+          "5": 20,
+          "6": 34,
+          "7": 11,
+          "8": 1,
+          "9": 1
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "5": 1
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 17,
+          "4": 18,
+          "5": 2,
+          "6": 1
+        },
+        "GES": {},
+        "Ley Ricarte Soto": {}
+      },
+      "total": 754
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Policlínico Centro de Cumplimiento Penitenciario de Osorno",
+      "tipo": "Público",
+      "datos": {
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 13
+        },
+        "Otras prioridades": {
+          "3": 536
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 31
+        },
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {},
+        "Embarazadas": {},
+        "Escolares de 1° a 5° año básico": {},
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "Niños y niñas de 6 meses a 5 años de edad": {},
+        "P. de salud: Privado": {},
+        "P. de salud: Público": {},
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {},
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {}
+      },
+      "total": 580
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Vacunatorio Sociedad Centro Médico Cochrane SA",
+      "tipo": "Privado",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 1,
+          "4": 4,
+          "5": 3
+        },
+        "Embarazadas": {
+          "3": 1
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 12,
+          "4": 11,
+          "5": 4,
+          "6": 1
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 1,
+          "4": 9,
+          "5": 6,
+          "6": 1
+        },
+        "GES": {
+          "4": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 2,
+          "4": 13,
+          "5": 3,
+          "6": 1,
+          "7": 3,
+          "10": 1
+        },
+        "Otras prioridades": {
+          "4": 41,
+          "5": 48,
+          "6": 9,
+          "7": 5,
+          "8": 4,
+          "9": 8,
+          "10": 14,
+          "11": 1
+        },
+        "P. de salud: Privado": {
+          "3": 26,
+          "4": 1,
+          "6": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 77,
+          "4": 82,
+          "5": 33,
+          "6": 5,
+          "7": 3
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 1,
+          "5": 2,
+          "6": 1
+        },
+        "Estrategia Capullo": {},
+        "Ley Ricarte Soto": {},
+        "P. de salud: Público": {},
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {}
+      },
+      "total": 440
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Vacunatorio VAXPLUS",
+      "tipo": "Privado",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "6": 1
+        },
+        "Embarazadas": {
+          "3": 2,
+          "5": 1
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 6,
+          "4": 8,
+          "5": 16,
+          "6": 2,
+          "7": 2
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 4,
+          "4": 4,
+          "6": 1
+        },
+        "Ley Ricarte Soto": {
+          "3": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 18,
+          "4": 28,
+          "5": 16,
+          "6": 13,
+          "7": 8,
+          "8": 11,
+          "9": 10
+        },
+        "Otras prioridades": {
+          "3": 42,
+          "4": 47,
+          "5": 35,
+          "7": 7,
+          "8": 4,
+          "9": 6
+        },
+        "P. de salud: Privado": {
+          "3": 6,
+          "4": 4,
+          "5": 1,
+          "6": 1,
+          "7": 1
+        },
+        "P. de salud: Público": {
+          "3": 2
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 17,
+          "4": 19,
+          "5": 8,
+          "6": 1
+        },
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {},
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {}
+      },
+      "total": 353
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Mutual CCHC Osorno",
+      "tipo": "Privado",
+      "datos": {
+        "Embarazadas": {
+          "5": 1
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 2,
+          "4": 2
+        },
+        "Otras prioridades": {
+          "4": 16,
+          "5": 161,
+          "6": 65
+        },
+        "P. de salud: Privado": {
+          "3": 49,
+          "4": 2,
+          "7": 3
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 4,
+          "4": 1,
+          "5": 10,
+          "6": 2
+        },
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {},
+        "Escolares de 1° a 5° año básico": {},
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "Niños y niñas de 6 meses a 5 años de edad": {},
+        "P. de salud: Público": {},
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {},
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {}
+      },
+      "total": 318
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Pichi Damas",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 4
+        },
+        "Embarazadas": {
+          "9": 1
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 29,
+          "4": 14,
+          "5": 10,
+          "6": 2,
+          "11": 3
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 23,
+          "5": 1,
+          "11": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 16,
+          "4": 2,
+          "5": 2,
+          "6": 3,
+          "7": 1,
+          "8": 1,
+          "11": 1
+        },
+        "Otras prioridades": {
+          "7": 2,
+          "10": 3
+        },
+        "P. de salud: Público": {
+          "3": 2,
+          "6": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 75,
+          "4": 36,
+          "5": 11,
+          "6": 6,
+          "7": 1,
+          "8": 1,
+          "10": 2,
+          "11": 1
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 4,
+          "4": 5,
+          "6": 2
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 14
+        },
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "P. de salud: Privado": {}
+      },
+      "total": 280
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Clínica de la ACHS Osorno",
+      "tipo": "Privado",
+      "datos": {
+        "P. de salud: Privado": {
+          "2": 47,
+          "3": 1,
+          "4": 1,
+          "7": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "2": 2
+        },
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {},
+        "Embarazadas": {},
+        "Enfermos cronicos de 11 a 59 años de edad": {},
+        "Escolares de 1° a 5° año básico": {},
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "Niños y niñas de 6 meses a 5 años de edad": {},
+        "Otras prioridades": {},
+        "P. de salud: Público": {},
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {},
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {}
+      },
+      "total": 52
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "SAPU Dr. Pedro Jáuregui",
+      "tipo": "Público",
+      "datos": {
+        "Embarazadas": {
+          "10": 1
+        },
+        "Escolares de 1° a 5° año básico": {
+          "10": 1
+        },
+        "Otras prioridades": {
+          "9": 1,
+          "10": 2
+        },
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {},
+        "Enfermos cronicos de 11 a 59 años de edad": {},
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "Niños y niñas de 6 meses a 5 años de edad": {},
+        "P. de salud: Privado": {},
+        "P. de salud: Público": {},
+        "Personas mayores de 60 años y más (año 1966)": {},
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {},
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {}
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 19,
+          "4": 16,
+          "5": 3
+        },
+        "Embarazadas": {
+          "3": 12,
+          "4": 9,
+          "5": 4,
+          "6": 2,
+          "7": 2,
+          "9": 3,
+          "10": 2,
+          "11": 2,
+          "12": 3
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 102,
+          "4": 129,
+          "5": 54,
+          "6": 25,
+          "7": 8,
+          "8": 3,
+          "9": 5,
+          "10": 2
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 316,
+          "4": 26,
+          "5": 7,
+          "6": 3,
+          "7": 3,
+          "9": 1,
+          "10": 1
+        },
+        "Estrategia Capullo": {
+          "4": 1
+        },
+        "GES": {
+          "3": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "1": 1,
+          "3": 122,
+          "4": 81,
+          "5": 45,
+          "6": 19,
+          "7": 19,
+          "8": 15,
+          "9": 9,
+          "10": 3,
+          "12": 4
+        },
+        "Otras prioridades": {
+          "1": 1,
+          "2": 1,
+          "3": 18,
+          "4": 39,
+          "5": 19,
+          "6": 1,
+          "7": 20,
+          "8": 9,
+          "9": 3,
+          "10": 1,
+          "12": 2
+        },
+        "P. de salud: Privado": {
+          "3": 1,
+          "4": 1
+        },
+        "P. de salud: Público": {
+          "3": 110,
+          "4": 13,
+          "5": 13,
+          "6": 1,
+          "8": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "2": 1,
+          "3": 352,
+          "4": 210,
+          "5": 84,
+          "6": 28,
+          "7": 15,
+          "8": 2,
+          "9": 1,
+          "10": 1,
+          "11": 1
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 5,
+          "4": 20,
+          "5": 8,
+          "6": 1
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 61,
+          "4": 11,
+          "5": 2
+        },
+        "Ley Ricarte Soto": {}
+      },
+      "total": 2139
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Cascadas",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 8,
+          "4": 5
+        },
+        "Embarazadas": {
+          "3": 1,
+          "4": 1
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 50,
+          "4": 46,
+          "5": 8,
+          "6": 1
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 63,
+          "4": 4,
+          "5": 3
+        },
+        "Estrategia Capullo": {
+          "3": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 74,
+          "4": 10,
+          "5": 3,
+          "6": 1
+        },
+        "Otras prioridades": {
+          "3": 11,
+          "4": 15,
+          "5": 7,
+          "6": 2
+        },
+        "P. de salud: Privado": {
+          "3": 1
+        },
+        "P. de salud: Público": {
+          "3": 12,
+          "4": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 128,
+          "4": 73,
+          "5": 17,
+          "6": 2
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 1,
+          "4": 4,
+          "5": 5
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 20,
+          "5": 1
+        },
+        "GES": {},
+        "Ley Ricarte Soto": {}
+      },
+      "total": 579
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Rupanco",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 5,
+          "5": 1
+        },
+        "Embarazadas": {
+          "3": 1
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 128,
+          "4": 14,
+          "5": 23,
+          "6": 1
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 34,
+          "4": 6,
+          "5": 2,
+          "6": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 26,
+          "4": 8,
+          "5": 11,
+          "6": 1,
+          "7": 2,
+          "10": 1
+        },
+        "Otras prioridades": {
+          "3": 1,
+          "4": 4,
+          "5": 7
+        },
+        "P. de salud: Privado": {
+          "3": 1
+        },
+        "P. de salud: Público": {
+          "3": 15,
+          "4": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 131,
+          "4": 5,
+          "5": 8,
+          "6": 2
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 32,
+          "4": 19,
+          "5": 9
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 7,
+          "4": 1
+        },
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {}
+      },
+      "total": 508
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Coihueco (Puerto Octay)",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 1
+        },
+        "Embarazadas": {
+          "3": 2
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 88,
+          "4": 20,
+          "5": 2,
+          "6": 2
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 5,
+          "4": 13,
+          "5": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 9,
+          "4": 7,
+          "5": 3,
+          "10": 1
+        },
+        "Otras prioridades": {
+          "3": 5,
+          "4": 7,
+          "5": 2
+        },
+        "P. de salud: Público": {
+          "3": 31
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 139,
+          "4": 28,
+          "5": 1
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 4,
+          "4": 20,
+          "5": 5,
+          "6": 2
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 1,
+          "4": 4
+        },
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "P. de salud: Privado": {}
+      },
+      "total": 403
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural La Calo",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 3
+        },
+        "Embarazadas": {
+          "3": 1
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 79,
+          "4": 35,
+          "5": 3
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 7,
+          "4": 2
+        },
+        "Estrategia Capullo": {
+          "3": 4
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 6,
+          "4": 11,
+          "5": 4
+        },
+        "Otras prioridades": {
+          "3": 10,
+          "4": 12,
+          "5": 2
+        },
+        "P. de salud: Privado": {
+          "3": 1
+        },
+        "P. de salud: Público": {
+          "3": 2,
+          "4": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 51,
+          "4": 30,
+          "5": 6
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 10,
+          "4": 21,
+          "5": 1
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 2
+        },
+        "GES": {},
+        "Ley Ricarte Soto": {}
+      },
+      "total": 304
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Piedras Negras",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 1,
+          "4": 1
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 44,
+          "4": 29,
+          "5": 1
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 26,
+          "4": 3
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 10,
+          "4": 4,
+          "5": 4
+        },
+        "Otras prioridades": {
+          "3": 4,
+          "4": 9,
+          "5": 2
+        },
+        "P. de salud: Público": {
+          "3": 9
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 92,
+          "4": 32,
+          "5": 4,
+          "6": 1
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "4": 13,
+          "5": 5
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 4,
+          "4": 2
+        },
+        "Embarazadas": {},
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "P. de salud: Privado": {}
+      },
+      "total": 300
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Pellinada",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 2,
+          "5": 1
+        },
+        "Embarazadas": {
+          "3": 1,
+          "6": 1
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 50,
+          "4": 19
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 2,
+          "4": 3
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 9,
+          "4": 4,
+          "5": 1
+        },
+        "Otras prioridades": {
+          "3": 22,
+          "4": 3,
+          "5": 1
+        },
+        "P. de salud: Público": {
+          "3": 4,
+          "6": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 97,
+          "4": 14
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 7,
+          "4": 25,
+          "5": 5,
+          "6": 1
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 4,
+          "4": 4
+        },
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "P. de salud: Privado": {}
+      },
+      "total": 281
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 71,
+          "4": 37,
+          "5": 8,
+          "6": 2
+        },
+        "Embarazadas": {
+          "1": 10,
+          "3": 51,
+          "4": 15,
+          "5": 13,
+          "6": 6,
+          "7": 7,
+          "8": 7,
+          "9": 8,
+          "10": 7,
+          "11": 3,
+          "12": 3
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "1": 1,
+          "3": 1067,
+          "4": 970,
+          "5": 425,
+          "6": 94,
+          "7": 17,
+          "8": 14,
+          "9": 34,
+          "10": 13,
+          "11": 11,
+          "12": 4
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 501,
+          "4": 536,
+          "5": 18,
+          "6": 9,
+          "7": 3,
+          "8": 4,
+          "9": 1,
+          "12": 1
+        },
+        "Estrategia Capullo": {
+          "3": 6,
+          "4": 4,
+          "5": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "1": 7,
+          "3": 448,
+          "4": 339,
+          "5": 112,
+          "6": 66,
+          "7": 42,
+          "8": 34,
+          "9": 39,
+          "10": 33,
+          "11": 40,
+          "12": 15
+        },
+        "Otras prioridades": {
+          "3": 46,
+          "4": 42,
+          "5": 12,
+          "6": 5,
+          "7": 24,
+          "8": 14,
+          "9": 23,
+          "10": 1,
+          "11": 7,
+          "12": 4
+        },
+        "P. de salud: Privado": {
+          "3": 12,
+          "4": 14,
+          "5": 2,
+          "6": 1
+        },
+        "P. de salud: Público": {
+          "3": 266,
+          "4": 60,
+          "5": 17,
+          "6": 9,
+          "7": 3,
+          "8": 1,
+          "10": 2,
+          "11": 1,
+          "12": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 2085,
+          "4": 884,
+          "5": 271,
+          "6": 55,
+          "7": 23,
+          "8": 16,
+          "9": 22,
+          "10": 28,
+          "11": 5,
+          "12": 3
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 23,
+          "4": 35,
+          "5": 19,
+          "6": 2
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 101,
+          "4": 88,
+          "5": 5,
+          "6": 3
+        },
+        "GES": {},
+        "Ley Ricarte Soto": {}
+      },
+      "total": 9392
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Corte Alto",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 3,
+          "4": 7,
+          "5": 3,
+          "6": 2
+        },
+        "Embarazadas": {
+          "3": 3,
+          "4": 3,
+          "5": 1,
+          "8": 1,
+          "9": 2
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 74,
+          "4": 64,
+          "5": 17,
+          "6": 8,
+          "7": 1
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 89,
+          "4": 36,
+          "5": 1,
+          "6": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 45,
+          "4": 17,
+          "5": 9,
+          "6": 2,
+          "7": 2,
+          "9": 1
+        },
+        "Otras prioridades": {
+          "4": 1,
+          "6": 2
+        },
+        "P. de salud: Público": {
+          "3": 13,
+          "4": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 195,
+          "4": 98,
+          "5": 14,
+          "6": 6,
+          "8": 1
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "4": 7
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 27,
+          "4": 6,
+          "5": 1
+        },
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "P. de salud: Privado": {}
+      },
+      "total": 764
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Hospital de Purranque Dr. Juan Hepp Dubiau",
+      "tipo": "Público",
+      "datos": {
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 1
+        },
+        "Otras prioridades": {
+          "3": 3,
+          "5": 4
+        },
+        "P. de salud: Público": {
+          "3": 160,
+          "4": 18,
+          "5": 14
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 8,
+          "4": 4
+        },
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {},
+        "Embarazadas": {},
+        "Escolares de 1° a 5° año básico": {},
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "Niños y niñas de 6 meses a 5 años de edad": {},
+        "P. de salud: Privado": {},
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {},
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {}
+      },
+      "total": 212
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Colonia Ponce",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "4": 4
+        },
+        "Otras prioridades": {
+          "4": 2
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "4": 30
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "4": 4
+        },
+        "Embarazadas": {},
+        "Enfermos cronicos de 11 a 59 años de edad": {},
+        "Escolares de 1° a 5° año básico": {},
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "Niños y niñas de 6 meses a 5 años de edad": {},
+        "P. de salud: Privado": {},
+        "P. de salud: Público": {},
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {}
+      },
+      "total": 40
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Hueyusca",
+      "tipo": "Público",
+      "datos": {
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "5": 2
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "5": 1,
+          "11": 1
+        },
+        "Otras prioridades": {
+          "6": 1
+        },
+        "P. de salud: Público": {
+          "6": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "5": 3,
+          "6": 1
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "5": 1
+        },
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {},
+        "Embarazadas": {},
+        "Escolares de 1° a 5° año básico": {},
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "P. de salud: Privado": {},
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {}
+      },
+      "total": 11
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural La Naranja",
+      "tipo": "Público",
+      "datos": {
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "9": 2
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "9": 1
+        },
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {},
+        "Embarazadas": {},
+        "Escolares de 1° a 5° año básico": {},
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "Niños y niñas de 6 meses a 5 años de edad": {},
+        "Otras prioridades": {},
+        "P. de salud: Privado": {},
+        "P. de salud: Público": {},
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {},
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {}
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Crucero ( Purranque)",
+      "tipo": "Público",
+      "datos": {
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "9": 1
+        },
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {},
+        "Embarazadas": {},
+        "Escolares de 1° a 5° año básico": {},
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "Niños y niñas de 6 meses a 5 años de edad": {},
+        "Otras prioridades": {},
+        "P. de salud: Privado": {},
+        "P. de salud: Público": {},
+        "Personas mayores de 60 años y más (año 1966)": {},
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {},
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {}
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 49,
+          "4": 48,
+          "5": 14,
+          "6": 2
+        },
+        "Embarazadas": {
+          "1": 6,
+          "3": 28,
+          "4": 18,
+          "5": 7,
+          "6": 7,
+          "7": 9,
+          "8": 4,
+          "9": 6,
+          "10": 7,
+          "11": 2
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 554,
+          "4": 456,
+          "5": 190,
+          "6": 66,
+          "7": 24,
+          "8": 10,
+          "9": 1,
+          "10": 4
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 543,
+          "4": 52,
+          "5": 14,
+          "7": 3,
+          "8": 2
+        },
+        "Estrategia Capullo": {
+          "3": 2,
+          "4": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "1": 4,
+          "3": 317,
+          "4": 158,
+          "5": 76,
+          "6": 31,
+          "7": 31,
+          "8": 22,
+          "9": 24,
+          "10": 16,
+          "11": 7,
+          "12": 1
+        },
+        "Otras prioridades": {
+          "1": 1,
+          "3": 39,
+          "4": 155,
+          "5": 16,
+          "6": 2,
+          "7": 18,
+          "8": 2
+        },
+        "P. de salud: Privado": {
+          "3": 5,
+          "4": 8,
+          "5": 2,
+          "6": 1
+        },
+        "P. de salud: Público": {
+          "3": 140,
+          "4": 65,
+          "5": 8,
+          "6": 4,
+          "7": 5,
+          "9": 1,
+          "10": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 1019,
+          "4": 664,
+          "5": 185,
+          "6": 81,
+          "7": 35,
+          "8": 8,
+          "9": 10,
+          "10": 3
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 31,
+          "4": 147,
+          "5": 14,
+          "6": 1
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 117,
+          "4": 17,
+          "5": 2
+        },
+        "GES": {},
+        "Ley Ricarte Soto": {}
+      },
+      "total": 5623
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro Comunitario de Salud Familiar El Encanto",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 1
+        },
+        "Embarazadas": {
+          "3": 4,
+          "4": 1
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 86,
+          "4": 27,
+          "5": 5,
+          "6": 2
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 2,
+          "4": 40,
+          "7": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 9,
+          "4": 17,
+          "5": 4,
+          "6": 1,
+          "7": 4,
+          "8": 1
+        },
+        "Otras prioridades": {
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1
+        },
+        "P. de salud: Público": {
+          "3": 10,
+          "4": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 238,
+          "4": 39,
+          "5": 6,
+          "6": 4,
+          "7": 1,
+          "8": 2
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 3,
+          "5": 1,
+          "6": 1
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "4": 22
+        },
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "P. de salud: Privado": {}
+      },
+      "total": 538
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Posta de Salud Rural Desagüe Rupanco",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 1
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 42,
+          "4": 8,
+          "5": 12
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 18,
+          "4": 6
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 6,
+          "4": 5,
+          "5": 2,
+          "6": 1,
+          "8": 1
+        },
+        "Otras prioridades": {
+          "3": 1
+        },
+        "P. de salud: Público": {
+          "3": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 59,
+          "4": 14,
+          "6": 1
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 3,
+          "4": 3,
+          "5": 1
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 8,
+          "4": 1,
+          "8": 1
+        },
+        "Embarazadas": {},
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "P. de salud: Privado": {}
+      },
+      "total": 195
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Posta de Salud Rural Ñadi Pichi-Damas",
+      "tipo": "Público",
+      "datos": {
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 36,
+          "4": 17,
+          "5": 3,
+          "8": 1
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 17
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 4,
+          "4": 2,
+          "5": 1,
+          "9": 1
+        },
+        "Otras prioridades": {
+          "3": 3
+        },
+        "P. de salud: Público": {
+          "3": 2
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 73,
+          "4": 11,
+          "5": 1,
+          "6": 2
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 4
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 5,
+          "4": 1
+        },
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {},
+        "Embarazadas": {},
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "P. de salud: Privado": {}
+      },
+      "total": 184
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Posta de Salud Rural Puyehue",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "4": 1
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 7,
+          "4": 3
+        },
+        "Escolares de 1° a 5° año básico": {
+          "4": 9
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 2,
+          "4": 1,
+          "5": 1
+        },
+        "Otras prioridades": {
+          "4": 1
+        },
+        "P. de salud: Privado": {
+          "3": 1
+        },
+        "P. de salud: Público": {
+          "4": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 10,
+          "4": 6
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "4": 2
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "4": 3
+        },
+        "Embarazadas": {},
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {}
+      },
+      "total": 48
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 54,
+          "4": 15,
+          "5": 21,
+          "6": 1,
+          "7": 1
+        },
+        "Embarazadas": {
+          "1": 4,
+          "3": 18,
+          "4": 20,
+          "5": 4,
+          "6": 7,
+          "7": 4,
+          "8": 7,
+          "9": 1,
+          "10": 2,
+          "11": 3,
+          "12": 4
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 348,
+          "4": 387,
+          "5": 207,
+          "6": 21,
+          "7": 17,
+          "8": 9,
+          "9": 7,
+          "10": 1,
+          "11": 4,
+          "12": 1
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 442,
+          "4": 76,
+          "5": 32,
+          "6": 2,
+          "7": 6,
+          "8": 4,
+          "9": 1
+        },
+        "Estrategia Capullo": {
+          "3": 13,
+          "5": 7
+        },
+        "Ley Ricarte Soto": {
+          "5": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "1": 1,
+          "3": 288,
+          "4": 176,
+          "5": 83,
+          "6": 24,
+          "7": 30,
+          "8": 22,
+          "9": 20,
+          "10": 19,
+          "11": 15,
+          "12": 11
+        },
+        "Otras prioridades": {
+          "3": 78,
+          "4": 386,
+          "5": 83,
+          "6": 13,
+          "7": 34,
+          "8": 24,
+          "9": 11,
+          "10": 6,
+          "11": 2,
+          "12": 1
+        },
+        "P. de salud: Privado": {
+          "3": 2,
+          "4": 4,
+          "5": 5,
+          "6": 2
+        },
+        "P. de salud: Público": {
+          "3": 122,
+          "4": 32,
+          "5": 2,
+          "6": 2,
+          "8": 3,
+          "9": 1,
+          "12": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 846,
+          "4": 661,
+          "5": 243,
+          "6": 42,
+          "7": 32,
+          "8": 20,
+          "9": 11,
+          "10": 5,
+          "11": 5,
+          "12": 1
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 63,
+          "4": 372,
+          "5": 26,
+          "6": 6,
+          "8": 2
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 96,
+          "4": 39,
+          "5": 14,
+          "6": 4,
+          "7": 1
+        },
+        "GES": {}
+      },
+      "total": 5744
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro Comunitario de Salud Familiar Riachuelo",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 12
+        },
+        "Embarazadas": {
+          "3": 3,
+          "4": 2,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "11": 1
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 50,
+          "4": 91,
+          "5": 14,
+          "6": 2
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 3,
+          "4": 82,
+          "5": 5,
+          "8": 4,
+          "11": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 6,
+          "4": 40,
+          "5": 11,
+          "6": 1,
+          "7": 4,
+          "8": 1,
+          "11": 2
+        },
+        "Otras prioridades": {
+          "3": 18,
+          "4": 20,
+          "5": 2,
+          "6": 1,
+          "7": 1,
+          "8": 1
+        },
+        "P. de salud: Público": {
+          "3": 12,
+          "4": 3,
+          "8": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 122,
+          "4": 145,
+          "5": 29,
+          "6": 2,
+          "7": 1,
+          "8": 4
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 3
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 1,
+          "4": 28,
+          "5": 6,
+          "8": 1
+        },
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "P. de salud: Privado": {}
+      },
+      "total": 739
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Posta de Salud Rural Huilma",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 6,
+          "4": 4
+        },
+        "Embarazadas": {
+          "4": 1,
+          "5": 1,
+          "9": 1
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 66,
+          "4": 31,
+          "5": 4
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 3,
+          "4": 4,
+          "6": 2,
+          "9": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 5,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "11": 1
+        },
+        "Otras prioridades": {
+          "4": 2,
+          "7": 1
+        },
+        "P. de salud: Público": {
+          "3": 7,
+          "4": 3
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 159,
+          "4": 34,
+          "5": 7,
+          "6": 3,
+          "8": 1,
+          "9": 2
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 11,
+          "4": 5,
+          "5": 1,
+          "6": 1
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 1
+        },
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "P. de salud: Privado": {}
+      },
+      "total": 372
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Posta de Salud Rural Tres Esteros",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 9,
+          "4": 2,
+          "5": 1,
+          "10": 1
+        },
+        "Embarazadas": {
+          "3": 1
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 44,
+          "4": 19,
+          "5": 2,
+          "6": 1
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 3,
+          "4": 1
+        },
+        "Estrategia Capullo": {
+          "3": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 8,
+          "4": 2,
+          "7": 1,
+          "11": 1
+        },
+        "Otras prioridades": {
+          "3": 2,
+          "4": 4,
+          "5": 1,
+          "7": 2
+        },
+        "P. de salud: Público": {
+          "3": 8
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 88,
+          "4": 18,
+          "5": 1,
+          "6": 1,
+          "8": 2,
+          "10": 2,
+          "11": 1
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 9,
+          "4": 6
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "4": 1
+        },
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "P. de salud: Privado": {}
+      },
+      "total": 243
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Hospital de Río Negro",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 5,
+          "4": 2
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 6,
+          "4": 1,
+          "7": 1
+        },
+        "Escolares de 1° a 5° año básico": {
+          "4": 1
+        },
+        "Otras prioridades": {
+          "4": 1,
+          "6": 3
+        },
+        "P. de salud: Público": {
+          "3": 121,
+          "4": 7,
+          "6": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 34,
+          "4": 4,
+          "5": 12,
+          "9": 1
+        },
+        "Embarazadas": {},
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "Niños y niñas de 6 meses a 5 años de edad": {},
+        "P. de salud: Privado": {},
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {},
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {}
+      },
+      "total": 200
+    },
+    {
+      "comuna": "San Juan de la Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 22,
+          "4": 12,
+          "5": 4,
+          "6": 6
+        },
+        "Embarazadas": {
+          "3": 14,
+          "4": 2,
+          "6": 2,
+          "7": 1,
+          "8": 2
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 243,
+          "4": 125,
+          "5": 113,
+          "6": 59,
+          "7": 7,
+          "8": 4
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 153,
+          "4": 29,
+          "5": 4,
+          "6": 7,
+          "7": 3,
+          "8": 5
+        },
+        "Estrategia Capullo": {
+          "3": 2,
+          "4": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 59,
+          "4": 55,
+          "5": 32,
+          "6": 18,
+          "7": 4,
+          "8": 6,
+          "9": 8,
+          "10": 9,
+          "11": 8,
+          "12": 3
+        },
+        "Otras prioridades": {
+          "3": 29,
+          "4": 16,
+          "5": 5,
+          "6": 7,
+          "7": 3,
+          "8": 10,
+          "9": 2
+        },
+        "P. de salud: Privado": {
+          "3": 2,
+          "4": 3,
+          "5": 1,
+          "6": 1,
+          "7": 1
+        },
+        "P. de salud: Público": {
+          "3": 99,
+          "4": 17,
+          "6": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 457,
+          "4": 232,
+          "5": 114,
+          "6": 52,
+          "7": 9,
+          "8": 3,
+          "10": 1,
+          "11": 3
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 18,
+          "4": 8,
+          "5": 8,
+          "6": 9,
+          "7": 2,
+          "10": 2,
+          "12": 1
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 29,
+          "4": 12,
+          "5": 2,
+          "8": 1
+        },
+        "GES": {},
+        "Ley Ricarte Soto": {}
+      },
+      "total": 2182
+    },
+    {
+      "comuna": "San Juan de la Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 11,
+          "4": 3
+        },
+        "Embarazadas": {
+          "3": 9,
+          "4": 5,
+          "7": 1,
+          "11": 1
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 135,
+          "4": 106,
+          "5": 52,
+          "6": 34,
+          "7": 5,
+          "8": 4,
+          "10": 2,
+          "11": 1,
+          "12": 1
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 24,
+          "4": 49,
+          "5": 1,
+          "7": 2,
+          "8": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "1": 1,
+          "3": 27,
+          "4": 60,
+          "5": 18,
+          "6": 6,
+          "7": 4,
+          "8": 2,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 1
+        },
+        "Otras prioridades": {
+          "3": 8,
+          "4": 24,
+          "5": 12,
+          "6": 16,
+          "7": 2,
+          "8": 1,
+          "9": 1,
+          "10": 3
+        },
+        "P. de salud: Privado": {
+          "5": 1
+        },
+        "P. de salud: Público": {
+          "3": 49,
+          "4": 7,
+          "5": 1,
+          "6": 4,
+          "11": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 364,
+          "4": 122,
+          "5": 52,
+          "6": 23,
+          "7": 7,
+          "8": 4,
+          "9": 2,
+          "10": 6,
+          "12": 1
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 30,
+          "4": 10,
+          "5": 2,
+          "6": 2,
+          "8": 1
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 6,
+          "4": 35,
+          "5": 1,
+          "6": 1
+        },
+        "Estrategia Capullo": {},
+        "GES": {},
+        "Ley Ricarte Soto": {}
+      },
+      "total": 1374
+    },
+    {
+      "comuna": "San Juan de la Costa",
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 27,
+          "4": 22,
+          "5": 8,
+          "6": 2
+        },
+        "Embarazadas": {
+          "4": 1,
+          "7": 1,
+          "8": 1
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 116,
+          "4": 59,
+          "5": 58,
+          "6": 22,
+          "7": 2,
+          "8": 1,
+          "11": 2,
+          "12": 3
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 85,
+          "4": 25,
+          "5": 19,
+          "7": 2,
+          "8": 1
+        },
+        "GES": {
+          "5": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 30,
+          "4": 25,
+          "5": 20,
+          "6": 6,
+          "7": 6,
+          "8": 3,
+          "11": 2,
+          "12": 1
+        },
+        "Otras prioridades": {
+          "3": 1,
+          "4": 1,
+          "5": 2,
+          "6": 2,
+          "7": 8,
+          "8": 13,
+          "9": 5,
+          "12": 2
+        },
+        "P. de salud: Público": {
+          "3": 101,
+          "4": 21,
+          "5": 2,
+          "6": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 311,
+          "4": 118,
+          "5": 94,
+          "6": 24,
+          "7": 4,
+          "8": 6,
+          "9": 2,
+          "10": 1,
+          "11": 2,
+          "12": 2
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 18,
+          "4": 11,
+          "6": 1,
+          "11": 1
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 26,
+          "4": 9,
+          "5": 9
+        },
+        "Estrategia Capullo": {},
+        "Ley Ricarte Soto": {},
+        "P. de salud: Privado": {}
+      },
+      "total": 1349
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 20,
+          "4": 24,
+          "5": 5,
+          "6": 2
+        },
+        "Embarazadas": {
+          "3": 21,
+          "4": 14,
+          "5": 8,
+          "6": 6,
+          "7": 7,
+          "8": 1,
+          "9": 5,
+          "10": 1,
+          "12": 2
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 332,
+          "4": 257,
+          "5": 168,
+          "6": 54,
+          "7": 20,
+          "8": 13,
+          "9": 4,
+          "10": 7,
+          "11": 5
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 41,
+          "4": 378,
+          "5": 22,
+          "6": 8,
+          "7": 2,
+          "8": 1,
+          "9": 1,
+          "11": 3
+        },
+        "Estrategia Capullo": {
+          "3": 7,
+          "4": 2,
+          "5": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 100,
+          "4": 212,
+          "5": 94,
+          "6": 34,
+          "7": 27,
+          "8": 14,
+          "9": 9,
+          "10": 12,
+          "11": 6,
+          "12": 8
+        },
+        "Otras prioridades": {
+          "3": 22,
+          "4": 58,
+          "5": 24,
+          "6": 17,
+          "7": 31,
+          "8": 8,
+          "9": 10,
+          "10": 7,
+          "11": 1,
+          "12": 4
+        },
+        "P. de salud: Privado": {
+          "3": 3,
+          "4": 4,
+          "5": 2,
+          "7": 1
+        },
+        "P. de salud: Público": {
+          "3": 108,
+          "4": 72,
+          "5": 25,
+          "6": 9,
+          "7": 1,
+          "9": 1
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 692,
+          "4": 387,
+          "5": 169,
+          "6": 76,
+          "7": 19,
+          "8": 4,
+          "9": 2,
+          "10": 5,
+          "11": 5,
+          "12": 4
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 17,
+          "4": 12,
+          "5": 24,
+          "6": 1
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 1,
+          "4": 97,
+          "5": 7,
+          "6": 4
+        },
+        "GES": {},
+        "Ley Ricarte Soto": {}
+      },
+      "total": 3892
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "tipo": "Público",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": {
+          "3": 4,
+          "4": 6,
+          "5": 1
+        },
+        "Embarazadas": {
+          "3": 5,
+          "4": 1,
+          "10": 1,
+          "11": 2
+        },
+        "Enfermos cronicos de 11 a 59 años de edad": {
+          "3": 93,
+          "4": 78,
+          "5": 48,
+          "6": 12,
+          "7": 9,
+          "9": 1
+        },
+        "Escolares de 1° a 5° año básico": {
+          "3": 114,
+          "4": 2,
+          "5": 8,
+          "6": 1,
+          "7": 1,
+          "9": 2,
+          "10": 2
+        },
+        "Estrategia Capullo": {
+          "3": 2,
+          "5": 1
+        },
+        "Niños y niñas de 6 meses a 5 años de edad": {
+          "3": 44,
+          "4": 18,
+          "5": 17,
+          "6": 4,
+          "7": 6,
+          "9": 4,
+          "10": 4,
+          "12": 4
+        },
+        "Otras prioridades": {
+          "3": 12,
+          "4": 7,
+          "5": 3,
+          "7": 17,
+          "8": 2,
+          "11": 1,
+          "12": 2
+        },
+        "P. de salud: Público": {
+          "3": 69,
+          "4": 23,
+          "5": 5,
+          "6": 2
+        },
+        "Personas mayores de 60 años y más (año 1966)": {
+          "3": 349,
+          "4": 175,
+          "5": 56,
+          "6": 15,
+          "7": 10,
+          "8": 1,
+          "9": 3,
+          "10": 2,
+          "12": 1
+        },
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": {
+          "3": 16,
+          "4": 6,
+          "5": 3,
+          "6": 1
+        },
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": {
+          "3": 65,
+          "4": 1,
+          "5": 2
+        },
+        "GES": {},
+        "Ley Ricarte Soto": {},
+        "P. de salud: Privado": {}
+      },
+      "total": 1344
+    }
+  ],
+  "data_residencia": [
+    {
+      "comuna": "Osorno",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 1326,
+        "Embarazadas": 997,
+        "Enfermos cronicos de 11 a 59 años de edad": 14607,
+        "Escolares de 1° a 5° año básico": 9710,
+        "Estrategia Capullo": 81,
+        "GES": 1,
+        "Ley Ricarte Soto": 11,
+        "Niños y niñas de 6 meses a 5 años de edad": 9019,
+        "Otras prioridades": 6122,
+        "P. de salud: Privado": 989,
+        "P. de salud: Público": 4449,
+        "Personas mayores de 60 años y más (año 1966)": 22393,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 317,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 2639
+      },
+      "total": 72661
+    },
+    {
+      "comuna": "Puerto Octay",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 69,
+        "Embarazadas": 47,
+        "Enfermos cronicos de 11 a 59 años de edad": 987,
+        "Escolares de 1° a 5° año básico": 534,
+        "Estrategia Capullo": 6,
+        "GES": 1,
+        "Niños y niñas de 6 meses a 5 años de edad": 534,
+        "Otras prioridades": 256,
+        "P. de salud: Privado": 9,
+        "P. de salud: Público": 201,
+        "Personas mayores de 60 años y más (año 1966)": 1566,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 223,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 124,
+        "Ley Ricarte Soto": 0
+      },
+      "total": 4557
+    },
+    {
+      "comuna": "Purranque",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 137,
+        "Embarazadas": 141,
+        "Enfermos cronicos de 11 a 59 años de edad": 2840,
+        "Escolares de 1° a 5° año básico": 1201,
+        "Estrategia Capullo": 15,
+        "Niños y niñas de 6 meses a 5 años de edad": 1257,
+        "Otras prioridades": 200,
+        "P. de salud: Privado": 34,
+        "P. de salud: Público": 567,
+        "Personas mayores de 60 años y más (año 1966)": 3756,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 95,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 229,
+        "GES": 0,
+        "Ley Ricarte Soto": 0
+      },
+      "total": 10472
+    },
+    {
+      "comuna": "Puyehue",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 113,
+        "Embarazadas": 99,
+        "Enfermos cronicos de 11 a 59 años de edad": 1564,
+        "Escolares de 1° a 5° año básico": 707,
+        "Estrategia Capullo": 5,
+        "Ley Ricarte Soto": 1,
+        "Niños y niñas de 6 meses a 5 años de edad": 747,
+        "Otras prioridades": 242,
+        "P. de salud: Privado": 16,
+        "P. de salud: Público": 250,
+        "Personas mayores de 60 años y más (año 1966)": 2456,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 211,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 177,
+        "GES": 0
+      },
+      "total": 6588
+    },
+    {
+      "comuna": "Río Negro",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 134,
+        "Embarazadas": 87,
+        "Enfermos cronicos de 11 a 59 años de edad": 1343,
+        "Escolares de 1° a 5° año básico": 672,
+        "Estrategia Capullo": 21,
+        "Ley Ricarte Soto": 1,
+        "Niños y niñas de 6 meses a 5 años de edad": 778,
+        "Otras prioridades": 703,
+        "P. de salud: Privado": 14,
+        "P. de salud: Público": 309,
+        "Personas mayores de 60 años y más (año 1966)": 2551,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 506,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 193,
+        "GES": 0
+      },
+      "total": 7312
+    },
+    {
+      "comuna": "San Juan de la Costa",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 111,
+        "Embarazadas": 40,
+        "Enfermos cronicos de 11 a 59 años de edad": 1140,
+        "Escolares de 1° a 5° año básico": 406,
+        "Estrategia Capullo": 3,
+        "GES": 1,
+        "Niños y niñas de 6 meses a 5 años de edad": 429,
+        "Otras prioridades": 175,
+        "P. de salud: Privado": 11,
+        "P. de salud: Público": 260,
+        "Personas mayores de 60 años y más (año 1966)": 1989,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 119,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 131,
+        "Ley Ricarte Soto": 0
+      },
+      "total": 4815
+    },
+    {
+      "comuna": "San Pablo",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 62,
+        "Embarazadas": 75,
+        "Enfermos cronicos de 11 a 59 años de edad": 1094,
+        "Escolares de 1° a 5° año básico": 583,
+        "Estrategia Capullo": 13,
+        "Niños y niñas de 6 meses a 5 años de edad": 617,
+        "Otras prioridades": 225,
+        "P. de salud: Privado": 11,
+        "P. de salud: Público": 273,
+        "Personas mayores de 60 años y más (año 1966)": 1952,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 80,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 177,
+        "GES": 0,
+        "Ley Ricarte Soto": 0
+      },
+      "total": 5162
+    }
+  ],
+  "avance_semanal": {
+    "TOTAL_PROVINCIAL": {
+      "9": 139,
+      "10": 7988,
+      "11": 8091,
+      "12": 11770,
+      "13": 12536,
+      "14": 10851,
+      "15": 10943,
+      "16": 6695,
+      "17": 6826,
+      "18": 4347,
+      "19": 4566,
+      "20": 4300,
+      "21": 2931,
+      "22": 1979,
+      "23": 1533,
+      "24": 1536,
+      "25": 954,
+      "26": 781,
+      "27": 549,
+      "28": 567,
+      "29": 373,
+      "30": 372,
+      "31": 327,
+      "32": 303,
+      "33": 187,
+      "34": 202,
+      "35": 232,
+      "36": 162,
+      "37": 158,
+      "38": 77,
+      "39": 150,
+      "40": 133,
+      "41": 126,
+      "42": 138,
+      "43": 124,
+      "44": 64,
+      "45": 122,
+      "46": 107,
+      "47": 81,
+      "48": 63,
+      "49": 59,
+      "50": 45,
+      "51": 50,
+      "52": 27,
+      "53": 22
+    },
+    "Osorno": {
+      "9": 137,
+      "10": 4712,
+      "11": 4596,
+      "12": 6264,
+      "13": 6544,
+      "14": 7160,
+      "15": 7641,
+      "16": 4508,
+      "17": 4845,
+      "18": 3208,
+      "19": 3258,
+      "20": 3174,
+      "21": 2209,
+      "22": 1438,
+      "23": 1144,
+      "24": 1122,
+      "25": 758,
+      "26": 584,
+      "27": 403,
+      "28": 422,
+      "29": 285,
+      "30": 271,
+      "31": 242,
+      "32": 190,
+      "33": 126,
+      "34": 143,
+      "35": 160,
+      "36": 78,
+      "37": 81,
+      "38": 39,
+      "39": 96,
+      "40": 79,
+      "41": 70,
+      "42": 87,
+      "43": 75,
+      "44": 39,
+      "45": 70,
+      "46": 76,
+      "47": 42,
+      "48": 30,
+      "49": 31,
+      "50": 31,
+      "51": 36,
+      "52": 7,
+      "53": 11
+    },
+    "Puerto Octay": {
+      "9": 1,
+      "10": 124,
+      "11": 350,
+      "12": 662,
+      "13": 1351,
+      "14": 467,
+      "15": 371,
+      "16": 180,
+      "17": 172,
+      "18": 56,
+      "19": 120,
+      "20": 129,
+      "21": 64,
+      "22": 31,
+      "23": 36,
+      "24": 35,
+      "25": 9,
+      "26": 21,
+      "27": 18,
+      "28": 16,
+      "29": 5,
+      "30": 9,
+      "31": 7,
+      "32": 7,
+      "33": 6,
+      "34": 2,
+      "35": 6,
+      "36": 4,
+      "37": 6,
+      "38": 3,
+      "39": 5,
+      "40": 3,
+      "41": 2,
+      "42": 1,
+      "43": 2,
+      "44": 5,
+      "45": 2,
+      "46": 1,
+      "47": 2,
+      "49": 3,
+      "50": 1,
+      "51": 1,
+      "52": 3
+    },
+    "Purranque": {
+      "10": 1089,
+      "11": 708,
+      "12": 1516,
+      "13": 1735,
+      "14": 1085,
+      "15": 982,
+      "16": 533,
+      "17": 600,
+      "18": 345,
+      "19": 379,
+      "20": 251,
+      "21": 155,
+      "22": 139,
+      "23": 103,
+      "24": 78,
+      "25": 44,
+      "26": 41,
+      "27": 23,
+      "28": 33,
+      "29": 20,
+      "30": 21,
+      "31": 14,
+      "32": 23,
+      "33": 14,
+      "34": 17,
+      "35": 23,
+      "36": 40,
+      "37": 33,
+      "38": 16,
+      "39": 15,
+      "40": 29,
+      "41": 25,
+      "42": 18,
+      "43": 15,
+      "44": 4,
+      "45": 25,
+      "46": 11,
+      "47": 13,
+      "48": 12,
+      "49": 6,
+      "50": 4,
+      "51": 5,
+      "52": 7,
+      "53": 5
+    },
+    "Puyehue": {
+      "10": 542,
+      "11": 630,
+      "12": 1154,
+      "13": 973,
+      "14": 700,
+      "15": 378,
+      "16": 467,
+      "17": 324,
+      "18": 187,
+      "19": 181,
+      "20": 146,
+      "21": 113,
+      "22": 82,
+      "23": 77,
+      "24": 45,
+      "25": 36,
+      "26": 44,
+      "27": 31,
+      "28": 28,
+      "29": 17,
+      "30": 27,
+      "31": 17,
+      "32": 23,
+      "33": 9,
+      "34": 8,
+      "35": 9,
+      "36": 8,
+      "37": 15,
+      "38": 8,
+      "39": 13,
+      "40": 3,
+      "41": 5,
+      "42": 7,
+      "43": 11,
+      "44": 5,
+      "45": 2,
+      "46": 3,
+      "47": 2,
+      "48": 2,
+      "49": 1,
+      "52": 1
+    },
+    "Río Negro": {
+      "9": 1,
+      "10": 593,
+      "11": 632,
+      "12": 964,
+      "13": 885,
+      "14": 680,
+      "15": 607,
+      "16": 454,
+      "17": 400,
+      "18": 239,
+      "19": 268,
+      "20": 244,
+      "21": 108,
+      "22": 84,
+      "23": 32,
+      "24": 44,
+      "25": 28,
+      "26": 25,
+      "27": 31,
+      "28": 24,
+      "29": 11,
+      "30": 20,
+      "31": 23,
+      "32": 33,
+      "33": 11,
+      "34": 11,
+      "35": 21,
+      "36": 18,
+      "37": 11,
+      "38": 6,
+      "39": 8,
+      "40": 6,
+      "41": 10,
+      "42": 10,
+      "43": 4,
+      "44": 4,
+      "45": 9,
+      "46": 5,
+      "47": 11,
+      "48": 9,
+      "49": 6,
+      "50": 1,
+      "51": 4,
+      "52": 6,
+      "53": 1
+    },
+    "San Juan de la Costa": {
+      "10": 624,
+      "11": 632,
+      "12": 559,
+      "13": 517,
+      "14": 362,
+      "15": 333,
+      "16": 205,
+      "17": 216,
+      "18": 142,
+      "19": 155,
+      "20": 179,
+      "21": 155,
+      "22": 92,
+      "23": 65,
+      "24": 142,
+      "25": 42,
+      "26": 29,
+      "27": 23,
+      "28": 14,
+      "29": 10,
+      "30": 11,
+      "31": 6,
+      "32": 15,
+      "33": 9,
+      "34": 12,
+      "35": 9,
+      "36": 3,
+      "37": 4,
+      "38": 1,
+      "39": 7,
+      "40": 4,
+      "41": 7,
+      "42": 6,
+      "43": 8,
+      "44": 2,
+      "45": 10,
+      "46": 6,
+      "47": 6,
+      "48": 3,
+      "49": 4,
+      "50": 4,
+      "51": 1,
+      "52": 2,
+      "53": 2
+    },
+    "San Pablo": {
+      "10": 304,
+      "11": 543,
+      "12": 651,
+      "13": 531,
+      "14": 397,
+      "15": 631,
+      "16": 348,
+      "17": 269,
+      "18": 170,
+      "19": 205,
+      "20": 177,
+      "21": 127,
+      "22": 113,
+      "23": 76,
+      "24": 70,
+      "25": 37,
+      "26": 37,
+      "27": 20,
+      "28": 30,
+      "29": 25,
+      "30": 13,
+      "31": 18,
+      "32": 12,
+      "33": 12,
+      "34": 9,
+      "35": 4,
+      "36": 11,
+      "37": 8,
+      "38": 4,
+      "39": 6,
+      "40": 9,
+      "41": 7,
+      "42": 9,
+      "43": 9,
+      "44": 5,
+      "45": 4,
+      "46": 5,
+      "47": 5,
+      "48": 7,
+      "49": 8,
+      "50": 4,
+      "51": 3,
+      "52": 1,
+      "53": 3
+    }
+  },
+  "metas": {},
+  "pueblos_data": {
+    "Osorno": {
+      "Aymara": {
+        "total": 47,
+        "distribucion": {
+          "Adulto Mayor": 8,
+          "Crónicos": 9,
+          "Niños/as": 17,
+          "Otros": 13
+        }
+      },
+      "Colla": {
+        "total": 17,
+        "distribucion": {
+          "Adulto Mayor": 9,
+          "Crónicos": 4,
+          "Niños/as": 2,
+          "Otros": 2
+        }
+      },
+      "Diaguita": {
+        "total": 5,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Crónicos": 1,
+          "Otros": 3,
+          "Niños/as": 0
+        }
+      },
+      "Kawésqar": {
+        "total": 1,
+        "distribucion": {
+          "Crónicos": 1,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      },
+      "Lickanantay": {
+        "total": 5,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Crónicos": 2,
+          "Otros": 2,
+          "Niños/as": 0
+        }
+      },
+      "Mapuche": {
+        "total": 2874,
+        "distribucion": {
+          "Adulto Mayor": 871,
+          "Crónicos": 717,
+          "Niños/as": 397,
+          "Otros": 889
+        }
+      },
+      "Otro": {
+        "total": 2,
+        "distribucion": {
+          "Niños/as": 1,
+          "Otros": 1,
+          "Adulto Mayor": 0,
+          "Crónicos": 0
+        }
+      },
+      "Quechua": {
+        "total": 1,
+        "distribucion": {
+          "Otros": 1,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Crónicos": 0
+        }
+      },
+      "Rapa Nui O Pascuense": {
+        "total": 1,
+        "distribucion": {
+          "Crónicos": 1,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      }
+    },
+    "Puerto Octay": {
+      "Aymara": {
+        "total": 1,
+        "distribucion": {
+          "Niños/as": 1,
+          "Adulto Mayor": 0,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      },
+      "Colla": {
+        "total": 1,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Niños/as": 0,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      },
+      "Mapuche": {
+        "total": 140,
+        "distribucion": {
+          "Adulto Mayor": 47,
+          "Crónicos": 29,
+          "Niños/as": 29,
+          "Otros": 35
+        }
+      }
+    },
+    "Purranque": {
+      "Aymara": {
+        "total": 6,
+        "distribucion": {
+          "Crónicos": 5,
+          "Niños/as": 1,
+          "Adulto Mayor": 0,
+          "Otros": 0
+        }
+      },
+      "Colla": {
+        "total": 3,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Crónicos": 1,
+          "Niños/as": 1,
+          "Otros": 0
+        }
+      },
+      "Lickanantay": {
+        "total": 2,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Niños/as": 1,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      },
+      "Mapuche": {
+        "total": 485,
+        "distribucion": {
+          "Adulto Mayor": 158,
+          "Crónicos": 114,
+          "Niños/as": 139,
+          "Otros": 74
+        }
+      },
+      "Otro": {
+        "total": 6,
+        "distribucion": {
+          "Adulto Mayor": 4,
+          "Crónicos": 2,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      }
+    },
+    "Puyehue": {
+      "Colla": {
+        "total": 1,
+        "distribucion": {
+          "Otros": 1,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Crónicos": 0
+        }
+      },
+      "Mapuche": {
+        "total": 324,
+        "distribucion": {
+          "Adulto Mayor": 127,
+          "Crónicos": 84,
+          "Niños/as": 51,
+          "Otros": 62
+        }
+      },
+      "Yagán": {
+        "total": 1,
+        "distribucion": {
+          "Niños/as": 1,
+          "Adulto Mayor": 0,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      }
+    },
+    "Río Negro": {
+      "Aymara": {
+        "total": 4,
+        "distribucion": {
+          "Crónicos": 2,
+          "Niños/as": 1,
+          "Otros": 1,
+          "Adulto Mayor": 0
+        }
+      },
+      "Colla": {
+        "total": 2,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Crónicos": 1,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      },
+      "Diaguita": {
+        "total": 2,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Otros": 1,
+          "Niños/as": 0,
+          "Crónicos": 0
+        }
+      },
+      "Lickanantay": {
+        "total": 2,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Niños/as": 1,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      },
+      "Mapuche": {
+        "total": 1370,
+        "distribucion": {
+          "Adulto Mayor": 484,
+          "Crónicos": 339,
+          "Niños/as": 159,
+          "Otros": 388
+        }
+      },
+      "Otro": {
+        "total": 1,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Niños/as": 0,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      },
+      "Quechua": {
+        "total": 1,
+        "distribucion": {
+          "Crónicos": 1,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      },
+      "Rapa Nui O Pascuense": {
+        "total": 1,
+        "distribucion": {
+          "Crónicos": 1,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      }
+    },
+    "San Juan de la Costa": {
+      "Aymara": {
+        "total": 2,
+        "distribucion": {
+          "Adulto Mayor": 2,
+          "Niños/as": 0,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      },
+      "Colla": {
+        "total": 1,
+        "distribucion": {
+          "Crónicos": 1,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      },
+      "Lickanantay": {
+        "total": 3,
+        "distribucion": {
+          "Crónicos": 1,
+          "Niños/as": 1,
+          "Otros": 1,
+          "Adulto Mayor": 0
+        }
+      },
+      "Mapuche": {
+        "total": 1877,
+        "distribucion": {
+          "Adulto Mayor": 994,
+          "Crónicos": 492,
+          "Niños/as": 145,
+          "Otros": 246
+        }
+      },
+      "Quechua": {
+        "total": 1,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Niños/as": 0,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      }
+    },
+    "San Pablo": {
+      "Aymara": {
+        "total": 3,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Otros": 2,
+          "Niños/as": 0,
+          "Crónicos": 0
+        }
+      },
+      "Diaguita": {
+        "total": 3,
+        "distribucion": {
+          "Adulto Mayor": 2,
+          "Niños/as": 1,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      },
+      "Lickanantay": {
+        "total": 2,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Crónicos": 1,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      },
+      "Mapuche": {
+        "total": 1359,
+        "distribucion": {
+          "Adulto Mayor": 482,
+          "Crónicos": 323,
+          "Niños/as": 341,
+          "Otros": 213
+        }
+      },
+      "Otro": {
+        "total": 1,
+        "distribucion": {
+          "Crónicos": 1,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      },
+      "Yagán": {
+        "total": 1,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Niños/as": 0,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      }
+    },
+    "TOTAL_PROVINCIAL": {
+      "Aymara": {
+        "total": 63,
+        "distribucion": {
+          "Adulto Mayor": 11,
+          "Crónicos": 16,
+          "Niños/as": 20,
+          "Otros": 16
+        }
+      },
+      "Colla": {
+        "total": 25,
+        "distribucion": {
+          "Adulto Mayor": 12,
+          "Crónicos": 7,
+          "Niños/as": 3,
+          "Otros": 3
+        }
+      },
+      "Diaguita": {
+        "total": 10,
+        "distribucion": {
+          "Adulto Mayor": 4,
+          "Crónicos": 1,
+          "Niños/as": 1,
+          "Otros": 4
+        }
+      },
+      "Kawésqar": {
+        "total": 1,
+        "distribucion": {
+          "Crónicos": 1,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      },
+      "Lickanantay": {
+        "total": 14,
+        "distribucion": {
+          "Adulto Mayor": 4,
+          "Crónicos": 4,
+          "Niños/as": 3,
+          "Otros": 3
+        }
+      },
+      "Mapuche": {
+        "total": 8429,
+        "distribucion": {
+          "Adulto Mayor": 3163,
+          "Crónicos": 2098,
+          "Niños/as": 1261,
+          "Otros": 1907
+        }
+      },
+      "Otro": {
+        "total": 10,
+        "distribucion": {
+          "Adulto Mayor": 5,
+          "Crónicos": 3,
+          "Niños/as": 1,
+          "Otros": 1
+        }
+      },
+      "Quechua": {
+        "total": 3,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Crónicos": 1,
+          "Otros": 1,
+          "Niños/as": 0
+        }
+      },
+      "Rapa Nui O Pascuense": {
+        "total": 2,
+        "distribucion": {
+          "Crónicos": 2,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      },
+      "Yagán": {
+        "total": 2,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Niños/as": 1,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      }
+    }
+  },
+  "data_residencia_publico": [
+    {
+      "comuna": "Osorno",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 1309,
+        "Embarazadas": 939,
+        "Enfermos cronicos de 11 a 59 años de edad": 14340,
+        "Escolares de 1° a 5° año básico": 9599,
+        "Estrategia Capullo": 78,
+        "Ley Ricarte Soto": 10,
+        "Niños y niñas de 6 meses a 5 años de edad": 8311,
+        "Otras prioridades": 5389,
+        "P. de salud: Privado": 327,
+        "P. de salud: Público": 4430,
+        "Personas mayores de 60 años y más (año 1966)": 21739,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 227,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 2617,
+        "GES": 0
+      },
+      "total": 69315
+    },
+    {
+      "comuna": "Puerto Octay",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 69,
+        "Embarazadas": 47,
+        "Enfermos cronicos de 11 a 59 años de edad": 987,
+        "Escolares de 1° a 5° año básico": 534,
+        "Estrategia Capullo": 6,
+        "GES": 1,
+        "Niños y niñas de 6 meses a 5 años de edad": 534,
+        "Otras prioridades": 250,
+        "P. de salud: Privado": 8,
+        "P. de salud: Público": 201,
+        "Personas mayores de 60 años y más (año 1966)": 1566,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 223,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 124,
+        "Ley Ricarte Soto": 0
+      },
+      "total": 4550
+    },
+    {
+      "comuna": "Purranque",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 137,
+        "Embarazadas": 141,
+        "Enfermos cronicos de 11 a 59 años de edad": 2840,
+        "Escolares de 1° a 5° año básico": 1201,
+        "Estrategia Capullo": 15,
+        "Niños y niñas de 6 meses a 5 años de edad": 1257,
+        "Otras prioridades": 194,
+        "P. de salud: Privado": 34,
+        "P. de salud: Público": 567,
+        "Personas mayores de 60 años y más (año 1966)": 3756,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 91,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 229,
+        "GES": 0,
+        "Ley Ricarte Soto": 0
+      },
+      "total": 10462
+    },
+    {
+      "comuna": "Puyehue",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 113,
+        "Embarazadas": 99,
+        "Enfermos cronicos de 11 a 59 años de edad": 1564,
+        "Escolares de 1° a 5° año básico": 707,
+        "Estrategia Capullo": 5,
+        "Ley Ricarte Soto": 1,
+        "Niños y niñas de 6 meses a 5 años de edad": 745,
+        "Otras prioridades": 238,
+        "P. de salud: Privado": 16,
+        "P. de salud: Público": 250,
+        "Personas mayores de 60 años y más (año 1966)": 2456,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 211,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 177,
+        "GES": 0
+      },
+      "total": 6582
+    },
+    {
+      "comuna": "Río Negro",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 134,
+        "Embarazadas": 87,
+        "Enfermos cronicos de 11 a 59 años de edad": 1343,
+        "Escolares de 1° a 5° año básico": 672,
+        "Estrategia Capullo": 21,
+        "Ley Ricarte Soto": 1,
+        "Niños y niñas de 6 meses a 5 años de edad": 776,
+        "Otras prioridades": 702,
+        "P. de salud: Privado": 13,
+        "P. de salud: Público": 309,
+        "Personas mayores de 60 años y más (año 1966)": 2551,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 506,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 193,
+        "GES": 0
+      },
+      "total": 7308
+    },
+    {
+      "comuna": "San Juan de la Costa",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 111,
+        "Embarazadas": 40,
+        "Enfermos cronicos de 11 a 59 años de edad": 1140,
+        "Escolares de 1° a 5° año básico": 406,
+        "Estrategia Capullo": 3,
+        "GES": 1,
+        "Niños y niñas de 6 meses a 5 años de edad": 429,
+        "Otras prioridades": 173,
+        "P. de salud: Privado": 11,
+        "P. de salud: Público": 260,
+        "Personas mayores de 60 años y más (año 1966)": 1989,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 119,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 131,
+        "Ley Ricarte Soto": 0
+      },
+      "total": 4813
+    },
+    {
+      "comuna": "San Pablo",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 62,
+        "Embarazadas": 75,
+        "Enfermos cronicos de 11 a 59 años de edad": 1094,
+        "Escolares de 1° a 5° año básico": 583,
+        "Estrategia Capullo": 13,
+        "Niños y niñas de 6 meses a 5 años de edad": 616,
+        "Otras prioridades": 221,
+        "P. de salud: Privado": 11,
+        "P. de salud: Público": 273,
+        "Personas mayores de 60 años y más (año 1966)": 1952,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 80,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 177,
+        "GES": 0,
+        "Ley Ricarte Soto": 0
+      },
+      "total": 5157
+    }
+  ],
+  "avance_semanal_publico": {
+    "TOTAL_PROVINCIAL": {
+      "9": 93,
+      "10": 7519,
+      "11": 7941,
+      "12": 11641,
+      "13": 12300,
+      "14": 10611,
+      "15": 10676,
+      "16": 6490,
+      "17": 6680,
+      "18": 4285,
+      "19": 4487,
+      "20": 4190,
+      "21": 2856,
+      "22": 1926,
+      "23": 1487,
+      "24": 1508,
+      "25": 931,
+      "26": 751,
+      "27": 519,
+      "28": 546,
+      "29": 357,
+      "30": 355,
+      "31": 310,
+      "32": 295,
+      "33": 176,
+      "34": 192,
+      "35": 223,
+      "36": 150,
+      "37": 153,
+      "38": 71,
+      "39": 138,
+      "40": 120,
+      "41": 121,
+      "42": 131,
+      "43": 118,
+      "44": 59,
+      "45": 119,
+      "46": 101,
+      "47": 79,
+      "48": 63,
+      "49": 58,
+      "50": 43,
+      "51": 47,
+      "52": 27,
+      "53": 22
+    },
+    "Osorno": {
+      "9": 93,
+      "10": 4243,
+      "11": 4446,
+      "12": 6135,
+      "13": 6308,
+      "14": 6920,
+      "15": 7374,
+      "16": 4303,
+      "17": 4703,
+      "18": 3146,
+      "19": 3180,
+      "20": 3065,
+      "21": 2135,
+      "22": 1385,
+      "23": 1098,
+      "24": 1094,
+      "25": 735,
+      "26": 554,
+      "27": 373,
+      "28": 401,
+      "29": 269,
+      "30": 254,
+      "31": 225,
+      "32": 182,
+      "33": 115,
+      "34": 133,
+      "35": 151,
+      "36": 66,
+      "37": 76,
+      "38": 33,
+      "39": 85,
+      "40": 66,
+      "41": 65,
+      "42": 80,
+      "43": 69,
+      "44": 35,
+      "45": 67,
+      "46": 70,
+      "47": 40,
+      "48": 30,
+      "49": 30,
+      "50": 29,
+      "51": 33,
+      "52": 7,
+      "53": 11
+    },
+    "Puerto Octay": {
+      "10": 124,
+      "11": 350,
+      "12": 662,
+      "13": 1351,
+      "14": 467,
+      "15": 371,
+      "16": 180,
+      "17": 172,
+      "18": 56,
+      "19": 120,
+      "20": 129,
+      "21": 64,
+      "22": 31,
+      "23": 36,
+      "24": 35,
+      "25": 9,
+      "26": 21,
+      "27": 18,
+      "28": 16,
+      "29": 5,
+      "30": 9,
+      "31": 7,
+      "32": 7,
+      "33": 6,
+      "34": 2,
+      "35": 6,
+      "36": 4,
+      "37": 6,
+      "38": 3,
+      "39": 5,
+      "40": 3,
+      "41": 2,
+      "42": 1,
+      "43": 2,
+      "44": 5,
+      "45": 2,
+      "46": 1,
+      "47": 2,
+      "49": 3,
+      "50": 1,
+      "51": 1,
+      "52": 3
+    },
+    "Purranque": {
+      "10": 1089,
+      "11": 708,
+      "12": 1516,
+      "13": 1735,
+      "14": 1085,
+      "15": 982,
+      "16": 533,
+      "17": 596,
+      "18": 345,
+      "19": 379,
+      "20": 251,
+      "21": 155,
+      "22": 139,
+      "23": 103,
+      "24": 78,
+      "25": 44,
+      "26": 41,
+      "27": 23,
+      "28": 33,
+      "29": 20,
+      "30": 21,
+      "31": 14,
+      "32": 23,
+      "33": 14,
+      "34": 17,
+      "35": 23,
+      "36": 40,
+      "37": 33,
+      "38": 16,
+      "39": 15,
+      "40": 29,
+      "41": 25,
+      "42": 18,
+      "43": 15,
+      "44": 4,
+      "45": 25,
+      "46": 11,
+      "47": 13,
+      "48": 12,
+      "49": 6,
+      "50": 4,
+      "51": 5,
+      "52": 7,
+      "53": 5
+    },
+    "Puyehue": {
+      "10": 542,
+      "11": 630,
+      "12": 1154,
+      "13": 973,
+      "14": 700,
+      "15": 378,
+      "16": 467,
+      "17": 324,
+      "18": 187,
+      "19": 181,
+      "20": 145,
+      "21": 113,
+      "22": 82,
+      "23": 77,
+      "24": 45,
+      "25": 36,
+      "26": 44,
+      "27": 31,
+      "28": 28,
+      "29": 17,
+      "30": 27,
+      "31": 17,
+      "32": 23,
+      "33": 9,
+      "34": 8,
+      "35": 9,
+      "36": 8,
+      "37": 15,
+      "38": 8,
+      "39": 12,
+      "40": 3,
+      "41": 5,
+      "42": 7,
+      "43": 11,
+      "44": 5,
+      "45": 2,
+      "46": 3,
+      "47": 2,
+      "48": 2,
+      "49": 1,
+      "52": 1
+    },
+    "Río Negro": {
+      "10": 593,
+      "11": 632,
+      "12": 964,
+      "13": 885,
+      "14": 680,
+      "15": 607,
+      "16": 454,
+      "17": 400,
+      "18": 239,
+      "19": 267,
+      "20": 244,
+      "21": 107,
+      "22": 84,
+      "23": 32,
+      "24": 44,
+      "25": 28,
+      "26": 25,
+      "27": 31,
+      "28": 24,
+      "29": 11,
+      "30": 20,
+      "31": 23,
+      "32": 33,
+      "33": 11,
+      "34": 11,
+      "35": 21,
+      "36": 18,
+      "37": 11,
+      "38": 6,
+      "39": 8,
+      "40": 6,
+      "41": 10,
+      "42": 10,
+      "43": 4,
+      "44": 4,
+      "45": 9,
+      "46": 5,
+      "47": 11,
+      "48": 9,
+      "49": 6,
+      "50": 1,
+      "51": 4,
+      "52": 6,
+      "53": 1
+    },
+    "San Juan de la Costa": {
+      "10": 624,
+      "11": 632,
+      "12": 559,
+      "13": 517,
+      "14": 362,
+      "15": 333,
+      "16": 205,
+      "17": 216,
+      "18": 142,
+      "19": 155,
+      "20": 179,
+      "21": 155,
+      "22": 92,
+      "23": 65,
+      "24": 142,
+      "25": 42,
+      "26": 29,
+      "27": 23,
+      "28": 14,
+      "29": 10,
+      "30": 11,
+      "31": 6,
+      "32": 15,
+      "33": 9,
+      "34": 12,
+      "35": 9,
+      "36": 3,
+      "37": 4,
+      "38": 1,
+      "39": 7,
+      "40": 4,
+      "41": 7,
+      "42": 6,
+      "43": 8,
+      "44": 2,
+      "45": 10,
+      "46": 6,
+      "47": 6,
+      "48": 3,
+      "49": 4,
+      "50": 4,
+      "51": 1,
+      "52": 2,
+      "53": 2
+    },
+    "San Pablo": {
+      "10": 304,
+      "11": 543,
+      "12": 651,
+      "13": 531,
+      "14": 397,
+      "15": 631,
+      "16": 348,
+      "17": 269,
+      "18": 170,
+      "19": 205,
+      "20": 177,
+      "21": 127,
+      "22": 113,
+      "23": 76,
+      "24": 70,
+      "25": 37,
+      "26": 37,
+      "27": 20,
+      "28": 30,
+      "29": 25,
+      "30": 13,
+      "31": 18,
+      "32": 12,
+      "33": 12,
+      "34": 9,
+      "35": 4,
+      "36": 11,
+      "37": 8,
+      "38": 4,
+      "39": 6,
+      "40": 9,
+      "41": 7,
+      "42": 9,
+      "43": 9,
+      "44": 4,
+      "45": 4,
+      "46": 5,
+      "47": 5,
+      "48": 7,
+      "49": 8,
+      "50": 4,
+      "51": 3,
+      "52": 1,
+      "53": 3
+    }
+  },
+  "pueblos_data_publico": {
+    "Osorno": {
+      "Aymara": {
+        "total": 44,
+        "distribucion": {
+          "Adulto Mayor": 7,
+          "Crónicos": 9,
+          "Niños/as": 17,
+          "Otros": 11
+        }
+      },
+      "Colla": {
+        "total": 17,
+        "distribucion": {
+          "Adulto Mayor": 9,
+          "Crónicos": 4,
+          "Niños/as": 2,
+          "Otros": 2
+        }
+      },
+      "Diaguita": {
+        "total": 5,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Crónicos": 1,
+          "Otros": 3,
+          "Niños/as": 0
+        }
+      },
+      "Kawésqar": {
+        "total": 1,
+        "distribucion": {
+          "Crónicos": 1,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      },
+      "Lickanantay": {
+        "total": 5,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Crónicos": 2,
+          "Otros": 2,
+          "Niños/as": 0
+        }
+      },
+      "Mapuche": {
+        "total": 2805,
+        "distribucion": {
+          "Adulto Mayor": 864,
+          "Crónicos": 714,
+          "Niños/as": 388,
+          "Otros": 839
+        }
+      },
+      "Otro": {
+        "total": 2,
+        "distribucion": {
+          "Niños/as": 1,
+          "Otros": 1,
+          "Adulto Mayor": 0,
+          "Crónicos": 0
+        }
+      },
+      "Quechua": {
+        "total": 1,
+        "distribucion": {
+          "Otros": 1,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Crónicos": 0
+        }
+      },
+      "Rapa Nui O Pascuense": {
+        "total": 1,
+        "distribucion": {
+          "Crónicos": 1,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      }
+    },
+    "Puerto Octay": {
+      "Aymara": {
+        "total": 1,
+        "distribucion": {
+          "Niños/as": 1,
+          "Adulto Mayor": 0,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      },
+      "Colla": {
+        "total": 1,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Niños/as": 0,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      },
+      "Mapuche": {
+        "total": 140,
+        "distribucion": {
+          "Adulto Mayor": 47,
+          "Crónicos": 29,
+          "Niños/as": 29,
+          "Otros": 35
+        }
+      }
+    },
+    "Purranque": {
+      "Aymara": {
+        "total": 6,
+        "distribucion": {
+          "Crónicos": 5,
+          "Niños/as": 1,
+          "Adulto Mayor": 0,
+          "Otros": 0
+        }
+      },
+      "Colla": {
+        "total": 3,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Crónicos": 1,
+          "Niños/as": 1,
+          "Otros": 0
+        }
+      },
+      "Lickanantay": {
+        "total": 2,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Niños/as": 1,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      },
+      "Mapuche": {
+        "total": 485,
+        "distribucion": {
+          "Adulto Mayor": 158,
+          "Crónicos": 114,
+          "Niños/as": 139,
+          "Otros": 74
+        }
+      },
+      "Otro": {
+        "total": 6,
+        "distribucion": {
+          "Adulto Mayor": 4,
+          "Crónicos": 2,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      }
+    },
+    "Puyehue": {
+      "Colla": {
+        "total": 1,
+        "distribucion": {
+          "Otros": 1,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Crónicos": 0
+        }
+      },
+      "Mapuche": {
+        "total": 324,
+        "distribucion": {
+          "Adulto Mayor": 127,
+          "Crónicos": 84,
+          "Niños/as": 51,
+          "Otros": 62
+        }
+      },
+      "Yagán": {
+        "total": 1,
+        "distribucion": {
+          "Niños/as": 1,
+          "Adulto Mayor": 0,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      }
+    },
+    "Río Negro": {
+      "Aymara": {
+        "total": 4,
+        "distribucion": {
+          "Crónicos": 2,
+          "Niños/as": 1,
+          "Otros": 1,
+          "Adulto Mayor": 0
+        }
+      },
+      "Colla": {
+        "total": 2,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Crónicos": 1,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      },
+      "Diaguita": {
+        "total": 2,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Otros": 1,
+          "Niños/as": 0,
+          "Crónicos": 0
+        }
+      },
+      "Lickanantay": {
+        "total": 2,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Niños/as": 1,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      },
+      "Mapuche": {
+        "total": 1370,
+        "distribucion": {
+          "Adulto Mayor": 484,
+          "Crónicos": 339,
+          "Niños/as": 159,
+          "Otros": 388
+        }
+      },
+      "Otro": {
+        "total": 1,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Niños/as": 0,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      },
+      "Quechua": {
+        "total": 1,
+        "distribucion": {
+          "Crónicos": 1,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      },
+      "Rapa Nui O Pascuense": {
+        "total": 1,
+        "distribucion": {
+          "Crónicos": 1,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      }
+    },
+    "San Juan de la Costa": {
+      "Aymara": {
+        "total": 2,
+        "distribucion": {
+          "Adulto Mayor": 2,
+          "Niños/as": 0,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      },
+      "Colla": {
+        "total": 1,
+        "distribucion": {
+          "Crónicos": 1,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      },
+      "Lickanantay": {
+        "total": 3,
+        "distribucion": {
+          "Crónicos": 1,
+          "Niños/as": 1,
+          "Otros": 1,
+          "Adulto Mayor": 0
+        }
+      },
+      "Mapuche": {
+        "total": 1877,
+        "distribucion": {
+          "Adulto Mayor": 994,
+          "Crónicos": 492,
+          "Niños/as": 145,
+          "Otros": 246
+        }
+      },
+      "Quechua": {
+        "total": 1,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Niños/as": 0,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      }
+    },
+    "San Pablo": {
+      "Aymara": {
+        "total": 3,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Otros": 2,
+          "Niños/as": 0,
+          "Crónicos": 0
+        }
+      },
+      "Diaguita": {
+        "total": 3,
+        "distribucion": {
+          "Adulto Mayor": 2,
+          "Niños/as": 1,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      },
+      "Lickanantay": {
+        "total": 2,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Crónicos": 1,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      },
+      "Mapuche": {
+        "total": 1359,
+        "distribucion": {
+          "Adulto Mayor": 482,
+          "Crónicos": 323,
+          "Niños/as": 341,
+          "Otros": 213
+        }
+      },
+      "Otro": {
+        "total": 1,
+        "distribucion": {
+          "Crónicos": 1,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      },
+      "Yagán": {
+        "total": 1,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Niños/as": 0,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      }
+    },
+    "TOTAL_PROVINCIAL": {
+      "Aymara": {
+        "total": 60,
+        "distribucion": {
+          "Adulto Mayor": 10,
+          "Crónicos": 16,
+          "Niños/as": 20,
+          "Otros": 14
+        }
+      },
+      "Colla": {
+        "total": 25,
+        "distribucion": {
+          "Adulto Mayor": 12,
+          "Crónicos": 7,
+          "Niños/as": 3,
+          "Otros": 3
+        }
+      },
+      "Diaguita": {
+        "total": 10,
+        "distribucion": {
+          "Adulto Mayor": 4,
+          "Crónicos": 1,
+          "Niños/as": 1,
+          "Otros": 4
+        }
+      },
+      "Kawésqar": {
+        "total": 1,
+        "distribucion": {
+          "Crónicos": 1,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      },
+      "Lickanantay": {
+        "total": 14,
+        "distribucion": {
+          "Adulto Mayor": 4,
+          "Crónicos": 4,
+          "Niños/as": 3,
+          "Otros": 3
+        }
+      },
+      "Mapuche": {
+        "total": 8360,
+        "distribucion": {
+          "Adulto Mayor": 3156,
+          "Crónicos": 2095,
+          "Niños/as": 1252,
+          "Otros": 1857
+        }
+      },
+      "Otro": {
+        "total": 10,
+        "distribucion": {
+          "Adulto Mayor": 5,
+          "Crónicos": 3,
+          "Niños/as": 1,
+          "Otros": 1
+        }
+      },
+      "Quechua": {
+        "total": 3,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Crónicos": 1,
+          "Otros": 1,
+          "Niños/as": 0
+        }
+      },
+      "Rapa Nui O Pascuense": {
+        "total": 2,
+        "distribucion": {
+          "Crónicos": 2,
+          "Adulto Mayor": 0,
+          "Niños/as": 0,
+          "Otros": 0
+        }
+      },
+      "Yagán": {
+        "total": 2,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Niños/as": 1,
+          "Crónicos": 0,
+          "Otros": 0
+        }
+      }
+    }
+  },
+  "data_residencia_privado": [
+    {
+      "comuna": "Osorno",
+      "datos": {
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 17,
+        "Embarazadas": 58,
+        "Enfermos cronicos de 11 a 59 años de edad": 267,
+        "Escolares de 1° a 5° año básico": 111,
+        "Estrategia Capullo": 3,
+        "GES": 1,
+        "Ley Ricarte Soto": 1,
+        "Niños y niñas de 6 meses a 5 años de edad": 708,
+        "Otras prioridades": 733,
+        "P. de salud: Privado": 662,
+        "P. de salud: Público": 19,
+        "Personas mayores de 60 años y más (año 1966)": 654,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 90,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 22
+      },
+      "total": 3346
+    },
+    {
+      "comuna": "Puerto Octay",
+      "datos": {
+        "Otras prioridades": 6,
+        "P. de salud: Privado": 1,
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 0,
+        "Embarazadas": 0,
+        "Enfermos cronicos de 11 a 59 años de edad": 0,
+        "Escolares de 1° a 5° año básico": 0,
+        "Estrategia Capullo": 0,
+        "GES": 0,
+        "Ley Ricarte Soto": 0,
+        "Niños y niñas de 6 meses a 5 años de edad": 0,
+        "P. de salud: Público": 0,
+        "Personas mayores de 60 años y más (año 1966)": 0,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 0,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 0
+      },
+      "total": 7
+    },
+    {
+      "comuna": "Purranque",
+      "datos": {
+        "Otras prioridades": 6,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 4,
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 0,
+        "Embarazadas": 0,
+        "Enfermos cronicos de 11 a 59 años de edad": 0,
+        "Escolares de 1° a 5° año básico": 0,
+        "Estrategia Capullo": 0,
+        "GES": 0,
+        "Ley Ricarte Soto": 0,
+        "Niños y niñas de 6 meses a 5 años de edad": 0,
+        "P. de salud: Privado": 0,
+        "P. de salud: Público": 0,
+        "Personas mayores de 60 años y más (año 1966)": 0,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 0
+      },
+      "total": 10
+    },
+    {
+      "comuna": "Puyehue",
+      "datos": {
+        "Niños y niñas de 6 meses a 5 años de edad": 2,
+        "Otras prioridades": 4,
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 0,
+        "Embarazadas": 0,
+        "Enfermos cronicos de 11 a 59 años de edad": 0,
+        "Escolares de 1° a 5° año básico": 0,
+        "Estrategia Capullo": 0,
+        "GES": 0,
+        "Ley Ricarte Soto": 0,
+        "P. de salud: Privado": 0,
+        "P. de salud: Público": 0,
+        "Personas mayores de 60 años y más (año 1966)": 0,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 0,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 0
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Río Negro",
+      "datos": {
+        "Niños y niñas de 6 meses a 5 años de edad": 2,
+        "Otras prioridades": 1,
+        "P. de salud: Privado": 1,
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 0,
+        "Embarazadas": 0,
+        "Enfermos cronicos de 11 a 59 años de edad": 0,
+        "Escolares de 1° a 5° año básico": 0,
+        "Estrategia Capullo": 0,
+        "GES": 0,
+        "Ley Ricarte Soto": 0,
+        "P. de salud: Público": 0,
+        "Personas mayores de 60 años y más (año 1966)": 0,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 0,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 0
+      },
+      "total": 4
+    },
+    {
+      "comuna": "San Juan de la Costa",
+      "datos": {
+        "Otras prioridades": 2,
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 0,
+        "Embarazadas": 0,
+        "Enfermos cronicos de 11 a 59 años de edad": 0,
+        "Escolares de 1° a 5° año básico": 0,
+        "Estrategia Capullo": 0,
+        "GES": 0,
+        "Ley Ricarte Soto": 0,
+        "Niños y niñas de 6 meses a 5 años de edad": 0,
+        "P. de salud: Privado": 0,
+        "P. de salud: Público": 0,
+        "Personas mayores de 60 años y más (año 1966)": 0,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 0,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 0
+      },
+      "total": 2
+    },
+    {
+      "comuna": "San Pablo",
+      "datos": {
+        "Niños y niñas de 6 meses a 5 años de edad": 1,
+        "Otras prioridades": 4,
+        "Cuidadores de adultos mayores y funcionarios de los ELEAM": 0,
+        "Embarazadas": 0,
+        "Enfermos cronicos de 11 a 59 años de edad": 0,
+        "Escolares de 1° a 5° año básico": 0,
+        "Estrategia Capullo": 0,
+        "GES": 0,
+        "Ley Ricarte Soto": 0,
+        "P. de salud: Privado": 0,
+        "P. de salud: Público": 0,
+        "Personas mayores de 60 años y más (año 1966)": 0,
+        "Trabajadores de avícolas, ganaderas y de criaderos de cerdo": 0,
+        "Trabajadores de la educación preescolar y escolar hasta 8° basico": 0
+      },
+      "total": 5
+    }
+  ],
+  "avance_semanal_privado": {
+    "TOTAL_PROVINCIAL": {
+      "9": 46,
+      "10": 469,
+      "11": 150,
+      "12": 129,
+      "13": 236,
+      "14": 240,
+      "15": 267,
+      "16": 205,
+      "17": 146,
+      "18": 62,
+      "19": 79,
+      "20": 110,
+      "21": 75,
+      "22": 53,
+      "23": 46,
+      "24": 28,
+      "25": 23,
+      "26": 30,
+      "27": 30,
+      "28": 21,
+      "29": 16,
+      "30": 17,
+      "31": 17,
+      "32": 8,
+      "33": 11,
+      "34": 10,
+      "35": 9,
+      "36": 12,
+      "37": 5,
+      "38": 6,
+      "39": 12,
+      "40": 13,
+      "41": 5,
+      "42": 7,
+      "43": 6,
+      "44": 5,
+      "45": 3,
+      "46": 6,
+      "47": 2,
+      "49": 1,
+      "50": 2,
+      "51": 3
+    },
+    "Osorno": {
+      "9": 44,
+      "10": 469,
+      "11": 150,
+      "12": 129,
+      "13": 236,
+      "14": 240,
+      "15": 267,
+      "16": 205,
+      "17": 142,
+      "18": 62,
+      "19": 78,
+      "20": 109,
+      "21": 74,
+      "22": 53,
+      "23": 46,
+      "24": 28,
+      "25": 23,
+      "26": 30,
+      "27": 30,
+      "28": 21,
+      "29": 16,
+      "30": 17,
+      "31": 17,
+      "32": 8,
+      "33": 11,
+      "34": 10,
+      "35": 9,
+      "36": 12,
+      "37": 5,
+      "38": 6,
+      "39": 11,
+      "40": 13,
+      "41": 5,
+      "42": 7,
+      "43": 6,
+      "44": 4,
+      "45": 3,
+      "46": 6,
+      "47": 2,
+      "49": 1,
+      "50": 2,
+      "51": 3
+    },
+    "Puerto Octay": {
+      "9": 1
+    },
+    "Purranque": {
+      "17": 4
+    },
+    "Puyehue": {
+      "20": 1,
+      "39": 1
+    },
+    "Río Negro": {
+      "9": 1,
+      "19": 1,
+      "21": 1
+    },
+    "San Juan de la Costa": {},
+    "San Pablo": {
+      "44": 1
+    }
+  },
+  "pueblos_data_privado": {
+    "Osorno": {
+      "Aymara": {
+        "total": 3,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Otros": 2,
+          "Niños/as": 0,
+          "Crónicos": 0
+        }
+      },
+      "Mapuche": {
+        "total": 69,
+        "distribucion": {
+          "Adulto Mayor": 7,
+          "Crónicos": 3,
+          "Niños/as": 9,
+          "Otros": 50
+        }
+      }
+    },
+    "Puerto Octay": {},
+    "Purranque": {},
+    "Puyehue": {},
+    "Río Negro": {},
+    "San Juan de la Costa": {},
+    "San Pablo": {},
+    "TOTAL_PROVINCIAL": {
+      "Aymara": {
+        "total": 3,
+        "distribucion": {
+          "Adulto Mayor": 1,
+          "Otros": 2,
+          "Niños/as": 0,
+          "Crónicos": 0
+        }
+      },
+      "Mapuche": {
+        "total": 69,
+        "distribucion": {
+          "Adulto Mayor": 7,
+          "Crónicos": 3,
+          "Niños/as": 9,
+          "Otros": 50
+        }
+      }
+    }
+  },
+  "resumen_tipo": {
+    "Osorno": {
+      "publico": 68130,
+      "privado": 3525
+    },
+    "Puerto Octay": {
+      "publico": 4514,
+      "privado": 0
+    },
+    "Purranque": {
+      "publico": 10423,
+      "privado": 0
+    },
+    "Puyehue": {
+      "publico": 6588,
+      "privado": 0
+    },
+    "Río Negro": {
+      "publico": 7298,
+      "privado": 0
+    },
+    "San Juan de la Costa": {
+      "publico": 4905,
+      "privado": 0
+    },
+    "San Pablo": {
+      "publico": 5236,
+      "privado": 0
+    }
+  },
+  "estab_privados": [
+    "Centro de Salud Mutual CCHC Osorno",
+    "Clínica Alemana de Osorno",
+    "Vacunatorio VAXPLUS",
+    "Vacunatorio Sociedad Centro Médico Cochrane SA",
+    "Clínica de la ACHS Osorno"
+  ]
+};

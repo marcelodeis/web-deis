@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Programáticas 2026 · Servicio de Salud Osorno</title>
+    <meta name="description" content="Dashboard de Geointeligencia para Vacunas Programáticas 2026 del Servicio de Salud Osorno. Cobertura, producción y análisis interactivo.">
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx-js-style@1.2.0/dist/xlsx.bundle.js" crossorigin="anonymous"></script>
+
+    <!-- Libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css?v=1.17">
+
+    <!-- Data Files -->
+    <script src="programaticas_data_2025_v6.js"></script>
+    <script src="programaticas_data_2026.js?v=50"></script>
+
+    <!-- Premium Features CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../shared/global_premium.css?v=2">
+</head>
+<body>
+    <!-- ── BARRA DE NAVEGACIÓN GLOBAL RNI ── -->
+                <!-- 🛸 BARRA DE NAVEGACIÓN GLOBAL RNI 🛸 -->
+    <nav class="global-nav-bar">
+        <div class="global-nav-left">
+            <a href="../index.html" class="btn-portal-rni">
+                <i class="fas fa-home"></i> Portal RNI
+            </a>
+        </div>
+        
+        <div class="global-nav-center d-none d-md-flex">
+            <a href="https://estadisticas.ssosorno.cl/index.php" style="color: #ffffff; display: flex; align-items: center; text-decoration: none;">
+                <!-- Mini Logo DEIS SVG -->
+                <svg viewBox="0 0 400 300" height="40" style="margin-right: 15px;" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0" y="100" width="50" height="150" fill="#0072bc" />
+                    <rect x="60" y="40" width="50" height="210" fill="#00adef" />
+                    <rect x="120" y="0" width="120" height="250" fill="#ffffff" />
+                    <text font-family="'Inter', Arial, sans-serif" font-weight="700" font-size="130" letter-spacing="-3">
+                        <tspan x="140" y="220" fill="#0b1f40">D</tspan>
+                        <tspan x="250" y="220" fill="#ffffff">EIS</tspan>
+                    </text>
+                    <text x="255" y="250" font-family="'Inter', Arial, sans-serif" font-weight="500" font-size="26" fill="#ffffff" letter-spacing="1">OSORNO</text>
+                </svg>
+                <div style="line-height: 1.2;">
+                    <div style="font-weight: 700; font-size: 16px; letter-spacing: 0.5px; color: #ffffff;">SERVICIO DE SALUD OSORNO</div>
+                    <div style="font-size: 12px; font-weight: 400; opacity: 0.8; color: #ffffff;">Departamento de Estadísticas e Información de Salud</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="global-nav-right">
+            <button class="global-nav-dropdown-btn">
+                <i class="fas fa-syringe"></i> Cambiar Vacuna <i class="fas fa-chevron-down" style="font-size: 0.7rem; margin-left: 2px;"></i>
+            </button>
+            <div class="global-nav-dropdown-content">
+                <a href="../Influenza_Web/index.html" ><i class="fas fa-virus" style="color: #3b82f6;"></i> Campaña Influenza</a>
+                <a href="../VPH_Web/index.html" ><i class="fas fa-ribbon" style="color: #ec4899;"></i> Vacuna VPH</a>
+                <a href="../Covid_Web/index.html" ><i class="fas fa-biohazard" style="color: #10b981;"></i> Campaña COVID-19</a>
+                <a href="../VRS/index.html" ><i class="fas fa-shield-virus" style="color: #8b5cf6;"></i> Campaña VRS</a>
+                <a href="../Programáticas_Web/index.html" class="active"><i class="fas fa-syringe" style="color: #f59e0b;"></i> Vacunas Programáticas</a>
+                <div style="border-top: 1px solid #e2e8f0; margin: 4px 0;"></div>
+                <a href="../index.html" style="color: #64748b;"><i class="fas fa-arrow-left"></i> Volver al Menú Principal</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="dashboard-container">
+        <!-- ── HEADER ── -->
+        <header id="dashboardHeader">
+            <div class="header-main">
+                <div class="header-brand">
+                    <div class="brand-icon">
+                        <i class="fas fa-syringe"></i>
+                    </div>
+                    <div>
+                        <h1>VACUNAS PROGRAMÁTICAS</h1>
+                        <p class="header-subtitle">SERVICIO DE SALUD OSORNO · Geointeligencia PNI</p>
+                    </div>
+                </div>
+                <div style="margin-top: 15px;">
+                    <span class="meta-badge">
+                        <i class="fas fa-clock" style="color: #60a5fa;"></i> 
+                        <span id="reportDate">Cargando...</span>
+                    </span>
+                </div>
+            </div>
+            <div class="header-actions">
+                <div class="year-toggle-wrapper">
+                    <label class="year-toggle-label">AÑO CAMPAÑA</label>
+                    <div class="year-toggle">
+                        <button onclick="switchYear('2025')" id="btnYear2025" class="year-toggle-btn">2025</button>
+                        <button onclick="switchYear('2026')" id="btnYear2026" class="year-toggle-btn active">2026</button>
+                    </div>
+                </div>
+                <select id="globalTipoFilter" class="glass-input main-filter" style="margin-right: 10px; background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.2);">
+                    <option value="all" style="color: black;">Públicos y Privados</option>
+                    <option value="publico" style="color: black;">Solo Públicos</option>
+                    <option value="privado" style="color: black;">Solo Privados</option>
+                </select>
+
+                <select id="globalComunaFilter" class="glass-input main-filter" style="margin-right: 10px; background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.2);">
+                    <option value="all" style="color: black;">Todas las Comunas</option>
+                </select>
+                <select id="calendarioFechaCorteFilter" class="glass-input main-filter interactive-only" style="display: none; margin-right: 10px; background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.2);">
+                    <!-- Populated dynamically -->
+                </select>
+
+                <select id="calendarioEstablecimientoFilter" class="glass-input main-filter interactive-only" style="display: none; margin-right: 10px; background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.2); width: 250px;">
+                    <option value="all" style="color: black;">Todos los Establecimientos</option>
+                </select>
+
+
+                <button id="btnExportPdf" class="btn-export" style="background: #3b82f6; margin-right: 10px; color: white; border: none; padding: 8px 15px; border-radius: 8px; font-weight: 600; cursor: pointer; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(59,130,246,0.3);">
+                    <i class="fas fa-file-pdf"></i> Informe PDF
+                </button>
+                <button id="themeToggleBtn" class="btn-export" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.3); color: white; padding: 8px 12px; border-radius: 8px; cursor: pointer;" title="Alternar Modo Oscuro">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <!-- ── NAVIGATION TABS ── -->
+            <nav class="tab-nav" id="tabNav">
+                <button class="tab-btn active" data-tab="cobertura">
+                    <i class="fas fa-chart-pie"></i> Cobertura (Residencia)
+                </button>
+                <button class="tab-btn" data-tab="produccion">
+                    <i class="fas fa-hospital"></i> Producción (Ocurrencia)
+                </button>
+                <button class="tab-btn interactive-calendar-btn" data-tab="calendario">
+                    <i class="fas fa-calendar-alt"></i> Calendario Interactivo
+                </button>
+            </nav>
+
+            <!-- ══════════════ TAB 1: COBERTURA ══════════════ -->
+            <section class="tab-content active" id="tab-cobertura">
+                <div class="info-alert">
+                    <strong><i class="fas fa-microscope"></i> Nota Metodológica (Corte 1° Trim. - Marzo) - BASE RESIDENCIA:</strong> Las coberturas presentadas corresponden a un <strong>avance trimestral</strong>. El cálculo de cobertura (Dosis / Población) se basa en estimaciones de población proyectadas. Al ser cortes parciales, pueden observarse comunas con sobrecumplimiento (>100%) por migración o subestimación del denominador. Las coberturas están calculadas <b>exclusivamente según la comuna de residencia (Base Residencia)</b>.
+                </div>
+                <!-- KPI Cards -->
+                <div class="kpi-grid">
+                    <div class="kpi-card glass" id="kpi-total-dosis">
+                        <div class="kpi-icon-wrap blue">
+                            <i class="fas fa-syringe"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <span class="kpi-label">TOTAL DOSIS APLICADAS</span>
+                            <span class="kpi-value" id="kpiTotalDosis">--</span>
+                            <span class="kpi-sub" id="kpiTotalDosisContext">Residencia provincial</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card glass" id="kpi-best">
+                        <div class="kpi-icon-wrap green">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <span class="kpi-label">MEJOR COBERTURA</span>
+                            <span class="kpi-value" id="kpiBestVac">--</span>
+                            <span class="kpi-sub" id="kpiBestPct">--</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card glass" id="kpi-worst">
+                        <div class="kpi-icon-wrap amber">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <span class="kpi-label">VACUNA REZAGADA</span>
+                            <span class="kpi-value" id="kpiWorstVac">--</span>
+                            <span class="kpi-sub" id="kpiWorstPct">--</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card glass" id="kpi-comunas">
+                        <div class="kpi-icon-wrap purple">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <span class="kpi-label">COMUNAS MONITOREADAS</span>
+                            <span class="kpi-value" id="kpiComunas">7</span>
+                            <span class="kpi-sub">Provincia de Osorno</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts Row -->
+                <div class="charts-grid">
+                    <div class="card glass chart-card wide">
+                        <div class="card-header">
+                            <h3><i class="fas fa-chart-bar"></i> Cobertura por Vacuna (Provincial)
+                                <button class="chart-help-btn" onclick="openHelpModal('chartCoberturaVacuna')" title="Ayuda Interpretativa">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-icon">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="16" x2="12" y2="12"></line>
+        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+    </svg>
+</button>
+                            </h3>
+                            <span class="card-badge">Residencia | Avance 2° Trimestre</span>
+                        </div>
+                        <div class="chart-wrap">
+                            <canvas id="chartCoberturaVacuna"></canvas>
+                        </div>
+                        <div id="coberturaAlertContainer" style="margin-top: 15px;"></div>
+                    </div>
+                    <div class="card glass chart-card">
+                        <div class="card-header">
+                            <h3><i class="fas fa-chart-doughnut"></i> Distribución de Dosis
+                                <button class="chart-help-btn" onclick="openHelpModal('chartDistribucion')" title="Ayuda Interpretativa">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-icon">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="16" x2="12" y2="12"></line>
+        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+    </svg>
+</button>
+                            </h3>
+                            <span class="card-badge">Top 8 | Avance 2° Trimestre</span>
+                        </div>
+                        <div class="chart-wrap">
+                            <canvas id="chartDistribucion"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Matriz Detallada (Consolidada) -->
+                <div class="card glass full-width">
+                    <div class="card-header">
+                        <h3><i class="fas fa-clipboard-list"></i> Matriz Detallada de Cobertura
+                            <button class="chart-help-btn" onclick="openHelpModal('tableMatrizContainer')" title="Ayuda Interpretativa">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-icon">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="16" x2="12" y2="12"></line>
+        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+    </svg>
+</button>
+                        </h3>
+                        <span class="card-badge">Residencia vs Metas | Avance 2° Trimestre</span>
+                    </div>
+                    <div class="table-responsive" id="tableMatrizContainer">
+                        <!-- Generated by JS -->
+                    </div>
+                </div>
+
+                <!-- Heatmap comunas -->
+                <div class="card glass chart-card full-width" style="margin-top: 1.5rem;">
+                    <div class="card-header">
+                        <h3><i class="fas fa-th"></i> Mapa de Calor: Cobertura por Comuna y Vacuna
+                            <button class="chart-help-btn" onclick="openHelpModal('heatmapContainer')" title="Ayuda Interpretativa">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-icon">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="16" x2="12" y2="12"></line>
+        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+    </svg>
+</button>
+                        </h3>
+                        <span class="card-badge">% Cobertura | Avance 2° Trimestre</span>
+                    </div>
+                    <div class="heatmap-container" id="heatmapContainer">
+                        <!-- Generated by JS -->
+                    </div>
+                </div>
+
+                <div class="charts-grid equal">
+                    <div class="card fade-in">
+                        <div class="card-header">
+                            <h3><i class="fas fa-exclamation-triangle" style="color: #ef4444;"></i> Top 5 Vacunas Críticas
+                                <button class="chart-help-btn" onclick="openHelpModal('chartRezagadas')" title="Ayuda Interpretativa">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-icon">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="16" x2="12" y2="12"></line>
+        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+    </svg>
+</button>
+                            </h3>
+                            <span class="card-badge">Avance 2° Trimestre</span>
+                        </div>
+                        <div class="chart-wrap">
+                            <canvas id="chartRezagadas"></canvas>
+                        </div>
+                    </div>
+                    <div class="card glass chart-card">
+                        <div class="card-header">
+                            <h3><i class="fas fa-chart-area"></i> Tendencia Mensual
+                                <button class="chart-help-btn" onclick="openHelpModal('chartTendencia')" title="Ayuda Interpretativa">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-icon">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="16" x2="12" y2="12"></line>
+        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+    </svg>
+</button>
+                            </h3>
+                            <span class="card-badge">Avance 2° Trimestre</span>
+                        </div>
+                        <div class="chart-wrap">
+                            <canvas id="chartTendencia"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ══════════════ TAB 2: PRODUCCIÓN ══════════════ -->
+            <section class="tab-content" id="tab-produccion">
+                <div class="info-alert">
+                    <strong><i class="fas fa-info-circle"></i> Nota de Ocurrencia (Producción):</strong> 
+                    Esta sección refleja la <b>producción bruta</b> (total de dosis administradas en el establecimiento), independientemente de la comuna de residencia del paciente. Los datos no corresponden al corte de marzo, sino a la fecha de extracción de la base de datos.
+                </div>
+                <div class="kpi-grid">
+                    <div class="kpi-card glass">
+                        <div class="kpi-icon-wrap blue">
+                            <i class="fas fa-hospital"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <span class="kpi-label">ESTABLECIMIENTOS</span>
+                            <span class="kpi-value" id="kpiEstabs">--</span>
+                            <span class="kpi-sub">Con producción registrada</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card glass">
+                        <div class="kpi-icon-wrap green">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <span class="kpi-label">TOP ESTABLECIMIENTO</span>
+                            <span class="kpi-value small-text" id="kpiTopEstab">--</span>
+                            <span class="kpi-sub" id="kpiTopEstabCount">--</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card glass">
+                        <div class="kpi-icon-wrap amber">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <span class="kpi-label">TOTAL PRODUCCIÓN</span>
+                            <span class="kpi-value" id="kpiTotalProd">--</span>
+                            <span class="kpi-sub">Ocurrencia provincial</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card glass">
+                        <div class="kpi-icon-wrap purple">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <div class="kpi-body">
+                            <span class="kpi-label">PROMEDIO POR CENTRO</span>
+                            <span class="kpi-value" id="kpiAvgProd">--</span>
+                            <span class="kpi-sub">dosis por establecimiento</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts -->
+                <div class="charts-grid" style="grid-template-columns: 2fr 3fr;">
+                    <div class="card glass chart-card">
+                        <div class="card-header">
+                            <h3 id="distribucionTitle"><i class="fas fa-building"></i> Distribución Provincial de Dosis</h3>
+                            <span class="card-badge">Ocurrencia</span>
+                        </div>
+                        <div class="chart-wrap">
+                            <canvas id="chartProdComuna"></canvas>
+                        </div>
+                    </div>
+                    <div class="card glass chart-card wide">
+                        <div class="card-header">
+                            <h3 id="rankingTitle"><i class="fas fa-ranking-star"></i> Ranking Top 10 Establecimientos</h3>
+                            <span class="card-badge">Ocurrencia</span>
+                        </div>
+                        <div class="chart-wrap tall">
+                            <canvas id="chartTopEstabs"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Full production table -->
+                <div class="card glass full-width">
+                    <!-- NEW EXCEL-LIKE FILTER BAR -->
+                    <div class="excel-header-container">
+                        <div class="matriz-title">
+                            <h2>Matriz Técnica Territorial</h2>
+                            <span class="subtitle">PROVINCIAL <span style="font-weight:400" id="matrizYearTitle">(BASE OCURRENCIA 2026)</span></span>
+                        </div>
+                        
+                        <div class="excel-filter-bar">
+                            <div class="filter-group">
+                                <label>COMUNA</label>
+                                <div class="multi-select-container" id="matrizComunaMultiSelect">
+                                    <div class="multi-select-header" onclick="this.parentElement.classList.toggle('open')">
+                                        <span class="selected-text">Todas las Comunas</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="multi-select-options">
+                                        <label><input type="checkbox" value="all" checked id="comunaSelectAll"> Todas las Comunas</label>
+                                        <div id="comunaOptionsList"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter-group">
+                                <label>ESTABLECIMIENTO</label>
+                                <div class="search-input-wrap">
+                                    <i class="fas fa-search"></i>
+                                    <input type="text" id="searchEstab" placeholder="Buscar...">
+                                </div>
+                            </div>
+                            <div class="filter-group">
+                                <label>VACUNA</label>
+                                <div class="multi-select-container" id="matrizVacunaBaseMultiSelect">
+                                    <div class="multi-select-header" onclick="this.parentElement.classList.toggle('open')">
+                                        <span class="selected-text">Todas las Vacunas</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="multi-select-options">
+                                        <label><input type="checkbox" value="all" checked id="vacunaBaseSelectAll"> Todas las Vacunas</label>
+                                        <div id="vacunaBaseOptionsList"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter-group">
+                                <label>CRITERIO DE ELEGIBILIDAD</label>
+                                <div class="multi-select-container" id="matrizCriterioMultiSelect">
+                                    <div class="multi-select-header" onclick="this.parentElement.classList.toggle('open')">
+                                        <span class="selected-text">Todos los Criterios</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="multi-select-options">
+                                        <label><input type="checkbox" value="all" checked id="criterioSelectAll"> Todos los Criterios</label>
+                                        <div id="criterioOptionsList"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter-group">
+                                <label>DOSIS</label>
+                                <div class="multi-select-container" id="matrizDosisMultiSelect">
+                                    <div class="multi-select-header" onclick="this.parentElement.classList.toggle('open')">
+                                        <span class="selected-text">Todas las Dosis</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="multi-select-options">
+                                        <label><input type="checkbox" value="all" checked id="dosisSelectAll"> Todas las Dosis</label>
+                                        <div id="dosisOptionsList"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter-group">
+                                <label>FECHA DE CORTE</label>
+                                <select id="matrizFechaCorteSelect">
+                                    <option value="all">Actual</option>
+                                    <option value="3">Cierre Marzo (31/03/2026)</option>
+                                    <option value="4">Cierre Abril (30/04/2026)</option>
+                                    <option value="5">Cierre Mayo (31/05/2026)</option>
+                                    <option value="6">Cierre Junio (30/06/2026)</option>
+                                    <option value="7">Cierre Julio (31/07/2026)</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label style="font-size: 0.65rem; color: #64748b; font-weight: 700; text-transform: uppercase; margin-left: 5px;">AÑO CAMPAÑA</label>
+                                <div class="matrix-year-toggle">
+                                    <button onclick="switchYear('2025')" id="btnYear2025Prod" class="matrix-year-btn">2025</button>
+                                    <button onclick="switchYear('2026')" id="btnYear2026Prod" class="matrix-year-btn active">2026</button>
+                                </div>
+                            </div>
+                            <div class="filter-group" style="justify-content: flex-end;">
+                                <button id="btnExportExcel" class="btn-excel"><i class="fas fa-file-excel"></i> Excel</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="table-responsive" id="tableProdContainer">
+                        <!-- Generated by JS -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- ══════════════ TAB 3: CALENDARIO INTERACTIVO ══════════════ -->
+            <section class="tab-content" id="tab-calendario">
+                <div class="info-alert" style="background: rgba(16, 185, 129, 0.1); border-left-color: #10b981; color: var(--text-color);">
+                    <strong><i class="fas fa-hand-pointer" style="color: #10b981;"></i> Interactivo:</strong> Haz clic sobre cualquier dosis (ej. <i>1ra dosis Hexavalente</i>) para ver el detalle de producción desglosado por Comuna y Establecimiento (Base Ocurrencia). Alternativamente, usa los filtros superiores para ver los totales directamente en el calendario.
+                </div>
+                
+                <div class="calendar-controls" style="display: flex; justify-content: flex-end; gap: 10px; margin-bottom: 15px;">
+                    <button id="btnResetCalendar" style="background: rgba(255,255,255,0.1); color: var(--text-primary); border: 1px solid var(--border-color); border-radius: 8px; font-weight: 600; cursor: pointer; padding: 8px 15px; display: flex; align-items: center; gap: 6px;">
+                        <i class="fas fa-sync-alt" style="color: #3b82f6;"></i> Restaurar Calendario
+                    </button>
+                    <button id="btnExportCalendarExcel" class="btn-excel" style="border-radius: 8px; padding: 8px 15px;">
+                        <i class="fas fa-file-excel"></i> Exportar Calendario
+                    </button>
+                </div>
+                
+                
+                <div class="card glass full-width calendar-container" style="overflow-x: auto; padding: 0;">
+                    <table class="minsal-calendar-table">
+                        <thead>
+                            <tr>
+                                <th rowspan="2" class="vacuna-header">VACUNAS PROGRAMÁTICAS</th>
+                                <th colspan="10" class="infantil-header">POBLACIÓN INFANTIL</th>
+                                <th colspan="4" class="escolar-header">POBLACIÓN ESCOLAR</th>
+                                <th colspan="3" class="adulta-header">POBLACIÓN ADULTA</th>
+                            </tr>
+                            <tr class="age-headers">
+                                <th>RECIÉN<br>NACIDO</th>
+                                <th>2<br>MESES</th>
+                                <th>3<br>MESES</th>
+                                <th>4<br>MESES</th>
+                                <th>5<br>MESES</th>
+                                <th>6<br>MESES</th>
+                                <th>12<br>MESES</th>
+                                <th>18<br>MESES</th>
+                                <th>24<br>MESES</th>
+                                <th>36<br>MESES</th>
+                                <th>1°<br>BÁSICO</th>
+                                <th>4°<br>BÁSICO</th>
+                                <th>5°<br>BÁSICO</th>
+                                <th>8°<br>BÁSICO</th>
+                                <th>GESTANTES</th>
+                                <th>≥60 AÑOS</th>
+                                <th>≥65 AÑOS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- BCG -->
+                            <tr>
+                                <td class="vacuna-name"><strong>BCG</strong></td>
+                                <td class="clickable-dose" data-vac-id="BCG" data-vac-name="BCG">Única<br>dosis</td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                            </tr>
+                            <!-- HEP B -->
+                            <tr>
+                                <td class="vacuna-name"><strong>HEPATITIS B</strong></td>
+                                <td class="clickable-dose" data-vac-id="HepB" data-vac-name="Hepatitis B">Única<br>dosis</td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                            </tr>
+                            <!-- HEXAVALENTE -->
+                            <tr>
+                                <td class="vacuna-name"><strong>HEXAVALENTE</strong></td>
+                                <td></td>
+                                <td class="clickable-dose" data-vac-id="HEXA1D" data-vac-name="Hexavalente">1ra<br>dosis</td>
+                                <td></td>
+                                <td class="clickable-dose" data-vac-id="HEXA2D" data-vac-name="Hexavalente">2da<br>dosis</td>
+                                <td></td>
+                                <td class="clickable-dose" data-vac-id="HEXA3D" data-vac-name="Hexavalente">3ra<br>dosis</td>
+                                <td></td>
+                                <td class="clickable-dose" data-vac-id="HEXA1R" data-vac-name="Hexavalente">Refuerzo</td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                            </tr>
+                            <!-- NEUMO 13V -->
+                            <tr>
+                                <td class="vacuna-name"><strong>NEUMOCÓCICA CONJUGADA 13 VALENTE</strong></td>
+                                <td></td>
+                                <td class="clickable-dose" data-vac-id="NEUMO1D" data-vac-name="Neumo 13V">1ra<br>dosis</td>
+                                <td></td>
+                                <td class="clickable-dose" data-vac-id="NEUMO2D" data-vac-name="Neumo 13V">2da<br>dosis</td>
+                                <td></td>
+                                <td class="dose-unclickable">3ra dosis<br>(prematuros)</td>
+                                <td class="clickable-dose" data-vac-id="NEUMO1R" data-vac-name="Neumo 13V">Refuerzo</td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                            </tr>
+                            <!-- MENINGO B -->
+                            <tr>
+                                <td class="vacuna-name"><strong>MENINGOCÓCICA RECOMBINANTE SEROGRUPO B</strong></td>
+                                <td></td>
+                                <td class="clickable-dose" data-vac-id="BEXSERO1D" data-vac-name="Bexsero (Meningo B)">1ra<br>dosis</td>
+                                <td></td>
+                                <td class="clickable-dose" data-vac-id="BEXSERO2D" data-vac-name="Bexsero (Meningo B)">2da<br>dosis</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="clickable-dose" data-vac-id="BEXSERO1R" data-vac-name="Bexsero (Meningo B)">Refuerzo</td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                            </tr>
+                            <!-- SRP -->
+                            <tr>
+                                <td class="vacuna-name"><strong>SARAMPIÓN, RUBÉOLA Y PAROTIDITIS (SRP)</strong></td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td>
+                                <td class="clickable-dose" data-vac-id="SRP1D" data-vac-name="SRP (Trivírica)">1ra<br>dosis</td>
+                                <td></td><td></td>
+                                <td class="clickable-dose" data-vac-id="SRP2D" data-vac-name="SRP (Trivírica)">2da<br>dosis</td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                            </tr>
+                            <!-- MENINGO TETRA -->
+                            <tr>
+                                <td class="vacuna-name"><strong>MENINGOCÓCICA CONJUGADA TETRAVALENTE</strong></td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td>
+                                <td class="clickable-dose" data-vac-id="MENINGO" data-vac-name="Meningocócica Tetravalente">Única<br>dosis</td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                            </tr>
+                            <!-- HEPATITIS A -->
+                            <tr>
+                                <td class="vacuna-name"><strong>HEPATITIS A</strong></td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                                <td class="clickable-dose" data-vac-id="HepA" data-vac-name="Hepatitis A">Única<br>dosis</td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                            </tr>
+                            <!-- VARICELA -->
+                            <tr>
+                                <td class="vacuna-name"><strong>VARICELA</strong></td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                                <td class="clickable-dose" data-vac-id="VARICELA1D" data-vac-name="Varicela">1ra<br>dosis</td>
+                                <td></td>
+                                <td class="clickable-dose" data-vac-id="VARICELA2D" data-vac-name="Varicela">2da<br>dosis</td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                            </tr>
+                            <!-- dTpa -->
+                            <tr>
+                                <td class="vacuna-name"><strong>DIFTERIA, TÉTANOS Y TOS CONVULSIVA (ACELULAR)</strong></td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                                <td class="clickable-dose" id="dtpa-1b" data-vac-id="dTpa" data-vac-name="dTpa Escolar/Gestante">Refuerzo</td>
+                                <td></td><td></td>
+                                <td class="clickable-dose" id="dtpa-8b" data-vac-id="dTpa" data-vac-name="dTpa Escolar/Gestante">Refuerzo</td>
+                                <td class="clickable-dose" data-vac-id="dTpa" data-vac-name="dTpa Escolar/Gestante">Desde 28 sem</td>
+                                <td></td><td></td>
+                            </tr>
+                            <!-- VPH -->
+                            <tr>
+                                <td class="vacuna-name"><strong>VIRUS PAPILOMA HUMANO (VPH)</strong></td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                                <td></td>
+                                <td class="clickable-dose" data-vac-id="VPH" data-vac-name="VPH">Única<br>dosis</td>
+                                <td></td><td></td><td></td><td></td><td></td>
+                            </tr>
+                            <!-- NEUMO 23V -->
+                            <tr>
+                                <td class="vacuna-name"><strong>NEUMOCÓCICA POLISACÁRIDA 23</strong></td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td>
+                                <td class="clickable-dose" data-vac-id="NEUMO23" data-vac-name="Neumo 23V">Única<br>dosis</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Dashboard Geointeligencia PNI · Servicio de Salud Osorno · <span id="footerYear">2026</span></p>
+            <p class="footer-sub">Datos extraídos del Registro Nacional de Inmunizaciones (RNI) · DEIS, Ministerio de Salud</p>
+        </footer>
+
+        <!-- Modal de Detalle de Dosis (Calendario Interactivo) -->
+        <div id="doseDetailModalBackdrop" class="help-modal-backdrop" onclick="closeDoseDetailModal()" style="display: none;"></div>
+        
+        <div id="doseDetailModalWindow" class="help-modal-window fade-in" style="display: none; max-width: 800px; width: 90%;">
+            <button class="help-modal-close" onclick="closeDoseDetailModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="help-modal-header" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
+                <h2 id="doseDetailTitle">Detalle de Producción</h2>
+                <div class="help-modal-context">
+                    <i class="fas fa-syringe"></i> <span id="doseDetailSubtitle">Desglose de Dosis Administradas</span>
+                </div>
+            </div>
+            <div class="help-modal-body" style="padding: 1.5rem;">
+                <div class="kpi-card glass" style="margin-bottom: 1.5rem; text-align: center; border-left: 4px solid #10b981;">
+                    <div class="kpi-body" style="display: flex; flex-direction: column; align-items: center;">
+                        <span class="kpi-label">TOTAL DOSIS ADMINISTRADAS (OCURRENCIA)</span>
+                        <span class="kpi-value" id="doseDetailTotal" style="color: #10b981; font-size: 2rem;">0</span>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="matriz-table" id="doseDetailTable">
+                        <thead>
+                            <tr>
+                                <th>Comuna</th>
+                                <th>Establecimiento</th>
+                                <th style="text-align: right;">Total Dosis</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Se inyecta por JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ayuda Interpretativa Modal Backdrop -->
+        <div id="helpModalBackdrop" class="help-modal-backdrop" onclick="closeHelpModal()" style="display: none;"></div>
+        
+        <!-- Ayuda Interpretativa Modal Window -->
+        <div id="helpModalWindow" class="help-modal-window fade-in" style="display: none;">
+            <button class="help-modal-close" onclick="closeHelpModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="help-modal-header" id="helpModalHeader" title="Arrastra para mover">
+                <h2 id="helpModalTitle">Título del Gráfico</h2>
+                <div class="help-modal-context">
+                    <i class="fas fa-map-marker-alt"></i> Contexto de Análisis Actual: <span id="helpModalContext">Provincia de Osorno (Todas las comunas)</span>
+                </div>
+            </div>
+            <div class="help-modal-body" id="helpModalBody">
+                <!-- Se inyecta por JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="modal.js?v=1.0"></script>
+    <script src="app_v9.js?v=1.22"></script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "068ddcf406d9480499a9a5606fc3637c"}'></script><!-- End Cloudflare Web Analytics -->
+    <!-- Premium Features JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="../shared/global_premium.js?v=3"></script>
+</body>
+</html>

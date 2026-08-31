@@ -13,34 +13,56 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Premium Features CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../shared/global_premium.css?v=2">
 </head>
 <body>
 
-    <!-- Header Institucional SSO -->
-    <header id="header" class="fixed-top header-sso">
-        <div class="container d-flex justify-content-between align-items-center h-100">
-            <div class="logo d-flex align-items-center">
-                <a href="https://estadisticas.ssosorno.cl/index.php" class="d-flex align-items-center text-decoration-none" style="color: #ffffff;">
-                    <!-- Mini Logo DEIS SVG (Adaptado para fondo oscuro) -->
-                    <svg viewBox="0 0 400 300" height="40" style="margin-right: 15px;" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="0" y="100" width="50" height="150" fill="#0072bc" />
-                        <rect x="60" y="40" width="50" height="210" fill="#00adef" />
-                        <rect x="120" y="0" width="120" height="250" fill="#ffffff" />
-                        <text font-family="'Inter', Arial, sans-serif" font-weight="700" font-size="130" letter-spacing="-3">
-                            <tspan x="140" y="220" fill="#0b1f40">D</tspan>
-                            <tspan x="250" y="220" fill="#ffffff">EIS</tspan>
-                        </text>
-                        <text x="255" y="250" font-family="'Inter', Arial, sans-serif" font-weight="500" font-size="26" fill="#ffffff" letter-spacing="1">OSORNO</text>
-                    </svg>
-                    
-                    <div style="line-height: 1.2;">
-                        <div style="font-weight: 700; font-size: 16px; letter-spacing: 0.5px;">SERVICIO DE SALUD OSORNO</div>
-                        <div style="font-size: 11px; color: rgba(255,255,255,0.7); letter-spacing: 0.2px; margin-top: 2px;">Departamento de Estadísticas e Información de Salud</div>
-                    </div>
-                </a>
+    <!-- 🛸 BARRA DE NAVEGACIÓN GLOBAL RNI 🛸 -->
+    <nav class="global-nav-bar">
+        <div class="global-nav-left">
+            <a href="index.html" class="btn-portal-rni">
+                <i class="fas fa-home"></i> Portal RNI
+            </a>
+        </div>
+        
+        <div class="global-nav-center d-none d-md-flex">
+            <a href="https://estadisticas.ssosorno.cl/index.php" style="color: #ffffff; display: flex; align-items: center; text-decoration: none;">
+                <!-- Mini Logo DEIS SVG -->
+                <svg viewBox="0 0 400 300" height="40" style="margin-right: 15px;" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0" y="100" width="50" height="150" fill="#0072bc" />
+                    <rect x="60" y="40" width="50" height="210" fill="#00adef" />
+                    <rect x="120" y="0" width="120" height="250" fill="#ffffff" />
+                    <text font-family="'Inter', Arial, sans-serif" font-weight="700" font-size="130" letter-spacing="-3">
+                        <tspan x="140" y="220" fill="#0b1f40">D</tspan>
+                        <tspan x="250" y="220" fill="#ffffff">EIS</tspan>
+                    </text>
+                    <text x="255" y="250" font-family="'Inter', Arial, sans-serif" font-weight="500" font-size="26" fill="#ffffff" letter-spacing="1">OSORNO</text>
+                </svg>
+                <div style="line-height: 1.2;">
+                    <div style="font-weight: 700; font-size: 16px; letter-spacing: 0.5px; color: #ffffff;">SERVICIO DE SALUD OSORNO</div>
+                    <div style="font-size: 12px; font-weight: 400; opacity: 0.8; color: #ffffff;">Departamento de Estadísticas e Información de Salud</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="global-nav-right">
+            <button class="global-nav-dropdown-btn">
+                <i class="fas fa-syringe"></i> Cambiar Vacuna <i class="fas fa-chevron-down" style="font-size: 0.7rem; margin-left: 2px;"></i>
+            </button>
+            <div class="global-nav-dropdown-content">
+                <a href="../Influenza_Web/index.html"><i class="fas fa-virus" style="color: #3b82f6;"></i> Campaña Influenza</a>
+                <a href="../VPH_Web/index.html"><i class="fas fa-ribbon" style="color: #ec4899;"></i> Vacuna VPH</a>
+                <a href="../Covid_Web/index.html"><i class="fas fa-biohazard" style="color: #10b981;"></i> Campaña COVID-19</a>
+                <a href="../VRS/index.html"><i class="fas fa-shield-virus" style="color: #8b5cf6;"></i> Campaña VRS</a>
+                <a href="../Programáticas_Web/index.html"><i class="fas fa-syringe" style="color: #f59e0b;"></i> Vacunas Programáticas</a>
+                <div style="border-top: 1px solid #e2e8f0; margin: 4px 0;"></div>
+                <a href="index.html" class="active" style="color: #1d4ed8;"><i class="fas fa-arrow-left"></i> Volver al Menú Principal</a>
             </div>
         </div>
-    </header>    <!-- Contenido Principal: Rediseño Inmunizaciones -->
+    </nav>    <!-- Contenido Principal: Rediseño Inmunizaciones -->
     <main class="main-content">
         <!-- Elementos Decorativos de Fondo -->
         <div class="decorative-background" aria-hidden="true">
@@ -83,7 +105,7 @@
             <div class="cards-grid">
                 
                 <!-- Tarjeta 1: Influenza -->
-                <a href="influenza/index.html" class="campaign-card card-influenza">
+                <a href="../Influenza_Web/index.html" class="campaign-card card-influenza">
                     <i class="fas fa-snowflake card-bg-icon"></i>
                     <div class="card-icon-wrapper">
                         <i class="fas fa-syringe card-icon"></i>
@@ -98,7 +120,7 @@
                 </a>
 
                 <!-- Tarjeta 2: COVID-19 -->
-                <a href="covid/index.html" class="campaign-card card-covid">
+                <a href="../Covid_Web/index.html" class="campaign-card card-covid">
                     <i class="fas fa-virus card-bg-icon"></i>
                     <div class="card-icon-wrapper">
                         <i class="fas fa-viruses card-icon"></i>
@@ -113,7 +135,7 @@
                 </a>
 
                 <!-- Tarjeta 3: VRS -->
-                <a href="vrs/index.html" class="campaign-card card-vrs">
+                <a href="../VRS/index.html" class="campaign-card card-vrs">
                     <i class="fas fa-lungs card-bg-icon"></i>
                     <div class="card-icon-wrapper">
                         <i class="fas fa-lungs-virus card-icon"></i>
@@ -128,7 +150,7 @@
                 </a>
 
                 <!-- Tarjeta 4: Programáticas -->
-                <a href="programaticas/index.html" class="campaign-card card-programaticas">
+                <a href="../Programáticas_Web/index.html" class="campaign-card card-programaticas">
                     <i class="fas fa-users card-bg-icon"></i>
                     <div class="card-icon-wrapper">
                         <i class="fas fa-shield-alt card-icon"></i>
@@ -136,6 +158,21 @@
                     <div class="card-content">
                         <h3>Vacunas Programáticas</h3>
                         <p>Programa Nacional de Inmunizaciones (PNI) regular.</p>
+                    </div>
+                    <div class="card-action">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+
+                <!-- Tarjeta 5: VPH -->
+                <a href="../VPH_Web/index.html" class="campaign-card card-vph">
+                    <i class="fas fa-venus-mars card-bg-icon"></i>
+                    <div class="card-icon-wrapper">
+                        <i class="fas fa-ribbon card-icon"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Vacuna VPH</h3>
+                        <p>Observatorio del Virus del Papiloma Humano.</p>
                     </div>
                     <div class="card-action">
                         <i class="fas fa-arrow-right"></i>
@@ -192,5 +229,10 @@
     </footer>
 
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "068ddcf406d9480499a9a5606fc3637c"}'></script><!-- End Cloudflare Web Analytics -->
+
+    <!-- Premium Features JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="../shared/global_premium.js?v=5"></script>
 </body>
 </html>

@@ -1,0 +1,302 @@
+/* =========================================================================
+   GLOBAL PREMIUM STYLES (DEIS)
+   Dark Mode, Toastify Overrides, and Skeleton Loaders
+   ========================================================================= */
+
+/* 1. TOAST NOTIFICATIONS (TOASTIFY OVERRIDES) */
+.toastify {
+    font-family: 'Inter', sans-serif !important;
+    border-radius: 8px !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+    padding: 12px 20px !important;
+    font-weight: 500 !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    font-size: 14px !important;
+    z-index: 10000 !important;
+}
+.toastify-success { background: linear-gradient(135deg, #10b981, #059669) !important; color: white !important; }
+.toastify-info { background: linear-gradient(135deg, #3b82f6, #2563eb) !important; color: white !important; }
+.toastify-warning { background: linear-gradient(135deg, #f59e0b, #d97706) !important; color: white !important; }
+
+/* 2. FULL-PAGE LOADER (SKELETON / OVERLAY) */
+#deis-global-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    z-index: 99999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
+    backdrop-filter: blur(5px);
+}
+body.dark-mode #deis-global-loader {
+    background: rgba(15, 23, 42, 0.95);
+}
+
+.deis-loader-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.deis-spinner {
+    width: 60px;
+    height: 60px;
+    border: 4px solid rgba(59, 130, 246, 0.2);
+    border-top-color: #3b82f6;
+    border-radius: 50%;
+    animation: deis-spin 1s linear infinite;
+    margin-bottom: 20px;
+}
+
+@keyframes deis-spin {
+    to { transform: rotate(360deg); }
+}
+
+.deis-loader-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1e293b;
+    letter-spacing: 0.5px;
+    animation: deis-pulse 1.5s infinite;
+}
+body.dark-mode .deis-loader-text { color: #f8fafc; }
+
+@keyframes deis-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+/* 3. HTML2PDF PRINTING STYLES */
+.pdf-exporting .global-nav-bar { display: none !important; }
+.pdf-exporting .portal-header { display: none !important; }
+.pdf-exporting .card-controls { display: none !important; }
+.pdf-exporting #themeToggleBtn { display: none !important; }
+.pdf-exporting .technical-notes { display: none !important; }
+.pdf-exporting .footer-sso { display: none !important; }
+.pdf-exporting .toastify { display: none !important; }
+.pdf-exporting .btn-export { display: none !important; }
+.pdf-exporting select { 
+    appearance: none; 
+    border: none !important; 
+    background: transparent !important; 
+    color: #000 !important;
+    font-weight: bold;
+}
+
+/* 4. STICKY HEADER + FILTER BAR */
+/* El rectángulo grande (título de campaña + filtros) queda fijo debajo de la nav global */
+#dashboardHeader {
+    position: sticky !important;
+    top: 56px !important; /* justo debajo de la global-nav-bar de 56px */
+    z-index: 999 !important;
+    overflow: visible !important; /* CRITICAL: overflow:hidden rompe position:sticky */
+}
+
+/* El rectángulo delgado (pestañas Cobertura/Producción) queda fijo debajo del header */
+#tabNav {
+    position: sticky !important;
+    z-index: 998 !important;
+    background-color: var(--bg-primary, #f8fafc) !important; /* Para que no sea transparente al hacer scroll */
+    transition: top 0.2s ease-out; /* Opcional para transición suave si cambia la altura */
+}
+
+/* =========================================
+   REDISEÑO UX AUTOCONSULTA
+   ========================================= */
+
+/* 1. Guía Visual de 3 Pasos */
+.autoconsulta-steps-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.autoconsulta-step {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(15, 105, 180, 0.15);
+    border-radius: 12px;
+    padding: 1.2rem;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+.autoconsulta-step:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(15, 105, 180, 0.15);
+}
+.step-number {
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    background: var(--minsal-blue, #0f69b4);
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(15, 105, 180, 0.4);
+    border: 2px solid white;
+}
+.step-title {
+    font-weight: 700;
+    color: #1e293b;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.step-desc {
+    color: #64748b;
+    font-size: 0.8rem;
+    line-height: 1.4;
+}
+
+/* 2. Botones Especiales de Autoconsulta */
+.autoconsulta-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    justify-content: center;
+}
+.btn-primary-action {
+    background: var(--minsal-blue, #0f69b4);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(15, 105, 180, 0.3);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.btn-primary-action:hover {
+    background: #0c5798;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(15, 105, 180, 0.4);
+}
+.btn-secondary-action {
+    background: white;
+    color: var(--minsal-blue, #0f69b4);
+    border: 1px solid var(--minsal-blue, #0f69b4);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.btn-secondary-action:hover {
+    background: rgba(15, 105, 180, 0.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* 3. Rediseño Drop Zone */
+.autoconsulta-drop-zone {
+    border: 2px dashed rgba(15, 105, 180, 0.4);
+    background: rgba(255, 255, 255, 0.6);
+    padding: 3rem 2rem;
+    border-radius: 16px;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+.autoconsulta-drop-zone:hover {
+    background: rgba(255, 255, 255, 0.9);
+    border-color: var(--minsal-blue, #0f69b4);
+    box-shadow: 0 10px 30px rgba(15, 105, 180, 0.1);
+}
+.autoconsulta-drop-zone.dragover {
+    background: rgba(15, 105, 180, 0.05);
+    border-color: var(--minsal-blue, #0f69b4);
+    transform: scale(1.02);
+}
+.autoconsulta-drop-icon i {
+    font-size: 3.5rem;
+    color: var(--minsal-blue, #0f69b4);
+    opacity: 0.8;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+.autoconsulta-drop-zone:hover .autoconsulta-drop-icon i {
+    transform: translateY(-5px);
+}
+.autoconsulta-drop-title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+}
+.autoconsulta-drop-subtitle {
+    color: #64748b;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+/* 4. Bloque Antes de Comenzar (Info simplificada) */
+.autoconsulta-info-compact {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 2rem;
+    background: rgba(255,255,255,0.7);
+    border-radius: 12px;
+    padding: 1.2rem;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+.info-compact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.info-compact-icon {
+    background: rgba(15, 105, 180, 0.1);
+    color: var(--minsal-blue, #0f69b4);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+}
+.info-compact-text {
+    font-size: 0.75rem;
+    line-height: 1.4;
+    color: #475569;
+}
+.info-compact-text strong {
+    color: #1e293b;
+    display: block;
+    margin-bottom: 2px;
+}

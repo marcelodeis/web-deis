@@ -7,12 +7,24 @@ import sys
 SCRIPTS = [
     # Covid
     r"Covid_Web\scripts\procesar_covid.py",
+    r"Covid_Web\scripts\generar_indice_covid.py",
     # Influenza
     r"Influenza_Web\Scripts_Procesamiento\parse_influenza.py",
+    r"Influenza_Web\Scripts_Procesamiento\generar_indice_influenza.py",
     # Programaticas
     r"Programáticas_Web\generate_data_2026.py",
+    r"Programáticas_Web\generate_autoconsulta_index.py",
     # VRS
     r"VRS\Scripts_Procesamiento\parse_vrs.py",
+    r"VRS\scripts\generar_indice_vrs.py",
+    # VPH
+    r"VPH_Web\procesar_observatorio_vph.py",
+    r"VPH_Web\procesar_ocurrencia_vph.py",
+    r"VPH_Web\integrar_ocurrencia.py",
+    r"VPH_Web\scripts\generar_indice_vph.py",
+    
+    # Actualizar Cache Busters
+    r"update_cache_busters.py",
     
     # Finalmente construir para Cloudflare
     r"construir_cloudflare.py"
@@ -28,9 +40,12 @@ def run_script(script_path):
     print(f"{'='*50}")
     
     # Determinar el directorio de trabajo basándose en la ubicación del script
-    cwd = os.path.dirname(os.path.abspath(script_path))
-    if not cwd or cwd == os.path.abspath('.'):
-        cwd = None
+    # Debe ser el directorio base de la vacuna (ej. Covid_Web, Influenza_Web)
+    parts = os.path.normpath(script_path).split(os.sep)
+    if len(parts) > 1:
+        cwd = os.path.abspath(parts[0])
+    else:
+        cwd = os.path.abspath('.')
         
     try:
         result = subprocess.run(
@@ -57,7 +72,7 @@ def main():
             sys.exit(1)
             
     print("\n" + "="*50)
-    print("✅ ACTUALIZACIÓN COMPLETA")
+    print("ACTUALIZACIÓN COMPLETA")
     print("La carpeta 'cloudflare' ha sido reconstruida y está lista para ser subida.")
     print("="*50)
 
