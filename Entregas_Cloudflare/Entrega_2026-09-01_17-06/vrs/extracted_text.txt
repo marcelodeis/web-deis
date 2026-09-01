@@ -1,0 +1,2142 @@
+
+
+==================================================
+DOCUMENTO: LTO-VRS-2026.pdf
+==================================================
+LINEAMIENTOS TÉCNICOS OPERATIVOS
+INMUNIZACIÓN CONTRA EL 
+VIRUS RESPIRATORIO SINCICIAL (VRS)
+Departamento de Inmunizaciones
+División de Prevención y Control de Enfermedades
+Subsecretaría de Salud Pública
+2026
+2
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Responsables
+Dra. Elizabeth López Tagle
+Jefa División de Prevención y Control de Enfermedades
+Marcela Avendaño Vigueras
+Jefa Departamento de Inmunizaciones (S)
+División de Prevención y Control de Enfermedades
+Patricia Cabezas Olivares
+Enfermera Coordinadora Campaña de Inmunización contra el VRS
+Departamento de Inmunizaciones
+División de Prevención y Control de Enfermedades
+Dra. Mª Carolina Asela
+Médico Asesor
+Subsecretaría de Salud Pública
+Ministerio de Salud
+Autores
+Gonzalo Bustos López    - Enfermero, Departamento de Inmunizaciones, MINSAL
+Ma Ignacia Castellano Yáñez    - Enfermera, Departamento de Inmunizaciones, MINSAL
+Danae Garabito Rosales    - Enfermera, Departamento de Inmunizaciones, MINSAL
+Siusee Lee Palomino    - Enfermera, Departamento de Inmunizaciones, MINSAL
+Paulina Muñoz Cortés    - Enfermera, Departamento de Inmunizaciones, MINSAL
+Camila Rojas González    - Químico Farmacéutico, Departamento de Inmunizaciones, MINSAL
+Revisores
+Felipe Muñoz Pérez    - Ing. Comercial, Departamento de Inmunizaciones, MINSAL
+Dra. Carolina Méndez Benavente   - Médico, Pediatra-Neonatóloga, Asesora Gabinete Ministra, MINSAL
+Editor documental
+Christián Saavedra Gajardo  - Enfermero, Departamento de Inmunizaciones, MINSAL
+3
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+INDICE
+I. ANTECEDENTES DE LA ENFERMEDAD        4
+Características clínicas         4
+Transmisión            4
+Epidemiología del VRS en Chile        5
+II. RESULTADOS EN CHILE DE CAMPAÑA DE NIRSEVIMAB EN 2024-2025   7
+III. CAMPAÑA DE INMUNIZACIÓN CONTRA EL VRS 2026     9
+Objetivo            9
+Población objetivo          9
+Periodo de ejecución          10
+Ejecución            10
+Lugar de ejecución          10
+Meta de cobertura          10
+Control de stock y metodología FEFO        10
+IV. CARACTERÍSTICAS DEL PRODUCTO        11
+V. ORGANIZACIÓN Y RESPONSABILIDADES EN LA 
+      IMPLEMENTACIÓN DE LA ESTRATEGIA 2026      15
+VI. SEGURIDAD EN LA INMUNIZACIÓN        19
+Vigilancia de Eventos Supuestamente Atribuibles a la Vacunación o Inmunización (ESAVI) 19
+Vigilancia de Errores Programáticos        22
+Manejo de reacciones post-inmunización        31
+VII. ABASTECIMIENTO           37
+VIII. CADENA DE FRÍO          39
+IX. SISTEMA DE CONTROL DE INVENTARIO (SCI)      43
+X. SISTEMA DE INFORMACIÓN - REGISTRO NACIONAL DE INMUNIZACIONES (RNI)  45
+XI. CONSIDERACIONES DE CAPACITACIÓN, SUPERVISIÓN Y FISCALIZACIÓN   50
+XII. INFORME REGIONAL CAMPAÑA INMUNIZACIÓN CONTRA EL VRS 2026   53
+XIII. ANEXOS            54
+Anexo N°1: Formulario registro nacional de inmunizaciones     55
+4
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+I. ANTECEDENTES DE LA ENFERMEDAD
+El virus respiratorio sincicial (VRS) es reconocido como una de las causas más comunes de 
+enfermedades infantiles y es la causa más común de hospitalización en los lactantes. Este virus 
+causa brotes anuales de enfermedades respiratorias en todos los grupos de edad1.
+El VRS pertenece a la familia Pneumoviridae , género Orthopneumovirus , teniendo como único 
+hospedero el ser humano2.
+El VRS posee dos glicoproteínas de superficie, F y G, con un rol importante en la replicación viral y en 
+la producción de inmunidad. Los VRS se clasifican en dos grupos, VRS A y VRS B, existiendo múltiples 
+genotipos en cada uno de ellos. No se ha asociado la virulencia o transmisibilidad del virus con una 
+cepa en particular
+Características clínicas
+En recién nacidos y lactantes pequeños, la infección por VRS puede causar una variedad de 
+enfermedades y síntomas respiratorio. Por lo general, causa una enfermedad similar a un resfriado, 
+pero también puede producir infecciones de las vías respiratorias inferiores, como bronquiolitis y 
+neumonía. Entre el 2% y 3% de los menores de 6 meses son hospitalizados con VRS cada año. La 
+enfermedad grave se presenta con mayor frecuencia en recién nacidos o lactantes muy pequeños, 
+incluidos los recién nacidos y lactantes sanos, sin afecciones subyacentes1.
+Los recién nacidos y lactantes que cursan con infección por VRS pueden tener rinorrea y disminución 
+del apetito antes de que aparezcan otros síntomas. La tos suele aparecer entre 1 y 3 días después. 
+Poco después de que aparezca la tos, pueden aparecer estornudos, fiebre y sibilancias.
+Los lactantes pueden afectarse más gravemente y evolucionar con letargo, fiebre, inapetencia y 
+otitis media. La apnea es una complicación bien conocida de la infección por VRS en lactantes, y 
+su incidencia es de hasta el 20% en lactantes menores de 6 meses que requieren hospitalización3.
+Transmisión
+El VRS puede propagarse cuando:
+• Una persona infectada tose o estornuda.
+• Recibe gotitas respiratorias con el virus luego de que alguien tose o estornuda en sus ojos, 
+nariz o boca.
+• Tiene contacto directo con el virus, como al besar la cara de un niño/a con VRS.
+• Tiene contacto con una superficie infectada con el virus (como la perilla de una puerta) y 
+luego se toca la cara, sin haberse lavado las manos previamente.
+1 Centers for Disease Control and Prevention (CDC). Clinical Overview of RSV.  30 agosto 2024 [Internet]. Disponible en: https://www.
+cdc.gov/rsv/hcp/clinical-overview/index.html
+2 Díaz P, Avendaño L. El virus respiratorio sincicial: patógeno de niños pequeños y de grandes. Revista chilena de enfermedades 
+respiratorias, 2017,33(4), 293-302. https://dx.doi.org/10.4067/S0717-73482017000400293
+3 Piedimonte, G., & Perez, M. K. (2014). Respiratory Syncytial Virus Infection and Bronchiolitis. Pediatrics In Review, 35(12), 519-530. 
+https:// doi.org/10.1542/pir.35-12-519
+5
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Las personas infectadas con el VRS pueden transmitir el virus durante 3 a 8 días y pueden volverse 
+contagiosas uno o dos días antes de que comiencen a mostrar síntomas de la enfermedad. 
+Sin embargo, algunos bebés y personas con sistemas inmunitarios debilitados pueden seguir 
+propagando el virus durante 4 semanas o más, incluso después de que dejen de mostrar síntomas.
+El VRS se mantiene estable por muchas horas sobre superficies duras como mesas y barandas de 
+cuna. Por lo general, sobrevive en superficies blandas como pañuelos desechables y manos por 
+periodos más breves4.
+Se han descrito factores de riesgo de gravedad en la infección respiratoria por VRS en condición 
+de prematuridad, bajo peso de nacimiento, nivel socio-económico bajo, displasia broncopulmonar, 
+cardiopatías congénitas con alteración hemodinámica, edad entre 6 y 12 semanas de vida, 
+inmunodeficiencias y en pacientes trasplantados. Hay factores maternos que han sido relacionados 
+con el aumento de probabilidad de desarrollo de bronquiolitis por VRS, como tabaquismo pre y post 
+natal y bajos niveles de anticuerpos específicos5.
+Epidemiología del VRS en Chile
+En Chile, el Ministerio de Salud (MINSAL) mantiene un sistema de vigilancia de las Infecciones 
+Respiratorias Agudas Graves (IRAG), analizado a nivel nacional por el Departamento de Epidemiología, 
+el cual considera la circulación de virus respiratorios, incluido el VRS.
+Durante el año 2025, hasta la semana epidemiológica 52, la vigilancia IRAG evidenció, en relación con 
+los indicadores de gravedad intrahospitalaria, un total de 1.483 casos asociados a VRS, de los cuales 
+425 requirieron ingreso a Unidades de Cuidados Intensivos (UCI) y se registraron 17 fallecimientos.
+Del total de casos de IRAG atribuibles a VRS, el grupo etario con mayor concentración de casos 
+correspondió a niños y niñas de 0 a menores de 2 años (46%), seguido por el grupo de 2 a menores 
+de 5 años (24%), personas mayores de 60 años (13%), población de 5 a 19 años (12%), personas de 
+40 a 59 años (3%) y de 20 a 39 años (1%)6.
+Se observa en la figura N°1 que durante los años 2024 y 2025 en comparación con el año 2023, hubo 
+una menor magnitud de casos de IRAG positivos a VRS en los distintos grupos etarios, especialmente 
+en lactantes menores de 3 meses y de 3 a 5 meses, que en años anteriores concentraban la mayor 
+proporción de casos. Si bien se observa un aumento de casos durante los meses de invierno, la 
+menor magnitud de los peak registrados en los años posteriores a 2023 sugiere un impacto positivo 
+de la estrategia de inmunización con anticuerpos monoclonales contra VRS en la reducción de casos 
+graves en lactantes durante las temporadas 2024 y 20257.
+4 Centers for Disease Control and Prevention (CDC). Respiratory Syncytial Virus Infection (RSV). 30 agosto 2024 [Internet]. Disponible 
+en: https://www.cdc.gov/rsv/causes/index.html
+5 DIAZ A., Patricia V.  y  AVENDANO C., Luis Fidel. El virus respiratorio sincicial: patógeno de niños… y de grandes. Rev. chil. enferm. respir. 
+[online]. 2017, vol.33, n.4, pp.293-302. ISSN 0717-7348 
+6 Departamento de epidemiología - Ministerio de Salud. Informe epidemiológico N°52: Vigilancia centinela ETI e IRAG de 
+influenza y otros virus respiratorios. 30 diciembre 2025. Disponible en: https://epi.minsal.cl/wp-content/uploads/2026/01/
+EPIDEMIOLOGICO_N_52_VIGILANCIA_CENTINELA_ETI_IRAG_DE_INFLUENZA_Y_OTROS_VIRUS_RESPIRATORIOS.pdf
+7 Departamento de Epidemiologia - Ministerio de Salud. Datos extraídos de Dashboard Vigilancia Centinela ETI/IRAG (Acceso el 06 
+enero 2026). Disponible en: https://sl1nk.com/vP8OA
+6
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+FIGURA N°1: DISTRIBUCIÓN DE CASOS IRAG POSITIVOS A VRS POR GRUPOS DE EDAD HASTA 23 MESES.
+Fuente: Vigilancia centinela IRAG. Departamento de epidemiología, Ministerio de Salud7.
+7
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026II. RESULTADOS EN CHILE DE CAMPAÑA DE NIRSEVIMAB EN 2024-2025
+El año 2024 Chile fue el primer país latinoamericano en implementar el anticuerpo monoclonal 
+nirsevimab para la prevención del VRS en recién nacidos y lactantes menores de 6 meses, alcanzando 
+coberturas superiores al 90% y registrándose ausencia de muertes por VRS durante campaña de 
+invierno en este grupo etario durante ese año. El cierre de la Campaña de Invierno 2025 consolidó 
+este hito: por segundo año consecutivo no se registraron fallecimientos en menores de un año 
+por acción de este virus, gracias a esta estrategia, observándose una reducción del 76% en las 
+hospitalizaciones totales por infecciones respiratorias y del 85% en las hospitalizaciones 
+en unidades de cuidados intensivos por estas causas . La experiencia chilena fue destacada 
+internacionalmente y publicada en la revista The Lancet Infectious Diseases , subrayando su 
+relevancia como modelo de política pública efectiva en inmunización infantil8.
+La campaña de inmunización con nirsevimab, ha sido monitorizada por el Departamento de 
+Inmunizaciones de MINSAL, así como también por el Instituto Milenio de Sistemas Complejos de 
+Ingeniería (ISCI) de la Universidad de Chile, a través de un convenio colaborativo con el MINSAL.
+Es así que el año 2024 se observó a nivel nacional que la cantidad de hospitalizaciones semanales 
+acumuladas por VRS fue significativamente menor a la de años anteriores en la población objetivo 
+de nirsevimab. De las 1.211 hospitalizaciones totales, 658 correspondieron a lactantes y 553 a RN, 
+correspondiendo a un 15% a las del año 2019, al 26% del año 2022 y al 20% del año 2023 en la 
+semana epidemiológica 408 (ver figura N°2).
+El año 2025 la campaña de inmunización con nirsevimab se inició el día 1 de marzo para los Recién 
+Nacidos (RN) y lactantes nacidos a partir del 1 de octubre del año 2024, además de la población 
+de lactantes que tenían alguna condición de riesgo especifica, que se podía agravar al contagiarse 
+con VRS. La cobertura de inmunización alcanzada ese año en el grupo de RN fue de 97,7% y en los 
+lactantes menores de 6 meses de un 93,0%.
+En la figura N°2, se puede apreciar que las hospitalizaciones por VRS en los años 2019, 2022, 2023, 
+2024 y 2025 para la población objetivo han sido similares para los 2 últimos periodos observando 
+una baja significativamente mayor, demostrando el impacto positivo de la estrategia con la 
+introducción de este anticuerpo monoclonal.
+FIGURA N°2: HOSPITALIZACIONES SEMANALES POR VRS DE POBLACIÓN OBJETIVO ESTRATEGIA NIRSEVIMAB
+Fuente:  Instituto Milenio de Sistemas Complejos de Ingeniería (ISCI). NirseCL:
+8 RSV prevention: public health lessons from the southern hemisphere, Mallah, Narmeen et al. The Lancet Infectious Diseases, Volume 
+25, Issue 11, 1161 - 1163
+8
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Los resultados obtenidos en la campaña 2024 fueron analizados y difundidos en un artículo científico 
+de alto impacto internacional, publicado en la revista The Lancet Infectious Diseases , titulado 
+“Efectividad e impacto de nirsevimab en Chile durante la primera temporada de una estrategia 
+nacional de inmunización contra VRS (NIRSE-CL): un estudio observacional retrospectivo”9. El 
+estudio, desarrollado a partir del trabajo colaborativo entre el MINSAL y el ISCI-U. de Chile, evaluó la 
+efectividad poblacional de nirsevimab durante su primera temporada de implementación nacional, 
+demostrando una disminución significativa de hospitalizaciones, cuadros graves y mortalidad 
+asociada a VRS, consolidando a Chile como referente internacional en la adopción temprana de 
+estrategias innovadoras de prevención en salud pública, con publicación realizada en noviembre 
+de 2025.
+Además, los hallazgos indican un impacto más amplio en la salud pública, con reducciones 
+observadas no solo en las hospitalizaciones por IRA baja relacionadas con el VRS, sino también en las 
+hospitalizaciones por IRA baja por cualquier causa. Estos hallazgos ofrecen perspectivas para otros 
+países que estén considerando programas similares y enfatizan la importancia del seguimiento y la 
+investigación continuos para optimizar las estrategias de inmunización para la profilaxis del VRS.
+Posteriormente la misma revista internacional publica un artículo que analiza la experiencia chilena 
+“Prevención del VSR: lecciones de salud pública del hemisferio sur” , donde los académicos españoles 
+Narmeen Mallah y Federico Martinon-Torres, precursores de la estrategia nirsevimab en Galicia, 
+destacan que “lo que distingue a NIRSE-CL no son solo los hallazgos sobre la sustancial efectividad 
+del nirsevimab, que concuerdan con las estimaciones agrupadas de estudios observacionales, sino 
+también el extraordinario desempeño del despliegue y la fidelidad en la implementación. La alta 
+aceptación de nirsevimab, la entrega oportuna y la integración de nirsevimab en la infraestructura 
+nacional de inmunización se tradujeron en un impacto en la salud pública” .
+9 Effectiveness and impact of nirsevimab in Chile during the first season of a national immunisation strategy against RSV (NIRSE-CL): 
+a retrospective observational study. Torres, Juan Pablo et al. The Lancet Infectious Diseases, Volume 25, Issue 11, 1189 - 1198
+9
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026III. CAMPAÑA DE INMUNIZACIÓN CONTRA EL VRS 2026
+Objetivo
+• Prevenir morbilidad grave y mortalidad por el VRS en población objetivo que vive en Chile a través de la 
+inmunoprofilaxis, previo a la temporada de alta circulación del virus.
+Población objetivo
+1. Recién nacidos:  todos los RN  a partir del 01 de marzo del año 2026.
+Nota: En el caso de los recién nacidos de pretérmino (RNPT), se debe considerar la estabilidad de la condición clínica indicada 
+por el médico tratante.
+2. Lactantes:  todos los nacidos a partir del 01 de octubre del año 2025.
+3. Lactantes de riesgo10:
+Nota: Están considerados los lactantes que se encuentran en su segundo periodo de circulación viral (VRS), también 
+denominada segunda temporada.
+a) Prematuros menores de 32 semanas de edad gestacional (EG) o < de 1.500 gr de peso al nacer (*).
+b) Lactantes con cardiopatías congénitas hemodinámicamente significativas, no resueltas o cardiopatía 
+cianótica secundaria a cardiopatía de alta complejidad (ver tabla N°1).
+TABLA N°1. CARDIOPATÍAS CONGÉNITAS
+• Insuficiencia cardíaca que requiere tratamiento para mantener estabilidad clínica, 
+ya sea hospitalizado o ambulatoria.
+• Cardiopatía congénita no cianótica  compleja en espera de resolución quirúrgica.
+• Cardiopatía congénita cianótica o no cianótica  en espera de cirugía, hipoxia, 
+Insuficiencia Cardíaca, o Hipertensión Pulmonar moderada - severa 
+• Cardiopatía congénita operada con efecto residual significativo
+• Miocardiopatía que requiere tratamiento.
+c) Lactantes prematuros nacidos de 32 a 34+6 semanas de edad gestacional y que su peso de nacimiento 
+hasta 2.500 gramos. (Cumplir ambas condiciones para incluirse en este criterio).
+d) Lactantes con Inmunosupresión primaria o secundaria severa.
+e) Lactantes con errores congénitos de metabolismo.
+f) Lactantes con enfermedades neuromusculares graves y/o secuelas respiratorias graves.
+g) Lactantes con diagnóstico de Fibrosis Quística.
+h) Lactantes con enfermedades hematoncológicas.
+i) Lactantes trasplantados de médula u órganos sólidos.
+j) Lactantes usuarios de oxigenoterapia por patología pulmonar severa u otras condiciones clínicas 
+relevantes, con o sin requerimiento de ventilación mecánica.
+k) Neonatos o lactantes sometidos a Circulación Extracorpórea
+Nota: En este caso se inmuniza a niños menores de 2 años que sean sometidos a Circulación Extracorpórea. Para estos 
+lactantes se puede administrar una dosis adicional tan pronto como su condición clínica se estabilice, la indicación 
+medica detallara la dosis requerida. La dosis se detalla en el capítulo V de este documento.
+4. Otros lactantes de riesgo  definidos por la autoridad.
+(*) Los recién nacidos prematuros extremos podrán ser inmunizados una vez que alcancen un peso ≥ a 1.000gr, siempre que 
+el médico tratante determine que presentan estabilidad clínica, indicando y administrando nirsevimab.
+10 Comité Asesor de Vacunas e Inmunizaciones AEP (España). “Actualización de las recomendaciones de uso de nirsevimab en la temporada 2025-2026”. 
+14 septiembre 2025. Disponible e n https://vacunasaep.org/profesionales/noticias/actualizacion-de-las-recomendaciones-de-uso-de- nirsevimab-
+en-la-temporada
+10
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Para acceder a la inmunización de lactantes de riesgo, deberá contar con algún 
+documento que acredite el cumplimiento de el o los criterios mencionados anteriormente, 
+según corresponda.
+IMPORTANTE
+ –Las condiciones descritas para población “lactantes de riesgo” se incluyen siempre que al 
+momento de la inmunización sean menores de 2 años con alguna de dichas condiciones.
+ –La inmunización será revisada y administrada en el vacunatorio, con la presentación de algún 
+documento que acredite su condición o alguno de los diagnósticos mencionados.
+Periodo de ejecución
+La temporada de circulación de VRS, que se estima de marzo a septiembre:
+• Inicio: 1 de marzo del 2026.
+• Finaliza:  30 de septiembre del 2026.
+Ejecución
+La inmunización en el caso de los RN y lactantes se informa a la madre, padre o persona a cuyo 
+cuidado se encuentre. En el establecimiento que corresponda.
+El registro de cada inmunización es en el Registro Nacional de Inmunizaciones (RNI), en caso de 
+que madre, padre o el tutor legal manifieste su no aceptación a la administración, se procederá a 
+registrar el rechazo en el RNI. Esto, además, debe ser consignado en la ficha clínica o en el registro 
+clínico de enfermería/matronería, en los casos que corresponda.
+Lugar de ejecución
+La implementación se realiza en maternidades, unidades de neonatología y vacunatorios públicos y 
+privados en convenio con las Secretarías Regionales Ministeriales (SEREMI) de Salud del país.
+Meta de cobertura
+La meta de cobertura es de 80% a nivel nacional y por grupo objetivo.
+Control de stock y metodología FEFO
+Se debe establecer un monitoreo periódico del inventario a través del Sistema de Control de 
+Inventario (SCI) gestionando el stock a través de la metodología FEFO (First Expired, First Out; en 
+español primero que expira es el primero en salir), en todos los niveles de operación del Programa 
+Nacional de Inmunizaciones (PNI). Más detalles de esta materia se encuentra en el capítulo IX de 
+este lineamiento.
+11
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+IV. CARACTERÍSTICAS DEL PRODUCTO
+El nirsevimab es un anticuerpo monoclonal recombinante humano IgG1 κ de vida media prolongada, 
+diseñado para prevenir la enfermedad grave causada por el VRS en lactantes y niños pequeños. 
+En lactantes, presenta una vida media estimada entre 63 y 73 días. Nirsevimab se une a epítopos 
+altamente conservados de la proteína F del VRS, estabilizándola en su conformación de prefusión 
+y bloqueando la entrada del virus a la célula huésped. Tras su administración, las concentraciones 
+séricas máximas de nirsevimab se alcanzan dentro de los primeros 7 días.
+Nirsevimab, a diferencia de las vacunas o infecciones que estimulan el sistema inmunológico para 
+generar una respuesta activa (inmunización activa), proporciona una protección inmediata a través 
+de anticuerpos preformados, lo que se conoce como inmunización pasiva11.
+TABLA Nº2. CARACTERÍSTICAS DEL PRODUCTO12
+Medicamento Nirsevimab
+Nombre comercial Beyfortus®
+Laboratorio Sanofi®
+Uso y dosificación• Dosis única de 50 mg para recién nacidos y lactantes con peso menor o igual a 5 kg.
+• Dosis única de 100 mg para lactantes con peso mayor a 5 kg.
+• En lactantes en 2ª temporada corresponde dosis de 100 mg o 200 mg dependiendo 
+del peso.
+Apariencia física• Solución transparente a opalescente
+• No inyectar si el contenido está turbio o presenta partículas extrañas.
+Vía de 
+administraciónVía intramuscular
+PresentaciónJeringa prellenada de vidrio sin aguja.
+• Presentación jeringa prellenada con 50 
+mg (0,5 mL) de nirsevimab, con émbolo 
+morado.
+• Presentación jeringa prellenada con 100 
+mg (1 mL) de nirsevimab, con émbolo 
+celeste.
+Almacenamiento• Mantener entre +2°C a +8°C
+• No congelar, no agitar ni exponer al calor directo
+• Proteger de la luz (conservar la jeringa prellenada en el envase secundario)
+Reacciones 
+adversasReacciones locales sitio de punción:
+• Dolor; Inflamación; EdemaReacciones sistémicas:
+• Fiebre; Erupción cutánea
+Contraindicaciones Hipersensibilidad al principio activo o a alguno de los excipientes.
+Coadministración 
+con vacunasSe puede administrar simultáneamente con vacunas programáticas y de campaña, 
+en diferentes sitios de punción. No requiere intervalo de tiempo específico con otras 
+vacunas.
+Fuente: Elaboración propia Departamento de Inmunizaciones, 2026.
+11 World Health Organization. WHO paper on immunization to protect infants against respiratory syncytial virus disease, May 2025. 
+Weekly Epidemiological Record. 2025;100(22):193–218. Disponible en: https://iris.who.int/server/api/core/bitstreams/96ec533a-
+de56-4e1a-8e01-420afda0b683/content
+12 European Medicines Agency. (2022, octubre). FICHA TÉCNICA O RESUMEN DE LAS CARACTERÍSTICAS DEL PRODUCTO. https://www.
+ema.europa.eu/en/documents/product-information/beyfortus-epar-product-information_es.pdf
+12
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+TABLA N°3: PRESENTACIONES DEL PRODUCTO A UTILIZAR
+Presentación Beyfortus® 50 mg (0,5 mL) Beyfortus® 100 mg (1 mL)
+Envase primario
+Envase secundario
+Contiene 5 jeringas 
+prellenadas de cada 
+presentación
+Fuente: Elaboración propia Departamento de Inmunizaciones, 2026.
+Duración de los niveles de anticuerpos
+Respecto de la duración de los anticuerpos para este producto, en base a los estudios clínicos 
+de fase 3 del nirsevimab y al folleto al profesional de la Beyfortus®, se indica que los lactantes 
+que entraron en su primera temporada de VRS que recibieron nirsevimab, presentaron niveles de 
+anticuerpos neutralizantes del VRS más de 50 veces superiores a los niveles iniciales en el día 151 
+y aproximadamente, 7 veces superiores al inicio, y superiores al placebo, en el día 360. Por lo que 
+la duración mínima de la protección ofrecida por una dosis única de Beyfortus® es de al menos 5 
+meses13.
+Técnica de preparación y administración
+A continuación, se describe la técnica de preparación y administración del anticuerpo monoclonal 
+nirsevimab:
+TABLA N°4: PRESENTACIÓN E INDICACIÓN DE USO DE AGUJA
+JERINGA AGUJA
+Dosis única de 50 mg.
+RN o lactantes con peso hasta 5 kg.25 G x 5/8”
+Dosis única de 100 mg.
+RN o lactantes con peso mayor a 5 kg.25 G x 1”
+Dos dosis de 100 mg o dosis de 200 mg.
+Para lactantes en segunda temporada
+Administración en sitios anatómicamente distintos.25 G x 1”
+Fuente: Elaboración propia Departamento de Inmunizaciones, 2026.
+13 Instituto de Salud Pública. Folleto de información al profesional Beyfortus solución inyectable 50 mg/ 0,5 mL. (Acceso el 20 enero 
+2025). Disponible en:  https://www.ispch.cl/wp-content/uploads/2024/01/B-3014.pdf
+13
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+TABLA N°5: TÉCNICA DE PREPARACIÓN Y ADMINISTRACIÓN DE NIRSEVIMAB
+TÉCNICA DE PREPARACIÓN Y ADMINISTRACIÓN
+Vía de administración - Intramuscular, en ángulo de 90°
+Sitio de punción –Lactantes menores de 12 meses: tercio medio de la cara anterolateral del 
+muslo (músculo vasto externo)
+ –A partir de los 12 meses de edad: la punción debe ser realizada en el 
+brazo, músculo deltoides, 2-3 traveses de dedo bajo el acromion.
+T écnica –Homogenizar la solución (no agitar).
+ –Descubrir la zona de punción, en su totalidad.
+ –Definir zona de punción.
+ –Limpiar zona con tórula seca.
+ –Sostener la zona de inyección con el dedo índice y pulgar.
+ –Puncionar con un ángulo de 90º con un movimiento rápido y seguro.
+ –Administrar la totalidad de la solución de manera rápida y sin aspirar.
+ –Realizar presión con tórula seca en el sitio de punción.
+ –Eliminar el material utilizado (jeringa y aguja), en contenedor de residuos 
+especiales, según REAS vigente.
+ –Observar al usuario al menos por 30 minutos.
+Sitio de punción –Punción intramuscular en la cara anterolateral del muslo (músculo vasto 
+externo)
+ –Punción intramuscular en músculo deltoides
+ –
+Fuente: Elaboración propia Departamento de Inmunizaciones, 2026.
+14
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Dosis
+Las dosis para los recién nacidos y lactantes según peso y condición se detallan en las siguientes 
+tablas:
+TABLA N°6: DOSIS DE ANTICUERPO MONOCLONAL SEGÚN POBLACIÓN OBJETIVO Y PESO
+POBLACIÓN OBJETIVO DOSIS SEGÚN PESO
+Recién nacidos Con peso menor o igual a 5kg, administrar 50 mg (0,5 mL)
+Lactantes, nacidos a partir del 
+01 de octubre de 2025Con peso mayor a 5kg, administrar 100 mg (1 mL)
+Fuente: Elaboración propia Departamento de Inmunizaciones, 2026.
+TABLA N°7: DOSIS DE ANTICUERPO MONOCLONAL PARA LACTANTES DE RIESGO
+POBLACIÓN OBJETIVO 
+DE SEGUNDA TEMPORADA (*)DOSIS SEGÚN PESO
+Lactantes de riesgo hasta los 
+24 meses de edadLactantes con peso hasta 10 kg, administrar 100 mg (1 mL)
+Lactantes con peso mayor a 10 kg, administrar 200 mg (2x1 mL)
+(*) Recommendations of the Spanish Society of Neonatology for the prevention of severe respiratory syncytial virus infections with 
+nirsevimab, for the 2024-2025 season.
+Fuente: Elaboración propia Departamento de Inmunizaciones, 2026.
+En recién nacidos o lactantes que hayan sido sometidos a circulación extracorpórea (ECMO) , se 
+debe tener las siguientes consideraciones:
+• La indicación por escrito debe ser entregar por el médico del establecimiento donde se 
+realizó el procedimiento invasivo.
+• La dosis en estos casos, (dosis adicional), dependerá del tiempo que ha trascurrido desde 
+que se administró la dosis anterior y si el lactante está en su primera o segunda temporada 
+de circulación del VRS, según se detalla en la tabla N°8:
+TABLA N°8: DOSIS DE ANTICUERPO MONOCLONAL EN PACIENTES SOMETIDOS A ECMO
+TEMPORADA DE VRSSI LA DOSIS ADICIONAL SE 
+ADMINISTRA CON INTERVALO 
+MENOR A 90 DÍAS DESPUÉS DE LA 
+INMUNIZACIÓNSI LA DOSIS ADICIONAL SE 
+ADMINISTRA CON INTERVALO MAYOR 
+A 90 DÍAS DE LA INMUNIZACIÓN
+1° temporadaHasta 5 kg dosis de 50 mg
+Sobre 5 kg dosis de 100 mg50 mg independiente del peso corporal
+2° temporada 200 mg independiente del peso corporal 100 mg independiente del peso corporal
+Fuente: Elaboración propia Departamento de Inmunizaciones, 2026.
+15
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+V. ORGANIZACIÓN Y RESPONSABILIDADES EN LA IMPLEMENTACIÓN DE LA 
+ESTRATEGIA 2026
+La organización y planificación de la campaña de vacunación constituye un proceso crítico que 
+requiere una coordinación minuciosa en todos los niveles de gestión, con el fin de asegurar una 
+implementación eficiente y oportuna de las acciones programáticas, optimizar el uso de recursos y 
+garantizar el cumplimiento de los plazos establecidos.
+Este proceso debe contemplar la articulación entre el nivel nacional, regional y local 
+(establecimientos ejecutores), considerando la disponibilidad de infraestructura, recursos humanos, 
+logísticos y comunicacionales necesarios para asegurar el adecuado desarrollo de la campaña.
+A continuación, se describen las responsabilidades y actividades específicas que corresponden a 
+cada nivel de gestión dentro de la estructura operativa del PNI:
+Departamento de Inmunizaciones - Nivel Central
+Corresponde al Departamento de Inmunizaciones del MINSAL ejercer la conducción normativa, 
+técnica y estratégica de la campaña, asegurando su correcta implementación en todos los niveles 
+del sistema. Para ello, le competen las siguientes responsabilidades:
+• Asesorar técnicamente a las autoridades del MINSAL en materias operativas y programáticas 
+relacionadas con el PNI.
+• Definir los objetivos sanitarios, los procedimientos administrativos, los estándares técnicos y los 
+lineamientos operativos de la campaña.
+• Realizar coordinaciones intra y extrainstitucionales necesarias para asegurar la adecuada 
+ejecución de la campaña, incluyendo articulación con otras divisiones del MINSAL, organismos 
+públicos y actores del sistema de salud.
+• Monitorear la ejecución global de la campaña, incluyendo avances de cobertura, disponibilidad de 
+productos biológicos e insumos, y el comportamiento de los Eventos Supuestamente Atribuibles 
+a la Vacunación e Inmunización (ESAVI) y Errores Programáticos (EPRO).
+• Proveer el anticuerpo monoclonal contra el VRS, insumos y logística de distribución desde el nivel 
+central hacia los niveles intermedios (regionales y provinciales), de acuerdo con la planificación 
+anual del PNI.
+• Coordinar con el Instituto de Salud Pública (ISP) la gestión y análisis de ESAVI que sean graves 
+o generen alarma pública, según lo establecido en la “Guía de Vacunación Segura: Sistema de 
+Notificación, Evaluación e Investigación de ESAVI–EPRO”14.
+• Vigilar de manera continua los EPRO, mediante los procesos de notificación, seguimiento, 
+evaluación y cierre de casos, entregando orientaciones técnicas basadas en evidencia científica y 
+resguardando la seguridad de la población.
+• Coordinar con el Departamento de Estadísticas e Información de Salud (DEIS) el monitoreo 
+y análisis de datos, alertando al nivel intermedio sobre posibles errores de registro para su 
+corrección por parte del nivel ejecutor, garantizando así información válida y confiable para el 
+cálculo de coberturas.
+• Monitorear el stock nacional de productos biológicos e insumos, asegurando la disponibilidad 
+oportuna y suficiente para el desarrollo de la campaña.
+• Mantener actualizada la información de los lotes de todos los productos biológicos utilizados en 
+campañas en los sistemas de información SCI y RNI pertenecientes al PNI.
+14 Ministerio de Salud. Resolución Exenta N°670 Aprueba “Guía de vacunación segura: Sistema de notificación, evaluación e 
+investigación de ESAVI – EPRO”. 08 octubre 2013. Disponible en: https://vacunas.minsal.cl/wp-content/uploads/2024/07/norma-
+N%C2%B0670-Guia-Vacunacion-Segura-8-oct-2013-1-min.pdf
+16
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+• Oficiar a las SEREMI de Salud en todos los componentes del PNI para el cumplimiento de los 
+objetivos sanitarios de la campaña.
+• Emitir reportes preliminares de avance de cobertura, basados en los registros del RNI.
+• Colaborar con el DEIS en el proceso de retroalimentación de la calidad del registro en el RNI en 
+la red pública y privada, promoviendo el cumplimiento de los estándares de registro oportuno y 
+completo.
+• Capacitar a las y los referentes PNI de SEREMI de Salud y Servicios de Salud (SS) en los aspectos 
+técnicos y operativos de la campaña, asegurando la implementación homogénea de las directrices 
+a nivel nacional.
+• Establecer y actualizar los estándares de calidad en el marco del Sistema de Gestión de Calidad 
+(SGC) y de la Norma ISO 9001:2015 para los procesos de planificación de compras, distribución, 
+recepción y control de stock de vacunas en los Depósitos de Vacunas e Inmunoglobulinas (DVI).
+• Supervisar el cumplimiento de los requisitos técnicos y administrativos por parte del laboratorio 
+proveedor y del operador logístico, garantizando la conservación de la cadena de frío durante el 
+proceso de distribución hasta los DVI regionales o provinciales.
+Referente PNI de la SEREMI de Salud:
+• Coordinar y ejecutar el Plan Regional de la Campaña de Inmunización contra el VRS 2026, 
+asegurando el cumplimiento de los lineamientos, metas sanitarias y estándares técnicos definidos 
+por el MINSAL.
+• Gestionar y resguardar la disponibilidad, uso eficiente y trazabilidad de productos biológicos, 
+insumos y demás recursos públicos asignados a la campaña, garantizando su utilización de acuerdo 
+con la normativa vigente y las prioridades sanitarias.
+• Instruir, coordinar y supervisar las acciones de capacitación, fiscalización y acompañamiento 
+técnico dirigidas al nivel ejecutor, con el fin de asegurar la correcta implementación de la estrategia 
+regional.
+• Liderar la articulación con las jefaturas de la red de establecimientos privados, velando por que 
+la implementación de la campaña en dichos centros se ejecute conforme a los plazos, estándares 
+técnicos y objetivos sanitarios establecidos por MINSAL.
+• Capacitar a los equipos de los vacunatorios privados en convenio, en materias técnicas, operativas 
+y administrativas propias de la campaña, conforme a la normativa vigente y a las orientaciones del 
+Departamento de Inmunizaciones.
+• Informar periódicamente a los SS y establecimientos de salud de la red, el avance regional de 
+inmunización, brechas de cobertura y requerimientos operativos, promoviendo acciones correctivas 
+oportunas para el cumplimiento de las metas.
+• Coordinar el proceso de corrección de errores de registro de los establecimientos de salud privados 
+en convenio bajo su jurisdicción y solicitar las medidas administrativas, si corresponde.
+• Monitorear el cumplimiento de los procedimientos de cadena de suministro conforme a la 
+recepción, almacenaje y control de stock en los DVI, asegurando el cumplimiento de los estándares 
+del SGC de la Subsecretaría de Salud Pública (SSP).
+• Verificar el adecuado acondicionamiento y rotulado de los Contenedores Isotérmicos Pasivos 
+(CIP) y garantizar el registro completo y correcto del “Formulario Pedido-Entrega de Productos 
+Biológicos PNI”  en cada entrega desde el DVI.
+• Asegurar la oportuna distribución de productos biológicos e insumos a los vacunatorios públicos 
+y privados, implementando una logística eficiente que garantice el abastecimiento continuo, 
+utilizando metodología FEFO (First Expires, First Out; Primero que expira, primero que sale).
+17
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+• Mantener actualizado el SCI de cada DVI, registrando en tiempo real la recepción, distribución, 
+monitoreo térmico y cuadraturas de productos biológicos e insumos destinados a la campaña.
+• Supervisar, analizar e informar el avance regional de coberturas de inmunización, y apoyar al nivel 
+ejecutor en la identificación de causas y en la implementación de estrategias de mejora cuando 
+los indicadores se encuentren bajo las metas definidas.
+• Oficiar a los vacunatorios privados en convenio sobre los lineamientos técnicos-operativos de esta 
+campaña y fiscalizar el cumplimiento de sus obligaciones.
+• Coordinar la investigación y seguimiento de ESAVI y EPRO, según lo establecidos en las normativas 
+vigentes, y atender a las solicitudes del Departamento de Inmunizaciones o de la Sección de 
+Farmacovigilancia de Vacunas (SFVV) del ISP en esta materia.
+• Implementar, junto con el SS, las estrategias comunicacionales regionales durante la campaña, en 
+coherencia con los lineamientos y mensajes oficiales del MINSAL.
+• Conformar y liderar las mesas regionales PNI para el desarrollo de esta campaña en conjunto con 
+los referentes de PNI de los SS.
+• Realizar las coordinaciones pertinentes para el desarrollo de esta estrategia con actores relevantes 
+a nivel regional del extrasector para el cumplimiento de los objetivos sanitarios de la campaña.
+Referente PNI del Servicio de Salud:
+• Adherir e implementar los lineamientos técnicos, operativos y comunicacionales definidos por 
+el MINSAL para la campaña de inmunización contra el VRS 2026, promoviendo activamente la 
+demanda y aceptación del anticuerpo monoclonal en la población objetivo.
+• Capacitar continuamente a los equipos de los vacunatorios públicos en los aspectos técnicos, 
+logísticos y operativos de la campaña, conforme a las orientaciones actualizadas del PNI.
+• Supervisar el avance de las coberturas de inmunización en los establecimientos bajo su jurisdicción, 
+identificar oportunamente brechas o rezagos e instruir medidas correctivas para asegurar el 
+cumplimiento de las metas regionales y nacionales.
+• Supervisar el cumplimiento de los plazos de registro en el RNI, garantizando que cada dosis 
+administrada sea registrada dentro de las 24 horas posteriores a su administración.
+• Coordinar el proceso de corrección de errores de registro de los establecimientos de salud públicos 
+bajo su jurisdicción y solicitar las medidas administrativas, si corresponde.
+• Vigilar la utilización del SCI para el monitoreo, trazabilidad de productos biológicos, insumos y 
+demás recursos públicos destinados a la campaña, asegurando una gestión eficiente, oportuna y 
+conforme a la normativa vigente.
+• Supervisar la ejecución de las actividades extramurales, garantizando que se desarrollen bajo 
+estándares de calidad, seguridad, cadena de frío y registro definidos por el MINSAL.
+• Establecer y mantener canales formales de comunicación y coordinación con directores de 
+Corporaciones y Departamentos de Salud Municipal, directores de establecimientos de salud 
+de la red pública y directores de establecimientos educacionales pertinentes, a fin de difundir 
+instrucciones, definir estrategias y asegurar el cumplimiento de los objetivos sanitarios, estándares 
+técnicos y plazos de la campaña.
+• Monitorear, investigar y reportar los ESAVI asociados a la campaña contra el VRS 2026, conforme a 
+la normativa vigente del Departamento de Inmunizaciones y del ISP.
+• Monitorear la notificación y seguimiento de los EPRO, verificando que los planes de acción 
+derivados de su investigación se ejecuten en los plazos y condiciones establecidos.
+• Participar en conjunto con la SEREMI de Salud de la mesa regional para el desarrollo de esta 
+campaña.
+18
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Equipo PNI del Nivel Ejecutor:
+• Dar estricto cumplimiento a la normativa técnica vigente del PNI, aplicando sus disposiciones en 
+todas las fases del proceso de inmunización.
+• Cumplir con la normativa vigente en materia de administración, manipulación y resguardo de 
+productos biológicos, asegurando que todas las prácticas se ajusten a los estándares técnicos del 
+PNI.
+• Conformar equipos de trabajo multidisciplinarios para la planificación, coordinación y ejecución de 
+las actividades de inmunización, asegurando el cumplimiento de los procedimientos asociados a la 
+cadena de frío, registros y gestión operativa. Esto incluye el uso adecuado y monitoreo de equipos 
+de refrigeración, CIP y vehículos de transporte.
+• Capacitar de manera sistemática a los equipos vacunadores en los aspectos técnicos, normativos 
+y operativos de la campaña, reforzando los procedimientos establecidos para garantizar la calidad 
+y seguridad en la administración del anticuerpo monoclonal.
+• Identificar activamente a la población cautiva, pendiente de inmunizar, implementando estrategias 
+efectivas y pertinentes para maximizar la cobertura en los grupos objetivo.
+• Supervisar el avance de las coberturas de inmunización en las unidades a su cargo e informar de 
+manera oportuna a las jefaturas cuando los indicadores se encuentren bajo las metas establecidas, 
+proponiendo acciones correctivas.
+• Revisar periódicamente y corregir errores de registro de su establecimiento, así como los 
+informados por el nivel intermedio y/o nivel central.
+• Detectar, notificar, investigar y realizar seguimiento de los ESAVI y EPRO que ocurran durante el 
+desarrollo de la campaña, conforme a los procedimientos establecidos en las normativas vigentes 
+y a las directrices del Departamento de Inmunizaciones y del ISP.
+• Coordinar el retiro, recepción y devolución de productos biológicos con el DVI correspondiente, 
+asegurando el cumplimiento estricto de la normativa para la trazabilidad y conservación de los 
+productos biológicos, utilizando metodología FEFO (First Expires, First Out; Primero que expira, 
+primero que sale)
+• Cumplir con los plazos de registro en el RNI, garantizando que cada dosis administrada sea 
+registrada dentro de las 24 horas posteriores a su administración. En caso de no contar con acceso 
+al sistema, se deberá registrar en planilla manual para luego traspasar estos datos al RNI (ver anexo 
+N°1).
+• Mantener actualizado el stock diario de productos biológicos, insumos y otros recursos públicos 
+destinados a la campaña, registrando de manera precisa las entradas, salidas e inventario para 
+garantizar un abastecimiento oportuno y veraz a través del SCI.
+• Mantener un monitoreo continuo y documentado de las temperaturas durante la recepción, 
+almacenamiento y ejecución de actividades intra y extramurales, con el fin de asegurar la 
+integridad de la cadena de frío.
+• Notificar oportunamente las excursiones de temperatura según lo establecido en la normativa 
+vigente, y colaborar en la investigación técnica cuando corresponda.
+• El director/a del establecimiento de salud de APS debe realizar las coordinaciones pertinentes 
+para el desarrollo de esta estrategia, con actores relevantes a nivel local del extrasector, tales 
+como establecimientos educacionales, organismos públicos y otras entidades vinculadas a los 
+grupos de población objetivo.
+19
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+VI. SEGURIDAD EN LA INMUNIZACIÓN
+Para la Organización Mundial de la Salud (OMS) y la Organización Panamericana de la Salud (OPS), la 
+Vacunación Segura es un componente crítico de los programas de inmunización que garantiza que 
+el proceso de vacunación no cause daño. No se refiere solo a la vacuna como producto, sino a todo 
+un sistema que interactúa para lograr la máxima seguridad y eficacia.
+a. Vigilancia de Eventos Supuestamente Atribuibles a la Vacunación o Inmunización (ESAVI)
+Los ESAVI corresponden a las manifestaciones que se presentan posteriores a la administración 
+de productos biológicos que se sospeche fue ocasionado por alguno de ellas y que no pueden ser 
+atribuidos inicialmente a alguna patología específica. Para su vigilancia se han establecido los 
+lineamientos correspondientes y se debe dar cumplimiento a la Guía de Vacunación Segura14 en lo 
+referido a notificación, evaluación, investigación y seguimiento de estos eventos, para así garantizar 
+la seguridad de los productos biológicos con una estrecha monitorización, lo que permite mantener 
+la confianza en estos y una correcta aceptación de las campañas de vacunación e inmunización y 
+obtener el máximo beneficio para toda la población.
+Clasificación de un ESAVI:
+ –ESAVI serios: Corresponden a aquellos que requieren hospitalización, prolonguen la 
+hospitalización, ponen en riesgo la vida, causan secuela permanente y/o tienen un desenlace 
+fatal.
+ –ESAVI no serios: Corresponden a eventos que no representan un riesgo a la salud del 
+paciente, de resolución espontánea o que requiere tratamiento ambulatorio. Por ejemplo: 
+dolor en el sitio de inyección, fiebre, dolor de cabeza, reacción en el sitio de administración, 
+entre otros.
+Notificación ESAVI 
+La notificación de un ESAVI es una de las responsabilidades del Nivel Ejecutor (centro asistencial 
+notificador o vacunatorios públicos y privados en convenio). El profesional de salud que detecte un 
+ESAVI debe realizar la notificación según protocolo definido. 
+• Se debe reforzar el cumplimiento de lo indicado en la “Guía de Vacunación Segura”14 en 
+cuanto a los procesos de Notificación, Seguimiento, Evaluación e Investigación de ESAVI, en 
+todos los niveles, antes de iniciar cualquier estrategia de vacunación.
+• La notificación de un ESAVI se debe realizar por medio de la vía oficial:
+ »Plataforma SVI a la cual puede acceder a través del siguiente link: https://svi.ispch.
+gob.cl/ .
+ »Esta plataforma actualmente permite la notificación de ESAVI por profesionales de 
+la salud y población general.
+• Es importante que al realizar la notificación se completen todos los campos requeridos, ya 
+que esto incide directamente en la evaluación inicial de la notificación.
+• El centro asistencial notificador debe cautelar que las notificaciones cumplan con los plazos 
+establecidos, según la seriedad del ESAVI y de acuerdo con la reglamentación vigente en la 
+cual se señala que se deben reportar todos los casos serios dentro de las 72 horas siguientes 
+a la toma de conocimiento del hecho. Los casos no serios también deben notificarse, dentro 
+de un plazo de 30 días. Se sugiere que la notificación se realice lo antes posible.
+20
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+• El encargado del PNI del establecimiento notificador u otro profesional donde se encuentra 
+el/la usuario/a, debe realizar la investigación del caso y entregar información solicitada 
+por la SFVV y por el PNI. En establecimientos de salud de atención secundaria y terciaria, 
+el responsable será el encargado de epidemiología o el funcionario que la autoridad del 
+establecimiento designe.
+• El equipo de salud debe mantener comunicación continua con el/la usuario/a en relación a 
+la evolución del caso, tratando de aportar comentarios clínicos y con base científica para 
+orientarlos dentro de esta situación. Esta debe ser realizada directamente por el equipo 
+de salud tratante, de acuerdo a la Ley 20.584, que regula los derechos y deberes de los 
+pacientes explicando en forma clara y precisa al usuario o a los acompañantes cualquier 
+duda que presenten en cuanto al proceso de la vacunación, posibles ESAVI que se pudieran 
+presentar o que se hayan presentado.
+Recomendaciones ante la presencia de ESAVI
+Durante el periodo de observación, el/la funcionario/a de salud debe entregar información con 
+respecto a los ESAVI no serios y serios.
+En el caso de ESAVI no serio  se debe recordar que son esperables y mencionar a el/la usuario/a que 
+estos habitualmente se resuelven de forma espontánea y requieren una mínima intervención, como 
+la ingesta de líquidos abundantes, medidas físicas para la controlar la fiebre o el dolor en sitio de 
+inyección y/o analgesia, según indicación médica.
+A los ESAVI no serios no se les realiza seguimiento por parte de ISP, ya que no afectan la relación 
+riesgo/beneficio de las vacunas administradas. No reciben una recomendación para continuar 
+esquema, ya que la aparición de un evento adverso no serio no contraindica la administración 
+de futuras dosis del mismo producto biológico .
+En el caso de los ESAVI serio , al igual que con cualquier medicamento, hay una probabilidad muy 
+remota de que la vacuna cause una reacción alérgica grave (anafilaxia), por lo tanto, es necesario que, 
+durante el periodo de observación, el personal a cargo de la vacunación esté alerta a la aparición de 
+sintomatología respiratoria (disnea, tos, estridor), cutánea (prurito, eritema, angioedema, urticaria), 
+gastrointestinal (náuseas, vómitos, dolor abdominal) y/o cardiovascular (hipotensión, taquicardia). 
+Los ESAVI serios y los Evento Adverso de Interés Especial (EVADIE) luego de ser notificados, se les 
+realizará solicitud de información por parte del ISP en un plazo no mayor a 48hrs hábiles.
+Evaluación de Causalidad de ESAVI Serios
+• La evaluación de la causalidad de casos individuales, de acuerdo con la OMS, consiste en un 
+análisis de los factores que pudieran incidir o precipitar un evento, (que no necesariamente 
+está relacionado con los productos biológicos administrados), para determinar la probabilidad 
+de que exista una asociación causal entre el evento y el producto recibido.
+• Este análisis se realiza por la SFVV del ISP y los casos de mayor complejidad se presentan al 
+Comité de Farmacovigilancia de Vacunas (FVV).
+• El Comité está compuesto por un equipo multidisciplinario de expertos que incluye un panel 
+de médicos especialistas externos, profesionales de la SFVV del ISP, a Profesionales del 
+Departamento de Inmunizaciones. La retroalimentación a la población y a los profesionales 
+de la salud sobre los ESAVI se realizan a través de la publicación de informes estadísticos, 
+notas informativas, medidas con regulatorias y capacitaciones en farmacovigilancia de los 
+biológicos, disponibles en: https://www.ispch.cl/anamed/farmacovigilancia/vacunas/ .
+21
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+• Para casos serios priorizados, se debe contar con toda la información clínica relevante como, 
+por ejemplo: conocer si el paciente presentaba alguna patología base, si se descartó alguna 
+causa alternativa en la generación del evento. Por ello es muy relevante que los equipos 
+locales puedan hacer un adecuado seguimiento del caso.
+Eventos adversos esperables
+En base al folleto de información al profesional de Beyfortus®, la reacción adversa para nirsevimab 
+más frecuente fue la erupción 0,7% (erupción cutánea, erupción maculopapular, erupción macular) 
+que se produjo en los 14 días posteriores a la dosis. La mayoría de los casos fueron de intensidad 
+leve a moderada. Además, se notificaron fiebre y reacciones en el lugar de la inyección (dolor, 
+induración inflamación y edema) en una tasa de 0,5% y 0,3% dentro de los 7 días posteriores a la 
+dosis, respectivamente. Las reacciones en el lugar de la inyección no se consideran severas.13
+Las frecuencias de aparición de reacciones adversas se definen como:
+• Muy frecuentes (≥1/10)
+• Frecuentes (≥1/100 a <1/10)
+• Poco frecuentes (≥1/1 000 a <1/100)
+• Raras (≥1/10 000 a <1/1 000)
+• Muy raras (<1/10 000)
+A continuación, se describen los eventos adversos esperables tras la administración de nirsevimab:
+TABLA N°9: REACCIONES ADVERSAS NIRSEVIMAB
+TÉRMINO COS(*) SIGNOS Y/O SÍNTOMAS FRECUENCIA
+Trastorno de 
+la piel y tejido 
+subcutáneoErupción Poco frecuente
+Trastornos 
+generales y 
+alteraciones en el 
+sitio de punciónReacción en el sitio de punción Poco frecuente
+Fiebre Poco frecuente
+(*) Según clasificación MedDRA. (COS: Clasificación por órganos y sistemas)
+Notificaciones de ESAVI recibidas en el Centro Nacional de Farmacovigilancia del ISP15
+Durante la campaña 2024 con nirsevimab, el ISP de Chile reportó que la tasa de ESAVI no serios fue 
+de 0,86 por cada 10 000 dosis administradas, representando aproximadamente el 78 % del total de 
+reportes, mientras que los ESAVI serios correspondieron a 0,24 por cada 10 000 dosis administradas, 
+aproximadamente un 22% del total de reportes recibidos.
+Entre los eventos más frecuentemente notificados destacan reacción local en el sitio de inyección 
+(0,4), fiebre (0,2), y tos (0,2) por cada 10 000 dosis administradas, todos descritos previamente en 
+estudios clínicos del producto.
+15 Instituto de Salud Pública de Chile. Datos de farmacovigilancia de Nirsevimab (anticuerpo monoclonal). 22 mayo 2025. Disponible 
+en https://www.ispch.gob.cl/anamed/farmacovigilancia/vacunas/datos-de-farmacovigilancia-de-las-vacunas/vacunas-nirsevimab/
+22
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Recordar: existen reacciones adversas esperables posterior a la vacunación e inmunización y 
+están descritas en el folleto de cada producto. Éstas son leves, desaparecen de forma espontánea 
+en pocos días y ceden con medidas físicas. Por otro lado, se debe educar a los usuarios, padres y/o 
+tutores con respecto a signos y síntomas de alarma posterior a la vacunación e inmunización.
+En el caso de los lactantes inmunizados en los vacunatorios públicos y privados en convenio con las 
+SEREMI de Salud del país, con la finalidad de pesquisar una reacción anafiláctica post-administración, 
+se indica un periodo de observación de 30 minutos posterior a la administración, como medida de 
+precaución para detectar e intervenir oportunamente frente a la pesquisa de una reacción de este 
+tipo16.
+b. Vigilancia de Errores Programáticos (EPRO)
+Los EPRO corresponden a acciones o procedimientos que no cumplen con las normas y técnicas 
+establecidas. Se entiende por EPRO cualquier incidente prevenible que ocurre por acción u omisión 
+en cualquier punto del proceso de uso de productos biológicos del PNI (vacunas, inmunoglobulinas 
+y anticuerpo monoclonal) desde la recepción, almacenamiento, conservación, distribución, 
+manipulación, preparación, administración y registro que, como resultado pueden provocar 
+potencialmente eventos adversos leves, graves y/o fatales en los usuarios.
+Acciones del nivel central frente a un EPRO
+• Contribuir a los objetivos estratégicos del Departamento de Inmunizaciones en materia de 
+Vacunación Segura con calidad, seguridad y eficiencia.
+• Elaborar y actualizar documentos en temas relacionados con los EPRO y su prevención según 
+la evidencia científica disponible.
+• Entregar lineamientos técnicos y administrativos a referentes de la SEREMI de Salud en 
+materia de EPRO.
+• Participar activamente en el monitoreo de las notificaciones de EPRO en el sistema vigente. 
+• Administrar la base de datos de EPRO de los productos biológicos pertenecientes al PNI.
+• Entregar resolución de los EPRO notificados y derivados desde SEREMI, según la evaluación 
+de antecedentes y la evidencia científica disponible.
+• Entregar orientación técnica solo a los EPRO que se producen en la administración de 
+productos biológicos de venta privada homologables a los existentes en el arsenal del PNI. 
+• Analizar casos controversiales en conjunto con profesionales del Departamento de 
+Inmunizaciones, según pertinencia.
+• Monitorear la ocurrencia de EPRO a nivel nacional a través de la revisión activa de los 
+registros de vacunación e inmunización y levantar alertas preventivas.
+• Realizar acompañamiento técnico a referentes del PNI regionales en la resolución de los 
+EPRO masivos, controversiales, de cobertura mediática, de difícil manejo o aquellos que el 
+nivel SEREMI de Salud no pueda resolver.
+• Solicitar informes de investigación en casos masivos, controversiales o de difícil resolución. 
+• Gestionar revisión bibliográfica con Químico Farmacéutico (QF) del PNI, para dar orientaciones 
+técnicas con acciones a ejecutar en caso de EPRO masivos, controversiales, de cobertura 
+mediática, de difícil manejo u otro definido por el Departamento de Inmunizaciones o por 
+la autoridad ministerial.
+16 Ministerio de Salud. Resolución Exenta N°973 “Norma general técnica sobre procedimientos operativos estandarizados para 
+asegurar la calidad en la ejecución del Programa Nacional de Inmunizaciones (PNI)”. 14 diciembre 2010. Disponible en https://vacunas.
+minsal.cl/wp-content/uploads/2024/07/Res.Exenta-No-973-Norma-Gral.-procedimientos-POE-Completa-min.pdf
+23
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+• Elaborar, actualizar y difundir semestralmente informes de EPRO para el Departamento de 
+Inmunizaciones, Referentes PNI SEREMI y SS.
+• Realizar capacitaciones en materia de EPRO a los niveles intermedios, ejecutores y otras 
+instancias intra o extrainstitucionales.
+• Elaborar respuestas y/o documentos solicitados por la autoridad en caso específicos en 
+relación con EPRO controversiales.
+Acciones de la SEREMI de Salud frente a un EPRO
+• Recibir y gestionar las notificaciones EPRO generadas en el sistema oficial vigente por el 
+nivel ejecutor, evaluando si contienen la información necesaria. En caso contrario, debe 
+solicitar datos faltantes o información relevante para el análisis del caso.
+• Analizar el caso según los antecedentes aportados y entregar indicaciones conforme a los 
+Lineamientos Técnicos Operativos (LTO) y/o tablas EPRO disponibles.
+• Si el EPRO no se encuentra definido en los LTO de cada estrategia, se debe derivar el caso a 
+nivel central.
+• Generar instancias de capacitación y réplica de los contenidos acerca de la notificación 
+y prevención de EPRO en conjunto con los SS a los establecimientos públicos, incluyendo 
+servicios de urgencia y maternidades que estén involucrados en el proceso de vacunación 
+e inmunización.
+• Monitorear el seguimiento y cierre de los casos notificados.
+• Si el usuario requiere seguimiento en una región distinta a donde se vacunó, se debe realizar 
+la derivación a la SEREMI de Salud correspondiente para continuar el proceso y cierre de 
+caso.
+• Fiscalizar el cumplimiento de las funciones del nivel ejecutor con relación al proceso de 
+monitoreo de los EPRO.
+• Fiscalizar el cumplimiento y ejecución de las actividades propuestas en el plan de mejora 
+elaborado por el nivel ejecutor.
+Acciones del Servicio de Salud frente a un EPRO
+• Evaluar si las notificaciones de EPRO generadas en el sistema oficial vigente por el nivel 
+ejecutor contienen la información correcta. En caso contrario, solicitar datos faltantes o 
+información relevante para el análisis del caso.
+• Evaluar si los seguimientos y cierres de casos generados en el sistema oficial vigente por el 
+nivel ejecutor, contienen información correcta. En caso contrario, solicitar datos faltantes o 
+información relevante.
+• Supervisar que el nivel ejecutor, realice el seguimiento y cierre de caso en todos los eventos 
+y cumpla con los plazos establecidos.
+• Orientar al nivel ejecutor en la planificación y ejecución de planes de mejora.
+• Supervisar y apoyar al nivel local en la ejecución y gestiones necesarias para dar cumplimiento 
+a los planes de mejora.
+• Capacitar y replicar los contenidos acerca de la notificación y prevención de EPRO a los 
+establecimientos de salud públicos, incluyendo servicios de urgencia y maternidades que 
+estén involucrados en el proceso de vacunación e inmunización.
+24
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Acciones del nivel ejecutor frente a un EPRO
+a) Notificación
+• Una vez detectado el EPRO, se deben recabar los antecedentes necesarios para realizar la 
+notificación inmediata o máximo 24 horas después de tomado conocimiento del evento. En 
+caso de caída del sistema vigente de notificación, se debe completar los formularios EPRO 
+de forma manual, los que deben ser enviados a SEREMI y SS correspondiente de su región. 
+Este último a su vez, remitirá la documentación al nivel central a la dirección de correo 
+electrónico epro@minsal.cl . Una vez restablecido el funcionamiento del sistema vigente, se 
+debe ingresar la información enviada en forma manual.
+• Informar de esta situación vía correo electrónico y de forma presencial inmediatamente a la 
+jefatura del establecimiento de salud.
+• Debido a que un EPRO puede ser pesquisado con meses de latencia, no existe un plazo 
+máximo definido para la notificación.
+• En caso de EPRO masivo o algún otro evento que pueda resultar controversial, debe notificar 
+a SEREMI por la vía más rápida o expedita por si ocurre denuncia ciudadana o de alarma 
+pública, según la implementación de cada región.
+• Responder a los requerimientos de información solicitados desde el nivel intermedio o nivel 
+central, según corresponda.
+b) Información al usuario, padres y/o tutores
+• Debe ser entregada por profesional referente de PNI o a quien el director del establecimiento 
+delegue, que cuente con competencias técnicas y pueda entregar información veraz y 
+oportuna sobre el error ocurrido y el producto biológico involucrado, de manera de disminuir 
+la incertidumbre de los afectados.
+• Debe ser individual, preferentemente de manera presencial a cada una de las personas 
+inclusive en los casos de EPRO masivos.
+• Debe ser clara acerca de las reacciones que se pudieran presentar y referirse a las 
+manifestaciones clínicas que describe el fabricante para su producto.
+• Indicar que debe asistir al centro asistencial más cercano, en caso de persistencia de 
+manifestaciones esperables o si presenta algún signo o síntoma de alarma.
+c) Prestaciones médicas ante un EPRO
+• La finalidad de esta prestación es evaluar el estado de salud de el/la usuario/a posterior 
+a la inmunización que causó el EPRO y pesquisar posibles eventos adversos que requieran 
+tratamiento médico.
+• La atención médica será obligatoria para el caso de usuarios/as que se encuentren en alguna 
+situación de riesgo o vulnerabilidad de su estado de salud tales como: inmunosuprimidos, 
+inmunocomprometidos, embarazadas, recién nacidos u otros casos que requieran de mayor 
+supervisión o según la envergadura del EPRO.
+• La atención médica se ofrecerá siempre, sin embargo, no será obligatoria para usuarios/as 
+que no estén mencionados en la situación anterior.
+• Los establecimientos públicos y privados en convenio deben brindar atención médica 
+indistintamente de la previsión de el/la usuario/a, sin costo asociado para el/la afectado/a.
+• Esta prestación debe ser coordinada y otorgada durante las primeras 24 hrs por el 
+establecimiento de salud donde ocurrió el EPRO, quedando consignado en la ficha clínica el 
+25
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+motivo, diagnóstico y tratamiento indicado según corresponda.
+• Aquellos vacunatorios que no cuenten con médico en sus centros, deben gestionar y asegurar 
+la atención médica derivando al usuario a algún centro de salud, registrando esta derivación 
+en la notificación, así como también, aquellos casos donde el/la usuario/a se encuentre en 
+otra región donde se produjo el EPRO, se debe coordinar la atención médica a través de la 
+SEREMI de Salud respectiva.
+• Si el usuario rechaza la atención médica, debe ser registrado en el formulario de notificación 
+y ficha clínica.
+• Si durante el seguimiento de el/la usuario/a, se detecta algún signo de alarma, se debe 
+otorgar la atención médica correspondiente y notificar como ESAVI.
+FIGURA N°3: ESQUEMA DE ATENCIÓN MÉDICA
+Fuente: Elaboración propia Departamento de Inmunizaciones, MINSAL, 2026.
+d) Seguimiento en el nivel local
+• El seguimiento de los usuarios involucrados en un EPRO debe ser realizado por un profesional 
+de enfermería o funcionario/a que la persona encargada del vacunatorio delegue.
+• Todos/as los/las usuarios/as deben tener un seguimiento por un tiempo mínimo de 15 días 
+considerando al menos 3 contactos con el usuario, independiente si recibieron o no una 
+atención médica.
+• Si la notificación es tardía (mayor a 2 meses), solo se realizará un seguimiento a excepción 
+que se detecte algún signo o síntoma de alerta que requiera otro seguimiento y/o evaluación 
+médica.DETECCIÓN EPRO
+Si No
+Atención 
+médica 
+obligatoria
+Si No
+Continuar con 
+seguimiento y 
+cierre de caso¿El usuario pertenece a algún grupo de riesgo?
+(Recién nacido, inmunocomprometido, 
+inmunosuprimido, embarazada u otro)
+Atención 
+médica 
+opcionalNotificar
+Evaluación del paciente
+26
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+• Si el/la usuario/a ha presentado sintomatología desfavorable pesquisada durante la 
+evaluación médica o el seguimiento, se podrá extender el tiempo indicado para el 
+seguimiento y cierre de caso, lo cual se definirá en la evaluación médica correspondiente. 
+Se recomienda la extensión de este proceso por 30 días o lo que sea necesario según la 
+evolución del usuario.
+• El seguimiento puede realizarse en forma presencial con citación al centro de salud, vía 
+telefónica o visita domiciliaria.
+• Si el/la usuario/a requiere seguimiento en una región distinta a donde se vacunó/inmunizó, 
+se debe realizar la derivación a la SEREMI de Salud correspondiente a través de correo 
+electrónico para continuar el proceso y cierre de caso en su región de origen.
+• El seguimiento debe quedar registrado en el sistema oficial vigente. En caso de caída del 
+sistema informático, se debe completar manualmente el formulario de seguimiento, que 
+debe enviarse a SEREMI y SS de su región. Este último a su vez, remitirá la documentación a 
+la dirección de correo electrónico epro@minsal.cl . Una vez restablecido el funcionamiento 
+de la plataforma, se debe ingresar la información enviada en forma manual.
+e) Elaborar un plan de mejora
+• El plan de mejora, en el contexto de los EPRO, corresponde a un documento que analiza 
+las causas y factores contribuyentes del error y se proponen acciones para responder a las 
+problemáticas identificadas. Los errores en el proceso de vacunación e inmunización se 
+deben analizar desde la perspectiva de los fallos del sistema que propiciaron el error, más 
+que las conductas de los individuos implicados. Por lo anterior, es fundamental que en la 
+elaboración del plan de mejora exista participación de todo el equipo involucrado en esta 
+cadena de procesos y no solo la persona que administró el producto.
+ »Plazo:  Este documento debe ser cargado en la plataforma con un plazo máximo de 30 
+días desde la notificación. 
+ »Nota:  El establecimiento debe elaborar un plan de mejora por evento, es decir, si se trata 
+de un EPRO masivo solo se debe realizar un documento.
+f) Informe de investigación
+• El Informe de Investigación solo se realizará en caso de ser requerido por el nivel central 
+(EPRO masivos, controversiales o de difícil manejo). 
+• Se solicitará solo un informe de investigación por evento. 
+• Este formulario debe ser registrado en el sistema oficial vigente, el cual debe contener los 
+siguientes datos obligatorios: Fecha de notificación, identificación del establecimiento, 
+fecha/s de inmunización, productos involucrados (solo el nombre y número de dosis), relato 
+del evento (número de afectados), descripción de los procesos realizados y pendientes, 
+manejo comunicacional, medidas implementadas para evitar nuevos EPRO por la misma 
+causa.
+27
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Notificación
+Los establecimientos de salud públicos y privados en convenio con la autoridad sanitaria regional 
+deben informar los EPRO a través del sistema oficial vigente: https://epro.minsal.cl . Para acceder al 
+sistema, se puede escanear el siguiente código QR:
+En caso de caída del sistema oficial de notificación, se debe descargar, completar y enviar los 
+formularios respectivos por correo a la SEREMI y SS correspondiente a su región. La SEREMI remitirá 
+la documentación solicitada a la dirección de correo electrónico epro@minsal.cl .
+Los formularios de notificación, seguimiento y cierre de caso, se encuentran disponibles para 
+descargar escaneando el siguiente código QR:
+Una vez reestablecido el sistema, se debe ingresar a la plataforma la información enviada de forma 
+manual.
+28
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Correctos en el proceso de inmunización
+Los correctos en el proceso de inmunización son pasos que se deben aplicar para minimizar la 
+ocurrencia de errores. En la siguiente tabla, se describen los correctos y las acciones preventivas a 
+seguir para realizar una inmunización segura.
+TABLA N°10: CORRECTOS EN LA INMUNIZACIÓN CON NIRSEVIMAB
+Paciente correcto• Previo a la inmunización, confirmar la identidad de el/la usuario/a.
+• Verificar que el/la usuario/a no ha sido inmunizado anteriormente, revisando 
+minuciosamente el sistema RNI u otro sistema de registro (Ejemplo: ficha electrónica).
+• Verificar que no existan contraindicaciones, indagando sobre antecedentes médicos 
+y reacciones alérgicas.
+Edad correcta• Corroborar la edad de el/la usuario/a contrastando información disponible en RNI, 
+documento de identidad, ficha electrónica, etc.
+• Verificar si corresponde la administración, según la fecha de cohorte y edades 
+especificadas en este lineamiento.
+Producto correcto• Verificar el producto inmunobiológico a administrar leyendo el envase de este y/o 
+jeringa prellenada.
+• Verificar la fecha de vencimiento y aspecto físico del producto antes de administrar.
+• Los productos biológicos deben ser almacenados de acuerdo con el principio FEFO 
+(First Expired, First Out).
+Dosis correcta• Verificar dosis (mL) exacta de administración según lo indicado en el lineamiento.
+• Comprobar la correcta conexión entre la aguja y la jeringa para evitar filtraciones o 
+pérdida del contenido.
+• Asegurar una contención efectiva de el/la usuario/a para evitar movimientos bruscos 
+que interfieran en la administración del producto.
+Vía y sitio de 
+administración 
+correctos• Verificar que la vía de administración sea intramuscular y en el sitio adecuado según 
+lo indicado en el lineamiento:
+ –Lactantes menores de 12 meses: T ercio medio de la cara anterolateral del muslo 
+(músculo vasto externo)
+ –A partir de los 12 meses de edad: Músculo deltoides, 2-3 traveses de dedo bajo el 
+acromion.
+• Utilizar la aguja correcta según el peso del usuario:
+ –Peso corporal menor a 5 kg: aguja 25 G x 5/8”
+ –Peso corporal igual o mayor a 5 kg: aguja 25 G x 1”
+Registro correcto• Ingresar los datos de inmunización de el/la usuario/a al módulo correspondiente del 
+RNI de manera oportuna para evitar EPRO por dosis extra.
+Cadena de frío• Realizar correcto armado de CIP según normativa vigente.
+• Control y registro de temperatura tanto de los equipos de almacenamiento como de 
+los CIP según normativa.
+• Realizar correcta configuración de los termógrafos y su respectiva descarga de 
+información, según instructivo vigente.
+• Notificar oportunamente en caso de excursiones de temperatura. Los productos 
+sometidos a una excursión de temperatura, deben ser apartados del resto manteniendo 
+la cadena de frío y deben ser rotulados como “EXCURSIÓN DE TEMPERATURA, NO 
+UTILIZAR” hasta obtener resolución desde SEREMI o MINSAL según corresponda.
+Fuente: Elaboración propia Departamento de Inmunizaciones, MINSAL, 2026.
+A continuación, se describen los tipos de errores más comunes, su descripción y las acciones a 
+seguir ante su ocurrencia frente al uso de nirsevimab. Esta tabla tiene por objetivo orientar a los 
+niveles ejecutores e intermedios en la vigilancia de EPRO.
+29
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026TABLA N°11 CONDUCTAS A SEGUIR EN EPRO POR NIRSEVIMAB
+Tipo de EPRO Descripción del EPRO Seguridad ¿Notificación? IndicaciónValidez de la dosis 
+EPRO
+Se administró una 
+dosis incorrectaAdministración de dosis 
+menor  a la indicada (Ej.: 
+derrame, filtración, dosificación 
+incorrecta)Las reacciones esperadas 
+corresponden a las descritas por 
+el fabricante en el folleto del 
+producto.SiSi la dosis administrada es cuantificable, se debe 
+administrar volumen faltante durante las primeras 
+24 hrs.
+No válida. Registrar 
+como EPROSi el error se detecta al día siguiente o posterior, se 
+debe administrar dosis correcta a la brevedad.
+Si la dosis administrada es incuantificable, se debe 
+administrar dosis correcta inmediatamente.
+Administración de dosis mayor  a 
+la indicada.Las reacciones esperadas 
+corresponden a las descritas por 
+el fabricante en el folleto del 
+producto.
+Podría existir aumento de la 
+reactogenicidad local.Si No se debe repetir la dosis.Válida. Registrar 
+según lo indicado 
+en lineamiento
+Administración de 
+dosis extraRepetición de una dosis dentro 
+del esquema.Las reacciones esperadas 
+corresponden a las descritas por 
+el fabricante en el folleto del 
+producto.Si No se debe repetir la dosis.No válida. Registrar 
+como EPRO
+Vía de 
+administración 
+incorrectaAdministración del producto 
+biológico por una vía distinta a 
+la indicada por fabricante (Ej.: vía 
+subcutánea).Podría existir aumento de la 
+reactogenicidad local y afectar 
+la efectividad del producto. Si Se debe repetir dosis a la brevedad.No válida. Registrar 
+como EPRO
+Producto fuera de 
+fecha de vigenciaSe administró producto 
+biológico posterior a su fecha de 
+vencimiento. Podría existir aumento de la 
+reactogenicidad local y afectar 
+la efectividad del producto.Si Se debe repetir dosis a la brevedad.   No válida. Registrar 
+como EPRO
+Administración de 
+producto en edad 
+incorrectaAdministración de producto a 
+usuario/a de edad no incluida en 
+el lineamiento. Las reacciones esperadas 
+corresponden a las descritas por 
+el fabricante en el folleto del 
+producto.Si No se debe repetir la dosis.No válida. Registrar 
+como EPRO
+Tipo de EPRO Indicación
+No se respetó una contraindicación del producto biológico Solicitar orientación a EPRO MINSAL para evaluar antecedentes.
+Administración del producto en sitio incorrecto Solicitar orientación a EPRO MINSAL para evaluar antecedentes
+Administración de un producto en cuarentena o no apto para su uso Solicitar orientación a EPRO MINSAL para evaluar antecedentes.
+Administración de producto fuera de rango de temperatura Solicitar orientación a EPRO MINSAL para evaluar antecedentes.
+Registro incorrecto Solicitar orientación a EPRO MINSAL para evaluar antecedentes.
+Fuente: Elaboración propia Departamento de Inmunizaciones, 2026.
+30
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Consideraciones en la comunicación e información en caso de EPRO
+La comunicación de un EPRO durante el proceso de vacunación e inmunización debe ser de manera 
+oportuna, transparente y completa. Esta acción es indispensable para evitar la pérdida de confianza en el 
+PNI.
+La OPS define una crisis como: “Una situación donde se produce una pérdida real o potencial de confianza 
+en las vacunas y/o en el servicio de vacunación, precipitada por información sobre un evento adverso”17. La 
+aparición de una crisis es propiciada cuando el evento en cuestión no se atiende inmediatamente, no se le 
+da la importancia debida o cuando la noticia aparece en los medios de prensa y la demanda de la población 
+por respuestas no es cumplida de forma adecuada.
+El personal de salud involucrado en las actividades de vacunación e inmunización debe estar capacitado 
+sobre el flujo de atención en caso de ocurrir un EPRO, debe manejar la información técnica relevante 
+sobre los productos biológicos administrados y debe ser capaz de orientar a el/la usuario/a con respecto a 
+inquietudes o dudas que surjan al informar un EPRO.
+Con respecto al seguimiento, el equipo involucrado en la notificación de EPRO debe indagar sobre la 
+existencia de manifestaciones clínicas y saber discriminar entre síntomas esperados post inmunización o 
+aquellos signos o síntomas que requieren atención médica o corresponden a un ESAVI serio, los que deben 
+ser notificados a través de la plataforma para estos fines  https://svi.ispch.gob.cl/ .
+A continuación, se presentan recomendaciones para comunicar EPRO en distintas instancias:
+Preparación previa al contacto con el/la usuario/a, padres y/o tutores 
+Determine durante la preparación de la estrategia quién o quiénes serán las personas encargadas de 
+notificar los EPRO, de acuerdo con su capacidad técnica, habilidades de comunicación, etc.
+Prepare la siguiente información: 
+• Motivo del contacto con el/la usuario/a.
+• Breve descripción de lo ocurrido.
+• Mensajes claves a comunicar. Ej: Importancia y beneficios de la vacunación e inmunización.
+• Posibles preguntas que puedan tener los/las usuarios/as y sus respectivas respuestas.
+Recomendaciones para una Comunicación Efectiva18
+• Comunicar con honestidad y precisión el EPRO, informando los hechos de manera concisa y 
+concreta, evitando utilizar términos médicos o técnicos complejos.
+• Mantener la calma al hablar y evitar dar información no confirmada que pudiera resultar alarmante.
+• Comunicar los hechos sin indicar “culpables”. No mencione comentarios negativos sobre el personal 
+del establecimiento o de las instituciones involucradas en el proceso, no culpe a otras personas o 
+compañeros de trabajo sobre los hechos ocurridos.
+• Demostrar una actitud receptiva, comprensiva y empática frente a las inquietudes que puedan 
+existir.
+• Entregar información desde una perspectiva positiva. Ejemplo: En vez de decir: “Debemos coordinar 
+una atención médica debido a que su salud está en riesgo”, se puede entregar la información de la 
+siguiente manera: “Para su tranquilidad y como parte del protocolo establecido, debemos coordinar 
+una atención médica para evaluar su estado de salud posterior a la vacunación”.
+17 Organización Panamericana de la Salud (OPS). Vigilancia de los Eventos Supuestamente Atribuibles a la Vacunación o Inmunización (ESAVI) 
+de la vacuna contra la influenza pandémica (H1N1) 2009 y prevención de crisis - Guía práctica. 2010. Disponible en https://www3. paho.org/
+hq/dmdocuments/2010/H1N1_Guia_de_Vigilancia_de_ESAVI_FINAL.pdf
+18 Organización Panamericana de la Salud (OPS). Comunicación sobre vacunación segura: Orientaciones para apoyar al personal de salud en la 
+comunicación con madres, padres, cuidadores y pacientes. 28 enero 2011. Disponible en https://iris.paho.org/handle/10665.2/53014
+31
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+c. Manejo de reacciones post-inmunización
+En todo el proceso de vacunación e inmunización, el personal de salud debe estar alerta a los 
+potenciales efectos secundarios posteriores. Esto significa, detectar y tratar oportunamente las 
+manifestaciones descritas en el folleto del fabricante, así como una reacción de carácter serio.
+Es necesario conocer las reacciones esperadas con la administración del producto para poder 
+realizar el tratamiento oportuno de ellos.
+Cabe destacar que las manifestaciones asociadas al uso de este anticuerpo son en su mayoría leves 
+y generalmente transitorias.
+En el caso de los lactantes inmunizados en los vacunatorios públicos y privados en convenio, con 
+la finalidad de pesquisar una reacción anafiláctica post-inmunización, se indica un periodo de 
+observación de 30 minutos posterior a la administración, como medida de precaución para detectar 
+e intervenir oportunamente frente a la pesquisa de una reacción de este tipo16.
+Capacitación del equipo de salud
+TABLA Nº12. CAPACITACIÓN DEL EQUIPO DE SALUD
+TEMAS ACTIVIDADES
+Procedimientos de vacunación 
+e inmunización• Revisión de protocolos/procedimientos vigentes.
+• Difusión al equipo, utilizando diferentes metodologías.
+Equipo de emergencia y uso de 
+medicamentos e insumos• Maletín de emergencia.
+• Paso práctico de medicamentos e insumos.
+• Verificar fechas de vencimiento.
+Reacciones adversas y manejo 
+inmediato• Identificar reacciones adversas vinculadas a productos biológicos.
+• Manejo de enfermería.
+• Uso de medicamentos frente a Reanimación Cardio-Pulmonar (RCP).
+• Derivación a la red asistencial.
+Vigilancia ESAVI• Guía de vacunación segura (MINSAL, 2013)14
+• Orientaciones T écnicas para la prevención y el manejo de Errores 
+Programáticos (MINSAL, 2025)19
+• Sistema de vigilancia y notificación ESAVI/EPRO.
+• Monitoreo y seguimiento.
+Fuente: Elaboración propia, Departamento de Inmunizaciones - MINSAL 2026 .
+19  Ministerio de Salud. Resolución Exenta N°1105: Aprueba “Orientaciones Técnicas para la prevención y el manejo de Errores 
+Programáticos (EPRO)”. 09 de septiembre 2025. Disponible en: https://vacunas.minsal.cl/wp-content/uploads/2025/09/OT-para-la-
+prevencion-y-manejo-de-EPRO-2025.pdf
+32
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+TABLA N°13. REACCIONES POST-INMUNIZACIÓN
+REACCIONES 
+SISTÉMICASANTECEDENTES MEDIDAS A CONSIDERAR
+Lipotimia o reacción 
+vaso-vagal• Desvanecimiento o desmayo.
+• No supone una contraindicación para 
+futuras administraciones.• Activar código de emergencia o llamar a 
+médico/a a cargo según protocolo. Evaluar el 
+estado general (aspecto, respiración, circulación) 
+y signos vitales.
+• Ubicar al paciente en decúbito dorsal.
+• Elevar extremidades inferiores sobre el nivel del 
+tórax.
+Anafilaxia• Reacción alérgica grave multisistémica.
+• Se presenta en el período inmediato post-
+vacunación (primeros 30 minutos).
+• Adrenalina es el tratamiento de elección.
+• Se puede administrar clorfenamina como 
+apoyo a tratamiento inmediato de la 
+anafilaxia frente a síntomas cutáneos.• Activar código de emergencia y contactar a 
+médico/a.
+• Ubicar al paciente en una camilla/sillón, en 
+decúbito dorsal.
+• Comunicarse con personal médico del 
+establecimiento de salud (previamente 
+coordinado).
+Fuente: Elaboración propia, Departamento de Inmunizaciones - MINSAL 2026 .
+TABLA N°14. CRITERIOS CLÍNICOS PARA EL DIAGNÓSTICO DE ANAFILAXIA
+SE CONSIDERA QUE LA ANAFILAXIA ES MUY PROBABLE SI SE CUMPLEN LOS TRES CRITERIOS SIGUIENTES:
+1. Inicio agudo De minutos a horas.
+2. Compromiso de piel o 
+mucosasUrticaria generalizada.
+Prurito.
+Eritema.
+Sofoco (rubor, enrojecimiento).
+Edema de labios, úvula o lengua.
+3. Presencia de, al menos, 
+uno de los siguientes signos o 
+síntomasCompromiso respiratorio (disnea, sibilancias, estridor, cianosis). 
+Hipotensión arterial o síntomas asociados de disfunción orgánica 
+(hipotonía, síncope, incontinencia de esfínteres, etc).
+Fuente: Manual de vacunas de la Asociación Española de Pediatría (AEP), Comité Asesor de Vacunas.20
+TABLA N°15. DIAGNÓSTICO DIFERENCIAL ENTRE REACCIÓN VASO-VAGAL Y ANAFILAXIA
+ÍTEM REACCIÓN VASO-VAGAL ANAFILAXIA
+InicioInmediato, generalmente en pocos 
+segundos o durante la administración 
+del producto biológico.Habitualmente al cabo de pocos minutos, 
+pero puede aparecer incluso varias horas 
+después.
+Cuadro respiratorioRespiración normal; puede ser 
+superficial, pero sin esfuerzo 
+respiratorio.T os, resuello, ronquera, estridor o tiraje 
+costal. Inflamación de la vía aérea superior 
+(labios, lengua, garganta, úvula o laringe).
+Cuadro cutáneo Palidez generalizada, piel fría y húmeda.Prurito, eritema cutáneo generalizado, 
+angioedema local o generalizado.
+Cuadro neurológico Sensación de debilidad o mareo. Ansiedad.
+Fuente: Modificado de Rüggeberg JU, Gold MS, Bayas JM, et al.21
+20  Comité Asesor de Vacunas. Manual de vacunas de la Asociación Española de Pediatría (AEP). Disponible en: https://vacunasaep.
+org/documentos/manual/manual-de-vacunas
+21  Rüggeberg, J. U., Gold, M. S., Bayas et al. Anaphylaxis: Case definition and guidelines for data collection, analysis, and presentation 
+of immunization safety data. Vaccine, 2017, 25(31), 5675–5684. https://doi.org/10.1016/j.vaccine.2007.02.064
+33
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Manejo frente al shock anafiláctico
+Ante la sospecha o confirmación de un shock anafiláctico posterior a la administración de una vacuna, 
+el equipo de salud debe actuar de manera inmediata, coordinada y conforme a los protocolos de 
+emergencia establecidos. Las siguientes acciones constituyen el estándar de manejo inicial:
+TABLA N°16. CONDUCTA A SEGUIR POST REACCIÓN ANAFILÁCTICA
+FRENTE AL SHOCK ANAFILÁCTICO
+- Activar el código azul  o el sistema de respuesta a emergencias del establecimiento. Contactar de 
+forma inmediata al médico de turno, al Servicio de Atención de Urgencia de la comuna o al número 
+de coordinación preestablecido. En paralelo, solicitar apoyo y eventual traslado a través del Servicio 
+de Atención Médica de Urgencia (SAMU), entregando información clara y estructurada de la situación.
+- Realizar evaluación primaria (ABC):
+A – Vía aérea:  verificar permeabilidad e identificar signos de obstrucción (estridor, ronquera, 
+dificultad para hablar). Prepararse para manejo avanzado en caso necesario.
+B – Ventilación:  evaluar frecuencia respiratoria, uso de musculatura accesoria y presencia de 
+sibilancias.
+C – Circulación:  controlar signos vitales, perfusión, pulso y presión arterial.
+- Posicionar al paciente en decúbito supino  con elevación de extremidades inferiores, salvo 
+contraindicación (por ejemplo, vómitos o compromiso respiratorio severo, en cuyo caso se puede 
+optar por posición semi-Fowler).
+- Administrar oxígeno suplementario mediante mascarilla de alto flujo con reservorio (no reinhalación), 
+buscando mantener saturación ≥95%. Monitorizar con pulsioxímetro en forma continua.
+- Administrar adrenalina intramuscular (IM) en la cara anterolateral del muslo, como medida central 
+e insustituible del tratamiento.
+Dosis recomendada: 0,01 mg/kg (máximo 0,5 mg en adultos), repetir cada 5 minutos si no hay 
+respuesta clínica adecuada.
+- Instalar dos vías venosas periféricas , si las condiciones lo permiten, para asegurar la administración 
+rápida de medicamentos y fluidos.
+- Aporte de volumen IV con cristaloides isotónicos  (por ejemplo, solución fisiológica) a razón de 20 
+mL/kg en 10 minutos, con reevaluación estricta por riesgo de sobrecarga y desplazamiento al tercer 
+espacio, considerando la fisiopatología de la anafilaxia.
+- Considerar segunda dosis de adrenalina IM a los 5 minutos si persiste compromiso respiratorio, 
+hemodinámico o síntomas cutáneos progresivos.
+- Manejo complementario , según disponibilidad y evaluación clínica:
+Antihistamínicos  H1 como apoyo sintomático.
+Corticoides sistémicos , que no actúan en fase aguda, pero previenen reacciones bifásicas.
+Nebulizaciones con salbutamol  en caso de broncoespasmo.
+- Si el paciente evoluciona a paro cardiorrespiratorio, iniciar de inmediato maniobras de RCP  
+según las guías de la American Heart Association (AHA) y los protocolos vigentes en el establecimiento, 
+mientras se espera apoyo avanzado.
+- Registrar detalladamente el evento , el tiempo de administración de la vacuna, la aparición de 
+síntomas, las intervenciones realizadas y la respuesta clínica, para la notificación obligatoria al sistema 
+de farmacovigilancia del PNI.
+Fuente: Elaboración propia, Departamento de Inmunizaciones - MINSAL 2026 .
+34
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Maletín de emergencia
+El equipo vacunador, tanto profesional como técnico en enfermería, debe contar con capacitación 
+actualizada y permanente para el manejo de eventos adversos post-inmunización. Cada vez 
+que se realicen actividades de vacunación e inmunización es obligatorio disponer de un maletín 
+de emergencia completo, operativo y revisado previamente, que incluya todos los equipos, 
+medicamentos e insumos necesarios para la atención inmediata y eficaz de reacciones adversas, 
+incluyendo aquellas de carácter grave como el shock anafiláctico.
+Este maletín constituye un elemento crítico de seguridad clínica y debe mantenerse accesible, 
+actualizado, con control de vencimientos y con reposición continua según la normativa vigente del 
+PNI.
+TABLA N°17. EQUIPOS, MEDICAMENTOS E INSUMOS EMERGENCIA DURANTE UN PROCESO DE 
+VACUNACIÓN E INMUNIZACIÓN
+EQUIPOS MEDICAMENTOS INSUMOS
+Balón de oxígeno con 
+manómetro4 ampollas de Adrenalina 1% 
+(epinefrina)Ligadura
+Flujómetro de oxígeno4 ampollas de Clorfenamina, 
+ampolla de 10 mg4 jeringas de 10 mL
+Mascarilla de alto flujo con 
+reservorio, de no reinhalación 
+pediátrica y adulta4 sueros fisiológicos o Ringer 
+Lactato de 500 cc4 jeringas de 5 mL
+Saturómetro 4 jeringas de tuberculina
+Niple 4 mariposas 21 ¾ y 23 ¾
+Ambú pediátrico y adulto 8 agujas 23G x 1”
+Esfigmomanómetro pediátrico 
+y adulto5 catéter venoso periférico 
+N°22 y 2 N°20
+Fonendoscopio 4 bajadas de suero
+Tijera punta pato 3 llaves de tres pasos
+T ermómetro digital 10 sachet de alcohol
+Linterna clínica Algodón
+Protocolo actualizado 
+y dosificación de los 
+medicamentosT ela adhesiva
+T abla con parámetros 
+de Presión Arterial (P/A), 
+Frecuencia Cardiaca (FC) y 
+Frecuencia Respiratoria (FR)Guantes de procedimiento
+Riñones para preparación de 
+medicamentos
+Contenedor rígido para 
+desechos cortopunzantes
+ Fuente: Elaboración propia, Departamento de Inmunizaciones - MINSAL 2026.
+35
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+TABLA N°18. FICHA TRATAMIENTO VASOCONSTRICTOR (ADRENALINA O EPINEFRINA)
+ADRENALINA
+AcciónEs el fármaco más eficaz para el tratamiento de la anafilaxia, puede 
+prevenir o revertir el broncoespasmo y el colapso cardiovascular, 
+incrementa la frecuencia cardíaca, contrae los vasos sanguíneos, dilata 
+las vías aéreas, aumentando así la presión arterial.
+AdministraciónLa adrenalina intramuscular (ampolla=1 mg/mL), es el tratamiento de 
+elección y debe administrarse lo más precozmente en el tratamiento 
+de la anafilaxia.
+Dosis: Adrenalina 0,01 mL x kilo de peso.
+Sitio de punción: cara anterolateral externa del muslo. Para administrar 
+utilice aguja 23Gx1” (niños y adultos).
+Preparación1 ampolla = 1mg = 1 mL.
+Sin diluir
+Extraer la dosis correspondiente, usando jeringa de tuberculina.
+Presentación 1 ampolla de 1mg/1mL
+DosificaciónPESO APROX. DOSIS INDICADA
+5 kg 0,05 mL
+10 kg 0,1 mL
+20 kg 0,2 mL
+30 kg 0,3 mL
+40 kg 0,4 mL
+> 50 kg 0,5 mL
+ConsideraciónSi no responde a la primera dosis de adrenalina, repetir la misma dosis 
+en 5 minutos.
+Se registra la hora exacta de administración de las dosis.
+La aparición de efectos secundarios leves y transitorios, como palidez, 
+temblor, taquicardia, cefalea o mareo es frecuente e indica que se ha 
+alcanzado el rango terapéutico.
+ Fuente: Elaboración propia, Departamento de Inmunizaciones - MINSAL 2026.
+36
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+TABLA N°19. FICHA TRATAMIENTO OXÍGENO
+OXÍGENO
+Acción Prevenir o tratar la hipoxemia y mejorar la oxigenación tisular.
+PreparaciónArmar sistema: ajustar las conexiones entre mascarilla y fuente de 
+oxígeno, abrir paso al oxígeno con los litros indicados.
+Verificar que el dial que usa con la mascarilla corresponda a la 
+concentración de oxígeno indicada.
+Colocar la mascarilla sobre la nariz y la boca del paciente, y ajustarla 
+sobre la cara dejándola cómoda.
+AdministraciónIniciar oxigenoterapia, administrando un flujo entre 12 a 15 lts/min, 
+para asegurar una FIO2 de 50%.
+ Fuente: Elaboración propia, Departamento de Inmunizaciones - MINSAL 2026.
+TABLA N°20. FICHA TRATAMIENTO CON ANTIHISTAMÍNICOS
+CLORFENAMINA
+AcciónFármaco antihistamínico que tiene la capacidad de ayudar a reducir los síntomas 
+cutáneos que se producen como respuesta a sustancias extrañas al organismo. 
+Su administración NO DEBE RETRASAR  la indicación y administración de 
+adrenalina.
+AdministraciónVía intramuscular
+Dosis: 0,2 mg/kg/dosis (equivalente a 0,02 mL/kg/dosis)
+Preparación Usar jeringa de tuberculina, para extraer la dosis correspondiente.
+Presentación 1 ampolla de 10mg/1mL
+DosificaciónPESO APROX. DOSIS INDICADA
+5 kg 0,1 mL
+10 kg 0,2 mL
+20 kg 0,4 mL
+30 kg 0,6 mL
+40 kg 0,8 mL
+> 50 kg 1,0 mL
+Indicación Con peso mayor a 50 kg, la indicación es 1 mL (una ampolla)
+ Fuente: Elaboración propia, Departamento de Inmunizaciones - MINSAL 2026.
+37
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+VII. ABASTECIMIENTO
+Para el año 2026 se realizó una compra del medicamento nirsevimab, anticuerpo monoclonal, cuyo 
+nombre comercial es Beyfortus®. La totalidad de dosis fueron adquiridas a laboratorio Sanofi®.
+El producto se encuentra en presentación de jeringa monodosis, en formato de dos dosificaciones: 
+Jeringa de 50 mg. y Jeringa de 100 mg.
+En general, la distribución se realiza mediante rutas terrestres y aéreas para asegurar el 
+abastecimiento oportuno de los DVI ubicados en el nivel intermedio (SEREMI de Salud). Los tiempos 
+estimados de llegada fluctúan entre 2 y 24 horas para la zona central, pudiendo alcanzar hasta 36 
+horas en las zonas extremas del país.
+Posteriormente, la distribución hacia el nivel comunal requiere entre 24 y 36 horas, según la 
+extensión territorial y las características geográficas de cada región.
+A nivel nacional, aproximadamente el 97% del transporte hacia las regiones se realiza por vía 
+terrestre, mientras que alrededor del 3% corresponde a transporte aéreo, destinado principalmente  
+al territorio insular, extremo sur y a zonas de difícil acceso.
+FIGURA N°6: CADENA DE SUMINISTRO NACIONAL
+Fuente: Elaboración propia Departamento de Inmunizaciones, MINSAL, 2026.
+La planificación del suministro se sustentará en una revisión periódica y sistemática de tres 
+elementos clave: la oferta disponible (stock de productos biológicos), la demanda proyectada 
+(requerimientos de inmunización de la población objetivo) y los datos de avance de inmunización 
+registrados en el RNI y SCI. A partir de este análisis cuantitativo se establecen indicadores que 
+permiten evaluar la situación de abastecimiento regional, anticipar necesidades futuras y definir la 
+planificación de la distribución nacional de manera eficiente y oportuna.
+38
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Datos y fuentes relevantes para la planificación
+• Población objetivo regional:  El cálculo de la población objetivo se realiza utilizando las 
+proyecciones oficiales del Instituto Nacional de Estadísticas (INE) y antecedentes históricos 
+de campañas previas. Esta base demográfica permite estimar de manera precisa los 
+requerimientos por región y grupo objetivo.
+• Estimación el stock regional: El SCI del Departamento de Inmunizaciones permite acceder 
+en tiempo real al stock disponible a nivel nacional (nivel central, nivel regional y nivel 
+local), facilitando la evaluación continua de la oferta y las necesidades de suministro de la 
+estrategia.
+• Obtención de la cantidad de inmunizados: Mediante el RNI y herramientas de gestión 
+complementarias, como dashboards analíticos y cruces de bases de datos, es posible conocer 
+el avance de la campaña por comuna y región. Esta información permite integrar variables 
+demográficas, epidemiológicas y operativas relevantes para la toma de decisiones.
+• Cálculo del balance regional de productos biológicos: El cruce de datos provenientes de 
+las fuentes antes descritas permite estimar el balance regional de productos biológicos 
+y, con ello, proyectar el stock circulante disponible en cada territorio. Este balance es 
+fundamental para evitar quiebres de stock, sobreabastecimientos y mermas.
+En base en los indicadores obtenidos, y considerando tanto el stock disponible a nivel central como 
+las remesas planificadas se define la distribución a ejecutar. La asignación por DVI/región debe 
+realizarse teniendo en cuenta las características del inventario (productos biológicos, lotes y fechas 
+de vencimiento) para asegurar un uso eficiente y responsable de los bienes públicos bajo la gestión 
+del PNI.
+39
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+VIII.  CADENA DE FRÍO
+La cadena de frío es un proceso que, mediante el cumplimiento de aspectos técnicos definidos, 
+asegura la correcta conservación de los productos biológicos durante toda su vida útil, desde que 
+son fabricados en laboratorios productores, a través de una serie de etapas y procesos logísticos, 
+hasta que son administrados a la población objetivo.
+Es fundamental mantener la trazabilidad de las temperaturas tanto en las etapas de almacenamiento 
+(cámaras frigoríficas o refrigeradores de menor tamaño) como en las de transporte (camiones 
+refrigerados o CIP). Esta trazabilidad debe ser documentada para contar con evidencia que respalde 
+la conservación dentro de los rangos de temperatura óptimos.
+Si se interrumpe la cadena de frío de forma prolongada o repetitiva en alguna de las etapas de 
+almacenamiento o transporte, exponiendo al anticuerpo a temperaturas fuera de rango, podría 
+ocasionar un impacto irreversible en la calidad y eficacia del producto.
+El PNI cuenta con 25 DVI en el país aprobados por el Decreto Supremo N°46622, los cuales se rigen 
+bajo estrictos estándares de calidad asociados al aseguramiento de la cadena de frío, cuyos procesos 
+se materializan en la Resolución Exenta N°1399 del 29 de septiembre de 2022 del MINSAL.
+A través de la Resolución Exenta N°1335 del 12 de octubre del 202323 del MINSAL fue aprobado el 
+procedimiento “Gestión de la cadena de frío para productos del PNI en los niveles ejecutores” , el cual 
+establece los nuevos estándares en esta materia.
+22 Ministerio de Salud. Decreto Supremo N°466 “Aprueba reglamento de farmacias, droguerías, almacenes farmacéuticos, botiquines 
+y depósitos autorizados”. 31 diciembre 1984. Disponible en https://bcn.cl/2eqp8
+23  Ministerio de Salud. Aprueba procedimiento denominado "Gestión de la cadena de frío para productos del (PNI) en los 
+niveles ejecutores" de la Subsecretaría de Salud Pública. 12 octubre 2023. Disponible en https://vacunas.minsal.cl/wp-content/
+uploads/2024/07/Res.-Ex.-1335-Procedimiento-gestion-de-la-cadena-de-frio-par-productos-PNI-en-niveles-ejecutores-1.pdfPROCESO DE FABRICACIÓN
+LOGÍSTICA INTERNACIONAL
+LOGÍSTICA NACIONAL
+PROCESO DE INMUNIZACIÓN
+40
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+A continuación, se detallan las directrices técnicas para la correcta conservación de la cadena de frío 
+en productos biológicos del PNI:
+Instalaciones del vacunatorio:
+• Se recomienda que todo vacunatorio cuente con sistema de respaldo de energía 
+eléctrica, que permita mantener energizados los refrigeradores que almacenan vacunas e 
+inmunobiológicos, ante cortes del suministro eléctrico.
+• La temperatura ambiente de un vacunatorio no puede sobrepasar los +25°C, en caso de hacerlo 
+debe implementar sistemas de control de temperatura ambiente (aire acondicionado).
+Refrigeradores para el almacenamiento:
+• Deben estar instalados sobre superficie nivelada y alejados de luz solar directa y fuentes de 
+calor.
+• Debe existir un equipo exclusivo para el almacenamiento de productos biológicos, diferente 
+del que se utiliza para el acondicionamiento de unidades refrigerantes (UR) u otros fármacos.
+• Deben mantener distancia del techo y paredes, de al menos 15cm.
+• Deben utilizar enchufe exclusivo, sin alargadores y señalizado “NO DESENCHUFAR”
+• Debe contar con el mantenimiento preventivo acorde a las recomendaciones del fabricante, 
+acorde al plan establecido en el establecimiento. (Los mantenimientos correctivos deben 
+realizarse por personal técnico calificado).
+• La limpieza del interior de los refrigeradores puede realizarse con un paño húmedo y alcohol 
+al 70%.
+• Se recomienda no sobrepasar el 90% de la capacidad de almacenamiento de refrigeradores 
+de uso clínico y del 50% de refrigeradores domésticos acondicionados, manteniendo 
+siempre distancia de las paredes laterales y posterior para permitir la circulación de aire 
+frío.
+• En caso de mantener productos en cuarentena, deben estar segregados y señalizados 
+“PRODUCTOS EN CUARENTENA, NO UTILIZAR”.
+• Los productos almacenados al interior de refrigeradores deben estar siempre contenidos en 
+un envase secundario, ya que podrían ser fotosensibles.
+Instrumentos de termometría:
+• Se recomienda el uso de termógrafos, ya que permiten registro de temperaturas a intervalos 
+programables.
+• Se recomienda establecer intervalos de medición cada 10 minutos.
+• Deben contar con resolución de 0,1°C, es decir, que se lea al menos 1 decimal.
+• Se recomienda utilizar equipos con exactitud de 0,5°C o mejor.
+• Se recomienda utilizar equipos con sensor externo de medición de temperaturas, que 
+permita registrar trazabilidad sin abrir puertas de refrigeradores o tapas de CIP.
+41
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Contenedores isotérmicos pasivos para el transporte de productos del PNI:
+• Se debe utilizar CIP precalificados para el transporte de estos productos.
+• Se debe dar cumplimiento a las configuraciones calificadas de los CIP, para trasladar 
+productos.
+• Todo traslado debe mantener trazabilidad de temperaturas.
+• Se deben mantener siempre limpios y secos. Utilizar alcohol 70% para la limpieza.
+TABLA N°21: CONFIGURACIÓN CIP SEGÚN CAPACIDAD
+CONFIGURACIÓN CIP ACCESO
+Configuración CIP 15 litros
+Configuración CIP 35 litros
+Configuración CIP 70 litros
+Fuente: Elaboración propia Departamento de Inmunizaciones, 2026.
+Vehículos para el transporte de productos del PNI:
+• Estos productos NO se deben transportar en vehículos abiertos (pickup de camionetas).
+• Debe tener capacidad suficiente para el traslado de los CIP calificados, minimizando riesgos 
+de apertura accidental, aplastamiento o volcamiento.
+• En caso necesario, deberán contar con ambiente climatizado que impida la exposición a 
+temperaturas extremas.
+• El vehículo de traslado debe estar en óptimas condiciones mecánicas y disponer de un plan 
+de mantenimiento.
+• Se debe inspeccionar la limpieza del vehículo. En caso necesario, se deberá limpiar antes de 
+ocuparlo en el traslado.
+• Debe priorizarse la ruta más corta para el traslado, evitando desvíos y paradas innecesarias.
+42
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Registros de temperatura:
+• Se recomienda ubicar los sensores de temperatura junto a los productos, tanto en 
+almacenamiento como en transporte.
+• Se deberá mantener registro manual de temperaturas en caso de utilizar termómetros de 
+máxima y mínima. Si el instrumento utilizado es un termógrafo, se deberá realizar descarga 
+de datos diariamente. Para ambos casos, los registros deben estar disponibles y de fácil 
+acceso.
+• Durante los horarios inhábiles (noches y fines de semana), se deberá disponer de un 
+termógrafo al interior de los equipos de almacenamiento. Lo anterior permitirá realizar un 
+mejor análisis ante eventuales excursiones de temperatura.
+• Las áreas que exigen control y registro de temperatura son las siguientes:
+ »Temperatura ambiente del vacunatorio.
+ »Temperatura de acondicionamiento de unidades refrigerantes “refrigeradas”
+ »Temperatura de acondicionamiento de unidades refrigerantes “congeladas”
+ »Temperatura de almacenamiento de los productos, en los equipos de refrigeración.
+Ante cualquier detección de una excursión de temperatura, se deberá notificar de inmediato 
+conforme al procedimiento vigente, disponible en https://vacunas.minsal.cl/cadena-de-frio/ .
+43
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+IX. SISTEMA DE CONTROL DE INVENTARIO (SCI)
+Para mantener la trazabilidad de los productos el PNI dispone de un sistema informático 
+denominado SCI, que permite gestionar de manera eficiente el proceso logístico en todos los 
+eslabones de la cadena de suministro. Esta plataforma permite la trazabilidad de los productos, 
+desde la planificación de compra, ingreso al país, almacenamiento, control de stock y distribución 
+en todo el territorio nacional.
+Dentro de las funcionalidades para la gestión del inventario de productos se encuentran:
+• Recepción de productos.
+• Distribución de productos.
+• Registro de salida y entrada del stock durante la jornada de vacunación.
+• Ingreso a cuarentena.
+• Ingreso a bodega de mermas.
+• Notificación de excursión de temperatura (en proceso de pilotaje).
+• Reporte de stock (Nacional, Intermedio, local).
+• Reporte de lotes por vencer.
+Con la información registrada, es posible monitorear en tiempo real el flujo de productos biológicos 
+y la disponibilidad de estos en todos los niveles administrativos del PNI (nivel central, DVI y 
+establecimientos de la red).
+Esta información es fundamental para la toma de decisiones relacionadas con la toma de decisiones 
+y para la gestión oportuna del stock nacional, redistribuciones locales, ajustes de envío y otras 
+acciones operativas orientadas a garantizar la disponibilidad y continuidad operativa en todos los 
+vacunatorios y centros de acopio intermedios en el transcurso de la estrategia.
+Asimismo, el sistema posibilita la evaluación del uso efectivo de dosis mediante el cruce con los 
+registros del RNI a nivel central, permitiendo analizar el ritmo de inmunización durante el desarrollo 
+de la campaña, fortaleciendo la capacidad del PNI para realizar una planificación logística dinámica. 
+Indicaciones para la implementación del SCI en la campaña
+1. Registro en SCI
+• Todo movimiento de nirsevimab (distribución desde el DVI, redistribución entre 
+establecimientos, mermas, entre otras) debe ser registrado en el SCI en un plazo máximo de 
+24 horas hábiles posteriores a la ejecución del movimiento físico, con el fin de mantener la 
+trazabilidad y evitar desajustes en el inventario.
+• Contrastar periódicamente lo registrado en RNI (administrado) con los registros de salida y 
+reingreso del SCI.
+• Las mermas deben ser registradas en el SCI utilizando la clasificación oficial vigente del 
+protocolo de mermas.
+44
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+2. Gestión del inventario
+• Aplicar como primer criterio la metodología FEFO (First Expired, First Out; en español 
+primero que expira es el primero en salir) en todos los movimientos, es decir, priorizar la 
+salida de los lotes con fecha de vencimiento más próxima.
+• En el caso que lotes con igual fecha de vencimiento, se debe aplicar como segundo criterio 
+el método FIFO (First In, First Out; en español primero que entra es el primero en salir), 
+priorizando el uso de los lotes que ingresaron primero a la vitrina.
+• Mantener el orden físico de los productos en la vitrina según FEFO y FIFO, facilitando la 
+identificación visual y el acceso a los lotes que deben utilizarse primero.
+• Revisar periódicamente la vigencia de los lotes, contrastando mensualmente el listado de 
+productos próximos a vencer que se extrae desde el SCI (módulo “Informes de gestión”) con 
+el stock físico.
+3. Control de stock
+• Cada establecimiento debe mantener un stock de acuerdo con su población objetivo, la 
+demanda proyectada/real y la disponibilidad del DVI. Se debe evitar el sobrestock.
+• Tanto los DVI como los establecimientos deben realizar revisión semanal de stock en SCI, 
+asegurando la consistencia entre el inventario físico y el virtual.
+• Realizar periódicamente el balance de las dosis recibidas y las dosis administradas.
+4. Cuadratura
+• La cuadratura de stock mensual será obligatoria tanto para los DVI como los establecimientos 
+del nivel ejecutor.
+• En caso de discrepancias entre el stock físico y stock virtual, se debe determinar las causas 
+y se debe informar a referentes SEREMI mediante correo electrónico.
+5. Reporte de incidentes en el SCI
+• En caso de detectar errores en el funcionamiento del sistema (caídas de plataforma, 
+inconsistencias en los datos, problemas de visualización o funcionalidades que no responden 
+correctamente), el usuario del nivel local deberá reportar la situación de manera inmediata 
+a su referente SEREMI, quien remitirá los antecedentes al nivel central. El reporte debe 
+incluir los siguientes datos:
+ »Fecha y hora del incidente.
+ »Perfil del usuario conectado: nombre de usuario, RUN.
+ »Nombre del establecimiento + comuna y DVI correspondiente.
+ »Módulo afectado.
+ »Descripción clara del error.
+ »Incluir capturas de pantallas/archivo del error o incongruencia.
+ »Navegador utilizado (Ej: Chrome, Edge, Firefox) y si se detectó alguna intermitencia o 
+interrupción en la conexión a internet durante el uso del sistema.
+45
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+X. SISTEMA DE INFORMACIÓN - REGISTRO NACIONAL DE INMUNIZACIONES 
+(RNI)
+Contar con información confiable y oportuna en todos los niveles permite monitorear el avance de 
+las metas y programar actividades de vacunación complementarias según las brechas identificadas. 
+Para esto es importante considerar los puntos detallados a continuación:
+Consideraciones generales
+El RNI es el sistema oficial para registrar actividades de vacunación, establecido por la Resolución 
+Exenta N°891 del 27 de julio de 2017 del MINSAL. Este sistema actúa como repositorio único 
+nacional para todos los establecimientos de salud públicos y privados en convenio con la SEREMI de 
+Salud correspondiente.
+Antes de ingresar datos en el RNI, se debe verificar el historial de vacunación del usuario, asegurando 
+que cumpla los criterios de elegibilidad y que la dosis no haya sido administrada previamente. El 
+registro debe realizarse caso a caso, inmediatamente después de aplicar la vacuna y en presencia 
+de la persona vacunada, garantizando la calidad y veracidad de la información.
+La responsabilidad del registro recae en el profesional o técnico que administra la vacuna.  Si otra 
+persona asiste en el ingreso de datos, la responsabilidad sigue siendo del vacunador, quien debe 
+proporcionar la información correcta. 
+El RNI cuenta con alertas informativas y restrictivas para apoyar el ingreso correcto de criterios de 
+elegibilidad según los grupos objetivos de la campaña.
+El registro debe garantizar la trazabilidad de la persona vacunada, consignando la siguiente 
+información:
+• Comuna de residencia (comuna donde vive, no es la comuna donde se ubica el establecimiento 
+de salud).
+• Fecha de vacunación.
+• Lote de la vacuna administrada.
+• Dosis.
+• Criterio de elegibilidad.
+Procedimiento de registro en el RNI
+1.- Ingresar al módulo Campaña VRS 2026:
+• Seleccionar tipo de documento: RUN, Pasaporte u otro, en ese orden de prioridad.
+• Verificar y actualizar datos personales: confirmar con el/la usuario/a sus datos personales. y 
+comuna de residencia (dato clave para cobertura).
+• Registrar y/o actualizar la comuna si corresponde, ya que el sistema muestra por defecto la 
+última registrada (dato clave para cobertura).
+2.- Seleccionar tipo de documento: RUN, Pasaporte u otro, en ese orden de prioridad.
+3.- Verificar y actualizar datos personales: confirmar con el/la usuario/a sus datos personales. y 
+comuna de residencia (dato clave para cobertura).
+4.- Registrar y/o actualizar la comuna si corresponde, ya que el sistema muestra por defecto la 
+última registrada (dato clave para cobertura).
+46
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+5.- Identificar al vacunador en el RNI: seleccionar del listado desplegable el nombre de el/la 
+funcionario/a que administró la dosis. Si el registrador es el mismo que el vacunador, aparecerá por 
+defecto el nombre del vacunador que inició sesión en la plataforma.
+6.- Registrar información de la vacuna
+• Seleccionar en vacuna disponible “Nirsevimab”
+• Seleccionar el “Lote correcto” de acuerdo con el N° de serie del envase secundario.
+• Seleccionar la dosis correspondiente de acuerdo con el criterio de elegibilidad establecido 
+para la población objetivo, según el siguiente cuadro:
+TABLA N°22: DOSIS A SELECCIONAR EN RNI SEGÚN CRITERIO DE ELEGIBILIDAD
+DOSIS EN EL SISTEMA RNI CRITERIO DE ELEGIBILIDAD EN RNI
+Única (50 mg)
+Única (100 mg)Recién nacido
+Lactante
+Única (100 mg)
+Única (200 mg)(*)Lactante de riesgo (**)
+(*) La dosis “Única (200 mg)” corresponde a la administración de 2 jeringas pre-llenadas de 100mg (1 ml).
+(**) Para el criterio de elegibilidad “Lactantes de Riesgo”, se registran en este criterio los lactantes que se describen en la población 
+objetivo anteriormente.
+Fuente: Elaboración propia Departamento de Inmunizaciones, 2026.
+7.- Guardar el registro
+• Una vez completados todos los campos, hacer clic en “Guardar”.
+• El sistema mostrará el mensaje: “Datos guardados exitosamente”.
+Registro de recién nacidos sin RUN propio
+Para el registro de recién nacidos que aún no cuentan con RUN propio deben asociarse temporalmente 
+al identificador de la madre, siguiendo los pasos a continuación:
+1. Ingresar al módulo de “Inmunización Recién Nacido”
+2. Seleccionar tipo de documento: RUN, Pasaporte o RUN FONASA.
+3. Verificar y actualizar datos personales: confirmar con el/la usuario/a sus datos personales. 
+4. Registrar y/o actualizar la comuna si corresponde, ya que el sistema muestra por defecto la 
+última registrada (dato clave para cobertura).
+5. Identificar al vacunador en el RNI: seleccionar del listado desplegable el nombre del/
+la funcionario/a que administró la dosis. Si el registrador es el mismo que el vacunador, 
+aparecerá por defecto el nombre del vacunador que inició sesión en la plataforma.
+6. Seleccionar en vacuna disponible “Nirsevimab_maternidad”
+7. Ingresar fecha de nacimiento y sexo del recién nacido.
+8. Ingresar fecha de inmunización. 
+9. Seleccionar el “Lote correcto” de acuerdo con el N° de serie del envase secundario.
+10.  Seleccionar reacción adversa solo si corresponde.
+11. Guardar el registro
+• Una vez completados todos los campos, hacer clic en “Guardar”.
+• El sistema mostrará el mensaje: “Datos guardados exitosamente”.
+47
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Nota:  Para visualizar el registro del anticuerpo monoclonal asociado a la identificación materna 
+es importante que los funcionarios de los establecimientos de APS u otros vacunatorios fuera de 
+la maternidad puedan tener acceso al módulo de “inmunización del recién nacido”. Esto deben 
+solicitarlo a su administrador local.
+En caso de que el tutor legal, madre o padre del usuario decida no administrar la inmunización 
+del anticuerpo monoclonal contra el VRS, se deben completar todos los campos requeridos y 
+seleccionar “Vacuna no administrada”, luego en el campo de “Causa de no administración” se debe 
+seleccionar “Solicitud del Paciente”.
+Registro de casos excepcionales:
+Registro de personas sin RUN ni pasaporte
+Para el caso de las personas que no tengan el tipo de identificación RUN o pasaporte, se deben 
+registrar en el campo “Otro”. Este tipo de identificación tiene un orden de priorización dependiendo 
+del documento que la persona posea, el cual corresponde al siguiente:
+1. Documento de identificación del país de origen (DNI, cédula de identidad, cédula de 
+ciudadanía, otros).
+2. Documentos provisorios (Número de Identificación Provisorio que entrega FONASA (NIP), 
+Número de Identificación Escolar (IPE), Número de Identificación del Apoderado (IPA) que 
+entrega MINEDUC, entre otros).
+Nota:  Es fundamental recordar que para el correcto registro de las vacunas administradas de 
+personas con tipo de identificación Pasaporte u Otro, previamente se debe realizar la búsqueda de 
+la persona por nombre completo, para evitar que ésta se duplique en el sistema con distintos tipos 
+de identificación.
+Seguridad de acceso de la plataforma
+El administrador local, designado por el director del establecimiento, es responsable de gestionar 
+los accesos al RNI, incluyendo la creación de usuarios, asignación de roles y bloqueo de credenciales 
+cuando corresponda.
+Es fundamental para la seguridad de la información que las credenciales de acceso a la plataforma 
+sean bloqueadas oportunamente en el caso de las desvinculaciones. Las jefaturas directas tienen la 
+responsabilidad de informar formalmente esta situación.
+El vacunatorio debe informar cada vez que exista cambio de administrador a los referentes de 
+Estadística y PNI del SS o SEREMI según corresponda, con el fin de que puedan gestionar la solicitud 
+oportuna de la creación del nuevo administrador y bloqueo del anterior a la Mesa de Servicios 
+(MDS) del Departamento TIC MINSAL.
+El RNI, regulado por la Resolución Exenta N°889 del 2019, establece políticas de seguridad de la 
+información que incluyen la protección de datos sensibles, el uso y resguardo de contraseñas, y 
+sanciones por adulteración de registros. Según el Ord. N°4466 del 2022, las contraseñas son 
+personales, únicas e intransferibles, deben mantenerse en secreto, no compartirse ni anotarse en 
+lugares públicos, y cambiarse si se sospecha de mal uso. Cualquier uso indebido debe informarse de 
+inmediato al superior, ya que su incumplimiento puede implicar sanciones.
+48
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Sanciones relacionadas a la adulteración de registros
+La manipulación maliciosa del RNI, como alterar registros, usar credenciales ajenas, asignar roles 
+indebidos o entregar accesos no autorizados, constituye una forma de manipulación de instrumento 
+público y puede implicar sanciones administrativas, civiles y penales.
+En el ámbito penal se puede configurar los siguientes delitos:
+a. Falsificación de Instrumento Público Falso (Art. 193 Código Penal) cometido por particular 
+(Art. 194 Código Penal).
+b. Uso Malicioso de Instrumento Público (Art. 193 Código Penal).
+c. Falsificación Informática (Ley 21.459 de Delitos Informáticos). Alteración indebida del 
+sistema RNI.
+d. Acceso indebido a sistemas informáticos (Ley 21.459 de Delitos Informáticos). Si el acceso a 
+los registros del RNI se realiza vulnerando mecanismos de autenticación o sin autorización. 
+e. Sabotaje Informático (Ley 21.459 de Delitos Informáticos). Si se genera un daño intencionado 
+a los sistemas que respaldan o almacenan los registros del RNI.
+Monitoreo de registros
+El Departamento de Estadísticas e Información de Salud (DEIS) realizará el monitoreo de la calidad 
+de los datos de la campaña mientras se encuentre vigente y un último monitoreo con el estado final 
+de los errores con los datos del período correspondientes a las siguientes fechas:
+TABLA N°23: FECHAS DE MONITOREO DE CALIDAD DE LOS DATOS A REALIZAR POR DEIS
+1° MONITOREO 2° MONITOREO 3° MONITOREO 4° MONITOREO CIERRE
+31/03/2026 31/05/2026 31/08/2026 30/11/2026 31/01/2027
+Fuente: Elaboración propia Departamento de Inmunizaciones, MINSAL, 2026.
+Este proceso realizará una búsqueda activa de registros inconsistentes, aplicando las siguientes 
+reglas de validación:
+• Personas fallecidas registradas como inmunizadas. 
+• Registros con fecha de inmunización anteriores al inicio oficial de la campaña (01 de marzo). 
+• Sexo desconocido o intersexual de la persona vacunada. 
+• Comuna ignorada de la persona vacunada. 
+• Registros de niños lactantes ingresados con criterio de elegibilidad “Recién nacidos” 
+(calculado según la edad). 
+• Registros de niños recién nacidos ingresados con criterio de elegibilidad “Lactantes” 
+(calculado según la edad). 
+• Registros en personas mayores de 2 años. 
+• Vacunas administradas posterior a vencimiento de la vacuna. 
+• Lote no consistente con la dosis administrada. 
+Los registros erróneos detectados en cada monitoreo de calidad serán notificados por correo 
+electrónico a la red de Estadísticos y referentes PNI de los SS y SEREMI, y ellos a su vez informarán 
+las inconsistencias a los establecimientos para su revisión y corrección (en caso de corresponder), 
+de manera de mantener la calidad de la información.
+49
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Es importante destacar que los referentes PNI de SEREMI y de SS son los responsables de realizar el 
+seguimiento activo del proceso de corrección de los datos enviados a los establecimientos, con el 
+objetivo de garantizar la fidelidad de los registros.
+Para cumplir con lo anterior, es necesario que los establecimientos designen un responsable de la 
+calidad del dato, para asegurar la revisión oportuna de los hallazgos remitidos por el nivel central y 
+las correcciones se concluyan dentro de los plazos establecidos.
+Es importante mantener el trabajo en conjunto y coordinado entre referentes PNI y encargados de 
+Estadística de los SS y SEREMI para evitar la duplicación de esfuerzos en la revisión de los errores y 
+el seguimiento de las correcciones de registros de los establecimientos de su red.
+Otros registros
+Formulario manual RNI en casos de contingencia
+Si no se dispone del sistema en el momento de la vacunación, se debe utilizar planilla manual 
+completando cada campo con letra legible y traspasar los datos al RNI en los plazos definidos para 
+esta actividad (hasta 24 horas desde la inmunización).
+Registro en Cuaderno/Agenda de Salud
+Se deberá registrar el producto biológico administrado, lote y fecha de administración con letra 
+legible, en el cuaderno de salud de niñas y niños entre 0 y 9 años que cuenta con una hoja de registro 
+de vacunas administradas u otro tipo de cuaderno o agenda de salud que tenga, como una buena 
+medida de información para los padres o tutores.
+Informes estadísticos diarios
+El consolidado de la información ingresada diariamente en la plataforma, puede ser visualizado en el 
+menú “Herramientas”, en “Informes estadísticos”. Se debe seleccionar “Reporte de Inmunizaciones 
+Administradas Campaña”, luego la campaña “Campaña VRS 2026” y las fechas que se requieren 
+monitorear. En el campo “Destino” se puede elegir el formato para visualizar los registros.
+50
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+XI. CONSIDERACIONES DE CAPACITACIÓN, SUPERVISIÓN Y FISCALIZACIÓN
+Capacitación
+La capacitación para los equipos constituye un pilar esencial para asegurar la correcta 
+implementación de la Campaña contra el VRS 2026. La finalidad es fortalecer las competencias 
+técnicas, operativas y comunicacionales de todos los equipos involucrados en la ejecución de la 
+estrategia, garantizando estándares homogéneos de calidad en todo el territorio nacional.
+Capacitación desde el Nivel Central
+El Nivel Central, a través del Departamento de Inmunizaciones, realizará capacitaciones dirigidas a 
+los equipos PNI de las SEREMI de Salud y de los Servicios de Salud. Estas instancias estarán orientadas 
+a difundir las actualizaciones normativas, técnicas y operativas de la campaña. Así como reforzar los 
+aspectos clínicos esenciales (indicaciones, contraindicaciones, manejo de eventos adversos, cadena 
+de frío, entre otros). Pudiendo resolver dudas técnicas y facilitar la estandarización de criterios a 
+nivel nacional.
+Estas capacitaciones se realizarán mediante videoconferencias, lo que permitirá la participación 
+simultánea de todas las regiones, optimizando tiempos, recursos y asegurando una comunicación 
+centralizada y coherente.
+Capacitación desde las SEREMI de Salud
+Las/los referentes PNI de las SEREMI y SS serán responsables de replicar y adaptar la capacitación 
+a nivel regional, dirigiéndola a:
+• Vacunatorios públicos y privados en convenio, según corresponda. 
+• Equipos clínicos y administrativos involucrados en la ejecución local de la campaña. 
+• Instituciones del intersector que colaboren en operativos extramurales. 
+• Generar reuniones técnicas que planifiquen refuerzo del LTO, considerar la realidad 
+epidemiológica y territorial de la región, la incorporación de maternidades a la estrategia y 
+reforzar los procesos de gestión de cadena de frío, manejo de ESAVI/EPRO, registro oportuno.
+Consideraciones que pueden ser replicadas para la campaña 2026, como son buenas prácticas 
+de rescate, búsqueda activa a población de riesgo, almacenamiento, transporte del producto y 
+administración del anticuerpo.
+Material técnico de apoyo
+Todo el material técnico para la capacitación, incluido material audiovisual, presentaciones, videos 
+instructivos, normativas vigentes y documentos de apoyo, estarán disponibles en la página web 
+https://vacunas.minsal.cl  en el banner “Información a equipos de salud” -> “Capacitación”.
+Se recomienda que los equipos descarguen y revisen el material antes de la capacitación para 
+facilitar la comprensión y promover una participación activa.
+51
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Supervisión
+La supervisión es un componente clave para asegurar el cumplimiento de los estándares técnicos, 
+operativos y sanitarios de las campañas, este proceso se desarrolla en todas las etapas del proceso, 
+desde la organización inicial hasta el cierre y evaluación, garantizando la calidad de la ejecución y 
+el logro de las metas de cobertura.
+Supervisión durante la organización y planificación
+En esta etapa, la supervisión tiene como propósito:
+• Verificar que los equipos regionales y locales cuenten con los conceptos clave del LTO y 
+organización para la puesta en marcha.
+• Confirmar que el personal involucrado ha recibido la capacitación necesaria.
+• Corroborar la existencia de recursos logísticos, operativos y de cadena de frío suficientes 
+para implementar las estrategias.
+• Evaluar si los establecimientos de APS, privados y las maternidades de la región han elaborado 
+su microplanificación y programado correctamente las estrategias intra y extramurales.
+• Identificar brechas que requieran ajustes antes del inicio de la campaña.
+Supervisión durante la ejecución de la campaña 
+La supervisión operacional se desarrolla “in situ” en los puntos de vacunación, y se centra en:
+• Observar el cumplimiento de los principios de seguridad de la inmunización.
+• Verificar el cumplimiento las actividades que se desarrollan para las poblaciones objetivo-
+determinadas en esta estrategia.
+• Revisar la calidad de los registros en RNI, uso del SCI, condiciones de cadena de frío, 
+abastecimiento y manejo de insumos.
+• Recomendar medidas correctivas inmediatas al detectar alguna inconsistencia para mejorar 
+el desempeño durante la campaña.
+Supervisión al cierre de la campaña
+Finalizada la campaña, personal de SEREMI y SS deben:
+• Acompañar a los equipos regionales y locales en el análisis de coberturas, verificando los 
+datos registrados en el RNI.
+• Identificar brechas, factores asociados a bajos logros y estrategias exitosas.
+• Contribuir en la elaboración de los informes de evaluación final.
+• Realizar el balance de productos debiendo cuadrar que la cantidad recibidas, la administrada 
+y el stock que tienen al momento del cierre (en estado vigente o cuarentena).
+• Planificar el resguardo de las dosis que deben sr utilizadas para el principio de la campaña 
+del siguiente año.
+• Este balance es fundamental para el ordenamiento del stock tanto al cierre, como para el 
+a ñ o 2027.
+52
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+Fiscalización
+La fiscalización de la campaña es una función exclusiva y esencial de las SEREMI de Salud, orientada 
+a verificar el cumplimiento íntegro de la normativa sanitaria vigente y de las directrices establecidas 
+por el PNI.
+Este proceso permite asegurar que la inmunización se ejecute bajo estándares de calidad, seguridad 
+y oportunidad en la población objetivo.
+Entre las principales funciones y objetivos de la fiscalización se encuentran:
+ –Fiscalizar el funcionamiento de los vacunatorios públicos y privados en convenio con 
+las SEREMI de Salud  para garantizar que operen conforme a los lineamientos técnicos, 
+administrativos y regulatorios del PNI, así como a la legislación sanitaria vigente.
+ –Verificar la correcta utilización del SCI (según normativa vigente), aplicación de 
+metodología FEFO para manejo de inventario y la mantención de la cadena de frío  
+durante la recepción, almacenamiento, transporte y distribución de vacunas y otros 
+productos biológicos, en los establecimientos públicos y privados en convenio con las 
+SEREMI de Salud, asegurando condiciones que preserven la estabilidad y eficacia de los 
+productos.
+ –Fiscalizar la adecuada implementación, habilitación y funcionamiento de los puntos 
+de vacunación privados en convenio (Organismos Administradores de la Ley [OAL]) , 
+verificando que cuenten con el personal capacitado, equipamiento, insumos, registros y 
+medidas de bioseguridad necesarios para garantizar una vacunación segura y oportuna.
+ –Aplicar medidas sanitarias vigentes cuando corresponda , según lo establecido en el 
+Código Sanitario y normativas complementarias vigentes, para corregir incumplimientos y 
+prevenir riesgos a la población.
+Con estas acciones, la SEREMI de Salud asegura que la campaña se desarrolle resguardando la 
+calidad del proceso y la protección sanitaria de la población.
+53
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+XII. INFORME REGIONAL CAMPAÑA INMUNIZACIÓN CONTRA EL VRS 2026
+Al finalizar la campaña de inmunización contra el VRS, la/el referente de PNI de cada SEREMI de 
+Salud deberá generar un informe en conjunto con la/el referente de PNI del SS, el que debe incluir 
+los siguientes aspectos:
+I. Introducción.
+II. Análisis por componente.
+ –Organización y gestión (APS y hospitalaria).
+ –Fases y estrategias de inmunización.
+ –Comunicación social y difusión.
+ –Coordinaciones.
+ –Supervisión.
+ –Monitoreo y verificación de coberturas.
+IV. Balance de productos biológicos utilizados en la estrategia a partir de información del 
+SCI y RNI.
+V. Número de ESAVI notificados, por establecimiento de salud y comuna.
+VI. Número de EPRO notificados y sus respectivos informes de mejora, por establecimiento 
+de salud y comuna.
+VII. Conclusiones, lecciones aprendidas.
+VIII. Evaluación final.
+Se enviará formato vía correo electrónico para completar el Informe Regional Campaña de 
+Inmunización contra el VRS 2026.
+54
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026
+XIII.  ANEXOS
+55
+Lineamientos técnicos operativos - Inmunización contra el Virus Respiratorio Sincicial (VRS)
+Versión 2026ANEXO N°1: FORMULARIO REGISTRO NACIONAL DE INMUNIZACIONES
+Establecimiento:                           Vacunador:                                                                                                               
+Fecha:                                Producto:                      Lote:                                                              
+NÚMERO DE 
+IDENTIFICACIÓNNOMBRES APELLIDO PATERNO APELLIDO MATERNOSEXO* FECHA DE 
+NACIMIENTOCOMUNA 
+RESIDENCIACE
+RNICORREO Y/O TELÉFONO
+F M
+Criterios de Elegibilidad (CE) en RNI              * Marcar con una X donde corresponde
+1. Recién nacido 
+2. Lactantes
+3. Lactantes alto riesgo
+4. Otras prioridades
+5. EPRO
+
+
+
+==================================================
+DOCUMENTO: RES.-EXENTA-N°-337-APRUEBA-LINEAMIENTOS-INMUNIZACION-CONTRA-VRS.pdf
+==================================================
+MINISTERIO DE SALUD 
+~,,~SUBSECRETARIA DE SALUD PÚBLICA 
+NCIÓN Y CONTROL DE ENFERMEDADES 
+;; ·~º . f 'l1r~O 
+* G'AB\~'t.\\.* • -:,"GMila/E. ~ J~ , 
+• 1··,· .... APRUEBA LINEAMIENTOS TÉCNICO 
+OPERATIVOS INMUNIZACIÓN CONTRA EL 
+VIRUS RESPIRATORIO SINCICIAL (VRS) 
+EXENTANº 337 
+SANTIAGO, 2 7 FEB 2026 
+VISTO: estos antecedentes; lo dispuesto en 
+el D.F.L. N° 1, de 2005, del Ministerio de Salud, que fija el texto refundido, coordinado y 
+sistematizado del decreto ley Nº 2763, de 1979, y de las leyes Nº 18.933 y Nº 18.469; en el 
+D.F.L. Nº 725, de 1967, Código Sanitario; en el decreto supremo Nº 136, de 2004, del 
+Ministerio de Salud, Reglamento Orgánico de dicha Secretaría de Estado; en el 
+memorándum 827 Nº35, 1 O de febrero de 2026, de la jefa de la División de Prevención y 
+Control de Enfermedades; en la Resolución Nº 36, de 2024, de la Contraloría General de la 
+República; y 
+CONSIDERANDO: 
+1. Que, al Ministerio de Salud le compete ejercer 
+la función que corresponde al Estado de garantizar el libre e igualitario acceso a las 
+acciones de promoción, protección y recuperación de la salud y de rehabilitación de la 
+persona enferma. 
+2. Que, asimismo, a esta Secretaría de Estado le 
+corresponde formular, fijar y controlar las políticas de salud, en consecuencia, entre sus 
+funciones está la de efectuar la vigilancia en salud pública y evaluar la situación de salud 
+de la población. En el ejercicio de esta función, deberá mantener un adecuado sistema de 
+vigilancia epidemiológica y contro'I de enfermedades transmisibles y no transmisibles, 
+investigar los brotes de enfermedades y coordinar la aplicación de medidas de control. 
+3. Que, el virus respiratorio sincicial (VRS) es 
+reconocido como una de las causas más comunes de enfermedades infantiles y es la causa 
+más común de hospitalización en los lactantes. Este virus causa brotes anuales de 
+enfermedades respiratorias en todos los grupos de edad. El VRS pertenece a la familia 
+Pneumoviridae, género Orthopneumovirus, teniendo como único hospedero el ser humano. 
+El VRS posee dos glicoproteínas de superficie, F y G, con un rol importante en la replicación 
+viral y en la producción de inmunidad. Los VRS se clasifican en dos grupos, VRS A y VRS 
+B, existiendo múltiples genotipos en cada uno de ellos. No se ha asociado la virulencia o 
+transmisibilidad del virus con una cepa en particular. 
+4. Que, en Chile, el Ministerio de Salud mantiene 
+un sistema de vigilancia de las Infecciones Respiratorias Agudas Graves (IRAG), analizado 
+a nivel nacional por el Departamento de Epidemiología, el cual considera la circulación de 
+virus respiratorios, incluido el VRS. Durante el año 2025, hasta la semana epidemiológica 
+52, la vigilancia IRAG evidenció, en relación con los indicadores de gravedad 
+intrahospitalaria, un total de 1.483 casos asociados a VRS, de los cuales 425 requirieron 
+ingreso a Unidades de Cuidados Intensivos (UCI) y se registraron 17 fallecimientos. El año 
+2024 Chile fue el primer país latinoamericano en implementar el anticuerpo monoclonal 
+nirsevimab para la prevención del VRS en recién nacidos y lactantes menores de 6 meses, 
+alcanzando coberturas superiores al 90% y registrándose ausencia de muertes por VRS 
+durante campaña de invierno en este grupo etario durante ese año. El cierre de la Campaña 
+de Invierno 2025 consolidó este hito: por segundo año consecutivo no se registraron 
+fallecimientos en menores de un año por acción de este virus, gracias a esta estrategia, 
+observándose una reducción del 76% en las hospitalizaciones totales por infecciones 
+respiratorias y del 85% en las hospitalizaciones en unidades de cuidados intensivos por 
+estas causas. La experiencia chilena fue destacada internacionalmente y publicada en la 
+revista The Lancet lnfectious Diseases, subrayando su relevancia como modelo de política 
+pública efectiva en inmunización infantil. 
+5. Que, por otro lado, la campaña de inmunización 
+con nirsevimab, ha sido monitorizada por el Departamento de Inmunizaciones de MINSAL, 
+así como también por el Instituto Milenio de Sistemas Complejos de Ingeniería (ISCI) de la 
+Universidad de Chile, a través de un convenio colaborativo con el MINSAL. Es así que el 
+año 2024 se observó a nivel nacional que la cantidad de hospitalizaciones semanales 
+acumuladas por VRS fue significativamente menor a la de años anteriores en la población 
+objetivo de nirsevimab. De las 1.211 hospitalizaciones totales, 658 correspondieron a 
+lactantes y 553 a RN, correspondiendo a un 15% a las del año 2019, al 26% del año 2022 
+y al 20% del año 2023 en la semana epidemiológica 40. El año 2025 la campaña de 
+inmunización con nirsevimab se inició el día 1 de marzo para los Recién Nacidos (RN) y 
+lactantes nacidos a partir del 1 de octubre del año 2024, además de la población de 
+lactantes que tenían alguna condición de riesgo especifica, que se podía agravar al 
+contagiarse con VRS. La cobertura de inmunización alcanzada ese año en el grupo de RN 
+fue de 97,7% y en los lactantes menores de 6 meses de un 93,0%. 
+6. Que, a raíz de lo anterior, el Departamento de 
+Inmunizaciones, de la División de Prevención y Control de Enfermedades, de la 
+Subsecretaría de Salud Pública, elaboró el instrumento denominado: "Lineamientos 
+Técnico Operativos Inmunización Contra el Virus Respiratorio Sincicial (VRS)", que 
+contiene indicaciones relativas, entre otras materias, a la vacunación segura, a la Vigilancia 
+de ESAVI y EPRO, a la manipulación, almacenamiento, distribución y administración de la 
+vacuna, al manejo de reacciones post vacunación, sistemas de información (Registro 
+Nacional de Inmunizaciones -RNI), así como asignación de responsabilidades en el Nivel 
+Central (Ministerio de Salud), en el nivel regional (Secretarías Regionales Ministeriales de 
+Salud y Servicios de Salud) y en el nivel ejecutor (establecimientos de salud y APS). 
+7. Que, mediante Memorando B27 / Nº 35, de 10 
+de febrero 2026, la Jefa de la División de Prevención y Control de Enfermedades, solicita 
+la aprobación del documento singularizado en el considerando anterior. 
+8. Que, en mérito de lo anterior y en uso de las 
+facultades que confiere la ley, dicto la siguiente: 
+RESOLUCIÓN: 
+1.-APRUÉBASE el instrumento denominado 
+"Lineamientos Técnico Operativos Inmunización contra el Virus Respiratorio Sincicial 
+(VRS)", elaborado por la División de Prevención y Control de Enfermedades, de la 
+Subsecretaría de Salud Pública. 
+2.-Los "Lineamientos Técnico Operativos 
+Inmunización contra el Virus Respiratorio Sincicial (VRS)", consta en un documento de 55 
+páginas, incluidos los siguientes Anexos, que forman parte integrante de la presente 
+resolución: 
+• ANEXO Nº1. FORMULARIO REGISTRO NACIONAL DE INMUNIZACIONES 
+3.-El original del documento que se aprueba por el 
+presente acto administrativo, debidamente visado por la jefa de la División de Prevención y 
+Control de Enfermedades, y será custodiado por la Oficina de Partes y Gestión Documental 
+del Ministerio de Salud 
+4.-Difúndase la presente resolución y el instrumento 
+que se aprueba mediante ella en la página web del Ministerio de Salud, www.minsal.cl, 
+correspondiéndole a la División de Prevención y Control de Enfermedades la 
+responsabilidad de dicha publicación, debiendo velar por su estricta concordancia con el 
+texto original aprobado. 
+DISTRIBUCIÓN 
+-Gabinete Ministra de Salud ANÓTESE Y COMUNÍQUESE 
+RA. XIMENA AGUILERA SANHUEZA 
+MINISTRA DE SALUD 
+-Gabinete Subsecretaría de Salud Pública 
+-División de Prevención y Control de Enfermedades 
+-División Jurídica 
+-Depto. de Inmunizaciones (DIPRECE) 
+-SEREMls de Salud del país 
+-Servicios de Salud del país 
+-Oficina de Partes 

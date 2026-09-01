@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "projectName": "Covid_Web",
+  "userName": "developer",
+  "skillLevel": "intermediate",
+  "outputFolder": ".vibecheck/flow",
+  "planningArtifacts": ".vibecheck\\flow\\planning-artifacts",
+  "implementationArtifacts": ".vibecheck\\flow\\implementation-artifacts",
+  "installedAt": "2026-07-08T18:54:07.895Z",
+  "ide": [
+    "vscode"
+  ]
+}

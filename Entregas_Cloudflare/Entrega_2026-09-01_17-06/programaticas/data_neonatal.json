@@ -1,0 +1,147 @@
+{
+  "2025": {
+    "total_nacidos": 1827,
+    "bcg": {
+      "vacunados": 1810,
+      "pendientes": 10,
+      "fallecidos": 6,
+      "rechazados": 1,
+      "distribucion_hospital": {
+        "HOSPITAL DE OSORNO": 10
+      },
+      "distribucion_comuna": {
+        "OSORNO": 4,
+        "PUYEHUE": 1,
+        "RÍO NEGRO": 2,
+        "SAN PABLO": 1,
+        "LA UNIÓN": 2
+      },
+      "evolucion_mensual": {
+        "01": 1,
+        "02": 3,
+        "05": 1,
+        "04": 2,
+        "10": 1,
+        "03": 2
+      },
+      "causales_exclusion": {
+        "Fallecimiento": 6,
+        "SolicitudDeLosPadres": 3,
+        "SolicitudPaciente": 1,
+        "ContraIndicacion": 1
+      },
+      "calidad_dato": {
+        "rechazos": 5
+      }
+    },
+    "hepb": {
+      "vacunados": 1813,
+      "pendientes": 7,
+      "fallecidos": 5,
+      "rechazados": 2,
+      "distribucion_hospital": {
+        "HOSPITAL DE OSORNO": 7
+      },
+      "distribucion_comuna": {
+        "OSORNO": 4,
+        "PURRANQUE": 1,
+        "PUYEHUE": 1,
+        "SAN PABLO": 1
+      },
+      "evolucion_mensual": {
+        "01": 2,
+        "02": 1,
+        "08": 1,
+        "04": 2,
+        "10": 1
+      },
+      "causales_exclusion": {
+        "Fallecimiento": 5,
+        "SolicitudDeLosPadres": 3
+      },
+      "calidad_dato": {
+        "rechazos": 3
+      }
+    }
+  },
+  "2026": {
+    "total_nacidos": 1202,
+    "bcg": {
+      "vacunados": 1163,
+      "pendientes": 33,
+      "fallecidos": 5,
+      "rechazados": 1,
+      "distribucion_hospital": {
+        "HOSPITAL DE OSORNO": 29,
+        "CLINICA ALEMANA DE OSORNO": 4
+      },
+      "distribucion_comuna": {
+        "PUERTO MONTT": 1,
+        "CASTRO": 1,
+        "OSORNO": 16,
+        "PUERTO OCTAY": 1,
+        "PURRANQUE": 5,
+        "PUYEHUE": 5,
+        "SAN JUAN DE LA COSTA": 1,
+        "SAN PABLO": 1,
+        "LAGO RANCO": 1,
+        "RÍO BUENO": 1
+      },
+      "evolucion_mensual": {
+        "04": 3,
+        "01": 4,
+        "03": 2,
+        "05": 1,
+        "07": 1,
+        "08": 17,
+        "06": 4,
+        "02": 1
+      },
+      "causales_exclusion": {
+        "Fallecimiento": 5,
+        "SolicitudPaciente": 1,
+        "SolicitudDeLosPadres": 1,
+        "ContraIndicacion": 1
+      },
+      "calidad_dato": {
+        "rechazos": 3
+      }
+    },
+    "hepb": {
+      "vacunados": 1168,
+      "pendientes": 31,
+      "fallecidos": 3,
+      "rechazados": 0,
+      "distribucion_hospital": {
+        "HOSPITAL DE OSORNO": 27,
+        "CLINICA ALEMANA DE OSORNO": 4
+      },
+      "distribucion_comuna": {
+        "PUERTO MONTT": 1,
+        "CASTRO": 1,
+        "OSORNO": 16,
+        "PUERTO OCTAY": 1,
+        "PURRANQUE": 5,
+        "PUYEHUE": 4,
+        "SAN JUAN DE LA COSTA": 1,
+        "SAN PABLO": 1,
+        "LAGO RANCO": 1
+      },
+      "evolucion_mensual": {
+        "04": 2,
+        "01": 7,
+        "07": 1,
+        "06": 5,
+        "03": 1,
+        "08": 14,
+        "02": 1
+      },
+      "causales_exclusion": {
+        "Fallecimiento": 3
+      },
+      "calidad_dato": {
+        "rechazos": 0
+      }
+    }
+  }
+}

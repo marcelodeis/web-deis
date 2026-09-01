@@ -1,0 +1,40 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "Comuna": "Osorno" },
+      "geometry": { "type": "Point", "coordinates": [-73.1336, -40.5739] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Comuna": "Puerto Octay" },
+      "geometry": { "type": "Point", "coordinates": [-72.8893, -40.9754] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Comuna": "Purranque" },
+      "geometry": { "type": "Point", "coordinates": [-73.1667, -40.9167] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Comuna": "Puyehue" },
+      "geometry": { "type": "Point", "coordinates": [-72.6000, -40.6667] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Comuna": "Río Negro" },
+      "geometry": { "type": "Point", "coordinates": [-73.1979, -40.7966] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Comuna": "San Juan de la Costa" },
+      "geometry": { "type": "Point", "coordinates": [-73.6822, -40.5186] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Comuna": "San Pablo" },
+      "geometry": { "type": "Point", "coordinates": [-73.0167, -40.4333] }
+    }
+  ]
+}
