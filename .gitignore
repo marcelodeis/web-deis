@@ -14,6 +14,7 @@ node_modules/
 
 # Archivos de datos pesados y temporales
 *.xlsx
+!Rescates_*.xlsx
 *.csv
 *.zip
 *.pdf
