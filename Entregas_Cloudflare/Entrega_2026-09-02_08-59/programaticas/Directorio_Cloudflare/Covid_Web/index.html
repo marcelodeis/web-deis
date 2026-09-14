@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard COVID-19 2026 · Servicio de Salud Osorno</title>
+    <meta name="description" content="Dashboard Analítico de Vacunación COVID-19 del Servicio de Salud Osorno.">
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx-js-style@1.2.0/dist/xlsx.bundle.js" integrity="sha384-OUW9euuUyxyHcAhTqbhI+Iyb8LMssXt/cpz0yXhs9UWG2/R/uaWdakx/4cfww7Vb" crossorigin="anonymous"></script>
+
+    <!-- Leaflet.js -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css?v=5">
+
+    <!-- Premium Features CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="/shared/global_premium.css?v=2">
+
+    <style>
+        .kpi-grid.four-cols {
+            grid-template-columns: repeat(4, 1fr);
+        }
+        @media (max-width: 1024px) {
+            .kpi-grid.four-cols {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 600px) {
+            .kpi-grid.four-cols {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        #map {
+            width: 100%;
+            height: 100%;
+            min-height: 520px;
+            border-radius: 0 0 20px 20px;
+            z-index: 1;
+        }
+    </style>
+    <script>
+        window.addEventListener('error', function(e) {
+            const errDiv = document.createElement('div');
+            errDiv.style = "position:fixed;top:0;left:0;width:100%;background:red;color:white;z-index:999999;padding:20px;font-size:20px;";
+            errDiv.innerHTML = "JS Error: " + e.message + " at " + e.filename + ":" + e.lineno;
+            document.body.appendChild(errDiv);
+        });
+        window.addEventListener('unhandledrejection', function(e) {
+            const errDiv = document.createElement('div');
+            errDiv.style = "position:fixed;top:0;left:0;width:100%;background:red;color:white;z-index:999999;padding:20px;font-size:20px;";
+            errDiv.innerHTML = "Promise Error: " + e.reason;
+            document.body.appendChild(errDiv);
+        });
+    </script>
+</head>
+<body>
+    <!-- ── BARRA DE NAVEGACIÓN GLOBAL RNI ── -->
+                <!-- 🛸 BARRA DE NAVEGACIÓN GLOBAL RNI 🛸 -->
+    <nav class="global-nav-bar">
+        <div class="global-nav-left">
+            <a href="/" class="btn-portal-rni">
+                <i class="fas fa-home"></i> Portal RNI
+            </a>
+        </div>
+        
+        <div class="global-nav-center d-none d-md-flex">
+            <a href="https://estadisticas.ssosorno.cl/index.php" style="color: #ffffff; display: flex; align-items: center; text-decoration: none;">
+                <!-- Mini Logo DEIS SVG -->
+                <svg viewBox="0 0 400 300" height="40" style="margin-right: 15px;" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0" y="100" width="50" height="150" fill="#0072bc" />
+                    <rect x="60" y="40" width="50" height="210" fill="#00adef" />
+                    <rect x="120" y="0" width="120" height="250" fill="#ffffff" />
+                    <text font-family="'Inter', Arial, sans-serif" font-weight="700" font-size="130" letter-spacing="-3">
+                        <tspan x="140" y="220" fill="#0b1f40">D</tspan>
+                        <tspan x="250" y="220" fill="#ffffff">EIS</tspan>
+                    </text>
+                    <text x="255" y="250" font-family="'Inter', Arial, sans-serif" font-weight="500" font-size="26" fill="#ffffff" letter-spacing="1">OSORNO</text>
+                </svg>
+                <div style="line-height: 1.2;">
+                    <div style="font-weight: 700; font-size: 16px; letter-spacing: 0.5px; color: #ffffff;">SERVICIO DE SALUD OSORNO</div>
+                    <div style="font-size: 12px; font-weight: 400; opacity: 0.8; color: #ffffff;">Departamento de Estadísticas e Información de Salud</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="global-nav-right">
+            <button class="global-nav-dropdown-btn">
+                <i class="fas fa-syringe"></i> Cambiar Vacuna <i class="fas fa-chevron-down" style="font-size: 0.7rem; margin-left: 2px;"></i>
+            </button>
+            <div class="global-nav-dropdown-content">
+                <a href="/influenza/" ><i class="fas fa-virus" style="color: #3b82f6;"></i> Campaña Influenza</a>
+                <a href="/vph/" ><i class="fas fa-ribbon" style="color: #ec4899;"></i> Vacuna VPH</a>
+                <a href="/covid/" class="active"><i class="fas fa-biohazard" style="color: #10b981;"></i> Campaña COVID-19</a>
+                <a href="/vrs/" ><i class="fas fa-shield-virus" style="color: #8b5cf6;"></i> Campaña VRS</a>
+                <a href="/programaticas/" ><i class="fas fa-syringe" style="color: #f59e0b;"></i> Vacunas Programáticas</a>
+                <div style="border-top: 1px solid #e2e8f0; margin: 4px 0;"></div>
+                <a href="/" style="color: #64748b;"><i class="fas fa-arrow-left"></i> Volver al Menú Principal</a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="loader-overlay" class="loader-overlay" style="display: none; position: fixed; inset: 0; background: rgba(255,255,255,0.8); z-index: 9999; justify-content: center; align-items: center;">
+        <div class="spinner" style="width: 50px; height: 50px; border: 5px solid var(--minsal-blue); border-top-color: transparent; border-radius: 50%; animation: spin 1s linear infinite;"></div>
+    </div>
+    <style>@keyframes spin { 100% { transform: rotate(360deg); } }</style>
+
+    <div class="dashboard-container">
+        <header id="dashboardHeader">
+            <div class="header-main">
+                <div class="header-brand">
+                    <div class="brand-icon">
+                        <i class="fas fa-virus-covid"></i>
+                    </div>
+                    <div>
+                        <h1>MONITOREO CAMPAÑA COVID-19</h1>
+                        <p class="header-subtitle">SERVICIO DE SALUD OSORNO</p>
+                    </div>
+                </div>
+                <div style="margin-top: 15px;">
+                    <span class="meta-badge">
+                        <i class="fas fa-clock" style="color: #60a5fa;"></i> 
+                        <span id="reportDate">Cargando...</span>
+                    </span>
+                </div>
+            </div>
+            <div class="header-actions">
+                <div class="year-toggle-wrapper" style="margin-right: 10px;">
+                    <label class="year-toggle-label">AÑO CAMPAÑA</label>
+                    <div class="year-toggle">
+                        <button onclick="switchYear('2025')" id="btnYear2025" class="year-toggle-btn">2025</button>
+                        <button onclick="switchYear('2026')" id="btnYear2026" class="year-toggle-btn active">2026</button>
+                    </div>
+                </div>
+                <select id="globalComunaFilter" class="glass-input main-filter" style="background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.2); margin-right: 10px;">
+                    <option value="all" style="color: black;">Todas las Comunas</option>
+                </select>
+
+                <button id="btnExportPDF" onclick="exportToPDF()" class="btn-export" style="background: #ef4444; margin-right: 10px; color: white; border: none; padding: 8px 15px; border-radius: 8px; font-weight: 600; cursor: pointer;">
+                    <i class="fa-solid fa-file-pdf"></i> Exportar PDF
+                </button>
+
+                <button id="themeToggleBtn" class="btn-export" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.3); color: white; padding: 8px 12px;" title="Alternar Modo Oscuro">
+                    <i class="fas fa-moon"></i>
+                </button>
+</div>
+        </header>
+
+        <main>
+            <!-- ── NAVIGATION TABS ── -->
+            <nav class="tab-nav" id="tabNav">
+                <button class="tab-btn active" data-tab="cobertura">
+                    <i class="fas fa-chart-pie"></i> Cobertura (Residencia)
+                </button>
+                <button class="tab-btn" data-tab="produccion">
+                    <i class="fas fa-hospital"></i> Producción (Ocurrencia)
+                </button>
+                            <button class="tab-btn" data-tab="autoconsulta" style="margin-left: auto;">
+                    <i class="fas fa-search"></i> Autoconsulta de Vacunación
+                </button>
+            </nav>
+
+            <!-- ── TAB 1: COBERTURA ── -->
+            <div class="tab-content active" id="tab-cobertura">
+            <!-- ── KPIs ── -->
+            <section class="kpi-grid four-cols">
+                <div class="kpi-card glass minsal-border" style="position: relative; padding-bottom: 2rem;">
+                    <div class="kpi-icon" style="background: rgba(59, 130, 246, 0.1);">
+                        <i class="fas fa-syringe" style="color: #3b82f6;"></i>
+                    </div>
+                    <div class="kpi-info">
+                        <h3>TOTAL DOSIS ADMINISTRADAS</h3>
+                        <div id="kpiTotalDosis" class="main-val" style="font-size: 2rem; font-weight: 800; color: var(--minsal-blue);">--</div>
+                        <div class="sub-vals" style="margin-top: 5px; font-size: 0.8rem; color: #64748b;">
+                            Residentes en territorio
+                        </div>
+                    </div>
+                    <div class="territory-context-residencia" style="position: absolute; bottom: 8px; left: 0; width: 100%; text-align: center; font-size: 0.75rem; color: #94a3b8; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; opacity: 0.7;">PROVINCIAL (BASE RESIDENCIA)</div>
+                </div>
+                
+                <div class="kpi-card glass minsal-border" style="border-top-color: #10b981; position: relative; padding-bottom: 2rem;">
+                    <div class="kpi-icon" style="background: rgba(16, 185, 129, 0.1);">
+                        <i class="fas fa-person-cane" style="color: #10b981;"></i>
+                    </div>
+                    <div class="kpi-info">
+                        <h3>MAYORES DE 60 AÑOS</h3>
+                        <div id="kpi60" class="main-val" style="font-size: 1.5rem; font-weight: 800; color: #10b981;">--</div>
+                        <div class="sub-vals" style="margin-top: 5px; font-size: 0.8rem; color: #64748b;">
+                            Total vacunados
+                        </div>
+                    </div>
+                    <div class="territory-context-residencia" style="position: absolute; bottom: 8px; left: 0; width: 100%; text-align: center; font-size: 0.75rem; color: #94a3b8; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; opacity: 0.7;">PROVINCIAL (BASE RESIDENCIA)</div>
+                </div>
+                
+                <div class="kpi-card glass minsal-border" style="border-top-color: #8b5cf6; position: relative; padding-bottom: 2rem;">
+                    <div class="kpi-icon" style="background: rgba(139, 92, 246, 0.1);">
+                        <i class="fas fa-heart-pulse" style="color: #8b5cf6;"></i>
+                    </div>
+                    <div class="kpi-info">
+                        <h3>CRÓNICOS &amp; INMUNO</h3>
+                        <div id="kpiCronicos" class="main-val" style="font-size: 1.5rem; font-weight: 800; color: #8b5cf6;">--</div>
+                        <div class="sub-vals" style="margin-top: 5px; font-size: 0.8rem; color: #64748b;">
+                            Total vacunados
+                        </div>
+                    </div>
+                    <div class="territory-context-residencia" style="position: absolute; bottom: 8px; left: 0; width: 100%; text-align: center; font-size: 0.75rem; color: #94a3b8; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; opacity: 0.7;">PROVINCIAL (BASE RESIDENCIA)</div>
+                </div>
+                
+                <div class="kpi-card glass minsal-border" style="border-top-color: #f59e0b; position: relative; padding-bottom: 2rem;">
+                    <div class="kpi-icon" style="background: rgba(245, 158, 11, 0.1);">
+                        <i class="fas fa-user-nurse" style="color: #f59e0b;"></i>
+                    </div>
+                    <div class="kpi-info">
+                        <h3>PERSONAL DE SALUD</h3>
+                        <div id="kpiSalud" class="main-val" style="font-size: 1.5rem; font-weight: 800; color: #f59e0b;">--</div>
+                        <div class="sub-vals" style="margin-top: 5px; font-size: 0.8rem; color: #64748b;">
+                            Total vacunados
+                        </div>
+                    </div>
+                    <div class="territory-context-residencia" style="position: absolute; bottom: 8px; left: 0; width: 100%; text-align: center; font-size: 0.75rem; color: #94a3b8; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; opacity: 0.7;">PROVINCIAL (BASE RESIDENCIA)</div>
+                </div>
+            </section>
+
+            <!-- ── CHARTS ROW 2 (PRODUCCION) - DELETED ── -->
+
+            <!-- ── MISSION CONTROL: MAPA & TENDENCIA ── -->
+            <div class="mission-control-row">
+                <div class="spatial-col">
+                    <div class="chart-card glass no-margin" style="flex: 1; padding: 0; position: relative;">
+                        <div class="map-header" style="padding: 1.5rem 1.5rem 0.5rem 1.5rem; border-bottom: 2px solid rgba(49, 46, 129, 0.1);">
+                            <h2 style="margin-bottom: 0; border-bottom: none;">
+                                <div style="display: flex; flex-direction: column; align-items: flex-start; justify-content: center; line-height: 1.2;">
+                                    <span>Análisis Territorial</span>
+                                    <span class="territory-context-ocurrencia" style="font-size: 0.75rem; opacity: 0.75; font-weight: 700; margin-top: 4px; margin-bottom: 6px; letter-spacing: 1px; text-transform: uppercase;">PROVINCIAL (BASE OCURRENCIA)</span>
+                                </div>
+                            </h2>
+                        </div>
+                        <div id="map" style="height: 520px; border-radius: 0 0 20px 20px;" aria-label="Mapa territorial de establecimientos de salud" role="region"></div>
+                        
+                        <!-- Panel Lateral Cinemático -->
+                        <div id="mapSidePanel" class="map-side-panel">
+                            <div class="panel-close" onclick="closeSidePanel()" role="button" tabindex="0" aria-label="Cerrar panel lateral"><i class="fas fa-times"></i></div>
+                            <div id="panelContent" style="overflow-y: auto; height: 100%; padding-right: 10px;">
+                                <h2 id="panelTitle" style="color: #a78bfa; font-size: 1.4rem; margin-bottom: 5px;">Seleccione un punto</h2>
+                                <p id="panelSubtitle" style="color: #94a3b8; font-size: 0.9rem; margin-bottom: 20px;">Detalle del establecimiento</p>
+                                
+                                <div class="panel-stat-card">
+                                    <label>VACUNADOS (ESTABLECIMIENTO)</label>
+                                    <div class="value" id="panelCoverage">0</div>
+                                    <div class="progress-bg"><div class="progress-fill" id="panelProgress" style="width: 0%; background: #a78bfa;"></div></div>
+                                </div>
+
+                                <div class="panel-grid-2">
+                                    <div class="panel-mini-card">
+                                        <label>TIPO</label>
+                                        <div class="value" id="panelType" style="font-size: 0.9rem;">-</div>
+                                    </div>
+                                    <div class="panel-mini-card">
+                                        <label>COMUNA</label>
+                                        <div class="value" id="panelComuna" style="font-size: 0.9rem;">-</div>
+                                    </div>
+                                </div>
+
+                                <div id="panelExtraInfo" style="margin-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;">
+                                    <!-- Datos dinámicos del establecimiento -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Panel Táctico Flotante (Leyenda del Mapa) -->
+                        <style>
+                            .map-tactical-panel {
+                                position: absolute;
+                                top: auto !important;
+                                bottom: 35px !important;
+                                right: auto !important;
+                                left: 20px !important;
+                                z-index: 1000;
+                                width: 250px;
+                                padding: 0 !important;
+                                box-sizing: border-box;
+                                background: rgba(255,255,255,0.95);
+                                backdrop-filter: blur(10px);
+                                border-radius: 12px;
+                                border: 1px solid rgba(49,46,129,0.15);
+                                box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+                                max-height: 48px;
+                                overflow: hidden;
+                                transition: max-height 0.4s ease, box-shadow 0.3s ease;
+                            }
+                            .map-tactical-panel:hover {
+                                max-height: 600px;
+                                box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+                            }
+                            .map-tactical-panel-header {
+                                height: 48px;
+                                padding: 0 16px;
+                                font-size: 0.75rem;
+                                font-weight: 800;
+                                color: #312e81;
+                                cursor: default;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                letter-spacing: 0.5px;
+                            }
+                            .map-tactical-panel:hover .map-tactical-panel-header i {
+                                transform: rotate(180deg);
+                            }
+                            .map-tactical-panel-header i {
+                                transition: transform 0.3s ease;
+                            }
+                            .map-tactical-panel-content {
+                                padding: 0 12px 12px 12px;
+                                opacity: 0;
+                                transition: opacity 0.3s ease 0.1s;
+                            }
+                            .map-tactical-panel:hover .map-tactical-panel-content {
+                                opacity: 1;
+                            }
+                        </style>
+                        <div class="map-tactical-panel">
+                            <div class="map-tactical-panel-header">
+                                <span><i class="fa-solid fa-map" style="margin-right: 6px;"></i> LEYENDA DEL MAPA</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="map-tactical-panel-content">
+                                <div style="font-size: 0.72rem; font-weight: 800; color: #312e81; margin-bottom: 8px; border-bottom: 1px solid rgba(49,46,129,0.12); padding-bottom: 4px; letter-spacing: 0.5px;">INTENSIDAD VACUNACIÓN</div>
+                                <div class="map-legend" style="margin-bottom: 12px;">
+                                    <div class="legend-item"><span class="dot" style="background:#10b981; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> Alto (>80% del máx)</div>
+                                    <div class="legend-item"><span class="dot" style="background:#f59e0b; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> Medio (51-80%)</div>
+                                    <div class="legend-item"><span class="dot" style="background:#ef4444; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> Bajo (<50%)</div>
+                                </div>
+                                <div style="font-size: 0.72rem; font-weight: 800; color: #312e81; margin-bottom: 8px; border-bottom: 1px solid rgba(49,46,129,0.12); padding-bottom: 4px; letter-spacing: 0.5px;">RED ASISTENCIAL</div>
+                                <div class="map-legend">
+                                    <div class="legend-item" style="margin-bottom: 4px;"><span class="dot" style="background:#312e81; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> Hospitales</div>
+                                    <div class="legend-item" style="margin-bottom: 4px;"><span class="dot" style="background:#14b8a6; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> CESFAM</div>
+                                    <div class="legend-item" style="margin-bottom: 4px;"><span class="dot" style="background:#f59e0b; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> Cecosf / Urgencia</div>
+                                    <div class="legend-item" style="margin-bottom: 4px;"><span class="dot" style="background:#64748b; width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px;"></span> Postas Rurales</div>
+                                </div>
+                                <div style="font-size: 0.65rem; color: #64748b; margin-top: 10px; border-top: 1px dashed rgba(0,0,0,0.08); padding-top: 6px; font-style: italic; line-height: 1.25;">
+                                    * El color del polígono indica la intensidad relativa de vacunación comunal. Los íconos representan los centros de salud.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="trend-col">
+                    <div class="chart-card glass no-margin" style="flex: 1;">
+                        <h2 style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
+                            <div style="display: flex; flex-direction: column;">
+                                <span id="temporalChartTitleText" style="color: var(--minsal-blue); font-weight: 700; font-size: 1.25rem;">Curva de Avance Temporal</span>
+                            </div>
+                            <div style="display: flex; gap: 8px; align-items: center; margin-top: 5px; margin-left: auto;">
+                                <div class="temporal-toggle-group" style="display: flex; background: rgba(15, 105, 180, 0.05); border-radius: 20px; padding: 4px; border: 1px solid rgba(15, 105, 180, 0.1);">
+                                    <button id="btnViewSE" onclick="window.setTemporalView('SE')" style="background: var(--minsal-blue); color: white; border: none; padding: 4px 12px; border-radius: 16px; font-size: 0.75rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">Semana Epidemiológica</button>
+                                    <button id="btnViewMes" onclick="window.setTemporalView('MES')" style="background: transparent; color: #64748b; border: none; padding: 4px 12px; border-radius: 16px; font-size: 0.75rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">Evolución Mensual</button>
+                                </div>
+                                <button class="chart-help-btn" onclick="openHelpModal('evolucionMensual', this)" title="Ayuda Interpretativa">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-icon">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="16" x2="12" y2="12"></line>
+        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+    </svg>
+</button>
+                                <button class="chart-download-btn" onclick="downloadChartImage('chartEvolucion', 'Evolucion_Temporal')" title="Descargar PNG" style="padding: 4px; background: none; border: none; cursor: pointer; color: #94a3b8;">
+                                    <i class="fas fa-camera" style="font-size: 1.2rem;"></i>
+                                </button>
+                            </div>
+                        </h2>
+                        <div class="chart-container" style="height: 500px;">
+                            <canvas id="chartEvolucion"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ── CHARTS ROW 1 ── -->
+            <section class="charts-grid" style="margin-top: 4rem;">
+                <div class="chart-card glass">
+                    <h2>
+                        <span>Distribución por Grupo Objetivo <span class="territory-context-residencia" style="font-size: 0.75rem; color: #94a3b8; opacity: 0.75; font-weight: 700; display: block; margin-top: 4px; margin-bottom: 6px; letter-spacing: 1px; text-transform: uppercase;">PROVINCIAL (BASE RESIDENCIA)</span></span>
+                        <div style="display: flex; gap: 4px;">
+                            <button class="chart-help-btn" onclick="openHelpModal('grupoObjetivo', this)" title="Ayuda Interpretativa">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-icon">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="16" x2="12" y2="12"></line>
+        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+    </svg>
+</button>
+                            <button class="chart-download-btn" onclick="downloadChartImage('chartCoberturaGrupos', 'Distribucion_Grupo_Objetivo')" title="Descargar PNG">
+                                <i class="fas fa-camera"></i>
+                            </button>
+                        </div>
+                    </h2>
+                    <div class="chart-container" style="height: 350px;">
+                        <canvas id="chartCoberturaGrupos"></canvas>
+                    </div>
+                </div>
+                
+                <div class="chart-card glass">
+                    <h2>
+                        <span>Distribución de Vacunas <span class="territory-context-residencia" style="font-size: 0.75rem; color: #94a3b8; opacity: 0.75; font-weight: 700; display: block; margin-top: 4px; margin-bottom: 6px; letter-spacing: 1px; text-transform: uppercase;">PROVINCIAL (BASE RESIDENCIA)</span></span>
+                        <div style="display: flex; gap: 4px;">
+                            <button class="chart-help-btn" onclick="openHelpModal('distribucionVacunas', this)" title="Ayuda Interpretativa">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-icon">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="16" x2="12" y2="12"></line>
+        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+    </svg>
+</button>
+                            <button class="chart-download-btn" onclick="downloadChartImage('chartDistribucionVacunas', 'Distribucion_Vacunas')" title="Descargar PNG">
+                                <i class="fas fa-camera"></i>
+                            </button>
+                        </div>
+                    </h2>
+                    <div class="chart-container" style="height: 350px;">
+                        <canvas id="chartDistribucionVacunas"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ── MATRIZ TÉCNICA ── -->
+            </div>
+
+            <!-- ── TAB 2: PRODUCCIÓN ── -->
+            <div class="tab-content" id="tab-produccion">
+            <section class="table-section glass" style="margin-top: 4rem;">
+                <div class="table-header" style="flex-wrap: wrap; gap: 15px;">
+                    <h2>Matriz Técnica de Producción <span id="matrizYearTitle" class="territory-context-ocurrencia" style="font-size: 0.75rem; color: #0f69b4; opacity: 1; font-weight: 800; display: block; margin-top: 4px; margin-bottom: 6px; letter-spacing: 1px; text-transform: uppercase;">(BASE OCURRENCIA 2026)</span></h2>
+                    
+                    <div style="display: flex; gap: 10px; align-items: stretch; flex-wrap: wrap; justify-content: flex-start; width: 100%;">
+                        <!-- Filter components specific to Covid -->
+                        <div class="filter-group" style="display: flex; flex-direction: column; gap: 2px; justify-content: space-between;">
+                            <label style="font-size: 0.65rem; color: #64748b; font-weight: 700; text-transform: uppercase; margin-left: 5px;">COMUNA</label>
+                            <div class="multi-select-container" id="matrizComunaMultiSelect" style="min-width: 180px;">
+                                <div class="multi-select-header" onclick="this.parentElement.classList.toggle('open')" style="padding: 0.4rem 0.8rem; display: flex; justify-content: space-between; align-items: center; height: 35px; box-sizing: border-box;">
+                                    <span class="selected-text" style="font-size: 0.85rem; font-weight: 400;">Todas las Comunas</span>
+                                    <i class="fas fa-chevron-down" style="font-size: 0.7rem;"></i>
+                                </div>
+                                <div class="multi-select-options" style="display: none; position: absolute; background: white; border: 1px solid #cbd5e1; z-index: 100; border-radius: 8px; max-height: 200px; overflow-y: auto; padding: 5px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+                                    <label style="display: block; padding: 4px; font-size: 0.8rem;"><input type="checkbox" value="all" checked id="comunaSelectAll"> Todas</label>
+                                    <div id="comunaOptionsList"></div>
+                                </div>
+                            </div>
+                            <style>
+                                .multi-select-container.open .multi-select-options { display: block !important; }
+                                .multi-select-container.open .fa-chevron-down { transform: rotate(180deg); }
+                            </style>
+                        </div>
+                        
+                        <div class="filter-group" style="display: flex; flex-direction: column; gap: 2px; justify-content: space-between;">
+                            <label style="font-size: 0.65rem; color: #64748b; font-weight: 700; text-transform: uppercase; margin-left: 5px;">ESTABLECIMIENTO</label>
+                            <div class="search-input-wrap" style="position: relative;">
+                                <i class="fas fa-search" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: #64748b; font-size: 0.8rem;"></i>
+                                <input type="text" id="searchEstab" placeholder="Buscar..." class="glass-input main-filter" style="width: 200px; font-weight: 400; font-size: 0.85rem; padding: 0.4rem 0.8rem 0.4rem 30px; height: 35px; box-sizing: border-box;">
+                            </div>
+                        </div>
+                        
+                        <div class="filter-group" style="display: flex; flex-direction: column; gap: 2px; justify-content: space-between;">
+                            <label style="font-size: 0.65rem; color: #64748b; font-weight: 700; text-transform: uppercase; margin-left: 5px;">VACUNA / DOSIS</label>
+                            <div class="multi-select-container" id="matrizVacunaBaseMultiSelect" style="min-width: 180px;">
+                                <div class="multi-select-header" onclick="this.parentElement.classList.toggle('open')" style="padding: 0.4rem 0.8rem; display: flex; justify-content: space-between; align-items: center; height: 35px; box-sizing: border-box;">
+                                    <span class="selected-text" style="font-size: 0.85rem; font-weight: 400;">Todas las Vacunas</span>
+                                    <i class="fas fa-chevron-down" style="font-size: 0.7rem;"></i>
+                                </div>
+                                <div class="multi-select-options" style="display: none; position: absolute; background: white; border: 1px solid #cbd5e1; z-index: 100; border-radius: 8px; max-height: 200px; overflow-y: auto; padding: 5px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+                                    <label style="display: block; padding: 4px; font-size: 0.8rem;"><input type="checkbox" value="all" checked id="vacunaBaseSelectAll"> Todas</label>
+                                    <div id="vacunaBaseOptionsList"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="filter-group" style="display: flex; flex-direction: column; gap: 2px; justify-content: space-between;">
+                            <label style="font-size: 0.65rem; color: #64748b; font-weight: 700; text-transform: uppercase; margin-left: 5px;">CRITERIO ELEGIBILIDAD</label>
+                            <div class="multi-select-container" id="matrizCriterioMultiSelect" style="min-width: 200px;">
+                                <div class="multi-select-header" onclick="this.parentElement.classList.toggle('open')" style="padding: 0.4rem 0.8rem; display: flex; justify-content: space-between; align-items: center; height: 35px; box-sizing: border-box;">
+                                    <span class="selected-text" style="font-size: 0.85rem; font-weight: 400;">Todos los Criterios</span>
+                                    <i class="fas fa-chevron-down" style="font-size: 0.7rem;"></i>
+                                </div>
+                                <div class="multi-select-options" style="display: none; position: absolute; background: white; border: 1px solid #cbd5e1; z-index: 100; border-radius: 8px; max-height: 200px; overflow-y: auto; padding: 5px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+                                    <label style="display: block; padding: 4px; font-size: 0.8rem;"><input type="checkbox" value="all" checked id="criterioSelectAll"> Todos</label>
+                                    <div id="criterioOptionsList"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="filter-group" style="display: flex; flex-direction: column; gap: 2px; justify-content: space-between;">
+                            <label style="font-size: 0.65rem; color: #64748b; font-weight: 700; text-transform: uppercase; margin-left: 5px;">FECHA DE CORTE</label>
+                            <div style="position: relative; display: inline-block;">
+                                <select id="fechaCorteSelect" style="appearance: none; -webkit-appearance: none; background: transparent; border: 1px solid var(--minsal-blue, #0f69b4); border-radius: 14px; padding: 4px 28px 4px 12px; font-size: 0.85rem; color: var(--minsal-blue, #0f69b4); font-weight: 500; cursor: pointer; outline: none; min-width: 140px; height: 35px; box-sizing: border-box;">
+                                    <option value="actual">Actual (19/07/2026)</option>
+                                    <option value="marzo">Cierre Marzo (31/03/2026)</option>
+                                    <option value="abril">Cierre Abril (30/04/2026)</option>
+                                    <option value="mayo">Cierre Mayo (31/05/2026)</option>
+                                    <option value="junio">Cierre Junio (30/06/2026)</option>
+                                    <option value="julio">Cierre Julio (31/07/2026)</option>
+                                </select>
+                                <i class="fas fa-chevron-down" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 0.65rem; color: var(--minsal-blue, #0f69b4); pointer-events: none;"></i>
+                            </div>
+                        </div>
+
+                        <div class="filter-group" style="display: flex; flex-direction: column; gap: 2px; justify-content: space-between;">
+                            <label style="font-size: 0.65rem; color: #64748b; font-weight: 700; text-transform: uppercase; margin-left: 5px;">Año Campaña</label>
+                            <div class="matrix-year-toggle" style="height: 35px; box-sizing: border-box;">
+                                <button onclick="switchYear('2025')" id="btnYear2025Prod" class="matrix-year-btn">2025</button>
+                                <button onclick="switchYear('2026')" id="btnYear2026Prod" class="matrix-year-btn active">2026</button>
+                            </div>
+                        </div>
+                        
+                        <div class="filter-group" style="justify-content: flex-end; display: flex; margin-left: auto;">
+                            <button id="btnExportExcel" class="btn-export" style="background: #10b981; height: 35px; box-sizing: border-box; display: flex; align-items: center; padding: 0 15px;">
+                                <i class="fas fa-file-excel" style="margin-right: 5px;"></i> Excel
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="table-responsive" id="tableProdContainer" style="max-height: 700px; overflow-y: auto;">
+                    <!-- JS genera la tabla -->
+                </div>
+            </section>
+            </section>
+            </div>
+            
+            <!-- ── TAB 3: AUTOCONSULTA ── -->
+            <div class="tab-content" id="tab-autoconsulta">
+                                                <section class="autoconsulta-section">
+                    <div class="autoconsulta-header">
+                        <div class="autoconsulta-header-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                        <div>
+                            <h2 class="autoconsulta-title">Consultar estado de vacunación desde archivo Excel</h2>
+                            <p class="autoconsulta-subtitle">Suba un archivo con una columna de RUT y obtenga automáticamente el estado de vacunación contra <strong>COVID-19</strong>, junto con un resumen estadístico y resultados exportables.</p>
+                        </div>
+                    </div>
+
+                    <!-- 3 Steps -->
+                    <div class="autoconsulta-steps-container">
+                        <div class="autoconsulta-step">
+                            <div class="step-number">1</div>
+                            <div class="step-title"><i class="fas fa-file-excel" style="color: #10b981;"></i> Prepare su archivo Excel</div>
+                            <div class="step-desc">Debe contener una columna con RUT.</div>
+                        </div>
+                        <div class="autoconsulta-step">
+                            <div class="step-number">2</div>
+                            <div class="step-title"><i class="fas fa-upload" style="color: var(--minsal-blue, #0f69b4);"></i> Súbalo en esta sección</div>
+                            <div class="step-desc">Arrástrelo o selecciónelo desde su equipo.</div>
+                        </div>
+                        <div class="autoconsulta-step">
+                            <div class="step-number">3</div>
+                            <div class="step-title"><i class="fas fa-chart-line" style="color: #a78bfa;"></i> Revise y exporte los resultados</div>
+                            <div class="step-desc">Obtendrá un resumen del estado de vacunación y resultados descargables.</div>
+                        </div>
+                    </div>
+
+                    <!-- Zona de Drop Principal -->
+                    <div class="autoconsulta-drop-zone" id="autoconsultaDropZone" onclick="document.getElementById('autoconsultaFileInput').click()">
+                        <input type="file" id="autoconsultaFileInput" accept=".xlsx,.xls,.xlsm" style="display: none;" />
+                        <div class="autoconsulta-drop-icon" style="height: 120px; display: flex; align-items: center; justify-content: center; margin-bottom: 15px;">
+                            <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;">
+                                <defs>
+                                    <filter id="anim-shadow" x="-20%" y="-20%" width="140%" height="140%">
+                                        <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.08" />
+                                    </filter>
+                                </defs>
+                                <style>
+                                    .doc-in { animation: docInFlow 4s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+                                    .sys-screen { animation: sysPulse 4s ease-in-out infinite; }
+                                    .sys-spinner { animation: sysSpin 4s linear infinite; transform-origin: 60px 60px; }
+                                    .doc-out { animation: docOutFlow 4s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+                                    
+                                    @keyframes docInFlow {
+                                        0% { transform: translate(-30px, 15px) scale(0.8) rotate(-10deg); opacity: 0; }
+                                        15% { transform: translate(-10px, 0px) scale(1) rotate(0deg); opacity: 1; }
+                                        25% { transform: translate(5px, 10px) scale(0.5); opacity: 0; }
+                                        100% { transform: translate(5px, 10px) scale(0.5); opacity: 0; }
+                                    }
+                                    
+                                    @keyframes sysPulse {
+                                        0%, 20% { fill: #f1f5f9; }
+                                        25%, 50% { fill: #e0f2fe; }
+                                        55%, 100% { fill: #f1f5f9; }
+                                    }
+                                    
+                                    @keyframes sysSpin {
+                                        0%, 20% { opacity: 0; transform: rotate(0deg) scale(0.5); }
+                                        25% { opacity: 1; transform: rotate(90deg) scale(1); stroke: #0ea5e9; }
+                                        45% { opacity: 1; transform: rotate(360deg) scale(1); stroke: #0284c7; }
+                                        50%, 100% { opacity: 0; transform: rotate(450deg) scale(0.5); }
+                                    }
+                                    
+                                    @keyframes docOutFlow {
+                                        0%, 45% { transform: translate(5px, 10px) scale(0.5); opacity: 0; }
+                                        55% { transform: translate(15px, -15px) scale(1) rotate(5deg); opacity: 1; }
+                                        75% { transform: translate(25px, -20px) scale(1) rotate(10deg); opacity: 1; }
+                                        90%, 100% { transform: translate(40px, -10px) scale(0.8) rotate(15deg); opacity: 0; }
+                                    }
+                                </style>
+                                <g class="doc-in">
+                                    <rect x="25" y="45" width="28" height="38" rx="4" fill="#0f69b4" filter="url(#anim-shadow)" />
+                                    <path d="M 32 55 L 46 55 M 32 63 L 46 63 M 32 71 L 40 71" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+                                    <rect x="33" y="42" width="12" height="12" rx="2" fill="#38bdf8" opacity="0.9" />
+                                    <text x="35" y="51" fill="#ffffff" font-size="8" font-family="sans-serif" font-weight="bold">X</text>
+                                </g>
+                                <g class="doc-out">
+                                    <rect x="55" y="25" width="34" height="46" rx="4" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#anim-shadow)" />
+                                    <path d="M 64 42 L 69 47 L 79 36" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <rect x="63" y="54" width="4" height="8" rx="1" fill="#cbd5e1" />
+                                    <rect x="69" y="50" width="4" height="12" rx="1" fill="#94a3b8" />
+                                    <rect x="75" y="44" width="4" height="18" rx="1" fill="#0f69b4" />
+                                </g>
+                                <g>
+                                    <rect x="40" y="45" width="40" height="30" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="2" filter="url(#anim-shadow)" />
+                                    <path d="M 50 75 L 70 75 L 75 82 L 45 82 Z" fill="#94a3b8" />
+                                    <rect x="43" y="48" width="34" height="24" rx="1" class="sys-screen" />
+                                    <circle cx="60" cy="60" r="6" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-dasharray="10 6" stroke-linecap="round" class="sys-spinner" />
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 class="autoconsulta-drop-title">Suba su archivo para comenzar</h3>
+                        <p class="autoconsulta-drop-subtitle">Arrastre aquí su archivo Excel o haga clic para seleccionarlo.<br>Debe contener una columna con RUT.</p>
+                        <div class="autoconsulta-drop-formats">
+                            <span class="format-badge">.xlsx</span>
+                            <span class="format-badge">.xls</span>
+                            <span class="format-badge">.xlsm</span>
+                        </div>
+                        <div class="autoconsulta-actions">
+                            <button class="btn-primary-action" onclick="event.stopPropagation(); document.getElementById('autoconsultaFileInput').click()">
+                                <i class="fas fa-folder-open"></i> Seleccionar archivo
+                            </button>
+                            <button class="btn-secondary-action" onclick="event.stopPropagation(); window.downloadTemplate()">
+                                <i class="fas fa-download"></i> Descargar plantilla Excel
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Info banner moved to the bottom -->
+                    <div class="autoconsulta-info-compact">
+                        <div class="info-compact-item">
+                            <div class="info-compact-icon"><i class="fas fa-shield-alt"></i></div>
+                            <div class="info-compact-text">
+                                <strong>Procesamiento Local</strong>
+                                El procesamiento se realiza localmente en su navegador. Los datos del archivo no se envían fuera de su equipo.
+                            </div>
+                        </div>
+                        <div class="info-compact-item">
+                            <div class="info-compact-icon"><i class="fas fa-file-excel"></i></div>
+                            <div class="info-compact-text">
+                                <strong>Formatos Aceptados</strong>
+                                Excel (.xlsx, .xls). Se aceptan RUTs con o sin puntos, con o sin guión, y con o sin dígito verificador.
+                            </div>
+                        </div>
+                        <div class="info-compact-item">
+                            <div class="info-compact-icon"><i class="fas fa-database"></i></div>
+                            <div class="info-compact-text">
+                                <strong>Fuente de Datos</strong>
+                                COVID-19 por Residencia 2026 — DEIS MINSAL.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Progreso -->
+                    <div class="autoconsulta-progress-area" id="autoconsultaProgress" style="display: none;"></div>
+
+                    <!-- Resultados -->
+                    <div class="autoconsulta-results-area" id="autoconsultaResults" style="display: none;"></div>
+
+                    <!-- Error -->
+                    <div class="autoconsulta-error-area" id="autoconsultaError" style="display: none;"></div>
+
+                </section>
+            </div>
+        </main>
+        
+        <!-- Notas Técnicas -->
+        <section class="glass minsal-border" style="margin-top: 3rem; padding: 1rem 1.5rem; border-left: 4px solid #cbd5e1; background: rgba(255, 255, 255, 0.5);">
+            <h3 style="color: #64748b; font-weight: 700; font-size: 0.8rem; margin-bottom: 0.8rem; letter-spacing: 0.5px; text-transform: uppercase;">NOTAS TÉCNICAS Y METODOLÓGICAS</h3>
+            <div style="color: #64748b; font-size: 0.75rem; line-height: 1.4;">
+                <p style="margin-bottom: 0.4rem;">
+                    <strong style="color: #475569;">Fuente de datos:</strong> Registro Nacional de Inmunizaciones (RNI) – Sistema Informático DEIS.
+                </p>
+                <p style="margin-bottom: 0.4rem;">
+                    <strong style="color: #475569;">Criterio territorial:</strong> La sección "Panorama Cobertura" se presenta según base residencia, mientras que la sección "Matriz Técnica" se presenta según ocurrencia (lugar de vacunación).
+                </p>
+            </div>
+        </section>
+
+        <footer style="margin-top: 40px; padding: 20px; border-top: 1px solid rgba(15, 105, 180, 0.1); text-align: center; color: var(--text-secondary); font-size: 0.85em; opacity: 0.8;">
+            <p style="margin: 0;">Plataforma desarrollada por el <strong style="color: var(--minsal-blue); font-weight: 600;">Departamento de Estadísticas e Información de Salud</strong></p>
+            <p style="margin: 4px 0 0 0; font-size: 0.9em;">Servicio de Salud Osorno · <span id="footerYear">2026</span></p>
+        </footer>
+    </div>
+
+    <!-- Modal de Ayuda Epidemiológica -->
+    <div id="helpModal" class="help-modal-content" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); z-index: 10000; min-width: 300px; max-width: 500px;">
+        <span class="help-modal-close" onclick="closeHelpModal()" role="button" tabindex="0" aria-label="Cerrar ventana" style="position: absolute; top: 10px; right: 15px; font-size: 1.5rem; cursor: pointer; color: #94a3b8;">×</span>
+        <h3 id="helpModalTitle" style="color: var(--minsal-blue-dark); margin-top: 0; margin-bottom: 15px; border-bottom: 1px solid #e2e8f0; padding-bottom: 10px;">Título</h3>
+        <div id="helpModalBody" style="font-size: 0.95rem; line-height: 1.6;"></div>
+    </div>
+    
+    <!-- Backdrop Modal -->
+    <div id="helpModalBackdrop" onclick="closeHelpModal()" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 9999;"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="data/covid_data_2025.js"></script>
+    <script src="data/covid_data_2026.js"></script>
+    <script src="data/comunas_osorno.js"></script>
+    <script src="data/data_establecimientos.js"></script>
+    <script src="bundle.js?v=43"></script>
+    <script src="covid_runs_index.js?v=2"></script>
+    <script src="autoconsulta.js?v=60"></script>
+    <script src="/shared/global_premium.js?v=3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const tabBtns = document.querySelectorAll('.tab-btn');
+            tabBtns.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    tabBtns.forEach(b => b.classList.remove('active'));
+                    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                    const target = e.currentTarget.dataset.tab;
+                    e.currentTarget.classList.add('active');
+                    const tab = document.getElementById(`tab-${target}`);
+                    if (tab) tab.classList.add('active');
+                });
+            });
+        });
+    </script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "068ddcf406d9480499a9a5606fc3637c"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

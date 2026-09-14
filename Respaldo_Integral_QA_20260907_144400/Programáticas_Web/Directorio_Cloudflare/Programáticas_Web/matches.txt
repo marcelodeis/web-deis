@@ -1,0 +1,3 @@
+19:     'BCG': 'BCG', 'BEXSERO': 'Bexsero', 'BEXSERO1D': 'Bexsero 1ᵃ', 'BEXSERO1R': 'Bexsero Ref.',
+70:     const epiOrder = ['BCG', 'HEXA', 'NEUMO', 'BEXSERO', 'MENINGO', 'SRP', 'VARICELA', 'HepA', 'HepB', 'dTpa', 'VPH'];
+1839:     const selectedVacs = ['HEXA1D', 'BCG', 'SRP1D', 'NEUMO1D', 'BEXSERO1D'];

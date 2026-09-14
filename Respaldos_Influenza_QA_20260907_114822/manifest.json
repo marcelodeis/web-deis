@@ -1,0 +1,80 @@
+[
+  {
+    "file": "BASE DATOS MINSAL\\2026\\Influenza_Residencia_2026.csv",
+    "size_bytes": 202393997,
+    "mtime": "2026-09-06 18:40:54",
+    "sha256": "a4798b078a45638e9f969d925dffe452c6a18bbf75febed229434c2c89123912"
+  },
+  {
+    "file": "BASE DATOS MINSAL\\2026\\Influenza_Ocurrencia_2026.csv",
+    "size_bytes": 201752871,
+    "mtime": "2026-09-06 18:36:04",
+    "sha256": "dc6e8a3fe839863bf47606bf319383969ff75a712c75620794d5904dd0022a7f"
+  },
+  {
+    "file": "Influenza_Web\\Archivos_Excel\\Metas_Influenza_2026.xlsx",
+    "size_bytes": 32961,
+    "mtime": "2026-05-05 10:04:58",
+    "sha256": "7e88dd911e67bea21916ec21a935e1e98d29f810d86487ad68846272ba004840"
+  },
+  {
+    "file": "Influenza_Web\\dashboard_data_2026.js",
+    "size_bytes": 134569,
+    "mtime": "2026-09-07 11:39:35",
+    "sha256": "32cff8481000bb11e2d2c46b2bbcc8d0fecf4f44a1cab6c2772760c66210b88c"
+  },
+  {
+    "file": "Influenza_Web\\dashboard_data_2026.json",
+    "size_bytes": 134534,
+    "mtime": "2026-09-07 11:39:35",
+    "sha256": "d082f94ab966ffcb3323174942a8d9cfccbf6f6f6a28611a98bdee64d2dc90ee"
+  },
+  {
+    "file": "Influenza_Web\\rechazos.js",
+    "size_bytes": 55771,
+    "mtime": "2026-09-03 12:22:41",
+    "sha256": "acee6c35b03604385380dd35982a66e1e4da35b62ee003f6f0c4c542ed3b62b0"
+  },
+  {
+    "file": "Influenza_Web\\data_rechazos.js",
+    "size_bytes": 112734,
+    "mtime": "2026-09-02 16:49:20",
+    "sha256": "2d7146ad3a52eb582731d96bdeacf2ae305d995e8e8dfc3319202061af5a3903"
+  },
+  {
+    "file": "Influenza_Web\\influenza_runs_index.js",
+    "size_bytes": 4125026,
+    "mtime": "2026-09-07 11:42:48",
+    "sha256": "f0efa79bf8cb7e238b3507bd0904c9c03f0a7cba0efa483f78d162c37f137291"
+  },
+  {
+    "file": "Influenza_Web\\autoconsulta.js",
+    "size_bytes": 90203,
+    "mtime": "2026-09-02 09:36:03",
+    "sha256": "2422fde7611f8496563887aee962c413f70c3f66401b568055d4ab32b51ab7d6"
+  },
+  {
+    "file": "Influenza_Web\\index.html",
+    "size_bytes": 94101,
+    "mtime": "2026-09-07 11:46:58",
+    "sha256": "66b726e1dfade101932374672f2beb9a544fe86ed42d38ebab68bc0084051e7b"
+  },
+  {
+    "file": "Influenza_Web\\script.js",
+    "size_bytes": 200829,
+    "mtime": "2026-09-07 11:45:28",
+    "sha256": "439db7ae64842229c28fc45ed84377a834ba6ca1156bce7d38d15ee727fc4430"
+  },
+  {
+    "file": "Influenza_Web\\styles.css",
+    "size_bytes": 95322,
+    "mtime": "2026-09-07 10:23:34",
+    "sha256": "e2e4a6b5cbf375f610bfa11c5cf40352f2f0aeeb646ee8c6ecfb0fc2ac3ca199"
+  },
+  {
+    "file": "Influenza_Web\\Scripts_Procesamiento\\parse_influenza.py",
+    "size_bytes": 17556,
+    "mtime": "2026-09-07 11:38:44",
+    "sha256": "d5cba24b84a117e0348c41d7dc267ac7b5f7ab024570492d39fa5eb265f00ce1"
+  }
+]

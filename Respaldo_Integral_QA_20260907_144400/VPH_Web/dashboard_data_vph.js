@@ -1,0 +1,16182 @@
+// Datos autogenerados del Observatorio VPH S.S. Osorno
+window.VPH_DASHBOARD_DATA = {
+  "metadata": {
+    "titulo": "Observatorio Epidemiológico de Vacunación VPH",
+    "subtitulo": "Servicio de Salud Osorno — Serie Histórica y Monitoreo Actual (2014-2026)",
+    "fecha_corte": "31/08/2026 08:48",
+    "nota_corte_2026": "Corte preliminar de base RNI 2026 (datos en desarrollo continuo durante el año escolar).",
+    "fuentes": "Registro Nacional de Inmunizaciones (RNI) y Departamento de Estadísticas e Información de Salud (DEIS) — MINSAL Chile.",
+    "criterio": "Criterio de Residencia Comunal en la Provincia de Osorno (7 comunas).",
+    "filtros_aplicados": [
+      "VACUNA_ADMINISTRADA == 'SI'",
+      "REGISTRO_ELIMINADO != 'SI'",
+      "Exclusión de CRITERIO_ELEGIBILIDAD == 'EPRO'",
+      "Exclusión de DOSIS == 'EPRO'",
+      "Residencia en comunas: 10301 a 10307"
+    ],
+    "comunas": {
+      "10301": "Osorno",
+      "10302": "Puerto Octay",
+      "10303": "Purranque",
+      "10304": "Puyehue",
+      "10305": "Río Negro",
+      "10306": "San Juan de la Costa",
+      "10307": "San Pablo"
+    }
+  },
+  "hitos_normativos": [
+    {
+      "ano": 2014,
+      "titulo": "Inicio de Vacunación VPH en Chile",
+      "descripcion": "Introducción de la vacuna VPH Tetravalente (Gardasil 4) en niñas de 4° Básico (1ª Dosis escolar).",
+      "poblacion": "Solo Mujeres (4° Básico)",
+      "esquema": "2 Dosis (0-12 meses)",
+      "vacuna": "Tetravalente (Gardasil 4)",
+      "fuente_bibliografica": "Decreto Exento N° 1201 (2013/2014) MINSAL · Norma Técnica Nacional del Programa Nacional de Inmunizaciones (PNI).",
+      "cita_tipo": "Decreto Supremo / Norma Oficial"
+    },
+    {
+      "ano": 2015,
+      "titulo": "Consolidación Esquema 2 Dosis en Mujeres",
+      "descripcion": "Vacunación a 4° Básico (1ª dosis) y 5° Básico (2ª dosis a las vacunadas en 2014).",
+      "poblacion": "Solo Mujeres (4° y 5° Básico)",
+      "esquema": "2 Dosis",
+      "vacuna": "Tetravalente (Gardasil 4)",
+      "fuente_bibliografica": "Ordinario B27 N° 2374 / MINSAL (2015) · Lineamientos Técnicos y Operativos de Vacunación en Establecimientos Educacionales.",
+      "cita_tipo": "Lineamiento Técnico MINSAL"
+    },
+    {
+      "ano": 2019,
+      "titulo": "Universalización: Incorporación de Varones",
+      "descripcion": "Se incorpora a los niños de 4° básico al programa nacional de vacunación VPH escolar.",
+      "poblacion": "Hombres y Mujeres (4° y 5° Básico)",
+      "esquema": "2 Dosis",
+      "vacuna": "Tetravalente (Gardasil 4)",
+      "fuente_bibliografica": "Decreto Exento N° 6 (2019) MINSAL · Recomendación Oficial del Comité Asesor en Vacunas e Inmunizaciones (CAVEI 2018).",
+      "cita_tipo": "Decreto Supremo MINSAL"
+    },
+    {
+      "ano": 2020,
+      "titulo": "Pandemia COVID-19 y Estrategias de Rescate",
+      "descripcion": "Cierre de escuelas impacta la vacunación escolar; se implementan operativos de rescate en centros de salud y cursos superiores (6°, 7° y 8° básico).",
+      "poblacion": "Ambos sexos escolar y catch-up",
+      "esquema": "2 Dosis",
+      "vacuna": "Tetravalente (Gardasil 4)",
+      "fuente_bibliografica": "Circular C37 N° 08 / MINSAL (2020) · Plan Extraordinario de Puesta al Día de Inmunización Escolar en APS.",
+      "cita_tipo": "Circular Ministerial"
+    },
+    {
+      "ano": 2023,
+      "titulo": "Transición hacia Esquema de Dosis Única",
+      "descripcion": "Chile adopta las recomendaciones de la OMS y NITAG iniciando la transición a Dosis Única con VPH Nonavalente.",
+      "poblacion": "Ambos sexos",
+      "esquema": "Transición a Dosis Única",
+      "vacuna": "Transición a Nonavalente (Gardasil 9)",
+      "fuente_bibliografica": "Documento de Posición OMS/SAGE: WER 2022, 97:645-672 · Ensayos KEN SHE (NEJM 2022) & DoRIS (Lancet Oncol 2022) · Dictamen CAVEI 2023.",
+      "cita_tipo": "Evidencia Científica OMS / CAVEI"
+    },
+    {
+      "ano": 2024,
+      "titulo": "Implementación Plena de Dosis Única Nonavalente",
+      "descripcion": "Se establece formalmente el esquema de Dosis Única universal con vacuna VPH Nonavalente (Gardasil 9) en 4° Básico.",
+      "poblacion": "Ambos sexos (4° Básico)",
+      "esquema": "Dosis Única (1 dosis = completo)",
+      "vacuna": "Nonavalente (Gardasil 9)",
+      "fuente_bibliografica": "Decreto Exento N° 11 (2024) MINSAL · Norma General Técnica N° 0229 del PNI y Lineamientos Operativos Campaña Escolar 2024.",
+      "cita_tipo": "Decreto Supremo MINSAL"
+    },
+    {
+      "ano": 2026,
+      "titulo": "Monitoreo en Desarrollo (Campaña 2026)",
+      "descripcion": "Campaña escolar en curso con esquema de Dosis Única Nonavalente para ambos sexos.",
+      "poblacion": "Ambos sexos (4° Básico y rescate)",
+      "esquema": "Dosis Única",
+      "vacuna": "Nonavalente (Gardasil 9)",
+      "fuente_bibliografica": "Calendario Nacional de Vacunación 2026 · Subsecretaría de Salud Pública, DIPRECE – MINSAL.",
+      "cita_tipo": "Calendario Oficial MINSAL"
+    }
+  ],
+  "indicadores_anuales": {
+    "2015": {
+      "ano_medicion": 2015,
+      "cohorte": 2000,
+      "comunas": {
+        "10301": {
+          "nombre": "Osorno",
+          "Total": {
+            "num": 77,
+            "iniciados": 102,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 9,
+            "dropout": 24.51
+          },
+          "Mujer": {
+            "num": 59,
+            "iniciados": 79,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 2,
+            "dropout": 25.32
+          },
+          "Hombre": {
+            "num": 18,
+            "iniciados": 23,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 7,
+            "dropout": 21.74
+          }
+        },
+        "10302": {
+          "nombre": "Puerto Octay",
+          "Total": {
+            "num": 2,
+            "iniciados": 2,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 0,
+            "dropout": 0.0
+          },
+          "Mujer": {
+            "num": 1,
+            "iniciados": 1,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 0,
+            "dropout": 0.0
+          },
+          "Hombre": {
+            "num": 1,
+            "iniciados": 1,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 0,
+            "dropout": 0.0
+          }
+        },
+        "10303": {
+          "nombre": "Purranque",
+          "Total": {
+            "num": 9,
+            "iniciados": 13,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 4,
+            "dropout": 30.77
+          },
+          "Mujer": {
+            "num": 9,
+            "iniciados": 13,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 1,
+            "dropout": 30.77
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 0,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 3,
+            "dropout": 0.0
+          }
+        },
+        "10304": {
+          "nombre": "Puyehue",
+          "Total": {
+            "num": 1,
+            "iniciados": 1,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 0,
+            "dropout": 0.0
+          },
+          "Mujer": {
+            "num": 1,
+            "iniciados": 1,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 0,
+            "dropout": 0.0
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 0,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 0,
+            "dropout": 0.0
+          }
+        },
+        "10305": {
+          "nombre": "Río Negro",
+          "Total": {
+            "num": 4,
+            "iniciados": 5,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 1,
+            "dropout": 20.0
+          },
+          "Mujer": {
+            "num": 3,
+            "iniciados": 3,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 1,
+            "dropout": 0.0
+          },
+          "Hombre": {
+            "num": 1,
+            "iniciados": 2,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 0,
+            "dropout": 50.0
+          }
+        },
+        "10306": {
+          "nombre": "San Juan de la Costa",
+          "Total": {
+            "num": 3,
+            "iniciados": 4,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 0,
+            "dropout": 25.0
+          },
+          "Mujer": {
+            "num": 3,
+            "iniciados": 4,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 0,
+            "dropout": 25.0
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 0,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 0,
+            "dropout": 0.0
+          }
+        },
+        "10307": {
+          "nombre": "San Pablo",
+          "Total": {
+            "num": 4,
+            "iniciados": 4,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 0,
+            "dropout": 0.0
+          },
+          "Mujer": {
+            "num": 4,
+            "iniciados": 4,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 0,
+            "dropout": 0.0
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 0,
+            "den": 0,
+            "cob": 0.0,
+            "nac": 0,
+            "def": 0,
+            "dropout": 0.0
+          }
+        }
+      },
+      "provincial": {
+        "Total": {
+          "num": 100,
+          "iniciados": 131,
+          "den": 0,
+          "cob": 0.0,
+          "nac": 0,
+          "def": 14,
+          "dropout": 23.66
+        },
+        "Mujer": {
+          "num": 80,
+          "iniciados": 105,
+          "den": 0,
+          "cob": 0.0,
+          "nac": 0,
+          "def": 4,
+          "dropout": 23.81
+        },
+        "Hombre": {
+          "num": 20,
+          "iniciados": 26,
+          "den": 0,
+          "cob": 0.0,
+          "nac": 0,
+          "def": 10,
+          "dropout": 23.08
+        }
+      },
+      "metricas_territoriales": {
+        "gpi": null,
+        "max_cob": 0.0,
+        "min_cob": 0.0,
+        "brecha_max_min": 0.0,
+        "media_comunal": 0.0,
+        "desv_est": 0.0,
+        "cv_territorial": 0.0
+      }
+    },
+    "2016": {
+      "ano_medicion": 2016,
+      "cohorte": 2001,
+      "comunas": {
+        "10301": {
+          "nombre": "Osorno",
+          "Total": {
+            "num": 141,
+            "iniciados": 186,
+            "den": 2549,
+            "cob": 5.53,
+            "nac": 2579,
+            "def": 30,
+            "dropout": 24.19
+          },
+          "Mujer": {
+            "num": 126,
+            "iniciados": 167,
+            "den": 1253,
+            "cob": 10.06,
+            "nac": 1265,
+            "def": 12,
+            "dropout": 24.55
+          },
+          "Hombre": {
+            "num": 15,
+            "iniciados": 19,
+            "den": 1296,
+            "cob": 1.16,
+            "nac": 1314,
+            "def": 18,
+            "dropout": 21.05
+          }
+        },
+        "10302": {
+          "nombre": "Puerto Octay",
+          "Total": {
+            "num": 13,
+            "iniciados": 16,
+            "den": 149,
+            "cob": 8.72,
+            "nac": 150,
+            "def": 1,
+            "dropout": 18.75
+          },
+          "Mujer": {
+            "num": 13,
+            "iniciados": 16,
+            "den": 69,
+            "cob": 18.84,
+            "nac": 70,
+            "def": 1,
+            "dropout": 18.75
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 0,
+            "den": 80,
+            "cob": 0.0,
+            "nac": 80,
+            "def": 0,
+            "dropout": 0.0
+          }
+        },
+        "10303": {
+          "nombre": "Purranque",
+          "Total": {
+            "num": 13,
+            "iniciados": 26,
+            "den": 310,
+            "cob": 4.19,
+            "nac": 313,
+            "def": 3,
+            "dropout": 50.0
+          },
+          "Mujer": {
+            "num": 13,
+            "iniciados": 25,
+            "den": 149,
+            "cob": 8.72,
+            "nac": 150,
+            "def": 1,
+            "dropout": 48.0
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 1,
+            "den": 161,
+            "cob": 0.0,
+            "nac": 163,
+            "def": 2,
+            "dropout": 100.0
+          }
+        },
+        "10304": {
+          "nombre": "Puyehue",
+          "Total": {
+            "num": 13,
+            "iniciados": 13,
+            "den": 132,
+            "cob": 9.85,
+            "nac": 135,
+            "def": 3,
+            "dropout": 0.0
+          },
+          "Mujer": {
+            "num": 13,
+            "iniciados": 13,
+            "den": 69,
+            "cob": 18.84,
+            "nac": 70,
+            "def": 1,
+            "dropout": 0.0
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 0,
+            "den": 63,
+            "cob": 0.0,
+            "nac": 65,
+            "def": 2,
+            "dropout": 0.0
+          }
+        },
+        "10305": {
+          "nombre": "Río Negro",
+          "Total": {
+            "num": 11,
+            "iniciados": 16,
+            "den": 196,
+            "cob": 5.61,
+            "nac": 197,
+            "def": 1,
+            "dropout": 31.25
+          },
+          "Mujer": {
+            "num": 11,
+            "iniciados": 16,
+            "den": 98,
+            "cob": 11.22,
+            "nac": 98,
+            "def": 0,
+            "dropout": 31.25
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 0,
+            "den": 98,
+            "cob": 0.0,
+            "nac": 99,
+            "def": 1,
+            "dropout": 0.0
+          }
+        },
+        "10306": {
+          "nombre": "San Juan de la Costa",
+          "Total": {
+            "num": 7,
+            "iniciados": 10,
+            "den": 96,
+            "cob": 7.29,
+            "nac": 98,
+            "def": 2,
+            "dropout": 30.0
+          },
+          "Mujer": {
+            "num": 7,
+            "iniciados": 10,
+            "den": 51,
+            "cob": 13.73,
+            "nac": 53,
+            "def": 2,
+            "dropout": 30.0
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 0,
+            "den": 45,
+            "cob": 0.0,
+            "nac": 45,
+            "def": 0,
+            "dropout": 0.0
+          }
+        },
+        "10307": {
+          "nombre": "San Pablo",
+          "Total": {
+            "num": 13,
+            "iniciados": 13,
+            "den": 116,
+            "cob": 11.21,
+            "nac": 118,
+            "def": 2,
+            "dropout": 0.0
+          },
+          "Mujer": {
+            "num": 13,
+            "iniciados": 13,
+            "den": 57,
+            "cob": 22.81,
+            "nac": 57,
+            "def": 0,
+            "dropout": 0.0
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 0,
+            "den": 59,
+            "cob": 0.0,
+            "nac": 61,
+            "def": 2,
+            "dropout": 0.0
+          }
+        }
+      },
+      "provincial": {
+        "Total": {
+          "num": 211,
+          "iniciados": 280,
+          "den": 3548,
+          "cob": 5.95,
+          "nac": 3590,
+          "def": 42,
+          "dropout": 24.64
+        },
+        "Mujer": {
+          "num": 196,
+          "iniciados": 260,
+          "den": 1746,
+          "cob": 11.23,
+          "nac": 1763,
+          "def": 17,
+          "dropout": 24.62
+        },
+        "Hombre": {
+          "num": 15,
+          "iniciados": 20,
+          "den": 1802,
+          "cob": 0.83,
+          "nac": 1827,
+          "def": 25,
+          "dropout": 25.0
+        }
+      },
+      "metricas_territoriales": {
+        "gpi": 13.53,
+        "max_cob": 11.21,
+        "min_cob": 4.19,
+        "brecha_max_min": 7.02,
+        "media_comunal": 7.49,
+        "desv_est": 2.37,
+        "cv_territorial": 31.62
+      }
+    },
+    "2017": {
+      "ano_medicion": 2017,
+      "cohorte": 2002,
+      "comunas": {
+        "10301": {
+          "nombre": "Osorno",
+          "Total": {
+            "num": 611,
+            "iniciados": 750,
+            "den": 2380,
+            "cob": 25.67,
+            "nac": 2407,
+            "def": 27,
+            "dropout": 18.53
+          },
+          "Mujer": {
+            "num": 590,
+            "iniciados": 723,
+            "den": 1213,
+            "cob": 48.64,
+            "nac": 1229,
+            "def": 16,
+            "dropout": 18.4
+          },
+          "Hombre": {
+            "num": 21,
+            "iniciados": 27,
+            "den": 1167,
+            "cob": 1.8,
+            "nac": 1178,
+            "def": 11,
+            "dropout": 22.22
+          }
+        },
+        "10302": {
+          "nombre": "Puerto Octay",
+          "Total": {
+            "num": 27,
+            "iniciados": 35,
+            "den": 172,
+            "cob": 15.7,
+            "nac": 174,
+            "def": 2,
+            "dropout": 22.86
+          },
+          "Mujer": {
+            "num": 27,
+            "iniciados": 35,
+            "den": 82,
+            "cob": 32.93,
+            "nac": 83,
+            "def": 1,
+            "dropout": 22.86
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 0,
+            "den": 90,
+            "cob": 0.0,
+            "nac": 91,
+            "def": 1,
+            "dropout": 0.0
+          }
+        },
+        "10303": {
+          "nombre": "Purranque",
+          "Total": {
+            "num": 46,
+            "iniciados": 81,
+            "den": 279,
+            "cob": 16.49,
+            "nac": 283,
+            "def": 4,
+            "dropout": 43.21
+          },
+          "Mujer": {
+            "num": 45,
+            "iniciados": 79,
+            "den": 131,
+            "cob": 34.35,
+            "nac": 132,
+            "def": 1,
+            "dropout": 43.04
+          },
+          "Hombre": {
+            "num": 1,
+            "iniciados": 2,
+            "den": 148,
+            "cob": 0.68,
+            "nac": 151,
+            "def": 3,
+            "dropout": 50.0
+          }
+        },
+        "10304": {
+          "nombre": "Puyehue",
+          "Total": {
+            "num": 52,
+            "iniciados": 57,
+            "den": 138,
+            "cob": 37.68,
+            "nac": 139,
+            "def": 1,
+            "dropout": 8.77
+          },
+          "Mujer": {
+            "num": 51,
+            "iniciados": 56,
+            "den": 65,
+            "cob": 78.46,
+            "nac": 66,
+            "def": 1,
+            "dropout": 8.93
+          },
+          "Hombre": {
+            "num": 1,
+            "iniciados": 1,
+            "den": 73,
+            "cob": 1.37,
+            "nac": 73,
+            "def": 0,
+            "dropout": 0.0
+          }
+        },
+        "10305": {
+          "nombre": "Río Negro",
+          "Total": {
+            "num": 43,
+            "iniciados": 53,
+            "den": 202,
+            "cob": 21.29,
+            "nac": 204,
+            "def": 2,
+            "dropout": 18.87
+          },
+          "Mujer": {
+            "num": 40,
+            "iniciados": 50,
+            "den": 94,
+            "cob": 42.55,
+            "nac": 95,
+            "def": 1,
+            "dropout": 20.0
+          },
+          "Hombre": {
+            "num": 3,
+            "iniciados": 3,
+            "den": 108,
+            "cob": 2.78,
+            "nac": 109,
+            "def": 1,
+            "dropout": 0.0
+          }
+        },
+        "10306": {
+          "nombre": "San Juan de la Costa",
+          "Total": {
+            "num": 28,
+            "iniciados": 36,
+            "den": 121,
+            "cob": 23.14,
+            "nac": 124,
+            "def": 3,
+            "dropout": 22.22
+          },
+          "Mujer": {
+            "num": 27,
+            "iniciados": 35,
+            "den": 53,
+            "cob": 50.94,
+            "nac": 53,
+            "def": 0,
+            "dropout": 22.86
+          },
+          "Hombre": {
+            "num": 1,
+            "iniciados": 1,
+            "den": 68,
+            "cob": 1.47,
+            "nac": 71,
+            "def": 3,
+            "dropout": 0.0
+          }
+        },
+        "10307": {
+          "nombre": "San Pablo",
+          "Total": {
+            "num": 48,
+            "iniciados": 52,
+            "den": 125,
+            "cob": 38.4,
+            "nac": 126,
+            "def": 1,
+            "dropout": 7.69
+          },
+          "Mujer": {
+            "num": 48,
+            "iniciados": 52,
+            "den": 57,
+            "cob": 84.21,
+            "nac": 57,
+            "def": 0,
+            "dropout": 7.69
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 0,
+            "den": 68,
+            "cob": 0.0,
+            "nac": 69,
+            "def": 1,
+            "dropout": 0.0
+          }
+        }
+      },
+      "provincial": {
+        "Total": {
+          "num": 855,
+          "iniciados": 1064,
+          "den": 3417,
+          "cob": 25.02,
+          "nac": 3457,
+          "def": 40,
+          "dropout": 19.64
+        },
+        "Mujer": {
+          "num": 828,
+          "iniciados": 1030,
+          "den": 1695,
+          "cob": 48.85,
+          "nac": 1715,
+          "def": 20,
+          "dropout": 19.61
+        },
+        "Hombre": {
+          "num": 27,
+          "iniciados": 34,
+          "den": 1722,
+          "cob": 1.57,
+          "nac": 1742,
+          "def": 20,
+          "dropout": 20.59
+        }
+      },
+      "metricas_territoriales": {
+        "gpi": 31.11,
+        "max_cob": 38.4,
+        "min_cob": 15.7,
+        "brecha_max_min": 22.7,
+        "media_comunal": 25.48,
+        "desv_est": 8.58,
+        "cv_territorial": 33.67
+      }
+    },
+    "2018": {
+      "ano_medicion": 2018,
+      "cohorte": 2003,
+      "comunas": {
+        "10301": {
+          "nombre": "Osorno",
+          "Total": {
+            "num": 868,
+            "iniciados": 1049,
+            "den": 2268,
+            "cob": 38.27,
+            "nac": 2298,
+            "def": 30,
+            "dropout": 17.25
+          },
+          "Mujer": {
+            "num": 849,
+            "iniciados": 1020,
+            "den": 1132,
+            "cob": 75.0,
+            "nac": 1147,
+            "def": 15,
+            "dropout": 16.76
+          },
+          "Hombre": {
+            "num": 19,
+            "iniciados": 29,
+            "den": 1136,
+            "cob": 1.67,
+            "nac": 1151,
+            "def": 15,
+            "dropout": 34.48
+          }
+        },
+        "10302": {
+          "nombre": "Puerto Octay",
+          "Total": {
+            "num": 38,
+            "iniciados": 53,
+            "den": 140,
+            "cob": 27.14,
+            "nac": 141,
+            "def": 1,
+            "dropout": 28.3
+          },
+          "Mujer": {
+            "num": 37,
+            "iniciados": 52,
+            "den": 61,
+            "cob": 60.66,
+            "nac": 62,
+            "def": 1,
+            "dropout": 28.85
+          },
+          "Hombre": {
+            "num": 1,
+            "iniciados": 1,
+            "den": 79,
+            "cob": 1.27,
+            "nac": 79,
+            "def": 0,
+            "dropout": 0.0
+          }
+        },
+        "10303": {
+          "nombre": "Purranque",
+          "Total": {
+            "num": 59,
+            "iniciados": 112,
+            "den": 265,
+            "cob": 22.26,
+            "nac": 268,
+            "def": 3,
+            "dropout": 47.32
+          },
+          "Mujer": {
+            "num": 57,
+            "iniciados": 110,
+            "den": 115,
+            "cob": 49.57,
+            "nac": 116,
+            "def": 1,
+            "dropout": 48.18
+          },
+          "Hombre": {
+            "num": 2,
+            "iniciados": 2,
+            "den": 150,
+            "cob": 1.33,
+            "nac": 152,
+            "def": 2,
+            "dropout": 0.0
+          }
+        },
+        "10304": {
+          "nombre": "Puyehue",
+          "Total": {
+            "num": 82,
+            "iniciados": 93,
+            "den": 135,
+            "cob": 60.74,
+            "nac": 137,
+            "def": 2,
+            "dropout": 11.83
+          },
+          "Mujer": {
+            "num": 82,
+            "iniciados": 93,
+            "den": 80,
+            "cob": 102.5,
+            "nac": 81,
+            "def": 1,
+            "dropout": 11.83
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 0,
+            "den": 55,
+            "cob": 0.0,
+            "nac": 56,
+            "def": 1,
+            "dropout": 0.0
+          }
+        },
+        "10305": {
+          "nombre": "Río Negro",
+          "Total": {
+            "num": 56,
+            "iniciados": 70,
+            "den": 171,
+            "cob": 32.75,
+            "nac": 173,
+            "def": 2,
+            "dropout": 20.0
+          },
+          "Mujer": {
+            "num": 55,
+            "iniciados": 69,
+            "den": 80,
+            "cob": 68.75,
+            "nac": 81,
+            "def": 1,
+            "dropout": 20.29
+          },
+          "Hombre": {
+            "num": 1,
+            "iniciados": 1,
+            "den": 91,
+            "cob": 1.1,
+            "nac": 92,
+            "def": 1,
+            "dropout": 0.0
+          }
+        },
+        "10306": {
+          "nombre": "San Juan de la Costa",
+          "Total": {
+            "num": 41,
+            "iniciados": 49,
+            "den": 106,
+            "cob": 38.68,
+            "nac": 108,
+            "def": 2,
+            "dropout": 16.33
+          },
+          "Mujer": {
+            "num": 39,
+            "iniciados": 47,
+            "den": 51,
+            "cob": 76.47,
+            "nac": 53,
+            "def": 2,
+            "dropout": 17.02
+          },
+          "Hombre": {
+            "num": 2,
+            "iniciados": 2,
+            "den": 55,
+            "cob": 3.64,
+            "nac": 55,
+            "def": 0,
+            "dropout": 0.0
+          }
+        },
+        "10307": {
+          "nombre": "San Pablo",
+          "Total": {
+            "num": 62,
+            "iniciados": 71,
+            "den": 140,
+            "cob": 44.29,
+            "nac": 142,
+            "def": 2,
+            "dropout": 12.68
+          },
+          "Mujer": {
+            "num": 62,
+            "iniciados": 71,
+            "den": 75,
+            "cob": 82.67,
+            "nac": 75,
+            "def": 0,
+            "dropout": 12.68
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 0,
+            "den": 65,
+            "cob": 0.0,
+            "nac": 67,
+            "def": 2,
+            "dropout": 0.0
+          }
+        }
+      },
+      "provincial": {
+        "Total": {
+          "num": 1206,
+          "iniciados": 1497,
+          "den": 3225,
+          "cob": 37.4,
+          "nac": 3267,
+          "def": 42,
+          "dropout": 19.44
+        },
+        "Mujer": {
+          "num": 1181,
+          "iniciados": 1462,
+          "den": 1594,
+          "cob": 74.09,
+          "nac": 1615,
+          "def": 21,
+          "dropout": 19.22
+        },
+        "Hombre": {
+          "num": 25,
+          "iniciados": 35,
+          "den": 1631,
+          "cob": 1.53,
+          "nac": 1652,
+          "def": 21,
+          "dropout": 28.57
+        }
+      },
+      "metricas_territoriales": {
+        "gpi": 48.42,
+        "max_cob": 60.74,
+        "min_cob": 22.26,
+        "brecha_max_min": 38.48,
+        "media_comunal": 37.73,
+        "desv_est": 11.65,
+        "cv_territorial": 30.87
+      }
+    },
+    "2019": {
+      "ano_medicion": 2019,
+      "cohorte": 2004,
+      "comunas": {
+        "10301": {
+          "nombre": "Osorno",
+          "Total": {
+            "num": 917,
+            "iniciados": 1086,
+            "den": 2287,
+            "cob": 40.1,
+            "nac": 2321,
+            "def": 34,
+            "dropout": 15.56
+          },
+          "Mujer": {
+            "num": 901,
+            "iniciados": 1064,
+            "den": 1117,
+            "cob": 80.66,
+            "nac": 1131,
+            "def": 14,
+            "dropout": 15.32
+          },
+          "Hombre": {
+            "num": 16,
+            "iniciados": 22,
+            "den": 1170,
+            "cob": 1.37,
+            "nac": 1190,
+            "def": 20,
+            "dropout": 27.27
+          }
+        },
+        "10302": {
+          "nombre": "Puerto Octay",
+          "Total": {
+            "num": 50,
+            "iniciados": 58,
+            "den": 152,
+            "cob": 32.89,
+            "nac": 153,
+            "def": 1,
+            "dropout": 13.79
+          },
+          "Mujer": {
+            "num": 50,
+            "iniciados": 58,
+            "den": 66,
+            "cob": 75.76,
+            "nac": 66,
+            "def": 0,
+            "dropout": 13.79
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 0,
+            "den": 86,
+            "cob": 0.0,
+            "nac": 87,
+            "def": 1,
+            "dropout": 0.0
+          }
+        },
+        "10303": {
+          "nombre": "Purranque",
+          "Total": {
+            "num": 103,
+            "iniciados": 136,
+            "den": 270,
+            "cob": 38.15,
+            "nac": 273,
+            "def": 3,
+            "dropout": 24.26
+          },
+          "Mujer": {
+            "num": 103,
+            "iniciados": 135,
+            "den": 133,
+            "cob": 77.44,
+            "nac": 135,
+            "def": 2,
+            "dropout": 23.7
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 1,
+            "den": 137,
+            "cob": 0.0,
+            "nac": 138,
+            "def": 1,
+            "dropout": 100.0
+          }
+        },
+        "10304": {
+          "nombre": "Puyehue",
+          "Total": {
+            "num": 53,
+            "iniciados": 57,
+            "den": 119,
+            "cob": 44.54,
+            "nac": 122,
+            "def": 3,
+            "dropout": 7.02
+          },
+          "Mujer": {
+            "num": 53,
+            "iniciados": 57,
+            "den": 56,
+            "cob": 94.64,
+            "nac": 58,
+            "def": 2,
+            "dropout": 7.02
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 0,
+            "den": 63,
+            "cob": 0.0,
+            "nac": 64,
+            "def": 1,
+            "dropout": 0.0
+          }
+        },
+        "10305": {
+          "nombre": "Río Negro",
+          "Total": {
+            "num": 60,
+            "iniciados": 73,
+            "den": 199,
+            "cob": 30.15,
+            "nac": 202,
+            "def": 3,
+            "dropout": 17.81
+          },
+          "Mujer": {
+            "num": 59,
+            "iniciados": 72,
+            "den": 97,
+            "cob": 60.82,
+            "nac": 98,
+            "def": 1,
+            "dropout": 18.06
+          },
+          "Hombre": {
+            "num": 1,
+            "iniciados": 1,
+            "den": 102,
+            "cob": 0.98,
+            "nac": 104,
+            "def": 2,
+            "dropout": 0.0
+          }
+        },
+        "10306": {
+          "nombre": "San Juan de la Costa",
+          "Total": {
+            "num": 45,
+            "iniciados": 51,
+            "den": 107,
+            "cob": 42.06,
+            "nac": 111,
+            "def": 4,
+            "dropout": 11.76
+          },
+          "Mujer": {
+            "num": 45,
+            "iniciados": 50,
+            "den": 57,
+            "cob": 78.95,
+            "nac": 59,
+            "def": 2,
+            "dropout": 10.0
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 1,
+            "den": 50,
+            "cob": 0.0,
+            "nac": 52,
+            "def": 2,
+            "dropout": 100.0
+          }
+        },
+        "10307": {
+          "nombre": "San Pablo",
+          "Total": {
+            "num": 62,
+            "iniciados": 69,
+            "den": 124,
+            "cob": 50.0,
+            "nac": 124,
+            "def": 0,
+            "dropout": 10.14
+          },
+          "Mujer": {
+            "num": 61,
+            "iniciados": 68,
+            "den": 72,
+            "cob": 84.72,
+            "nac": 72,
+            "def": 0,
+            "dropout": 10.29
+          },
+          "Hombre": {
+            "num": 1,
+            "iniciados": 1,
+            "den": 52,
+            "cob": 1.92,
+            "nac": 52,
+            "def": 0,
+            "dropout": 0.0
+          }
+        }
+      },
+      "provincial": {
+        "Total": {
+          "num": 1290,
+          "iniciados": 1530,
+          "den": 3258,
+          "cob": 39.59,
+          "nac": 3306,
+          "def": 48,
+          "dropout": 15.69
+        },
+        "Mujer": {
+          "num": 1272,
+          "iniciados": 1504,
+          "den": 1598,
+          "cob": 79.6,
+          "nac": 1619,
+          "def": 21,
+          "dropout": 15.43
+        },
+        "Hombre": {
+          "num": 18,
+          "iniciados": 26,
+          "den": 1660,
+          "cob": 1.08,
+          "nac": 1687,
+          "def": 27,
+          "dropout": 30.77
+        }
+      },
+      "metricas_territoriales": {
+        "gpi": 73.7,
+        "max_cob": 50.0,
+        "min_cob": 30.15,
+        "brecha_max_min": 19.85,
+        "media_comunal": 39.7,
+        "desv_est": 6.27,
+        "cv_territorial": 15.8
+      }
+    },
+    "2020": {
+      "ano_medicion": 2020,
+      "cohorte": 2005,
+      "comunas": {
+        "10301": {
+          "nombre": "Osorno",
+          "Total": {
+            "num": 919,
+            "iniciados": 1078,
+            "den": 2404,
+            "cob": 38.23,
+            "nac": 2427,
+            "def": 23,
+            "dropout": 14.75
+          },
+          "Mujer": {
+            "num": 902,
+            "iniciados": 1055,
+            "den": 1161,
+            "cob": 77.69,
+            "nac": 1168,
+            "def": 7,
+            "dropout": 14.5
+          },
+          "Hombre": {
+            "num": 17,
+            "iniciados": 23,
+            "den": 1243,
+            "cob": 1.37,
+            "nac": 1259,
+            "def": 16,
+            "dropout": 26.09
+          }
+        },
+        "10302": {
+          "nombre": "Puerto Octay",
+          "Total": {
+            "num": 49,
+            "iniciados": 63,
+            "den": 135,
+            "cob": 36.3,
+            "nac": 137,
+            "def": 2,
+            "dropout": 22.22
+          },
+          "Mujer": {
+            "num": 49,
+            "iniciados": 63,
+            "den": 67,
+            "cob": 73.13,
+            "nac": 67,
+            "def": 0,
+            "dropout": 22.22
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 0,
+            "den": 68,
+            "cob": 0.0,
+            "nac": 70,
+            "def": 2,
+            "dropout": 0.0
+          }
+        },
+        "10303": {
+          "nombre": "Purranque",
+          "Total": {
+            "num": 106,
+            "iniciados": 132,
+            "den": 298,
+            "cob": 35.57,
+            "nac": 304,
+            "def": 6,
+            "dropout": 19.7
+          },
+          "Mujer": {
+            "num": 105,
+            "iniciados": 131,
+            "den": 147,
+            "cob": 71.43,
+            "nac": 150,
+            "def": 3,
+            "dropout": 19.85
+          },
+          "Hombre": {
+            "num": 1,
+            "iniciados": 1,
+            "den": 151,
+            "cob": 0.66,
+            "nac": 154,
+            "def": 3,
+            "dropout": 0.0
+          }
+        },
+        "10304": {
+          "nombre": "Puyehue",
+          "Total": {
+            "num": 76,
+            "iniciados": 81,
+            "den": 131,
+            "cob": 58.02,
+            "nac": 134,
+            "def": 3,
+            "dropout": 6.17
+          },
+          "Mujer": {
+            "num": 76,
+            "iniciados": 81,
+            "den": 68,
+            "cob": 111.76,
+            "nac": 69,
+            "def": 1,
+            "dropout": 6.17
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 0,
+            "den": 63,
+            "cob": 0.0,
+            "nac": 65,
+            "def": 2,
+            "dropout": 0.0
+          }
+        },
+        "10305": {
+          "nombre": "Río Negro",
+          "Total": {
+            "num": 63,
+            "iniciados": 73,
+            "den": 144,
+            "cob": 43.75,
+            "nac": 146,
+            "def": 2,
+            "dropout": 13.7
+          },
+          "Mujer": {
+            "num": 61,
+            "iniciados": 70,
+            "den": 66,
+            "cob": 92.42,
+            "nac": 67,
+            "def": 1,
+            "dropout": 12.86
+          },
+          "Hombre": {
+            "num": 2,
+            "iniciados": 3,
+            "den": 78,
+            "cob": 2.56,
+            "nac": 79,
+            "def": 1,
+            "dropout": 33.33
+          }
+        },
+        "10306": {
+          "nombre": "San Juan de la Costa",
+          "Total": {
+            "num": 51,
+            "iniciados": 57,
+            "den": 115,
+            "cob": 44.35,
+            "nac": 117,
+            "def": 2,
+            "dropout": 10.53
+          },
+          "Mujer": {
+            "num": 50,
+            "iniciados": 55,
+            "den": 56,
+            "cob": 89.29,
+            "nac": 56,
+            "def": 0,
+            "dropout": 9.09
+          },
+          "Hombre": {
+            "num": 1,
+            "iniciados": 2,
+            "den": 59,
+            "cob": 1.69,
+            "nac": 61,
+            "def": 2,
+            "dropout": 50.0
+          }
+        },
+        "10307": {
+          "nombre": "San Pablo",
+          "Total": {
+            "num": 49,
+            "iniciados": 57,
+            "den": 106,
+            "cob": 46.23,
+            "nac": 112,
+            "def": 6,
+            "dropout": 14.04
+          },
+          "Mujer": {
+            "num": 49,
+            "iniciados": 57,
+            "den": 55,
+            "cob": 89.09,
+            "nac": 56,
+            "def": 1,
+            "dropout": 14.04
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 0,
+            "den": 51,
+            "cob": 0.0,
+            "nac": 56,
+            "def": 5,
+            "dropout": 0.0
+          }
+        }
+      },
+      "provincial": {
+        "Total": {
+          "num": 1313,
+          "iniciados": 1541,
+          "den": 3333,
+          "cob": 39.39,
+          "nac": 3377,
+          "def": 44,
+          "dropout": 14.8
+        },
+        "Mujer": {
+          "num": 1292,
+          "iniciados": 1512,
+          "den": 1620,
+          "cob": 79.75,
+          "nac": 1633,
+          "def": 13,
+          "dropout": 14.55
+        },
+        "Hombre": {
+          "num": 21,
+          "iniciados": 29,
+          "den": 1713,
+          "cob": 1.23,
+          "nac": 1744,
+          "def": 31,
+          "dropout": 27.59
+        }
+      },
+      "metricas_territoriales": {
+        "gpi": 64.84,
+        "max_cob": 58.02,
+        "min_cob": 35.57,
+        "brecha_max_min": 22.45,
+        "media_comunal": 43.21,
+        "desv_est": 7.18,
+        "cv_territorial": 16.62
+      }
+    },
+    "2021": {
+      "ano_medicion": 2021,
+      "cohorte": 2006,
+      "comunas": {
+        "10301": {
+          "nombre": "Osorno",
+          "Total": {
+            "num": 883,
+            "iniciados": 1036,
+            "den": 2300,
+            "cob": 38.39,
+            "nac": 2330,
+            "def": 30,
+            "dropout": 14.77
+          },
+          "Mujer": {
+            "num": 866,
+            "iniciados": 1009,
+            "den": 1120,
+            "cob": 77.32,
+            "nac": 1130,
+            "def": 10,
+            "dropout": 14.17
+          },
+          "Hombre": {
+            "num": 17,
+            "iniciados": 27,
+            "den": 1180,
+            "cob": 1.44,
+            "nac": 1200,
+            "def": 20,
+            "dropout": 37.04
+          }
+        },
+        "10302": {
+          "nombre": "Puerto Octay",
+          "Total": {
+            "num": 54,
+            "iniciados": 71,
+            "den": 135,
+            "cob": 40.0,
+            "nac": 137,
+            "def": 2,
+            "dropout": 23.94
+          },
+          "Mujer": {
+            "num": 53,
+            "iniciados": 70,
+            "den": 66,
+            "cob": 80.3,
+            "nac": 66,
+            "def": 0,
+            "dropout": 24.29
+          },
+          "Hombre": {
+            "num": 1,
+            "iniciados": 1,
+            "den": 69,
+            "cob": 1.45,
+            "nac": 71,
+            "def": 2,
+            "dropout": 0.0
+          }
+        },
+        "10303": {
+          "nombre": "Purranque",
+          "Total": {
+            "num": 119,
+            "iniciados": 144,
+            "den": 289,
+            "cob": 41.18,
+            "nac": 297,
+            "def": 8,
+            "dropout": 17.36
+          },
+          "Mujer": {
+            "num": 114,
+            "iniciados": 138,
+            "den": 151,
+            "cob": 75.5,
+            "nac": 152,
+            "def": 1,
+            "dropout": 17.39
+          },
+          "Hombre": {
+            "num": 5,
+            "iniciados": 6,
+            "den": 138,
+            "cob": 3.62,
+            "nac": 145,
+            "def": 7,
+            "dropout": 16.67
+          }
+        },
+        "10304": {
+          "nombre": "Puyehue",
+          "Total": {
+            "num": 73,
+            "iniciados": 88,
+            "den": 122,
+            "cob": 59.84,
+            "nac": 123,
+            "def": 1,
+            "dropout": 17.05
+          },
+          "Mujer": {
+            "num": 72,
+            "iniciados": 86,
+            "den": 65,
+            "cob": 110.77,
+            "nac": 65,
+            "def": 0,
+            "dropout": 16.28
+          },
+          "Hombre": {
+            "num": 1,
+            "iniciados": 2,
+            "den": 57,
+            "cob": 1.75,
+            "nac": 58,
+            "def": 1,
+            "dropout": 50.0
+          }
+        },
+        "10305": {
+          "nombre": "Río Negro",
+          "Total": {
+            "num": 63,
+            "iniciados": 78,
+            "den": 172,
+            "cob": 36.63,
+            "nac": 174,
+            "def": 2,
+            "dropout": 19.23
+          },
+          "Mujer": {
+            "num": 60,
+            "iniciados": 75,
+            "den": 87,
+            "cob": 68.97,
+            "nac": 88,
+            "def": 1,
+            "dropout": 20.0
+          },
+          "Hombre": {
+            "num": 3,
+            "iniciados": 3,
+            "den": 85,
+            "cob": 3.53,
+            "nac": 86,
+            "def": 1,
+            "dropout": 0.0
+          }
+        },
+        "10306": {
+          "nombre": "San Juan de la Costa",
+          "Total": {
+            "num": 55,
+            "iniciados": 58,
+            "den": 125,
+            "cob": 44.0,
+            "nac": 127,
+            "def": 2,
+            "dropout": 5.17
+          },
+          "Mujer": {
+            "num": 54,
+            "iniciados": 56,
+            "den": 67,
+            "cob": 80.6,
+            "nac": 68,
+            "def": 1,
+            "dropout": 3.57
+          },
+          "Hombre": {
+            "num": 1,
+            "iniciados": 2,
+            "den": 58,
+            "cob": 1.72,
+            "nac": 59,
+            "def": 1,
+            "dropout": 50.0
+          }
+        },
+        "10307": {
+          "nombre": "San Pablo",
+          "Total": {
+            "num": 47,
+            "iniciados": 51,
+            "den": 115,
+            "cob": 40.87,
+            "nac": 118,
+            "def": 3,
+            "dropout": 7.84
+          },
+          "Mujer": {
+            "num": 47,
+            "iniciados": 51,
+            "den": 50,
+            "cob": 94.0,
+            "nac": 52,
+            "def": 2,
+            "dropout": 7.84
+          },
+          "Hombre": {
+            "num": 0,
+            "iniciados": 0,
+            "den": 65,
+            "cob": 0.0,
+            "nac": 66,
+            "def": 1,
+            "dropout": 0.0
+          }
+        }
+      },
+      "provincial": {
+        "Total": {
+          "num": 1294,
+          "iniciados": 1526,
+          "den": 3258,
+          "cob": 39.72,
+          "nac": 3306,
+          "def": 48,
+          "dropout": 15.2
+        },
+        "Mujer": {
+          "num": 1266,
+          "iniciados": 1485,
+          "den": 1606,
+          "cob": 78.83,
+          "nac": 1621,
+          "def": 15,
+          "dropout": 14.75
+        },
+        "Hombre": {
+          "num": 28,
+          "iniciados": 41,
+          "den": 1652,
+          "cob": 1.69,
+          "nac": 1685,
+          "def": 33,
+          "dropout": 31.71
+        }
+      },
+      "metricas_territoriales": {
+        "gpi": 46.64,
+        "max_cob": 59.84,
+        "min_cob": 36.63,
+        "brecha_max_min": 23.21,
+        "media_comunal": 42.99,
+        "desv_est": 7.2,
+        "cv_territorial": 16.76
+      }
+    },
+    "2022": {
+      "ano_medicion": 2022,
+      "cohorte": 2007,
+      "comunas": {
+        "10301": {
+          "nombre": "Osorno",
+          "Total": {
+            "num": 948,
+            "iniciados": 1123,
+            "den": 2427,
+            "cob": 39.06,
+            "nac": 2448,
+            "def": 21,
+            "dropout": 15.58
+          },
+          "Mujer": {
+            "num": 917,
+            "iniciados": 1073,
+            "den": 1222,
+            "cob": 75.04,
+            "nac": 1233,
+            "def": 11,
+            "dropout": 14.54
+          },
+          "Hombre": {
+            "num": 31,
+            "iniciados": 50,
+            "den": 1205,
+            "cob": 2.57,
+            "nac": 1215,
+            "def": 10,
+            "dropout": 38.0
+          }
+        },
+        "10302": {
+          "nombre": "Puerto Octay",
+          "Total": {
+            "num": 52,
+            "iniciados": 61,
+            "den": 124,
+            "cob": 41.94,
+            "nac": 128,
+            "def": 4,
+            "dropout": 14.75
+          },
+          "Mujer": {
+            "num": 49,
+            "iniciados": 55,
+            "den": 60,
+            "cob": 81.67,
+            "nac": 61,
+            "def": 1,
+            "dropout": 10.91
+          },
+          "Hombre": {
+            "num": 3,
+            "iniciados": 6,
+            "den": 64,
+            "cob": 4.69,
+            "nac": 67,
+            "def": 3,
+            "dropout": 50.0
+          }
+        },
+        "10303": {
+          "nombre": "Purranque",
+          "Total": {
+            "num": 121,
+            "iniciados": 141,
+            "den": 255,
+            "cob": 47.45,
+            "nac": 258,
+            "def": 3,
+            "dropout": 14.18
+          },
+          "Mujer": {
+            "num": 113,
+            "iniciados": 133,
+            "den": 133,
+            "cob": 84.96,
+            "nac": 136,
+            "def": 3,
+            "dropout": 15.04
+          },
+          "Hombre": {
+            "num": 8,
+            "iniciados": 8,
+            "den": 122,
+            "cob": 6.56,
+            "nac": 122,
+            "def": 0,
+            "dropout": 0.0
+          }
+        },
+        "10304": {
+          "nombre": "Puyehue",
+          "Total": {
+            "num": 81,
+            "iniciados": 93,
+            "den": 141,
+            "cob": 57.45,
+            "nac": 144,
+            "def": 3,
+            "dropout": 12.9
+          },
+          "Mujer": {
+            "num": 80,
+            "iniciados": 91,
+            "den": 79,
+            "cob": 101.27,
+            "nac": 81,
+            "def": 2,
+            "dropout": 12.09
+          },
+          "Hombre": {
+            "num": 1,
+            "iniciados": 2,
+            "den": 62,
+            "cob": 1.61,
+            "nac": 63,
+            "def": 1,
+            "dropout": 50.0
+          }
+        },
+        "10305": {
+          "nombre": "Río Negro",
+          "Total": {
+            "num": 69,
+            "iniciados": 91,
+            "den": 174,
+            "cob": 39.66,
+            "nac": 178,
+            "def": 4,
+            "dropout": 24.18
+          },
+          "Mujer": {
+            "num": 67,
+            "iniciados": 76,
+            "den": 68,
+            "cob": 98.53,
+            "nac": 71,
+            "def": 3,
+            "dropout": 11.84
+          },
+          "Hombre": {
+            "num": 2,
+            "iniciados": 15,
+            "den": 106,
+            "cob": 1.89,
+            "nac": 107,
+            "def": 1,
+            "dropout": 86.67
+          }
+        },
+        "10306": {
+          "nombre": "San Juan de la Costa",
+          "Total": {
+            "num": 37,
+            "iniciados": 44,
+            "den": 100,
+            "cob": 37.0,
+            "nac": 102,
+            "def": 2,
+            "dropout": 15.91
+          },
+          "Mujer": {
+            "num": 35,
+            "iniciados": 41,
+            "den": 40,
+            "cob": 87.5,
+            "nac": 41,
+            "def": 1,
+            "dropout": 14.63
+          },
+          "Hombre": {
+            "num": 2,
+            "iniciados": 3,
+            "den": 60,
+            "cob": 3.33,
+            "nac": 61,
+            "def": 1,
+            "dropout": 33.33
+          }
+        },
+        "10307": {
+          "nombre": "San Pablo",
+          "Total": {
+            "num": 57,
+            "iniciados": 70,
+            "den": 102,
+            "cob": 55.88,
+            "nac": 104,
+            "def": 2,
+            "dropout": 18.57
+          },
+          "Mujer": {
+            "num": 55,
+            "iniciados": 66,
+            "den": 54,
+            "cob": 101.85,
+            "nac": 54,
+            "def": 0,
+            "dropout": 16.67
+          },
+          "Hombre": {
+            "num": 2,
+            "iniciados": 4,
+            "den": 48,
+            "cob": 4.17,
+            "nac": 50,
+            "def": 2,
+            "dropout": 50.0
+          }
+        }
+      },
+      "provincial": {
+        "Total": {
+          "num": 1365,
+          "iniciados": 1623,
+          "den": 3323,
+          "cob": 41.08,
+          "nac": 3362,
+          "def": 39,
+          "dropout": 15.9
+        },
+        "Mujer": {
+          "num": 1316,
+          "iniciados": 1535,
+          "den": 1656,
+          "cob": 79.47,
+          "nac": 1677,
+          "def": 21,
+          "dropout": 14.27
+        },
+        "Hombre": {
+          "num": 49,
+          "iniciados": 88,
+          "den": 1667,
+          "cob": 2.94,
+          "nac": 1685,
+          "def": 18,
+          "dropout": 44.32
+        }
+      },
+      "metricas_territoriales": {
+        "gpi": 27.03,
+        "max_cob": 57.45,
+        "min_cob": 37.0,
+        "brecha_max_min": 20.45,
+        "media_comunal": 45.49,
+        "desv_est": 7.7,
+        "cv_territorial": 16.92
+      }
+    },
+    "2023": {
+      "ano_medicion": 2023,
+      "cohorte": 2008,
+      "comunas": {
+        "10301": {
+          "nombre": "Osorno",
+          "Total": {
+            "num": 1129,
+            "iniciados": 1284,
+            "den": 2482,
+            "cob": 45.49,
+            "nac": 2510,
+            "def": 28,
+            "dropout": 12.07
+          },
+          "Mujer": {
+            "num": 1000,
+            "iniciados": 1129,
+            "den": 1193,
+            "cob": 83.82,
+            "nac": 1202,
+            "def": 9,
+            "dropout": 11.43
+          },
+          "Hombre": {
+            "num": 129,
+            "iniciados": 155,
+            "den": 1289,
+            "cob": 10.01,
+            "nac": 1308,
+            "def": 19,
+            "dropout": 16.77
+          }
+        },
+        "10302": {
+          "nombre": "Puerto Octay",
+          "Total": {
+            "num": 63,
+            "iniciados": 85,
+            "den": 132,
+            "cob": 47.73,
+            "nac": 134,
+            "def": 2,
+            "dropout": 25.88
+          },
+          "Mujer": {
+            "num": 53,
+            "iniciados": 70,
+            "den": 72,
+            "cob": 73.61,
+            "nac": 72,
+            "def": 0,
+            "dropout": 24.29
+          },
+          "Hombre": {
+            "num": 10,
+            "iniciados": 15,
+            "den": 60,
+            "cob": 16.67,
+            "nac": 62,
+            "def": 2,
+            "dropout": 33.33
+          }
+        },
+        "10303": {
+          "nombre": "Purranque",
+          "Total": {
+            "num": 156,
+            "iniciados": 184,
+            "den": 272,
+            "cob": 57.35,
+            "nac": 276,
+            "def": 4,
+            "dropout": 15.22
+          },
+          "Mujer": {
+            "num": 141,
+            "iniciados": 162,
+            "den": 146,
+            "cob": 96.58,
+            "nac": 150,
+            "def": 4,
+            "dropout": 12.96
+          },
+          "Hombre": {
+            "num": 15,
+            "iniciados": 22,
+            "den": 126,
+            "cob": 11.9,
+            "nac": 126,
+            "def": 0,
+            "dropout": 31.82
+          }
+        },
+        "10304": {
+          "nombre": "Puyehue",
+          "Total": {
+            "num": 60,
+            "iniciados": 76,
+            "den": 130,
+            "cob": 46.15,
+            "nac": 131,
+            "def": 1,
+            "dropout": 21.05
+          },
+          "Mujer": {
+            "num": 51,
+            "iniciados": 65,
+            "den": 54,
+            "cob": 94.44,
+            "nac": 54,
+            "def": 0,
+            "dropout": 21.54
+          },
+          "Hombre": {
+            "num": 9,
+            "iniciados": 11,
+            "den": 76,
+            "cob": 11.84,
+            "nac": 77,
+            "def": 1,
+            "dropout": 18.18
+          }
+        },
+        "10305": {
+          "nombre": "Río Negro",
+          "Total": {
+            "num": 100,
+            "iniciados": 130,
+            "den": 202,
+            "cob": 49.5,
+            "nac": 204,
+            "def": 2,
+            "dropout": 23.08
+          },
+          "Mujer": {
+            "num": 84,
+            "iniciados": 97,
+            "den": 95,
+            "cob": 88.42,
+            "nac": 96,
+            "def": 1,
+            "dropout": 13.4
+          },
+          "Hombre": {
+            "num": 16,
+            "iniciados": 33,
+            "den": 107,
+            "cob": 14.95,
+            "nac": 108,
+            "def": 1,
+            "dropout": 51.52
+          }
+        },
+        "10306": {
+          "nombre": "San Juan de la Costa",
+          "Total": {
+            "num": 46,
+            "iniciados": 55,
+            "den": 105,
+            "cob": 43.81,
+            "nac": 107,
+            "def": 2,
+            "dropout": 16.36
+          },
+          "Mujer": {
+            "num": 40,
+            "iniciados": 47,
+            "den": 47,
+            "cob": 85.11,
+            "nac": 47,
+            "def": 0,
+            "dropout": 14.89
+          },
+          "Hombre": {
+            "num": 6,
+            "iniciados": 8,
+            "den": 58,
+            "cob": 10.34,
+            "nac": 60,
+            "def": 2,
+            "dropout": 25.0
+          }
+        },
+        "10307": {
+          "nombre": "San Pablo",
+          "Total": {
+            "num": 82,
+            "iniciados": 90,
+            "den": 122,
+            "cob": 67.21,
+            "nac": 122,
+            "def": 0,
+            "dropout": 8.89
+          },
+          "Mujer": {
+            "num": 73,
+            "iniciados": 80,
+            "den": 66,
+            "cob": 110.61,
+            "nac": 66,
+            "def": 0,
+            "dropout": 8.75
+          },
+          "Hombre": {
+            "num": 9,
+            "iniciados": 10,
+            "den": 56,
+            "cob": 16.07,
+            "nac": 56,
+            "def": 0,
+            "dropout": 10.0
+          }
+        }
+      },
+      "provincial": {
+        "Total": {
+          "num": 1636,
+          "iniciados": 1904,
+          "den": 3445,
+          "cob": 47.49,
+          "nac": 3484,
+          "def": 39,
+          "dropout": 14.08
+        },
+        "Mujer": {
+          "num": 1442,
+          "iniciados": 1650,
+          "den": 1673,
+          "cob": 86.19,
+          "nac": 1687,
+          "def": 14,
+          "dropout": 12.61
+        },
+        "Hombre": {
+          "num": 194,
+          "iniciados": 254,
+          "den": 1772,
+          "cob": 10.95,
+          "nac": 1797,
+          "def": 25,
+          "dropout": 23.62
+        }
+      },
+      "metricas_territoriales": {
+        "gpi": 7.87,
+        "max_cob": 67.21,
+        "min_cob": 43.81,
+        "brecha_max_min": 23.4,
+        "media_comunal": 51.03,
+        "desv_est": 7.76,
+        "cv_territorial": 15.21
+      }
+    },
+    "2024": {
+      "ano_medicion": 2024,
+      "cohorte": 2009,
+      "comunas": {
+        "10301": {
+          "nombre": "Osorno",
+          "Total": {
+            "num": 1775,
+            "iniciados": 2077,
+            "den": 2482,
+            "cob": 71.51,
+            "nac": 2512,
+            "def": 30,
+            "dropout": 14.54
+          },
+          "Mujer": {
+            "num": 1017,
+            "iniciados": 1191,
+            "den": 1227,
+            "cob": 82.89,
+            "nac": 1241,
+            "def": 14,
+            "dropout": 14.61
+          },
+          "Hombre": {
+            "num": 758,
+            "iniciados": 886,
+            "den": 1255,
+            "cob": 60.4,
+            "nac": 1271,
+            "def": 16,
+            "dropout": 14.45
+          }
+        },
+        "10302": {
+          "nombre": "Puerto Octay",
+          "Total": {
+            "num": 94,
+            "iniciados": 133,
+            "den": 114,
+            "cob": 82.46,
+            "nac": 115,
+            "def": 1,
+            "dropout": 29.32
+          },
+          "Mujer": {
+            "num": 59,
+            "iniciados": 75,
+            "den": 61,
+            "cob": 96.72,
+            "nac": 61,
+            "def": 0,
+            "dropout": 21.33
+          },
+          "Hombre": {
+            "num": 35,
+            "iniciados": 58,
+            "den": 53,
+            "cob": 66.04,
+            "nac": 54,
+            "def": 1,
+            "dropout": 39.66
+          }
+        },
+        "10303": {
+          "nombre": "Purranque",
+          "Total": {
+            "num": 234,
+            "iniciados": 273,
+            "den": 268,
+            "cob": 87.31,
+            "nac": 271,
+            "def": 3,
+            "dropout": 14.29
+          },
+          "Mujer": {
+            "num": 129,
+            "iniciados": 152,
+            "den": 115,
+            "cob": 112.17,
+            "nac": 117,
+            "def": 2,
+            "dropout": 15.13
+          },
+          "Hombre": {
+            "num": 105,
+            "iniciados": 121,
+            "den": 153,
+            "cob": 68.63,
+            "nac": 154,
+            "def": 1,
+            "dropout": 13.22
+          }
+        },
+        "10304": {
+          "nombre": "Puyehue",
+          "Total": {
+            "num": 126,
+            "iniciados": 147,
+            "den": 154,
+            "cob": 81.82,
+            "nac": 155,
+            "def": 1,
+            "dropout": 14.29
+          },
+          "Mujer": {
+            "num": 77,
+            "iniciados": 91,
+            "den": 75,
+            "cob": 102.67,
+            "nac": 75,
+            "def": 0,
+            "dropout": 15.38
+          },
+          "Hombre": {
+            "num": 49,
+            "iniciados": 56,
+            "den": 79,
+            "cob": 62.03,
+            "nac": 80,
+            "def": 1,
+            "dropout": 12.5
+          }
+        },
+        "10305": {
+          "nombre": "Río Negro",
+          "Total": {
+            "num": 163,
+            "iniciados": 179,
+            "den": 190,
+            "cob": 85.79,
+            "nac": 194,
+            "def": 4,
+            "dropout": 8.94
+          },
+          "Mujer": {
+            "num": 91,
+            "iniciados": 102,
+            "den": 99,
+            "cob": 91.92,
+            "nac": 101,
+            "def": 2,
+            "dropout": 10.78
+          },
+          "Hombre": {
+            "num": 72,
+            "iniciados": 77,
+            "den": 91,
+            "cob": 79.12,
+            "nac": 93,
+            "def": 2,
+            "dropout": 6.49
+          }
+        },
+        "10306": {
+          "nombre": "San Juan de la Costa",
+          "Total": {
+            "num": 89,
+            "iniciados": 103,
+            "den": 79,
+            "cob": 112.66,
+            "nac": 80,
+            "def": 1,
+            "dropout": 13.59
+          },
+          "Mujer": {
+            "num": 50,
+            "iniciados": 59,
+            "den": 40,
+            "cob": 125.0,
+            "nac": 41,
+            "def": 1,
+            "dropout": 15.25
+          },
+          "Hombre": {
+            "num": 39,
+            "iniciados": 44,
+            "den": 39,
+            "cob": 100.0,
+            "nac": 39,
+            "def": 0,
+            "dropout": 11.36
+          }
+        },
+        "10307": {
+          "nombre": "San Pablo",
+          "Total": {
+            "num": 127,
+            "iniciados": 142,
+            "den": 136,
+            "cob": 93.38,
+            "nac": 137,
+            "def": 1,
+            "dropout": 10.56
+          },
+          "Mujer": {
+            "num": 77,
+            "iniciados": 86,
+            "den": 71,
+            "cob": 108.45,
+            "nac": 71,
+            "def": 0,
+            "dropout": 10.47
+          },
+          "Hombre": {
+            "num": 50,
+            "iniciados": 56,
+            "den": 65,
+            "cob": 76.92,
+            "nac": 66,
+            "def": 1,
+            "dropout": 10.71
+          }
+        }
+      },
+      "provincial": {
+        "Total": {
+          "num": 2608,
+          "iniciados": 3054,
+          "den": 3423,
+          "cob": 76.19,
+          "nac": 3464,
+          "def": 41,
+          "dropout": 14.6
+        },
+        "Mujer": {
+          "num": 1500,
+          "iniciados": 1756,
+          "den": 1688,
+          "cob": 88.86,
+          "nac": 1707,
+          "def": 19,
+          "dropout": 14.58
+        },
+        "Hombre": {
+          "num": 1108,
+          "iniciados": 1298,
+          "den": 1735,
+          "cob": 63.86,
+          "nac": 1757,
+          "def": 22,
+          "dropout": 14.64
+        }
+      },
+      "metricas_territoriales": {
+        "gpi": 1.39,
+        "max_cob": 112.66,
+        "min_cob": 71.51,
+        "brecha_max_min": 41.15,
+        "media_comunal": 87.85,
+        "desv_est": 11.85,
+        "cv_territorial": 13.49
+      }
+    },
+    "2025": {
+      "ano_medicion": 2025,
+      "cohorte": 2010,
+      "comunas": {
+        "10301": {
+          "nombre": "Osorno",
+          "Total": {
+            "num": 2218,
+            "iniciados": 2540,
+            "den": 2569,
+            "cob": 86.34,
+            "nac": 2598,
+            "def": 29,
+            "dropout": 12.68
+          },
+          "Mujer": {
+            "num": 1124,
+            "iniciados": 1282,
+            "den": 1291,
+            "cob": 87.06,
+            "nac": 1308,
+            "def": 17,
+            "dropout": 12.32
+          },
+          "Hombre": {
+            "num": 1094,
+            "iniciados": 1258,
+            "den": 1278,
+            "cob": 85.6,
+            "nac": 1290,
+            "def": 12,
+            "dropout": 13.04
+          }
+        },
+        "10302": {
+          "nombre": "Puerto Octay",
+          "Total": {
+            "num": 96,
+            "iniciados": 118,
+            "den": 106,
+            "cob": 90.57,
+            "nac": 109,
+            "def": 3,
+            "dropout": 18.64
+          },
+          "Mujer": {
+            "num": 44,
+            "iniciados": 55,
+            "den": 51,
+            "cob": 86.27,
+            "nac": 51,
+            "def": 0,
+            "dropout": 20.0
+          },
+          "Hombre": {
+            "num": 52,
+            "iniciados": 63,
+            "den": 55,
+            "cob": 94.55,
+            "nac": 58,
+            "def": 3,
+            "dropout": 17.46
+          }
+        },
+        "10303": {
+          "nombre": "Purranque",
+          "Total": {
+            "num": 233,
+            "iniciados": 279,
+            "den": 237,
+            "cob": 98.31,
+            "nac": 239,
+            "def": 2,
+            "dropout": 16.49
+          },
+          "Mujer": {
+            "num": 111,
+            "iniciados": 131,
+            "den": 106,
+            "cob": 104.72,
+            "nac": 107,
+            "def": 1,
+            "dropout": 15.27
+          },
+          "Hombre": {
+            "num": 122,
+            "iniciados": 148,
+            "den": 131,
+            "cob": 93.13,
+            "nac": 132,
+            "def": 1,
+            "dropout": 17.57
+          }
+        },
+        "10304": {
+          "nombre": "Puyehue",
+          "Total": {
+            "num": 138,
+            "iniciados": 168,
+            "den": 135,
+            "cob": 102.22,
+            "nac": 136,
+            "def": 1,
+            "dropout": 17.86
+          },
+          "Mujer": {
+            "num": 62,
+            "iniciados": 78,
+            "den": 60,
+            "cob": 103.33,
+            "nac": 60,
+            "def": 0,
+            "dropout": 20.51
+          },
+          "Hombre": {
+            "num": 76,
+            "iniciados": 90,
+            "den": 75,
+            "cob": 101.33,
+            "nac": 76,
+            "def": 1,
+            "dropout": 15.56
+          }
+        },
+        "10305": {
+          "nombre": "Río Negro",
+          "Total": {
+            "num": 153,
+            "iniciados": 168,
+            "den": 161,
+            "cob": 95.03,
+            "nac": 162,
+            "def": 1,
+            "dropout": 8.93
+          },
+          "Mujer": {
+            "num": 81,
+            "iniciados": 84,
+            "den": 84,
+            "cob": 96.43,
+            "nac": 85,
+            "def": 1,
+            "dropout": 3.57
+          },
+          "Hombre": {
+            "num": 72,
+            "iniciados": 84,
+            "den": 77,
+            "cob": 93.51,
+            "nac": 77,
+            "def": 0,
+            "dropout": 14.29
+          }
+        },
+        "10306": {
+          "nombre": "San Juan de la Costa",
+          "Total": {
+            "num": 97,
+            "iniciados": 121,
+            "den": 92,
+            "cob": 105.43,
+            "nac": 95,
+            "def": 3,
+            "dropout": 19.83
+          },
+          "Mujer": {
+            "num": 43,
+            "iniciados": 50,
+            "den": 41,
+            "cob": 104.88,
+            "nac": 41,
+            "def": 0,
+            "dropout": 14.0
+          },
+          "Hombre": {
+            "num": 54,
+            "iniciados": 71,
+            "den": 51,
+            "cob": 105.88,
+            "nac": 54,
+            "def": 3,
+            "dropout": 23.94
+          }
+        },
+        "10307": {
+          "nombre": "San Pablo",
+          "Total": {
+            "num": 150,
+            "iniciados": 172,
+            "den": 135,
+            "cob": 111.11,
+            "nac": 136,
+            "def": 1,
+            "dropout": 12.79
+          },
+          "Mujer": {
+            "num": 66,
+            "iniciados": 80,
+            "den": 71,
+            "cob": 92.96,
+            "nac": 72,
+            "def": 1,
+            "dropout": 17.5
+          },
+          "Hombre": {
+            "num": 84,
+            "iniciados": 92,
+            "den": 64,
+            "cob": 131.25,
+            "nac": 64,
+            "def": 0,
+            "dropout": 8.7
+          }
+        }
+      },
+      "provincial": {
+        "Total": {
+          "num": 3085,
+          "iniciados": 3566,
+          "den": 3435,
+          "cob": 89.81,
+          "nac": 3475,
+          "def": 40,
+          "dropout": 13.49
+        },
+        "Mujer": {
+          "num": 1531,
+          "iniciados": 1760,
+          "den": 1704,
+          "cob": 89.85,
+          "nac": 1724,
+          "def": 20,
+          "dropout": 13.01
+        },
+        "Hombre": {
+          "num": 1554,
+          "iniciados": 1806,
+          "den": 1731,
+          "cob": 89.77,
+          "nac": 1751,
+          "def": 20,
+          "dropout": 13.95
+        }
+      },
+      "metricas_territoriales": {
+        "gpi": 1.0,
+        "max_cob": 111.11,
+        "min_cob": 86.34,
+        "brecha_max_min": 24.77,
+        "media_comunal": 98.43,
+        "desv_est": 7.96,
+        "cv_territorial": 8.09
+      }
+    },
+    "2026": {
+      "ano_medicion": 2026,
+      "cohorte": 2011,
+      "comunas": {
+        "10301": {
+          "nombre": "Osorno",
+          "Total": {
+            "num": 2272,
+            "iniciados": 2536,
+            "den": 2525,
+            "cob": 89.98,
+            "nac": 2551,
+            "def": 26,
+            "dropout": 10.41
+          },
+          "Mujer": {
+            "num": 1124,
+            "iniciados": 1258,
+            "den": 1257,
+            "cob": 89.42,
+            "nac": 1268,
+            "def": 11,
+            "dropout": 10.65
+          },
+          "Hombre": {
+            "num": 1148,
+            "iniciados": 1278,
+            "den": 1268,
+            "cob": 90.54,
+            "nac": 1283,
+            "def": 15,
+            "dropout": 10.17
+          }
+        },
+        "10302": {
+          "nombre": "Puerto Octay",
+          "Total": {
+            "num": 117,
+            "iniciados": 139,
+            "den": 106,
+            "cob": 110.38,
+            "nac": 107,
+            "def": 1,
+            "dropout": 15.83
+          },
+          "Mujer": {
+            "num": 54,
+            "iniciados": 69,
+            "den": 51,
+            "cob": 105.88,
+            "nac": 51,
+            "def": 0,
+            "dropout": 21.74
+          },
+          "Hombre": {
+            "num": 63,
+            "iniciados": 70,
+            "den": 55,
+            "cob": 114.55,
+            "nac": 56,
+            "def": 1,
+            "dropout": 10.0
+          }
+        },
+        "10303": {
+          "nombre": "Purranque",
+          "Total": {
+            "num": 274,
+            "iniciados": 322,
+            "den": 286,
+            "cob": 95.8,
+            "nac": 288,
+            "def": 2,
+            "dropout": 14.91
+          },
+          "Mujer": {
+            "num": 141,
+            "iniciados": 164,
+            "den": 141,
+            "cob": 100.0,
+            "nac": 143,
+            "def": 2,
+            "dropout": 14.02
+          },
+          "Hombre": {
+            "num": 133,
+            "iniciados": 158,
+            "den": 145,
+            "cob": 91.72,
+            "nac": 145,
+            "def": 0,
+            "dropout": 15.82
+          }
+        },
+        "10304": {
+          "nombre": "Puyehue",
+          "Total": {
+            "num": 147,
+            "iniciados": 173,
+            "den": 151,
+            "cob": 97.35,
+            "nac": 152,
+            "def": 1,
+            "dropout": 15.03
+          },
+          "Mujer": {
+            "num": 83,
+            "iniciados": 93,
+            "den": 82,
+            "cob": 101.22,
+            "nac": 82,
+            "def": 0,
+            "dropout": 10.75
+          },
+          "Hombre": {
+            "num": 64,
+            "iniciados": 80,
+            "den": 69,
+            "cob": 92.75,
+            "nac": 70,
+            "def": 1,
+            "dropout": 20.0
+          }
+        },
+        "10305": {
+          "nombre": "Río Negro",
+          "Total": {
+            "num": 157,
+            "iniciados": 174,
+            "den": 168,
+            "cob": 93.45,
+            "nac": 168,
+            "def": 0,
+            "dropout": 9.77
+          },
+          "Mujer": {
+            "num": 79,
+            "iniciados": 88,
+            "den": 83,
+            "cob": 95.18,
+            "nac": 83,
+            "def": 0,
+            "dropout": 10.23
+          },
+          "Hombre": {
+            "num": 78,
+            "iniciados": 86,
+            "den": 85,
+            "cob": 91.76,
+            "nac": 85,
+            "def": 0,
+            "dropout": 9.3
+          }
+        },
+        "10306": {
+          "nombre": "San Juan de la Costa",
+          "Total": {
+            "num": 98,
+            "iniciados": 109,
+            "den": 88,
+            "cob": 111.36,
+            "nac": 88,
+            "def": 0,
+            "dropout": 10.09
+          },
+          "Mujer": {
+            "num": 48,
+            "iniciados": 54,
+            "den": 40,
+            "cob": 120.0,
+            "nac": 40,
+            "def": 0,
+            "dropout": 11.11
+          },
+          "Hombre": {
+            "num": 50,
+            "iniciados": 55,
+            "den": 48,
+            "cob": 104.17,
+            "nac": 48,
+            "def": 0,
+            "dropout": 9.09
+          }
+        },
+        "10307": {
+          "nombre": "San Pablo",
+          "Total": {
+            "num": 124,
+            "iniciados": 137,
+            "den": 116,
+            "cob": 106.9,
+            "nac": 119,
+            "def": 3,
+            "dropout": 9.49
+          },
+          "Mujer": {
+            "num": 55,
+            "iniciados": 59,
+            "den": 46,
+            "cob": 119.57,
+            "nac": 47,
+            "def": 1,
+            "dropout": 6.78
+          },
+          "Hombre": {
+            "num": 69,
+            "iniciados": 78,
+            "den": 70,
+            "cob": 98.57,
+            "nac": 72,
+            "def": 2,
+            "dropout": 11.54
+          }
+        }
+      },
+      "provincial": {
+        "Total": {
+          "num": 3189,
+          "iniciados": 3590,
+          "den": 3440,
+          "cob": 92.7,
+          "nac": 3473,
+          "def": 33,
+          "dropout": 11.17
+        },
+        "Mujer": {
+          "num": 1584,
+          "iniciados": 1785,
+          "den": 1700,
+          "cob": 93.18,
+          "nac": 1714,
+          "def": 14,
+          "dropout": 11.26
+        },
+        "Hombre": {
+          "num": 1605,
+          "iniciados": 1805,
+          "den": 1740,
+          "cob": 92.24,
+          "nac": 1759,
+          "def": 19,
+          "dropout": 11.08
+        }
+      },
+      "metricas_territoriales": {
+        "gpi": 1.01,
+        "max_cob": 111.36,
+        "min_cob": 89.98,
+        "brecha_max_min": 21.38,
+        "media_comunal": 100.75,
+        "desv_est": 8.0,
+        "cv_territorial": 7.95
+      }
+    }
+  },
+  "dosis_anuales": {
+    "2014": {
+      "10301": {
+        "Mujer": {
+          "1ª Dosis": 963,
+          "Total": 963
+        },
+        "Total": {
+          "1ª Dosis": 972,
+          "Total": 972
+        },
+        "Hombre": {
+          "1ª Dosis": 9,
+          "Total": 9
+        }
+      },
+      "TOTAL": {
+        "Mujer": {
+          "1ª Dosis": 1415,
+          "Total": 1416,
+          "2ª Dosis": 1
+        },
+        "Total": {
+          "1ª Dosis": 1427,
+          "Total": 1428,
+          "2ª Dosis": 1
+        },
+        "Hombre": {
+          "1ª Dosis": 12,
+          "Total": 12
+        }
+      },
+      "10307": {
+        "Mujer": {
+          "1ª Dosis": 81,
+          "Total": 81
+        },
+        "Total": {
+          "1ª Dosis": 81,
+          "Total": 81
+        }
+      },
+      "10303": {
+        "Mujer": {
+          "1ª Dosis": 133,
+          "Total": 134,
+          "2ª Dosis": 1
+        },
+        "Total": {
+          "1ª Dosis": 133,
+          "Total": 134,
+          "2ª Dosis": 1
+        }
+      },
+      "10305": {
+        "Hombre": {
+          "1ª Dosis": 3,
+          "Total": 3
+        },
+        "Total": {
+          "1ª Dosis": 83,
+          "Total": 83
+        },
+        "Mujer": {
+          "1ª Dosis": 80,
+          "Total": 80
+        }
+      },
+      "10304": {
+        "Mujer": {
+          "1ª Dosis": 63,
+          "Total": 63
+        },
+        "Total": {
+          "1ª Dosis": 63,
+          "Total": 63
+        }
+      },
+      "10302": {
+        "Mujer": {
+          "1ª Dosis": 60,
+          "Total": 60
+        },
+        "Total": {
+          "1ª Dosis": 60,
+          "Total": 60
+        }
+      },
+      "10306": {
+        "Mujer": {
+          "1ª Dosis": 35,
+          "Total": 35
+        },
+        "Total": {
+          "1ª Dosis": 35,
+          "Total": 35
+        }
+      }
+    },
+    "2015": {
+      "10301": {
+        "Mujer": {
+          "1ª Dosis": 3080,
+          "Total": 3992,
+          "2ª Dosis": 909,
+          "3ª Dosis": 3
+        },
+        "Total": {
+          "1ª Dosis": 3111,
+          "Total": 4032,
+          "2ª Dosis": 918,
+          "3ª Dosis": 3
+        },
+        "Hombre": {
+          "1ª Dosis": 29,
+          "Total": 38,
+          "2ª Dosis": 9
+        },
+        "Otro": {
+          "1ª Dosis": 2,
+          "Total": 2
+        }
+      },
+      "TOTAL": {
+        "Mujer": {
+          "1ª Dosis": 4417,
+          "Total": 5816,
+          "2ª Dosis": 1396,
+          "3ª Dosis": 3
+        },
+        "Total": {
+          "1ª Dosis": 4468,
+          "Total": 5879,
+          "2ª Dosis": 1408,
+          "3ª Dosis": 3
+        },
+        "Hombre": {
+          "1ª Dosis": 49,
+          "Total": 61,
+          "2ª Dosis": 12
+        },
+        "Otro": {
+          "1ª Dosis": 2,
+          "Total": 2
+        }
+      },
+      "10305": {
+        "Mujer": {
+          "1ª Dosis": 193,
+          "Total": 279,
+          "2ª Dosis": 86
+        },
+        "Total": {
+          "1ª Dosis": 200,
+          "Total": 288,
+          "2ª Dosis": 88
+        },
+        "Hombre": {
+          "1ª Dosis": 7,
+          "Total": 9,
+          "2ª Dosis": 2
+        }
+      },
+      "10302": {
+        "Mujer": {
+          "2ª Dosis": 69,
+          "Total": 241,
+          "1ª Dosis": 172
+        },
+        "Total": {
+          "2ª Dosis": 69,
+          "Total": 242,
+          "1ª Dosis": 173
+        },
+        "Hombre": {
+          "1ª Dosis": 1,
+          "Total": 1
+        }
+      },
+      "10303": {
+        "Mujer": {
+          "2ª Dosis": 134,
+          "Total": 512,
+          "1ª Dosis": 378
+        },
+        "Total": {
+          "2ª Dosis": 135,
+          "Total": 519,
+          "1ª Dosis": 384
+        },
+        "Hombre": {
+          "1ª Dosis": 6,
+          "Total": 7,
+          "2ª Dosis": 1
+        }
+      },
+      "10306": {
+        "Mujer": {
+          "2ª Dosis": 44,
+          "Total": 198,
+          "1ª Dosis": 154
+        },
+        "Total": {
+          "2ª Dosis": 44,
+          "Total": 201,
+          "1ª Dosis": 157
+        },
+        "Hombre": {
+          "1ª Dosis": 3,
+          "Total": 3
+        }
+      },
+      "10307": {
+        "Mujer": {
+          "1ª Dosis": 191,
+          "Total": 270,
+          "2ª Dosis": 79
+        },
+        "Total": {
+          "1ª Dosis": 192,
+          "Total": 271,
+          "2ª Dosis": 79
+        },
+        "Hombre": {
+          "1ª Dosis": 1,
+          "Total": 1
+        }
+      },
+      "10304": {
+        "Mujer": {
+          "2ª Dosis": 75,
+          "Total": 324,
+          "1ª Dosis": 249
+        },
+        "Total": {
+          "2ª Dosis": 75,
+          "Total": 326,
+          "1ª Dosis": 251
+        },
+        "Hombre": {
+          "1ª Dosis": 2,
+          "Total": 2
+        }
+      }
+    },
+    "2016": {
+      "10301": {
+        "Mujer": {
+          "3ª Dosis": 20,
+          "Total": 3686,
+          "2ª Dosis": 2658,
+          "1ª Dosis": 1008
+        },
+        "Total": {
+          "3ª Dosis": 20,
+          "Total": 3716,
+          "2ª Dosis": 2677,
+          "1ª Dosis": 1019
+        },
+        "Hombre": {
+          "1ª Dosis": 11,
+          "Total": 28,
+          "2ª Dosis": 17
+        },
+        "Otro": {
+          "2ª Dosis": 2,
+          "Total": 2
+        }
+      },
+      "TOTAL": {
+        "Mujer": {
+          "3ª Dosis": 58,
+          "Total": 5219,
+          "2ª Dosis": 3738,
+          "1ª Dosis": 1423
+        },
+        "Total": {
+          "3ª Dosis": 58,
+          "Total": 5266,
+          "2ª Dosis": 3770,
+          "1ª Dosis": 1438
+        },
+        "Hombre": {
+          "1ª Dosis": 14,
+          "Total": 44,
+          "2ª Dosis": 30
+        },
+        "Otro": {
+          "2ª Dosis": 2,
+          "Total": 3,
+          "1ª Dosis": 1
+        }
+      },
+      "10302": {
+        "Mujer": {
+          "2ª Dosis": 144,
+          "Total": 204,
+          "1ª Dosis": 53,
+          "3ª Dosis": 7
+        },
+        "Total": {
+          "2ª Dosis": 145,
+          "Total": 206,
+          "1ª Dosis": 54,
+          "3ª Dosis": 7
+        },
+        "Hombre": {
+          "2ª Dosis": 1,
+          "Total": 2,
+          "1ª Dosis": 1
+        }
+      },
+      "10303": {
+        "Mujer": {
+          "2ª Dosis": 211,
+          "Total": 303,
+          "1ª Dosis": 87,
+          "3ª Dosis": 5
+        },
+        "Total": {
+          "2ª Dosis": 214,
+          "Total": 307,
+          "1ª Dosis": 88,
+          "3ª Dosis": 5
+        },
+        "Hombre": {
+          "2ª Dosis": 3,
+          "Total": 4,
+          "1ª Dosis": 1
+        }
+      },
+      "10304": {
+        "Mujer": {
+          "2ª Dosis": 232,
+          "Total": 327,
+          "1ª Dosis": 88,
+          "3ª Dosis": 7
+        },
+        "Total": {
+          "2ª Dosis": 232,
+          "Total": 327,
+          "1ª Dosis": 88,
+          "3ª Dosis": 7
+        }
+      },
+      "10306": {
+        "Mujer": {
+          "2ª Dosis": 141,
+          "Total": 202,
+          "1ª Dosis": 55,
+          "3ª Dosis": 6
+        },
+        "Total": {
+          "2ª Dosis": 146,
+          "Total": 209,
+          "1ª Dosis": 57,
+          "3ª Dosis": 6
+        },
+        "Hombre": {
+          "2ª Dosis": 5,
+          "Total": 6,
+          "1ª Dosis": 1
+        },
+        "Otro": {
+          "1ª Dosis": 1,
+          "Total": 1
+        }
+      },
+      "10307": {
+        "Mujer": {
+          "1ª Dosis": 67,
+          "Total": 246,
+          "2ª Dosis": 175,
+          "3ª Dosis": 4
+        },
+        "Total": {
+          "1ª Dosis": 67,
+          "Total": 246,
+          "2ª Dosis": 175,
+          "3ª Dosis": 4
+        }
+      },
+      "10305": {
+        "Mujer": {
+          "2ª Dosis": 177,
+          "Total": 251,
+          "1ª Dosis": 65,
+          "3ª Dosis": 9
+        },
+        "Total": {
+          "2ª Dosis": 181,
+          "Total": 255,
+          "1ª Dosis": 65,
+          "3ª Dosis": 9
+        },
+        "Hombre": {
+          "2ª Dosis": 4,
+          "Total": 4
+        }
+      }
+    },
+    "2017": {
+      "10307": {
+        "Mujer": {
+          "2ª Dosis": 57,
+          "Total": 121,
+          "1ª Dosis": 61,
+          "3ª Dosis": 3
+        },
+        "Total": {
+          "2ª Dosis": 57,
+          "Total": 122,
+          "1ª Dosis": 62,
+          "3ª Dosis": 3
+        },
+        "Hombre": {
+          "1ª Dosis": 1,
+          "Total": 1
+        }
+      },
+      "TOTAL": {
+        "Mujer": {
+          "2ª Dosis": 1164,
+          "Total": 2636,
+          "1ª Dosis": 1449,
+          "3ª Dosis": 23
+        },
+        "Total": {
+          "2ª Dosis": 1181,
+          "Total": 2671,
+          "1ª Dosis": 1465,
+          "3ª Dosis": 25
+        },
+        "Otro": {
+          "2ª Dosis": 1,
+          "Total": 1
+        },
+        "Hombre": {
+          "1ª Dosis": 16,
+          "Total": 34,
+          "2ª Dosis": 16,
+          "3ª Dosis": 2
+        }
+      },
+      "10301": {
+        "Mujer": {
+          "1ª Dosis": 1011,
+          "Total": 1821,
+          "2ª Dosis": 794,
+          "3ª Dosis": 16
+        },
+        "Total": {
+          "1ª Dosis": 1024,
+          "Total": 1850,
+          "2ª Dosis": 808,
+          "3ª Dosis": 18
+        },
+        "Hombre": {
+          "1ª Dosis": 13,
+          "Total": 29,
+          "2ª Dosis": 14,
+          "3ª Dosis": 2
+        }
+      },
+      "10304": {
+        "Mujer": {
+          "1ª Dosis": 78,
+          "Total": 162,
+          "2ª Dosis": 84
+        },
+        "Total": {
+          "1ª Dosis": 78,
+          "Total": 162,
+          "2ª Dosis": 84
+        }
+      },
+      "10305": {
+        "Mujer": {
+          "1ª Dosis": 68,
+          "Total": 128,
+          "2ª Dosis": 57,
+          "3ª Dosis": 3
+        },
+        "Total": {
+          "1ª Dosis": 69,
+          "Total": 129,
+          "2ª Dosis": 57,
+          "3ª Dosis": 3
+        },
+        "Hombre": {
+          "1ª Dosis": 1,
+          "Total": 1
+        }
+      },
+      "10302": {
+        "Mujer": {
+          "1ª Dosis": 48,
+          "Total": 106,
+          "2ª Dosis": 58
+        },
+        "Total": {
+          "1ª Dosis": 48,
+          "Total": 107,
+          "2ª Dosis": 59
+        },
+        "Hombre": {
+          "2ª Dosis": 1,
+          "Total": 1
+        }
+      },
+      "10303": {
+        "Mujer": {
+          "1ª Dosis": 152,
+          "Total": 233,
+          "2ª Dosis": 81
+        },
+        "Total": {
+          "1ª Dosis": 153,
+          "Total": 235,
+          "2ª Dosis": 82
+        },
+        "Hombre": {
+          "2ª Dosis": 1,
+          "Total": 2,
+          "1ª Dosis": 1
+        }
+      },
+      "10306": {
+        "Mujer": {
+          "2ª Dosis": 33,
+          "Total": 65,
+          "1ª Dosis": 31,
+          "3ª Dosis": 1
+        },
+        "Total": {
+          "2ª Dosis": 34,
+          "Total": 66,
+          "1ª Dosis": 31,
+          "3ª Dosis": 1
+        },
+        "Otro": {
+          "2ª Dosis": 1,
+          "Total": 1
+        }
+      }
+    },
+    "2018": {
+      "10307": {
+        "Mujer": {
+          "1ª Dosis": 79,
+          "Total": 142,
+          "2ª Dosis": 63
+        },
+        "Total": {
+          "1ª Dosis": 81,
+          "Total": 145,
+          "2ª Dosis": 64
+        },
+        "Hombre": {
+          "1ª Dosis": 2,
+          "Total": 3,
+          "2ª Dosis": 1
+        }
+      },
+      "TOTAL": {
+        "Mujer": {
+          "1ª Dosis": 1702,
+          "Total": 3046,
+          "3ª Dosis": 14,
+          "2ª Dosis": 1330
+        },
+        "Total": {
+          "1ª Dosis": 1724,
+          "Total": 3085,
+          "3ª Dosis": 16,
+          "2ª Dosis": 1345
+        },
+        "Hombre": {
+          "1ª Dosis": 22,
+          "Total": 39,
+          "2ª Dosis": 15,
+          "3ª Dosis": 2
+        }
+      },
+      "10301": {
+        "Mujer": {
+          "1ª Dosis": 1191,
+          "Total": 2134,
+          "3ª Dosis": 14,
+          "2ª Dosis": 929
+        },
+        "Total": {
+          "1ª Dosis": 1203,
+          "Total": 2160,
+          "3ª Dosis": 16,
+          "2ª Dosis": 941
+        },
+        "Hombre": {
+          "1ª Dosis": 12,
+          "Total": 26,
+          "2ª Dosis": 12,
+          "3ª Dosis": 2
+        }
+      },
+      "10305": {
+        "Mujer": {
+          "1ª Dosis": 93,
+          "Total": 158,
+          "2ª Dosis": 65
+        },
+        "Total": {
+          "1ª Dosis": 94,
+          "Total": 160,
+          "2ª Dosis": 66
+        },
+        "Hombre": {
+          "1ª Dosis": 1,
+          "Total": 2,
+          "2ª Dosis": 1
+        }
+      },
+      "10304": {
+        "Mujer": {
+          "1ª Dosis": 76,
+          "Total": 145,
+          "2ª Dosis": 69
+        },
+        "Total": {
+          "1ª Dosis": 79,
+          "Total": 148,
+          "2ª Dosis": 69
+        },
+        "Hombre": {
+          "1ª Dosis": 3,
+          "Total": 3
+        }
+      },
+      "10303": {
+        "Mujer": {
+          "1ª Dosis": 141,
+          "Total": 251,
+          "2ª Dosis": 110
+        },
+        "Total": {
+          "1ª Dosis": 145,
+          "Total": 255,
+          "2ª Dosis": 110
+        },
+        "Hombre": {
+          "1ª Dosis": 4,
+          "Total": 4
+        }
+      },
+      "10306": {
+        "Mujer": {
+          "1ª Dosis": 61,
+          "Total": 105,
+          "2ª Dosis": 44
+        },
+        "Total": {
+          "1ª Dosis": 61,
+          "Total": 105,
+          "2ª Dosis": 44
+        }
+      },
+      "10302": {
+        "Mujer": {
+          "1ª Dosis": 61,
+          "Total": 111,
+          "2ª Dosis": 50
+        },
+        "Total": {
+          "1ª Dosis": 61,
+          "Total": 112,
+          "2ª Dosis": 51
+        },
+        "Hombre": {
+          "2ª Dosis": 1,
+          "Total": 1
+        }
+      }
+    },
+    "2019": {
+      "10303": {
+        "Mujer": {
+          "2ª Dosis": 183,
+          "Total": 330,
+          "1ª Dosis": 147
+        },
+        "Total": {
+          "2ª Dosis": 188,
+          "Total": 486,
+          "1ª Dosis": 298
+        },
+        "Hombre": {
+          "1ª Dosis": 151,
+          "Total": 156,
+          "2ª Dosis": 5
+        }
+      },
+      "TOTAL": {
+        "Mujer": {
+          "2ª Dosis": 1633,
+          "Total": 3291,
+          "1ª Dosis": 1639,
+          "3ª Dosis": 19
+        },
+        "Total": {
+          "2ª Dosis": 1683,
+          "Total": 4997,
+          "1ª Dosis": 3281,
+          "3ª Dosis": 33
+        },
+        "Hombre": {
+          "1ª Dosis": 1641,
+          "Total": 1705,
+          "2ª Dosis": 50,
+          "3ª Dosis": 14
+        },
+        "Otro": {
+          "1ª Dosis": 1,
+          "Total": 1
+        }
+      },
+      "10301": {
+        "Mujer": {
+          "1ª Dosis": 1156,
+          "Total": 2284,
+          "2ª Dosis": 1109,
+          "3ª Dosis": 19
+        },
+        "Total": {
+          "1ª Dosis": 2273,
+          "Total": 3454,
+          "2ª Dosis": 1148,
+          "3ª Dosis": 33
+        },
+        "Hombre": {
+          "1ª Dosis": 1117,
+          "Total": 1170,
+          "2ª Dosis": 39,
+          "3ª Dosis": 14
+        }
+      },
+      "10306": {
+        "Mujer": {
+          "1ª Dosis": 42,
+          "Total": 91,
+          "2ª Dosis": 49
+        },
+        "Total": {
+          "1ª Dosis": 105,
+          "Total": 154,
+          "2ª Dosis": 49
+        },
+        "Hombre": {
+          "1ª Dosis": 63,
+          "Total": 63
+        }
+      },
+      "10302": {
+        "Mujer": {
+          "1ª Dosis": 67,
+          "Total": 140,
+          "2ª Dosis": 73
+        },
+        "Total": {
+          "1ª Dosis": 135,
+          "Total": 208,
+          "2ª Dosis": 73
+        },
+        "Hombre": {
+          "1ª Dosis": 68,
+          "Total": 68
+        }
+      },
+      "10304": {
+        "Mujer": {
+          "2ª Dosis": 69,
+          "Total": 150,
+          "1ª Dosis": 81
+        },
+        "Total": {
+          "2ª Dosis": 72,
+          "Total": 229,
+          "1ª Dosis": 157
+        },
+        "Hombre": {
+          "1ª Dosis": 76,
+          "Total": 79,
+          "2ª Dosis": 3
+        }
+      },
+      "10305": {
+        "Mujer": {
+          "1ª Dosis": 72,
+          "Total": 139,
+          "2ª Dosis": 67
+        },
+        "Total": {
+          "1ª Dosis": 153,
+          "Total": 221,
+          "2ª Dosis": 68
+        },
+        "Hombre": {
+          "1ª Dosis": 80,
+          "Total": 81,
+          "2ª Dosis": 1
+        },
+        "Otro": {
+          "1ª Dosis": 1,
+          "Total": 1
+        }
+      },
+      "10307": {
+        "Mujer": {
+          "1ª Dosis": 74,
+          "Total": 157,
+          "2ª Dosis": 83
+        },
+        "Total": {
+          "1ª Dosis": 160,
+          "Total": 245,
+          "2ª Dosis": 85
+        },
+        "Hombre": {
+          "1ª Dosis": 86,
+          "Total": 88,
+          "2ª Dosis": 2
+        }
+      }
+    },
+    "2020": {
+      "10307": {
+        "Hombre": {
+          "1ª Dosis": 69,
+          "Total": 148,
+          "2ª Dosis": 79
+        },
+        "Total": {
+          "1ª Dosis": 118,
+          "Total": 269,
+          "2ª Dosis": 151
+        },
+        "Mujer": {
+          "2ª Dosis": 72,
+          "Total": 120,
+          "1ª Dosis": 48
+        },
+        "Otro": {
+          "1ª Dosis": 1,
+          "Total": 1
+        }
+      },
+      "TOTAL": {
+        "Hombre": {
+          "1ª Dosis": 1572,
+          "Total": 2952,
+          "2ª Dosis": 1349,
+          "3ª Dosis": 31
+        },
+        "Total": {
+          "1ª Dosis": 3153,
+          "Total": 6070,
+          "2ª Dosis": 2856,
+          "3ª Dosis": 61
+        },
+        "Mujer": {
+          "2ª Dosis": 1506,
+          "Total": 3115,
+          "1ª Dosis": 1579,
+          "3ª Dosis": 30
+        },
+        "Otro": {
+          "1ª Dosis": 2,
+          "Total": 3,
+          "2ª Dosis": 1
+        }
+      },
+      "10301": {
+        "Hombre": {
+          "2ª Dosis": 874,
+          "Total": 2030,
+          "1ª Dosis": 1125,
+          "3ª Dosis": 31
+        },
+        "Total": {
+          "2ª Dosis": 1895,
+          "Total": 4211,
+          "1ª Dosis": 2257,
+          "3ª Dosis": 59
+        },
+        "Mujer": {
+          "2ª Dosis": 1021,
+          "Total": 2180,
+          "1ª Dosis": 1131,
+          "3ª Dosis": 28
+        },
+        "Otro": {
+          "1ª Dosis": 1,
+          "Total": 1
+        }
+      },
+      "10304": {
+        "Mujer": {
+          "1ª Dosis": 79,
+          "Total": 151,
+          "2ª Dosis": 71,
+          "3ª Dosis": 1
+        },
+        "Total": {
+          "1ª Dosis": 146,
+          "Total": 294,
+          "2ª Dosis": 147,
+          "3ª Dosis": 1
+        },
+        "Hombre": {
+          "2ª Dosis": 76,
+          "Total": 143,
+          "1ª Dosis": 67
+        }
+      },
+      "10306": {
+        "Mujer": {
+          "1ª Dosis": 52,
+          "Total": 104,
+          "2ª Dosis": 52
+        },
+        "Total": {
+          "1ª Dosis": 99,
+          "Total": 208,
+          "2ª Dosis": 109
+        },
+        "Hombre": {
+          "1ª Dosis": 47,
+          "Total": 104,
+          "2ª Dosis": 57
+        }
+      },
+      "10305": {
+        "Mujer": {
+          "2ª Dosis": 88,
+          "Total": 183,
+          "1ª Dosis": 95
+        },
+        "Total": {
+          "2ª Dosis": 163,
+          "Total": 342,
+          "1ª Dosis": 179
+        },
+        "Hombre": {
+          "2ª Dosis": 74,
+          "Total": 158,
+          "1ª Dosis": 84
+        },
+        "Otro": {
+          "2ª Dosis": 1,
+          "Total": 1
+        }
+      },
+      "10303": {
+        "Mujer": {
+          "2ª Dosis": 149,
+          "Total": 282,
+          "1ª Dosis": 132,
+          "3ª Dosis": 1
+        },
+        "Total": {
+          "2ª Dosis": 275,
+          "Total": 528,
+          "1ª Dosis": 252,
+          "3ª Dosis": 1
+        },
+        "Hombre": {
+          "2ª Dosis": 126,
+          "Total": 246,
+          "1ª Dosis": 120
+        }
+      },
+      "10302": {
+        "Hombre": {
+          "1ª Dosis": 60,
+          "Total": 123,
+          "2ª Dosis": 63
+        },
+        "Total": {
+          "1ª Dosis": 102,
+          "Total": 218,
+          "2ª Dosis": 116
+        },
+        "Mujer": {
+          "1ª Dosis": 42,
+          "Total": 95,
+          "2ª Dosis": 53
+        }
+      }
+    },
+    "2021": {
+      "10301": {
+        "Hombre": {
+          "1ª Dosis": 1126,
+          "Total": 2008,
+          "2ª Dosis": 878,
+          "3ª Dosis": 4
+        },
+        "Total": {
+          "1ª Dosis": 2217,
+          "Total": 4119,
+          "2ª Dosis": 1885,
+          "3ª Dosis": 17
+        },
+        "Mujer": {
+          "1ª Dosis": 1088,
+          "Total": 2106,
+          "2ª Dosis": 1005,
+          "3ª Dosis": 13
+        },
+        "Otro": {
+          "2ª Dosis": 2,
+          "Total": 5,
+          "1ª Dosis": 3
+        }
+      },
+      "TOTAL": {
+        "Hombre": {
+          "1ª Dosis": 1623,
+          "Total": 2859,
+          "2ª Dosis": 1231,
+          "3ª Dosis": 5
+        },
+        "Total": {
+          "1ª Dosis": 3139,
+          "Total": 5813,
+          "2ª Dosis": 2651,
+          "3ª Dosis": 23
+        },
+        "Mujer": {
+          "1ª Dosis": 1511,
+          "Total": 2946,
+          "2ª Dosis": 1417,
+          "3ª Dosis": 18
+        },
+        "Otro": {
+          "2ª Dosis": 3,
+          "Total": 8,
+          "1ª Dosis": 5
+        }
+      },
+      "10302": {
+        "Hombre": {
+          "1ª Dosis": 64,
+          "Total": 118,
+          "2ª Dosis": 54
+        },
+        "Total": {
+          "1ª Dosis": 125,
+          "Total": 225,
+          "2ª Dosis": 100
+        },
+        "Mujer": {
+          "1ª Dosis": 61,
+          "Total": 107,
+          "2ª Dosis": 46
+        }
+      },
+      "10306": {
+        "Mujer": {
+          "1ª Dosis": 39,
+          "Total": 84,
+          "2ª Dosis": 44,
+          "3ª Dosis": 1
+        },
+        "Total": {
+          "1ª Dosis": 90,
+          "Total": 165,
+          "2ª Dosis": 74,
+          "3ª Dosis": 1
+        },
+        "Hombre": {
+          "1ª Dosis": 51,
+          "Total": 80,
+          "2ª Dosis": 29
+        },
+        "Otro": {
+          "2ª Dosis": 1,
+          "Total": 1
+        }
+      },
+      "10304": {
+        "Mujer": {
+          "2ª Dosis": 67,
+          "Total": 127,
+          "1ª Dosis": 60
+        },
+        "Total": {
+          "2ª Dosis": 113,
+          "Total": 240,
+          "1ª Dosis": 127
+        },
+        "Hombre": {
+          "1ª Dosis": 65,
+          "Total": 111,
+          "2ª Dosis": 46
+        },
+        "Otro": {
+          "1ª Dosis": 2,
+          "Total": 2
+        }
+      },
+      "10307": {
+        "Mujer": {
+          "1ª Dosis": 71,
+          "Total": 118,
+          "2ª Dosis": 47
+        },
+        "Total": {
+          "1ª Dosis": 140,
+          "Total": 251,
+          "2ª Dosis": 111
+        },
+        "Hombre": {
+          "1ª Dosis": 69,
+          "Total": 133,
+          "2ª Dosis": 64
+        }
+      },
+      "10303": {
+        "Mujer": {
+          "1ª Dosis": 138,
+          "Total": 286,
+          "2ª Dosis": 144,
+          "3ª Dosis": 4
+        },
+        "Total": {
+          "1ª Dosis": 294,
+          "Total": 557,
+          "2ª Dosis": 258,
+          "3ª Dosis": 5
+        },
+        "Hombre": {
+          "1ª Dosis": 156,
+          "Total": 271,
+          "2ª Dosis": 114,
+          "3ª Dosis": 1
+        }
+      },
+      "10305": {
+        "Hombre": {
+          "1ª Dosis": 92,
+          "Total": 138,
+          "2ª Dosis": 46
+        },
+        "Total": {
+          "1ª Dosis": 146,
+          "Total": 256,
+          "2ª Dosis": 110
+        },
+        "Mujer": {
+          "1ª Dosis": 54,
+          "Total": 118,
+          "2ª Dosis": 64
+        }
+      }
+    },
+    "2022": {
+      "10305": {
+        "Mujer": {
+          "1ª Dosis": 106,
+          "Total": 184,
+          "2ª Dosis": 78
+        },
+        "Total": {
+          "1ª Dosis": 226,
+          "Total": 385,
+          "2ª Dosis": 159
+        },
+        "Hombre": {
+          "1ª Dosis": 120,
+          "Total": 201,
+          "2ª Dosis": 81
+        }
+      },
+      "TOTAL": {
+        "Mujer": {
+          "1ª Dosis": 1846,
+          "Total": 3402,
+          "2ª Dosis": 1531,
+          "3ª Dosis": 25
+        },
+        "Total": {
+          "1ª Dosis": 3699,
+          "Total": 6748,
+          "2ª Dosis": 3007,
+          "3ª Dosis": 42
+        },
+        "Hombre": {
+          "1ª Dosis": 1853,
+          "Total": 3346,
+          "2ª Dosis": 1476,
+          "3ª Dosis": 17
+        }
+      },
+      "10301": {
+        "Hombre": {
+          "1ª Dosis": 1297,
+          "Total": 2300,
+          "2ª Dosis": 989,
+          "3ª Dosis": 14
+        },
+        "Total": {
+          "1ª Dosis": 2623,
+          "Total": 4707,
+          "2ª Dosis": 2046,
+          "3ª Dosis": 38
+        },
+        "Mujer": {
+          "1ª Dosis": 1326,
+          "Total": 2407,
+          "2ª Dosis": 1057,
+          "3ª Dosis": 24
+        }
+      },
+      "10303": {
+        "Hombre": {
+          "2ª Dosis": 149,
+          "Total": 300,
+          "1ª Dosis": 149,
+          "3ª Dosis": 2
+        },
+        "Total": {
+          "2ª Dosis": 295,
+          "Total": 590,
+          "1ª Dosis": 293,
+          "3ª Dosis": 2
+        },
+        "Mujer": {
+          "1ª Dosis": 144,
+          "Total": 290,
+          "2ª Dosis": 146
+        }
+      },
+      "10307": {
+        "Hombre": {
+          "2ª Dosis": 83,
+          "Total": 162,
+          "3ª Dosis": 1,
+          "1ª Dosis": 78
+        },
+        "Total": {
+          "2ª Dosis": 157,
+          "Total": 304,
+          "3ª Dosis": 2,
+          "1ª Dosis": 145
+        },
+        "Mujer": {
+          "2ª Dosis": 74,
+          "Total": 142,
+          "1ª Dosis": 67,
+          "3ª Dosis": 1
+        }
+      },
+      "10304": {
+        "Hombre": {
+          "2ª Dosis": 64,
+          "Total": 158,
+          "1ª Dosis": 94
+        },
+        "Total": {
+          "2ª Dosis": 133,
+          "Total": 310,
+          "1ª Dosis": 177
+        },
+        "Mujer": {
+          "2ª Dosis": 69,
+          "Total": 152,
+          "1ª Dosis": 83
+        }
+      },
+      "10302": {
+        "Hombre": {
+          "1ª Dosis": 67,
+          "Total": 127,
+          "2ª Dosis": 60
+        },
+        "Total": {
+          "1ª Dosis": 126,
+          "Total": 250,
+          "2ª Dosis": 124
+        },
+        "Mujer": {
+          "2ª Dosis": 64,
+          "Total": 123,
+          "1ª Dosis": 59
+        }
+      },
+      "10306": {
+        "Hombre": {
+          "1ª Dosis": 48,
+          "Total": 98,
+          "2ª Dosis": 50
+        },
+        "Total": {
+          "1ª Dosis": 109,
+          "Total": 202,
+          "2ª Dosis": 93
+        },
+        "Mujer": {
+          "2ª Dosis": 43,
+          "Total": 104,
+          "1ª Dosis": 61
+        }
+      }
+    },
+    "2023": {
+      "10302": {
+        "Mujer": {
+          "2ª Dosis": 60,
+          "Total": 118,
+          "1ª Dosis": 58
+        },
+        "Total": {
+          "2ª Dosis": 129,
+          "Total": 249,
+          "1ª Dosis": 120
+        },
+        "Hombre": {
+          "2ª Dosis": 69,
+          "Total": 131,
+          "1ª Dosis": 62
+        }
+      },
+      "TOTAL": {
+        "Mujer": {
+          "2ª Dosis": 2141,
+          "Total": 4007,
+          "1ª Dosis": 1816,
+          "3ª Dosis": 50
+        },
+        "Total": {
+          "2ª Dosis": 4410,
+          "Total": 8187,
+          "1ª Dosis": 3704,
+          "3ª Dosis": 73
+        },
+        "Hombre": {
+          "1ª Dosis": 1888,
+          "Total": 4180,
+          "2ª Dosis": 2269,
+          "3ª Dosis": 23
+        }
+      },
+      "10301": {
+        "Hombre": {
+          "1ª Dosis": 1350,
+          "Total": 3021,
+          "2ª Dosis": 1650,
+          "3ª Dosis": 21
+        },
+        "Total": {
+          "1ª Dosis": 2667,
+          "Total": 5955,
+          "2ª Dosis": 3221,
+          "3ª Dosis": 67
+        },
+        "Mujer": {
+          "1ª Dosis": 1317,
+          "Total": 2934,
+          "2ª Dosis": 1571,
+          "3ª Dosis": 46
+        }
+      },
+      "10304": {
+        "Mujer": {
+          "2ª Dosis": 108,
+          "Total": 175,
+          "1ª Dosis": 66,
+          "3ª Dosis": 1
+        },
+        "Total": {
+          "2ª Dosis": 220,
+          "Total": 376,
+          "1ª Dosis": 155,
+          "3ª Dosis": 1
+        },
+        "Hombre": {
+          "2ª Dosis": 112,
+          "Total": 201,
+          "1ª Dosis": 89
+        }
+      },
+      "10305": {
+        "Mujer": {
+          "2ª Dosis": 124,
+          "Total": 226,
+          "1ª Dosis": 101,
+          "3ª Dosis": 1
+        },
+        "Total": {
+          "2ª Dosis": 269,
+          "Total": 454,
+          "1ª Dosis": 184,
+          "3ª Dosis": 1
+        },
+        "Hombre": {
+          "1ª Dosis": 83,
+          "Total": 228,
+          "2ª Dosis": 145
+        }
+      },
+      "10306": {
+        "Mujer": {
+          "2ª Dosis": 70,
+          "Total": 133,
+          "1ª Dosis": 62,
+          "3ª Dosis": 1
+        },
+        "Total": {
+          "2ª Dosis": 127,
+          "Total": 250,
+          "1ª Dosis": 122,
+          "3ª Dosis": 1
+        },
+        "Hombre": {
+          "2ª Dosis": 57,
+          "Total": 117,
+          "1ª Dosis": 60
+        }
+      },
+      "10303": {
+        "Mujer": {
+          "1ª Dosis": 141,
+          "Total": 281,
+          "2ª Dosis": 139,
+          "3ª Dosis": 1
+        },
+        "Total": {
+          "1ª Dosis": 314,
+          "Total": 610,
+          "2ª Dosis": 293,
+          "3ª Dosis": 3
+        },
+        "Hombre": {
+          "1ª Dosis": 173,
+          "Total": 329,
+          "2ª Dosis": 154,
+          "3ª Dosis": 2
+        }
+      },
+      "10307": {
+        "Hombre": {
+          "1ª Dosis": 71,
+          "Total": 153,
+          "2ª Dosis": 82
+        },
+        "Total": {
+          "1ª Dosis": 142,
+          "Total": 293,
+          "2ª Dosis": 151
+        },
+        "Mujer": {
+          "1ª Dosis": 71,
+          "Total": 140,
+          "2ª Dosis": 69
+        }
+      }
+    },
+    "2024": {
+      "10301": {
+        "Mujer": {
+          "3ª Dosis": 170,
+          "Total": 2700,
+          "2ª Dosis": 1254,
+          "1ª Dosis": 199,
+          "Dosis Única": 1077
+        },
+        "Total": {
+          "3ª Dosis": 192,
+          "Total": 5055,
+          "2ª Dosis": 2417,
+          "1ª Dosis": 249,
+          "Dosis Única": 2197
+        },
+        "Hombre": {
+          "2ª Dosis": 1162,
+          "Total": 2354,
+          "Dosis Única": 1120,
+          "1ª Dosis": 50,
+          "3ª Dosis": 22
+        },
+        "Otro": {
+          "2ª Dosis": 1,
+          "Total": 1
+        }
+      },
+      "TOTAL": {
+        "Mujer": {
+          "3ª Dosis": 203,
+          "Total": 3712,
+          "2ª Dosis": 1757,
+          "1ª Dosis": 238,
+          "Dosis Única": 1514
+        },
+        "Total": {
+          "3ª Dosis": 234,
+          "Total": 7081,
+          "2ª Dosis": 3434,
+          "1ª Dosis": 296,
+          "Dosis Única": 3117
+        },
+        "Hombre": {
+          "2ª Dosis": 1676,
+          "Total": 3368,
+          "Dosis Única": 1603,
+          "1ª Dosis": 58,
+          "3ª Dosis": 31
+        },
+        "Otro": {
+          "2ª Dosis": 1,
+          "Total": 1
+        }
+      },
+      "10303": {
+        "Hombre": {
+          "2ª Dosis": 163,
+          "Total": 308,
+          "1ª Dosis": 3,
+          "Dosis Única": 136,
+          "3ª Dosis": 6
+        },
+        "Total": {
+          "2ª Dosis": 306,
+          "Total": 598,
+          "1ª Dosis": 12,
+          "Dosis Única": 265,
+          "3ª Dosis": 15
+        },
+        "Mujer": {
+          "2ª Dosis": 143,
+          "Total": 290,
+          "3ª Dosis": 9,
+          "Dosis Única": 129,
+          "1ª Dosis": 9
+        }
+      },
+      "10307": {
+        "Mujer": {
+          "Dosis Única": 65,
+          "Total": 152,
+          "2ª Dosis": 73,
+          "1ª Dosis": 6,
+          "3ª Dosis": 8
+        },
+        "Total": {
+          "Dosis Única": 134,
+          "Total": 296,
+          "2ª Dosis": 146,
+          "1ª Dosis": 7,
+          "3ª Dosis": 9
+        },
+        "Hombre": {
+          "2ª Dosis": 73,
+          "Total": 144,
+          "Dosis Única": 69,
+          "1ª Dosis": 1,
+          "3ª Dosis": 1
+        }
+      },
+      "10304": {
+        "Hombre": {
+          "2ª Dosis": 79,
+          "Total": 172,
+          "Dosis Única": 92,
+          "3ª Dosis": 1
+        },
+        "Total": {
+          "2ª Dosis": 146,
+          "Total": 322,
+          "Dosis Única": 161,
+          "1ª Dosis": 7,
+          "3ª Dosis": 8
+        },
+        "Mujer": {
+          "2ª Dosis": 67,
+          "Total": 150,
+          "Dosis Única": 69,
+          "1ª Dosis": 7,
+          "3ª Dosis": 7
+        }
+      },
+      "10305": {
+        "Hombre": {
+          "2ª Dosis": 83,
+          "Total": 170,
+          "Dosis Única": 84,
+          "1ª Dosis": 3
+        },
+        "Total": {
+          "2ª Dosis": 183,
+          "Total": 345,
+          "Dosis Única": 151,
+          "1ª Dosis": 10,
+          "3ª Dosis": 1
+        },
+        "Mujer": {
+          "2ª Dosis": 100,
+          "Total": 175,
+          "Dosis Única": 67,
+          "1ª Dosis": 7,
+          "3ª Dosis": 1
+        }
+      },
+      "10306": {
+        "Hombre": {
+          "1ª Dosis": 1,
+          "Total": 101,
+          "2ª Dosis": 57,
+          "Dosis Única": 43
+        },
+        "Total": {
+          "1ª Dosis": 4,
+          "Total": 222,
+          "2ª Dosis": 118,
+          "Dosis Única": 96,
+          "3ª Dosis": 4
+        },
+        "Mujer": {
+          "2ª Dosis": 61,
+          "Total": 121,
+          "Dosis Única": 53,
+          "3ª Dosis": 4,
+          "1ª Dosis": 3
+        }
+      },
+      "10302": {
+        "Mujer": {
+          "Dosis Única": 54,
+          "Total": 124,
+          "2ª Dosis": 59,
+          "1ª Dosis": 7,
+          "3ª Dosis": 4
+        },
+        "Total": {
+          "Dosis Única": 113,
+          "Total": 243,
+          "2ª Dosis": 118,
+          "1ª Dosis": 7,
+          "3ª Dosis": 5
+        },
+        "Hombre": {
+          "2ª Dosis": 59,
+          "Total": 119,
+          "Dosis Única": 59,
+          "3ª Dosis": 1
+        }
+      }
+    },
+    "2025": {
+      "10301": {
+        "Hombre": {
+          "Dosis Única": 1111,
+          "Total": 1483,
+          "2ª Dosis": 239,
+          "1ª Dosis": 99,
+          "3ª Dosis": 34
+        },
+        "Total": {
+          "Dosis Única": 2172,
+          "Total": 3260,
+          "2ª Dosis": 583,
+          "1ª Dosis": 327,
+          "3ª Dosis": 178
+        },
+        "Mujer": {
+          "Dosis Única": 1061,
+          "Total": 1777,
+          "2ª Dosis": 344,
+          "1ª Dosis": 228,
+          "3ª Dosis": 144
+        }
+      },
+      "TOTAL": {
+        "Hombre": {
+          "Dosis Única": 1553,
+          "Total": 1984,
+          "2ª Dosis": 285,
+          "1ª Dosis": 111,
+          "3ª Dosis": 35
+        },
+        "Total": {
+          "Dosis Única": 3056,
+          "Total": 4296,
+          "2ª Dosis": 676,
+          "1ª Dosis": 360,
+          "3ª Dosis": 204
+        },
+        "Mujer": {
+          "Dosis Única": 1503,
+          "Total": 2312,
+          "2ª Dosis": 391,
+          "1ª Dosis": 249,
+          "3ª Dosis": 169
+        }
+      },
+      "10303": {
+        "Mujer": {
+          "Dosis Única": 145,
+          "Total": 170,
+          "3ª Dosis": 7,
+          "2ª Dosis": 13,
+          "1ª Dosis": 5
+        },
+        "Total": {
+          "Dosis Única": 293,
+          "Total": 337,
+          "2ª Dosis": 28,
+          "3ª Dosis": 7,
+          "1ª Dosis": 9
+        },
+        "Hombre": {
+          "Dosis Única": 148,
+          "Total": 167,
+          "2ª Dosis": 15,
+          "1ª Dosis": 4
+        }
+      },
+      "10307": {
+        "Hombre": {
+          "Dosis Única": 68,
+          "Total": 80,
+          "2ª Dosis": 10,
+          "1ª Dosis": 2
+        },
+        "Total": {
+          "Dosis Única": 123,
+          "Total": 153,
+          "2ª Dosis": 20,
+          "1ª Dosis": 6,
+          "3ª Dosis": 4
+        },
+        "Mujer": {
+          "2ª Dosis": 10,
+          "Total": 73,
+          "Dosis Única": 55,
+          "1ª Dosis": 4,
+          "3ª Dosis": 4
+        }
+      },
+      "10304": {
+        "Hombre": {
+          "2ª Dosis": 10,
+          "Total": 74,
+          "Dosis Única": 64
+        },
+        "Total": {
+          "2ª Dosis": 19,
+          "Total": 155,
+          "Dosis Única": 130,
+          "1ª Dosis": 3,
+          "3ª Dosis": 3
+        },
+        "Mujer": {
+          "Dosis Única": 66,
+          "Total": 81,
+          "2ª Dosis": 9,
+          "1ª Dosis": 3,
+          "3ª Dosis": 3
+        }
+      },
+      "10302": {
+        "Mujer": {
+          "Dosis Única": 60,
+          "Total": 69,
+          "2ª Dosis": 3,
+          "3ª Dosis": 4,
+          "1ª Dosis": 2
+        },
+        "Total": {
+          "Dosis Única": 115,
+          "Total": 128,
+          "2ª Dosis": 4,
+          "3ª Dosis": 4,
+          "1ª Dosis": 5
+        },
+        "Hombre": {
+          "Dosis Única": 55,
+          "Total": 59,
+          "2ª Dosis": 1,
+          "1ª Dosis": 3
+        }
+      },
+      "10305": {
+        "Hombre": {
+          "1ª Dosis": 2,
+          "Total": 71,
+          "2ª Dosis": 7,
+          "Dosis Única": 61,
+          "3ª Dosis": 1
+        },
+        "Total": {
+          "1ª Dosis": 8,
+          "Total": 156,
+          "2ª Dosis": 15,
+          "Dosis Única": 128,
+          "3ª Dosis": 5
+        },
+        "Mujer": {
+          "1ª Dosis": 6,
+          "Total": 85,
+          "2ª Dosis": 8,
+          "Dosis Única": 67,
+          "3ª Dosis": 4
+        }
+      },
+      "10306": {
+        "Mujer": {
+          "Dosis Única": 49,
+          "Total": 57,
+          "3ª Dosis": 3,
+          "2ª Dosis": 4,
+          "1ª Dosis": 1
+        },
+        "Total": {
+          "Dosis Única": 95,
+          "Total": 107,
+          "2ª Dosis": 7,
+          "1ª Dosis": 2,
+          "3ª Dosis": 3
+        },
+        "Hombre": {
+          "2ª Dosis": 3,
+          "Total": 50,
+          "1ª Dosis": 1,
+          "Dosis Única": 46
+        }
+      }
+    },
+    "2026": {
+      "10301": {
+        "Hombre": {
+          "Dosis Única": 800,
+          "Total": 928,
+          "3ª Dosis": 29,
+          "1ª Dosis": 45,
+          "2ª Dosis": 54
+        },
+        "Total": {
+          "Dosis Única": 1579,
+          "Total": 2252,
+          "2ª Dosis": 269,
+          "3ª Dosis": 150,
+          "1ª Dosis": 254
+        },
+        "Mujer": {
+          "2ª Dosis": 215,
+          "Total": 1324,
+          "3ª Dosis": 121,
+          "Dosis Única": 779,
+          "1ª Dosis": 209
+        }
+      },
+      "TOTAL": {
+        "Hombre": {
+          "Dosis Única": 1157,
+          "Total": 1301,
+          "3ª Dosis": 31,
+          "1ª Dosis": 51,
+          "2ª Dosis": 62
+        },
+        "Total": {
+          "Dosis Única": 2341,
+          "Total": 3083,
+          "2ª Dosis": 301,
+          "3ª Dosis": 159,
+          "1ª Dosis": 282
+        },
+        "Mujer": {
+          "2ª Dosis": 239,
+          "Total": 1782,
+          "3ª Dosis": 128,
+          "Dosis Única": 1184,
+          "1ª Dosis": 231
+        }
+      },
+      "10305": {
+        "Hombre": {
+          "Dosis Única": 68,
+          "Total": 70,
+          "3ª Dosis": 1,
+          "2ª Dosis": 1
+        },
+        "Total": {
+          "Dosis Única": 127,
+          "Total": 139,
+          "2ª Dosis": 6,
+          "1ª Dosis": 5,
+          "3ª Dosis": 1
+        },
+        "Mujer": {
+          "Dosis Única": 59,
+          "Total": 69,
+          "2ª Dosis": 5,
+          "1ª Dosis": 5
+        }
+      },
+      "10307": {
+        "Mujer": {
+          "1ª Dosis": 1,
+          "Total": 62,
+          "Dosis Única": 57,
+          "3ª Dosis": 1,
+          "2ª Dosis": 3
+        },
+        "Total": {
+          "1ª Dosis": 1,
+          "Total": 110,
+          "Dosis Única": 104,
+          "3ª Dosis": 1,
+          "2ª Dosis": 4
+        },
+        "Hombre": {
+          "Dosis Única": 47,
+          "Total": 48,
+          "2ª Dosis": 1
+        }
+      },
+      "10303": {
+        "Mujer": {
+          "Dosis Única": 124,
+          "Total": 138,
+          "2ª Dosis": 6,
+          "1ª Dosis": 4,
+          "3ª Dosis": 4
+        },
+        "Total": {
+          "Dosis Única": 222,
+          "Total": 242,
+          "2ª Dosis": 8,
+          "1ª Dosis": 8,
+          "3ª Dosis": 4
+        },
+        "Hombre": {
+          "Dosis Única": 98,
+          "Total": 104,
+          "1ª Dosis": 4,
+          "2ª Dosis": 2
+        }
+      },
+      "10304": {
+        "Mujer": {
+          "Dosis Única": 69,
+          "Total": 80,
+          "1ª Dosis": 8,
+          "3ª Dosis": 2,
+          "2ª Dosis": 1
+        },
+        "Total": {
+          "Dosis Única": 130,
+          "Total": 141,
+          "1ª Dosis": 8,
+          "3ª Dosis": 2,
+          "2ª Dosis": 1
+        },
+        "Hombre": {
+          "Dosis Única": 61,
+          "Total": 61
+        }
+      },
+      "10302": {
+        "Mujer": {
+          "Dosis Única": 66,
+          "Total": 73,
+          "1ª Dosis": 1,
+          "2ª Dosis": 6
+        },
+        "Total": {
+          "Dosis Única": 124,
+          "Total": 138,
+          "1ª Dosis": 3,
+          "2ª Dosis": 10,
+          "3ª Dosis": 1
+        },
+        "Hombre": {
+          "Dosis Única": 58,
+          "Total": 65,
+          "1ª Dosis": 2,
+          "2ª Dosis": 4,
+          "3ª Dosis": 1
+        }
+      },
+      "10306": {
+        "Hombre": {
+          "Dosis Única": 25,
+          "Total": 25
+        },
+        "Total": {
+          "Dosis Única": 55,
+          "Total": 61,
+          "2ª Dosis": 3,
+          "1ª Dosis": 3
+        },
+        "Mujer": {
+          "Dosis Única": 30,
+          "Total": 36,
+          "2ª Dosis": 3,
+          "1ª Dosis": 3
+        }
+      }
+    }
+  },
+  "top_establecimientos": [
+    {
+      "nombre": "Centro de Salud Familiar Quinto Centenario",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 5872,
+        "VPH Nonavalente (Gardasil 9)": 1093
+      },
+      "total": 6965
+    },
+    {
+      "nombre": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 5364,
+        "VPH Nonavalente (Gardasil 9)": 1167
+      },
+      "total": 6531
+    },
+    {
+      "nombre": "Centro de Salud Familiar Dr Marcelo Lopetegui Adams",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 5867
+      },
+      "total": 5867
+    },
+    {
+      "nombre": "Centro de Salud Familiar Purranque",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 4523,
+        "VPH Nonavalente (Gardasil 9)": 730
+      },
+      "total": 5253
+    },
+    {
+      "nombre": "Centro de Salud Familiar Ovejería",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 4089,
+        "VPH Nonavalente (Gardasil 9)": 867
+      },
+      "total": 4956
+    },
+    {
+      "nombre": "Centro de Salud Familiar Pampa Alegre",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 4118,
+        "VPH Nonavalente (Gardasil 9)": 789
+      },
+      "total": 4907
+    },
+    {
+      "nombre": "Centro de Salud Familiar Rahue Alto",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 3694,
+        "VPH Nonavalente (Gardasil 9)": 748
+      },
+      "total": 4442
+    },
+    {
+      "nombre": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 3311,
+        "VPH Nonavalente (Gardasil 9)": 1100
+      },
+      "total": 4411
+    },
+    {
+      "nombre": "Centro de Salud Familiar Dr Pedro Jáuregui",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 2531
+      },
+      "total": 2531
+    },
+    {
+      "nombre": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 1540,
+        "VPH Nonavalente (Gardasil 9)": 343
+      },
+      "total": 1883
+    },
+    {
+      "nombre": "Centro de Salud Familiar Entre Lagos",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 1200,
+        "VPH Nonavalente (Gardasil 9)": 375
+      },
+      "total": 1575
+    },
+    {
+      "nombre": "Hospital Base San José de Osorno",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 1386,
+        "VPH Nonavalente (Gardasil 9)": 180
+      },
+      "total": 1566
+    },
+    {
+      "nombre": "Hospital de Puerto Octay",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 1211,
+        "VPH Nonavalente (Gardasil 9)": 277
+      },
+      "total": 1488
+    },
+    {
+      "nombre": "Centro de Salud Familiar San Pablo",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 1104,
+        "VPH Nonavalente (Gardasil 9)": 278
+      },
+      "total": 1382
+    },
+    {
+      "nombre": "Posta de Salud Rural Cancura",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 1012,
+        "VPH Nonavalente (Gardasil 9)": 180
+      },
+      "total": 1192
+    },
+    {
+      "nombre": "Centro de Salud Familiar Río Negro",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 1104
+      },
+      "total": 1104
+    },
+    {
+      "nombre": "Consultorio Entre Lagos",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 1081
+      },
+      "total": 1081
+    },
+    {
+      "nombre": "Clínica Alemana de Osorno",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 117,
+        "VPH Bivalente (Cervarix)": 6,
+        "VPH Nonavalente (Gardasil 9)": 950
+      },
+      "total": 1073
+    },
+    {
+      "nombre": "Centro de Salud Familiar Puaucho",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 793,
+        "VPH Nonavalente (Gardasil 9)": 118
+      },
+      "total": 911
+    },
+    {
+      "nombre": "Consultorio San Pablo",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 884
+      },
+      "total": 884
+    },
+    {
+      "nombre": "Unidad de Vacunación Móvil de Los Lagos",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 808
+      },
+      "total": 808
+    },
+    {
+      "nombre": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 268,
+        "VPH Nonavalente (Gardasil 9)": 77
+      },
+      "total": 345
+    },
+    {
+      "nombre": "Posta de Salud Rural Cascadas",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 275,
+        "VPH Nonavalente (Gardasil 9)": 40
+      },
+      "total": 315
+    },
+    {
+      "nombre": "Centro de Salud Familiar Bahía Mansa",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 238,
+        "VPH Nonavalente (Gardasil 9)": 52
+      },
+      "total": 290
+    },
+    {
+      "nombre": "Hospital Pu Mulen Quilacahuín",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 176,
+        "VPH Nonavalente (Gardasil 9)": 83
+      },
+      "total": 259
+    },
+    {
+      "nombre": "Hospital Misión San Juan de la Costa",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 241
+      },
+      "total": 241
+    },
+    {
+      "nombre": "Consultorio Bahía Mansa",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 238
+      },
+      "total": 238
+    },
+    {
+      "nombre": "Hospital del Perpetuo Socorro de Quilacahuin",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 223
+      },
+      "total": 223
+    },
+    {
+      "nombre": "Centro Comunitario de Salud Familiar El Encanto",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 152,
+        "VPH Nonavalente (Gardasil 9)": 24
+      },
+      "total": 176
+    },
+    {
+      "nombre": "Posta de Salud Rural Rupanco",
+      "vacunas": {
+        "VPH Tetravalente (Gardasil 4)": 149,
+        "VPH Nonavalente (Gardasil 9)": 15
+      },
+      "total": 164
+    }
+  ],
+  "matriz_establecimientos": [
+    {
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 6965,
+      "total_mujeres": 4438,
+      "total_hombres": 2523,
+      "total_tetra": 5872,
+      "total_nona": 1093,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 1085,
+      "total_dosis_1": 2984,
+      "total_dosis_2": 2882,
+      "por_ano": {
+        "2014": {
+          "total": 122,
+          "mujeres": 121,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 122,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 122,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 541,
+          "mujeres": 538,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 417,
+          "dosis_2": 124,
+          "dosis_otra": 0,
+          "tetra": 541,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 494,
+          "mujeres": 493,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 126,
+          "dosis_2": 363,
+          "dosis_otra": 5,
+          "tetra": 494,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 246,
+          "mujeres": 245,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 126,
+          "dosis_2": 115,
+          "dosis_otra": 5,
+          "tetra": 246,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 293,
+          "mujeres": 291,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 161,
+          "dosis_2": 132,
+          "dosis_otra": 0,
+          "tetra": 293,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 616,
+          "mujeres": 403,
+          "hombres": 213,
+          "dosis_unica": 0,
+          "dosis_1": 425,
+          "dosis_2": 190,
+          "dosis_otra": 1,
+          "tetra": 616,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 764,
+          "mujeres": 396,
+          "hombres": 367,
+          "dosis_unica": 0,
+          "dosis_1": 392,
+          "dosis_2": 372,
+          "dosis_otra": 0,
+          "tetra": 764,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 600,
+          "mujeres": 292,
+          "hombres": 306,
+          "dosis_unica": 0,
+          "dosis_1": 319,
+          "dosis_2": 281,
+          "dosis_otra": 0,
+          "tetra": 600,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 856,
+          "mujeres": 455,
+          "hombres": 401,
+          "dosis_unica": 0,
+          "dosis_1": 502,
+          "dosis_2": 354,
+          "dosis_otra": 0,
+          "tetra": 856,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 915,
+          "mujeres": 448,
+          "hombres": 467,
+          "dosis_unica": 0,
+          "dosis_1": 382,
+          "dosis_2": 532,
+          "dosis_otra": 1,
+          "tetra": 915,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 721,
+          "mujeres": 366,
+          "hombres": 354,
+          "dosis_unica": 373,
+          "dosis_1": 1,
+          "dosis_2": 345,
+          "dosis_otra": 2,
+          "tetra": 348,
+          "nona": 373,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 474,
+          "mujeres": 239,
+          "hombres": 235,
+          "dosis_unica": 396,
+          "dosis_1": 10,
+          "dosis_2": 68,
+          "dosis_otra": 0,
+          "tetra": 77,
+          "nona": 397,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 323,
+          "mujeres": 151,
+          "hombres": 172,
+          "dosis_unica": 316,
+          "dosis_1": 1,
+          "dosis_2": 6,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 323,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 6531,
+      "total_mujeres": 3233,
+      "total_hombres": 3297,
+      "total_tetra": 5364,
+      "total_nona": 1167,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 1151,
+      "total_dosis_1": 2441,
+      "total_dosis_2": 2915,
+      "por_ano": {
+        "2020": {
+          "total": 899,
+          "mujeres": 449,
+          "hombres": 450,
+          "dosis_unica": 0,
+          "dosis_1": 496,
+          "dosis_2": 399,
+          "dosis_otra": 4,
+          "tetra": 899,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 1294,
+          "mujeres": 683,
+          "hombres": 610,
+          "dosis_unica": 0,
+          "dosis_1": 728,
+          "dosis_2": 566,
+          "dosis_otra": 0,
+          "tetra": 1294,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 1109,
+          "mujeres": 580,
+          "hombres": 529,
+          "dosis_unica": 0,
+          "dosis_1": 610,
+          "dosis_2": 494,
+          "dosis_otra": 5,
+          "tetra": 1109,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 1407,
+          "mujeres": 659,
+          "hombres": 748,
+          "dosis_unica": 0,
+          "dosis_1": 571,
+          "dosis_2": 834,
+          "dosis_otra": 2,
+          "tetra": 1407,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 1090,
+          "mujeres": 502,
+          "hombres": 588,
+          "dosis_unica": 505,
+          "dosis_1": 11,
+          "dosis_2": 567,
+          "dosis_otra": 7,
+          "tetra": 577,
+          "nona": 513,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 513,
+          "mujeres": 241,
+          "hombres": 272,
+          "dosis_unica": 451,
+          "dosis_1": 16,
+          "dosis_2": 44,
+          "dosis_otra": 2,
+          "tetra": 62,
+          "nona": 451,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 219,
+          "mujeres": 119,
+          "hombres": 100,
+          "dosis_unica": 195,
+          "dosis_1": 9,
+          "dosis_2": 11,
+          "dosis_otra": 4,
+          "tetra": 16,
+          "nona": 203,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Dr Marcelo Lopetegui Adams",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 5867,
+      "total_mujeres": 5536,
+      "total_hombres": 329,
+      "total_tetra": 5867,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 3428,
+      "total_dosis_2": 2422,
+      "por_ano": {
+        "2014": {
+          "total": 417,
+          "mujeres": 413,
+          "hombres": 4,
+          "dosis_unica": 0,
+          "dosis_1": 417,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 417,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 1643,
+          "mujeres": 1625,
+          "hombres": 17,
+          "dosis_unica": 0,
+          "dosis_1": 1274,
+          "dosis_2": 368,
+          "dosis_otra": 1,
+          "tetra": 1643,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 1566,
+          "mujeres": 1552,
+          "hombres": 13,
+          "dosis_unica": 0,
+          "dosis_1": 398,
+          "dosis_2": 1158,
+          "dosis_otra": 10,
+          "tetra": 1566,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 750,
+          "mujeres": 744,
+          "hombres": 6,
+          "dosis_unica": 0,
+          "dosis_1": 425,
+          "dosis_2": 323,
+          "dosis_otra": 2,
+          "tetra": 750,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 684,
+          "mujeres": 679,
+          "hombres": 5,
+          "dosis_unica": 0,
+          "dosis_1": 369,
+          "dosis_2": 313,
+          "dosis_otra": 2,
+          "tetra": 684,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 807,
+          "mujeres": 523,
+          "hombres": 284,
+          "dosis_unica": 0,
+          "dosis_1": 545,
+          "dosis_2": 260,
+          "dosis_otra": 2,
+          "tetra": 807,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "comuna_cod": "10303",
+      "comuna_nom": "Purranque",
+      "total_historico": 5253,
+      "total_mujeres": 3426,
+      "total_hombres": 1827,
+      "total_tetra": 4523,
+      "total_nona": 730,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 724,
+      "total_dosis_1": 2334,
+      "total_dosis_2": 2172,
+      "por_ano": {
+        "2014": {
+          "total": 130,
+          "mujeres": 130,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 130,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 130,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 514,
+          "mujeres": 509,
+          "hombres": 5,
+          "dosis_unica": 0,
+          "dosis_1": 382,
+          "dosis_2": 132,
+          "dosis_otra": 0,
+          "tetra": 514,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 321,
+          "mujeres": 318,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 88,
+          "dosis_2": 228,
+          "dosis_otra": 5,
+          "tetra": 321,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 234,
+          "mujeres": 232,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 153,
+          "dosis_2": 81,
+          "dosis_otra": 0,
+          "tetra": 234,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 268,
+          "mujeres": 264,
+          "hombres": 4,
+          "dosis_unica": 0,
+          "dosis_1": 152,
+          "dosis_2": 116,
+          "dosis_otra": 0,
+          "tetra": 268,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 476,
+          "mujeres": 325,
+          "hombres": 151,
+          "dosis_unica": 0,
+          "dosis_1": 290,
+          "dosis_2": 186,
+          "dosis_otra": 0,
+          "tetra": 476,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 542,
+          "mujeres": 293,
+          "hombres": 249,
+          "dosis_unica": 0,
+          "dosis_1": 256,
+          "dosis_2": 285,
+          "dosis_otra": 1,
+          "tetra": 542,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 552,
+          "mujeres": 284,
+          "hombres": 268,
+          "dosis_unica": 0,
+          "dosis_1": 290,
+          "dosis_2": 257,
+          "dosis_otra": 5,
+          "tetra": 552,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 586,
+          "mujeres": 290,
+          "hombres": 296,
+          "dosis_unica": 0,
+          "dosis_1": 292,
+          "dosis_2": 294,
+          "dosis_otra": 0,
+          "tetra": 586,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 554,
+          "mujeres": 255,
+          "hombres": 299,
+          "dosis_unica": 0,
+          "dosis_1": 288,
+          "dosis_2": 266,
+          "dosis_otra": 0,
+          "tetra": 554,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 570,
+          "mujeres": 263,
+          "hombres": 307,
+          "dosis_unica": 264,
+          "dosis_1": 3,
+          "dosis_2": 294,
+          "dosis_otra": 9,
+          "tetra": 306,
+          "nona": 264,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 325,
+          "mujeres": 158,
+          "hombres": 167,
+          "dosis_unica": 293,
+          "dosis_1": 5,
+          "dosis_2": 26,
+          "dosis_otra": 1,
+          "tetra": 32,
+          "nona": 293,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 181,
+          "mujeres": 105,
+          "hombres": 76,
+          "dosis_unica": 167,
+          "dosis_1": 5,
+          "dosis_2": 7,
+          "dosis_otra": 2,
+          "tetra": 8,
+          "nona": 173,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 4956,
+      "total_mujeres": 3052,
+      "total_hombres": 1902,
+      "total_tetra": 4089,
+      "total_nona": 867,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 867,
+      "total_dosis_1": 2076,
+      "total_dosis_2": 2007,
+      "por_ano": {
+        "2014": {
+          "total": 90,
+          "mujeres": 89,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 90,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 90,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 322,
+          "mujeres": 319,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 238,
+          "dosis_2": 84,
+          "dosis_otra": 0,
+          "tetra": 322,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 299,
+          "mujeres": 296,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 91,
+          "dosis_2": 208,
+          "dosis_otra": 0,
+          "tetra": 299,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 164,
+          "mujeres": 162,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 93,
+          "dosis_2": 71,
+          "dosis_otra": 0,
+          "tetra": 164,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 241,
+          "mujeres": 241,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 132,
+          "dosis_2": 109,
+          "dosis_otra": 0,
+          "tetra": 241,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 364,
+          "mujeres": 239,
+          "hombres": 125,
+          "dosis_unica": 0,
+          "dosis_1": 238,
+          "dosis_2": 126,
+          "dosis_otra": 0,
+          "tetra": 364,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 483,
+          "mujeres": 237,
+          "hombres": 246,
+          "dosis_unica": 0,
+          "dosis_1": 280,
+          "dosis_2": 203,
+          "dosis_otra": 0,
+          "tetra": 483,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 492,
+          "mujeres": 239,
+          "hombres": 253,
+          "dosis_unica": 0,
+          "dosis_1": 253,
+          "dosis_2": 238,
+          "dosis_otra": 1,
+          "tetra": 492,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 555,
+          "mujeres": 261,
+          "hombres": 294,
+          "dosis_unica": 0,
+          "dosis_1": 319,
+          "dosis_2": 236,
+          "dosis_otra": 0,
+          "tetra": 555,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 696,
+          "mujeres": 339,
+          "hombres": 357,
+          "dosis_unica": 0,
+          "dosis_1": 323,
+          "dosis_2": 373,
+          "dosis_otra": 0,
+          "tetra": 696,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 612,
+          "mujeres": 313,
+          "hombres": 299,
+          "dosis_unica": 320,
+          "dosis_1": 1,
+          "dosis_2": 288,
+          "dosis_otra": 3,
+          "tetra": 292,
+          "nona": 320,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 410,
+          "mujeres": 190,
+          "hombres": 220,
+          "dosis_unica": 328,
+          "dosis_1": 13,
+          "dosis_2": 68,
+          "dosis_otra": 1,
+          "tetra": 82,
+          "nona": 328,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 228,
+          "mujeres": 127,
+          "hombres": 101,
+          "dosis_unica": 219,
+          "dosis_1": 5,
+          "dosis_2": 3,
+          "dosis_otra": 1,
+          "tetra": 9,
+          "nona": 219,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 4907,
+      "total_mujeres": 3183,
+      "total_hombres": 1724,
+      "total_tetra": 4118,
+      "total_nona": 789,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 786,
+      "total_dosis_1": 2104,
+      "total_dosis_2": 2006,
+      "por_ano": {
+        "2014": {
+          "total": 88,
+          "mujeres": 87,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 88,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 88,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 433,
+          "mujeres": 429,
+          "hombres": 4,
+          "dosis_unica": 0,
+          "dosis_1": 339,
+          "dosis_2": 93,
+          "dosis_otra": 1,
+          "tetra": 433,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 370,
+          "mujeres": 367,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 92,
+          "dosis_2": 277,
+          "dosis_otra": 1,
+          "tetra": 370,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 197,
+          "mujeres": 194,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 108,
+          "dosis_2": 89,
+          "dosis_otra": 0,
+          "tetra": 197,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 258,
+          "mujeres": 256,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 155,
+          "dosis_2": 102,
+          "dosis_otra": 1,
+          "tetra": 258,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 438,
+          "mujeres": 288,
+          "hombres": 150,
+          "dosis_unica": 0,
+          "dosis_1": 279,
+          "dosis_2": 159,
+          "dosis_otra": 0,
+          "tetra": 438,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 508,
+          "mujeres": 259,
+          "hombres": 249,
+          "dosis_unica": 0,
+          "dosis_1": 288,
+          "dosis_2": 220,
+          "dosis_otra": 0,
+          "tetra": 508,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 226,
+          "mujeres": 125,
+          "hombres": 101,
+          "dosis_unica": 0,
+          "dosis_1": 122,
+          "dosis_2": 102,
+          "dosis_otra": 2,
+          "tetra": 226,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 579,
+          "mujeres": 282,
+          "hombres": 297,
+          "dosis_unica": 0,
+          "dosis_1": 305,
+          "dosis_2": 273,
+          "dosis_otra": 1,
+          "tetra": 579,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 654,
+          "mujeres": 302,
+          "hombres": 352,
+          "dosis_unica": 0,
+          "dosis_1": 310,
+          "dosis_2": 344,
+          "dosis_otra": 0,
+          "tetra": 654,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 598,
+          "mujeres": 301,
+          "hombres": 297,
+          "dosis_unica": 292,
+          "dosis_1": 8,
+          "dosis_2": 293,
+          "dosis_otra": 5,
+          "tetra": 306,
+          "nona": 292,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 327,
+          "mujeres": 174,
+          "hombres": 153,
+          "dosis_unica": 270,
+          "dosis_1": 7,
+          "dosis_2": 50,
+          "dosis_otra": 0,
+          "tetra": 57,
+          "nona": 270,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 231,
+          "mujeres": 119,
+          "hombres": 112,
+          "dosis_unica": 224,
+          "dosis_1": 3,
+          "dosis_2": 4,
+          "dosis_otra": 0,
+          "tetra": 4,
+          "nona": 227,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 4442,
+      "total_mujeres": 2814,
+      "total_hombres": 1628,
+      "total_tetra": 3694,
+      "total_nona": 748,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 743,
+      "total_dosis_1": 1885,
+      "total_dosis_2": 1807,
+      "por_ano": {
+        "2014": {
+          "total": 87,
+          "mujeres": 86,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 87,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 87,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 310,
+          "mujeres": 308,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 231,
+          "dosis_2": 79,
+          "dosis_otra": 0,
+          "tetra": 310,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 296,
+          "mujeres": 294,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 92,
+          "dosis_2": 204,
+          "dosis_otra": 0,
+          "tetra": 296,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 137,
+          "mujeres": 136,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 83,
+          "dosis_2": 53,
+          "dosis_otra": 1,
+          "tetra": 137,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 204,
+          "mujeres": 203,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 123,
+          "dosis_2": 81,
+          "dosis_otra": 0,
+          "tetra": 204,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 357,
+          "mujeres": 262,
+          "hombres": 95,
+          "dosis_unica": 0,
+          "dosis_1": 224,
+          "dosis_2": 133,
+          "dosis_otra": 0,
+          "tetra": 357,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 537,
+          "mujeres": 272,
+          "hombres": 265,
+          "dosis_unica": 0,
+          "dosis_1": 297,
+          "dosis_2": 240,
+          "dosis_otra": 0,
+          "tetra": 537,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 519,
+          "mujeres": 243,
+          "hombres": 276,
+          "dosis_unica": 0,
+          "dosis_1": 258,
+          "dosis_2": 260,
+          "dosis_otra": 1,
+          "tetra": 519,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 524,
+          "mujeres": 271,
+          "hombres": 253,
+          "dosis_unica": 0,
+          "dosis_1": 298,
+          "dosis_2": 226,
+          "dosis_otra": 0,
+          "tetra": 524,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 415,
+          "mujeres": 200,
+          "hombres": 215,
+          "dosis_unica": 0,
+          "dosis_1": 183,
+          "dosis_2": 232,
+          "dosis_otra": 0,
+          "tetra": 415,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 503,
+          "mujeres": 256,
+          "hombres": 247,
+          "dosis_unica": 242,
+          "dosis_1": 3,
+          "dosis_2": 254,
+          "dosis_otra": 4,
+          "tetra": 261,
+          "nona": 242,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 309,
+          "mujeres": 161,
+          "hombres": 148,
+          "dosis_unica": 262,
+          "dosis_1": 3,
+          "dosis_2": 44,
+          "dosis_otra": 0,
+          "tetra": 45,
+          "nona": 264,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 244,
+          "mujeres": 122,
+          "hombres": 122,
+          "dosis_unica": 239,
+          "dosis_1": 3,
+          "dosis_2": 1,
+          "dosis_otra": 1,
+          "tetra": 2,
+          "nona": 242,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 4411,
+      "total_mujeres": 2258,
+      "total_hombres": 2152,
+      "total_tetra": 3311,
+      "total_nona": 1100,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 1093,
+      "total_dosis_1": 1538,
+      "total_dosis_2": 1766,
+      "por_ano": {
+        "2020": {
+          "total": 705,
+          "mujeres": 400,
+          "hombres": 305,
+          "dosis_unica": 0,
+          "dosis_1": 366,
+          "dosis_2": 339,
+          "dosis_otra": 0,
+          "tetra": 705,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 714,
+          "mujeres": 384,
+          "hombres": 329,
+          "dosis_unica": 0,
+          "dosis_1": 386,
+          "dosis_2": 328,
+          "dosis_otra": 0,
+          "tetra": 714,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 757,
+          "mujeres": 375,
+          "hombres": 382,
+          "dosis_unica": 0,
+          "dosis_1": 425,
+          "dosis_2": 332,
+          "dosis_otra": 0,
+          "tetra": 757,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 591,
+          "mujeres": 286,
+          "hombres": 305,
+          "dosis_unica": 0,
+          "dosis_1": 308,
+          "dosis_2": 282,
+          "dosis_otra": 1,
+          "tetra": 591,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 756,
+          "mujeres": 375,
+          "hombres": 381,
+          "dosis_unica": 382,
+          "dosis_1": 6,
+          "dosis_2": 364,
+          "dosis_otra": 4,
+          "tetra": 374,
+          "nona": 382,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 538,
+          "mujeres": 262,
+          "hombres": 276,
+          "dosis_unica": 397,
+          "dosis_1": 39,
+          "dosis_2": 98,
+          "dosis_otra": 4,
+          "tetra": 141,
+          "nona": 397,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 350,
+          "mujeres": 176,
+          "hombres": 174,
+          "dosis_unica": 314,
+          "dosis_1": 8,
+          "dosis_2": 23,
+          "dosis_otra": 5,
+          "tetra": 29,
+          "nona": 321,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Dr Pedro Jáuregui",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 2531,
+      "total_mujeres": 2320,
+      "total_hombres": 211,
+      "total_tetra": 2531,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1517,
+      "total_dosis_2": 1012,
+      "por_ano": {
+        "2014": {
+          "total": 134,
+          "mujeres": 133,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 134,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 134,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 615,
+          "mujeres": 606,
+          "hombres": 9,
+          "dosis_unica": 0,
+          "dosis_1": 477,
+          "dosis_2": 138,
+          "dosis_otra": 0,
+          "tetra": 615,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 551,
+          "mujeres": 548,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 145,
+          "dosis_2": 405,
+          "dosis_otra": 1,
+          "tetra": 551,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 252,
+          "mujeres": 249,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 132,
+          "dosis_2": 120,
+          "dosis_otra": 0,
+          "tetra": 252,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 356,
+          "mujeres": 354,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 212,
+          "dosis_2": 143,
+          "dosis_otra": 1,
+          "tetra": 356,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 623,
+          "mujeres": 430,
+          "hombres": 193,
+          "dosis_unica": 0,
+          "dosis_1": 417,
+          "dosis_2": 206,
+          "dosis_otra": 0,
+          "tetra": 623,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "comuna_cod": "10305",
+      "comuna_nom": "Río Negro",
+      "total_historico": 1883,
+      "total_mujeres": 932,
+      "total_hombres": 950,
+      "total_tetra": 1540,
+      "total_nona": 343,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 342,
+      "total_dosis_1": 714,
+      "total_dosis_2": 825,
+      "por_ano": {
+        "2020": {
+          "total": 316,
+          "mujeres": 164,
+          "hombres": 151,
+          "dosis_unica": 0,
+          "dosis_1": 168,
+          "dosis_2": 148,
+          "dosis_otra": 0,
+          "tetra": 316,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 243,
+          "mujeres": 111,
+          "hombres": 132,
+          "dosis_unica": 0,
+          "dosis_1": 141,
+          "dosis_2": 102,
+          "dosis_otra": 0,
+          "tetra": 243,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 379,
+          "mujeres": 183,
+          "hombres": 196,
+          "dosis_unica": 0,
+          "dosis_1": 224,
+          "dosis_2": 155,
+          "dosis_otra": 0,
+          "tetra": 379,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 435,
+          "mujeres": 216,
+          "hombres": 219,
+          "dosis_unica": 0,
+          "dosis_1": 175,
+          "dosis_2": 259,
+          "dosis_otra": 1,
+          "tetra": 435,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 276,
+          "mujeres": 140,
+          "hombres": 136,
+          "dosis_unica": 124,
+          "dosis_1": 2,
+          "dosis_2": 150,
+          "dosis_otra": 0,
+          "tetra": 152,
+          "nona": 124,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 115,
+          "mujeres": 61,
+          "hombres": 54,
+          "dosis_unica": 103,
+          "dosis_1": 3,
+          "dosis_2": 8,
+          "dosis_otra": 1,
+          "tetra": 12,
+          "nona": 103,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 119,
+          "mujeres": 57,
+          "hombres": 62,
+          "dosis_unica": 115,
+          "dosis_1": 1,
+          "dosis_2": 3,
+          "dosis_otra": 0,
+          "tetra": 3,
+          "nona": 116,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "comuna_cod": "10304",
+      "comuna_nom": "Puyehue",
+      "total_historico": 1575,
+      "total_mujeres": 777,
+      "total_hombres": 796,
+      "total_tetra": 1200,
+      "total_nona": 375,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 374,
+      "total_dosis_1": 524,
+      "total_dosis_2": 675,
+      "por_ano": {
+        "2020": {
+          "total": 250,
+          "mujeres": 135,
+          "hombres": 115,
+          "dosis_unica": 0,
+          "dosis_1": 121,
+          "dosis_2": 129,
+          "dosis_otra": 0,
+          "tetra": 250,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 212,
+          "mujeres": 110,
+          "hombres": 100,
+          "dosis_unica": 0,
+          "dosis_1": 115,
+          "dosis_2": 97,
+          "dosis_otra": 0,
+          "tetra": 212,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 271,
+          "mujeres": 131,
+          "hombres": 140,
+          "dosis_unica": 0,
+          "dosis_1": 157,
+          "dosis_2": 114,
+          "dosis_otra": 0,
+          "tetra": 271,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 326,
+          "mujeres": 153,
+          "hombres": 173,
+          "dosis_unica": 0,
+          "dosis_1": 129,
+          "dosis_2": 197,
+          "dosis_otra": 0,
+          "tetra": 326,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 261,
+          "mujeres": 115,
+          "hombres": 146,
+          "dosis_unica": 139,
+          "dosis_1": 0,
+          "dosis_2": 121,
+          "dosis_otra": 1,
+          "tetra": 122,
+          "nona": 139,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 130,
+          "mujeres": 65,
+          "hombres": 65,
+          "dosis_unica": 111,
+          "dosis_1": 2,
+          "dosis_2": 17,
+          "dosis_otra": 0,
+          "tetra": 19,
+          "nona": 111,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 125,
+          "mujeres": 68,
+          "hombres": 57,
+          "dosis_unica": 124,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 1,
+          "tetra": 0,
+          "nona": 125,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Hospital Base San José de Osorno",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1566,
+      "total_mujeres": 1265,
+      "total_hombres": 301,
+      "total_tetra": 1386,
+      "total_nona": 180,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 3,
+      "total_dosis_1": 563,
+      "total_dosis_2": 539,
+      "por_ano": {
+        "2020": {
+          "total": 88,
+          "mujeres": 35,
+          "hombres": 53,
+          "dosis_unica": 0,
+          "dosis_1": 26,
+          "dosis_2": 26,
+          "dosis_otra": 36,
+          "tetra": 88,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 25,
+          "mujeres": 8,
+          "hombres": 17,
+          "dosis_unica": 0,
+          "dosis_1": 10,
+          "dosis_2": 9,
+          "dosis_otra": 6,
+          "tetra": 25,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 58,
+          "mujeres": 11,
+          "hombres": 47,
+          "dosis_unica": 0,
+          "dosis_1": 27,
+          "dosis_2": 20,
+          "dosis_otra": 11,
+          "tetra": 58,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 186,
+          "mujeres": 137,
+          "hombres": 49,
+          "dosis_unica": 0,
+          "dosis_1": 99,
+          "dosis_2": 57,
+          "dosis_otra": 30,
+          "tetra": 186,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 541,
+          "mujeres": 488,
+          "hombres": 53,
+          "dosis_unica": 0,
+          "dosis_1": 185,
+          "dosis_2": 204,
+          "dosis_otra": 152,
+          "tetra": 541,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 393,
+          "mujeres": 353,
+          "hombres": 40,
+          "dosis_unica": 0,
+          "dosis_1": 127,
+          "dosis_2": 127,
+          "dosis_otra": 139,
+          "tetra": 393,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 275,
+          "mujeres": 233,
+          "hombres": 42,
+          "dosis_unica": 3,
+          "dosis_1": 89,
+          "dosis_2": 96,
+          "dosis_otra": 87,
+          "tetra": 95,
+          "nona": 180,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Hospital de Puerto Octay",
+      "comuna_cod": "10302",
+      "comuna_nom": "Puerto Octay",
+      "total_historico": 1488,
+      "total_mujeres": 970,
+      "total_hombres": 518,
+      "total_tetra": 1211,
+      "total_nona": 277,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 272,
+      "total_dosis_1": 593,
+      "total_dosis_2": 611,
+      "por_ano": {
+        "2014": {
+          "total": 38,
+          "mujeres": 38,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 38,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 38,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 143,
+          "mujeres": 141,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 96,
+          "dosis_2": 47,
+          "dosis_otra": 0,
+          "tetra": 143,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 124,
+          "mujeres": 122,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 35,
+          "dosis_2": 81,
+          "dosis_otra": 8,
+          "tetra": 124,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 65,
+          "mujeres": 64,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 26,
+          "dosis_2": 38,
+          "dosis_otra": 1,
+          "tetra": 65,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 59,
+          "mujeres": 59,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 33,
+          "dosis_2": 26,
+          "dosis_otra": 0,
+          "tetra": 59,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 100,
+          "mujeres": 67,
+          "hombres": 33,
+          "dosis_unica": 0,
+          "dosis_1": 67,
+          "dosis_2": 33,
+          "dosis_otra": 0,
+          "tetra": 100,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 136,
+          "mujeres": 58,
+          "hombres": 78,
+          "dosis_unica": 0,
+          "dosis_1": 69,
+          "dosis_2": 67,
+          "dosis_otra": 0,
+          "tetra": 136,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 143,
+          "mujeres": 72,
+          "hombres": 71,
+          "dosis_unica": 0,
+          "dosis_1": 81,
+          "dosis_2": 62,
+          "dosis_otra": 0,
+          "tetra": 143,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 154,
+          "mujeres": 76,
+          "hombres": 78,
+          "dosis_unica": 0,
+          "dosis_1": 67,
+          "dosis_2": 87,
+          "dosis_otra": 0,
+          "tetra": 154,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 163,
+          "mujeres": 78,
+          "hombres": 85,
+          "dosis_unica": 0,
+          "dosis_1": 75,
+          "dosis_2": 88,
+          "dosis_otra": 0,
+          "tetra": 163,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 154,
+          "mujeres": 81,
+          "hombres": 73,
+          "dosis_unica": 74,
+          "dosis_1": 1,
+          "dosis_2": 77,
+          "dosis_otra": 2,
+          "tetra": 80,
+          "nona": 74,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 117,
+          "mujeres": 63,
+          "hombres": 54,
+          "dosis_unica": 112,
+          "dosis_1": 3,
+          "dosis_2": 1,
+          "dosis_otra": 1,
+          "tetra": 4,
+          "nona": 113,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 92,
+          "mujeres": 51,
+          "hombres": 41,
+          "dosis_unica": 86,
+          "dosis_1": 2,
+          "dosis_2": 4,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 90,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "comuna_cod": "10307",
+      "comuna_nom": "San Pablo",
+      "total_historico": 1382,
+      "total_mujeres": 659,
+      "total_hombres": 722,
+      "total_tetra": 1104,
+      "total_nona": 278,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 275,
+      "total_dosis_1": 478,
+      "total_dosis_2": 624,
+      "por_ano": {
+        "2020": {
+          "total": 255,
+          "mujeres": 116,
+          "hombres": 138,
+          "dosis_unica": 0,
+          "dosis_1": 114,
+          "dosis_2": 141,
+          "dosis_otra": 0,
+          "tetra": 255,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 203,
+          "mujeres": 96,
+          "hombres": 107,
+          "dosis_unica": 0,
+          "dosis_1": 113,
+          "dosis_2": 90,
+          "dosis_otra": 0,
+          "tetra": 203,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 271,
+          "mujeres": 122,
+          "hombres": 149,
+          "dosis_unica": 0,
+          "dosis_1": 126,
+          "dosis_2": 143,
+          "dosis_otra": 2,
+          "tetra": 271,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 247,
+          "mujeres": 117,
+          "hombres": 130,
+          "dosis_unica": 0,
+          "dosis_1": 120,
+          "dosis_2": 127,
+          "dosis_otra": 0,
+          "tetra": 247,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 216,
+          "mujeres": 109,
+          "hombres": 107,
+          "dosis_unica": 103,
+          "dosis_1": 1,
+          "dosis_2": 109,
+          "dosis_otra": 3,
+          "tetra": 113,
+          "nona": 103,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 112,
+          "mujeres": 55,
+          "hombres": 57,
+          "dosis_unica": 98,
+          "dosis_1": 3,
+          "dosis_2": 11,
+          "dosis_otra": 0,
+          "tetra": 14,
+          "nona": 98,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 78,
+          "mujeres": 44,
+          "hombres": 34,
+          "dosis_unica": 74,
+          "dosis_1": 1,
+          "dosis_2": 3,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 77,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1192,
+      "total_mujeres": 767,
+      "total_hombres": 425,
+      "total_tetra": 1012,
+      "total_nona": 180,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 180,
+      "total_dosis_1": 543,
+      "total_dosis_2": 469,
+      "por_ano": {
+        "2014": {
+          "total": 33,
+          "mujeres": 33,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 33,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 33,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 105,
+          "mujeres": 104,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 81,
+          "dosis_2": 24,
+          "dosis_otra": 0,
+          "tetra": 105,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 82,
+          "mujeres": 80,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 31,
+          "dosis_2": 51,
+          "dosis_otra": 0,
+          "tetra": 82,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 58,
+          "mujeres": 58,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 38,
+          "dosis_2": 20,
+          "dosis_otra": 0,
+          "tetra": 58,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 64,
+          "mujeres": 64,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 31,
+          "dosis_2": 33,
+          "dosis_otra": 0,
+          "tetra": 64,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 70,
+          "mujeres": 51,
+          "hombres": 19,
+          "dosis_unica": 0,
+          "dosis_1": 52,
+          "dosis_2": 18,
+          "dosis_otra": 0,
+          "tetra": 70,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 130,
+          "mujeres": 70,
+          "hombres": 60,
+          "dosis_unica": 0,
+          "dosis_1": 70,
+          "dosis_2": 60,
+          "dosis_otra": 0,
+          "tetra": 130,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 119,
+          "mujeres": 60,
+          "hombres": 59,
+          "dosis_unica": 0,
+          "dosis_1": 64,
+          "dosis_2": 55,
+          "dosis_otra": 0,
+          "tetra": 119,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 127,
+          "mujeres": 69,
+          "hombres": 58,
+          "dosis_unica": 0,
+          "dosis_1": 71,
+          "dosis_2": 56,
+          "dosis_otra": 0,
+          "tetra": 127,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 150,
+          "mujeres": 58,
+          "hombres": 92,
+          "dosis_unica": 0,
+          "dosis_1": 72,
+          "dosis_2": 78,
+          "dosis_otra": 0,
+          "tetra": 150,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 140,
+          "mujeres": 58,
+          "hombres": 82,
+          "dosis_unica": 68,
+          "dosis_1": 0,
+          "dosis_2": 72,
+          "dosis_otra": 0,
+          "tetra": 72,
+          "nona": 68,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 57,
+          "mujeres": 30,
+          "hombres": 27,
+          "dosis_unica": 55,
+          "dosis_1": 0,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 55,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 57,
+          "mujeres": 32,
+          "hombres": 25,
+          "dosis_unica": 57,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 57,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Río Negro",
+      "comuna_cod": "10305",
+      "comuna_nom": "Río Negro",
+      "total_historico": 1104,
+      "total_mujeres": 1003,
+      "total_hombres": 100,
+      "total_tetra": 1104,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 656,
+      "total_dosis_2": 436,
+      "por_ano": {
+        "2014": {
+          "total": 85,
+          "mujeres": 82,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 85,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 85,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 295,
+          "mujeres": 285,
+          "hombres": 10,
+          "dosis_unica": 0,
+          "dosis_1": 207,
+          "dosis_2": 88,
+          "dosis_otra": 0,
+          "tetra": 295,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 252,
+          "mujeres": 247,
+          "hombres": 5,
+          "dosis_unica": 0,
+          "dosis_1": 67,
+          "dosis_2": 176,
+          "dosis_otra": 9,
+          "tetra": 252,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 122,
+          "mujeres": 121,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 64,
+          "dosis_2": 55,
+          "dosis_otra": 3,
+          "tetra": 122,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 146,
+          "mujeres": 144,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 87,
+          "dosis_2": 59,
+          "dosis_otra": 0,
+          "tetra": 146,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 204,
+          "mujeres": 124,
+          "hombres": 79,
+          "dosis_unica": 0,
+          "dosis_1": 146,
+          "dosis_2": 58,
+          "dosis_otra": 0,
+          "tetra": 204,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio Entre Lagos",
+      "comuna_cod": "10304",
+      "comuna_nom": "Puyehue",
+      "total_historico": 1081,
+      "total_mujeres": 1014,
+      "total_hombres": 67,
+      "total_tetra": 1081,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 624,
+      "total_dosis_2": 452,
+      "por_ano": {
+        "2014": {
+          "total": 62,
+          "mujeres": 62,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 62,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 62,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 294,
+          "mujeres": 292,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 229,
+          "dosis_2": 65,
+          "dosis_otra": 0,
+          "tetra": 294,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 281,
+          "mujeres": 281,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 78,
+          "dosis_2": 198,
+          "dosis_otra": 5,
+          "tetra": 281,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 134,
+          "mujeres": 134,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 63,
+          "dosis_2": 71,
+          "dosis_otra": 0,
+          "tetra": 134,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 121,
+          "mujeres": 119,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 62,
+          "dosis_2": 59,
+          "dosis_otra": 0,
+          "tetra": 121,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 189,
+          "mujeres": 126,
+          "hombres": 63,
+          "dosis_unica": 0,
+          "dosis_1": 130,
+          "dosis_2": 59,
+          "dosis_otra": 0,
+          "tetra": 189,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Clínica Alemana de Osorno",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1073,
+      "total_mujeres": 809,
+      "total_hombres": 264,
+      "total_tetra": 117,
+      "total_nona": 950,
+      "total_biv": 6,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 8,
+      "total_dosis_1": 488,
+      "total_dosis_2": 369,
+      "por_ano": {
+        "2015": {
+          "total": 14,
+          "mujeres": 14,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 8,
+          "dosis_2": 5,
+          "dosis_otra": 1,
+          "tetra": 14,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 35,
+          "mujeres": 33,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 21,
+          "dosis_2": 12,
+          "dosis_otra": 2,
+          "tetra": 30,
+          "nona": 0,
+          "biv": 5,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 17,
+          "mujeres": 14,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 5,
+          "dosis_2": 5,
+          "dosis_otra": 7,
+          "tetra": 13,
+          "nona": 3,
+          "biv": 1,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 54,
+          "mujeres": 42,
+          "hombres": 12,
+          "dosis_unica": 0,
+          "dosis_1": 24,
+          "dosis_2": 21,
+          "dosis_otra": 9,
+          "tetra": 4,
+          "nona": 50,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 45,
+          "mujeres": 32,
+          "hombres": 13,
+          "dosis_unica": 0,
+          "dosis_1": 21,
+          "dosis_2": 10,
+          "dosis_otra": 14,
+          "tetra": 3,
+          "nona": 42,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 55,
+          "mujeres": 37,
+          "hombres": 18,
+          "dosis_unica": 0,
+          "dosis_1": 24,
+          "dosis_2": 19,
+          "dosis_otra": 12,
+          "tetra": 4,
+          "nona": 51,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 54,
+          "mujeres": 38,
+          "hombres": 16,
+          "dosis_unica": 0,
+          "dosis_1": 32,
+          "dosis_2": 17,
+          "dosis_otra": 5,
+          "tetra": 12,
+          "nona": 42,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 103,
+          "mujeres": 83,
+          "hombres": 20,
+          "dosis_unica": 0,
+          "dosis_1": 45,
+          "dosis_2": 37,
+          "dosis_otra": 21,
+          "tetra": 8,
+          "nona": 95,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 122,
+          "mujeres": 102,
+          "hombres": 20,
+          "dosis_unica": 0,
+          "dosis_1": 49,
+          "dosis_2": 40,
+          "dosis_otra": 33,
+          "tetra": 4,
+          "nona": 118,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 102,
+          "mujeres": 74,
+          "hombres": 28,
+          "dosis_unica": 0,
+          "dosis_1": 45,
+          "dosis_2": 30,
+          "dosis_otra": 27,
+          "tetra": 4,
+          "nona": 98,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 198,
+          "mujeres": 121,
+          "hombres": 77,
+          "dosis_unica": 5,
+          "dosis_1": 91,
+          "dosis_2": 63,
+          "dosis_otra": 39,
+          "tetra": 8,
+          "nona": 190,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 274,
+          "mujeres": 219,
+          "hombres": 55,
+          "dosis_unica": 3,
+          "dosis_1": 123,
+          "dosis_2": 110,
+          "dosis_otra": 38,
+          "tetra": 13,
+          "nona": 261,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "comuna_cod": "10306",
+      "comuna_nom": "San Juan de la Costa",
+      "total_historico": 911,
+      "total_mujeres": 602,
+      "total_hombres": 307,
+      "total_tetra": 793,
+      "total_nona": 118,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 114,
+      "total_dosis_1": 405,
+      "total_dosis_2": 391,
+      "por_ano": {
+        "2014": {
+          "total": 17,
+          "mujeres": 17,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 17,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 17,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 79,
+          "mujeres": 79,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 61,
+          "dosis_2": 18,
+          "dosis_otra": 0,
+          "tetra": 79,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 83,
+          "mujeres": 81,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 27,
+          "dosis_2": 56,
+          "dosis_otra": 0,
+          "tetra": 83,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 40,
+          "mujeres": 40,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 20,
+          "dosis_2": 20,
+          "dosis_otra": 0,
+          "tetra": 40,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 33,
+          "mujeres": 33,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 14,
+          "dosis_2": 19,
+          "dosis_otra": 0,
+          "tetra": 33,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 79,
+          "mujeres": 44,
+          "hombres": 35,
+          "dosis_unica": 0,
+          "dosis_1": 59,
+          "dosis_2": 20,
+          "dosis_otra": 0,
+          "tetra": 79,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 98,
+          "mujeres": 47,
+          "hombres": 51,
+          "dosis_unica": 0,
+          "dosis_1": 46,
+          "dosis_2": 52,
+          "dosis_otra": 0,
+          "tetra": 98,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 89,
+          "mujeres": 43,
+          "hombres": 44,
+          "dosis_unica": 0,
+          "dosis_1": 52,
+          "dosis_2": 36,
+          "dosis_otra": 1,
+          "tetra": 89,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 98,
+          "mujeres": 55,
+          "hombres": 43,
+          "dosis_unica": 0,
+          "dosis_1": 48,
+          "dosis_2": 50,
+          "dosis_otra": 0,
+          "tetra": 98,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 113,
+          "mujeres": 63,
+          "hombres": 50,
+          "dosis_unica": 0,
+          "dosis_1": 58,
+          "dosis_2": 55,
+          "dosis_otra": 0,
+          "tetra": 113,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 109,
+          "mujeres": 64,
+          "hombres": 45,
+          "dosis_unica": 49,
+          "dosis_1": 1,
+          "dosis_2": 59,
+          "dosis_otra": 0,
+          "tetra": 59,
+          "nona": 50,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 47,
+          "mujeres": 21,
+          "hombres": 26,
+          "dosis_unica": 42,
+          "dosis_1": 1,
+          "dosis_2": 4,
+          "dosis_otra": 0,
+          "tetra": 5,
+          "nona": 42,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 26,
+          "mujeres": 15,
+          "hombres": 11,
+          "dosis_unica": 23,
+          "dosis_1": 1,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 26,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio San Pablo",
+      "comuna_cod": "10307",
+      "comuna_nom": "San Pablo",
+      "total_historico": 884,
+      "total_mujeres": 809,
+      "total_hombres": 75,
+      "total_tetra": 884,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 511,
+      "total_dosis_2": 366,
+      "por_ano": {
+        "2014": {
+          "total": 63,
+          "mujeres": 63,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 63,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 63,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 215,
+          "mujeres": 215,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 145,
+          "dosis_2": 70,
+          "dosis_otra": 0,
+          "tetra": 215,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 183,
+          "mujeres": 183,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 52,
+          "dosis_2": 127,
+          "dosis_otra": 4,
+          "tetra": 183,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 98,
+          "mujeres": 97,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 52,
+          "dosis_2": 43,
+          "dosis_otra": 3,
+          "tetra": 98,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 118,
+          "mujeres": 115,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 64,
+          "dosis_2": 54,
+          "dosis_otra": 0,
+          "tetra": 118,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 207,
+          "mujeres": 136,
+          "hombres": 71,
+          "dosis_unica": 0,
+          "dosis_1": 135,
+          "dosis_2": 72,
+          "dosis_otra": 0,
+          "tetra": 207,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Unidad de Vacunación Móvil de Los Lagos",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 808,
+      "total_mujeres": 399,
+      "total_hombres": 409,
+      "total_tetra": 808,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 368,
+      "total_dosis_2": 440,
+      "por_ano": {
+        "2023": {
+          "total": 808,
+          "mujeres": 399,
+          "hombres": 409,
+          "dosis_unica": 0,
+          "dosis_1": 368,
+          "dosis_2": 440,
+          "dosis_otra": 0,
+          "tetra": 808,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "comuna_cod": "10306",
+      "comuna_nom": "San Juan de la Costa",
+      "total_historico": 345,
+      "total_mujeres": 173,
+      "total_hombres": 172,
+      "total_tetra": 268,
+      "total_nona": 77,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 76,
+      "total_dosis_1": 115,
+      "total_dosis_2": 154,
+      "por_ano": {
+        "2020": {
+          "total": 48,
+          "mujeres": 29,
+          "hombres": 19,
+          "dosis_unica": 0,
+          "dosis_1": 19,
+          "dosis_2": 29,
+          "dosis_otra": 0,
+          "tetra": 48,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 56,
+          "mujeres": 26,
+          "hombres": 30,
+          "dosis_unica": 0,
+          "dosis_1": 30,
+          "dosis_2": 26,
+          "dosis_otra": 0,
+          "tetra": 56,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 55,
+          "mujeres": 21,
+          "hombres": 34,
+          "dosis_unica": 0,
+          "dosis_1": 31,
+          "dosis_2": 24,
+          "dosis_otra": 0,
+          "tetra": 55,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 73,
+          "mujeres": 36,
+          "hombres": 37,
+          "dosis_unica": 0,
+          "dosis_1": 34,
+          "dosis_2": 39,
+          "dosis_otra": 0,
+          "tetra": 73,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 61,
+          "mujeres": 32,
+          "hombres": 29,
+          "dosis_unica": 26,
+          "dosis_1": 1,
+          "dosis_2": 34,
+          "dosis_otra": 0,
+          "tetra": 34,
+          "nona": 27,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 39,
+          "mujeres": 21,
+          "hombres": 18,
+          "dosis_unica": 37,
+          "dosis_1": 0,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 37,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 13,
+          "mujeres": 8,
+          "hombres": 5,
+          "dosis_unica": 13,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 13,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural Cascadas",
+      "comuna_cod": "10302",
+      "comuna_nom": "Puerto Octay",
+      "total_historico": 315,
+      "total_mujeres": 207,
+      "total_hombres": 108,
+      "total_tetra": 275,
+      "total_nona": 40,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 39,
+      "total_dosis_1": 140,
+      "total_dosis_2": 136,
+      "por_ano": {
+        "2014": {
+          "total": 5,
+          "mujeres": 5,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 5,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 5,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 35,
+          "mujeres": 35,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 31,
+          "dosis_2": 4,
+          "dosis_otra": 0,
+          "tetra": 35,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 39,
+          "mujeres": 39,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 9,
+          "dosis_2": 30,
+          "dosis_otra": 0,
+          "tetra": 39,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 10,
+          "mujeres": 10,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 4,
+          "dosis_2": 6,
+          "dosis_otra": 0,
+          "tetra": 10,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 34,
+          "mujeres": 24,
+          "hombres": 10,
+          "dosis_unica": 0,
+          "dosis_1": 23,
+          "dosis_2": 11,
+          "dosis_otra": 0,
+          "tetra": 34,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 29,
+          "mujeres": 14,
+          "hombres": 15,
+          "dosis_unica": 0,
+          "dosis_1": 11,
+          "dosis_2": 18,
+          "dosis_otra": 0,
+          "tetra": 29,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 29,
+          "mujeres": 14,
+          "hombres": 15,
+          "dosis_unica": 0,
+          "dosis_1": 12,
+          "dosis_2": 17,
+          "dosis_otra": 0,
+          "tetra": 29,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 38,
+          "mujeres": 21,
+          "hombres": 17,
+          "dosis_unica": 0,
+          "dosis_1": 25,
+          "dosis_2": 13,
+          "dosis_otra": 0,
+          "tetra": 38,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 36,
+          "mujeres": 16,
+          "hombres": 20,
+          "dosis_unica": 0,
+          "dosis_1": 19,
+          "dosis_2": 17,
+          "dosis_otra": 0,
+          "tetra": 36,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 41,
+          "mujeres": 19,
+          "hombres": 22,
+          "dosis_unica": 22,
+          "dosis_1": 0,
+          "dosis_2": 19,
+          "dosis_otra": 0,
+          "tetra": 19,
+          "nona": 22,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 19,
+          "mujeres": 10,
+          "hombres": 9,
+          "dosis_unica": 17,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 18,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "comuna_cod": "10306",
+      "comuna_nom": "San Juan de la Costa",
+      "total_historico": 290,
+      "total_mujeres": 154,
+      "total_hombres": 136,
+      "total_tetra": 238,
+      "total_nona": 52,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 49,
+      "total_dosis_1": 114,
+      "total_dosis_2": 125,
+      "por_ano": {
+        "2020": {
+          "total": 60,
+          "mujeres": 32,
+          "hombres": 28,
+          "dosis_unica": 0,
+          "dosis_1": 31,
+          "dosis_2": 29,
+          "dosis_otra": 0,
+          "tetra": 60,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 53,
+          "mujeres": 30,
+          "hombres": 23,
+          "dosis_unica": 0,
+          "dosis_1": 28,
+          "dosis_2": 25,
+          "dosis_otra": 0,
+          "tetra": 53,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 47,
+          "mujeres": 28,
+          "hombres": 19,
+          "dosis_unica": 0,
+          "dosis_1": 29,
+          "dosis_2": 18,
+          "dosis_otra": 0,
+          "tetra": 47,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 57,
+          "mujeres": 28,
+          "hombres": 29,
+          "dosis_unica": 0,
+          "dosis_1": 25,
+          "dosis_2": 32,
+          "dosis_otra": 0,
+          "tetra": 57,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 40,
+          "mujeres": 17,
+          "hombres": 23,
+          "dosis_unica": 19,
+          "dosis_1": 0,
+          "dosis_2": 20,
+          "dosis_otra": 1,
+          "tetra": 21,
+          "nona": 19,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 17,
+          "mujeres": 11,
+          "hombres": 6,
+          "dosis_unica": 15,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 17,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 16,
+          "mujeres": 8,
+          "hombres": 8,
+          "dosis_unica": 15,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 1,
+          "tetra": 0,
+          "nona": 16,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "comuna_cod": "10307",
+      "comuna_nom": "San Pablo",
+      "total_historico": 259,
+      "total_mujeres": 111,
+      "total_hombres": 148,
+      "total_tetra": 176,
+      "total_nona": 83,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 83,
+      "total_dosis_1": 72,
+      "total_dosis_2": 104,
+      "por_ano": {
+        "2020": {
+          "total": 31,
+          "mujeres": 7,
+          "hombres": 24,
+          "dosis_unica": 0,
+          "dosis_1": 16,
+          "dosis_2": 15,
+          "dosis_otra": 0,
+          "tetra": 31,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 36,
+          "mujeres": 16,
+          "hombres": 20,
+          "dosis_unica": 0,
+          "dosis_1": 17,
+          "dosis_2": 19,
+          "dosis_otra": 0,
+          "tetra": 36,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 32,
+          "mujeres": 19,
+          "hombres": 13,
+          "dosis_unica": 0,
+          "dosis_1": 18,
+          "dosis_2": 14,
+          "dosis_otra": 0,
+          "tetra": 32,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 40,
+          "mujeres": 19,
+          "hombres": 21,
+          "dosis_unica": 0,
+          "dosis_1": 19,
+          "dosis_2": 21,
+          "dosis_otra": 0,
+          "tetra": 40,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 56,
+          "mujeres": 23,
+          "hombres": 33,
+          "dosis_unica": 28,
+          "dosis_1": 0,
+          "dosis_2": 28,
+          "dosis_otra": 0,
+          "tetra": 28,
+          "nona": 28,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 34,
+          "mujeres": 11,
+          "hombres": 23,
+          "dosis_unica": 25,
+          "dosis_1": 2,
+          "dosis_2": 7,
+          "dosis_otra": 0,
+          "tetra": 9,
+          "nona": 25,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 30,
+          "mujeres": 16,
+          "hombres": 14,
+          "dosis_unica": 30,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 30,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Hospital Misión San Juan de la Costa",
+      "comuna_cod": "10306",
+      "comuna_nom": "San Juan de la Costa",
+      "total_historico": 241,
+      "total_mujeres": 221,
+      "total_hombres": 18,
+      "total_tetra": 241,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 148,
+      "total_dosis_2": 93,
+      "por_ano": {
+        "2015": {
+          "total": 63,
+          "mujeres": 62,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 63,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 63,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 63,
+          "mujeres": 61,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 16,
+          "dosis_2": 47,
+          "dosis_otra": 0,
+          "tetra": 63,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 19,
+          "mujeres": 18,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 12,
+          "dosis_2": 7,
+          "dosis_otra": 0,
+          "tetra": 19,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 41,
+          "mujeres": 41,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 22,
+          "dosis_2": 19,
+          "dosis_otra": 0,
+          "tetra": 41,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 55,
+          "mujeres": 39,
+          "hombres": 16,
+          "dosis_unica": 0,
+          "dosis_1": 35,
+          "dosis_2": 20,
+          "dosis_otra": 0,
+          "tetra": 55,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio Bahía Mansa",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 238,
+      "total_mujeres": 219,
+      "total_hombres": 19,
+      "total_tetra": 238,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 136,
+      "total_dosis_2": 96,
+      "por_ano": {
+        "2014": {
+          "total": 16,
+          "mujeres": 16,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 16,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 16,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 69,
+          "mujeres": 67,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 47,
+          "dosis_2": 22,
+          "dosis_otra": 0,
+          "tetra": 69,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 64,
+          "mujeres": 62,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 19,
+          "dosis_2": 40,
+          "dosis_otra": 5,
+          "tetra": 64,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 23,
+          "mujeres": 23,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 10,
+          "dosis_2": 12,
+          "dosis_otra": 1,
+          "tetra": 23,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 31,
+          "mujeres": 31,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 21,
+          "dosis_2": 10,
+          "dosis_otra": 0,
+          "tetra": 31,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 35,
+          "mujeres": 20,
+          "hombres": 15,
+          "dosis_unica": 0,
+          "dosis_1": 23,
+          "dosis_2": 12,
+          "dosis_otra": 0,
+          "tetra": 35,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Hospital del Perpetuo Socorro de Quilacahuin",
+      "comuna_cod": "10307",
+      "comuna_nom": "San Pablo",
+      "total_historico": 223,
+      "total_mujeres": 207,
+      "total_hombres": 16,
+      "total_tetra": 223,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 132,
+      "total_dosis_2": 91,
+      "por_ano": {
+        "2014": {
+          "total": 15,
+          "mujeres": 15,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 15,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 15,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 67,
+          "mujeres": 67,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 56,
+          "dosis_2": 11,
+          "dosis_otra": 0,
+          "tetra": 67,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 55,
+          "mujeres": 55,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 16,
+          "dosis_2": 39,
+          "dosis_otra": 0,
+          "tetra": 55,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 27,
+          "mujeres": 27,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 9,
+          "dosis_2": 18,
+          "dosis_otra": 0,
+          "tetra": 27,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 24,
+          "mujeres": 24,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 13,
+          "dosis_2": 11,
+          "dosis_otra": 0,
+          "tetra": 24,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 35,
+          "mujeres": 19,
+          "hombres": 16,
+          "dosis_unica": 0,
+          "dosis_1": 23,
+          "dosis_2": 12,
+          "dosis_otra": 0,
+          "tetra": 35,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro Comunitario de Salud Familiar El Encanto",
+      "comuna_cod": "10304",
+      "comuna_nom": "Puyehue",
+      "total_historico": 176,
+      "total_mujeres": 105,
+      "total_hombres": 71,
+      "total_tetra": 152,
+      "total_nona": 24,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 24,
+      "total_dosis_1": 69,
+      "total_dosis_2": 82,
+      "por_ano": {
+        "2015": {
+          "total": 17,
+          "mujeres": 17,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 10,
+          "dosis_2": 7,
+          "dosis_otra": 0,
+          "tetra": 17,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 16,
+          "mujeres": 16,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 4,
+          "dosis_2": 11,
+          "dosis_otra": 1,
+          "tetra": 16,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 9,
+          "mujeres": 9,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 5,
+          "dosis_2": 4,
+          "dosis_otra": 0,
+          "tetra": 9,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 9,
+          "mujeres": 8,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 5,
+          "dosis_2": 4,
+          "dosis_otra": 0,
+          "tetra": 9,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 11,
+          "mujeres": 6,
+          "hombres": 5,
+          "dosis_unica": 0,
+          "dosis_1": 6,
+          "dosis_2": 5,
+          "dosis_otra": 0,
+          "tetra": 11,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 14,
+          "mujeres": 6,
+          "hombres": 8,
+          "dosis_unica": 0,
+          "dosis_1": 6,
+          "dosis_2": 8,
+          "dosis_otra": 0,
+          "tetra": 14,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 15,
+          "mujeres": 9,
+          "hombres": 6,
+          "dosis_unica": 0,
+          "dosis_1": 9,
+          "dosis_2": 6,
+          "dosis_otra": 0,
+          "tetra": 15,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 21,
+          "mujeres": 10,
+          "hombres": 11,
+          "dosis_unica": 0,
+          "dosis_1": 11,
+          "dosis_2": 10,
+          "dosis_otra": 0,
+          "tetra": 21,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 28,
+          "mujeres": 10,
+          "hombres": 18,
+          "dosis_unica": 0,
+          "dosis_1": 13,
+          "dosis_2": 15,
+          "dosis_otra": 0,
+          "tetra": 28,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 26,
+          "mujeres": 8,
+          "hombres": 18,
+          "dosis_unica": 14,
+          "dosis_1": 0,
+          "dosis_2": 12,
+          "dosis_otra": 0,
+          "tetra": 12,
+          "nona": 14,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 10,
+          "mujeres": 6,
+          "hombres": 4,
+          "dosis_unica": 10,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 10,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural Rupanco",
+      "comuna_cod": "10302",
+      "comuna_nom": "Puerto Octay",
+      "total_historico": 164,
+      "total_mujeres": 109,
+      "total_hombres": 55,
+      "total_tetra": 149,
+      "total_nona": 15,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 15,
+      "total_dosis_1": 85,
+      "total_dosis_2": 64,
+      "por_ano": {
+        "2014": {
+          "total": 5,
+          "mujeres": 5,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 5,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 5,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 23,
+          "mujeres": 23,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 14,
+          "dosis_2": 9,
+          "dosis_otra": 0,
+          "tetra": 23,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 15,
+          "mujeres": 15,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 5,
+          "dosis_2": 10,
+          "dosis_otra": 0,
+          "tetra": 15,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 7,
+          "mujeres": 7,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 4,
+          "dosis_otra": 0,
+          "tetra": 7,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 14,
+          "mujeres": 14,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 11,
+          "dosis_2": 3,
+          "dosis_otra": 0,
+          "tetra": 14,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 12,
+          "mujeres": 6,
+          "hombres": 6,
+          "dosis_unica": 0,
+          "dosis_1": 8,
+          "dosis_2": 4,
+          "dosis_otra": 0,
+          "tetra": 12,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 14,
+          "mujeres": 6,
+          "hombres": 8,
+          "dosis_unica": 0,
+          "dosis_1": 7,
+          "dosis_2": 7,
+          "dosis_otra": 0,
+          "tetra": 14,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 17,
+          "mujeres": 7,
+          "hombres": 10,
+          "dosis_unica": 0,
+          "dosis_1": 11,
+          "dosis_2": 6,
+          "dosis_otra": 0,
+          "tetra": 17,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 19,
+          "mujeres": 6,
+          "hombres": 13,
+          "dosis_unica": 0,
+          "dosis_1": 11,
+          "dosis_2": 8,
+          "dosis_otra": 0,
+          "tetra": 19,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 15,
+          "mujeres": 8,
+          "hombres": 7,
+          "dosis_unica": 0,
+          "dosis_1": 10,
+          "dosis_2": 5,
+          "dosis_otra": 0,
+          "tetra": 15,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 14,
+          "mujeres": 7,
+          "hombres": 7,
+          "dosis_unica": 6,
+          "dosis_1": 0,
+          "dosis_2": 8,
+          "dosis_otra": 0,
+          "tetra": 8,
+          "nona": 6,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 9,
+          "mujeres": 5,
+          "hombres": 4,
+          "dosis_unica": 9,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 9,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Vacunatorio Sociedad Centro Médico Cochrane SA",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 160,
+      "total_mujeres": 105,
+      "total_hombres": 55,
+      "total_tetra": 31,
+      "total_nona": 114,
+      "total_biv": 15,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 67,
+      "total_dosis_2": 63,
+      "por_ano": {
+        "2016": {
+          "total": 8,
+          "mujeres": 7,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 5,
+          "dosis_2": 3,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 0,
+          "biv": 8,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 17,
+          "mujeres": 7,
+          "hombres": 10,
+          "dosis_unica": 0,
+          "dosis_1": 9,
+          "dosis_2": 7,
+          "dosis_otra": 1,
+          "tetra": 10,
+          "nona": 0,
+          "biv": 7,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 7,
+          "mujeres": 7,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 2,
+          "dosis_otra": 2,
+          "tetra": 5,
+          "nona": 2,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 27,
+          "mujeres": 15,
+          "hombres": 12,
+          "dosis_unica": 0,
+          "dosis_1": 10,
+          "dosis_2": 13,
+          "dosis_otra": 4,
+          "tetra": 7,
+          "nona": 20,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 18,
+          "mujeres": 11,
+          "hombres": 7,
+          "dosis_unica": 0,
+          "dosis_1": 4,
+          "dosis_2": 7,
+          "dosis_otra": 7,
+          "tetra": 4,
+          "nona": 14,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 14,
+          "mujeres": 9,
+          "hombres": 5,
+          "dosis_unica": 0,
+          "dosis_1": 8,
+          "dosis_2": 5,
+          "dosis_otra": 1,
+          "tetra": 5,
+          "nona": 9,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 6,
+          "mujeres": 5,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 4,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 6,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 16,
+          "mujeres": 12,
+          "hombres": 4,
+          "dosis_unica": 0,
+          "dosis_1": 6,
+          "dosis_2": 6,
+          "dosis_otra": 4,
+          "tetra": 0,
+          "nona": 16,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 18,
+          "mujeres": 11,
+          "hombres": 7,
+          "dosis_unica": 0,
+          "dosis_1": 7,
+          "dosis_2": 6,
+          "dosis_otra": 5,
+          "tetra": 0,
+          "nona": 18,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 12,
+          "mujeres": 9,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 7,
+          "dosis_2": 4,
+          "dosis_otra": 1,
+          "tetra": 0,
+          "nona": 12,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 17,
+          "mujeres": 12,
+          "hombres": 5,
+          "dosis_unica": 0,
+          "dosis_1": 6,
+          "dosis_2": 6,
+          "dosis_otra": 5,
+          "tetra": 0,
+          "nona": 17,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural Coihueco (Puerto Octay)",
+      "comuna_cod": "10302",
+      "comuna_nom": "Puerto Octay",
+      "total_historico": 156,
+      "total_mujeres": 113,
+      "total_hombres": 43,
+      "total_tetra": 150,
+      "total_nona": 6,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 6,
+      "total_dosis_1": 71,
+      "total_dosis_2": 79,
+      "por_ano": {
+        "2014": {
+          "total": 5,
+          "mujeres": 5,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 5,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 5,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 26,
+          "mujeres": 26,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 20,
+          "dosis_2": 6,
+          "dosis_otra": 0,
+          "tetra": 26,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 20,
+          "mujeres": 20,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 17,
+          "dosis_otra": 0,
+          "tetra": 20,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 32,
+          "mujeres": 32,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 14,
+          "dosis_2": 18,
+          "dosis_otra": 0,
+          "tetra": 32,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 8,
+          "mujeres": 8,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 5,
+          "dosis_otra": 0,
+          "tetra": 8,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 12,
+          "mujeres": 7,
+          "hombres": 5,
+          "dosis_unica": 0,
+          "dosis_1": 6,
+          "dosis_2": 6,
+          "dosis_otra": 0,
+          "tetra": 12,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 12,
+          "mujeres": 2,
+          "hombres": 10,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 9,
+          "dosis_otra": 0,
+          "tetra": 12,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 9,
+          "mujeres": 3,
+          "hombres": 6,
+          "dosis_unica": 0,
+          "dosis_1": 7,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 9,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 13,
+          "mujeres": 5,
+          "hombres": 8,
+          "dosis_unica": 0,
+          "dosis_1": 6,
+          "dosis_2": 7,
+          "dosis_otra": 0,
+          "tetra": 13,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 7,
+          "mujeres": 2,
+          "hombres": 5,
+          "dosis_unica": 0,
+          "dosis_1": 4,
+          "dosis_2": 3,
+          "dosis_otra": 0,
+          "tetra": 7,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 6,
+          "mujeres": 1,
+          "hombres": 5,
+          "dosis_unica": 2,
+          "dosis_1": 0,
+          "dosis_2": 4,
+          "dosis_otra": 0,
+          "tetra": 4,
+          "nona": 2,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 6,
+          "mujeres": 2,
+          "hombres": 4,
+          "dosis_unica": 4,
+          "dosis_1": 0,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 4,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural Pichi Damas",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 142,
+      "total_mujeres": 71,
+      "total_hombres": 71,
+      "total_tetra": 117,
+      "total_nona": 25,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 25,
+      "total_dosis_1": 58,
+      "total_dosis_2": 59,
+      "por_ano": {
+        "2018": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 15,
+          "mujeres": 11,
+          "hombres": 4,
+          "dosis_unica": 0,
+          "dosis_1": 12,
+          "dosis_2": 3,
+          "dosis_otra": 0,
+          "tetra": 15,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 18,
+          "mujeres": 11,
+          "hombres": 7,
+          "dosis_unica": 0,
+          "dosis_1": 8,
+          "dosis_2": 10,
+          "dosis_otra": 0,
+          "tetra": 18,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 24,
+          "mujeres": 10,
+          "hombres": 14,
+          "dosis_unica": 0,
+          "dosis_1": 14,
+          "dosis_2": 10,
+          "dosis_otra": 0,
+          "tetra": 24,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 26,
+          "mujeres": 9,
+          "hombres": 17,
+          "dosis_unica": 0,
+          "dosis_1": 16,
+          "dosis_2": 10,
+          "dosis_otra": 0,
+          "tetra": 26,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 19,
+          "mujeres": 8,
+          "hombres": 11,
+          "dosis_unica": 0,
+          "dosis_1": 7,
+          "dosis_2": 12,
+          "dosis_otra": 0,
+          "tetra": 19,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 25,
+          "mujeres": 14,
+          "hombres": 11,
+          "dosis_unica": 13,
+          "dosis_1": 0,
+          "dosis_2": 12,
+          "dosis_otra": 0,
+          "tetra": 12,
+          "nona": 13,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 7,
+          "mujeres": 4,
+          "hombres": 3,
+          "dosis_unica": 5,
+          "dosis_1": 0,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 5,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 7,
+          "mujeres": 3,
+          "hombres": 4,
+          "dosis_unica": 7,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 7,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Hospital Base de Osorno",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 113,
+      "total_mujeres": 43,
+      "total_hombres": 70,
+      "total_tetra": 113,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 59,
+      "total_dosis_2": 42,
+      "por_ano": {
+        "2018": {
+          "total": 4,
+          "mujeres": 2,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 4,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 109,
+          "mujeres": 41,
+          "hombres": 68,
+          "dosis_unica": 0,
+          "dosis_1": 56,
+          "dosis_2": 41,
+          "dosis_otra": 12,
+          "tetra": 109,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro Comunitario de Salud Familiar Riachuelo",
+      "comuna_cod": "10305",
+      "comuna_nom": "Río Negro",
+      "total_historico": 106,
+      "total_mujeres": 46,
+      "total_hombres": 60,
+      "total_tetra": 44,
+      "total_nona": 62,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 61,
+      "total_dosis_1": 7,
+      "total_dosis_2": 38,
+      "por_ano": {
+        "2022": {
+          "total": 3,
+          "mujeres": 1,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 3,
+          "dosis_otra": 0,
+          "tetra": 3,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 9,
+          "mujeres": 2,
+          "hombres": 7,
+          "dosis_unica": 0,
+          "dosis_1": 5,
+          "dosis_2": 4,
+          "dosis_otra": 0,
+          "tetra": 9,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 56,
+          "mujeres": 24,
+          "hombres": 32,
+          "dosis_unica": 27,
+          "dosis_1": 0,
+          "dosis_2": 29,
+          "dosis_otra": 0,
+          "tetra": 29,
+          "nona": 27,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 25,
+          "mujeres": 13,
+          "hombres": 12,
+          "dosis_unica": 22,
+          "dosis_1": 2,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 3,
+          "nona": 22,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 13,
+          "mujeres": 6,
+          "hombres": 7,
+          "dosis_unica": 12,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 13,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Vacunatorio VAXPLUS",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 100,
+      "total_mujeres": 66,
+      "total_hombres": 34,
+      "total_tetra": 1,
+      "total_nona": 99,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 2,
+      "total_dosis_1": 37,
+      "total_dosis_2": 37,
+      "por_ano": {
+        "2023": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 24,
+          "mujeres": 21,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 8,
+          "dosis_2": 11,
+          "dosis_otra": 5,
+          "tetra": 0,
+          "nona": 24,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 40,
+          "mujeres": 25,
+          "hombres": 15,
+          "dosis_unica": 2,
+          "dosis_1": 16,
+          "dosis_2": 15,
+          "dosis_otra": 7,
+          "tetra": 1,
+          "nona": 39,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 35,
+          "mujeres": 19,
+          "hombres": 16,
+          "dosis_unica": 0,
+          "dosis_1": 12,
+          "dosis_2": 11,
+          "dosis_otra": 12,
+          "tetra": 0,
+          "nona": 35,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural Piedras Negras",
+      "comuna_cod": "10302",
+      "comuna_nom": "Puerto Octay",
+      "total_historico": 93,
+      "total_mujeres": 62,
+      "total_hombres": 31,
+      "total_tetra": 79,
+      "total_nona": 14,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 14,
+      "total_dosis_1": 45,
+      "total_dosis_2": 34,
+      "por_ano": {
+        "2014": {
+          "total": 3,
+          "mujeres": 3,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 3,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 3,
+          "mujeres": 3,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 3,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 4,
+          "mujeres": 4,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 4,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 4,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 8,
+          "mujeres": 8,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 5,
+          "dosis_otra": 0,
+          "tetra": 8,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 9,
+          "mujeres": 7,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 5,
+          "dosis_2": 4,
+          "dosis_otra": 0,
+          "tetra": 9,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 9,
+          "mujeres": 6,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 4,
+          "dosis_2": 5,
+          "dosis_otra": 0,
+          "tetra": 9,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 11,
+          "mujeres": 6,
+          "hombres": 5,
+          "dosis_unica": 0,
+          "dosis_1": 7,
+          "dosis_2": 4,
+          "dosis_otra": 0,
+          "tetra": 11,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 15,
+          "mujeres": 9,
+          "hombres": 6,
+          "dosis_unica": 0,
+          "dosis_1": 9,
+          "dosis_2": 6,
+          "dosis_otra": 0,
+          "tetra": 15,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 13,
+          "mujeres": 7,
+          "hombres": 6,
+          "dosis_unica": 0,
+          "dosis_1": 6,
+          "dosis_2": 7,
+          "dosis_otra": 0,
+          "tetra": 13,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 11,
+          "mujeres": 4,
+          "hombres": 7,
+          "dosis_unica": 8,
+          "dosis_1": 0,
+          "dosis_2": 3,
+          "dosis_otra": 0,
+          "tetra": 3,
+          "nona": 8,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 6,
+          "mujeres": 4,
+          "hombres": 2,
+          "dosis_unica": 6,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 6,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural Desagüe Rupanco",
+      "comuna_cod": "10304",
+      "comuna_nom": "Puyehue",
+      "total_historico": 72,
+      "total_mujeres": 45,
+      "total_hombres": 27,
+      "total_tetra": 66,
+      "total_nona": 6,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 6,
+      "total_dosis_1": 35,
+      "total_dosis_2": 31,
+      "por_ano": {
+        "2015": {
+          "total": 6,
+          "mujeres": 6,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 5,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 6,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 5,
+          "mujeres": 5,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 3,
+          "dosis_otra": 0,
+          "tetra": 5,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 6,
+          "mujeres": 6,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 3,
+          "dosis_otra": 0,
+          "tetra": 6,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 7,
+          "mujeres": 7,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 5,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 7,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 4,
+          "mujeres": 3,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 4,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 11,
+          "mujeres": 3,
+          "hombres": 8,
+          "dosis_unica": 0,
+          "dosis_1": 7,
+          "dosis_2": 4,
+          "dosis_otra": 0,
+          "tetra": 11,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 8,
+          "mujeres": 4,
+          "hombres": 4,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 5,
+          "dosis_otra": 0,
+          "tetra": 8,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 6,
+          "mujeres": 3,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 3,
+          "dosis_otra": 0,
+          "tetra": 6,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 10,
+          "mujeres": 4,
+          "hombres": 6,
+          "dosis_unica": 0,
+          "dosis_1": 5,
+          "dosis_2": 5,
+          "dosis_otra": 0,
+          "tetra": 10,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 7,
+          "mujeres": 3,
+          "hombres": 4,
+          "dosis_unica": 4,
+          "dosis_1": 0,
+          "dosis_2": 3,
+          "dosis_otra": 0,
+          "tetra": 3,
+          "nona": 4,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 2,
+          "mujeres": 1,
+          "hombres": 1,
+          "dosis_unica": 2,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 2,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro Comunitario de Salud Familiar Barrio Estación",
+      "comuna_cod": "10303",
+      "comuna_nom": "Purranque",
+      "total_historico": 68,
+      "total_mujeres": 35,
+      "total_hombres": 33,
+      "total_tetra": 41,
+      "total_nona": 27,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 27,
+      "total_dosis_1": 16,
+      "total_dosis_2": 25,
+      "por_ano": {
+        "2023": {
+          "total": 41,
+          "mujeres": 18,
+          "hombres": 23,
+          "dosis_unica": 0,
+          "dosis_1": 16,
+          "dosis_2": 25,
+          "dosis_otra": 0,
+          "tetra": 41,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 27,
+          "mujeres": 17,
+          "hombres": 10,
+          "dosis_unica": 27,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 27,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural Pellinada",
+      "comuna_cod": "10302",
+      "comuna_nom": "Puerto Octay",
+      "total_historico": 59,
+      "total_mujeres": 36,
+      "total_hombres": 23,
+      "total_tetra": 58,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 1,
+      "total_dosis_1": 28,
+      "total_dosis_2": 30,
+      "por_ano": {
+        "2014": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 5,
+          "mujeres": 5,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 5,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 9,
+          "mujeres": 7,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 5,
+          "dosis_2": 4,
+          "dosis_otra": 0,
+          "tetra": 9,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 14,
+          "mujeres": 8,
+          "hombres": 6,
+          "dosis_unica": 0,
+          "dosis_1": 8,
+          "dosis_2": 6,
+          "dosis_otra": 0,
+          "tetra": 14,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 7,
+          "mujeres": 2,
+          "hombres": 5,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 4,
+          "dosis_otra": 0,
+          "tetra": 7,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 7,
+          "mujeres": 5,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 5,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 7,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 8,
+          "mujeres": 4,
+          "hombres": 4,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 6,
+          "dosis_otra": 0,
+          "tetra": 8,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 3,
+          "mujeres": 1,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 3,
+          "dosis_otra": 0,
+          "tetra": 3,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 3,
+          "mujeres": 1,
+          "hombres": 2,
+          "dosis_unica": 1,
+          "dosis_1": 0,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural Ñadi Pichi-Damas",
+      "comuna_cod": "10304",
+      "comuna_nom": "Puyehue",
+      "total_historico": 56,
+      "total_mujeres": 39,
+      "total_hombres": 17,
+      "total_tetra": 46,
+      "total_nona": 10,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 10,
+      "total_dosis_1": 21,
+      "total_dosis_2": 25,
+      "por_ano": {
+        "2015": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 10,
+          "mujeres": 10,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 9,
+          "dosis_otra": 0,
+          "tetra": 10,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 6,
+          "mujeres": 5,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 4,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 6,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 4,
+          "mujeres": 2,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 4,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 9,
+          "mujeres": 5,
+          "hombres": 4,
+          "dosis_unica": 0,
+          "dosis_1": 5,
+          "dosis_2": 4,
+          "dosis_otra": 0,
+          "tetra": 9,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 6,
+          "mujeres": 5,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 4,
+          "dosis_otra": 0,
+          "tetra": 6,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 6,
+          "mujeres": 3,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 3,
+          "dosis_otra": 0,
+          "tetra": 6,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 4,
+          "mujeres": 1,
+          "hombres": 3,
+          "dosis_unica": 3,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 3,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 3,
+          "mujeres": 2,
+          "hombres": 1,
+          "dosis_unica": 3,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 3,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 4,
+          "mujeres": 2,
+          "hombres": 2,
+          "dosis_unica": 4,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 4,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro Comunitario de Salud Familiar Corte Alto",
+      "comuna_cod": "10303",
+      "comuna_nom": "Purranque",
+      "total_historico": 27,
+      "total_mujeres": 13,
+      "total_hombres": 14,
+      "total_tetra": 8,
+      "total_nona": 19,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 19,
+      "total_dosis_1": 6,
+      "total_dosis_2": 2,
+      "por_ano": {
+        "2023": {
+          "total": 6,
+          "mujeres": 3,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 6,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 6,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 3,
+          "mujeres": 2,
+          "hombres": 1,
+          "dosis_unica": 1,
+          "dosis_1": 0,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 18,
+          "mujeres": 8,
+          "hombres": 10,
+          "dosis_unica": 18,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 18,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familia Nº 1 Puerto Varas",
+      "comuna_cod": "10302",
+      "comuna_nom": "Puerto Octay",
+      "total_historico": 26,
+      "total_mujeres": 18,
+      "total_hombres": 8,
+      "total_tetra": 26,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 20,
+      "total_dosis_2": 6,
+      "por_ano": {
+        "2014": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 24,
+          "mujeres": 16,
+          "hombres": 8,
+          "dosis_unica": 0,
+          "dosis_1": 19,
+          "dosis_2": 5,
+          "dosis_otra": 0,
+          "tetra": 24,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Megasalud S.A. Centro Médico y Dental Puerto Montt",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 25,
+      "total_mujeres": 11,
+      "total_hombres": 14,
+      "total_tetra": 0,
+      "total_nona": 25,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 10,
+      "total_dosis_2": 10,
+      "por_ano": {
+        "2024": {
+          "total": 7,
+          "mujeres": 5,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 3,
+          "dosis_otra": 3,
+          "tetra": 0,
+          "nona": 7,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 8,
+          "mujeres": 0,
+          "hombres": 8,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 4,
+          "dosis_otra": 1,
+          "tetra": 0,
+          "nona": 8,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 10,
+          "mujeres": 6,
+          "hombres": 4,
+          "dosis_unica": 0,
+          "dosis_1": 6,
+          "dosis_2": 3,
+          "dosis_otra": 1,
+          "tetra": 0,
+          "nona": 10,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural Puyehue",
+      "comuna_cod": "10304",
+      "comuna_nom": "Puyehue",
+      "total_historico": 21,
+      "total_mujeres": 8,
+      "total_hombres": 13,
+      "total_tetra": 16,
+      "total_nona": 5,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 5,
+      "total_dosis_1": 10,
+      "total_dosis_2": 6,
+      "por_ano": {
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 4,
+          "mujeres": 1,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 4,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 5,
+          "mujeres": 2,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 5,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 1,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 3,
+          "mujeres": 0,
+          "hombres": 3,
+          "dosis_unica": 3,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 3,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 1,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Clínica de Puerto Varas SpA.",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 13,
+      "total_mujeres": 9,
+      "total_hombres": 4,
+      "total_tetra": 0,
+      "total_nona": 13,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 7,
+      "total_dosis_2": 4,
+      "por_ano": {
+        "2021": {
+          "total": 7,
+          "mujeres": 4,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 4,
+          "dosis_otra": 1,
+          "tetra": 0,
+          "nona": 7,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 2,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 2,
+          "mujeres": 1,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 2,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 1,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "CENTRO DE SALUD FAMILIAR DR. RENÉ TAPIA SALGADO",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 11,
+      "total_mujeres": 8,
+      "total_hombres": 3,
+      "total_tetra": 11,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 8,
+      "total_dosis_2": 3,
+      "por_ano": {
+        "2015": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 4,
+          "mujeres": 1,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 4,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 4,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Marcos Macuada",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 10,
+      "total_mujeres": 8,
+      "total_hombres": 2,
+      "total_tetra": 9,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 1,
+      "total_dosis_1": 4,
+      "total_dosis_2": 5,
+      "por_ano": {
+        "2014": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 4,
+          "mujeres": 4,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 4,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 4,
+          "mujeres": 2,
+          "hombres": 2,
+          "dosis_unica": 1,
+          "dosis_1": 0,
+          "dosis_2": 3,
+          "dosis_otra": 0,
+          "tetra": 3,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Barros Luco",
+      "comuna_cod": "10306",
+      "comuna_nom": "San Juan de la Costa",
+      "total_historico": 10,
+      "total_mujeres": 4,
+      "total_hombres": 6,
+      "total_tetra": 7,
+      "total_nona": 3,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 3,
+      "total_dosis_1": 6,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2021": {
+          "total": 3,
+          "mujeres": 1,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 3,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 3,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 2,
+          "mujeres": 0,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 2,
+          "mujeres": 0,
+          "hombres": 2,
+          "dosis_unica": 2,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 2,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 1,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Techo para todos (ONG)",
+      "comuna_cod": "10306",
+      "comuna_nom": "San Juan de la Costa",
+      "total_historico": 7,
+      "total_mujeres": 5,
+      "total_hombres": 2,
+      "total_tetra": 5,
+      "total_nona": 2,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 2,
+      "total_dosis_1": 1,
+      "total_dosis_2": 4,
+      "por_ano": {
+        "2015": {
+          "total": 3,
+          "mujeres": 3,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 3,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 2,
+          "mujeres": 1,
+          "hombres": 1,
+          "dosis_unica": 2,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 2,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Antonio Varas",
+      "comuna_cod": "10306",
+      "comuna_nom": "San Juan de la Costa",
+      "total_historico": 7,
+      "total_mujeres": 4,
+      "total_hombres": 3,
+      "total_tetra": 2,
+      "total_nona": 5,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 5,
+      "total_dosis_1": 2,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2015": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 1,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 4,
+          "mujeres": 2,
+          "hombres": 2,
+          "dosis_unica": 4,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 4,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Clínica Alemana",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 7,
+      "total_mujeres": 6,
+      "total_hombres": 1,
+      "total_tetra": 1,
+      "total_nona": 5,
+      "total_biv": 1,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 3,
+      "total_dosis_2": 3,
+      "por_ano": {
+        "2016": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 1,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 1,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 2,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Nº 1 Puerto Varas",
+      "comuna_cod": "10302",
+      "comuna_nom": "Puerto Octay",
+      "total_historico": 7,
+      "total_mujeres": 1,
+      "total_hombres": 6,
+      "total_tetra": 7,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 5,
+      "por_ano": {
+        "2020": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 3,
+          "mujeres": 0,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 3,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 2,
+          "mujeres": 1,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural Huilma",
+      "comuna_cod": "10305",
+      "comuna_nom": "Río Negro",
+      "total_historico": 7,
+      "total_mujeres": 1,
+      "total_hombres": 6,
+      "total_tetra": 6,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 1,
+      "total_dosis_1": 4,
+      "total_dosis_2": 2,
+      "por_ano": {
+        "2022": {
+          "total": 3,
+          "mujeres": 0,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 3,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 2,
+          "mujeres": 1,
+          "hombres": 1,
+          "dosis_unica": 1,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Hospital de Río Negro",
+      "comuna_cod": "10305",
+      "comuna_nom": "Río Negro",
+      "total_historico": 6,
+      "total_mujeres": 5,
+      "total_hombres": 1,
+      "total_tetra": 2,
+      "total_nona": 4,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 3,
+      "por_ano": {
+        "2023": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 4,
+          "mujeres": 3,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 2,
+          "dosis_otra": 1,
+          "tetra": 0,
+          "nona": 4,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio N° 1 Dr Ramón Corbalán Melgarejo",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 5,
+      "total_mujeres": 5,
+      "total_hombres": 0,
+      "total_tetra": 5,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 3,
+      "por_ano": {
+        "2014": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Quellon",
+      "comuna_cod": "10303",
+      "comuna_nom": "Purranque",
+      "total_historico": 5,
+      "total_mujeres": 5,
+      "total_hombres": 0,
+      "total_tetra": 5,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 3,
+      "total_dosis_2": 2,
+      "por_ano": {
+        "2014": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Hospital de Achao",
+      "comuna_cod": "10307",
+      "comuna_nom": "San Pablo",
+      "total_historico": 5,
+      "total_mujeres": 5,
+      "total_hombres": 0,
+      "total_tetra": 5,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 3,
+      "total_dosis_2": 2,
+      "por_ano": {
+        "2015": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Vacunatorio Austral E.I.R.L.",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 5,
+      "total_mujeres": 5,
+      "total_hombres": 0,
+      "total_tetra": 2,
+      "total_nona": 3,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 3,
+      "por_ano": {
+        "2017": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 1,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2020": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar San Pedro",
+      "comuna_cod": "10307",
+      "comuna_nom": "San Pablo",
+      "total_historico": 5,
+      "total_mujeres": 4,
+      "total_hombres": 1,
+      "total_tetra": 2,
+      "total_nona": 3,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 3,
+      "total_dosis_1": 2,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2020": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 3,
+          "mujeres": 2,
+          "hombres": 1,
+          "dosis_unica": 3,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 3,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Clínica San Carlos de Apoquindo Red de Salud UC CHRISTUS",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 5,
+      "total_mujeres": 2,
+      "total_hombres": 3,
+      "total_tetra": 0,
+      "total_nona": 5,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 3,
+      "total_dosis_2": 2,
+      "por_ano": {
+        "2020": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Fray Jorge",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 5,
+      "total_mujeres": 2,
+      "total_hombres": 3,
+      "total_tetra": 5,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 3,
+      "por_ano": {
+        "2020": {
+          "total": 2,
+          "mujeres": 0,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 2,
+          "mujeres": 1,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2023": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Angachilla",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 4,
+      "total_mujeres": 3,
+      "total_hombres": 1,
+      "total_tetra": 4,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 2,
+      "por_ano": {
+        "2014": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 2,
+          "mujeres": 1,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Recreo",
+      "comuna_cod": "10306",
+      "comuna_nom": "San Juan de la Costa",
+      "total_historico": 4,
+      "total_mujeres": 2,
+      "total_hombres": 2,
+      "total_tetra": 4,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 3,
+      "por_ano": {
+        "2020": {
+          "total": 2,
+          "mujeres": 1,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 2,
+          "mujeres": 1,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural La Calo",
+      "comuna_cod": "10302",
+      "comuna_nom": "Puerto Octay",
+      "total_historico": 4,
+      "total_mujeres": 2,
+      "total_hombres": 2,
+      "total_tetra": 4,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 2,
+      "por_ano": {
+        "2020": {
+          "total": 4,
+          "mujeres": 2,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 4,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Jorge Jordán Domic",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 4,
+      "total_mujeres": 1,
+      "total_hombres": 3,
+      "total_tetra": 4,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 2,
+      "por_ano": {
+        "2021": {
+          "total": 4,
+          "mujeres": 1,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 4,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Vacunatorio Mediclown",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 4,
+      "total_mujeres": 3,
+      "total_hombres": 1,
+      "total_tetra": 0,
+      "total_nona": 4,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 2,
+      "por_ano": {
+        "2021": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 1,
+          "tetra": 0,
+          "nona": 2,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Clínica Indisa",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 4,
+      "total_mujeres": 4,
+      "total_hombres": 0,
+      "total_tetra": 0,
+      "total_nona": 4,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2023": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 3,
+          "mujeres": 3,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 1,
+          "tetra": 0,
+          "nona": 3,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro Médico y Dental Megasalud Alameda",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 4,
+      "total_mujeres": 3,
+      "total_hombres": 1,
+      "total_tetra": 0,
+      "total_nona": 4,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 3,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2024": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 2,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 1,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural Hueyusca",
+      "comuna_cod": "10303",
+      "comuna_nom": "Purranque",
+      "total_historico": 4,
+      "total_mujeres": 3,
+      "total_hombres": 1,
+      "total_tetra": 0,
+      "total_nona": 4,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 4,
+      "total_dosis_1": 0,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2026": {
+          "total": 4,
+          "mujeres": 3,
+          "hombres": 1,
+          "dosis_unica": 4,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 4,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural Crucero ( Purranque)",
+      "comuna_cod": "10303",
+      "comuna_nom": "Purranque",
+      "total_historico": 4,
+      "total_mujeres": 2,
+      "total_hombres": 2,
+      "total_tetra": 0,
+      "total_nona": 4,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 4,
+      "total_dosis_1": 0,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2026": {
+          "total": 4,
+          "mujeres": 2,
+          "hombres": 2,
+          "dosis_unica": 4,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 4,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Putaendo",
+      "comuna_cod": "10303",
+      "comuna_nom": "Purranque",
+      "total_historico": 3,
+      "total_mujeres": 2,
+      "total_hombres": 1,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 2,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2014": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 0,
+          "biv": 2,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar La Florida",
+      "comuna_cod": "10305",
+      "comuna_nom": "Río Negro",
+      "total_historico": 3,
+      "total_mujeres": 3,
+      "total_hombres": 0,
+      "total_tetra": 3,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2014": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Las Ánimas",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 3,
+      "total_mujeres": 3,
+      "total_hombres": 0,
+      "total_tetra": 3,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2015": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2022": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 1,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Dr Sergio Aguilar Delgado",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 3,
+      "total_mujeres": 3,
+      "total_hombres": 0,
+      "total_tetra": 3,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 3,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2015": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Las Mercedes",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 3,
+      "total_mujeres": 3,
+      "total_hombres": 0,
+      "total_tetra": 3,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2015": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2018": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio Recreo",
+      "comuna_cod": "10306",
+      "comuna_nom": "San Juan de la Costa",
+      "total_historico": 3,
+      "total_mujeres": 2,
+      "total_hombres": 1,
+      "total_tetra": 3,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2019": {
+          "total": 2,
+          "mujeres": 1,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Angelmó",
+      "comuna_cod": "10302",
+      "comuna_nom": "Puerto Octay",
+      "total_historico": 3,
+      "total_mujeres": 1,
+      "total_hombres": 2,
+      "total_tetra": 2,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 1,
+      "total_dosis_1": 1,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2018": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2021": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 1,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Dr Jorge Sabat Gozalo",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 3,
+      "total_mujeres": 3,
+      "total_hombres": 0,
+      "total_tetra": 3,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2019": {
+          "total": 3,
+          "mujeres": 3,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 3,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Hospital de Puerto Montt",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 3,
+      "total_mujeres": 0,
+      "total_hombres": 3,
+      "total_tetra": 3,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 2,
+      "por_ano": {
+        "2019": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2025": {
+          "total": 2,
+          "mujeres": 0,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Hospital Clínico Universidad de Chile",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 3,
+      "total_mujeres": 0,
+      "total_hombres": 3,
+      "total_tetra": 0,
+      "total_nona": 3,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2022": {
+          "total": 2,
+          "mujeres": 0,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 1,
+          "tetra": 0,
+          "nona": 2,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro Médico y Dental Arauco Salud",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 3,
+      "total_mujeres": 3,
+      "total_hombres": 0,
+      "total_tetra": 0,
+      "total_nona": 3,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2024": {
+          "total": 3,
+          "mujeres": 3,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 1,
+          "tetra": 0,
+          "nona": 3,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "PSR Chan Chan Río Negro",
+      "comuna_cod": "10305",
+      "comuna_nom": "Río Negro",
+      "total_historico": 3,
+      "total_mujeres": 0,
+      "total_hombres": 3,
+      "total_tetra": 1,
+      "total_nona": 2,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 2,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2025": {
+          "total": 3,
+          "mujeres": 0,
+          "hombres": 3,
+          "dosis_unica": 2,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 2,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Vacunatorio RENVAC",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 3,
+      "total_mujeres": 0,
+      "total_hombres": 3,
+      "total_tetra": 0,
+      "total_nona": 3,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2025": {
+          "total": 3,
+          "mujeres": 0,
+          "hombres": 3,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 1,
+          "tetra": 0,
+          "nona": 3,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Sor Teresa Los Andes",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 2,
+      "total_mujeres": 2,
+      "total_hombres": 0,
+      "total_tetra": 2,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2014": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2015": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Amanecer",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 2,
+      "total_mujeres": 2,
+      "total_hombres": 0,
+      "total_tetra": 2,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2015": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Carmela Carvajal",
+      "comuna_cod": "10302",
+      "comuna_nom": "Puerto Octay",
+      "total_historico": 2,
+      "total_mujeres": 2,
+      "total_hombres": 0,
+      "total_tetra": 2,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2015": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Hospital Dr Ricardo Figueroa González de Cañete Hospital de Cañete",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 2,
+      "total_mujeres": 2,
+      "total_hombres": 0,
+      "total_tetra": 2,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2015": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio Los Volcanes",
+      "comuna_cod": "10305",
+      "comuna_nom": "Río Negro",
+      "total_historico": 2,
+      "total_mujeres": 2,
+      "total_hombres": 0,
+      "total_tetra": 2,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2015": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio San Nicolás",
+      "comuna_cod": "10306",
+      "comuna_nom": "San Juan de la Costa",
+      "total_historico": 2,
+      "total_mujeres": 2,
+      "total_hombres": 0,
+      "total_tetra": 2,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2015": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio Tierra Amarilla",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 2,
+      "total_mujeres": 2,
+      "total_hombres": 0,
+      "total_tetra": 2,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2015": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio Barros Luco",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 2,
+      "total_mujeres": 2,
+      "total_hombres": 0,
+      "total_tetra": 2,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2015": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Niebla",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 2,
+      "total_mujeres": 2,
+      "total_hombres": 0,
+      "total_tetra": 2,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2015": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Dr José Eduardo Ahués Salame",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 2,
+      "total_mujeres": 2,
+      "total_hombres": 0,
+      "total_tetra": 2,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2015": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio Maipú",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 2,
+      "total_mujeres": 2,
+      "total_hombres": 0,
+      "total_tetra": 2,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2016": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Pedro León Gallo",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 2,
+      "total_mujeres": 2,
+      "total_hombres": 0,
+      "total_tetra": 2,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2017": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Dr Carlos Díaz Gidi",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 2,
+      "total_mujeres": 2,
+      "total_hombres": 0,
+      "total_tetra": 2,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2016": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Hospital FACH",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 2,
+      "total_mujeres": 2,
+      "total_hombres": 0,
+      "total_tetra": 2,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2016": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 1,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Ossandón",
+      "comuna_cod": "10303",
+      "comuna_nom": "Purranque",
+      "total_historico": 2,
+      "total_mujeres": 1,
+      "total_hombres": 1,
+      "total_tetra": 2,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2019": {
+          "total": 2,
+          "mujeres": 1,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Padre Hurtado",
+      "comuna_cod": "10302",
+      "comuna_nom": "Puerto Octay",
+      "total_historico": 2,
+      "total_mujeres": 1,
+      "total_hombres": 1,
+      "total_tetra": 1,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 1,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2019": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 1,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Clínica Tabancura",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 2,
+      "total_mujeres": 1,
+      "total_hombres": 1,
+      "total_tetra": 0,
+      "total_nona": 2,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2020": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 1,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar San Nicolás",
+      "comuna_cod": "10306",
+      "comuna_nom": "San Juan de la Costa",
+      "total_historico": 2,
+      "total_mujeres": 1,
+      "total_hombres": 1,
+      "total_tetra": 2,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2020": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2024": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Juan Pablo II ( La Reina)",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 2,
+      "total_mujeres": 0,
+      "total_hombres": 2,
+      "total_tetra": 2,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2020": {
+          "total": 2,
+          "mujeres": 0,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Manuel Bustos Huerta",
+      "comuna_cod": "10304",
+      "comuna_nom": "Puyehue",
+      "total_historico": 2,
+      "total_mujeres": 0,
+      "total_hombres": 2,
+      "total_tetra": 2,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2021": {
+          "total": 2,
+          "mujeres": 0,
+          "hombres": 2,
+          "dosis_unica": 0,
+          "dosis_1": 2,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Atención Profesional de Enfermería (CAPROEN)",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 2,
+      "total_mujeres": 2,
+      "total_hombres": 0,
+      "total_tetra": 0,
+      "total_nona": 2,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2022": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 2,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural Puerto Ibáñez",
+      "comuna_cod": "10305",
+      "comuna_nom": "Río Negro",
+      "total_historico": 2,
+      "total_mujeres": 2,
+      "total_hombres": 0,
+      "total_tetra": 2,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 2,
+      "por_ano": {
+        "2023": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 2,
+          "dosis_otra": 0,
+          "tetra": 2,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Hospital Clínico Universidad de Los Andes",
+      "comuna_cod": "10304",
+      "comuna_nom": "Puyehue",
+      "total_historico": 2,
+      "total_mujeres": 1,
+      "total_hombres": 1,
+      "total_tetra": 0,
+      "total_nona": 2,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 2,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2024": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        },
+        "2026": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Alerce",
+      "comuna_cod": "10302",
+      "comuna_nom": "Puerto Octay",
+      "total_historico": 2,
+      "total_mujeres": 0,
+      "total_hombres": 2,
+      "total_tetra": 0,
+      "total_nona": 2,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 2,
+      "total_dosis_1": 0,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2025": {
+          "total": 2,
+          "mujeres": 0,
+          "hombres": 2,
+          "dosis_unica": 2,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 2,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Clínica MEDS La Dehesa",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 2,
+      "total_mujeres": 2,
+      "total_hombres": 0,
+      "total_tetra": 0,
+      "total_nona": 2,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2025": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 1,
+          "tetra": 0,
+          "nona": 2,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural Concordia",
+      "comuna_cod": "10303",
+      "comuna_nom": "Purranque",
+      "total_historico": 2,
+      "total_mujeres": 0,
+      "total_hombres": 2,
+      "total_tetra": 0,
+      "total_nona": 2,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 2,
+      "total_dosis_1": 0,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2026": {
+          "total": 2,
+          "mujeres": 0,
+          "hombres": 2,
+          "dosis_unica": 2,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 2,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Vacunatorio Darvax",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 2,
+      "total_mujeres": 2,
+      "total_hombres": 0,
+      "total_tetra": 0,
+      "total_nona": 2,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2026": {
+          "total": 2,
+          "mujeres": 2,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 2,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Félix de Amesti",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2014": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Dr Juan Damianovic",
+      "comuna_cod": "10302",
+      "comuna_nom": "Puerto Octay",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2014": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Rural San Felipe. Consultorio N° 2",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2014": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Alberto Bachelet Martínez",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2015": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio Estación",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2015": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Padre Alberto Hurtado",
+      "comuna_cod": "10303",
+      "comuna_nom": "Purranque",
+      "total_historico": 1,
+      "total_mujeres": 0,
+      "total_hombres": 1,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2015": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Los Volcanes",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2015": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Dr Hernán Alessandri",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2015": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio Dental Alfonso Leng",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2015": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio Presidenta Michelle Bachelet",
+      "comuna_cod": "10307",
+      "comuna_nom": "San Pablo",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2015": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio San Felipe",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2015": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Cordillera Andina",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio San Pedro Atacama",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Labranza",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio Dr Amador Neghme",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio La Feria",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Dr Raúl Yazigi",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Hospital San José (Puerto Varas)",
+      "comuna_cod": "10302",
+      "comuna_nom": "Puerto Octay",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro Comunitario de Salud Familiar Limarí",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio Dr Fernando Maffioletti",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Vista Hermosa",
+      "comuna_cod": "10302",
+      "comuna_nom": "Puerto Octay",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2016": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro General Rural San Pedro",
+      "comuna_cod": "10307",
+      "comuna_nom": "San Pablo",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2017": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Dra Ana María Juricic",
+      "comuna_cod": "10302",
+      "comuna_nom": "Puerto Octay",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2017": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Hospital Dr Jorge Ibar (Cisnes)",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2017": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Clinica Santa María",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2017": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 1,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Quillahue",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2018": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio Paipote",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2018": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural La Obra",
+      "comuna_cod": "10307",
+      "comuna_nom": "San Pablo",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2018": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Clinica Las Condes",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 0,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2018": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio Nº 5 Unión Americana",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2018": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Dr Carlos Godoy",
+      "comuna_cod": "10306",
+      "comuna_nom": "San Juan de la Costa",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2018": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Juan Pablo II",
+      "comuna_cod": "10302",
+      "comuna_nom": "Puerto Octay",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2019": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural Recoleta",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2019": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Juan Pablo II de Padre Hurtado",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 0,
+      "total_hombres": 1,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2019": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Consultorio Los Nogales",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2019": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Villa Alegre",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2019": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar José Alvo",
+      "comuna_cod": "10303",
+      "comuna_nom": "Purranque",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2020": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Paipote",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 0,
+      "total_hombres": 1,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2020": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar San Pedro de La Costa",
+      "comuna_cod": "10306",
+      "comuna_nom": "San Juan de la Costa",
+      "total_historico": 1,
+      "total_mujeres": 0,
+      "total_hombres": 1,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2020": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Baquedano",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2020": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Pulmahue",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 0,
+      "total_hombres": 1,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2021": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Vacunatorio Marcoleta de la Pontificia Universidad Católica de Chile",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 0,
+      "total_hombres": 1,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2021": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Llaillay",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2021": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Vacunatorio Israel",
+      "comuna_cod": "10307",
+      "comuna_nom": "San Pablo",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 0,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2021": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Manuel Lucero",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 0,
+      "total_hombres": 1,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2021": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Dr. Jorge Sabat Gozalo (Ex Gil de Castro)",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 0,
+      "total_hombres": 1,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2021": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Labranza",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 0,
+      "total_hombres": 1,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2021": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Clínica Andes Salud Concepción",
+      "comuna_cod": "10307",
+      "comuna_nom": "San Pablo",
+      "total_historico": 1,
+      "total_mujeres": 0,
+      "total_hombres": 1,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2021": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Rural Pucón",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2021": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar San Pedro de La Paz Candelaria",
+      "comuna_cod": "10307",
+      "comuna_nom": "San Pablo",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2021": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Santa Julia",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2021": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro Médico Militar Rosa O'Higgins",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 0,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2022": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro Médico HTS SpA",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 0,
+      "total_hombres": 1,
+      "total_tetra": 0,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2022": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Padre Manuel Villaseca",
+      "comuna_cod": "10302",
+      "comuna_nom": "Puerto Octay",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2022": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Hospital de Pitrufquén",
+      "comuna_cod": "10304",
+      "comuna_nom": "Puyehue",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2022": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Dr. Gustavo Molina",
+      "comuna_cod": "10304",
+      "comuna_nom": "Puyehue",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2023": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural Huamalata",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 0,
+      "total_hombres": 1,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2023": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Red Salud Santiago ex Clínica Bicentenario",
+      "comuna_cod": "10306",
+      "comuna_nom": "San Juan de la Costa",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 0,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2023": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 1,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural Tres Esteros",
+      "comuna_cod": "10305",
+      "comuna_nom": "Río Negro",
+      "total_historico": 1,
+      "total_mujeres": 0,
+      "total_hombres": 1,
+      "total_tetra": 1,
+      "total_nona": 0,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 1,
+      "por_ano": {
+        "2023": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 1,
+          "dosis_otra": 0,
+          "tetra": 1,
+          "nona": 0,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Clínica de la Mujer Sanatorio Alemán",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 0,
+      "total_hombres": 1,
+      "total_tetra": 0,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2024": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Vacunatorio Biovax SpA",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 0,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2024": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural Camarico (Ovalle)",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 0,
+      "total_hombres": 1,
+      "total_tetra": 0,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 1,
+      "total_dosis_1": 0,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2024": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 1,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Clínica Las Condes",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 0,
+      "total_hombres": 1,
+      "total_tetra": 0,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2024": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro Comunitario de Salud Familiar Murrinumo",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 0,
+      "total_hombres": 1,
+      "total_tetra": 0,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 1,
+      "total_dosis_1": 0,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2025": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 1,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Centro de Salud Familiar Sur de Iquique",
+      "comuna_cod": "10304",
+      "comuna_nom": "Puyehue",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 0,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 1,
+      "total_dosis_1": 0,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2025": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 1,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Megasalud S.A. Centro Médico y Dental Concepción",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 0,
+      "total_hombres": 1,
+      "total_tetra": 0,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2025": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Vacucenter SPA",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 0,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 0,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2025": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 1,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Posta de Salud Rural San Ramón",
+      "comuna_cod": "10304",
+      "comuna_nom": "Puyehue",
+      "total_historico": 1,
+      "total_mujeres": 0,
+      "total_hombres": 1,
+      "total_tetra": 0,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 1,
+      "total_dosis_1": 0,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2026": {
+          "total": 1,
+          "mujeres": 0,
+          "hombres": 1,
+          "dosis_unica": 1,
+          "dosis_1": 0,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Vacunatorio Montemar",
+      "comuna_cod": "10304",
+      "comuna_nom": "Puyehue",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 0,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2026": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    },
+    {
+      "establecimiento": "Clínica Dávila",
+      "comuna_cod": "10301",
+      "comuna_nom": "Osorno",
+      "total_historico": 1,
+      "total_mujeres": 1,
+      "total_hombres": 0,
+      "total_tetra": 0,
+      "total_nona": 1,
+      "total_biv": 0,
+      "total_otra_vac": 0,
+      "total_dosis_unica": 0,
+      "total_dosis_1": 1,
+      "total_dosis_2": 0,
+      "por_ano": {
+        "2026": {
+          "total": 1,
+          "mujeres": 1,
+          "hombres": 0,
+          "dosis_unica": 0,
+          "dosis_1": 1,
+          "dosis_2": 0,
+          "dosis_otra": 0,
+          "tetra": 0,
+          "nona": 1,
+          "biv": 0,
+          "otra_vac": 0
+        }
+      }
+    }
+  ],
+  "evolucion_vacunas": {
+    "2014": {
+      "VPH Tetravalente (Gardasil 4)": 1426,
+      "VPH Bivalente (Cervarix)": 2
+    },
+    "2015": {
+      "VPH Tetravalente (Gardasil 4)": 5879
+    },
+    "2016": {
+      "VPH Tetravalente (Gardasil 4)": 5252,
+      "VPH Bivalente (Cervarix)": 14
+    },
+    "2017": {
+      "VPH Tetravalente (Gardasil 4)": 2660,
+      "VPH Bivalente (Cervarix)": 8,
+      "VPH Nonavalente (Gardasil 9)": 3
+    },
+    "2018": {
+      "VPH Tetravalente (Gardasil 4)": 3032,
+      "VPH Nonavalente (Gardasil 9)": 53
+    },
+    "2019": {
+      "VPH Tetravalente (Gardasil 4)": 4933,
+      "VPH Nonavalente (Gardasil 9)": 64
+    },
+    "2020": {
+      "VPH Tetravalente (Gardasil 4)": 6002,
+      "VPH Nonavalente (Gardasil 9)": 68
+    },
+    "2021": {
+      "VPH Tetravalente (Gardasil 4)": 5751,
+      "VPH Nonavalente (Gardasil 9)": 62
+    },
+    "2022": {
+      "VPH Tetravalente (Gardasil 4)": 6638,
+      "VPH Nonavalente (Gardasil 9)": 110
+    },
+    "2023": {
+      "VPH Tetravalente (Gardasil 4)": 8046,
+      "VPH Nonavalente (Gardasil 9)": 141
+    },
+    "2024": {
+      "VPH Tetravalente (Gardasil 4)": 3793,
+      "VPH Nonavalente (Gardasil 9)": 3288
+    },
+    "2025": {
+      "VPH Nonavalente (Gardasil 9)": 3322,
+      "VPH Tetravalente (Gardasil 4)": 974
+    },
+    "2026": {
+      "VPH Nonavalente (Gardasil 9)": 2896,
+      "VPH Tetravalente (Gardasil 4)": 187
+    }
+  }
+};

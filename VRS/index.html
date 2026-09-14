@@ -154,7 +154,7 @@
                         <div class="sub-vals" style="margin-top: 5px;">
                             Vacunados: <b id="kpi-vacunados">...</b><br>
                             Universo objetivo: <b id="kpi-universo">...</b><br>
-                            Faltan para meta 80%: <b id="kpi-pending">...</b>
+                            Brecha a umbral interno (80%): <b id="kpi-pending">...</b>
                         </div>
                     </div>
                     <div class="territory-context-residencia" style="position: absolute; bottom: 8px; left: 0; width: 100%; text-align: center; font-size: 0.75rem; color: #94a3b8; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; opacity: 0.7;">PROVINCIAL</div>
@@ -428,7 +428,7 @@
                                 <div style="display: flex; flex-direction: column;">
                                     <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 10px;">
                                         <h3 style="margin: 0; line-height: 1.2;">Cobertura por Criterio de Vacunación</h3>
-                                        <span class="epi-panel-badge" style="margin: 0;">vs. Meta 80%</span>
+                                        <span class="epi-panel-badge" style="margin: 0;">vs. Ref. del Tablero</span>
                                     </div>
                                     <span class="territory-context-residencia" style="font-size: 0.75rem; color: #64748b; font-weight: 700; display: block; margin-top: 4px; letter-spacing: 1px; text-transform: uppercase;">PROVINCIAL</span>
                                 </div>
@@ -802,7 +802,7 @@
                     <strong style="color: #475569;">Coberturas sobre 100%:</strong> Pueden ocurrir cuando los registros de personas vacunadas superan la población objetivo estimada para un grupo específico.
                 </p>
                 <p style="margin-bottom: 0;">
-                    <strong style="color: #475569;">Fecha de corte:</strong> Información actualizada al 8 de junio de 2026.
+                    <strong style="color: #475569;">Fecha de corte:</strong> <span class="vrs-dynamic-cutoff-date"></span>
                 </p>
             </div>
         </section>
@@ -858,15 +858,15 @@
                 <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:20px;">
                     <div style="background:rgba(239,68,68,0.05);border-left:4px solid #ef4444;padding:15px;border-radius:0 8px 8px 0;">
                         <h4 style="color:#ef4444;margin-top:0;margin-bottom:8px;font-size:1rem;"><i class="fas fa-bed"></i> Riesgo en Camas Críticas (UPC)</h4>
-                        <p style="margin:0; font-size:0.9rem;">Históricamente, el VRS representa el <b>80% de la etiología en cuadros de falla respiratoria aguda</b> invernal en pediatría. Una cobertura inferior al 80% del umbral herd-effect eleva exponencialmente la tasa de incidencia (IR) en peak estacional, saturando la red integrada de camas UCI/UTI pediátricas.</p>
+                        <p style="margin:0; font-size:0.9rem;">Históricamente, el VRS representa el <b>80% de la etiología en cuadros de falla respiratoria aguda</b> invernal en pediatría. El monitoreo continuo de esta cohorte es vital para anticipar variaciones en la demanda de camas UCI/UTI pediátricas durante el peak estacional.</p>
                     </div>
                     <div style="background:rgba(245,158,11,0.05);border-left:4px solid #f59e0b;padding:15px;border-radius:0 8px 8px 0;">
                         <h4 style="color:#d97706;margin-top:0;margin-bottom:8px;font-size:1rem;"><i class="fas fa-project-diagram"></i> Dinámica de Transmisión (R0)</h4>
-                        <p style="margin:0; font-size:0.9rem;">La alta tasa de ataque primario del VRS resulta en un <math>R<sub>0</sub></math> estimado de 3.0. Al inmunizar precozmente a la cohorte basal (recién nacidos y lactantes), se genera un <b>efecto cortafuegos</b> que disminuye drásticamente la carga viral comunitaria y reduce la circulación intradomiciliaria transversal.</p>
+                        <p style="margin:0; font-size:0.9rem;">La alta tasa de ataque primario del VRS resulta en un <math>R<sub>0</sub></math> estimado de 3.0. La inmunización oportuna de la cohorte basal (recién nacidos y lactantes) constituye una herramienta clave de Salud Pública para el control de la curva epidémica estacional.</p>
                     </div>
                 </div>
 
-                <h4 style="color:var(--text-primary);border-bottom:1px solid rgba(0,0,0,0.1);padding-bottom:5px;margin-bottom:15px;"><i class="fas fa-users-cog" style="color:var(--minsal-blue);"></i> Estratificación de la Población Susceptible (Meta >= 80%)</h4>
+                <h4 style="color:var(--text-primary);border-bottom:1px solid rgba(0,0,0,0.1);padding-bottom:5px;margin-bottom:15px;"><i class="fas fa-users-cog" style="color:var(--minsal-blue);"></i> Estratificación de la Población y Brecha Operativa Local (Referencia interna 80%)</h4>
                 <ul style="margin-bottom:20px;padding-left:20px; font-size:0.95rem;">
                     <li style="margin-bottom:5px;"><b>Cohorte Recién Nacidos:</b> Susceptibles nacidos a partir del <b>01 de marzo del 2026</b> (Inmunización en maternidad previo al alta).</li>
                     <li style="margin-bottom:5px;"><b>Cohorte Lactantes:</b> Susceptibles nacidos a partir del <b>01 de octubre del 2025</b> (Captación en Atención Primaria de Salud).</li>

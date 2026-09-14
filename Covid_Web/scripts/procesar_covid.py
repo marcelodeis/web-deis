@@ -234,19 +234,38 @@ def process_year(year, ocurrencia_file, residencia_file, metas_file, output_js):
     else:
         velocidad_promedio = 0
 
-    # Extract file modification date
-    try:
-        mtime1 = os.path.getmtime(residencia_file)
-        mtime2 = os.path.getmtime(ocurrencia_file)
-        mtime = max(mtime1, mtime2)
-        fecha_actualizacion = datetime.fromtimestamp(mtime).strftime("%d-%m-%Y %H:%M")
-    except:
-        fecha_actualizacion = datetime.now().strftime("%d-%m-%Y %H:%M")
+    # Extract dates from valid records
+    fecha_max_resi_str = None
+    fecha_max_ocur_str = None
+    ultima_se = 0
+    
+    # Check max in residencia
+    if 'FECHA_INMUNIZACION' in df_res.columns:
+        fechas_validas_resi = pd.to_datetime(df_res['FECHA_INMUNIZACION'], format='%d-%m-%Y', errors='coerce').dropna()
+        if not fechas_validas_resi.empty:
+            fecha_max_resi = fechas_validas_resi.max()
+            fecha_max_resi_str = fecha_max_resi.strftime("%d-%m-%Y")
+            ultima_se = int((fecha_max_resi + pd.Timedelta(days=1)).isocalendar().week)
+            
+    # Check max in ocurrencia
+    if 'FECHA_INMUNIZACION' in df_ocu.columns:
+        fechas_validas_ocur = pd.to_datetime(df_ocu['FECHA_INMUNIZACION'], format='%d-%m-%Y', errors='coerce').dropna()
+        if not fechas_validas_ocur.empty:
+            fecha_max_ocur = fechas_validas_ocur.max()
+            fecha_max_ocur_str = fecha_max_ocur.strftime("%d-%m-%Y")
+
+    datos_disponibles_hasta = fecha_max_resi_str or fecha_max_ocur_str or "Sin datos"
+    fecha_actualizacion = datos_disponibles_hasta
 
     # 6. Crear JSON final
     final_data = {
+        "fuente": "Servidor DEIS–MINSAL",
+        "fecha_procesamiento": datetime.now().strftime("%d-%m-%Y %H:%M"),
         "fecha_actualizacion": fecha_actualizacion,
-        "fuente": "COVID-19 (Ocurrencia + Residencia)",
+        "datos_disponibles_hasta": datos_disponibles_hasta,
+        "fecha_max_residencia": fecha_max_resi_str,
+        "fecha_max_ocurrencia": fecha_max_ocur_str,
+        "ultima_se": ultima_se,
         "headers": todas_vacunas,
         "meses_base": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
         "semanas_base": list(range(1, 54)),

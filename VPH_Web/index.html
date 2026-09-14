@@ -133,6 +133,9 @@
                 <button class="tab-btn" data-tab="tab-produccion" onclick="switchTab('tab-produccion')">
                     <i class="fas fa-hospital"></i> Producción (Base Ocurrencia)
                 </button>
+                <button class="tab-btn" data-tab="tab-avance-escolar" onclick="switchTab('tab-avance-escolar')">
+                    <i class="fas fa-school"></i> Avance Escolar 2026
+                </button>
                 <button class="tab-btn" data-tab="tab-autoconsulta" onclick="switchTab('tab-autoconsulta')" style="margin-left: auto;">
                     <i class="fas fa-search-plus"></i> Autoconsulta de Vacunación
                 </button>
@@ -161,7 +164,7 @@
                         </div>
                         <div class="kpi-body">
                             <div class="kpi-main-val" id="kpiCobActual">--%</div>
-                            <div class="kpi-sub-badge" id="kpiMetaStatus"><i class="fa-solid fa-circle-check"></i> Meta 80%</div>
+                            <div class="kpi-sub-badge" id="kpiMetaStatus"><i class="fa-solid fa-circle-check"></i> Umbral Interno 80%</div>
                         </div>
                         <div class="kpi-footer">
                             <div>Esquema Completo: <strong id="kpiNumActual">--</strong></div>
@@ -414,7 +417,7 @@
                         </table>
                     </div>
                     <div class="chart-footnote">
-                        * <strong>Nota Técnica:</strong> El año 2026 corresponde al corte preliminar oficial en desarrollo continuo durante el año escolar en curso (Fecha de corte de datos: <strong>05-08-2026 12:18:08</strong> • Fuente: RNI / DEIS).
+                        * <strong>Nota Técnica:</strong> El año 2026 corresponde al corte preliminar oficial en desarrollo continuo durante el año escolar en curso (<span class="vph-dynamic-cutoff"></span> • Fuente: RNI / DEIS).
                     </div>
                 </div>
             </section>
@@ -545,9 +548,138 @@
                         </table>
                     </div>
                     <div class="chart-footnote" style="margin-top: 0.6rem;">
-                        <i class="fas fa-info-circle"></i> <strong>Nota Técnica:</strong> Registros vigentes DEIS/RNI sin EPRO en base ocurrencia territorial. Los datos del año 2026 corresponden al corte oficial del <strong>05-08-2026 12:18:08</strong> (RNI - DEIS).
+                        <i class="fas fa-info-circle"></i> <strong>Nota Técnica:</strong> Registros vigentes DEIS/RNI sin EPRO en base ocurrencia territorial. Los datos del año 2026 corresponden al corte: <span class="vph-dynamic-cutoff"></span> (RNI - DEIS).
                     </div>
                 </div>
+            </section>
+
+            <!-- ═════════════════════════════════════════════════════════════ -->
+            <!-- TAB: AVANCE SEMANAL VPH ESCOLAR 2026 (4.° BÁSICO)          -->
+            <!-- Módulo operativo independiente del indicador a los 15 años -->
+            <!-- ═════════════════════════════════════════════════════════════ -->
+            <section id="tab-avance-escolar" class="tab-content tab-panel">
+
+                <!-- Banner informativo -->
+                <div class="escolar-banner glass">
+                    <div class="escolar-banner-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="escolar-banner-content">
+                        <h2 class="escolar-banner-title">Avance Semanal VPH Escolar 2026</h2>
+                        <p class="escolar-banner-subtitle">
+                            Fuente: RNI Programáticas + Población Objetivo MINEDUC 2026
+                        </p>
+                        <div class="escolar-banner-dates" id="escolarDates">
+                            <span><i class="fas fa-calendar-check"></i> Datos disponibles hasta: <strong id="escolarFechaMax">—</strong></span>
+                            <span><i class="fas fa-chart-line"></i> Última SE con registros: <strong id="escolarUltimaSE">—</strong></span>
+                            <span><i class="fas fa-clock"></i> Generado: <strong id="escolarGenerado">—</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Advertencia Territorial -->
+                <div class="escolar-territorial-warning" id="escolarTerritorialWarning">
+                    <i class="fas fa-info-circle"></i>
+                    <span id="escolarAdvertenciaTerritorial">
+                        MINEDUC informa la población objetivo según la comuna del colegio. RNI informa dónde vive la persona (Residencia) y dónde recibió la vacuna (Ocurrencia), pero no identifica su colegio o RBD. Por este motivo, para este seguimiento utilizamos la comuna de Ocurrencia como aproximación. Un estudiante puede estudiar en una comuna y vacunarse en otra.
+                    </span>
+                </div>
+
+                <!-- KPIs Principales -->
+                <div class="escolar-kpi-grid">
+                    <div class="escolar-kpi-card glass border-primary">
+                        <div class="escolar-kpi-header">
+                            <span class="escolar-kpi-title">VACUNADOS ACUMULADOS</span>
+                            <i class="fas fa-syringe escolar-kpi-icon"></i>
+                        </div>
+                        <div class="escolar-kpi-value" id="escolarVacunados">—</div>
+                        <div class="escolar-kpi-detail" id="escolarVacunadosDetail">—</div>
+                    </div>
+                    <div class="escolar-kpi-card glass border-success">
+                        <div class="escolar-kpi-header">
+                            <span class="escolar-kpi-title">COBERTURA PROVINCIAL</span>
+                            <i class="fas fa-chart-pie escolar-kpi-icon"></i>
+                        </div>
+                        <div class="escolar-kpi-value" id="escolarCobertura">—</div>
+                        <div class="escolar-kpi-detail" id="escolarCoberturaDetail">—</div>
+                    </div>
+                    <div class="escolar-kpi-card glass border-warning">
+                        <div class="escolar-kpi-header">
+                            <span class="escolar-kpi-title">BRECHA RESTANTE</span>
+                            <i class="fas fa-bullseye escolar-kpi-icon"></i>
+                        </div>
+                        <div class="escolar-kpi-value" id="escolarBrecha">—</div>
+                        <div class="escolar-kpi-detail" id="escolarBrechaDetail">—</div>
+                    </div>
+                    <div class="escolar-kpi-card glass border-info">
+                        <div class="escolar-kpi-header">
+                            <span class="escolar-kpi-title">ÚLTIMA SEMANA</span>
+                            <i class="fas fa-clock escolar-kpi-icon"></i>
+                        </div>
+                        <div class="escolar-kpi-value" id="escolarDosisSemana">—</div>
+                        <div class="escolar-kpi-detail" id="escolarDosisSemanaDetail">—</div>
+                    </div>
+                </div>
+
+                <!-- Comparación con reporte 31-08 -->
+                <div class="escolar-comparacion-card glass" id="escolarComparacion">
+                    <h3><i class="fas fa-exchange-alt"></i> Evolución desde Reporte MINEDUC 31-08-2026</h3>
+                    <div class="escolar-comparacion-grid" id="escolarComparacionGrid">
+                        <!-- Rendered by JS -->
+                    </div>
+                </div>
+
+                <!-- Gráficos -->
+                <div class="escolar-charts-grid">
+                    <div class="escolar-chart-card glass">
+                        <h3><i class="fas fa-chart-area"></i> Curva Temporal Semanal — Cobertura Acumulada 2026</h3>
+                        <div class="escolar-chart-container">
+                            <canvas id="chartEscolarTemporal"></canvas>
+                        </div>
+                    </div>
+                    <div class="escolar-chart-card glass">
+                        <h3><i class="fas fa-chart-bar"></i> Cobertura por Comuna — Ranking</h3>
+                        <div class="escolar-chart-container">
+                            <canvas id="chartEscolarComunas"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tabla de Ranking Comunal -->
+                <div class="escolar-ranking-card glass">
+                    <h3><i class="fas fa-trophy"></i> Ranking Comunal — Avance VPH Escolar 4.° Básico 2026</h3>
+                    <div class="escolar-ranking-badges" id="escolarRankingBadges">
+                        <!-- Rendered by JS -->
+                    </div>
+                    <div class="table-responsive">
+                        <table class="escolar-ranking-table" id="escolarRankingTable">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Comuna</th>
+                                    <th>Vacunados</th>
+                                    <th>Meta MINEDUC</th>
+                                    <th>Cobertura</th>
+                                    <th>Brecha</th>
+                                    <th>Cob. 31-08</th>
+                                    <th>Δ pp vs 31-08</th>
+                                </tr>
+                            </thead>
+                            <tbody id="escolarRankingBody">
+                                <!-- Rendered by JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Nota de módulo independiente -->
+                <div class="escolar-nota-modulo">
+                    <i class="fas fa-info-circle"></i>
+                    <strong>Nota:</strong> Este módulo es independiente del indicador histórico de cobertura VPH a los 15 años.
+                    El indicador a los 15 años evalúa qué proporción de una cohorte llegó a los 15 años con su esquema VPH correspondiente.
+                    Este avance escolar permite seguir semana a semana cómo avanza durante este año la vacunación VPH de estudiantes de 4.º básico. No miden lo mismo y no deben compararse directamente.
+                </div>
+
             </section>
 
             <!-- ── TAB 3: AUTOCONSULTA ── -->
@@ -702,25 +834,11 @@
 
         </main>
 
-        <!-- ── NOTAS TÉCNICAS Y METODOLÓGICAS AL PIE (ESTÁNDAR MINSAL / DEIS) ── -->
+        <!-- ── NOTAS TÉCNICAS Y METODOLÓGICAS AL PIE ── -->
         <section class="glass minsal-border footer-methodology-box">
-            <h3 class="methodology-box-title"><i class="fas fa-microscope"></i> NOTAS TÉCNICAS Y METODOLÓGICAS DEIS / MINSAL</h3>
-            <div class="methodology-box-content">
-                <p>
-                    <strong>Fuente Oficial:</strong> Departamento de Estadísticas e Información de Salud (DEIS) y Registro Nacional de Inmunizaciones (RNI) – Ministerio de Salud de Chile.
-                </p>
-                <p>
-                    <strong>Criterio Territorial (Base Residencia):</strong> Las coberturas corresponden a personas residentes en la Provincia de Osorno (comunas de Osorno, Puerto Octay, Purranque, Puyehue, Río Negro, San Juan de la Costa y San Pablo).
-                </p>
-                <p>
-                    <strong>Denominador Vital Ajustado:</strong> Población objetivo calculada a partir de los nacidos vivos oficiales DEIS de la cohorte correspondiente menos las defunciones acumuladas antes de los 15 años de edad.
-                </p>
-                <p>
-                    <strong>Filtros de Calidad Mandatorios:</strong> Vacuna administrada = "SI", registros vigentes (eliminados = "NO"), exclusión estricta de registros y dosis clasificados como EPRO.
-                </p>
-                <p>
-                    <strong>Criterio de Esquema Completo:</strong> 2 o más dosis (o dosis única) para cohortes 2015-2024; 1 dosis única de vacuna Nonavalente (Gardasil 9) a partir del año escolar 2024.
-                </p>
+            <h3 class="methodology-box-title"><i class="fas fa-microscope"></i> NOTAS TÉCNICAS Y METODOLÓGICAS</h3>
+            <div class="methodology-box-content" id="methodologyBoxContent">
+                <!-- Se inyecta dinámicamente desde JS -->
             </div>
         </section>
 
@@ -749,7 +867,7 @@
                 </div>
                 <button class="modal-close-btn" onclick="closeMethodologyModal()" aria-label="Cerrar Ficha Metodológica">&times;</button>
             </div>
-            <div class="methodology-modal-body">
+            <div class="methodology-modal-body" id="methodologyModalBody">
                 <div class="methodology-grid">
                     <div class="method-box">
                         <h3><i class="fas fa-calculator"></i> 1. Definición y Fórmula del Indicador</h3>
@@ -843,6 +961,7 @@
 
     <!-- Scripts de Datos y Lógica -->
     <script src="dashboard_data_vph.js?v=52"></script>
+    <script src="avance_escolar_vph.js?v=1"></script>
     
     <!-- Premium Features JS -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>

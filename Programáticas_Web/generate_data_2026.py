@@ -180,15 +180,37 @@ re_raw = process_residencia(re_path)
 
 metas = extract_metas_from_2026()
 
-try:
-    mtime = max(os.path.getmtime(oc_path), os.path.getmtime(re_path))
-    fecha_referencia = datetime.fromtimestamp(mtime).strftime("%d/%m/%Y %H:%M")
-except:
-    fecha_referencia = datetime.now().strftime("%d/%m/%Y %H:%M")
+all_dates = []
+
+def extract_dates(file_path):
+    with open(file_path, 'r', encoding='latin1') as f:
+        reader = csv.DictReader(f, delimiter='|')
+        for row in reader:
+            fecha = row.get('FECHA_INMUNIZACION', '').strip()
+            if fecha:
+                try:
+                    all_dates.append(datetime.strptime(fecha, '%Y-%m-%d'))
+                except:
+                    pass
+
+extract_dates(oc_path)
+extract_dates(re_path)
+
+fecha_max_str = "Desconocido"
+if all_dates:
+    fecha_max_str = max(all_dates).strftime("%d-%m-%Y")
+    
+fecha_referencia = fecha_max_str
 
 output = {
-    "fecha_actualizacion": fecha_referencia,
     "fuente": "Programáticas (Ocurrencia + Residencia)",
+    "fecha_procesamiento": datetime.now().strftime("%d-%m-%Y %H:%M"),
+    "fecha_actualizacion": fecha_referencia,
+    "datos_disponibles_hasta": fecha_referencia,
+    "fecha_max_residencia": fecha_max_str,
+    "fecha_max_ocurrencia": fecha_max_str,
+    "ultima_se_residencia": None,
+    "ultima_se_ocurrencia": None,
     "headers": HEADERS,
     "meses_base": list(range(1, 13)),
     "data_ocurrencia": format_ocurrencia(oc_raw),

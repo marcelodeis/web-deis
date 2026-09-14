@@ -1,0 +1,28 @@
+{
+  "2025": {
+    "total_nacidos": 1827,
+    "bcg": {
+      "vacunados": 1810,
+      "pendientes": 11,
+      "fallecidos": 6
+    },
+    "hepb": {
+      "vacunados": 1813,
+      "pendientes": 9,
+      "fallecidos": 5
+    }
+  },
+  "2026": {
+    "total_nacidos": 1202,
+    "bcg": {
+      "vacunados": 1163,
+      "pendientes": 34,
+      "fallecidos": 5
+    },
+    "hepb": {
+      "vacunados": 1168,
+      "pendientes": 31,
+      "fallecidos": 3
+    }
+  }
+}

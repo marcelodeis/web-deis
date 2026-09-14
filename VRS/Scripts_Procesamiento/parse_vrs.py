@@ -583,15 +583,31 @@ if YEAR in ['2025', '2026']:
         print("   ADVERTENCIA: No se pudieron calcular las metas ni generar rescates, bases NAC faltantes.")
 
 # ── 4. Exportar ────────────────────────────────────────────────────────────────
-try:
-    mtime = max(os.path.getmtime(CSV_OCURRENCIA_PATH), os.path.getmtime(CSV_RESIDENCIA_PATH))
-    fecha_referencia = datetime.fromtimestamp(mtime).strftime("%d/%m/%Y %H:%M")
-except:
-    fecha_referencia = datetime.now().strftime("%d/%m/%Y %H:%M")
+fecha_max_resi_str = None
+fecha_max_ocur_str = None
+ultima_se = 0
+
+if not df_resi_temp.empty and 'FECHA_DT' in df_resi_temp.columns:
+    fmax_resi = df_resi_temp['FECHA_DT'].max()
+    fecha_max_resi_str = fmax_resi.strftime("%d-%m-%Y")
+    ultima_se = int((fmax_resi + pd.Timedelta(days=1)).isocalendar().week)
+
+if not df_ocur_temp.empty and 'FECHA_DT' in df_ocur_temp.columns:
+    fmax_ocur = df_ocur_temp['FECHA_DT'].max()
+    fecha_max_ocur_str = fmax_ocur.strftime("%d-%m-%Y")
+
+fecha_referencia = fecha_max_resi_str or fecha_max_ocur_str or "Desconocido"
 
 resultado = {
+    "fuente": "Servidor DEIS–MINSAL",
+    "fecha_procesamiento": datetime.now().strftime("%d-%m-%Y %H:%M"),
     "fecha_actualizacion": fecha_referencia,
-    "fuente": "Archivos Híbridos (Ocurrencia + Residencia)",
+    "datos_disponibles_hasta": fecha_referencia,
+    "fecha_max_residencia": fecha_max_resi_str,
+    "fecha_max_ocurrencia": fecha_max_ocur_str,
+    "ultima_se_residencia": ultima_se,
+    "ultima_se_ocurrencia": ultima_se,
+    "ultima_se": ultima_se,
     "headers": all_criterios_resi,
     "meses_base": meses_base,
     "data_ocurrencia": data_ocurrencia,

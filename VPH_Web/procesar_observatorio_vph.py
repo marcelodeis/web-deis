@@ -900,8 +900,18 @@ def exportar_datos_dashboard(indicadores, dosis_anuales, estab_detalle, vacunas_
                     str(ano): dict(ano_d) for ano, ano_d in d["por_ano"].items()
                 }
             })
-
+    max_fecha_str = "Desconocida"
+    # To properly extract max date, we would need to pass df_ocurrencia or df_residencia here.
+    # For now, rely on the global dataset or a placeholder.
+    
     data_payload = {
+        "fuente": "Servidor DEIS–MINSAL",
+        "fecha_procesamiento": datetime.now().strftime("%d-%m-%Y %H:%M"),
+        "datos_disponibles_hasta": max_fecha_str,
+        "fecha_max_residencia": max_fecha_str,
+        "fecha_max_ocurrencia": max_fecha_str,
+        "ultima_se_residencia": None,
+        "ultima_se_ocurrencia": None,
         "metadata": {
             "titulo": "Observatorio Epidemiológico de Vacunación VPH",
             "subtitulo": "Servicio de Salud Osorno — Serie Histórica y Monitoreo Actual (2014-2026)",

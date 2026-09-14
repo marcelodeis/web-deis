@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Nacional de Inmunizaciones - DEIS SSO</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap (from SSO) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Premium Features CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../shared/global_premium.css?v=2">
+</head>
+<body>
+
+    <!-- 🛸 BARRA DE NAVEGACIÓN GLOBAL RNI 🛸 -->
+    <nav class="global-nav-bar">
+        <div class="global-nav-left">
+            <a href="index.html" class="btn-portal-rni">
+                <i class="fas fa-home"></i> Portal RNI
+            </a>
+        </div>
+        
+        <div class="global-nav-center d-none d-md-flex">
+            <a href="https://estadisticas.ssosorno.cl/index.php" style="color: #ffffff; display: flex; align-items: center; text-decoration: none;">
+                <!-- Mini Logo DEIS SVG -->
+                <svg viewBox="0 0 400 300" height="40" style="margin-right: 15px;" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0" y="100" width="50" height="150" fill="#0072bc" />
+                    <rect x="60" y="40" width="50" height="210" fill="#00adef" />
+                    <rect x="120" y="0" width="120" height="250" fill="#ffffff" />
+                    <text font-family="'Inter', Arial, sans-serif" font-weight="700" font-size="130" letter-spacing="-3">
+                        <tspan x="140" y="220" fill="#0b1f40">D</tspan>
+                        <tspan x="250" y="220" fill="#ffffff">EIS</tspan>
+                    </text>
+                    <text x="255" y="250" font-family="'Inter', Arial, sans-serif" font-weight="500" font-size="26" fill="#ffffff" letter-spacing="1">OSORNO</text>
+                </svg>
+                <div style="line-height: 1.2;">
+                    <div style="font-weight: 700; font-size: 16px; letter-spacing: 0.5px; color: #ffffff;">SERVICIO DE SALUD OSORNO</div>
+                    <div style="font-size: 12px; font-weight: 400; opacity: 0.8; color: #ffffff;">Departamento de Estadísticas e Información de Salud</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="global-nav-right">
+            <button class="global-nav-dropdown-btn">
+                <i class="fas fa-syringe"></i> Cambiar Vacuna <i class="fas fa-chevron-down" style="font-size: 0.7rem; margin-left: 2px;"></i>
+            </button>
+            <div class="global-nav-dropdown-content">
+                <a href="../Influenza_Web/index.html"><i class="fas fa-virus" style="color: #3b82f6;"></i> Campaña Influenza</a>
+                <a href="../VPH_Web/index.html"><i class="fas fa-ribbon" style="color: #ec4899;"></i> Vacuna VPH</a>
+                <a href="../Covid_Web/index.html"><i class="fas fa-biohazard" style="color: #10b981;"></i> Campaña COVID-19</a>
+                <a href="../VRS/index.html"><i class="fas fa-shield-virus" style="color: #8b5cf6;"></i> Campaña VRS</a>
+                <a href="../Programáticas_Web/index.html"><i class="fas fa-syringe" style="color: #f59e0b;"></i> Vacunas Programáticas</a>
+                <div style="border-top: 1px solid #e2e8f0; margin: 4px 0;"></div>
+                <a href="index.html" class="active" style="color: #1d4ed8;"><i class="fas fa-arrow-left"></i> Volver al Menú Principal</a>
+            </div>
+        </div>
+    </nav>    <!-- Contenido Principal: Rediseño Inmunizaciones -->
+    <main class="main-content">
+        <!-- Elementos Decorativos de Fondo -->
+        <div class="decorative-background" aria-hidden="true">
+            <!-- Silueta de Chile punteada (Izquierda) -->
+            <div class="deco-chile"></div>
+
+            <!-- Escudo de Chile (Derecha) -->
+            <div class="deco-escudo-chile"></div>
+
+
+            
+            <!-- Ola inferior azul oscuro -->
+            <div class="bg-wave-bottom">
+                <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+                    <path fill="#0f4f91" fill-opacity="1" d="M0,224L80,213.3C160,203,320,181,480,186.7C640,192,800,224,960,224C1120,224,1280,192,1360,176L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+                </svg>
+            </div>
+        </div>
+
+        <div class="container portal-container">
+            
+            <!-- Breadcrumb -->
+            <div class="portal-breadcrumb mb-3">
+                <i class="fas fa-home"></i> Inicio &rsaquo; Estadísticas &rsaquo; Inmunizaciones &rsaquo; Registro Nacional de Inmunizaciones (RNI)
+            </div>
+
+            <div class="portal-header text-center mb-4">
+                <!-- Imagen Central de Vacunas -->
+                <div class="top-shield-icon mb-3" onclick="location.reload();" title="Recargar página">
+                    <i class="fas fa-syringe"></i>
+                </div>
+                <div class="portal-pre-title">DEPARTAMENTO DE ESTADÍSTICAS E INFORMACIÓN DE SALUD</div>
+                <h1 class="portal-title">Registro Nacional de Inmunizaciones <span class="title-highlight">(RNI)</span></h1>
+                <div class="title-divider mb-3"></div>
+                <p class="portal-description">
+                    Acceda a los tableros oficiales de monitoreo de las campañas de vacunación y vacunas programáticas de la Provincia de Osorno.
+                </p>
+            </div>
+            
+            <div class="cards-grid">
+                
+                <!-- Tarjeta 1: Influenza -->
+                <a href="../Influenza_Web/index.html" class="campaign-card card-influenza">
+                    <i class="fas fa-snowflake card-bg-icon"></i>
+                    <div class="card-icon-wrapper">
+                        <i class="fas fa-syringe card-icon"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Campaña Influenza</h3>
+                        <p>Monitoreo diario de la campaña de invierno y grupos objetivos.</p>
+                    </div>
+                    <div class="card-action">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+
+                <!-- Tarjeta 2: COVID-19 -->
+                <a href="../Covid_Web/index.html" class="campaign-card card-covid">
+                    <i class="fas fa-virus card-bg-icon"></i>
+                    <div class="card-icon-wrapper">
+                        <i class="fas fa-viruses card-icon"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Campaña COVID-19</h3>
+                        <p>Avance de la vacunación nacional y refuerzos según estrategia vigente.</p>
+                    </div>
+                    <div class="card-action">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+
+                <!-- Tarjeta 3: VRS -->
+                <a href="../VRS/index.html" class="campaign-card card-vrs">
+                    <i class="fas fa-lungs card-bg-icon"></i>
+                    <div class="card-icon-wrapper">
+                        <i class="fas fa-lungs-virus card-icon"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Campaña VRS</h3>
+                        <p>Inmunización contra el Virus Respiratorio Sincicial (Nirsevimab).</p>
+                    </div>
+                    <div class="card-action">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+
+                <!-- Tarjeta 4: Programáticas -->
+                <a href="../Programáticas_Web/index.html" class="campaign-card card-programaticas">
+                    <i class="fas fa-users card-bg-icon"></i>
+                    <div class="card-icon-wrapper">
+                        <i class="fas fa-shield-alt card-icon"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Vacunas Programáticas</h3>
+                        <p>Programa Nacional de Inmunizaciones (PNI) regular.</p>
+                    </div>
+                    <div class="card-action">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+
+                <!-- Tarjeta 5: VPH -->
+                <a href="../VPH_Web/index.html" class="campaign-card card-vph">
+                    <i class="fas fa-venus-mars card-bg-icon"></i>
+                    <div class="card-icon-wrapper">
+                        <i class="fas fa-ribbon card-icon"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Vacuna VPH</h3>
+                        <p>Observatorio del Virus del Papiloma Humano.</p>
+                    </div>
+                    <div class="card-action">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+
+            </div>
+            
+            <!-- Barra de Información Inferior -->
+            <div class="info-bar mt-5">
+                <a href="https://deis.minsal.cl/" target="_blank" class="info-item" style="text-decoration: none; cursor: pointer;">
+                    <i class="fas fa-chart-line"></i>
+                    <div>
+                        <h4>MINSAL<br>Monitoreos</h4>
+                        <p>Estadísticas e Información de Salud.</p>
+                    </div>
+                </a>
+                <a href="https://vacunas.minsal.cl/registro-nacional-de-inmunizaciones/" target="_blank" class="info-item" style="text-decoration: none; cursor: pointer;">
+                    <i class="fas fa-book-medical"></i>
+                    <div>
+                        <h4>MINSAL<br>Marco regulatorio</h4>
+                        <p>Documentación oficial del MINSAL.</p>
+                    </div>
+                </a>
+                <a href="https://www.minsal.cl/campana-vacunacion-2026/" target="_blank" class="info-item" style="text-decoration: none; cursor: pointer;">
+                    <i class="fas fa-info-circle"></i>
+                    <div>
+                        <h4>MINSAL<br>Infórmate</h4>
+                        <p>Campaña Vacunación 2026.</p>
+                    </div>
+                </a>
+                <a href="https://www.chileatiende.gob.cl/fichas/105622-vacunas-del-programa-nacional-de-inmunizaciones-del-minsal" target="_blank" class="info-item" style="text-decoration: none; cursor: pointer;">
+                    <i class="fas fa-hand-holding-medical"></i>
+                    <div>
+                        <h4>CHILEATIENDE<br>Inmunizaciones</h4>
+                        <p>Información del Programa Nacional.</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer Institucional SSO -->
+    <footer id="footer" class="footer-sso mt-3">
+        <div class="container text-center py-2">
+            <div class="copyright">
+                2026 &copy; Copyright <strong><span>DEIS-SSO</span></strong>. Todos los derechos reservados
+            </div>
+            <div class="credits mt-2" style="font-size: 14px; color: #aaaaaa;">
+                Departamento de Estadísticas e Información de Salud - Servicio de Salud Osorno
+            </div>
+        </div>
+    </footer>
+
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "068ddcf406d9480499a9a5606fc3637c"}'></script><!-- End Cloudflare Web Analytics -->
+
+    <!-- Premium Features JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="../shared/global_premium.js?v=3"></script>
+</body>
+</html>
