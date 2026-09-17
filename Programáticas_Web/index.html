@@ -874,123 +874,184 @@
                 </section>
 
                 <!-- BLOQUE 3: ESQUEMA PRIMARIO -->
-                <section id="bloque-primario" style="background: #f1f5f9; border-radius: 12px; padding: 30px; margin-bottom: 40px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06); border-top: 4px solid #f59e0b; position: relative; overflow: hidden;">
+                
+                
+                <section id="bloque-primario" style="background: white; border-radius: 12px; padding: 30px; margin-bottom: 40px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06); border-top: 4px solid #10b981; position: relative; overflow: hidden;">
                     
-                    <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 25px; border-bottom: 2px solid #e2e8f0; padding-bottom: 15px;">
-                        <div style="background: #fffbeb; color: #f59e0b; width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
-                            <i class="fas fa-shield-virus"></i>
-                        </div>
-                        <div style="flex-grow: 1;">
-                            <div style="display: flex; align-items: center; justify-content: flex-start; flex-wrap: wrap; gap: 15px;">
-                                <h3 style="margin: 0; color: #0f172a; font-size: 1.4rem;">Seguimiento del Esquema Primario</h3>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; border-bottom: 2px solid #f1f5f9; padding-bottom: 15px;">
+                        <div style="display: flex; align-items: center; gap: 15px;">
+                            <div style="background: #ecfdf5; color: #10b981; width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
+                                <i class="fas fa-shield-virus"></i>
                             </div>
-                            <p style="margin: 8px 0 0 0; color: #475569; font-size: 0.95rem;">Identificación de menores sin registro de dosis correspondientes al esquema infantil.</p>
+                            <div>
+                                <h3 style="margin: 0; color: #0f172a; font-size: 1.3rem;">Seguimiento del Esquema Primario - Residencia SSO</h3>
+                            </div>
                         </div>
-                    </div>
-
-                    <!-- Banner de Desarrollo -->
-                    <div style="background: white; border: 1px solid #fcd34d; border-left: 4px solid #f59e0b; border-radius: 8px; padding: 15px 20px; margin-bottom: 25px; display: flex; align-items: center; gap: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
-                        <i class="fas fa-tools" style="color: #f59e0b; font-size: 2rem;"></i>
-                        <div>
-                            <h4 style="margin: 0; color: #b45309; font-size: 1.2rem; font-weight: 800; text-transform: uppercase;">Módulo en Desarrollo</h4>
-                            <p style="margin: 4px 0 0 0; color: #64748b; font-size: 0.95rem;">Las tarjetas a continuación son maquetas estructurales. El monitoreo de estos biológicos estará próximamente disponible.</p>
-                        </div>
+                        <span style="padding: 6px 14px; border-radius: 6px; border: 1px solid #cbd5e1; font-weight: 600; color: #334155; background: #f8fafc; font-size: 0.9rem;">Año 2026</span>
                     </div>
 
                     <div class="reportes-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
-                        <!-- Tarjeta Hexavalente 2 -->
-                        <div class="reporte-card" style="border: 1px dashed #cbd5e1; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; background: white;">
-                            <div style="background: #f8fafc; padding: 15px 20px; border-bottom: 1px dashed #cbd5e1;">
-                                <h4 style="margin: 0; color: #475569; font-size: 1.1rem; font-weight: 700;">HEXAVALENTE - 2.ª DOSIS</h4>
+
+                        <!-- Tarjeta Hexavalente - 2.ª dosis -->
+                        <div class="reporte-card" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column;">
+                            <div style="background: #f8fafc; padding: 15px 20px; border-bottom: 1px solid #e2e8f0; display: flex; align-items: center; gap: 10px;">
+                                <div style="background: #ffedd5; color: #f97316; width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center;"><i class="fas fa-shield-virus"></i></div>
+                                <h4 style="margin: 0; color: #0f172a; font-size: 1.1rem; font-weight: 700;">Hexavalente - 2.ª dosis</h4>
                             </div>
-                            <div style="padding: 25px 20px; text-align: center; flex-grow: 1; display: flex; flex-direction: column; justify-content: center; opacity: 0.5;">
-                                <div style="color: #94a3b8; font-weight: 600; font-size: 1rem;"><i class="fas fa-hard-hat" style="margin-bottom: 8px; font-size: 1.5rem;"></i><br>En preparación</div>
+                            <div style="padding: 25px 20px; text-align: center; flex-grow: 1;">
+                                <div style="font-size: 3rem; font-weight: 800; color: #f97316; line-height: 1;" id="prog-hexa2-brecha">--</div>
+                                <div style="color: #64748b; font-weight: 600; font-size: 1rem; margin-top: 5px;">menores sin registro identificado</div>
+                                <div style="color: #f97316; font-size: 0.85rem; font-weight: 600; margin-top: 5px;" id="prog-hexa2-pct-brecha">--% del universo elegible</div>
+                                <div style="margin-top: 20px; text-align: left; background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px;">
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem;"><span style="color:#475569;">Universo:</span><strong id="prog-hexa2-uni">--</strong></div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem;"><span style="color:#475569;">Excluidos del seguimiento <i class="fas fa-info-circle" title="Registros excluidos del seguimiento según los criterios metodológicos." style="color:#64748b; cursor:help;"></i>:</span><strong id="prog-hexa2-exc">--</strong></div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem; padding-top: 4px; border-top: 1px dashed #e2e8f0;"><span style="color:#475569;">Universo elegible:</span><strong id="prog-hexa2-elegible">--</strong></div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem;"><span style="color:#475569;">Con registro de vacunación:</span><strong id="prog-hexa2-vac">--</strong></div>
+                                </div>
                             </div>
-                        </div>
-                        
-                        <!-- Tarjeta Neumocócica -->
-                        <div class="reporte-card" style="border: 1px dashed #cbd5e1; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; background: white;">
-                            <div style="background: #f8fafc; padding: 15px 20px; border-bottom: 1px dashed #cbd5e1;">
-                                <h4 style="margin: 0; color: #475569; font-size: 1.1rem; font-weight: 700;">NEUMOCÓCICA CONJUGADA - 2.ª DOSIS</h4>
-                            </div>
-                            <div style="padding: 25px 20px; text-align: center; flex-grow: 1; display: flex; flex-direction: column; justify-content: center; opacity: 0.5;">
-                                <div style="color: #94a3b8; font-weight: 600; font-size: 1rem;"><i class="fas fa-hard-hat" style="margin-bottom: 8px; font-size: 1.5rem;"></i><br>En preparación</div>
-                            </div>
-                        </div>
-                        
-                        <!-- Tarjeta Meningo -->
-                        <div class="reporte-card" style="border: 1px dashed #cbd5e1; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; background: white;">
-                            <div style="background: #f8fafc; padding: 15px 20px; border-bottom: 1px dashed #cbd5e1;">
-                                <h4 style="margin: 0; color: #475569; font-size: 1.1rem; font-weight: 700;">MENINGOCÓCICA B - 2.ª DOSIS</h4>
-                            </div>
-                            <div style="padding: 25px 20px; text-align: center; flex-grow: 1; display: flex; flex-direction: column; justify-content: center; opacity: 0.5;">
-                                <div style="color: #94a3b8; font-weight: 600; font-size: 1rem;"><i class="fas fa-hard-hat" style="margin-bottom: 8px; font-size: 1.5rem;"></i><br>En preparación</div>
+                            <div style="padding: 15px 20px; background: #f8fafc; border-top: 1px solid #e2e8f0; display: flex; gap: 10px;">
+                                <button onclick="abrirReporteProgramaticas('hexa2')" style="flex: 1; background: white; border: 1px solid #3b82f6; color: #3b82f6; padding: 10px; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.background='#eff6ff'; this.style.borderColor='#2563eb'; this.style.color='#2563eb';" onmouseout="this.style.background='white'; this.style.borderColor='#3b82f6'; this.style.color='#3b82f6';"><i class="fas fa-eye"></i> Ver reporte</button>
+                                <a id="btn-download-prog-hexa2" href="Rescates_Hexavalente_2_Pendientes_2026.xlsx" download style="flex: 1; background: #10b981; color: white; border: none; padding: 10px; border-radius: 8px; font-weight: 600; text-decoration: none; text-align: center; display: inline-block; transition: background 0.2s;" onmouseover="this.style.background='#059669'" onmouseout="this.style.background='#10b981'"><i class="fas fa-file-excel"></i> Descargar nómina</a>
                             </div>
                         </div>
-                        
-                        <!-- Tarjeta Hexavalente 3 -->
-                        <div class="reporte-card" style="border: 1px dashed #cbd5e1; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; background: white;">
-                            <div style="background: #f8fafc; padding: 15px 20px; border-bottom: 1px dashed #cbd5e1;">
-                                <h4 style="margin: 0; color: #475569; font-size: 1.1rem; font-weight: 700;">HEXAVALENTE - 3.ª DOSIS</h4>
+
+                        <!-- Tarjeta Neumocócica - 2.ª dosis -->
+                        <div class="reporte-card" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column;">
+                            <div style="background: #f8fafc; padding: 15px 20px; border-bottom: 1px solid #e2e8f0; display: flex; align-items: center; gap: 10px;">
+                                <div style="background: #ffedd5; color: #f97316; width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center;"><i class="fas fa-shield-virus"></i></div>
+                                <h4 style="margin: 0; color: #0f172a; font-size: 1.1rem; font-weight: 700;">Neumocócica - 2.ª dosis</h4>
                             </div>
-                            <div style="padding: 25px 20px; text-align: center; flex-grow: 1; display: flex; flex-direction: column; justify-content: center; opacity: 0.5;">
-                                <div style="color: #94a3b8; font-weight: 600; font-size: 1rem;"><i class="fas fa-hard-hat" style="margin-bottom: 8px; font-size: 1.5rem;"></i><br>En preparación</div>
+                            <div style="padding: 25px 20px; text-align: center; flex-grow: 1;">
+                                <div style="font-size: 3rem; font-weight: 800; color: #f97316; line-height: 1;" id="prog-neumo2-brecha">--</div>
+                                <div style="color: #64748b; font-weight: 600; font-size: 1rem; margin-top: 5px;">menores sin registro identificado</div>
+                                <div style="color: #f97316; font-size: 0.85rem; font-weight: 600; margin-top: 5px;" id="prog-neumo2-pct-brecha">--% del universo elegible</div>
+                                <div style="margin-top: 20px; text-align: left; background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px;">
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem;"><span style="color:#475569;">Universo:</span><strong id="prog-neumo2-uni">--</strong></div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem;"><span style="color:#475569;">Excluidos del seguimiento <i class="fas fa-info-circle" title="Registros excluidos del seguimiento según los criterios metodológicos." style="color:#64748b; cursor:help;"></i>:</span><strong id="prog-neumo2-exc">--</strong></div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem; padding-top: 4px; border-top: 1px dashed #e2e8f0;"><span style="color:#475569;">Universo elegible:</span><strong id="prog-neumo2-elegible">--</strong></div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem;"><span style="color:#475569;">Con registro de vacunación:</span><strong id="prog-neumo2-vac">--</strong></div>
+                                </div>
+                            </div>
+                            <div style="padding: 15px 20px; background: #f8fafc; border-top: 1px solid #e2e8f0; display: flex; gap: 10px;">
+                                <button onclick="abrirReporteProgramaticas('neumo2')" style="flex: 1; background: white; border: 1px solid #3b82f6; color: #3b82f6; padding: 10px; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.background='#eff6ff'; this.style.borderColor='#2563eb'; this.style.color='#2563eb';" onmouseout="this.style.background='white'; this.style.borderColor='#3b82f6'; this.style.color='#3b82f6';"><i class="fas fa-eye"></i> Ver reporte</button>
+                                <a id="btn-download-prog-neumo2" href="Rescates_Neumococica_2_Pendientes_2026.xlsx" download style="flex: 1; background: #10b981; color: white; border: none; padding: 10px; border-radius: 8px; font-weight: 600; text-decoration: none; text-align: center; display: inline-block; transition: background 0.2s;" onmouseover="this.style.background='#059669'" onmouseout="this.style.background='#10b981'"><i class="fas fa-file-excel"></i> Descargar nómina</a>
+                            </div>
+                        </div>
+
+                        <!-- Tarjeta Meningocócica B - 2.ª dosis -->
+                        <div class="reporte-card" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column;">
+                            <div style="background: #f8fafc; padding: 15px 20px; border-bottom: 1px solid #e2e8f0; display: flex; align-items: center; gap: 10px;">
+                                <div style="background: #ffedd5; color: #f97316; width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center;"><i class="fas fa-shield-virus"></i></div>
+                                <h4 style="margin: 0; color: #0f172a; font-size: 1.1rem; font-weight: 700;">Meningocócica B - 2.ª dosis</h4>
+                            </div>
+                            <div style="padding: 25px 20px; text-align: center; flex-grow: 1;">
+                                <div style="font-size: 3rem; font-weight: 800; color: #f97316; line-height: 1;" id="prog-menb2-brecha">--</div>
+                                <div style="color: #64748b; font-weight: 600; font-size: 1rem; margin-top: 5px;">menores sin registro identificado</div>
+                                <div style="color: #f97316; font-size: 0.85rem; font-weight: 600; margin-top: 5px;" id="prog-menb2-pct-brecha">--% del universo elegible</div>
+                                <div style="margin-top: 20px; text-align: left; background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px;">
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem;"><span style="color:#475569;">Universo:</span><strong id="prog-menb2-uni">--</strong></div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem;"><span style="color:#475569;">Excluidos del seguimiento <i class="fas fa-info-circle" title="Registros excluidos del seguimiento según los criterios metodológicos." style="color:#64748b; cursor:help;"></i>:</span><strong id="prog-menb2-exc">--</strong></div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem; padding-top: 4px; border-top: 1px dashed #e2e8f0;"><span style="color:#475569;">Universo elegible:</span><strong id="prog-menb2-elegible">--</strong></div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem;"><span style="color:#475569;">Con registro de vacunación:</span><strong id="prog-menb2-vac">--</strong></div>
+                                </div>
+                            </div>
+                            <div style="padding: 15px 20px; background: #f8fafc; border-top: 1px solid #e2e8f0; display: flex; gap: 10px;">
+                                <button onclick="abrirReporteProgramaticas('menb2')" style="flex: 1; background: white; border: 1px solid #3b82f6; color: #3b82f6; padding: 10px; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.background='#eff6ff'; this.style.borderColor='#2563eb'; this.style.color='#2563eb';" onmouseout="this.style.background='white'; this.style.borderColor='#3b82f6'; this.style.color='#3b82f6';"><i class="fas fa-eye"></i> Ver reporte</button>
+                                <a id="btn-download-prog-menb2" href="Rescates_Meningococica_B_2_Pendientes_2026.xlsx" download style="flex: 1; background: #10b981; color: white; border: none; padding: 10px; border-radius: 8px; font-weight: 600; text-decoration: none; text-align: center; display: inline-block; transition: background 0.2s;" onmouseover="this.style.background='#059669'" onmouseout="this.style.background='#10b981'"><i class="fas fa-file-excel"></i> Descargar nómina</a>
+                            </div>
+                        </div>
+
+                        <!-- Tarjeta Hexavalente - 3.ª dosis -->
+                        <div class="reporte-card" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column;">
+                            <div style="background: #f8fafc; padding: 15px 20px; border-bottom: 1px solid #e2e8f0; display: flex; align-items: center; gap: 10px;">
+                                <div style="background: #ffedd5; color: #f97316; width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center;"><i class="fas fa-shield-virus"></i></div>
+                                <h4 style="margin: 0; color: #0f172a; font-size: 1.1rem; font-weight: 700;">Hexavalente - 3.ª dosis</h4>
+                            </div>
+                            <div style="padding: 25px 20px; text-align: center; flex-grow: 1;">
+                                <div style="font-size: 3rem; font-weight: 800; color: #f97316; line-height: 1;" id="prog-hexa3-brecha">--</div>
+                                <div style="color: #64748b; font-weight: 600; font-size: 1rem; margin-top: 5px;">menores sin registro identificado</div>
+                                <div style="color: #f97316; font-size: 0.85rem; font-weight: 600; margin-top: 5px;" id="prog-hexa3-pct-brecha">--% del universo elegible</div>
+                                <div style="margin-top: 20px; text-align: left; background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px;">
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem;"><span style="color:#475569;">Universo:</span><strong id="prog-hexa3-uni">--</strong></div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem;"><span style="color:#475569;">Excluidos del seguimiento <i class="fas fa-info-circle" title="Registros excluidos del seguimiento según los criterios metodológicos." style="color:#64748b; cursor:help;"></i>:</span><strong id="prog-hexa3-exc">--</strong></div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem; padding-top: 4px; border-top: 1px dashed #e2e8f0;"><span style="color:#475569;">Universo elegible:</span><strong id="prog-hexa3-elegible">--</strong></div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem;"><span style="color:#475569;">Con registro de vacunación:</span><strong id="prog-hexa3-vac">--</strong></div>
+                                </div>
+                            </div>
+                            <div style="padding: 15px 20px; background: #f8fafc; border-top: 1px solid #e2e8f0; display: flex; gap: 10px;">
+                                <button onclick="abrirReporteProgramaticas('hexa3')" style="flex: 1; background: white; border: 1px solid #3b82f6; color: #3b82f6; padding: 10px; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.background='#eff6ff'; this.style.borderColor='#2563eb'; this.style.color='#2563eb';" onmouseout="this.style.background='white'; this.style.borderColor='#3b82f6'; this.style.color='#3b82f6';"><i class="fas fa-eye"></i> Ver reporte</button>
+                                <a id="btn-download-prog-hexa3" href="Rescates_Hexavalente_3_Pendientes_2026.xlsx" download style="flex: 1; background: #10b981; color: white; border: none; padding: 10px; border-radius: 8px; font-weight: 600; text-decoration: none; text-align: center; display: inline-block; transition: background 0.2s;" onmouseover="this.style.background='#059669'" onmouseout="this.style.background='#10b981'"><i class="fas fa-file-excel"></i> Descargar nómina</a>
                             </div>
                         </div>
                     </div>
                 </section>
-
-                <!-- BLOQUE 4: SEGUNDAS DOSIS -->
-                <section id="bloque-segundas" style="background: #f1f5f9; border-radius: 12px; padding: 30px; margin-bottom: 40px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06); border-top: 4px solid #8b5cf6; position: relative; overflow: hidden;">
+<!-- BLOQUE 4: SEGUNDAS DOSIS -->
+                
+                
+                <section id="bloque-segundas" style="background: white; border-radius: 12px; padding: 30px; margin-bottom: 40px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06); border-top: 4px solid #10b981; position: relative; overflow: hidden;">
                     
-                    <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 25px; border-bottom: 2px solid #e2e8f0; padding-bottom: 15px;">
-                        <div style="background: #f5f3ff; color: #8b5cf6; width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
-                            <i class="fas fa-syringe"></i>
-                        </div>
-                        <div style="flex-grow: 1;">
-                            <div style="display: flex; align-items: center; justify-content: flex-start; flex-wrap: wrap; gap: 15px;">
-                                <h3 style="margin: 0; color: #0f172a; font-size: 1.4rem;">Seguimiento de Segundas Dosis</h3>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; border-bottom: 2px solid #f1f5f9; padding-bottom: 15px;">
+                        <div style="display: flex; align-items: center; gap: 15px;">
+                            <div style="background: #ecfdf5; color: #10b981; width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
+                                <i class="fas fa-syringe"></i>
                             </div>
-                            <p style="margin: 8px 0 0 0; color: #475569; font-size: 0.95rem;">Identificación de menores sin registro para cierre de esquemas bi-dosis.</p>
+                            <div>
+                                <h3 style="margin: 0; color: #0f172a; font-size: 1.3rem;">Seguimiento de Segundas Dosis - Residencia SSO</h3>
+                            </div>
                         </div>
-                    </div>
-
-                    <!-- Banner de Desarrollo -->
-                    <div style="background: white; border: 1px solid #ddd6fe; border-left: 4px solid #8b5cf6; border-radius: 8px; padding: 15px 20px; margin-bottom: 25px; display: flex; align-items: center; gap: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
-                        <i class="fas fa-tools" style="color: #8b5cf6; font-size: 2rem;"></i>
-                        <div>
-                            <h4 style="margin: 0; color: #5b21b6; font-size: 1.2rem; font-weight: 800; text-transform: uppercase;">Módulo en Desarrollo</h4>
-                            <p style="margin: 4px 0 0 0; color: #64748b; font-size: 0.95rem;">Las tarjetas a continuación son maquetas estructurales. El monitoreo de estos biológicos estará próximamente disponible.</p>
-                        </div>
+                        <span style="padding: 6px 14px; border-radius: 6px; border: 1px solid #cbd5e1; font-weight: 600; color: #334155; background: #f8fafc; font-size: 0.9rem;">Año 2026</span>
                     </div>
 
                     <div class="reportes-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
-                        <!-- Tarjeta SRP -->
-                        <div class="reporte-card" style="border: 1px dashed #cbd5e1; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; background: white;">
-                            <div style="background: #f8fafc; padding: 15px 20px; border-bottom: 1px dashed #cbd5e1;">
-                                <h4 style="margin: 0; color: #475569; font-size: 1.1rem; font-weight: 700;">SRP - 2.ª DOSIS</h4>
+
+                        <!-- Tarjeta SRP - 2.ª dosis -->
+                        <div class="reporte-card" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column;">
+                            <div style="background: #f8fafc; padding: 15px 20px; border-bottom: 1px solid #e2e8f0; display: flex; align-items: center; gap: 10px;">
+                                <div style="background: #ffedd5; color: #f97316; width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center;"><i class="fas fa-syringe"></i></div>
+                                <h4 style="margin: 0; color: #0f172a; font-size: 1.1rem; font-weight: 700;">SRP - 2.ª dosis</h4>
                             </div>
-                            <div style="padding: 40px 20px; text-align: center; flex-grow: 1; display: flex; flex-direction: column; justify-content: center;">
-                                <div style="color: #cbd5e1; font-size: 3.5rem; margin-bottom: 20px;"><i class="fas fa-tools"></i></div>
-                                <div style="color: #334155; font-weight: 900; font-size: 1.8rem; text-transform: uppercase; letter-spacing: 1px; line-height: 1.2;">Módulo en<br>Desarrollo</div>
-                                <div style="margin-top: 15px; color: #64748b; font-size: 1.1rem; font-weight: 500;">Próximamente disponible</div>
+                            <div style="padding: 25px 20px; text-align: center; flex-grow: 1;">
+                                <div style="font-size: 3rem; font-weight: 800; color: #f97316; line-height: 1;" id="prog-srp2-brecha">--</div>
+                                <div style="color: #64748b; font-weight: 600; font-size: 1rem; margin-top: 5px;">menores sin registro identificado</div>
+                                <div style="color: #f97316; font-size: 0.85rem; font-weight: 600; margin-top: 5px;" id="prog-srp2-pct-brecha">--% del universo elegible</div>
+                                <div style="margin-top: 20px; text-align: left; background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px;">
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem;"><span style="color:#475569;">Universo:</span><strong id="prog-srp2-uni">--</strong></div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem;"><span style="color:#475569;">Excluidos del seguimiento <i class="fas fa-info-circle" title="Registros excluidos del seguimiento según los criterios metodológicos." style="color:#64748b; cursor:help;"></i>:</span><strong id="prog-srp2-exc">--</strong></div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem; padding-top: 4px; border-top: 1px dashed #e2e8f0;"><span style="color:#475569;">Universo elegible:</span><strong id="prog-srp2-elegible">--</strong></div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem;"><span style="color:#475569;">Con registro de vacunación:</span><strong id="prog-srp2-vac">--</strong></div>
+                                </div>
+                            </div>
+                            <div style="padding: 15px 20px; background: #f8fafc; border-top: 1px solid #e2e8f0; display: flex; gap: 10px;">
+                                <button onclick="abrirReporteProgramaticas('srp2')" style="flex: 1; background: white; border: 1px solid #3b82f6; color: #3b82f6; padding: 10px; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.background='#eff6ff'; this.style.borderColor='#2563eb'; this.style.color='#2563eb';" onmouseout="this.style.background='white'; this.style.borderColor='#3b82f6'; this.style.color='#3b82f6';"><i class="fas fa-eye"></i> Ver reporte</button>
+                                <a id="btn-download-prog-srp2" href="Rescates_SRP_2_Pendientes_2026.xlsx" download style="flex: 1; background: #10b981; color: white; border: none; padding: 10px; border-radius: 8px; font-weight: 600; text-decoration: none; text-align: center; display: inline-block; transition: background 0.2s;" onmouseover="this.style.background='#059669'" onmouseout="this.style.background='#10b981'"><i class="fas fa-file-excel"></i> Descargar nómina</a>
                             </div>
                         </div>
 
-                        <!-- Tarjeta Varicela -->
-                        <div class="reporte-card" style="border: 1px dashed #cbd5e1; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; background: white;">
-                            <div style="background: #f8fafc; padding: 15px 20px; border-bottom: 1px dashed #cbd5e1;">
-                                <h4 style="margin: 0; color: #475569; font-size: 1.1rem; font-weight: 700;">VARICELA - 2.ª DOSIS</h4>
+                        <!-- Tarjeta Varicela - 2.ª dosis -->
+                        <div class="reporte-card" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column;">
+                            <div style="background: #f8fafc; padding: 15px 20px; border-bottom: 1px solid #e2e8f0; display: flex; align-items: center; gap: 10px;">
+                                <div style="background: #ffedd5; color: #f97316; width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center;"><i class="fas fa-syringe"></i></div>
+                                <h4 style="margin: 0; color: #0f172a; font-size: 1.1rem; font-weight: 700;">Varicela - 2.ª dosis</h4>
                             </div>
-                            <div style="padding: 25px 20px; text-align: center; flex-grow: 1; display: flex; flex-direction: column; justify-content: center;">
-                                <div style="color: #64748b; font-weight: 600; font-size: 1rem;"><i class="fas fa-hard-hat" style="margin-bottom: 10px; font-size: 1.5rem;"></i><br>Monitoreo en preparación</div>
-                                <div style="margin-top: 5px; color: #94a3b8; font-size: 0.85rem;">Próximamente disponible</div>
+                            <div style="padding: 25px 20px; text-align: center; flex-grow: 1;">
+                                <div style="font-size: 3rem; font-weight: 800; color: #f97316; line-height: 1;" id="prog-vari2-brecha">--</div>
+                                <div style="color: #64748b; font-weight: 600; font-size: 1rem; margin-top: 5px;">menores sin registro identificado</div>
+                                <div style="color: #f97316; font-size: 0.85rem; font-weight: 600; margin-top: 5px;" id="prog-vari2-pct-brecha">--% del universo elegible</div>
+                                <div style="margin-top: 20px; text-align: left; background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px;">
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem;"><span style="color:#475569;">Universo:</span><strong id="prog-vari2-uni">--</strong></div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem;"><span style="color:#475569;">Excluidos del seguimiento <i class="fas fa-info-circle" title="Registros excluidos del seguimiento según los criterios metodológicos." style="color:#64748b; cursor:help;"></i>:</span><strong id="prog-vari2-exc">--</strong></div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem; padding-top: 4px; border-top: 1px dashed #e2e8f0;"><span style="color:#475569;">Universo elegible:</span><strong id="prog-vari2-elegible">--</strong></div>
+                                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; font-size: 0.85rem;"><span style="color:#475569;">Con registro de vacunación:</span><strong id="prog-vari2-vac">--</strong></div>
+                                </div>
+                            </div>
+                            <div style="padding: 15px 20px; background: #f8fafc; border-top: 1px solid #e2e8f0; display: flex; gap: 10px;">
+                                <button onclick="abrirReporteProgramaticas('vari2')" style="flex: 1; background: white; border: 1px solid #3b82f6; color: #3b82f6; padding: 10px; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.background='#eff6ff'; this.style.borderColor='#2563eb'; this.style.color='#2563eb';" onmouseout="this.style.background='white'; this.style.borderColor='#3b82f6'; this.style.color='#3b82f6';"><i class="fas fa-eye"></i> Ver reporte</button>
+                                <a id="btn-download-prog-vari2" href="Rescates_Varicela_2_Pendientes_2026.xlsx" download style="flex: 1; background: #10b981; color: white; border: none; padding: 10px; border-radius: 8px; font-weight: 600; text-decoration: none; text-align: center; display: inline-block; transition: background 0.2s;" onmouseover="this.style.background='#059669'" onmouseout="this.style.background='#10b981'"><i class="fas fa-file-excel"></i> Descargar nómina</a>
                             </div>
                         </div>
                     </div>
                 </section>
-
-                <!-- BLOQUE 5: METODOLOGÍA Y FUENTES -->
+<!-- BLOQUE 5: METODOLOGÍA Y FUENTES -->
                 <section id="bloque-metodologia" style="background: white; border-radius: 12px; margin-bottom: 40px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06); border-top: 4px solid #64748b;">
                     <details style="padding: 25px;">
                         <summary style="font-size: 1.2rem; font-weight: 700; color: #0f172a; cursor: pointer; outline: none; list-style: none; display: flex; justify-content: space-between; align-items: center;">
@@ -1452,6 +1513,7 @@
     </div>
 
     <script src="modal.js?v=1.0"></script>
+    <script src="data_rescates_v5.js"></script>
     <script src="app_v9.js?v=1.22"></script>
     <script src="autoconsulta.js?v=1.0"></script>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "068ddcf406d9480499a9a5606fc3637c"}'></script><!-- End Cloudflare Web Analytics -->
