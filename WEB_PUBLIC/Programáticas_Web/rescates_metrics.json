@@ -1,0 +1,45 @@
+{
+  "fecha_max_ocurrencia": "11-09-2026",
+  "fecha_max_residencia": "11-09-2026",
+  "fecha_corte_evaluacion": "11-09-2026",
+  "base_procesada": "15-09-2026 12:31:30",
+  "metrics": {
+    "Neumocócica Conjugada 2.ª": {
+      "ESQUEMA AL DÍA": 60833,
+      "RESCATE ACTIVO": 3010,
+      "AÚN NO CORRESPONDE": 1077,
+      "ERROR DE SECUENCIA": 54
+    },
+    "Varicela 2.ª": {
+      "ESQUEMA AL DÍA": 30253,
+      "AÚN NO CORRESPONDE": 9773,
+      "RESCATE ACTIVO": 9646,
+      "ERROR DE SECUENCIA": 8
+    },
+    "Meningocócica B 2.ª": {
+      "ESQUEMA AL DÍA": 25046,
+      "RESCATE ACTIVO": 2781,
+      "AÚN NO CORRESPONDE": 1351,
+      "ERROR DE SECUENCIA": 12
+    },
+    "SRP 2.ª": {
+      "ESQUEMA AL DÍA": 29829,
+      "RESCATE ACTIVO": 23914,
+      "AÚN NO CORRESPONDE": 13580,
+      "ERROR DE SECUENCIA": 9
+    },
+    "Hexavalente 3.ª": {
+      "ESQUEMA AL DÍA": 58102,
+      "ERROR DE SECUENCIA": 3932,
+      "RESCATE ACTIVO": 1923,
+      "AÚN NO CORRESPONDE": 946
+    },
+    "Hexavalente 2.ª": {
+      "ESQUEMA AL DÍA": 60996,
+      "RESCATE ACTIVO": 2209,
+      "AÚN NO CORRESPONDE": 1084,
+      "ERROR DE SECUENCIA": 24
+    }
+  },
+  "pcv10_count": 5
+}

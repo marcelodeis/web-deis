@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 import re
+from datetime import datetime
 
 def clean_run(run_str):
     if pd.isna(run_str):
@@ -18,33 +19,30 @@ def leer_defunciones():
     base_dir = r"C:\Antigravity IDE\WEB DEIS\BASE DATOS MINSAL"
     defunciones_set = set()
     
-    # Buscar archivos DEF*.csv y DEF*.xlsx (desde 1999 hasta 2026)
     archivos_def = []
+    # Solo usar archivos de los últimos 4 años (2023-2026) según solicitud
+    archivos_permitidos = ["DEF2023.CSV", "DEF2023.XLSX", "DEF2024.CSV", "DEF2024.XLSX", "DEF2025.CSV", "DEF2025.XLSX", "DEF2026.CSV", "DEF2026.XLSX"]
     for root, _, files in os.walk(base_dir):
         for f in files:
-            if f.upper().startswith("DEF") and (f.endswith(".csv") or f.endswith(".xlsx")):
+            if f.upper() in archivos_permitidos:
                 archivos_def.append(os.path.join(root, f))
                 
     for archivo in sorted(archivos_def):
-        #print(f"  Procesando {os.path.basename(archivo)}...")
         try:
             if archivo.endswith(".csv"):
-                # Leer usando chunksize o engine c para mayor velocidad
                 df = pd.read_csv(archivo, sep="|", usecols=lambda c: 'RUN' in str(c).upper(), dtype=str, encoding='utf-8')
                 if df.empty:
                     df = pd.read_csv(archivo, sep=";", usecols=lambda c: 'RUN' in str(c).upper(), dtype=str, encoding='utf-8')
             else:
-                # Leer excel
                 df = pd.read_excel(archivo, usecols=lambda c: 'RUN' in str(c).upper(), dtype=str)
                 
             for col in df.columns:
                 if 'RUN' in col.upper():
                     cleaned = df[col].apply(clean_run)
                     defunciones_set.update(cleaned.dropna().unique())
-                    break # Solo necesitamos la primera columna de RUN
+                    break 
                     
         except Exception as e:
-            # Fallback for encoding errors in CSV
             try:
                 if archivo.endswith(".csv"):
                     df = pd.read_csv(archivo, sep="|", usecols=lambda c: 'RUN' in str(c).upper(), dtype=str, encoding='latin-1')
@@ -100,6 +98,15 @@ def main():
     vacunados_set = set(df_vac_filtered['RUN_CLEAN'].dropna().unique())
     print(f"Total RUN unicos vacunados: {len(vacunados_set)}")
     
+    try:
+        if 'FECHA_INMUNIZACION' in df_vac_filtered.columns:
+            fechas_dt = pd.to_datetime(df_vac_filtered['FECHA_INMUNIZACION'], format="%Y-%m-%d", errors="coerce")
+            max_date_str = fechas_dt.max().strftime("%d-%m-%Y")
+        else:
+            max_date_str = datetime.fromtimestamp(os.path.getmtime(csv_path)).strftime("%d-%m-%Y")
+    except:
+        max_date_str = datetime.now().strftime("%d-%m-%Y")
+        
     print(f"\nLeyendo nomina AM Cronicos: {excel_path}")
     df_cronicos = pd.read_excel(excel_path)
     print(f"Total registros en nomina inicial: {len(df_cronicos)}")
@@ -110,31 +117,149 @@ def main():
         
     df_cronicos['RUN_CLEAN'] = df_cronicos['Run'].apply(clean_run)
     
-    # 2. Marcar fallecidos en lugar de eliminarlos
+    # 2. Marcar fallecidos
     df_cronicos['ESTADO_VITAL'] = df_cronicos['RUN_CLEAN'].apply(lambda x: 'FALLECIDO' if x in defunciones_set else 'VIVO')
-    fallecidos_total = len(df_cronicos[df_cronicos['ESTADO_VITAL'] == 'FALLECIDO'])
-    print(f"Total personas fallecidas detectadas en la nómina original: {fallecidos_total}")
     
-    # 3. Filtrar vacunados (mantenemos a los fallecidos en la lista de pendientes para informar al CESFAM)
+    # 3. Filtrar vacunados
     df_pendientes = df_cronicos[~df_cronicos['RUN_CLEAN'].isin(vacunados_set)].copy()
-    
-    fallecidos_pendientes = len(df_pendientes[df_pendientes['ESTADO_VITAL'] == 'FALLECIDO'])
-    vivos_pendientes = len(df_pendientes[df_pendientes['ESTADO_VITAL'] == 'VIVO'])
-    print(f"Total rezagados (pendientes): {len(df_pendientes)} (Vivos: {vivos_pendientes}, Fallecidos: {fallecidos_pendientes})")
     
     df_pendientes = df_pendientes.drop(columns=['RUN_CLEAN'])
     
+    # Identificar las columnas de comuna y establecimiento
+    col_comuna = next((c for c in df_pendientes.columns if 'Comuna' in c), None)
+    col_estab = next((c for c in df_pendientes.columns if 'Establecimiento' in c), None)
+
+    # Preparar datos de resumen (excluyendo fallecidos del total general activo o mostrandolos? vamos a agrupar todos los pendientes vivos y fallecidos juntos, o tal vez solo vivos?)
+    # Usaremos todos los que quedaron en df_pendientes, tal como estaba antes.
+    summary_data = []
+    total_general = len(df_pendientes)
+    
+    if col_comuna and col_estab:
+        df_pendientes[col_comuna] = df_pendientes[col_comuna].fillna('SIN COMUNA').astype(str)
+        df_pendientes[col_estab] = df_pendientes[col_estab].fillna('SIN ESTABLECIMIENTO').astype(str)
+        comunas = sorted(df_pendientes[col_comuna].unique())
+        
+        for comuna in comunas:
+            df_comuna = df_pendientes[df_pendientes[col_comuna] == comuna]
+            total_comuna = len(df_comuna)
+            summary_data.append({'COMUNA_ESTABLECIMIENTO': f"- {comuna}", 'TOTAL': total_comuna, 'IS_COMUNA': True})
+            
+            estab_counts = df_comuna[col_estab].value_counts()
+            for estab, count in estab_counts.items():
+                summary_data.append({'COMUNA_ESTABLECIMIENTO': f"    {estab}", 'TOTAL': count, 'IS_COMUNA': False})
+
     print(f"\nGuardando nomina de pendientes en: {output_path}")
     writer = pd.ExcelWriter(output_path, engine='xlsxwriter')
-    df_pendientes.to_excel(writer, index=False, sheet_name="Pendientes")
-    worksheet = writer.sheets["Pendientes"]
-    for i, col in enumerate(df_pendientes.columns):
-        # Calculate max string length safely
-        col_len = df_pendientes[col].astype(str).str.len().max()
+    workbook = writer.book
+    
+    # ----------------
+    # HOJA: BASE DATOS
+    # ----------------
+    worksheet = workbook.add_worksheet('BASE DATOS')
+    worksheet.hide_gridlines(2)
+    
+    fmt_header = workbook.add_format({
+        'bold': True, 'font_color': 'white', 'bg_color': '#ef4444', # Color rojo de la tarjeta
+        'border': 1, 'align': 'center', 'valign': 'vcenter', 'text_wrap': True,
+        'font_name': 'Segoe UI', 'size': 10
+    })
+    fmt_data = workbook.add_format({'border': 1, 'font_name': 'Segoe UI', 'size': 10})
+    title_fmt = workbook.add_format({'bold': True, 'size': 14, 'font_name': 'Segoe UI', 'font_color': '#ef4444'})
+    
+    worksheet.write('A1', f'NÓMINA DE RESCATES INFLUENZA 2026 - AM CRÓNICOS RESPIRATORIOS', title_fmt)
+    worksheet.write('A2', f'Filtro aplicado: Adultos Mayores Crónicos sin registro de vacunación | Fecha de corte base: {max_date_str}', workbook.add_format({'italic': True, 'font_name': 'Segoe UI', 'size': 10}))
+    
+    for col_num, value in enumerate(df_pendientes.columns):
+        worksheet.write(3, col_num, value, fmt_header)
+        col_len = df_pendientes[value].astype(str).str.len().max()
         if pd.isna(col_len):
             col_len = 0
-        col_len = max(col_len, len(str(col))) + 2
-        worksheet.set_column(i, i, col_len)
+        col_len = max(col_len, len(str(value))) + 2
+        worksheet.set_column(col_num, col_num, min(col_len, 40))
+        
+    for row_idx, row_data in enumerate(df_pendientes.values):
+        for col_idx, value in enumerate(row_data):
+            val = "" if pd.isna(value) else str(value)
+            worksheet.write(row_idx + 4, col_idx, val, fmt_data)
+            
+    # ----------------
+    # HOJA: RESUMEN
+    # ----------------
+    ws_res = workbook.add_worksheet('RESUMEN')
+    ws_res.hide_gridlines(2)
+
+    fmt_res_titlebox = workbook.add_format({
+        'bold': True, 'align': 'center', 'valign': 'vcenter', 'text_wrap': True,
+        'bg_color': '#fcf6d6', 'border': 1, 'font_name': 'Times New Roman', 'size': 11
+    })
+    fmt_res_subtitle = workbook.add_format({
+        'bold': True, 'align': 'center', 'font_name': 'Times New Roman', 'size': 11
+    })
+    fmt_res_italic = workbook.add_format({
+        'italic': True, 'font_name': 'Times New Roman', 'size': 10
+    })
+    
+    fmt_res_header = workbook.add_format({
+        'bold': True, 'font_color': 'white', 'bg_color': '#1f3864', 'border': 1,
+        'align': 'left', 'valign': 'vcenter', 'font_name': 'Tahoma', 'size': 10
+    })
+    fmt_res_header_num = workbook.add_format({
+        'bold': True, 'font_color': 'white', 'bg_color': '#1f3864', 'border': 1,
+        'align': 'center', 'valign': 'vcenter', 'font_name': 'Tahoma', 'size': 10
+    })
+    
+    fmt_res_comuna = workbook.add_format({
+        'bold': True, 'font_color': 'white', 'bg_color': '#8eaadb', 'border': 1,
+        'align': 'left', 'font_name': 'Tahoma', 'size': 10
+    })
+    fmt_res_comuna_num = workbook.add_format({
+        'bold': True, 'font_color': 'white', 'bg_color': '#8eaadb', 'border': 1,
+        'align': 'center', 'font_name': 'Tahoma', 'size': 10
+    })
+    
+    fmt_res_estab = workbook.add_format({
+        'border': 1, 'align': 'left', 'font_name': 'Tahoma', 'size': 10
+    })
+    fmt_res_estab_num = workbook.add_format({
+        'border': 1, 'align': 'center', 'font_name': 'Tahoma', 'size': 10
+    })
+    
+    fmt_res_total_lbl = workbook.add_format({
+        'bold': True, 'border': 1, 'align': 'left', 'font_name': 'Tahoma', 'size': 10
+    })
+    fmt_res_total_num = workbook.add_format({
+        'bold': True, 'border': 1, 'align': 'center', 'font_name': 'Tahoma', 'size': 10
+    })
+
+    ws_res.set_column('A:A', 60)
+    ws_res.set_column('B:B', 15)
+
+    ws_res.merge_range('A2:B4', 'Adultos Mayores Crónicos Respiratorios sin registro de vacunación Influenza 2026.', fmt_res_titlebox)
+    ws_res.merge_range('A6:B6', 'SS. Osorno', fmt_res_subtitle)
+    ws_res.merge_range('A8:B8', f'Fuente DEIS-MINSAL con fecha de extracción {max_date_str}', fmt_res_italic)
+
+    ws_res.write('A11', 'COMUNA / ESTABLECIMIENTO:', fmt_res_header)
+    ws_res.write('B11', 'N°', fmt_res_header_num)
+
+    row_idx = 11
+    if summary_data:
+        for item in summary_data:
+            if item['IS_COMUNA']:
+                ws_res.write(row_idx, 0, item['COMUNA_ESTABLECIMIENTO'], fmt_res_comuna)
+                ws_res.write(row_idx, 1, item['TOTAL'], fmt_res_comuna_num)
+            else:
+                ws_res.write(row_idx, 0, item['COMUNA_ESTABLECIMIENTO'], fmt_res_estab)
+                ws_res.write(row_idx, 1, item['TOTAL'], fmt_res_estab_num)
+            row_idx += 1
+    else:
+        ws_res.write(row_idx, 0, "Sin información de comuna/establecimiento", fmt_res_estab)
+        ws_res.write(row_idx, 1, total_general, fmt_res_estab_num)
+        row_idx += 1
+
+    ws_res.write(row_idx, 0, 'Total general', fmt_res_total_lbl)
+    ws_res.write(row_idx, 1, total_general, fmt_res_total_num)
+    ws_res.set_row(row_idx, None, workbook.add_format({'bottom': 6})) 
+
     writer.close()
     
     try:

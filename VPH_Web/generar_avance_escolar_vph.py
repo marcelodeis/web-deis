@@ -274,9 +274,10 @@ def leer_vacunados_rni(metas):
         reader = csv.DictReader(f, delimiter=delim)
 
         for row in reader:
-            # Filtro SS Osorno
+            # Filtro SS Osorno + Sector Privado de la Provincia
             cod_serv = row.get("COD_SERV", "").strip()
-            if cod_serv != "23":
+            comuna_ocurr = row.get("COMUNA_OCURR", "").strip().upper()
+            if cod_serv != "23" and comuna_ocurr not in ['OSORNO', 'PUERTO OCTAY', 'PURRANQUE', 'PUYEHUE', 'RÍO NEGRO', 'SAN JUAN DE LA COSTA', 'SAN PABLO', 'R\xcdO NEGRO']:
                 continue
 
             # Filtro VPH

@@ -45,7 +45,9 @@ def get_db_dir(year):
     else:
         return os.path.join(BD_MINSAL_DIR, str(year))
 
-OUTPUT_EXCEL = os.path.join(BASE_DIR, "Reporte_Master_Observatorio_VPH_Osorno.xlsx")
+EXCEL_DIR = r"C:\Antigravity IDE\WEB DEIS\Reportes_Privados\VPH"
+os.makedirs(EXCEL_DIR, exist_ok=True)
+OUTPUT_EXCEL = os.path.join(EXCEL_DIR, "Reporte_Master_Observatorio_VPH_Osorno.xlsx")
 OUTPUT_JSON = os.path.join(BASE_DIR, "dashboard_data_vph.json")
 OUTPUT_JS = os.path.join(BASE_DIR, "dashboard_data_vph.js")
 

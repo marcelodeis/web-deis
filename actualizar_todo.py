@@ -3,20 +3,26 @@ import subprocess
 import sys
 
 # Definir los scripts que se deben ejecutar en orden
-# (Si usas otros scripts, puedes agregarlos a esta lista)
 SCRIPTS = [
     # Covid
     r"Covid_Web\scripts\procesar_covid.py",
     r"Covid_Web\scripts\generar_indice_covid.py",
+    
     # Influenza
     r"Influenza_Web\Scripts_Procesamiento\parse_influenza.py",
     r"Influenza_Web\Scripts_Procesamiento\generar_indice_influenza.py",
+    r"generar_rescates_influenza.py", # ADDED! Generates Excel files
+    r"generar_rescates_ninos_2dosis.py", # ADDED! Generates children 2nd dose rescue
+    r"generar_rechazos_influenza.py", # ADDED! Generates Rechazos Excel files
+    
     # Programaticas
-    r"Programáticas_Web\generate_data_2026.py",
-    r"Programáticas_Web\generate_autoconsulta_index.py",
+    # Replaced generate_data_2026 with generar_rescates_v5 since it handles everything now
+    r"Programáticas_Web\generar_rescates_v5.py",
+    
     # VRS
-    r"VRS\Scripts_Procesamiento\parse_vrs.py",
+    r"VRS\Scripts_Procesamiento\parse_vrs.py", # This also generates Excel files for VRS
     r"VRS\scripts\generar_indice_vrs.py",
+    
     # VPH
     r"VPH_Web\procesar_observatorio_vph.py",
     r"VPH_Web\procesar_ocurrencia_vph.py",
@@ -40,16 +46,18 @@ def run_script(script_path):
     print(f"{'='*50}")
     
     # Determinar el directorio de trabajo basándose en la ubicación del script
-    # Debe ser el directorio base de la vacuna (ej. Covid_Web, Influenza_Web)
     parts = os.path.normpath(script_path).split(os.sep)
-    if len(parts) > 1:
+    if len(parts) > 1 and parts[0] != script_path:
         cwd = os.path.abspath(parts[0])
     else:
         cwd = os.path.abspath('.')
         
     try:
+        # Run relative to cwd
+        rel_path = os.path.relpath(os.path.abspath(script_path), cwd)
+        
         result = subprocess.run(
-            [sys.executable, os.path.basename(script_path)],
+            [sys.executable, rel_path],
             cwd=cwd,
             check=True
         )
@@ -68,7 +76,7 @@ def main():
     for script in SCRIPTS:
         success = run_script(script)
         if not success:
-            print("\n[!] Proceso detenido debido a un error. Revisa los mensajes arriba.")
+            print(f"\n[!] Proceso detenido debido a un error en {script}. Revisa los mensajes arriba.")
             sys.exit(1)
             
     print("\n" + "="*50)

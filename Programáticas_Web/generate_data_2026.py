@@ -15,7 +15,14 @@ MAPPING = {
     "Hexavalente | 3° dosis": "HEXA3D",
     "Hexavalente | 1er refuerzo": "HEXA1R",
     "Hepatitis A pediátrica | Única": "HepA",
-    "Hepatitis B_maternidad | Única": "HepB",
+    "Hepatitis B_maternidad | Única": "HepBMaternidadUNICA",
+    "Hepatitis B pediátrica | 1° Dosis": "HepBPediatrica1D",
+    "Hepatitis B pediátrica | 2° Dosis": "HepBPediatrica2D",
+    "Hepatitis B pediátrica | 3° Dosis": "HepBPediatrica3D",
+    "Hepatitis B pediátrica | Única": "HepBPediatricaUNICA",
+    "Hepatitis B pediátrica (sector privado) | 1° Dosis": "HepBPediatricaPrivado1D",
+    "Hepatitis B pediátrica (sector privado) | 2° Dosis": "HepBPediatricaPrivado2D",
+    "Hepatitis B pediátrica (sector privado) | 3° Dosis": "HepBPediatricaPrivado3D",
     "VACUNA MENQUADFI | Única": "MENINGO",
     "VACUNA NIMENRIX | Única": "MENINGO",
     "VACUNA MENVEO | Única": "MENINGO",
@@ -32,16 +39,35 @@ MAPPING = {
     "VPH Tetravalente | 2° Dosis": "VPH",
     "VPH Nonavalente | 2° dosis": "VPH",
     "Vacuna dTpa | Única": "dTpa",
+    "Hepatitis B adulto | 1° Dosis": "HepBAdulto1D",
+    "Hepatitis B adulto | 2° Dosis": "HepBAdulto2D",
+    "Hepatitis B adulto | 3° Dosis": "HepBAdulto3D",
+    "Hepatitis B adulto | Refuerzo": "HepBAdulto1R",
+    "Hepatitis B adulto (sector privado) | 1° Dosis": "HepBPrivado1D",
+    "Hepatitis B adulto (sector privado) | 2° Dosis": "HepBPrivado2D",
+    "Hepatitis B adulto (sector privado) | 3° Dosis": "HepBPrivado3D",
+    "Hepatitis B adulto (sector privado) | 1er Refuerzo": "HepBPrivado1R",
+    "Hepatitis B dializados adulto | 1° Dosis": "HepBDializados1D",
+    "Hepatitis B dializados adulto | 2° Dosis": "HepBDializados2D",
+    "Hepatitis B dializados adulto | 3° Dosis": "HepBDializados3D",
+    "Hepatitis B dializados adulto | 4° dosis": "HepBDializados4D",
+    "Hepatitis B dializados adulto | Refuerzo": "HepBDializados1R",
+    "Hepatitis B dializados adulto | 1er Refuerzo": "HepBDializados1R",
 }
 
 HEADERS = [
     "BCG", "BEXSERO1D", "BEXSERO1R", "BEXSERO2D",
     "HEXA1D", "HEXA1R", "HEXA2D", "HEXA3D",
-    "HepA", "HepB", "MENINGO",
+    "HepA", "MENINGO",
     "NEUMO1D", "NEUMO1R", "NEUMO23", "NEUMO2D",
     "SRP1D", "SRP2D",
     "VARICELA1D", "VARICELA2D",
-    "VPH", "dTpa"
+    "VPH", "dTpa",
+    "HepBAdulto1D", "HepBAdulto2D", "HepBAdulto3D", "HepBAdulto1R",
+    "HepBPrivado1D", "HepBPrivado2D", "HepBPrivado3D", "HepBPrivado1R",
+    "HepBDializados1D", "HepBDializados2D", "HepBDializados3D", "HepBDializados4D", "HepBDializados1R",
+    "HepBMaternidadUNICA", "HepBPediatrica1D", "HepBPediatrica2D", "HepBPediatrica3D", "HepBPediatricaUNICA",
+    "HepBPediatricaPrivado1D", "HepBPediatricaPrivado2D", "HepBPediatricaPrivado3D"
 ]
 
 BASE_DIR = r"C:\Antigravity IDE\WEB DEIS\BASE DATOS MINSAL"
@@ -53,7 +79,8 @@ def process_ocurrencia(filepath):
     with open(filepath, encoding='latin1') as f:
         reader = csv.DictReader(f, delimiter='|')
         for row in reader:
-            if row.get('COD_SERV') != '23':
+            comuna_ocurr = row.get('COMUNA_OCURR', '').strip().upper()
+            if row.get('COD_SERV') != '23' and comuna_ocurr not in ['OSORNO', 'PUERTO OCTAY', 'PURRANQUE', 'PUYEHUE', 'RÍO NEGRO', 'SAN JUAN DE LA COSTA', 'SAN PABLO', 'R\xcdO NEGRO']:
                 continue
                 
             # Filtros obligatorios para base de vacunas
@@ -93,7 +120,8 @@ def process_residencia(filepath):
     with open(filepath, encoding='latin1') as f:
         reader = csv.DictReader(f, delimiter='|')
         for row in reader:
-            if row.get('COD_SERV') != '23':
+            comuna_resid = row.get('COMUNA_RESIDENCIA', '').strip().upper()
+            if row.get('COD_SERV') != '23' and comuna_resid not in ['OSORNO', 'PUERTO OCTAY', 'PURRANQUE', 'PUYEHUE', 'RÍO NEGRO', 'SAN JUAN DE LA COSTA', 'SAN PABLO', 'R\xcdO NEGRO']:
                 continue
                 
             # Filtros obligatorios para base de vacunas

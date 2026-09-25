@@ -1,0 +1,10971 @@
+var PROGRAMATICAS_DATA_2026 = {
+  "fuente": "Programáticas (Ocurrencia + Residencia)",
+  "fecha_procesamiento": "21-09-2026 11:04",
+  "fecha_actualizacion": "18-09-2026",
+  "datos_disponibles_hasta": "18-09-2026",
+  "fecha_max_residencia": "18-09-2026",
+  "fecha_max_ocurrencia": "18-09-2026",
+  "ultima_se_residencia": null,
+  "ultima_se_ocurrencia": null,
+  "headers": [
+    "BCG",
+    "BEXSERO1D",
+    "BEXSERO1R",
+    "BEXSERO2D",
+    "HEXA1D",
+    "HEXA1R",
+    "HEXA2D",
+    "HEXA3D",
+    "HepA",
+    "HepB",
+    "MENINGO",
+    "NEUMO1D",
+    "NEUMO1R",
+    "NEUMO23",
+    "NEUMO2D",
+    "SRP1D",
+    "SRP2D",
+    "VARICELA1D",
+    "VARICELA2D",
+    "VPH",
+    "dTpa"
+  ],
+  "meses_base": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "data_ocurrencia": [
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Manuel Rodríguez",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "4": 3,
+          "7": 1,
+          "8": 1,
+          "6": 1,
+          "3": 3,
+          "5": 1
+        }
+      },
+      "total": 10
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Manuel Rodríguez",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "6": 5,
+          "1": 1,
+          "5": 1,
+          "4": 3,
+          "8": 1,
+          "3": 5
+        }
+      },
+      "total": 16
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Manuel Rodríguez",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "5": 2,
+          "1": 1,
+          "6": 1,
+          "2": 1,
+          "7": 1,
+          "9": 1,
+          "8": 2
+        }
+      },
+      "total": 9
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Manuel Rodríguez",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": {
+          "9": 1,
+          "7": 1,
+          "4": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Manuel Rodríguez",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "1": 2,
+          "4": 2,
+          "5": 2,
+          "3": 2,
+          "6": 1
+        },
+        "BEXSERO1R": {
+          "6": 1,
+          "7": 3,
+          "3": 1,
+          "2": 1,
+          "8": 2
+        },
+        "BEXSERO2D": {
+          "3": 4,
+          "5": 3,
+          "1": 2,
+          "9": 1,
+          "6": 1,
+          "7": 1
+        }
+      },
+      "total": 29
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Manuel Rodríguez",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "7": 2,
+          "1": 2,
+          "6": 2,
+          "2": 2,
+          "8": 3,
+          "9": 1,
+          "5": 1
+        }
+      },
+      "total": 13
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Manuel Rodríguez",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "2": 1,
+          "7": 3,
+          "8": 2,
+          "3": 1,
+          "6": 1,
+          "5": 1
+        },
+        "VARICELA2D": {
+          "1": 2,
+          "9": 3,
+          "7": 2,
+          "5": 1,
+          "4": 2,
+          "6": 3,
+          "3": 2,
+          "2": 1
+        }
+      },
+      "total": 25
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Manuel Rodríguez",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "1": 2,
+          "3": 2,
+          "5": 2,
+          "6": 1,
+          "4": 2
+        },
+        "HEXA1R": {
+          "7": 3,
+          "6": 1,
+          "8": 2,
+          "5": 1,
+          "3": 1,
+          "2": 1
+        },
+        "HEXA2D": {
+          "3": 4,
+          "7": 1,
+          "1": 2,
+          "9": 1,
+          "5": 3,
+          "6": 1
+        },
+        "HEXA3D": {
+          "2": 4,
+          "9": 1,
+          "4": 1,
+          "8": 1,
+          "1": 2,
+          "5": 3,
+          "6": 1,
+          "3": 1,
+          "7": 2
+        },
+        "SRP1D": {
+          "7": 2,
+          "9": 1,
+          "1": 2,
+          "8": 3,
+          "6": 2,
+          "5": 1,
+          "2": 2
+        },
+        "SRP2D": {
+          "6": 4,
+          "3": 2,
+          "2": 1,
+          "7": 2,
+          "9": 3,
+          "4": 2,
+          "1": 2,
+          "5": 1
+        }
+      },
+      "total": 76
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Manuel Rodríguez",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "5": 2,
+          "1": 2,
+          "6": 1,
+          "4": 2,
+          "3": 2
+        },
+        "NEUMO1R": {
+          "2": 2,
+          "1": 2,
+          "6": 2,
+          "8": 3,
+          "7": 2,
+          "5": 1
+        },
+        "NEUMO2D": {
+          "1": 2,
+          "3": 4,
+          "5": 3,
+          "7": 1,
+          "6": 1
+        }
+      },
+      "total": 32
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Manuel Rodríguez",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "2": 1,
+          "6": 1,
+          "8": 2,
+          "7": 3,
+          "5": 1,
+          "3": 1
+        }
+      },
+      "total": 9
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Murrinumo",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "2": 1,
+          "3": 5,
+          "7": 1,
+          "4": 6,
+          "6": 1
+        }
+      },
+      "total": 14
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Murrinumo",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "3": 3,
+          "2": 1
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Murrinumo",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Murrinumo",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "9": 3,
+          "1": 3,
+          "5": 2,
+          "7": 1,
+          "4": 3,
+          "3": 2,
+          "2": 3,
+          "8": 1
+        }
+      },
+      "total": 18
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Murrinumo",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": {
+          "7": 2,
+          "3": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Murrinumo",
+      "criterio": "Embarazadas de 37 y más  semanas",
+      "datos": {
+        "dTpa": {
+          "5": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Murrinumo",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "3": 2,
+          "7": 4,
+          "4": 4,
+          "9": 1,
+          "6": 4,
+          "5": 1,
+          "1": 2,
+          "8": 2
+        },
+        "BEXSERO1R": {
+          "7": 3,
+          "4": 4,
+          "5": 1,
+          "2": 4,
+          "1": 2
+        },
+        "BEXSERO2D": {
+          "7": 3,
+          "8": 2,
+          "1": 1,
+          "9": 1,
+          "4": 1,
+          "5": 1,
+          "3": 2,
+          "6": 3,
+          "2": 2
+        }
+      },
+      "total": 50
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Murrinumo",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "6": 2,
+          "7": 2,
+          "1": 3,
+          "3": 3,
+          "9": 2,
+          "5": 1,
+          "4": 2
+        }
+      },
+      "total": 15
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Murrinumo",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "7": 3,
+          "4": 4,
+          "1": 2,
+          "2": 4,
+          "5": 1
+        },
+        "VARICELA2D": {
+          "5": 2,
+          "6": 4,
+          "7": 4,
+          "2": 2,
+          "3": 3,
+          "9": 1,
+          "4": 1,
+          "1": 1,
+          "8": 3
+        }
+      },
+      "total": 35
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Murrinumo",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "3": 2,
+          "4": 4,
+          "7": 4,
+          "8": 2,
+          "9": 2,
+          "6": 4,
+          "1": 2,
+          "5": 1
+        },
+        "HEXA1R": {
+          "7": 3,
+          "2": 4,
+          "5": 1,
+          "4": 4,
+          "1": 2
+        },
+        "HEXA2D": {
+          "7": 3,
+          "3": 2,
+          "6": 3,
+          "5": 1,
+          "8": 2,
+          "2": 2,
+          "1": 1,
+          "4": 1
+        },
+        "HEXA3D": {
+          "4": 4,
+          "5": 3,
+          "7": 2,
+          "8": 3,
+          "3": 2,
+          "1": 2
+        },
+        "SRP1D": {
+          "9": 2,
+          "7": 2,
+          "3": 3,
+          "6": 2,
+          "1": 3,
+          "4": 2,
+          "5": 1
+        },
+        "SRP2D": {
+          "6": 4,
+          "7": 4,
+          "5": 2,
+          "4": 1,
+          "9": 1,
+          "3": 3,
+          "2": 2,
+          "1": 1,
+          "8": 3
+        }
+      },
+      "total": 102
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Murrinumo",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "6": 4,
+          "7": 3,
+          "4": 4,
+          "3": 2,
+          "1": 2,
+          "5": 1,
+          "8": 2
+        },
+        "NEUMO1R": {
+          "7": 2,
+          "6": 2,
+          "1": 3,
+          "3": 3,
+          "5": 1,
+          "4": 2
+        },
+        "NEUMO2D": {
+          "7": 4,
+          "2": 2,
+          "5": 1,
+          "6": 3,
+          "3": 2,
+          "8": 1,
+          "1": 1,
+          "4": 1
+        }
+      },
+      "total": 46
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro Comunitario de Salud Familiar Murrinumo",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "4": 4,
+          "2": 4,
+          "7": 3,
+          "1": 2,
+          "5": 1
+        }
+      },
+      "total": 14
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "9": 5,
+          "8": 5,
+          "3": 2,
+          "4": 1
+        }
+      },
+      "total": 13
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 175,
+          "9": 10
+        }
+      },
+      "total": 185
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "7": 15,
+          "4": 83,
+          "9": 4,
+          "5": 56,
+          "6": 34,
+          "1": 2,
+          "3": 100,
+          "8": 4,
+          "2": 2
+        }
+      },
+      "total": 300
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "5": 17,
+          "6": 5,
+          "3": 33,
+          "7": 16,
+          "9": 8,
+          "1": 6,
+          "4": 11,
+          "8": 8,
+          "2": 2
+        }
+      },
+      "total": 106
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "7º básico dosis pendiente",
+      "datos": {
+        "VPH": {
+          "1": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "8° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "8": 3,
+          "9": 6
+        }
+      },
+      "total": 9
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "9": 124,
+          "8": 266
+        }
+      },
+      "total": 390
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "8º básico dosis pendiente",
+      "datos": {
+        "VPH": {
+          "1": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Casos especiales",
+      "datos": {
+        "BEXSERO1D": {
+          "3": 1
+        },
+        "BEXSERO2D": {
+          "5": 1
+        },
+        "MENINGO": {
+          "2": 70,
+          "3": 2
+        },
+        "NEUMO23": {
+          "1": 1,
+          "7": 1,
+          "5": 2,
+          "3": 1,
+          "8": 1
+        },
+        "VPH": {
+          "5": 2,
+          "1": 2,
+          "3": 1
+        },
+        "dTpa": {
+          "3": 1,
+          "8": 1
+        }
+      },
+      "total": 87
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "6": 12,
+          "8": 15,
+          "1": 13,
+          "7": 20,
+          "9": 16,
+          "5": 15,
+          "2": 14,
+          "3": 18,
+          "4": 15
+        }
+      },
+      "total": 138
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": {
+          "9": 3,
+          "1": 2,
+          "6": 3,
+          "8": 2,
+          "7": 2,
+          "4": 5,
+          "3": 5,
+          "5": 3,
+          "2": 1
+        }
+      },
+      "total": 26
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Embarazadas de 37 y más  semanas",
+      "datos": {
+        "dTpa": {
+          "2": 1,
+          "1": 1,
+          "3": 2
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "VPH": {
+          "3": 4,
+          "2": 3,
+          "1": 3,
+          "7": 1,
+          "8": 1,
+          "4": 1
+        },
+        "dTpa": {
+          "1": 2,
+          "2": 1,
+          "8": 5,
+          "6": 1,
+          "7": 1,
+          "3": 2
+        }
+      },
+      "total": 25
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "4": 18,
+          "2": 11,
+          "3": 23,
+          "7": 19,
+          "8": 12,
+          "1": 14,
+          "6": 12,
+          "5": 15,
+          "9": 11
+        },
+        "BEXSERO1R": {
+          "6": 19,
+          "5": 19,
+          "7": 17,
+          "8": 16,
+          "2": 19,
+          "3": 13,
+          "9": 7,
+          "1": 26,
+          "4": 14
+        },
+        "BEXSERO2D": {
+          "1": 12,
+          "3": 19,
+          "4": 13,
+          "7": 18,
+          "2": 15,
+          "8": 14,
+          "6": 20,
+          "5": 16,
+          "9": 10
+        }
+      },
+      "total": 422
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "2": 21,
+          "5": 23,
+          "6": 24,
+          "7": 16,
+          "8": 15,
+          "3": 17,
+          "1": 18,
+          "4": 25,
+          "9": 6
+        }
+      },
+      "total": 165
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Revacunación 66 y más años, crónicos",
+      "datos": {
+        "NEUMO23": {
+          "3": 1,
+          "2": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "6": 19,
+          "8": 18,
+          "7": 17,
+          "5": 20,
+          "4": 16,
+          "9": 7,
+          "1": 26,
+          "2": 20,
+          "3": 14
+        },
+        "VARICELA2D": {
+          "8": 16,
+          "5": 28,
+          "4": 27,
+          "6": 29,
+          "2": 23,
+          "7": 23,
+          "3": 31,
+          "9": 16,
+          "1": 39
+        }
+      },
+      "total": 389
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "4": 17,
+          "3": 23,
+          "2": 11,
+          "8": 12,
+          "5": 15,
+          "1": 14,
+          "7": 19,
+          "9": 11,
+          "6": 12
+        },
+        "HEXA1R": {
+          "6": 19,
+          "5": 19,
+          "1": 26,
+          "7": 17,
+          "2": 20,
+          "4": 16,
+          "9": 7,
+          "8": 17,
+          "3": 14
+        },
+        "HEXA2D": {
+          "3": 19,
+          "1": 11,
+          "8": 15,
+          "7": 18,
+          "9": 10,
+          "2": 16,
+          "4": 13,
+          "6": 20,
+          "5": 15
+        },
+        "HEXA3D": {
+          "6": 12,
+          "2": 12,
+          "4": 18,
+          "9": 9,
+          "8": 22,
+          "3": 17,
+          "5": 16,
+          "7": 15,
+          "1": 13
+        },
+        "SRP1D": {
+          "3": 17,
+          "5": 23,
+          "2": 21,
+          "7": 16,
+          "8": 17,
+          "6": 24,
+          "4": 24,
+          "1": 17,
+          "9": 4
+        },
+        "SRP2D": {
+          "8": 37,
+          "3": 32,
+          "1": 42,
+          "6": 29,
+          "7": 21,
+          "5": 27,
+          "9": 18,
+          "2": 22,
+          "4": 27
+        }
+      },
+      "total": 978
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "3": 23,
+          "5": 15,
+          "4": 17,
+          "1": 14,
+          "7": 19,
+          "6": 12,
+          "8": 12,
+          "2": 11
+        },
+        "NEUMO1R": {
+          "5": 23,
+          "6": 24,
+          "7": 16,
+          "1": 17,
+          "3": 17,
+          "8": 12,
+          "2": 20,
+          "4": 24
+        },
+        "NEUMO2D": {
+          "5": 15,
+          "2": 15,
+          "3": 19,
+          "1": 12,
+          "7": 18,
+          "6": 20,
+          "4": 13,
+          "8": 13
+        }
+      },
+      "total": 401
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "7": 17,
+          "4": 15,
+          "8": 20,
+          "1": 26,
+          "6": 21,
+          "2": 21,
+          "5": 19,
+          "3": 14,
+          "9": 8
+        }
+      },
+      "total": 161
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "8": 4,
+          "7": 1,
+          "9": 2,
+          "1": 1
+        }
+      },
+      "total": 8
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 268,
+          "7": 3,
+          "9": 16,
+          "2": 1
+        }
+      },
+      "total": 288
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "5": 15,
+          "7": 18,
+          "4": 18,
+          "3": 62,
+          "9": 2,
+          "6": 46,
+          "1": 3,
+          "8": 5,
+          "2": 3
+        }
+      },
+      "total": 172
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "6": 20,
+          "3": 26,
+          "7": 2,
+          "5": 12,
+          "1": 5,
+          "8": 7,
+          "4": 2,
+          "2": 2
+        }
+      },
+      "total": 76
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 348,
+          "9": 7,
+          "7": 1
+        }
+      },
+      "total": 356
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "8º básico dosis pendiente",
+      "datos": {
+        "VPH": {
+          "3": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "Casos especiales",
+      "datos": {
+        "MENINGO": {
+          "1": 23
+        },
+        "VARICELA1D": {
+          "2": 1
+        },
+        "VPH": {
+          "5": 1,
+          "3": 1
+        }
+      },
+      "total": 26
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "4": 15,
+          "5": 11,
+          "1": 10,
+          "7": 11,
+          "2": 9,
+          "6": 8,
+          "9": 7,
+          "8": 5,
+          "3": 11
+        }
+      },
+      "total": 87
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": {
+          "4": 3,
+          "5": 2,
+          "6": 2,
+          "7": 2,
+          "9": 1,
+          "2": 1,
+          "1": 1,
+          "8": 2,
+          "3": 2
+        }
+      },
+      "total": 16
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "Embarazadas de 37 y más  semanas",
+      "datos": {
+        "dTpa": {
+          "6": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "SRP2D": {
+          "4": 1,
+          "5": 2
+        },
+        "VPH": {
+          "2": 7,
+          "1": 11,
+          "6": 2,
+          "9": 1,
+          "3": 8
+        },
+        "dTpa": {
+          "6": 1,
+          "5": 1,
+          "8": 1,
+          "7": 1
+        }
+      },
+      "total": 36
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "5": 5,
+          "9": 10,
+          "7": 16,
+          "2": 9,
+          "6": 16,
+          "4": 5,
+          "1": 11,
+          "3": 11,
+          "8": 9
+        },
+        "BEXSERO1R": {
+          "3": 8,
+          "6": 16,
+          "8": 4,
+          "5": 10,
+          "7": 12,
+          "9": 6,
+          "1": 4,
+          "4": 12,
+          "2": 14
+        },
+        "BEXSERO2D": {
+          "5": 11,
+          "8": 12,
+          "6": 7,
+          "3": 10,
+          "2": 15,
+          "1": 10,
+          "9": 9,
+          "4": 7,
+          "7": 8
+        }
+      },
+      "total": 267
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "1": 11,
+          "7": 17,
+          "4": 14,
+          "5": 8,
+          "6": 14,
+          "8": 12,
+          "2": 11,
+          "3": 11,
+          "9": 4
+        }
+      },
+      "total": 102
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "Revacunación 66 y más años, crónicos",
+      "datos": {
+        "NEUMO23": {
+          "1": 1,
+          "4": 4,
+          "5": 1
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "6": 18,
+          "2": 18,
+          "7": 15,
+          "5": 11,
+          "8": 5,
+          "1": 4,
+          "3": 12,
+          "4": 12,
+          "9": 5
+        },
+        "VARICELA2D": {
+          "4": 20,
+          "9": 7,
+          "8": 16,
+          "7": 25,
+          "3": 15,
+          "6": 18,
+          "5": 12,
+          "1": 14,
+          "2": 15
+        }
+      },
+      "total": 242
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "1": 11,
+          "9": 10,
+          "8": 9,
+          "4": 5,
+          "3": 11,
+          "7": 16,
+          "6": 16,
+          "2": 8,
+          "5": 5
+        },
+        "HEXA1R": {
+          "6": 18,
+          "5": 9,
+          "9": 6,
+          "2": 17,
+          "4": 12,
+          "8": 4,
+          "1": 4,
+          "7": 14,
+          "3": 12
+        },
+        "HEXA2D": {
+          "8": 11,
+          "7": 8,
+          "5": 11,
+          "3": 9,
+          "4": 8,
+          "9": 9,
+          "2": 15,
+          "1": 9,
+          "6": 7
+        },
+        "HEXA3D": {
+          "7": 13,
+          "1": 15,
+          "5": 11,
+          "6": 7,
+          "9": 5,
+          "2": 9,
+          "3": 13,
+          "4": 10,
+          "8": 6
+        },
+        "SRP1D": {
+          "5": 9,
+          "2": 10,
+          "6": 14,
+          "7": 19,
+          "4": 14,
+          "3": 11,
+          "1": 11,
+          "8": 14,
+          "9": 4
+        },
+        "SRP2D": {
+          "3": 16,
+          "1": 13,
+          "5": 12,
+          "6": 20,
+          "7": 19,
+          "8": 29,
+          "9": 8,
+          "2": 15,
+          "4": 20
+        }
+      },
+      "total": 621
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "7": 16,
+          "5": 5,
+          "6": 16,
+          "8": 9,
+          "2": 8,
+          "1": 11,
+          "3": 12,
+          "4": 5
+        },
+        "NEUMO1R": {
+          "3": 10,
+          "4": 15,
+          "5": 8,
+          "8": 10,
+          "7": 15,
+          "6": 14,
+          "1": 11,
+          "2": 10,
+          "9": 1
+        },
+        "NEUMO2D": {
+          "4": 8,
+          "3": 9,
+          "5": 11,
+          "2": 15,
+          "6": 7,
+          "7": 8,
+          "8": 11,
+          "1": 9,
+          "9": 1
+        }
+      },
+      "total": 255
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Dr. Pedro Jáuregui",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "7": 13,
+          "6": 18,
+          "2": 18,
+          "5": 11,
+          "3": 12,
+          "8": 6,
+          "1": 4,
+          "4": 12,
+          "9": 7
+        }
+      },
+      "total": 101
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "9": 1,
+          "8": 4,
+          "5": 1,
+          "4": 1,
+          "1": 2,
+          "3": 1
+        }
+      },
+      "total": 10
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 182,
+          "9": 31
+        }
+      },
+      "total": 213
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "4": 30,
+          "3": 60,
+          "6": 6,
+          "1": 2,
+          "5": 11,
+          "7": 2
+        }
+      },
+      "total": 111
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "1": 2,
+          "4": 14,
+          "5": 4,
+          "9": 1,
+          "3": 16,
+          "7": 1,
+          "2": 1,
+          "6": 1
+        }
+      },
+      "total": 40
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "7º básico dosis pendiente",
+      "datos": {
+        "VPH": {
+          "2": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "8° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "9": 2,
+          "4": 1,
+          "2": 1
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 211,
+          "9": 40
+        }
+      },
+      "total": 251
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Casos especiales",
+      "datos": {
+        "MENINGO": {
+          "4": 1
+        },
+        "NEUMO23": {
+          "2": 1,
+          "4": 1
+        },
+        "SRP2D": {
+          "1": 1
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "8": 6,
+          "4": 11,
+          "9": 9,
+          "6": 11,
+          "1": 7,
+          "7": 10,
+          "3": 11,
+          "5": 8,
+          "2": 4
+        }
+      },
+      "total": 77
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": {
+          "3": 1,
+          "8": 3,
+          "1": 2,
+          "4": 2,
+          "2": 1,
+          "9": 1
+        }
+      },
+      "total": 10
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Ley Ricarte Soto",
+      "datos": {
+        "NEUMO23": {
+          "6": 1,
+          "5": 2,
+          "3": 1
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "SRP1D": {
+          "1": 1,
+          "2": 2
+        },
+        "SRP2D": {
+          "2": 2,
+          "1": 1
+        },
+        "VPH": {
+          "1": 2,
+          "2": 4,
+          "3": 1
+        },
+        "dTpa": {
+          "2": 1
+        }
+      },
+      "total": 14
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Profiláctico tetánico",
+      "datos": {
+        "dTpa": {
+          "7": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "7": 12,
+          "2": 11,
+          "9": 7,
+          "3": 11,
+          "1": 13,
+          "6": 6,
+          "5": 5,
+          "4": 5,
+          "8": 5
+        },
+        "BEXSERO1R": {
+          "1": 13,
+          "7": 6,
+          "5": 7,
+          "2": 9,
+          "6": 7,
+          "9": 7,
+          "8": 16,
+          "4": 8,
+          "3": 12
+        },
+        "BEXSERO2D": {
+          "3": 13,
+          "2": 7,
+          "4": 11,
+          "9": 7,
+          "7": 4,
+          "5": 8,
+          "6": 6,
+          "8": 5,
+          "1": 8
+        }
+      },
+      "total": 229
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "5": 8,
+          "7": 11,
+          "3": 14,
+          "9": 8,
+          "6": 5,
+          "4": 8,
+          "2": 17,
+          "8": 7,
+          "1": 6
+        }
+      },
+      "total": 84
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "2": 12,
+          "8": 17,
+          "1": 12,
+          "4": 8,
+          "9": 6,
+          "3": 13,
+          "7": 6,
+          "6": 7,
+          "5": 7
+        },
+        "VARICELA2D": {
+          "2": 18,
+          "7": 13,
+          "5": 12,
+          "8": 6,
+          "1": 14,
+          "9": 6,
+          "6": 8,
+          "4": 14,
+          "3": 10
+        }
+      },
+      "total": 189
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "4": 5,
+          "8": 5,
+          "7": 12,
+          "1": 13,
+          "3": 11,
+          "9": 7,
+          "2": 11,
+          "6": 6,
+          "5": 5
+        },
+        "HEXA1R": {
+          "5": 7,
+          "2": 10,
+          "9": 7,
+          "8": 16,
+          "1": 14,
+          "3": 13,
+          "6": 7,
+          "7": 6,
+          "4": 10
+        },
+        "HEXA2D": {
+          "6": 6,
+          "5": 8,
+          "3": 13,
+          "8": 5,
+          "9": 7,
+          "7": 4,
+          "4": 11,
+          "1": 8,
+          "2": 7
+        },
+        "HEXA3D": {
+          "5": 15,
+          "8": 5,
+          "7": 6,
+          "6": 10,
+          "2": 9,
+          "4": 7,
+          "1": 11,
+          "3": 11,
+          "9": 3
+        },
+        "SRP1D": {
+          "6": 5,
+          "7": 11,
+          "2": 16,
+          "9": 10,
+          "5": 8,
+          "3": 15,
+          "4": 6,
+          "1": 6,
+          "8": 8
+        },
+        "SRP2D": {
+          "2": 18,
+          "9": 10,
+          "7": 13,
+          "8": 30,
+          "6": 8,
+          "1": 14,
+          "5": 8,
+          "3": 11,
+          "4": 16
+        }
+      },
+      "total": 524
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "8": 5,
+          "3": 11,
+          "1": 13,
+          "5": 5,
+          "7": 12,
+          "2": 11,
+          "6": 6,
+          "4": 5
+        },
+        "NEUMO1R": {
+          "7": 11,
+          "2": 16,
+          "6": 5,
+          "5": 8,
+          "8": 8,
+          "9": 1,
+          "3": 13,
+          "1": 6,
+          "4": 6
+        },
+        "NEUMO2D": {
+          "1": 8,
+          "3": 13,
+          "6": 6,
+          "2": 7,
+          "4": 11,
+          "5": 8,
+          "7": 4,
+          "8": 5,
+          "9": 1
+        }
+      },
+      "total": 205
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Ovejería",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "3": 16,
+          "9": 7,
+          "8": 16,
+          "6": 7,
+          "7": 6,
+          "1": 13,
+          "2": 11,
+          "5": 7,
+          "4": 9
+        }
+      },
+      "total": 92
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "8": 5,
+          "9": 3
+        }
+      },
+      "total": 8
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 199,
+          "9": 55
+        }
+      },
+      "total": 254
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "4": 51,
+          "5": 20,
+          "6": 9,
+          "8": 2,
+          "2": 3,
+          "3": 48
+        }
+      },
+      "total": 133
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "3": 14,
+          "5": 8,
+          "6": 42,
+          "9": 4,
+          "4": 14,
+          "7": 3,
+          "8": 3
+        }
+      },
+      "total": 88
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "8° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "1": 1,
+          "4": 1,
+          "8": 2,
+          "5": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 222,
+          "9": 66,
+          "7": 1
+        }
+      },
+      "total": 289
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "Casos especiales",
+      "datos": {
+        "HEXA1R": {
+          "9": 1
+        },
+        "MENINGO": {
+          "1": 8
+        },
+        "SRP2D": {
+          "9": 1
+        },
+        "VARICELA2D": {
+          "9": 1
+        },
+        "VPH": {
+          "2": 3,
+          "3": 1
+        }
+      },
+      "total": 15
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "9": 11,
+          "2": 7,
+          "7": 9,
+          "5": 12,
+          "6": 10,
+          "1": 12,
+          "8": 11,
+          "4": 7,
+          "3": 8
+        }
+      },
+      "total": 87
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": {
+          "1": 2,
+          "5": 4,
+          "6": 1,
+          "3": 2,
+          "2": 2,
+          "8": 1,
+          "4": 1
+        }
+      },
+      "total": 13
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "VPH": {
+          "8": 3
+        },
+        "dTpa": {
+          "9": 1
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "5": 8,
+          "7": 9,
+          "4": 13,
+          "2": 9,
+          "1": 12,
+          "8": 11,
+          "6": 9,
+          "3": 12,
+          "9": 3
+        },
+        "BEXSERO1R": {
+          "6": 11,
+          "7": 12,
+          "2": 11,
+          "8": 16,
+          "5": 10,
+          "1": 16,
+          "3": 12,
+          "9": 7,
+          "4": 15
+        },
+        "BEXSERO2D": {
+          "4": 10,
+          "9": 4,
+          "3": 10,
+          "5": 13,
+          "1": 12,
+          "6": 15,
+          "2": 8,
+          "7": 8,
+          "8": 10
+        }
+      },
+      "total": 286
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "5": 15,
+          "9": 4,
+          "7": 11,
+          "8": 14,
+          "3": 13,
+          "4": 12,
+          "1": 11,
+          "2": 7,
+          "6": 8
+        }
+      },
+      "total": 95
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "Revacunación 66 y más años, crónicos",
+      "datos": {
+        "NEUMO23": {
+          "5": 1,
+          "7": 1,
+          "6": 2
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "3": 13,
+          "1": 16,
+          "6": 12,
+          "2": 12,
+          "8": 16,
+          "7": 11,
+          "5": 10,
+          "4": 15,
+          "9": 7
+        },
+        "VARICELA2D": {
+          "7": 14,
+          "5": 13,
+          "6": 9,
+          "2": 6,
+          "3": 15,
+          "1": 13,
+          "8": 9,
+          "9": 2,
+          "4": 13
+        }
+      },
+      "total": 206
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "4": 13,
+          "7": 9,
+          "3": 12,
+          "6": 9,
+          "9": 3,
+          "5": 8,
+          "2": 9,
+          "1": 12,
+          "8": 11
+        },
+        "HEXA1R": {
+          "7": 12,
+          "4": 15,
+          "5": 10,
+          "1": 16,
+          "9": 7,
+          "8": 16,
+          "6": 10,
+          "3": 13,
+          "2": 11
+        },
+        "HEXA2D": {
+          "5": 13,
+          "6": 15,
+          "4": 10,
+          "7": 8,
+          "2": 8,
+          "3": 10,
+          "8": 10,
+          "9": 4,
+          "1": 12
+        },
+        "HEXA3D": {
+          "2": 15,
+          "6": 6,
+          "5": 10,
+          "1": 10,
+          "3": 14,
+          "9": 8,
+          "7": 12,
+          "8": 11,
+          "4": 4
+        },
+        "SRP1D": {
+          "7": 11,
+          "5": 15,
+          "6": 8,
+          "3": 13,
+          "8": 13,
+          "4": 12,
+          "2": 7,
+          "9": 4,
+          "1": 11
+        },
+        "SRP2D": {
+          "5": 13,
+          "6": 9,
+          "3": 15,
+          "7": 14,
+          "1": 13,
+          "4": 13,
+          "9": 2,
+          "8": 9,
+          "2": 6
+        }
+      },
+      "total": 564
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "3": 12,
+          "4": 13,
+          "7": 9,
+          "2": 9,
+          "5": 8,
+          "6": 9,
+          "8": 11,
+          "1": 12
+        },
+        "NEUMO1R": {
+          "6": 7,
+          "8": 13,
+          "1": 10,
+          "4": 12,
+          "7": 12,
+          "5": 15,
+          "2": 7,
+          "3": 13,
+          "9": 4
+        },
+        "NEUMO2D": {
+          "5": 13,
+          "1": 12,
+          "9": 4,
+          "4": 10,
+          "3": 10,
+          "7": 8,
+          "2": 8,
+          "6": 15,
+          "8": 10
+        }
+      },
+      "total": 266
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Pampa Alegre",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "8": 17,
+          "5": 10,
+          "3": 13,
+          "6": 12,
+          "7": 11,
+          "4": 15,
+          "1": 16,
+          "2": 12,
+          "9": 7
+        }
+      },
+      "total": 113
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "7": 1,
+          "8": 6,
+          "9": 2
+        }
+      },
+      "total": 9
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 180,
+          "9": 45
+        }
+      },
+      "total": 225
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "6": 23,
+          "5": 18,
+          "9": 6,
+          "3": 24,
+          "1": 6,
+          "7": 4,
+          "4": 25,
+          "8": 3,
+          "2": 2
+        }
+      },
+      "total": 111
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "6": 23,
+          "9": 6,
+          "5": 11,
+          "8": 5,
+          "3": 16,
+          "7": 9,
+          "4": 22,
+          "1": 2,
+          "2": 1
+        }
+      },
+      "total": 95
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "7º  básico dosis pendiente",
+      "datos": {
+        "VPH": {
+          "8": 2,
+          "7": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "8° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "9": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 396,
+          "9": 17
+        }
+      },
+      "total": 413
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "8º básico dosis pendiente",
+      "datos": {
+        "VPH": {
+          "8": 3
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "Casos especiales",
+      "datos": {
+        "NEUMO23": {
+          "6": 1
+        },
+        "dTpa": {
+          "7": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "8": 15,
+          "6": 15,
+          "3": 16,
+          "7": 12,
+          "2": 9,
+          "5": 7,
+          "1": 9,
+          "9": 8,
+          "4": 6
+        }
+      },
+      "total": 97
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": {
+          "7": 4,
+          "1": 5,
+          "6": 4,
+          "2": 6,
+          "8": 3,
+          "4": 3,
+          "3": 1,
+          "9": 1,
+          "5": 1
+        }
+      },
+      "total": 28
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "Embarazadas de 37 y más  semanas",
+      "datos": {
+        "dTpa": {
+          "4": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "VPH": {
+          "8": 1
+        },
+        "dTpa": {
+          "9": 5,
+          "8": 17,
+          "3": 1,
+          "4": 2
+        }
+      },
+      "total": 26
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "3": 22,
+          "4": 14,
+          "5": 11,
+          "1": 21,
+          "7": 15,
+          "9": 8,
+          "6": 15,
+          "8": 10,
+          "2": 10
+        },
+        "BEXSERO1R": {
+          "9": 12,
+          "7": 12,
+          "3": 13,
+          "1": 19,
+          "6": 19,
+          "8": 10,
+          "5": 13,
+          "2": 17,
+          "4": 10
+        },
+        "BEXSERO2D": {
+          "1": 12,
+          "6": 14,
+          "9": 11,
+          "5": 16,
+          "4": 13,
+          "2": 14,
+          "3": 19,
+          "7": 14,
+          "8": 13
+        }
+      },
+      "total": 377
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "8": 17,
+          "1": 20,
+          "3": 20,
+          "7": 15,
+          "5": 17,
+          "6": 10,
+          "4": 18,
+          "9": 9,
+          "2": 8
+        }
+      },
+      "total": 134
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "Revacunación 66 y más años, crónicos",
+      "datos": {
+        "NEUMO23": {
+          "5": 1,
+          "7": 1,
+          "6": 2,
+          "1": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "8": 13,
+          "7": 12,
+          "6": 18,
+          "3": 15,
+          "5": 13,
+          "9": 14,
+          "4": 10,
+          "1": 19,
+          "2": 17
+        },
+        "VARICELA2D": {
+          "3": 26,
+          "1": 25,
+          "6": 22,
+          "7": 15,
+          "8": 19,
+          "9": 6,
+          "5": 17,
+          "2": 13,
+          "4": 19
+        }
+      },
+      "total": 293
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "4": 14,
+          "6": 15,
+          "3": 20,
+          "1": 21,
+          "9": 8,
+          "7": 15,
+          "5": 11,
+          "2": 10,
+          "8": 10
+        },
+        "HEXA1R": {
+          "2": 18,
+          "1": 19,
+          "6": 17,
+          "5": 13,
+          "9": 13,
+          "3": 15,
+          "7": 12,
+          "8": 14,
+          "4": 10
+        },
+        "HEXA2D": {
+          "6": 14,
+          "3": 19,
+          "2": 14,
+          "7": 14,
+          "8": 13,
+          "9": 11,
+          "4": 13,
+          "1": 12,
+          "5": 15
+        },
+        "HEXA3D": {
+          "3": 17,
+          "4": 11,
+          "5": 18,
+          "2": 15,
+          "7": 20,
+          "6": 14,
+          "9": 7,
+          "1": 12,
+          "8": 12
+        },
+        "SRP1D": {
+          "1": 20,
+          "8": 17,
+          "9": 11,
+          "3": 20,
+          "6": 10,
+          "7": 14,
+          "4": 18,
+          "5": 17,
+          "2": 7
+        },
+        "SRP2D": {
+          "2": 14,
+          "9": 7,
+          "5": 17,
+          "6": 22,
+          "8": 29,
+          "7": 16,
+          "3": 26,
+          "4": 19,
+          "1": 26
+        }
+      },
+      "total": 816
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "Vacunación Programática (puesta al día)",
+      "datos": {
+        "dTpa": {
+          "9": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "4": 14,
+          "3": 19,
+          "7": 14,
+          "2": 10,
+          "1": 21,
+          "5": 11,
+          "6": 15,
+          "8": 9
+        },
+        "NEUMO1R": {
+          "8": 16,
+          "1": 20,
+          "5": 17,
+          "3": 20,
+          "7": 14,
+          "6": 10,
+          "2": 8,
+          "4": 18
+        },
+        "NEUMO2D": {
+          "3": 19,
+          "2": 14,
+          "7": 15,
+          "1": 12,
+          "4": 13,
+          "8": 13,
+          "6": 14,
+          "5": 15,
+          "9": 4
+        }
+      },
+      "total": 355
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Quinto Centenario",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "1": 19,
+          "6": 19,
+          "7": 10,
+          "9": 12,
+          "3": 13,
+          "2": 17,
+          "5": 13,
+          "8": 7,
+          "4": 8
+        }
+      },
+      "total": 118
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "8": 3
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 175,
+          "9": 4
+        }
+      },
+      "total": 179
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "5": 33,
+          "3": 52,
+          "6": 17,
+          "4": 34,
+          "9": 4,
+          "2": 6,
+          "7": 2,
+          "8": 3,
+          "1": 2
+        }
+      },
+      "total": 153
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "4": 26,
+          "5": 17,
+          "2": 3,
+          "6": 10,
+          "1": 3,
+          "9": 9,
+          "3": 25,
+          "7": 5,
+          "8": 3
+        }
+      },
+      "total": 101
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "8° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "8": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 243,
+          "9": 17
+        }
+      },
+      "total": 260
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "Casos especiales",
+      "datos": {
+        "NEUMO23": {
+          "7": 3
+        },
+        "SRP2D": {
+          "1": 1
+        },
+        "VARICELA1D": {
+          "9": 1
+        },
+        "VPH": {
+          "1": 1
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "4": 8,
+          "1": 13,
+          "6": 17,
+          "7": 5,
+          "3": 9,
+          "9": 4,
+          "2": 8,
+          "8": 9,
+          "5": 3
+        }
+      },
+      "total": 76
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": {
+          "1": 1,
+          "7": 1,
+          "4": 2,
+          "2": 1,
+          "3": 1
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "Embarazadas de 37 y más  semanas",
+      "datos": {
+        "dTpa": {
+          "5": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "VPH": {
+          "8": 1,
+          "6": 1,
+          "2": 1
+        },
+        "dTpa": {
+          "2": 1,
+          "5": 1,
+          "6": 1,
+          "1": 2,
+          "8": 4,
+          "3": 1,
+          "9": 1
+        }
+      },
+      "total": 14
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "2": 3,
+          "3": 16,
+          "5": 12,
+          "6": 10,
+          "8": 10,
+          "1": 8,
+          "7": 15,
+          "4": 5,
+          "9": 1
+        },
+        "BEXSERO1R": {
+          "7": 8,
+          "6": 11,
+          "4": 9,
+          "5": 11,
+          "1": 7,
+          "3": 13,
+          "9": 7,
+          "8": 6,
+          "2": 5
+        },
+        "BEXSERO2D": {
+          "6": 11,
+          "3": 9,
+          "7": 11,
+          "9": 8,
+          "4": 8,
+          "1": 10,
+          "2": 8,
+          "8": 8,
+          "5": 9
+        }
+      },
+      "total": 239
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "6": 13,
+          "5": 13,
+          "1": 10,
+          "7": 19,
+          "2": 7,
+          "3": 8,
+          "8": 6,
+          "9": 4,
+          "4": 9
+        }
+      },
+      "total": 89
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "Puérperas <= 10 días post parto",
+      "datos": {
+        "dTpa": {
+          "5": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "1": 16,
+          "8": 6,
+          "4": 10,
+          "6": 12,
+          "3": 13,
+          "2": 7,
+          "5": 12,
+          "7": 8,
+          "9": 7
+        },
+        "VARICELA2D": {
+          "3": 13,
+          "2": 18,
+          "7": 21,
+          "8": 9,
+          "5": 14,
+          "1": 18,
+          "6": 10,
+          "9": 9,
+          "4": 15
+        }
+      },
+      "total": 218
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "3": 16,
+          "5": 12,
+          "1": 8,
+          "7": 15,
+          "8": 10,
+          "6": 10,
+          "2": 3,
+          "4": 5,
+          "9": 1
+        },
+        "HEXA1R": {
+          "1": 16,
+          "5": 13,
+          "6": 12,
+          "7": 8,
+          "2": 6,
+          "8": 6,
+          "4": 10,
+          "9": 7,
+          "3": 14
+        },
+        "HEXA2D": {
+          "5": 9,
+          "7": 11,
+          "1": 10,
+          "9": 8,
+          "8": 8,
+          "4": 8,
+          "2": 8,
+          "6": 11,
+          "3": 9
+        },
+        "HEXA3D": {
+          "1": 16,
+          "8": 5,
+          "3": 9,
+          "7": 16,
+          "4": 9,
+          "2": 7,
+          "6": 6,
+          "5": 10,
+          "9": 5
+        },
+        "SRP1D": {
+          "6": 12,
+          "2": 8,
+          "8": 13,
+          "1": 10,
+          "7": 19,
+          "5": 11,
+          "3": 10,
+          "9": 4,
+          "4": 9
+        },
+        "SRP2D": {
+          "4": 15,
+          "6": 11,
+          "5": 15,
+          "1": 18,
+          "9": 8,
+          "8": 19,
+          "7": 21,
+          "2": 17,
+          "3": 12
+        }
+      },
+      "total": 569
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "3": 16,
+          "2": 4,
+          "5": 11,
+          "7": 15,
+          "1": 8,
+          "6": 10,
+          "4": 5,
+          "8": 8
+        },
+        "NEUMO1R": {
+          "6": 12,
+          "7": 19,
+          "5": 11,
+          "1": 10,
+          "3": 10,
+          "4": 9,
+          "8": 3,
+          "2": 8
+        },
+        "NEUMO2D": {
+          "1": 10,
+          "7": 11,
+          "4": 8,
+          "5": 9,
+          "6": 11,
+          "3": 9,
+          "2": 8,
+          "8": 8
+        }
+      },
+      "total": 233
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Centro de Salud Familiar Rahue Alto",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "6": 12,
+          "5": 15,
+          "8": 6,
+          "1": 16,
+          "7": 8,
+          "9": 7,
+          "2": 5,
+          "4": 10,
+          "3": 13
+        }
+      },
+      "total": 92
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "8": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "9": 1,
+          "5": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "8": 4,
+          "3": 34,
+          "6": 3,
+          "5": 4,
+          "7": 5,
+          "4": 26
+        }
+      },
+      "total": 76
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "6": 2,
+          "3": 13,
+          "5": 5,
+          "4": 11,
+          "7": 3,
+          "8": 1
+        }
+      },
+      "total": 35
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "7º  básico dosis pendiente",
+      "datos": {
+        "VPH": {
+          "8": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "8° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "8": 2,
+          "2": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 2,
+          "9": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "Casos especiales",
+      "datos": {
+        "BEXSERO1D": {
+          "1": 20,
+          "4": 21,
+          "8": 44,
+          "6": 15,
+          "2": 21,
+          "5": 9,
+          "9": 11,
+          "3": 1,
+          "7": 19
+        },
+        "BEXSERO1R": {
+          "8": 1
+        },
+        "BEXSERO2D": {
+          "7": 16,
+          "1": 7,
+          "9": 5,
+          "6": 16,
+          "8": 43,
+          "4": 30,
+          "2": 3,
+          "5": 10,
+          "3": 6
+        },
+        "MENINGO": {
+          "6": 2,
+          "1": 2
+        },
+        "NEUMO1D": {
+          "1": 3,
+          "2": 4
+        },
+        "NEUMO23": {
+          "9": 12,
+          "6": 23,
+          "8": 69,
+          "5": 16,
+          "7": 34,
+          "4": 57,
+          "2": 31,
+          "1": 21,
+          "3": 3
+        },
+        "NEUMO2D": {
+          "4": 1,
+          "1": 2,
+          "2": 1,
+          "3": 1
+        },
+        "VARICELA1D": {
+          "2": 1
+        },
+        "VARICELA2D": {
+          "6": 2
+        },
+        "VPH": {
+          "8": 18,
+          "1": 29,
+          "9": 6,
+          "7": 20,
+          "5": 9,
+          "3": 9,
+          "4": 27,
+          "6": 16,
+          "2": 19
+        },
+        "dTpa": {
+          "8": 109,
+          "6": 49,
+          "2": 32,
+          "7": 48,
+          "1": 27,
+          "9": 20,
+          "4": 32,
+          "5": 16,
+          "3": 4
+        }
+      },
+      "total": 1073
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "5": 2,
+          "1": 1,
+          "3": 4,
+          "9": 1,
+          "7": 1,
+          "4": 2,
+          "6": 2,
+          "2": 1,
+          "8": 1
+        }
+      },
+      "total": 15
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": {
+          "1": 3,
+          "6": 1
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "Ley Ricarte Soto",
+      "datos": {
+        "NEUMO23": {
+          "9": 2,
+          "7": 3,
+          "8": 2,
+          "4": 2,
+          "6": 3,
+          "5": 1,
+          "3": 1
+        }
+      },
+      "total": 14
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "dTpa": {
+          "6": 1,
+          "7": 1,
+          "3": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "P18",
+      "datos": {
+        "VPH": {
+          "6": 4,
+          "8": 3,
+          "1": 4,
+          "4": 1
+        }
+      },
+      "total": 12
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "PrEP",
+      "datos": {
+        "VPH": {
+          "4": 2,
+          "7": 2,
+          "1": 4,
+          "9": 1,
+          "6": 1,
+          "8": 2
+        }
+      },
+      "total": 12
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "Profiláctico tetánico",
+      "datos": {
+        "dTpa": {
+          "6": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "9": 1,
+          "3": 1,
+          "1": 2,
+          "6": 1,
+          "4": 1,
+          "2": 1
+        },
+        "BEXSERO2D": {
+          "9": 2,
+          "3": 1,
+          "4": 1
+        }
+      },
+      "total": 11
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "4": 1,
+          "7": 1,
+          "3": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "Sin Criterio Especificado",
+      "datos": {
+        "BCG": {
+          "7": 128,
+          "5": 125,
+          "4": 116,
+          "3": 120,
+          "6": 100,
+          "2": 101,
+          "1": 119,
+          "8": 116,
+          "9": 76
+        },
+        "HepB": {
+          "6": 98,
+          "3": 119,
+          "7": 130,
+          "5": 132,
+          "9": 80,
+          "1": 121,
+          "4": 115,
+          "2": 103,
+          "8": 126
+        }
+      },
+      "total": 2025
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "VVS por decreto",
+      "datos": {
+        "VPH": {
+          "3": 3,
+          "2": 1,
+          "1": 6,
+          "6": 2,
+          "4": 3,
+          "7": 1,
+          "8": 1
+        }
+      },
+      "total": 17
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "6": 1
+        },
+        "VARICELA2D": {
+          "1": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "BCG": {
+          "9": 5,
+          "8": 6,
+          "5": 1,
+          "6": 2,
+          "1": 3,
+          "2": 4,
+          "4": 1
+        },
+        "HEXA1D": {
+          "4": 1,
+          "1": 2,
+          "9": 1,
+          "6": 1,
+          "2": 1,
+          "3": 1
+        },
+        "HEXA1R": {
+          "6": 1
+        },
+        "HEXA2D": {
+          "3": 1,
+          "9": 2,
+          "4": 1
+        },
+        "HEXA3D": {
+          "3": 2,
+          "8": 1
+        },
+        "SRP1D": {
+          "7": 1,
+          "4": 1
+        },
+        "SRP2D": {
+          "9": 1,
+          "1": 1,
+          "8": 1,
+          "7": 1
+        }
+      },
+      "total": 43
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "4": 1,
+          "2": 1,
+          "6": 1,
+          "1": 2,
+          "3": 1
+        },
+        "NEUMO1R": {
+          "7": 1,
+          "6": 1,
+          "4": 1
+        },
+        "NEUMO2D": {
+          "3": 1,
+          "4": 1
+        }
+      },
+      "total": 11
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Hospital Base San José de Osorno",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "6": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 40,
+          "9": 1
+        }
+      },
+      "total": 41
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "3": 7,
+          "5": 4,
+          "4": 6,
+          "8": 1
+        }
+      },
+      "total": 18
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "3": 4,
+          "4": 7,
+          "7": 2,
+          "2": 1,
+          "5": 1
+        }
+      },
+      "total": 15
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 46
+        }
+      },
+      "total": 46
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "Casos especiales",
+      "datos": {
+        "NEUMO23": {
+          "3": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "7": 1,
+          "9": 2,
+          "3": 1,
+          "4": 2
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "dTpa": {
+          "8": 11,
+          "1": 1
+        }
+      },
+      "total": 12
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "2": 2,
+          "1": 1,
+          "4": 2,
+          "9": 1,
+          "6": 1,
+          "5": 1
+        },
+        "BEXSERO1R": {
+          "2": 2,
+          "9": 1,
+          "1": 1
+        },
+        "BEXSERO2D": {
+          "2": 2,
+          "4": 2,
+          "6": 2
+        }
+      },
+      "total": 18
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "4": 1,
+          "7": 1,
+          "2": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "Revacunación 66 y más años, crónicos",
+      "datos": {
+        "NEUMO23": {
+          "3": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "2": 2,
+          "1": 1,
+          "6": 1,
+          "9": 1
+        },
+        "VARICELA2D": {
+          "2": 1,
+          "3": 2,
+          "1": 1
+        }
+      },
+      "total": 9
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "9": 1,
+          "5": 1,
+          "1": 1,
+          "4": 2,
+          "6": 1,
+          "2": 2
+        },
+        "HEXA1R": {
+          "2": 2,
+          "1": 1,
+          "9": 1
+        },
+        "HEXA2D": {
+          "6": 2,
+          "2": 2,
+          "4": 2
+        },
+        "HEXA3D": {
+          "4": 1,
+          "7": 2,
+          "6": 1,
+          "5": 1,
+          "1": 1
+        },
+        "SRP1D": {
+          "7": 1,
+          "8": 4,
+          "2": 1,
+          "4": 1
+        },
+        "SRP2D": {
+          "8": 8,
+          "3": 2,
+          "1": 2,
+          "2": 1
+        }
+      },
+      "total": 44
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "2": 2,
+          "4": 2,
+          "1": 1,
+          "5": 1
+        },
+        "NEUMO1R": {
+          "7": 1,
+          "2": 1,
+          "4": 1
+        },
+        "NEUMO2D": {
+          "4": 2,
+          "2": 2,
+          "6": 3
+        }
+      },
+      "total": 16
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Cancura",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "2": 2,
+          "1": 1,
+          "9": 1,
+          "6": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Pichi Damas",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 4
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Pichi Damas",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "4": 3,
+          "7": 1,
+          "9": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Pichi Damas",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "4": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Pichi Damas",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 11
+        }
+      },
+      "total": 11
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Pichi Damas",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "4": 2,
+          "1": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Pichi Damas",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "dTpa": {
+          "8": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Pichi Damas",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "9": 2,
+          "2": 1
+        },
+        "BEXSERO2D": {
+          "5": 1,
+          "2": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Pichi Damas",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "9": 1
+        },
+        "VARICELA2D": {
+          "6": 3,
+          "3": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Pichi Damas",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "2": 1,
+          "9": 2
+        },
+        "HEXA2D": {
+          "5": 1,
+          "2": 1
+        },
+        "HEXA3D": {
+          "4": 1,
+          "7": 1
+        },
+        "SRP2D": {
+          "9": 1,
+          "6": 3,
+          "3": 1
+        }
+      },
+      "total": 12
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "Posta de Salud Rural Pichi Damas",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "2": 1
+        },
+        "NEUMO2D": {
+          "5": 1,
+          "2": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "SAPU Dr. Marcelo Lopetegui Adams",
+      "criterio": "8° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "6": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "SAPU Dr. Marcelo Lopetegui Adams",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "dTpa": {
+          "9": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "SAPU Dr. Pedro Jáuregui",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "6": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "establecimiento": "SAPU Rahue Alto",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "dTpa": {
+          "8": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "8": 1,
+          "7": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 46,
+          "7": 12
+        }
+      },
+      "total": 58
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "3": 28,
+          "5": 6,
+          "2": 2,
+          "4": 12,
+          "7": 3,
+          "9": 2,
+          "6": 5,
+          "1": 1,
+          "8": 1
+        }
+      },
+      "total": 60
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "3": 21,
+          "4": 9,
+          "6": 4,
+          "8": 3,
+          "7": 2,
+          "2": 1,
+          "5": 1
+        }
+      },
+      "total": 41
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "7": 20,
+          "8": 56
+        }
+      },
+      "total": 76
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "7": 3,
+          "9": 1,
+          "6": 3,
+          "3": 5,
+          "8": 3,
+          "5": 5,
+          "2": 1,
+          "1": 3,
+          "4": 3
+        }
+      },
+      "total": 27
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": {
+          "2": 3,
+          "9": 1,
+          "3": 1,
+          "5": 2
+        }
+      },
+      "total": 7
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "SRP2D": {
+          "1": 1
+        },
+        "VPH": {
+          "1": 1,
+          "9": 1,
+          "8": 4,
+          "3": 1
+        },
+        "dTpa": {
+          "8": 7,
+          "1": 1
+        }
+      },
+      "total": 16
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "Profiláctico tetánico",
+      "datos": {
+        "dTpa": {
+          "6": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "7": 3,
+          "6": 9,
+          "5": 2,
+          "8": 4,
+          "9": 2,
+          "2": 3,
+          "4": 3,
+          "3": 1
+        },
+        "BEXSERO1R": {
+          "6": 4,
+          "5": 4,
+          "1": 5,
+          "2": 7,
+          "7": 4,
+          "8": 2,
+          "3": 1,
+          "4": 1
+        },
+        "BEXSERO2D": {
+          "8": 8,
+          "7": 2,
+          "4": 3,
+          "3": 1,
+          "2": 4,
+          "1": 4,
+          "6": 3,
+          "5": 2
+        }
+      },
+      "total": 82
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "2": 2,
+          "6": 3,
+          "9": 3,
+          "5": 4,
+          "7": 1,
+          "1": 5,
+          "8": 4,
+          "4": 1,
+          "3": 5
+        }
+      },
+      "total": 28
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "Revacunación 66 y más años, crónicos",
+      "datos": {
+        "NEUMO23": {
+          "3": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "4": 1,
+          "2": 7,
+          "7": 4,
+          "6": 4,
+          "1": 5,
+          "5": 4,
+          "8": 2,
+          "3": 1,
+          "9": 1
+        },
+        "VARICELA2D": {
+          "8": 5,
+          "7": 7,
+          "6": 4,
+          "2": 8,
+          "9": 4,
+          "1": 4,
+          "3": 4,
+          "4": 2,
+          "5": 1
+        }
+      },
+      "total": 68
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "3": 1,
+          "6": 9,
+          "7": 3,
+          "5": 2,
+          "8": 4,
+          "2": 3,
+          "4": 3,
+          "9": 2
+        },
+        "HEXA1R": {
+          "4": 3,
+          "6": 3,
+          "3": 3,
+          "7": 5,
+          "2": 6,
+          "1": 4,
+          "9": 1,
+          "5": 3,
+          "8": 1
+        },
+        "HEXA2D": {
+          "4": 3,
+          "5": 2,
+          "7": 2,
+          "8": 8,
+          "2": 4,
+          "6": 3,
+          "1": 4
+        },
+        "HEXA3D": {
+          "2": 6,
+          "6": 4,
+          "1": 6,
+          "4": 3,
+          "7": 1,
+          "8": 2,
+          "3": 2,
+          "9": 1
+        },
+        "SRP1D": {
+          "8": 4,
+          "2": 2,
+          "6": 3,
+          "9": 3,
+          "7": 1,
+          "3": 5,
+          "5": 4,
+          "1": 5,
+          "4": 1
+        },
+        "SRP2D": {
+          "6": 4,
+          "1": 5,
+          "7": 8,
+          "9": 5,
+          "8": 5,
+          "3": 4,
+          "4": 2,
+          "2": 8,
+          "5": 1
+        }
+      },
+      "total": 177
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "Vacunación Programática (puesta al día)",
+      "datos": {
+        "dTpa": {
+          "7": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "6": 9,
+          "5": 2,
+          "2": 3,
+          "3": 1,
+          "7": 3,
+          "4": 3,
+          "8": 4
+        },
+        "NEUMO1R": {
+          "2": 2,
+          "1": 5,
+          "6": 3,
+          "3": 4,
+          "8": 4,
+          "5": 4,
+          "7": 1,
+          "4": 1
+        },
+        "NEUMO2D": {
+          "7": 2,
+          "1": 4,
+          "4": 3,
+          "5": 2,
+          "2": 4,
+          "8": 8,
+          "6": 3,
+          "3": 1
+        }
+      },
+      "total": 76
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Hospital de Puerto Octay",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "2": 6,
+          "5": 3,
+          "7": 5,
+          "1": 4,
+          "6": 3,
+          "4": 3,
+          "9": 1,
+          "3": 3,
+          "8": 1
+        }
+      },
+      "total": 29
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Cascadas",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 14
+        }
+      },
+      "total": 14
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Cascadas",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "8": 7,
+          "3": 4,
+          "4": 3
+        }
+      },
+      "total": 14
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Cascadas",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "4": 6,
+          "3": 9,
+          "8": 1
+        }
+      },
+      "total": 16
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Cascadas",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 19
+        }
+      },
+      "total": 19
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Cascadas",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "1": 1,
+          "2": 1,
+          "6": 1,
+          "4": 1
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Cascadas",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": {
+          "9": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Cascadas",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "VPH": {
+          "2": 1,
+          "7": 1
+        },
+        "dTpa": {
+          "8": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Cascadas",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "6": 1,
+          "8": 1,
+          "5": 2
+        },
+        "BEXSERO1R": {
+          "1": 3,
+          "6": 2,
+          "3": 1,
+          "5": 1
+        },
+        "BEXSERO2D": {
+          "7": 3,
+          "8": 1
+        }
+      },
+      "total": 15
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Cascadas",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "1": 1,
+          "6": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Cascadas",
+      "criterio": "Revacunación 66 y más años, crónicos",
+      "datos": {
+        "NEUMO23": {
+          "9": 1,
+          "3": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Cascadas",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "6": 2,
+          "5": 1,
+          "1": 3,
+          "9": 1,
+          "3": 1
+        },
+        "VARICELA2D": {
+          "7": 2,
+          "6": 3,
+          "9": 1,
+          "8": 1,
+          "4": 2,
+          "2": 1
+        }
+      },
+      "total": 18
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Cascadas",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "8": 1,
+          "5": 2,
+          "6": 1
+        },
+        "HEXA1R": {
+          "1": 3,
+          "6": 2,
+          "5": 1,
+          "9": 1,
+          "3": 1
+        },
+        "HEXA2D": {
+          "7": 3,
+          "8": 1
+        },
+        "HEXA3D": {
+          "2": 1
+        },
+        "SRP1D": {
+          "1": 1,
+          "6": 1
+        },
+        "SRP2D": {
+          "6": 3,
+          "9": 2,
+          "7": 2,
+          "4": 2,
+          "8": 3,
+          "2": 1
+        }
+      },
+      "total": 32
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Cascadas",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "5": 2,
+          "6": 1,
+          "8": 1
+        },
+        "NEUMO1R": {
+          "6": 1,
+          "1": 1
+        },
+        "NEUMO2D": {
+          "7": 3,
+          "8": 1
+        }
+      },
+      "total": 10
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Cascadas",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "6": 2,
+          "1": 3,
+          "9": 1,
+          "3": 1,
+          "5": 1
+        }
+      },
+      "total": 8
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Coihueco (Puerto Octay)",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 9
+        }
+      },
+      "total": 9
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Coihueco (Puerto Octay)",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "5": 3,
+          "6": 1,
+          "7": 2,
+          "1": 3,
+          "3": 4,
+          "4": 1
+        }
+      },
+      "total": 14
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Coihueco (Puerto Octay)",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "5": 2,
+          "3": 13,
+          "4": 7,
+          "7": 1,
+          "8": 1
+        }
+      },
+      "total": 24
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Coihueco (Puerto Octay)",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Coihueco (Puerto Octay)",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "VPH": {
+          "1": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Coihueco (Puerto Octay)",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1R": {
+          "5": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Coihueco (Puerto Octay)",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "8": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Coihueco (Puerto Octay)",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "1": 1,
+          "5": 2
+        },
+        "VARICELA2D": {
+          "6": 1,
+          "9": 1,
+          "5": 1
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Coihueco (Puerto Octay)",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1R": {
+          "1": 1,
+          "6": 1,
+          "5": 1,
+          "4": 1
+        },
+        "HEXA3D": {
+          "3": 1,
+          "2": 1
+        },
+        "SRP1D": {
+          "8": 4
+        },
+        "SRP2D": {
+          "6": 1,
+          "5": 1
+        }
+      },
+      "total": 12
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Coihueco (Puerto Octay)",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1R": {
+          "8": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Coihueco (Puerto Octay)",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "4": 1,
+          "5": 1,
+          "1": 1,
+          "6": 1
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural La Calo",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "5": 5,
+          "3": 1
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural La Calo",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "3": 2,
+          "4": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural La Calo",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "4": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural La Calo",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "6": 1,
+          "4": 1,
+          "8": 1
+        },
+        "BEXSERO1R": {
+          "6": 3,
+          "5": 1,
+          "3": 1
+        },
+        "BEXSERO2D": {
+          "9": 1,
+          "6": 1
+        }
+      },
+      "total": 10
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural La Calo",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "1": 1,
+          "4": 2,
+          "2": 1
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural La Calo",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "6": 2,
+          "5": 2,
+          "3": 1
+        },
+        "VARICELA2D": {
+          "6": 1,
+          "5": 1
+        }
+      },
+      "total": 7
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural La Calo",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "4": 1,
+          "8": 1
+        },
+        "HEXA1R": {
+          "5": 1,
+          "6": 3,
+          "3": 1
+        },
+        "HEXA2D": {
+          "6": 2
+        },
+        "HEXA3D": {
+          "8": 1,
+          "9": 1
+        },
+        "SRP1D": {
+          "1": 1,
+          "2": 1,
+          "4": 2
+        },
+        "SRP2D": {
+          "5": 1,
+          "6": 1
+        }
+      },
+      "total": 17
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural La Calo",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "1": 1,
+          "4": 1,
+          "8": 1
+        },
+        "NEUMO1R": {
+          "4": 2,
+          "2": 1,
+          "9": 1
+        },
+        "NEUMO2D": {
+          "6": 2
+        }
+      },
+      "total": 9
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural La Calo",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "6": 2,
+          "5": 2,
+          "3": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Pellinada",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Pellinada",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "5": 3,
+          "3": 2,
+          "4": 6
+        }
+      },
+      "total": 11
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Pellinada",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "4": 3,
+          "3": 7
+        }
+      },
+      "total": 10
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Pellinada",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "6": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Pellinada",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "VPH": {
+          "1": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Pellinada",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "3": 1,
+          "8": 1
+        },
+        "BEXSERO1R": {
+          "6": 1,
+          "5": 1
+        },
+        "BEXSERO2D": {
+          "5": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Pellinada",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "6": 1,
+          "5": 1,
+          "4": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Pellinada",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "5": 1
+        },
+        "VARICELA2D": {
+          "4": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Pellinada",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "3": 1,
+          "8": 1
+        },
+        "HEXA1R": {
+          "5": 1
+        },
+        "HEXA2D": {
+          "3": 1
+        },
+        "HEXA3D": {
+          "7": 1,
+          "6": 1,
+          "5": 2
+        },
+        "SRP1D": {
+          "6": 1,
+          "4": 1,
+          "5": 1
+        },
+        "SRP2D": {
+          "8": 1,
+          "4": 1
+        }
+      },
+      "total": 13
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Pellinada",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "3": 1,
+          "8": 1
+        },
+        "NEUMO1R": {
+          "5": 3,
+          "6": 1
+        },
+        "NEUMO2D": {
+          "4": 1
+        }
+      },
+      "total": 7
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Pellinada",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "5": 1,
+          "3": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Piedras Negras",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "6": 1,
+          "3": 3,
+          "8": 1,
+          "5": 2,
+          "7": 1,
+          "4": 2
+        }
+      },
+      "total": 10
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Piedras Negras",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "3": 6,
+          "4": 4,
+          "7": 1,
+          "8": 1
+        }
+      },
+      "total": 12
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Piedras Negras",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 8
+        }
+      },
+      "total": 8
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Piedras Negras",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "6": 1,
+          "1": 1
+        },
+        "BEXSERO2D": {
+          "4": 2,
+          "8": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Piedras Negras",
+      "criterio": "Revacunación 66 y más años, crónicos",
+      "datos": {
+        "NEUMO23": {
+          "3": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Piedras Negras",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "6": 1,
+          "1": 1,
+          "4": 1
+        },
+        "VARICELA2D": {
+          "4": 2,
+          "1": 1,
+          "5": 1,
+          "8": 1
+        }
+      },
+      "total": 8
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Piedras Negras",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "1": 1,
+          "6": 1
+        },
+        "HEXA1R": {
+          "8": 1
+        },
+        "HEXA2D": {
+          "4": 1,
+          "8": 1
+        },
+        "HEXA3D": {
+          "6": 1,
+          "1": 1
+        },
+        "SRP2D": {
+          "4": 2,
+          "1": 1,
+          "5": 1,
+          "8": 1
+        }
+      },
+      "total": 12
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Piedras Negras",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "1": 1
+        },
+        "NEUMO2D": {
+          "4": 1,
+          "8": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Piedras Negras",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "6": 1,
+          "1": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Rupanco",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "5": 2,
+          "4": 5,
+          "7": 1,
+          "3": 2
+        }
+      },
+      "total": 10
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Rupanco",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "3": 4,
+          "4": 1,
+          "8": 1
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Rupanco",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 6
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Rupanco",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "dTpa": {
+          "8": 4
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Rupanco",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "6": 1,
+          "1": 1,
+          "9": 1,
+          "4": 1
+        },
+        "BEXSERO1R": {
+          "5": 2,
+          "6": 4,
+          "9": 1,
+          "4": 1,
+          "2": 2,
+          "7": 1,
+          "3": 1
+        },
+        "BEXSERO2D": {
+          "8": 1,
+          "6": 1,
+          "4": 1
+        }
+      },
+      "total": 19
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Rupanco",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "6": 1,
+          "1": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Rupanco",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "7": 1,
+          "6": 3,
+          "4": 2,
+          "5": 1,
+          "8": 1,
+          "9": 1,
+          "2": 2,
+          "3": 1
+        },
+        "VARICELA2D": {
+          "2": 2,
+          "6": 4,
+          "1": 1,
+          "8": 2,
+          "3": 1,
+          "4": 1
+        }
+      },
+      "total": 23
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Rupanco",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "1": 1,
+          "6": 1,
+          "9": 1
+        },
+        "HEXA1R": {
+          "6": 4,
+          "4": 2,
+          "2": 2,
+          "3": 1,
+          "9": 1
+        },
+        "HEXA2D": {
+          "4": 1
+        },
+        "HEXA3D": {
+          "6": 1,
+          "4": 2,
+          "8": 1
+        },
+        "SRP1D": {
+          "6": 1,
+          "1": 1
+        },
+        "SRP2D": {
+          "1": 1,
+          "8": 5,
+          "6": 4,
+          "4": 1,
+          "2": 2,
+          "3": 1
+        }
+      },
+      "total": 34
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Rupanco",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "1": 2
+        },
+        "NEUMO1R": {
+          "8": 1,
+          "6": 3
+        },
+        "NEUMO2D": {
+          "6": 1,
+          "4": 1
+        }
+      },
+      "total": 8
+    },
+    {
+      "comuna": "Puerto Octay",
+      "establecimiento": "Posta de Salud Rural Rupanco",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "6": 3,
+          "4": 3,
+          "5": 1,
+          "3": 1,
+          "9": 1,
+          "2": 2
+        }
+      },
+      "total": 11
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Barrio Estación",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 14
+        }
+      },
+      "total": 14
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Barrio Estación",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "6": 2,
+          "5": 6,
+          "3": 4
+        }
+      },
+      "total": 12
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Barrio Estación",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "5": 7,
+          "6": 1,
+          "3": 2
+        }
+      },
+      "total": 10
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Barrio Estación",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 19
+        }
+      },
+      "total": 19
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Barrio Estación",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "dTpa": {
+          "8": 3
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Barrio Estación",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "8": 1
+        },
+        "BEXSERO2D": {
+          "8": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Barrio Estación",
+      "criterio": "Revacunación 66 y más años, crónicos",
+      "datos": {
+        "NEUMO23": {
+          "5": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Barrio Estación",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "3": 1
+        },
+        "VARICELA2D": {
+          "9": 2,
+          "7": 1
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Barrio Estación",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "8": 1
+        },
+        "HEXA1R": {
+          "3": 1
+        },
+        "HEXA2D": {
+          "8": 1
+        },
+        "SRP2D": {
+          "9": 2,
+          "7": 1
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Barrio Estación",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "8": 1
+        },
+        "NEUMO2D": {
+          "8": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Barrio Estación",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "3": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Corte Alto",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "8": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Corte Alto",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 12
+        }
+      },
+      "total": 12
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Corte Alto",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "3": 4,
+          "6": 2,
+          "5": 4,
+          "9": 1
+        }
+      },
+      "total": 11
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Corte Alto",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "7": 2,
+          "3": 1,
+          "5": 1,
+          "9": 1,
+          "4": 1
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Corte Alto",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 18
+        }
+      },
+      "total": 18
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Corte Alto",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "4": 1,
+          "7": 1,
+          "6": 2
+        },
+        "BEXSERO1R": {
+          "5": 1,
+          "9": 1,
+          "3": 1,
+          "2": 1
+        },
+        "BEXSERO2D": {
+          "9": 1,
+          "3": 1,
+          "6": 1,
+          "8": 2
+        }
+      },
+      "total": 13
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Corte Alto",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "5": 2,
+          "6": 2,
+          "4": 1,
+          "9": 1,
+          "8": 3,
+          "3": 1
+        }
+      },
+      "total": 10
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Corte Alto",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "2": 1,
+          "3": 1,
+          "9": 1,
+          "5": 1
+        },
+        "VARICELA2D": {
+          "5": 1,
+          "7": 1,
+          "8": 1,
+          "6": 2,
+          "3": 2
+        }
+      },
+      "total": 11
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Corte Alto",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "6": 2,
+          "4": 1,
+          "7": 1
+        },
+        "HEXA1R": {
+          "9": 1,
+          "3": 1,
+          "2": 1,
+          "5": 1
+        },
+        "HEXA2D": {
+          "6": 1,
+          "3": 1,
+          "9": 2,
+          "8": 2
+        },
+        "HEXA3D": {
+          "8": 1
+        },
+        "SRP1D": {
+          "9": 2,
+          "6": 3,
+          "5": 2,
+          "8": 4,
+          "3": 1,
+          "4": 1
+        },
+        "SRP2D": {
+          "6": 2,
+          "5": 2,
+          "7": 1,
+          "8": 7,
+          "3": 2
+        }
+      },
+      "total": 42
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Corte Alto",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "7": 1,
+          "4": 1,
+          "6": 2
+        },
+        "NEUMO1R": {
+          "8": 3,
+          "6": 3,
+          "3": 1,
+          "5": 2,
+          "4": 1
+        },
+        "NEUMO2D": {
+          "6": 1,
+          "3": 1,
+          "9": 1,
+          "8": 2
+        }
+      },
+      "total": 19
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro Comunitario de Salud Familiar Corte Alto",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "5": 1,
+          "9": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "8": 14,
+          "9": 5,
+          "7": 1,
+          "1": 1
+        }
+      },
+      "total": 21
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "7": 16,
+          "8": 114,
+          "9": 8,
+          "3": 1
+        }
+      },
+      "total": 139
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "3": 51,
+          "5": 34,
+          "2": 3,
+          "7": 14,
+          "6": 13,
+          "1": 3,
+          "8": 1,
+          "4": 26,
+          "9": 1
+        }
+      },
+      "total": 146
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "4": 17,
+          "6": 16,
+          "8": 4,
+          "5": 16,
+          "9": 4,
+          "7": 5,
+          "3": 20,
+          "1": 2
+        }
+      },
+      "total": 84
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "7º básico dosis pendiente",
+      "datos": {
+        "VPH": {
+          "2": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "8° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "9": 5,
+          "8": 2,
+          "5": 1
+        }
+      },
+      "total": 8
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "7": 23,
+          "8": 146,
+          "9": 30
+        }
+      },
+      "total": 199
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "8º básico dosis pendiente",
+      "datos": {
+        "VPH": {
+          "9": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "Casos especiales",
+      "datos": {
+        "BEXSERO1D": {
+          "5": 1
+        },
+        "BEXSERO2D": {
+          "7": 1
+        },
+        "NEUMO23": {
+          "7": 1,
+          "4": 1,
+          "3": 1,
+          "6": 2
+        },
+        "NEUMO2D": {
+          "2": 1
+        },
+        "VPH": {
+          "6": 1,
+          "8": 1
+        }
+      },
+      "total": 10
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "2": 12,
+          "1": 12,
+          "5": 14,
+          "8": 10,
+          "9": 8,
+          "6": 10,
+          "4": 13,
+          "7": 11,
+          "3": 10
+        }
+      },
+      "total": 100
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": {
+          "1": 3,
+          "6": 2,
+          "9": 2,
+          "8": 1,
+          "7": 1,
+          "3": 2,
+          "2": 2,
+          "5": 2
+        }
+      },
+      "total": 15
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "Embarazadas de 37 y más  semanas",
+      "datos": {
+        "dTpa": {
+          "6": 1,
+          "5": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "VPH": {
+          "7": 2,
+          "2": 6,
+          "9": 1,
+          "3": 1
+        },
+        "dTpa": {
+          "9": 3,
+          "5": 3,
+          "3": 1,
+          "1": 1,
+          "4": 1,
+          "8": 1
+        }
+      },
+      "total": 20
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "5": 11,
+          "7": 10,
+          "3": 16,
+          "2": 10,
+          "4": 8,
+          "9": 5,
+          "1": 10,
+          "8": 8,
+          "6": 8
+        },
+        "BEXSERO1R": {
+          "7": 21,
+          "1": 15,
+          "8": 7,
+          "3": 9,
+          "9": 4,
+          "5": 19,
+          "6": 10,
+          "2": 14,
+          "4": 14
+        },
+        "BEXSERO2D": {
+          "4": 9,
+          "6": 9,
+          "7": 12,
+          "3": 14,
+          "5": 13,
+          "2": 5,
+          "1": 9,
+          "8": 7
+        }
+      },
+      "total": 277
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "2": 15,
+          "3": 11,
+          "9": 4,
+          "5": 12,
+          "6": 12,
+          "1": 17,
+          "4": 11,
+          "8": 11,
+          "7": 10
+        }
+      },
+      "total": 103
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "Revacunación 66 y más años, crónicos",
+      "datos": {
+        "NEUMO23": {
+          "3": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "3": 10,
+          "1": 17,
+          "7": 24,
+          "6": 16,
+          "9": 3,
+          "4": 15,
+          "5": 19,
+          "2": 15,
+          "8": 7
+        },
+        "VARICELA2D": {
+          "8": 14,
+          "4": 14,
+          "6": 18,
+          "2": 26,
+          "9": 5,
+          "7": 13,
+          "1": 12,
+          "5": 10,
+          "3": 12
+        }
+      },
+      "total": 250
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "9": 5,
+          "2": 10,
+          "1": 10,
+          "5": 11,
+          "4": 8,
+          "7": 10,
+          "6": 8,
+          "3": 16,
+          "8": 8
+        },
+        "HEXA1R": {
+          "1": 17,
+          "8": 7,
+          "5": 19,
+          "7": 22,
+          "4": 15,
+          "6": 15,
+          "2": 17,
+          "9": 4,
+          "3": 9
+        },
+        "HEXA2D": {
+          "4": 9,
+          "2": 5,
+          "6": 9,
+          "3": 14,
+          "5": 13,
+          "7": 12,
+          "1": 9,
+          "8": 7
+        },
+        "HEXA3D": {
+          "2": 13,
+          "6": 11,
+          "5": 12,
+          "1": 7,
+          "3": 7,
+          "9": 7,
+          "7": 12,
+          "8": 11,
+          "4": 5
+        },
+        "SRP1D": {
+          "6": 11,
+          "1": 16,
+          "7": 9,
+          "3": 11,
+          "8": 11,
+          "4": 13,
+          "2": 14,
+          "5": 12,
+          "9": 4
+        },
+        "SRP2D": {
+          "1": 11,
+          "6": 22,
+          "2": 25,
+          "9": 13,
+          "7": 17,
+          "3": 14,
+          "5": 11,
+          "8": 15,
+          "4": 13
+        }
+      },
+      "total": 616
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "1": 10,
+          "2": 10,
+          "7": 10,
+          "3": 16,
+          "5": 11,
+          "6": 8,
+          "8": 8,
+          "4": 8
+        },
+        "NEUMO1R": {
+          "6": 13,
+          "2": 13,
+          "9": 4,
+          "1": 17,
+          "3": 11,
+          "5": 12,
+          "7": 9,
+          "4": 11,
+          "8": 11
+        },
+        "NEUMO2D": {
+          "5": 13,
+          "8": 7,
+          "4": 9,
+          "7": 12,
+          "1": 9,
+          "3": 14,
+          "6": 9,
+          "2": 5
+        }
+      },
+      "total": 260
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Centro de Salud Familiar Purranque",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "1": 17,
+          "3": 10,
+          "6": 16,
+          "2": 15,
+          "5": 19,
+          "8": 7,
+          "7": 22,
+          "4": 16,
+          "9": 5
+        }
+      },
+      "total": 127
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Colonia Ponce",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "3": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Colonia Ponce",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "8": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Colonia Ponce",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "5": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Colonia Ponce",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA2D": {
+          "2": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Colonia Ponce",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "5": 1
+        },
+        "SRP2D": {
+          "2": 2
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Colonia Ponce",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "5": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Concordia",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Concordia",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO2D": {
+          "7": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Concordia",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA2D": {
+          "7": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Concordia",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO2D": {
+          "7": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Crucero ( Purranque)",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "9": 6,
+          "8": 2
+        }
+      },
+      "total": 8
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Crucero ( Purranque)",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "9": 9
+        }
+      },
+      "total": 9
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Crucero ( Purranque)",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "dTpa": {
+          "8": 1,
+          "9": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Crucero ( Purranque)",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA2D": {
+          "6": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Crucero ( Purranque)",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "SRP2D": {
+          "6": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Hueyusca",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "3": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Hueyusca",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "3": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Hueyusca",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Hueyusca",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1R": {
+          "4": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Hueyusca",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "4": 1
+        },
+        "VARICELA2D": {
+          "8": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Hueyusca",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1R": {
+          "4": 1
+        },
+        "SRP2D": {
+          "8": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Purranque",
+      "establecimiento": "Posta de Salud Rural Hueyusca",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "4": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro Comunitario de Salud Familiar El Encanto",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "9": 6
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro Comunitario de Salud Familiar El Encanto",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "2": 1,
+          "7": 1,
+          "4": 5
+        }
+      },
+      "total": 7
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro Comunitario de Salud Familiar El Encanto",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "5": 1,
+          "6": 2,
+          "7": 2,
+          "9": 1
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro Comunitario de Salud Familiar El Encanto",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "9": 12
+        }
+      },
+      "total": 12
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro Comunitario de Salud Familiar El Encanto",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1R": {
+          "7": 2,
+          "2": 3,
+          "4": 2
+        }
+      },
+      "total": 7
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro Comunitario de Salud Familiar El Encanto",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "8": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro Comunitario de Salud Familiar El Encanto",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "2": 3,
+          "7": 2,
+          "4": 2
+        },
+        "VARICELA2D": {
+          "5": 1,
+          "8": 1
+        }
+      },
+      "total": 9
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro Comunitario de Salud Familiar El Encanto",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1R": {
+          "2": 3,
+          "4": 2,
+          "7": 2
+        },
+        "SRP1D": {
+          "8": 1
+        },
+        "SRP2D": {
+          "8": 1,
+          "5": 1
+        }
+      },
+      "total": 10
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro Comunitario de Salud Familiar El Encanto",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1R": {
+          "8": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro Comunitario de Salud Familiar El Encanto",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "2": 3,
+          "4": 2,
+          "7": 2
+        }
+      },
+      "total": 7
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 76,
+          "9": 5
+        }
+      },
+      "total": 81
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "4": 21,
+          "5": 14,
+          "3": 46,
+          "9": 1,
+          "6": 9,
+          "7": 4,
+          "2": 1,
+          "8": 1
+        }
+      },
+      "total": 97
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "5": 9,
+          "7": 6,
+          "3": 11,
+          "6": 3,
+          "9": 5,
+          "8": 3,
+          "4": 20,
+          "1": 1
+        }
+      },
+      "total": 58
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "8° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "6": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 135,
+          "9": 3,
+          "3": 2
+        }
+      },
+      "total": 140
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "Casos especiales",
+      "datos": {
+        "NEUMO1D": {
+          "3": 1
+        },
+        "NEUMO23": {
+          "7": 1
+        },
+        "NEUMO2D": {
+          "5": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "5": 8,
+          "8": 9,
+          "7": 8,
+          "1": 6,
+          "6": 6,
+          "3": 8,
+          "2": 2,
+          "9": 2,
+          "4": 9
+        }
+      },
+      "total": 58
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": {
+          "7": 3,
+          "5": 3,
+          "1": 2,
+          "4": 2,
+          "6": 1
+        }
+      },
+      "total": 11
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "dTpa": {
+          "8": 4,
+          "4": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "1": 11,
+          "7": 7,
+          "9": 2,
+          "8": 11,
+          "6": 3,
+          "2": 6,
+          "4": 11,
+          "3": 7,
+          "5": 4
+        },
+        "BEXSERO1R": {
+          "5": 5,
+          "6": 16,
+          "7": 11,
+          "4": 11,
+          "3": 10,
+          "8": 8,
+          "2": 7,
+          "9": 6,
+          "1": 10
+        },
+        "BEXSERO2D": {
+          "2": 6,
+          "6": 12,
+          "3": 12,
+          "5": 9,
+          "7": 2,
+          "1": 15,
+          "4": 7,
+          "9": 2,
+          "8": 4
+        }
+      },
+      "total": 215
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "4": 11,
+          "3": 12,
+          "1": 5,
+          "2": 7,
+          "7": 7,
+          "6": 6,
+          "5": 7,
+          "8": 7,
+          "9": 8
+        }
+      },
+      "total": 70
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "1": 11,
+          "7": 13,
+          "6": 17,
+          "5": 5,
+          "9": 7,
+          "2": 8,
+          "8": 8,
+          "3": 10,
+          "4": 12
+        },
+        "VARICELA2D": {
+          "8": 11,
+          "9": 4,
+          "3": 10,
+          "7": 16,
+          "6": 10,
+          "1": 13,
+          "2": 10,
+          "5": 11,
+          "4": 12
+        }
+      },
+      "total": 188
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "3": 7,
+          "1": 11,
+          "7": 7,
+          "5": 4,
+          "8": 11,
+          "4": 11,
+          "9": 2,
+          "2": 6,
+          "6": 3
+        },
+        "HEXA1R": {
+          "8": 8,
+          "1": 11,
+          "6": 17,
+          "3": 10,
+          "7": 13,
+          "4": 13,
+          "2": 8,
+          "9": 7,
+          "5": 5
+        },
+        "HEXA2D": {
+          "8": 4,
+          "7": 2,
+          "6": 12,
+          "4": 7,
+          "1": 15,
+          "5": 9,
+          "3": 12,
+          "9": 2,
+          "2": 6
+        },
+        "HEXA3D": {
+          "6": 10,
+          "5": 12,
+          "7": 8,
+          "4": 7,
+          "3": 14,
+          "8": 8,
+          "1": 6,
+          "2": 8,
+          "9": 4
+        },
+        "SRP1D": {
+          "2": 7,
+          "3": 12,
+          "9": 8,
+          "5": 7,
+          "6": 6,
+          "7": 7,
+          "1": 5,
+          "4": 11,
+          "8": 7
+        },
+        "SRP2D": {
+          "7": 17,
+          "1": 13,
+          "8": 15,
+          "5": 11,
+          "2": 10,
+          "6": 10,
+          "3": 10,
+          "9": 4,
+          "4": 12
+        }
+      },
+      "total": 472
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "2": 6,
+          "8": 11,
+          "4": 11,
+          "7": 7,
+          "1": 11,
+          "3": 7,
+          "5": 4,
+          "6": 3
+        },
+        "NEUMO1R": {
+          "5": 6,
+          "6": 6,
+          "7": 5,
+          "4": 11,
+          "3": 12,
+          "1": 4,
+          "2": 7,
+          "9": 1,
+          "8": 5
+        },
+        "NEUMO2D": {
+          "6": 12,
+          "3": 12,
+          "7": 2,
+          "4": 7,
+          "5": 9,
+          "2": 6,
+          "9": 1,
+          "8": 4,
+          "1": 15
+        }
+      },
+      "total": 185
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Centro de Salud Familiar Entre Lagos",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "4": 12,
+          "5": 5,
+          "6": 17,
+          "9": 5,
+          "7": 13,
+          "1": 11,
+          "2": 8,
+          "8": 8,
+          "3": 10
+        }
+      },
+      "total": 89
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Posta de Salud Rural Desagüe Rupanco",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA2D": {
+          "6": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Posta de Salud Rural Desagüe Rupanco",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "SRP2D": {
+          "6": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Posta de Salud Rural Puyehue",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Posta de Salud Rural Puyehue",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "dTpa": {
+          "8": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Posta de Salud Rural Puyehue",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA2D": {
+          "2": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Posta de Salud Rural Puyehue",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "SRP2D": {
+          "8": 2,
+          "2": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Posta de Salud Rural Ñadi Pichi-Damas",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Posta de Salud Rural Ñadi Pichi-Damas",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "5": 1,
+          "4": 1,
+          "3": 2
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Puyehue",
+      "establecimiento": "Posta de Salud Rural Ñadi Pichi-Damas",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 4,
+          "9": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro Comunitario de Salud Familiar Riachuelo",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 15
+        }
+      },
+      "total": 15
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro Comunitario de Salud Familiar Riachuelo",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "3": 8,
+          "4": 4,
+          "5": 8,
+          "1": 1
+        }
+      },
+      "total": 21
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro Comunitario de Salud Familiar Riachuelo",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "1": 1,
+          "4": 6,
+          "8": 2,
+          "5": 4,
+          "9": 3
+        }
+      },
+      "total": 16
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro Comunitario de Salud Familiar Riachuelo",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 27
+        }
+      },
+      "total": 27
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro Comunitario de Salud Familiar Riachuelo",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "2": 1,
+          "3": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro Comunitario de Salud Familiar Riachuelo",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": {
+          "5": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro Comunitario de Salud Familiar Riachuelo",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "7": 1,
+          "5": 1,
+          "3": 2
+        },
+        "BEXSERO1R": {
+          "7": 1,
+          "4": 1
+        },
+        "BEXSERO2D": {
+          "5": 2
+        }
+      },
+      "total": 8
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro Comunitario de Salud Familiar Riachuelo",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "6": 1,
+          "1": 1,
+          "5": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro Comunitario de Salud Familiar Riachuelo",
+      "criterio": "Revacunación 66 y más años, crónicos",
+      "datos": {
+        "NEUMO23": {
+          "5": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro Comunitario de Salud Familiar Riachuelo",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "4": 1,
+          "7": 1
+        },
+        "VARICELA2D": {
+          "7": 2,
+          "3": 2,
+          "8": 3,
+          "4": 1
+        }
+      },
+      "total": 10
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro Comunitario de Salud Familiar Riachuelo",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "5": 1,
+          "7": 1,
+          "3": 2
+        },
+        "HEXA1R": {
+          "4": 1,
+          "7": 1
+        },
+        "HEXA2D": {
+          "5": 2
+        },
+        "HEXA3D": {
+          "7": 2,
+          "4": 1
+        },
+        "SRP1D": {
+          "5": 1,
+          "1": 1,
+          "6": 1
+        },
+        "SRP2D": {
+          "7": 3,
+          "8": 2,
+          "4": 1,
+          "3": 2
+        }
+      },
+      "total": 22
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro Comunitario de Salud Familiar Riachuelo",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "7": 1,
+          "3": 2,
+          "5": 1
+        },
+        "NEUMO1R": {
+          "5": 1,
+          "1": 1,
+          "6": 1
+        },
+        "NEUMO2D": {
+          "5": 2
+        }
+      },
+      "total": 9
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro Comunitario de Salud Familiar Riachuelo",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "7": 1,
+          "4": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "9": 8,
+          "7": 3,
+          "8": 3,
+          "4": 1
+        }
+      },
+      "total": 15
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 57,
+          "7": 20,
+          "3": 1,
+          "5": 1
+        }
+      },
+      "total": 79
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "4": 30,
+          "3": 40,
+          "6": 20,
+          "5": 14,
+          "8": 3,
+          "7": 7
+        }
+      },
+      "total": 114
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "6": 9,
+          "5": 6,
+          "7": 1,
+          "3": 5,
+          "4": 3,
+          "8": 1
+        }
+      },
+      "total": 25
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "8° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "8": 2,
+          "9": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 115,
+          "3": 1,
+          "7": 2
+        }
+      },
+      "total": 118
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "Casos especiales",
+      "datos": {
+        "MENINGO": {
+          "7": 1
+        },
+        "NEUMO23": {
+          "6": 1,
+          "4": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "2": 6,
+          "7": 5,
+          "6": 4,
+          "5": 6,
+          "8": 2,
+          "3": 8,
+          "4": 2,
+          "1": 2
+        }
+      },
+      "total": 35
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": {
+          "6": 1,
+          "5": 1,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      "total": 11
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "VPH": {
+          "1": 2,
+          "3": 1
+        },
+        "dTpa": {
+          "6": 1,
+          "8": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "2": 9,
+          "1": 6,
+          "7": 12,
+          "5": 3,
+          "6": 7,
+          "4": 7,
+          "9": 2,
+          "8": 3,
+          "3": 11
+        },
+        "BEXSERO1R": {
+          "8": 5,
+          "5": 9,
+          "6": 4,
+          "3": 12,
+          "9": 4,
+          "7": 4,
+          "1": 12,
+          "2": 13,
+          "4": 12
+        },
+        "BEXSERO2D": {
+          "2": 11,
+          "4": 4,
+          "3": 8,
+          "6": 10,
+          "1": 3,
+          "8": 8,
+          "5": 11,
+          "7": 4,
+          "9": 3
+        }
+      },
+      "total": 197
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "4": 8,
+          "6": 6,
+          "3": 12,
+          "8": 2,
+          "1": 5,
+          "2": 3,
+          "9": 2,
+          "7": 8,
+          "5": 5
+        }
+      },
+      "total": 51
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "3": 13,
+          "9": 4,
+          "6": 4,
+          "1": 11,
+          "5": 10,
+          "7": 4,
+          "8": 5,
+          "4": 12,
+          "2": 14
+        },
+        "VARICELA2D": {
+          "3": 10,
+          "5": 12,
+          "7": 15,
+          "8": 7,
+          "6": 11,
+          "9": 3,
+          "2": 8,
+          "4": 10,
+          "1": 11
+        }
+      },
+      "total": 164
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "6": 7,
+          "2": 9,
+          "5": 3,
+          "9": 2,
+          "1": 6,
+          "7": 11,
+          "3": 11,
+          "4": 7,
+          "8": 4
+        },
+        "HEXA1R": {
+          "4": 13,
+          "6": 4,
+          "8": 6,
+          "1": 12,
+          "9": 4,
+          "5": 9,
+          "3": 13,
+          "7": 2,
+          "2": 13
+        },
+        "HEXA2D": {
+          "5": 11,
+          "7": 4,
+          "2": 11,
+          "4": 4,
+          "1": 3,
+          "8": 8,
+          "3": 8,
+          "6": 10,
+          "9": 2
+        },
+        "HEXA3D": {
+          "7": 8,
+          "3": 9,
+          "1": 6,
+          "4": 7,
+          "6": 8,
+          "5": 4,
+          "8": 9,
+          "9": 2,
+          "2": 3
+        },
+        "SRP1D": {
+          "1": 5,
+          "6": 6,
+          "7": 8,
+          "5": 5,
+          "3": 12,
+          "9": 2,
+          "4": 8,
+          "8": 2,
+          "2": 3
+        },
+        "SRP2D": {
+          "6": 11,
+          "7": 18,
+          "8": 8,
+          "3": 9,
+          "5": 13,
+          "2": 8,
+          "4": 10,
+          "9": 2,
+          "1": 11
+        }
+      },
+      "total": 394
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "5": 3,
+          "7": 12,
+          "1": 6,
+          "2": 9,
+          "4": 7,
+          "3": 11,
+          "8": 3,
+          "6": 7
+        },
+        "NEUMO1R": {
+          "3": 12,
+          "1": 5,
+          "6": 6,
+          "7": 8,
+          "8": 2,
+          "9": 1,
+          "2": 3,
+          "5": 5,
+          "4": 8
+        },
+        "NEUMO2D": {
+          "2": 11,
+          "5": 11,
+          "8": 8,
+          "7": 4,
+          "1": 3,
+          "3": 8,
+          "6": 10,
+          "9": 2,
+          "4": 4
+        }
+      },
+      "total": 169
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "5": 10,
+          "8": 5,
+          "1": 12,
+          "9": 4,
+          "3": 14,
+          "7": 4,
+          "6": 4,
+          "4": 12,
+          "2": 15
+        }
+      },
+      "total": 80
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "PSR Chan Chan Río Negro",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "3": 1,
+          "5": 2
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "PSR Chan Chan Río Negro",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1R": {
+          "6": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "PSR Chan Chan Río Negro",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "6": 1
+        },
+        "VARICELA2D": {
+          "8": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "PSR Chan Chan Río Negro",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1R": {
+          "6": 1
+        },
+        "SRP2D": {
+          "8": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "PSR Chan Chan Río Negro",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "6": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Posta de Salud Rural Huilma",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "6": 3
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Posta de Salud Rural Huilma",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "6": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Posta de Salud Rural Huilma",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "6": 1
+        },
+        "BEXSERO2D": {
+          "1": 1,
+          "8": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Posta de Salud Rural Huilma",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "8": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Posta de Salud Rural Huilma",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "6": 1
+        },
+        "HEXA2D": {
+          "1": 1,
+          "8": 1
+        },
+        "HEXA3D": {
+          "3": 1
+        },
+        "SRP1D": {
+          "8": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Posta de Salud Rural Huilma",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "6": 1
+        },
+        "NEUMO1R": {
+          "8": 1
+        },
+        "NEUMO2D": {
+          "8": 1,
+          "1": 1
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Posta de Salud Rural Tres Esteros",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "5": 2,
+          "4": 2,
+          "3": 3
+        }
+      },
+      "total": 7
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Posta de Salud Rural Tres Esteros",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "3": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Posta de Salud Rural Tres Esteros",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "7": 1,
+          "9": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Posta de Salud Rural Tres Esteros",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1R": {
+          "4": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Posta de Salud Rural Tres Esteros",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "5": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Posta de Salud Rural Tres Esteros",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "6": 1
+        },
+        "VARICELA2D": {
+          "5": 2,
+          "2": 1
+        }
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Posta de Salud Rural Tres Esteros",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1R": {
+          "4": 1
+        },
+        "SRP1D": {
+          "5": 1
+        },
+        "SRP2D": {
+          "5": 2,
+          "2": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Posta de Salud Rural Tres Esteros",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1R": {
+          "5": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "establecimiento": "Posta de Salud Rural Tres Esteros",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "6": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "8": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 15,
+          "7": 1
+        }
+      },
+      "total": 16
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "7": 4,
+          "5": 4,
+          "6": 4,
+          "3": 8,
+          "4": 9,
+          "9": 1,
+          "2": 2,
+          "8": 1
+        }
+      },
+      "total": 33
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "7": 1,
+          "6": 1,
+          "3": 3,
+          "4": 1
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 7
+        }
+      },
+      "total": 7
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "Casos especiales",
+      "datos": {
+        "NEUMO23": {
+          "6": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "7": 4,
+          "3": 1,
+          "5": 1,
+          "4": 1,
+          "1": 1
+        }
+      },
+      "total": 8
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": {
+          "7": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "5": 1,
+          "1": 2,
+          "7": 1,
+          "2": 1,
+          "4": 1
+        },
+        "BEXSERO1R": {
+          "3": 3,
+          "5": 2,
+          "7": 3,
+          "8": 1,
+          "4": 1,
+          "2": 2
+        },
+        "BEXSERO2D": {
+          "4": 1,
+          "1": 2,
+          "6": 1,
+          "7": 1,
+          "8": 1
+        }
+      },
+      "total": 24
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "7": 3,
+          "8": 4,
+          "5": 4,
+          "1": 4,
+          "9": 1,
+          "4": 2,
+          "3": 1
+        }
+      },
+      "total": 19
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "3": 2,
+          "2": 2,
+          "5": 3,
+          "8": 1,
+          "7": 3,
+          "1": 1,
+          "4": 1
+        },
+        "VARICELA2D": {
+          "4": 3,
+          "7": 2,
+          "1": 6,
+          "8": 4,
+          "5": 4
+        }
+      },
+      "total": 32
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "7": 1,
+          "5": 1,
+          "4": 1,
+          "2": 1,
+          "1": 1
+        },
+        "HEXA1R": {
+          "5": 3,
+          "1": 1,
+          "7": 3,
+          "8": 1,
+          "3": 2,
+          "2": 2,
+          "4": 1
+        },
+        "HEXA2D": {
+          "7": 1,
+          "1": 3,
+          "8": 1,
+          "4": 1
+        },
+        "HEXA3D": {
+          "5": 1,
+          "6": 1,
+          "1": 3,
+          "9": 1,
+          "4": 1,
+          "3": 3,
+          "2": 1,
+          "8": 1,
+          "7": 1
+        },
+        "SRP1D": {
+          "8": 4,
+          "1": 4,
+          "5": 4,
+          "7": 2,
+          "9": 1,
+          "6": 1,
+          "3": 1,
+          "4": 2
+        },
+        "SRP2D": {
+          "8": 6,
+          "4": 3,
+          "7": 2,
+          "5": 4,
+          "1": 6
+        }
+      },
+      "total": 77
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "2": 1,
+          "5": 1,
+          "4": 1,
+          "1": 1,
+          "7": 1
+        },
+        "NEUMO1R": {
+          "8": 5,
+          "1": 4,
+          "5": 3,
+          "9": 1,
+          "3": 1,
+          "4": 2,
+          "7": 3
+        },
+        "NEUMO2D": {
+          "1": 3,
+          "4": 1,
+          "8": 1,
+          "7": 1
+        }
+      },
+      "total": 30
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Bahía Mansa",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "7": 3,
+          "3": 3,
+          "4": 1,
+          "2": 2,
+          "5": 2,
+          "8": 1,
+          "1": 1
+        }
+      },
+      "total": 13
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "8": 3
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 16,
+          "9": 1
+        }
+      },
+      "total": 17
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "3": 14,
+          "9": 3,
+          "5": 6,
+          "1": 5,
+          "6": 6,
+          "4": 3,
+          "7": 1
+        }
+      },
+      "total": 38
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "6": 3,
+          "5": 7,
+          "4": 6,
+          "3": 7,
+          "1": 1
+        }
+      },
+      "total": 24
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 46
+        }
+      },
+      "total": 46
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "8º básico dosis pendiente",
+      "datos": {
+        "VPH": {
+          "8": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "Casos especiales",
+      "datos": {
+        "VPH": {
+          "7": 1,
+          "5": 1
+        },
+        "dTpa": {
+          "5": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "7": 2,
+          "8": 4,
+          "9": 2,
+          "2": 1,
+          "5": 1,
+          "6": 1,
+          "3": 1
+        }
+      },
+      "total": 12
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "Ley Ricarte Soto",
+      "datos": {
+        "NEUMO23": {
+          "1": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "dTpa": {
+          "8": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "2": 2,
+          "7": 1,
+          "1": 2,
+          "3": 2,
+          "6": 1,
+          "4": 1
+        },
+        "BEXSERO1R": {
+          "3": 4,
+          "1": 2,
+          "5": 3,
+          "7": 4,
+          "2": 3,
+          "6": 2,
+          "4": 2
+        },
+        "BEXSERO2D": {
+          "3": 3,
+          "8": 1,
+          "6": 1,
+          "5": 2,
+          "4": 3,
+          "1": 1
+        }
+      },
+      "total": 40
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "4": 6,
+          "8": 2,
+          "1": 3,
+          "5": 3,
+          "9": 1,
+          "3": 1,
+          "2": 1
+        }
+      },
+      "total": 17
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "5": 4,
+          "7": 4,
+          "3": 4,
+          "6": 2,
+          "2": 3,
+          "1": 3,
+          "4": 2
+        },
+        "VARICELA2D": {
+          "8": 4,
+          "3": 7,
+          "6": 3,
+          "5": 2,
+          "7": 2,
+          "9": 1,
+          "1": 2,
+          "2": 3,
+          "4": 4
+        }
+      },
+      "total": 50
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "7": 1,
+          "1": 2,
+          "3": 2,
+          "6": 1,
+          "2": 2,
+          "4": 1
+        },
+        "HEXA1R": {
+          "5": 4,
+          "7": 4,
+          "4": 2,
+          "2": 3,
+          "3": 4,
+          "1": 3,
+          "6": 2
+        },
+        "HEXA2D": {
+          "3": 3,
+          "1": 1,
+          "5": 2,
+          "6": 1,
+          "4": 3,
+          "8": 1
+        },
+        "HEXA3D": {
+          "4": 1,
+          "3": 2,
+          "5": 4,
+          "8": 1,
+          "6": 1,
+          "7": 2,
+          "2": 2
+        },
+        "SRP1D": {
+          "8": 2,
+          "5": 3,
+          "1": 3,
+          "9": 1,
+          "7": 1,
+          "3": 1,
+          "4": 6
+        },
+        "SRP2D": {
+          "7": 2,
+          "8": 5,
+          "1": 2,
+          "6": 3,
+          "2": 3,
+          "5": 2,
+          "4": 4,
+          "3": 7
+        }
+      },
+      "total": 100
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "2": 2,
+          "4": 1,
+          "3": 2,
+          "7": 1,
+          "6": 1,
+          "1": 2
+        },
+        "NEUMO1R": {
+          "5": 3,
+          "4": 6,
+          "9": 1,
+          "1": 4,
+          "8": 2,
+          "3": 1,
+          "7": 1
+        },
+        "NEUMO2D": {
+          "3": 3,
+          "1": 1,
+          "6": 1,
+          "4": 3,
+          "8": 1,
+          "5": 2
+        }
+      },
+      "total": 38
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Centro de Salud Familiar Puaucho",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "7": 4,
+          "5": 4,
+          "6": 2,
+          "4": 2,
+          "1": 3,
+          "2": 3,
+          "3": 4
+        }
+      },
+      "total": 22
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 18
+        }
+      },
+      "total": 18
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "2": 1,
+          "6": 7,
+          "5": 11,
+          "7": 2,
+          "4": 13,
+          "9": 1,
+          "3": 4
+        }
+      },
+      "total": 39
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "5": 9,
+          "1": 1,
+          "6": 3,
+          "7": 2,
+          "4": 10,
+          "3": 2,
+          "2": 1,
+          "8": 1
+        }
+      },
+      "total": 29
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 26
+        }
+      },
+      "total": 26
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "criterio": "Casos especiales",
+      "datos": {
+        "MENINGO": {
+          "2": 3
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "6": 2
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": {
+          "5": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "3": 1,
+          "9": 1,
+          "1": 3
+        },
+        "BEXSERO1R": {
+          "7": 2,
+          "1": 2,
+          "2": 1,
+          "5": 1,
+          "4": 3,
+          "6": 1,
+          "3": 1
+        },
+        "BEXSERO2D": {
+          "3": 2,
+          "5": 1
+        }
+      },
+      "total": 19
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "1": 3,
+          "5": 1,
+          "6": 1
+        }
+      },
+      "total": 5
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "5": 1,
+          "7": 2,
+          "1": 2,
+          "2": 1,
+          "4": 2,
+          "6": 1,
+          "3": 1
+        },
+        "VARICELA2D": {
+          "2": 4,
+          "6": 4,
+          "5": 3,
+          "9": 1,
+          "4": 1,
+          "1": 2,
+          "3": 4
+        }
+      },
+      "total": 29
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "1": 3,
+          "9": 1,
+          "3": 1
+        },
+        "HEXA1R": {
+          "4": 2,
+          "7": 2,
+          "1": 2,
+          "6": 1,
+          "2": 1,
+          "5": 1,
+          "3": 1
+        },
+        "HEXA2D": {
+          "3": 2,
+          "5": 1
+        },
+        "HEXA3D": {
+          "5": 1,
+          "6": 1,
+          "7": 1
+        },
+        "SRP1D": {
+          "5": 1,
+          "6": 1,
+          "1": 3
+        },
+        "SRP2D": {
+          "6": 4,
+          "2": 4,
+          "5": 3,
+          "3": 4,
+          "9": 1,
+          "4": 1,
+          "1": 2
+        }
+      },
+      "total": 45
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "3": 1,
+          "1": 3
+        },
+        "NEUMO1R": {
+          "6": 1,
+          "1": 3,
+          "5": 1
+        },
+        "NEUMO2D": {
+          "5": 1,
+          "3": 2
+        }
+      },
+      "total": 12
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "establecimiento": "Hospital Futa Sruka Lawenche Kunko Mapu Mo",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "7": 2,
+          "6": 1,
+          "2": 1,
+          "1": 2,
+          "5": 1,
+          "3": 1,
+          "4": 2
+        }
+      },
+      "total": 10
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "6": 1,
+          "8": 7
+        }
+      },
+      "total": 8
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 58
+        }
+      },
+      "total": 58
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "3": 23,
+          "4": 19,
+          "6": 8,
+          "1": 1,
+          "5": 6,
+          "7": 2,
+          "9": 3,
+          "2": 2,
+          "8": 1
+        }
+      },
+      "total": 65
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "3": 9,
+          "6": 5,
+          "5": 10,
+          "7": 6,
+          "8": 3,
+          "2": 2,
+          "4": 9,
+          "1": 2,
+          "9": 2
+        }
+      },
+      "total": 48
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "8° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "9": 1,
+          "8": 5
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 75
+        }
+      },
+      "total": 75
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "8º básico dosis pendiente",
+      "datos": {
+        "VPH": {
+          "7": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "Casos especiales",
+      "datos": {
+        "VPH": {
+          "6": 1,
+          "2": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "2": 2,
+          "5": 3,
+          "1": 3,
+          "3": 3,
+          "9": 4,
+          "7": 3,
+          "8": 2,
+          "4": 2,
+          "6": 2
+        }
+      },
+      "total": 24
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": {
+          "7": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "SRP1D": {
+          "1": 2
+        },
+        "VPH": {
+          "8": 1
+        },
+        "dTpa": {
+          "8": 2,
+          "7": 1,
+          "1": 1
+        }
+      },
+      "total": 7
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "4": 4,
+          "6": 4,
+          "1": 10,
+          "2": 8,
+          "7": 2,
+          "8": 3,
+          "5": 7,
+          "9": 2,
+          "3": 6
+        },
+        "BEXSERO1R": {
+          "3": 6,
+          "6": 7,
+          "5": 3,
+          "8": 1,
+          "1": 7,
+          "9": 3,
+          "7": 7,
+          "4": 5,
+          "2": 7
+        },
+        "BEXSERO2D": {
+          "3": 8,
+          "7": 7,
+          "9": 4,
+          "4": 7,
+          "1": 10,
+          "2": 3,
+          "6": 4,
+          "5": 5,
+          "8": 3
+        }
+      },
+      "total": 143
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "3": 5,
+          "5": 4,
+          "4": 7,
+          "1": 12,
+          "2": 6,
+          "7": 4,
+          "8": 3,
+          "9": 3,
+          "6": 2
+        }
+      },
+      "total": 46
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "Revacunación 66 y más años, crónicos",
+      "datos": {
+        "NEUMO23": {
+          "4": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "7": 7,
+          "6": 9,
+          "1": 7,
+          "5": 3,
+          "4": 6,
+          "2": 8,
+          "3": 7,
+          "9": 4,
+          "8": 2
+        },
+        "VARICELA2D": {
+          "6": 8,
+          "2": 6,
+          "5": 7,
+          "7": 10,
+          "3": 13,
+          "1": 7,
+          "9": 3,
+          "4": 7,
+          "8": 4
+        }
+      },
+      "total": 118
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "3": 6,
+          "1": 10,
+          "7": 2,
+          "2": 8,
+          "5": 7,
+          "9": 2,
+          "4": 4,
+          "8": 3,
+          "6": 4
+        },
+        "HEXA1R": {
+          "6": 7,
+          "7": 7,
+          "4": 6,
+          "1": 7,
+          "2": 8,
+          "3": 6,
+          "9": 4,
+          "8": 2,
+          "5": 4
+        },
+        "HEXA2D": {
+          "3": 8,
+          "4": 7,
+          "9": 4,
+          "8": 3,
+          "1": 10,
+          "5": 5,
+          "6": 4,
+          "7": 7,
+          "2": 3
+        },
+        "HEXA3D": {
+          "6": 8,
+          "8": 5,
+          "9": 2,
+          "5": 4,
+          "3": 10,
+          "4": 7,
+          "2": 8,
+          "1": 3,
+          "7": 5
+        },
+        "SRP1D": {
+          "5": 4,
+          "1": 10,
+          "3": 5,
+          "7": 4,
+          "6": 2,
+          "2": 6,
+          "9": 3,
+          "8": 3,
+          "4": 7
+        },
+        "SRP2D": {
+          "3": 13,
+          "9": 2,
+          "7": 10,
+          "8": 6,
+          "6": 9,
+          "1": 7,
+          "5": 7,
+          "2": 6,
+          "4": 7
+        }
+      },
+      "total": 311
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "1": 10,
+          "2": 8,
+          "5": 7,
+          "7": 2,
+          "4": 4,
+          "6": 4,
+          "3": 6,
+          "8": 3
+        },
+        "NEUMO1R": {
+          "9": 3,
+          "2": 6,
+          "1": 10,
+          "7": 4,
+          "6": 2,
+          "8": 3,
+          "5": 4,
+          "4": 7,
+          "3": 5
+        },
+        "NEUMO2D": {
+          "2": 3,
+          "5": 5,
+          "3": 8,
+          "4": 7,
+          "9": 3,
+          "1": 10,
+          "7": 7,
+          "6": 4,
+          "8": 3
+        }
+      },
+      "total": 138
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Centro de Salud Familiar San Pablo",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "2": 8,
+          "7": 7,
+          "9": 4,
+          "1": 7,
+          "6": 8,
+          "8": 2,
+          "4": 6,
+          "5": 3,
+          "3": 6
+        }
+      },
+      "total": 51
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "7": 1,
+          "8": 1
+        }
+      },
+      "total": 2
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 25
+        }
+      },
+      "total": 25
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": {
+          "5": 4,
+          "4": 8,
+          "6": 1,
+          "9": 1,
+          "1": 1,
+          "3": 6
+        }
+      },
+      "total": 21
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": {
+          "5": 8,
+          "6": 1,
+          "7": 2,
+          "4": 6
+        }
+      },
+      "total": 17
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "8° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": {
+          "8": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": {
+          "8": 25,
+          "9": 3
+        }
+      },
+      "total": 28
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": {
+          "1": 1,
+          "2": 1,
+          "6": 1,
+          "3": 2,
+          "7": 1
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "Embarazadas de 37 y más  semanas",
+      "datos": {
+        "dTpa": {
+          "2": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "dTpa": {
+          "5": 1
+        }
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": {
+          "2": 1,
+          "7": 1,
+          "8": 1
+        },
+        "BEXSERO1R": {
+          "6": 1,
+          "7": 1,
+          "9": 1,
+          "4": 2
+        },
+        "BEXSERO2D": {
+          "4": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      "total": 11
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": {
+          "6": 2,
+          "8": 1,
+          "3": 2,
+          "4": 1
+        }
+      },
+      "total": 6
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "Revacunación 66 y más años, crónicos",
+      "datos": {
+        "NEUMO23": {
+          "4": 3
+        }
+      },
+      "total": 3
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": {
+          "4": 2,
+          "9": 1,
+          "6": 1,
+          "7": 1
+        },
+        "VARICELA2D": {
+          "2": 2,
+          "6": 1,
+          "3": 4,
+          "5": 1,
+          "4": 1,
+          "7": 1,
+          "9": 1
+        }
+      },
+      "total": 16
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": {
+          "2": 1,
+          "7": 1
+        },
+        "HEXA1R": {
+          "7": 1,
+          "6": 1,
+          "9": 1,
+          "4": 2
+        },
+        "HEXA2D": {
+          "8": 2,
+          "3": 1,
+          "4": 1,
+          "2": 1
+        },
+        "HEXA3D": {
+          "6": 1,
+          "4": 1,
+          "1": 1,
+          "3": 1
+        },
+        "SRP1D": {
+          "6": 2,
+          "3": 2,
+          "8": 1,
+          "1": 1,
+          "4": 1
+        },
+        "SRP2D": {
+          "2": 2,
+          "4": 1,
+          "5": 1,
+          "7": 1,
+          "3": 4,
+          "6": 1,
+          "9": 1
+        }
+      },
+      "total": 34
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": {
+          "2": 1,
+          "8": 1,
+          "7": 1
+        },
+        "NEUMO1R": {
+          "3": 2,
+          "4": 1,
+          "1": 1,
+          "6": 2
+        },
+        "NEUMO2D": {
+          "4": 1,
+          "3": 1,
+          "8": 1,
+          "2": 1
+        }
+      },
+      "total": 13
+    },
+    {
+      "comuna": "San Pablo",
+      "establecimiento": "Hospital Pu Mulen Quilacahuín",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": {
+          "4": 2,
+          "9": 1,
+          "7": 1,
+          "6": 1
+        }
+      },
+      "total": 5
+    }
+  ],
+  "data_residencia": [
+    {
+      "comuna": "Ancud",
+      "criterio": "Casos especiales",
+      "datos": {
+        "BEXSERO2D": 3,
+        "NEUMO23": 3,
+        "VPH": 1
+      },
+      "total": 7
+    },
+    {
+      "comuna": "Ancud",
+      "criterio": "Sin Criterio Especificado",
+      "datos": {
+        "BCG": 1,
+        "HepB": 1
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Castro",
+      "criterio": "Casos especiales",
+      "datos": {
+        "BEXSERO1D": 1,
+        "dTpa": 1
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Chaitén",
+      "criterio": "Casos especiales",
+      "datos": {
+        "BEXSERO1D": 1,
+        "BEXSERO2D": 1,
+        "NEUMO23": 1,
+        "dTpa": 1
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Frutillar",
+      "criterio": "Casos especiales",
+      "datos": {
+        "BEXSERO2D": 1,
+        "NEUMO23": 1,
+        "dTpa": 1
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Frutillar",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1R": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Frutillar",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Frutillar",
+      "criterio": "Sin Criterio Especificado",
+      "datos": {
+        "BCG": 8,
+        "HepB": 6
+      },
+      "total": 14
+    },
+    {
+      "comuna": "Frutillar",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Frutillar",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1R": 1,
+        "SRP1D": 1
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Frutillar",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1R": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Frutillar",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Llanquihue",
+      "criterio": "Sin Criterio Especificado",
+      "datos": {
+        "BCG": 1,
+        "HepB": 1
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": 52
+      },
+      "total": 52
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": 1390
+      },
+      "total": 1390
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": 1098
+      },
+      "total": 1098
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": 576
+      },
+      "total": 576
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "7º  básico dosis pendiente",
+      "datos": {
+        "VPH": 4
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "7º básico dosis pendiente",
+      "datos": {
+        "VPH": 2
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "8° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": 24
+      },
+      "total": 24
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": 2015
+      },
+      "total": 2015
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "8º básico dosis pendiente",
+      "datos": {
+        "VPH": 5
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Casos especiales",
+      "datos": {
+        "BEXSERO1D": 135,
+        "BEXSERO1R": 1,
+        "BEXSERO2D": 115,
+        "HEXA1R": 1,
+        "MENINGO": 107,
+        "NEUMO1D": 5,
+        "NEUMO23": 235,
+        "NEUMO2D": 3,
+        "SRP2D": 3,
+        "VARICELA1D": 3,
+        "VARICELA2D": 3,
+        "VPH": 146,
+        "dTpa": 283
+      },
+      "total": 1040
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": 614
+      },
+      "total": 614
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": 108
+      },
+      "total": 108
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Embarazadas de 37 y más  semanas",
+      "datos": {
+        "dTpa": 8
+      },
+      "total": 8
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Ley Ricarte Soto",
+      "datos": {
+        "NEUMO23": 17
+      },
+      "total": 17
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "SRP1D": 3,
+        "SRP2D": 6,
+        "VPH": 56,
+        "dTpa": 72
+      },
+      "total": 137
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "P18",
+      "datos": {
+        "VPH": 10
+      },
+      "total": 10
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "PrEP",
+      "datos": {
+        "VPH": 12
+      },
+      "total": 12
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Profiláctico tetánico",
+      "datos": {
+        "dTpa": 2
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": 642,
+        "BEXSERO1R": 659,
+        "BEXSERO2D": 628
+      },
+      "total": 1929
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": 701
+      },
+      "total": 701
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Puérperas <= 10 días post parto",
+      "datos": {
+        "dTpa": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Revacunación 66 y más años, crónicos",
+      "datos": {
+        "NEUMO23": 19
+      },
+      "total": 19
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Sin Criterio Especificado",
+      "datos": {
+        "BCG": 713,
+        "HepB": 729
+      },
+      "total": 1442
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "VVS por decreto",
+      "datos": {
+        "VPH": 17
+      },
+      "total": 17
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": 708,
+        "VARICELA2D": 903
+      },
+      "total": 1611
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "BCG": 19,
+        "HEXA1D": 639,
+        "HEXA1R": 702,
+        "HEXA2D": 624,
+        "HEXA3D": 640,
+        "SRP1D": 714,
+        "SRP2D": 1000
+      },
+      "total": 4338
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Vacunación Programática (puesta al día)",
+      "datos": {
+        "dTpa": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": 588,
+        "NEUMO1R": 649,
+        "NEUMO2D": 583
+      },
+      "total": 1820
+    },
+    {
+      "comuna": "Osorno",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": 705
+      },
+      "total": 705
+    },
+    {
+      "comuna": "Puerto Montt",
+      "criterio": "Casos especiales",
+      "datos": {
+        "BEXSERO1D": 1,
+        "BEXSERO2D": 2,
+        "NEUMO23": 1,
+        "dTpa": 3
+      },
+      "total": 7
+    },
+    {
+      "comuna": "Puerto Montt",
+      "criterio": "Sin Criterio Especificado",
+      "datos": {
+        "BCG": 2,
+        "HepB": 2
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Puerto Montt",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA3D": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": 2
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": 84
+      },
+      "total": 84
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": 125
+      },
+      "total": 125
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": 113
+      },
+      "total": 113
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": 111
+      },
+      "total": 111
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Casos especiales",
+      "datos": {
+        "BEXSERO1D": 3,
+        "BEXSERO2D": 1,
+        "NEUMO23": 7,
+        "NEUMO2D": 1,
+        "dTpa": 3
+      },
+      "total": 15
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": 31
+      },
+      "total": 31
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": 8
+      },
+      "total": 8
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "SRP2D": 1,
+        "VPH": 13,
+        "dTpa": 13
+      },
+      "total": 27
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "P18",
+      "datos": {
+        "VPH": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Profiláctico tetánico",
+      "datos": {
+        "dTpa": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": 41,
+        "BEXSERO1R": 55,
+        "BEXSERO2D": 40
+      },
+      "total": 136
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": 39
+      },
+      "total": 39
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Revacunación 66 y más años, crónicos",
+      "datos": {
+        "NEUMO23": 4
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Sin Criterio Especificado",
+      "datos": {
+        "BCG": 25,
+        "HepB": 26
+      },
+      "total": 51
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": 60,
+        "VARICELA2D": 70
+      },
+      "total": 130
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": 39,
+        "HEXA1R": 57,
+        "HEXA2D": 36,
+        "HEXA3D": 40,
+        "SRP1D": 41,
+        "SRP2D": 79
+      },
+      "total": 292
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Vacunación Programática (puesta al día)",
+      "datos": {
+        "dTpa": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": 36,
+        "NEUMO1R": 38,
+        "NEUMO2D": 38
+      },
+      "total": 112
+    },
+    {
+      "comuna": "Puerto Octay",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": 60
+      },
+      "total": 60
+    },
+    {
+      "comuna": "Puerto Varas",
+      "criterio": "Casos especiales",
+      "datos": {
+        "BEXSERO2D": 1,
+        "NEUMO23": 1
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": 23
+      },
+      "total": 23
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": 173
+      },
+      "total": 173
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": 175
+      },
+      "total": 175
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": 102
+      },
+      "total": 102
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "7º básico dosis pendiente",
+      "datos": {
+        "VPH": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "8° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": 8
+      },
+      "total": 8
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": 247
+      },
+      "total": 247
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "8º básico dosis pendiente",
+      "datos": {
+        "VPH": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Casos especiales",
+      "datos": {
+        "BEXSERO1D": 4,
+        "BEXSERO2D": 5,
+        "MENINGO": 1,
+        "NEUMO23": 9,
+        "NEUMO2D": 1,
+        "VPH": 3,
+        "dTpa": 9
+      },
+      "total": 32
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": 100
+      },
+      "total": 100
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": 15
+      },
+      "total": 15
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Embarazadas de 37 y más  semanas",
+      "datos": {
+        "dTpa": 2
+      },
+      "total": 2
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "VPH": 10,
+        "dTpa": 15
+      },
+      "total": 25
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": 92,
+        "BEXSERO1R": 117,
+        "BEXSERO2D": 86
+      },
+      "total": 295
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": 113
+      },
+      "total": 113
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Revacunación 66 y más años, crónicos",
+      "datos": {
+        "NEUMO23": 4
+      },
+      "total": 4
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Sin Criterio Especificado",
+      "datos": {
+        "BCG": 61,
+        "HepB": 65
+      },
+      "total": 126
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": 131,
+        "VARICELA2D": 136
+      },
+      "total": 267
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "BCG": 1,
+        "HEXA1D": 92,
+        "HEXA1R": 130,
+        "HEXA2D": 87,
+        "HEXA3D": 86,
+        "SRP1D": 114,
+        "SRP2D": 160
+      },
+      "total": 670
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": 87,
+        "NEUMO1R": 111,
+        "NEUMO2D": 86
+      },
+      "total": 284
+    },
+    {
+      "comuna": "Purranque",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": 132
+      },
+      "total": 132
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": 89
+      },
+      "total": 89
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": 108
+      },
+      "total": 108
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": 66
+      },
+      "total": 66
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "8° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": 157
+      },
+      "total": 157
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "Casos especiales",
+      "datos": {
+        "BEXSERO1D": 2,
+        "NEUMO1D": 2,
+        "NEUMO23": 4,
+        "NEUMO2D": 1,
+        "VPH": 7,
+        "dTpa": 6
+      },
+      "total": 22
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": 58
+      },
+      "total": 58
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": 11
+      },
+      "total": 11
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "dTpa": 6
+      },
+      "total": 6
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": 62,
+        "BEXSERO1R": 90,
+        "BEXSERO2D": 69
+      },
+      "total": 221
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": 73
+      },
+      "total": 73
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "Sin Criterio Especificado",
+      "datos": {
+        "BCG": 44,
+        "HepB": 42
+      },
+      "total": 86
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": 97,
+        "VARICELA2D": 100
+      },
+      "total": 197
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "BCG": 1,
+        "HEXA1D": 62,
+        "HEXA1R": 98,
+        "HEXA2D": 69,
+        "HEXA3D": 76,
+        "SRP1D": 73,
+        "SRP2D": 106
+      },
+      "total": 485
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": 60,
+        "NEUMO1R": 60,
+        "NEUMO2D": 66
+      },
+      "total": 186
+    },
+    {
+      "comuna": "Puyehue",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": 95
+      },
+      "total": 95
+    },
+    {
+      "comuna": "Quellón",
+      "criterio": "Sin Criterio Especificado",
+      "datos": {
+        "BCG": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": 15
+      },
+      "total": 15
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": 93
+      },
+      "total": 93
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": 147
+      },
+      "total": 147
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": 42
+      },
+      "total": 42
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "8° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": 3
+      },
+      "total": 3
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": 145
+      },
+      "total": 145
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "Casos especiales",
+      "datos": {
+        "BEXSERO1D": 6,
+        "BEXSERO2D": 3,
+        "MENINGO": 1,
+        "NEUMO23": 10,
+        "VPH": 4,
+        "dTpa": 11
+      },
+      "total": 35
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": 41
+      },
+      "total": 41
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": 13
+      },
+      "total": 13
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "Ley Ricarte Soto",
+      "datos": {
+        "NEUMO23": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "VPH": 3,
+        "dTpa": 2
+      },
+      "total": 5
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": 65,
+        "BEXSERO1R": 78,
+        "BEXSERO2D": 65
+      },
+      "total": 208
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": 56
+      },
+      "total": 56
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "Revacunación 66 y más años, crónicos",
+      "datos": {
+        "NEUMO23": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "Sin Criterio Especificado",
+      "datos": {
+        "BCG": 51,
+        "HepB": 52
+      },
+      "total": 103
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": 80,
+        "VARICELA2D": 98
+      },
+      "total": 178
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": 65,
+        "HEXA1R": 79,
+        "HEXA2D": 64,
+        "HEXA3D": 60,
+        "SRP1D": 56,
+        "SRP2D": 101
+      },
+      "total": 425
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": 63,
+        "NEUMO1R": 55,
+        "NEUMO2D": 64
+      },
+      "total": 182
+    },
+    {
+      "comuna": "Río Negro",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": 83
+      },
+      "total": 83
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": 4
+      },
+      "total": 4
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": 51
+      },
+      "total": 51
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": 110
+      },
+      "total": 110
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": 58
+      },
+      "total": 58
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": 79
+      },
+      "total": 79
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "8º básico dosis pendiente",
+      "datos": {
+        "VPH": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "Casos especiales",
+      "datos": {
+        "MENINGO": 3,
+        "NEUMO23": 7,
+        "VPH": 5,
+        "dTpa": 7
+      },
+      "total": 22
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": 21
+      },
+      "total": 21
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": 2
+      },
+      "total": 2
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "Ley Ricarte Soto",
+      "datos": {
+        "NEUMO23": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "dTpa": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": 20,
+        "BEXSERO1R": 44,
+        "BEXSERO2D": 20
+      },
+      "total": 84
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": 41
+      },
+      "total": 41
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "Sin Criterio Especificado",
+      "datos": {
+        "BCG": 9,
+        "HepB": 13
+      },
+      "total": 22
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": 46,
+        "VARICELA2D": 64
+      },
+      "total": 110
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "BCG": 1,
+        "HEXA1D": 19,
+        "HEXA1R": 46,
+        "HEXA2D": 20,
+        "HEXA3D": 29,
+        "SRP1D": 41,
+        "SRP2D": 66
+      },
+      "total": 222
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": 18,
+        "NEUMO1R": 42,
+        "NEUMO2D": 20
+      },
+      "total": 80
+    },
+    {
+      "comuna": "San Juan De La Costa",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": 46
+      },
+      "total": 46
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "1° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": 10
+      },
+      "total": 10
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "1° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": 83
+      },
+      "total": 83
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "65 años",
+      "datos": {
+        "NEUMO23": 83
+      },
+      "total": 83
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "66 años y más, sin vacuna previa",
+      "datos": {
+        "NEUMO23": 64
+      },
+      "total": 64
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "8° básico (Est. De Salud)",
+      "datos": {
+        "dTpa": 7
+      },
+      "total": 7
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "8° básico (Est. Educacional)",
+      "datos": {
+        "dTpa": 103
+      },
+      "total": 103
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "8º básico dosis pendiente",
+      "datos": {
+        "VPH": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "Casos especiales",
+      "datos": {
+        "BEXSERO1D": 4,
+        "BEXSERO2D": 3,
+        "NEUMO1D": 1,
+        "NEUMO23": 5,
+        "VPH": 4,
+        "dTpa": 10
+      },
+      "total": 27
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "Embarazadas de 28 a 31 semanas",
+      "datos": {
+        "dTpa": 29
+      },
+      "total": 29
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "Embarazadas de 32 a 36 semanas",
+      "datos": {
+        "dTpa": 3
+      },
+      "total": 3
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "Embarazadas de 37 y más  semanas",
+      "datos": {
+        "dTpa": 1
+      },
+      "total": 1
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "Otros cursos dosis pendientes",
+      "datos": {
+        "SRP1D": 2,
+        "VPH": 1,
+        "dTpa": 5
+      },
+      "total": 8
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "Programatica",
+      "datos": {
+        "BEXSERO1D": 48,
+        "BEXSERO1R": 51,
+        "BEXSERO2D": 54
+      },
+      "total": 153
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "Programática",
+      "datos": {
+        "MENINGO": 52
+      },
+      "total": 52
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "Revacunación 66 y más años, crónicos",
+      "datos": {
+        "NEUMO23": 4
+      },
+      "total": 4
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "Sin Criterio Especificado",
+      "datos": {
+        "BCG": 23,
+        "HepB": 28
+      },
+      "total": 51
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "Vacuna programática",
+      "datos": {
+        "VARICELA1D": 58,
+        "VARICELA2D": 75
+      },
+      "total": 133
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "Vacunación Programática",
+      "datos": {
+        "HEXA1D": 47,
+        "HEXA1R": 56,
+        "HEXA2D": 56,
+        "HEXA3D": 56,
+        "SRP1D": 51,
+        "SRP2D": 77
+      },
+      "total": 343
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "Vacunación programática",
+      "datos": {
+        "NEUMO1D": 46,
+        "NEUMO1R": 50,
+        "NEUMO2D": 54
+      },
+      "total": 150
+    },
+    {
+      "comuna": "San Pablo",
+      "criterio": "Vacunación programática (18 meses)",
+      "datos": {
+        "HepA": 56
+      },
+      "total": 56
+    }
+  ],
+  "metas": {
+    "Osorno": {
+      "Criterios": {
+        "BCG": 712,
+        "HepB": 712,
+        "HEXA1D": 688,
+        "HEXA2D": 735,
+        "HEXA3D": 737,
+        "HEXA1R": 756,
+        "SRP1D": 728,
+        "SRP2D": 882,
+        "MENINGO": 728,
+        "BEXSERO1D": 688,
+        "BEXSERO2D": 735,
+        "BEXSERO1R": 756,
+        "HepA": 756,
+        "NEUMO1D": 688,
+        "NEUMO2D": 735,
+        "NEUMO1R": 728,
+        "VARICELA1D": 756,
+        "VARICELA2D": 882,
+        "dTpa": 3127,
+        "VPH": 5908,
+        "NEUMO23": 4496
+      }
+    },
+    "Puerto Octay": {
+      "Criterios": {
+        "BCG": 23,
+        "HepB": 23,
+        "HEXA1D": 30,
+        "HEXA2D": 30,
+        "HEXA3D": 35,
+        "HEXA1R": 33,
+        "SRP1D": 23,
+        "SRP2D": 35,
+        "MENINGO": 23,
+        "BEXSERO1D": 30,
+        "BEXSERO2D": 30,
+        "BEXSERO1R": 33,
+        "HepA": 33,
+        "NEUMO1D": 30,
+        "NEUMO2D": 30,
+        "NEUMO1R": 23,
+        "VARICELA1D": 33,
+        "VARICELA2D": 35,
+        "dTpa": 145,
+        "VPH": 280,
+        "NEUMO23": 259
+      }
+    },
+    "Purranque": {
+      "Criterios": {
+        "BCG": 70,
+        "HepB": 70,
+        "HEXA1D": 89,
+        "HEXA2D": 75,
+        "HEXA3D": 63,
+        "HEXA1R": 82,
+        "SRP1D": 84,
+        "SRP2D": 84,
+        "MENINGO": 84,
+        "BEXSERO1D": 89,
+        "BEXSERO2D": 75,
+        "BEXSERO1R": 82,
+        "HepA": 82,
+        "NEUMO1D": 89,
+        "NEUMO2D": 75,
+        "NEUMO1R": 84,
+        "VARICELA1D": 82,
+        "VARICELA2D": 84,
+        "dTpa": 343,
+        "VPH": 721,
+        "NEUMO23": 637
+      }
+    },
+    "Puyehue": {
+      "Criterios": {
+        "BCG": 49,
+        "HepB": 49,
+        "HEXA1D": 42,
+        "HEXA2D": 51,
+        "HEXA3D": 33,
+        "HEXA1R": 37,
+        "SRP1D": 65,
+        "SRP2D": 89,
+        "MENINGO": 65,
+        "BEXSERO1D": 42,
+        "BEXSERO2D": 51,
+        "BEXSERO1R": 37,
+        "HepA": 37,
+        "NEUMO1D": 42,
+        "NEUMO2D": 51,
+        "NEUMO1R": 65,
+        "VARICELA1D": 37,
+        "VARICELA2D": 89,
+        "dTpa": 252,
+        "VPH": 371,
+        "NEUMO23": 350
+      }
+    },
+    "Río Negro": {
+      "Criterios": {
+        "BCG": 63,
+        "HepB": 63,
+        "HEXA1D": 63,
+        "HEXA2D": 47,
+        "HEXA3D": 37,
+        "HEXA1R": 84,
+        "SRP1D": 56,
+        "SRP2D": 65,
+        "MENINGO": 56,
+        "BEXSERO1D": 63,
+        "BEXSERO2D": 47,
+        "BEXSERO1R": 84,
+        "HepA": 84,
+        "NEUMO1D": 63,
+        "NEUMO2D": 47,
+        "NEUMO1R": 56,
+        "VARICELA1D": 84,
+        "VARICELA2D": 65,
+        "dTpa": 261,
+        "VPH": 399,
+        "NEUMO23": 443
+      }
+    },
+    "San Juan de la Costa": {
+      "Criterios": {
+        "BCG": 12,
+        "HepB": 12,
+        "HEXA1D": 28,
+        "HEXA2D": 26,
+        "HEXA3D": 9,
+        "HEXA1R": 37,
+        "SRP1D": 19,
+        "SRP2D": 26,
+        "MENINGO": 19,
+        "BEXSERO1D": 28,
+        "BEXSERO2D": 26,
+        "BEXSERO1R": 37,
+        "HepA": 37,
+        "NEUMO1D": 28,
+        "NEUMO2D": 26,
+        "NEUMO1R": 19,
+        "VARICELA1D": 37,
+        "VARICELA2D": 26,
+        "dTpa": 103,
+        "VPH": 273,
+        "NEUMO23": 247
+      }
+    },
+    "San Pablo": {
+      "Criterios": {
+        "BCG": 33,
+        "HepB": 33,
+        "HEXA1D": 49,
+        "HEXA2D": 42,
+        "HEXA3D": 33,
+        "HEXA1R": 37,
+        "SRP1D": 40,
+        "SRP2D": 49,
+        "MENINGO": 40,
+        "BEXSERO1D": 49,
+        "BEXSERO2D": 42,
+        "BEXSERO1R": 37,
+        "HepA": 37,
+        "NEUMO1D": 49,
+        "NEUMO2D": 42,
+        "NEUMO1R": 40,
+        "VARICELA1D": 37,
+        "VARICELA2D": 49,
+        "dTpa": 173,
+        "VPH": 308,
+        "NEUMO23": 357
+      }
+    }
+  }
+};

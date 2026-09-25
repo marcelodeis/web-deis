@@ -1,0 +1,281 @@
+﻿
+>                 <!-- BLOQUE 3: ESQUEMA PRIMARIO -->
+                  
+                    <section id="bloque-primario" style="background: #f8fafc; border-radius: 12px; padding: 30px; 
+margin-bottom: 40px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border-top: 4px solid #f59e0b; position: relative;">
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 
+25px; border-bottom: 2px solid #e2e8f0; padding-bottom: 15px;">
+                            <div style="display: flex; align-items: center; gap: 15px;">
+                                <div style="background: #fffbeb; color: #f59e0b; width: 48px; height: 48px; 
+border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
+                                    <i class="fas fa-shield-virus"></i>
+                                </div>
+                                <div>
+                                    <h3 style="margin: 0; color: #0f172a; font-size: 1.4rem;">Seguimiento del Esquema 
+Primario</h3>
+                                    <p style="margin: 4px 0 0 0; color: #475569; font-size: 0.95rem;">Identificacin de 
+menores sin registro de dosis correspondientes al esquema infantil.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Controles de Rescate -->
+                        <div style="background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px 
+20px; margin-bottom: 25px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 
+15px;">
+                            <div style="display: flex; align-items: center; gap: 15px;">
+                                <span style="font-weight: 600; color: #1e293b;"><i class="fas fa-filter" style="color: 
+#3b82f6;"></i> Filtro Territorial SSO:</span>
+                                <div class="territory-toggle" style="background: #f1f5f9; padding: 4px; border-radius: 
+8px; display: flex;">
+                                    <button id="btn-residencia" class="territory-btn active" 
+onclick="setTerritoryFilter('residencia')" style="padding: 6px 16px; border: none; background: white; border-radius: 
+6px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); font-weight: 600; color: #0f172a; cursor: pointer; transition: all 
+0.2s;">Residencia SSO</button>
+                                    <button id="btn-ocurrencia" class="territory-btn" 
+onclick="setTerritoryFilter('ocurrencia')" style="padding: 6px 16px; border: none; background: transparent; 
+font-weight: 600; color: #64748b; cursor: pointer; transition: all 0.2s;">Ocurrencia SSO</button>
+                                </div>
+                            </div>
+                            
+                            <div style="font-size: 0.85rem; color: #64748b; display: flex; gap: 15px;">
+                                <span id="header-fuente"><i class="fas fa-server"></i> Fuente: Servidor 
+DEIS-MINSAL</span>
+                                <span id="header-base"><i class="fas fa-database"></i> Base Procesada: 
+Cargando...</span>
+                                <span id="header-corte"><i class="fas fa-calendar-check"></i> Datos vlidos hasta: 
+Cargando...</span>
+                            </div>
+                        </div>
+  
+                        <div class="reportes-grid" style="display: grid; grid-template-columns: repeat(auto-fit, 
+minmax(300px, 1fr)); gap: 20px;">
+                            
+          <div class="reporte-card premium-card" id="card-hexa2" style="border: 1px solid #e2e8f0; border-radius: 
+12px; overflow: hidden; display: flex; flex-direction: column; background: white; box-shadow: 0 4px 6px -1px 
+rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s;">
+              <div style="background: #f8fafc; padding: 15px 20px; border-bottom: 1px solid #e2e8f0; display: flex; 
+justify-content: space-between; align-items: center;">
+                  <h4 style="margin: 0; color: #1e293b; font-size: 1.1rem; font-weight: 700; display: flex; 
+align-items: center; gap: 8px;">
+                      <i class="fas fa-shield-virus" style="color: #f59e0b;"></i> HEXAVALENTE - 2. DOSIS
+                  </h4>
+              </div>
+              
+              <div style="padding: 25px 20px; text-align: center; flex-grow: 1; display: flex; flex-direction: column; 
+justify-content: center; background: linear-gradient(to bottom, #ffffff, #f8fafc);">
+                  <div style="color: #64748b; font-size: 0.9rem; font-weight: 600; text-transform: uppercase; 
+letter-spacing: 1px; margin-bottom: 5px;">RESCATE ACTIVO</div>
+                  <div class="rescate-value" id="val-hexa2-rescate" style="color: #ef4444; font-weight: 900; 
+font-size: 3.5rem; line-height: 1; margin-bottom: 10px; text-shadow: 0 2px 4px rgba(239,68,68,0.1);">
+                      <i class="fas fa-spinner fa-spin" style="font-size: 2rem;"></i>
+                  </div>
+                  
+                  <div style="margin-top: 15px; border-top: 1px dashed #cbd5e1; padding-top: 15px;">
+                      <button class="btn-detalles" onclick="toggleDetalles('hexa2')" style="background: transparent; 
+border: 1px solid #cbd5e1; border-radius: 6px; padding: 6px 12px; color: #475569; font-size: 0.85rem; font-weight: 
+600; cursor: pointer; transition: all 0.2s;">
+                          <i class="fas fa-chevron-down"></i> Ver Contexto
+                      </button>
+                  </div>
+                  
+                  <div id="detalles-hexa2" class="detalles-container" style="display: none; margin-top: 15px; 
+text-align: left; background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; font-size: 
+0.85rem;">
+                      <div style="display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px 
+solid #f1f5f9;">
+                          <span style="color: #64748b;">Universo Evaluable:</span>
+                          <span id="val-hexa2-universo" style="font-weight: 700; color: #1e293b;">-</span>
+                      </div>
+                      <div style="display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px 
+solid #f1f5f9;">
+                          <span style="color: #64748b;">Esquema al Da:</span>
+                          <span id="val-hexa2-aldia" style="font-weight: 700; color: #10b981;">-</span>
+                      </div>
+                      <div style="display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px 
+solid #f1f5f9;">
+                          <span style="color: #64748b;">An no corresponde:</span>
+                          <span id="val-hexa2-aunno" style="font-weight: 700; color: #f59e0b;">-</span>
+                      </div>
+                      <div style="display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px 
+solid #f1f5f9;">
+                          <span style="color: #64748b;">Fallecidos excluidos:</span>
+                          <span id="val-hexa2-fallecidos" style="font-weight: 700; color: #94a3b8;">-</span>
+                      </div>
+                      <div style="display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px 
+solid #f1f5f9;">
+                          <span style="color: #64748b;">Fuera de Cohorte/Edad:</span>
+                          <span id="val-hexa2-fuera" style="font-weight: 700; color: #94a3b8;">-</span>
+                      </div>
+                      <div style="display: flex; justify-content: space-between; padding: 4px 0;">
+                          <span style="color: #64748b;">Error de Secuencia:</span>
+                          <span id="val-hexa2-error" style="font-weight: 700; color: #f43f5e;">-</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+                            
+          <div class="reporte-card premium-card" id="card-neumo2" style="border: 1px solid #e2e8f0; border-radius: 
+12px; overflow: hidden; display: flex; flex-direction: column; background: white; box-shadow: 0 4px 6px -1px 
+rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s;">
+              <div style="background: #f8fafc; padding: 15px 20px; border-bottom: 1px solid #e2e8f0; display: flex; 
+justify-content: space-between; align-items: center;">
+                  <h4 style="margin: 0; color: #1e293b; font-size: 1.1rem; font-weight: 700; display: flex; 
+align-items: center; gap: 8px;">
+                      <i class="fas fa-shield-virus" style="color: #f59e0b;"></i> NEUMOCCICA CONJUGADA - 2. DOSIS
+                  </h4>
+              </div>
+              
+              <div style="padding: 25px 20px; text-align: center; flex-grow: 1; display: flex; flex-direction: column; 
+justify-content: center; background: linear-gradient(to bottom, #ffffff, #f8fafc);">
+                  <div style="color: #64748b; font-size: 0.9rem; font-weight: 600; text-transform: uppercase; 
+letter-spacing: 1px; margin-bottom: 5px;">RESCATE ACTIVO</div>
+                  <div class="rescate-value" id="val-neumo2-rescate" style="color: #ef4444; font-weight: 900; 
+font-size: 3.5rem; line-height: 1; margin-bottom: 10px; text-shadow: 0 2px 4px rgba(239,68,68,0.1);">
+                      <i class="fas fa-spinner fa-spin" style="font-size: 2rem;"></i>
+                  </div>
+                  
+                  <div style="margin-top: 15px; border-top: 1px dashed #cbd5e1; padding-top: 15px;">
+                      <button class="btn-detalles" onclick="toggleDetalles('neumo2')" style="background: transparent; 
+border: 1px solid #cbd5e1; border-radius: 6px; padding: 6px 12px; color: #475569; font-size: 0.85rem; font-weight: 
+600; cursor: pointer; transition: all 0.2s;">
+                          <i class="fas fa-chevron-down"></i> Ver Contexto
+                      </button>
+                  </div>
+                  
+                  <div id="detalles-neumo2" class="detalles-container" style="display: none; margin-top: 15px; 
+text-align: left; background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; font-size: 
+0.85rem;">
+                      <div style="display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px 
+solid #f1f5f9;">
+                          <span style="color: #64748b;">Universo Evaluable:</span>
+                          <span id="val-neumo2-universo" style="font-weight: 700; color: #1e293b;">-</span>
+                      </div>
+                      <div style="display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px 
+solid #f1f5f9;">
+                          <span style="color: #64748b;">Esquema al Da:</span>
+                          <span id="val-neumo2-aldia" style="font-weight: 700; color: #10b981;">-</span>
+                      </div>
+                      <div style="display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px 
+solid #f1f5f9;">
+                          <span style="color: #64748b;">An no corresponde:</span>
+                          <span id="val-neumo2-aunno" style="font-weight: 700; color: #f59e0b;">-</span>
+                      </div>
+                      <div style="display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px 
+solid #f1f5f9;">
+                          <span style="color: #64748b;">Fallecidos excluidos:</span>
+                          <span id="val-neumo2-fallecidos" style="font-weight: 700; color: #94a3b8;">-</span>
+                      </div>
+                      <div style="display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px 
+solid #f1f5f9;">
+                          <span style="color: #64748b;">Fuera de Cohorte/Edad:</span>
+                          <span id="val-neumo2-fuera" style="font-weight: 700; color: #94a3b8;">-</span>
+                      </div>
+                      <div style="display: flex; justify-content: space-between; padding: 4px 0;">
+                          <span style="color: #64748b;">Error de Secuencia:</span>
+                          <span id="val-neumo2-error" style="font-weight: 700; color: #f43f5e;">-</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+                            
+          <div class="reporte-card premium-card" id="card-menb2" style="border: 1px solid #e2e8f0; border-radius: 
+12px; overflow: hidden; display: flex; flex-direction: column; background: white; box-shadow: 0 4px 6px -1px 
+rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s;">
+              <div style="background: #f8fafc; padding: 15px 20px; border-bottom: 1px solid #e2e8f0; display: flex; 
+justify-content: space-between; align-items: center;">
+                  <h4 style="margin: 0; color: #1e293b; font-size: 1.1rem; font-weight: 700; display: flex; 
+align-items: center; gap: 8px;">
+                      <i class="fas fa-shield-virus" style="color: #f59e0b;"></i> MENINGOCCICA B - 2. DOSIS
+                  </h4>
+              </div>
+              
+              <div style="padding: 25px 20px; text-align: center; flex-grow: 1; display: flex; flex-direction: column; 
+justify-content: center; background: linear-gradient(to bottom, #ffffff, #f8fafc);">
+                  <div style="color: #64748b; font-size: 0.9rem; font-weight: 600; text-transform: uppercase; 
+letter-spacing: 1px; margin-bottom: 5px;">RESCATE ACTIVO</div>
+                  <div class="rescate-value" id="val-menb2-rescate" style="color: #ef4444; font-weight: 900; 
+font-size: 3.5rem; line-height: 1; margin-bottom: 10px; text-shadow: 0 2px 4px rgba(239,68,68,0.1);">
+                      <i class="fas fa-spinner fa-spin" style="font-size: 2rem;"></i>
+                  </div>
+                  
+                  <div style="margin-top: 15px; border-top: 1px dashed #cbd5e1; padding-top: 15px;">
+                      <button class="btn-detalles" onclick="toggleDetalles('menb2')" style="background: transparent; 
+border: 1px solid #cbd5e1; border-radius: 6px; padding: 6px 12px; color: #475569; font-size: 0.85rem; font-weight: 
+600; cursor: pointer; transition: all 0.2s;">
+                          <i class="fas fa-chevron-down"></i> Ver Contexto
+                      </button>
+                  </div>
+                  
+                  <div id="detalles-menb2" class="detalles-container" style="display: none; margin-top: 15px; 
+text-align: left; background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; font-size: 
+0.85rem;">
+                      <div style="display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px 
+solid #f1f5f9;">
+                          <span style="color: #64748b;">Universo Evaluable:</span>
+                          <span id="val-menb2-universo" style="font-weight: 700; color: #1e293b;">-</span>
+                      </div>
+                      <div style="display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px 
+solid #f1f5f9;">
+                          <span style="color: #64748b;">Esquema al Da:</span>
+                          <span id="val-menb2-aldia" style="font-weight: 700; color: #10b981;">-</span>
+                      </div>
+                      <div style="display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px 
+solid #f1f5f9;">
+                          <span style="color: #64748b;">An no corresponde:</span>
+                          <span id="val-menb2-aunno" style="font-weight: 700; color: #f59e0b;">-</span>
+                      </div>
+                      <div style="display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px 
+solid #f1f5f9;">
+                          <span style="color: #64748b;">Fallecidos excluidos:</span>
+                          <span id="val-menb2-fallecidos" style="font-weight: 700; color: #94a3b8;">-</span>
+                      </div>
+                      <div style="display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px 
+solid #f1f5f9;">
+                          <span style="color: #64748b;">Fuera de Cohorte/Edad:</span>
+                          <span id="val-menb2-fuera" style="font-weight: 700; color: #94a3b8;">-</span>
+                      </div>
+                      <div style="display: flex; justify-content: space-between; padding: 4px 0;">
+                          <span style="color: #64748b;">Error de Secuencia:</span>
+                          <span id="val-menb2-error" style="font-weight: 700; color: #f43f5e;">-</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+                            
+          <div class="reporte-card premium-card" id="card-hexa3" style="border: 1px solid #e2e8f0; border-radius: 
+12px; overflow: hidden; display: flex; flex-direction: column; background: white; box-shadow: 0 4px 6px -1px 
+rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s;">
+              <div style="background: #f8fafc; padding: 15px 20px; border-bottom: 1px solid #e2e8f0; display: flex; 
+justify-content: space-between; align-items: center;">
+                  <h4 style="margin: 0; color: #1e293b; font-size: 1.1rem; font-weight: 700; display: flex; 
+align-items: center; gap: 8px;">
+                      <i class="fas fa-shield-virus" style="color: #f59e0b;"></i> HEXAVALENTE - 3. DOSIS
+                  </h4>
+              </div>
+              
+              <div style="padding: 25px 20px; text-align: center; flex-grow: 1; display: flex; flex-direction: column; 
+justify-content: center; background: linear-gradient(to bottom, #ffffff, #f8fafc);">
+                  <div style="color: #64748b; font-size: 0.9rem; font-weight: 600; text-transform: uppercase; 
+letter-spacing: 1px; margin-bottom: 5px;">RESCATE ACTIVO</div>
+                  <div class="rescate-value" id="val-hexa3-rescate" style="color: #ef4444; font-weight: 900; 
+font-size: 3.5rem; line-height: 1; margin-bottom: 10px; text-shadow: 0 2px 4px rgba(239,68,68,0.1);">
+                      <i class="fas fa-spinner fa-spin" style="font-size: 2rem;"></i>
+                  </div>
+                  
+                  <div style="margin-top: 15px; border-top: 1px dashed #cbd5e1; padding-top: 15px;">
+                      <button class="btn-detalles" onclick="toggleDetalles('hexa3')" style="background: transparent; 
+border: 1px solid #cbd5e1; border-radius: 6px; padding: 6px 12px; color: #475569; font-size: 0.85rem; font-weight: 
+600; cursor: pointer; transition: all 0.2s;">
+                          <i class="fas fa-chevron-down"></i> Ver Contexto
+                      </button>
+                  </div>
+                  
+                  <div id="detalles-hexa3" class="detalles-container" style="display: none; margin-top: 15px; 
+text-align: left; background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; font-size: 
+0.85rem;">
+
+

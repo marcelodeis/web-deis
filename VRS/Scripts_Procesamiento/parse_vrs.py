@@ -22,6 +22,21 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PARENT_DIR = os.path.dirname(SCRIPT_DIR)
 OUTPUT_PATH = os.path.join(PARENT_DIR, f"dashboard_data_{YEAR}.json")
 JS_OUTPUT_PATH = os.path.join(PARENT_DIR, f"dashboard_data_{YEAR}.js")
+EXCEL_DIR = r"C:\Antigravity IDE\WEB DEIS\VRS"
+os.makedirs(EXCEL_DIR, exist_ok=True)
+
+def get_password():
+    try:
+        with open(r"C:\Antigravity_Secrets\rni.env", "r") as f:
+            for line in f:
+                if "=" in line:
+                    k, v = line.strip().split("=", 1)
+                    if k == "EXCEL_PASSWORD":
+                        return v.strip('"')
+    except Exception:
+        pass
+    return "DEIS2026"
+PASSWORD = get_password()
 
 COMUNAS_OSORNO = [
     "Osorno", "Puerto Octay", "Purranque", "Puyehue",
@@ -84,10 +99,12 @@ def leer_defunciones_vrs():
     
     # Buscar archivos DEF*.csv y DEF*.xlsx (desde 1999 hasta 2026)
     archivos_def = []
-    for root, _, files in os.walk(base_dir):
-        for f in files:
-            if f.upper().startswith("DEF") and (f.endswith(".csv") or f.endswith(".xlsx")):
-                archivos_def.append(os.path.join(root, f))
+    for year in ['2023', '2024', '2025', '2026']:
+        year_dir = os.path.join(base_dir, year)
+        if os.path.exists(year_dir):
+            for f in os.listdir(year_dir):
+                if f.upper().startswith("DEF") and (f.endswith(".csv") or f.endswith(".xlsx")):
+                    archivos_def.append(os.path.join(year_dir, f))
                 
     for archivo in sorted(archivos_def):
         try:
@@ -477,20 +494,23 @@ if YEAR in ['2025', '2026']:
         print(f"   Metas calculadas para: {list(metas.keys())}")
         
         # Determinar fecha de la base para el nombre del archivo
-        import glob
         try:
-            mtime_base = max(os.path.getmtime(CSV_OCURRENCIA_PATH), os.path.getmtime(CSV_RESIDENCIA_PATH))
-            fecha_base_str = datetime.fromtimestamp(mtime_base).strftime("%d-%m-%Y")
+            if 'max_date' in locals() and pd.notna(max_date):
+                fecha_base_str = max_date.strftime("%d-%m-%Y")
+            else:
+                mtime_base = max(os.path.getmtime(CSV_OCURRENCIA_PATH), os.path.getmtime(CSV_RESIDENCIA_PATH))
+                fecha_base_str = datetime.fromtimestamp(mtime_base).strftime("%d-%m-%Y")
         except:
             fecha_base_str = datetime.now().strftime("%d-%m-%Y")
             
         # Generar archivo de rescates
         df_rescates = pd.DataFrame(rescates_list)
         base_filename = f"Rescates_VRS_Pendientes_{YEAR}_{fecha_base_str}.xlsx"
-        rescates_path = os.path.join(PARENT_DIR, base_filename)
+        rescates_path = os.path.join(EXCEL_DIR, base_filename)
         
         # Eliminar archivos de rescate antiguos para evitar ocupar espacio innecesario
-        old_rescates = glob.glob(os.path.join(PARENT_DIR, f"Rescates_VRS_Pendientes_{YEAR}*.xlsx"))
+        import glob
+        old_rescates = glob.glob(os.path.join(EXCEL_DIR, f"Rescates_VRS_Pendientes_{YEAR}*.xlsx"))
         for old_file in old_rescates:
             if os.path.basename(old_file) != base_filename and not os.path.basename(old_file) == f"Rescates_VRS_Pendientes_{YEAR}.xlsx":
                 try:
@@ -564,8 +584,8 @@ if YEAR in ['2025', '2026']:
                     excel.DisplayAlerts = False
                     abs_path = os.path.abspath(rescates_path)
                     wb = excel.Workbooks.Open(abs_path)
-                    wb.Password = 'DEIS2026'
-                    wb.SaveAs(abs_path, Password='DEIS2026')
+                    wb.Password = PASSWORD
+                    wb.SaveAs(abs_path, Password=PASSWORD)
                     wb.Close()
                     excel.Quit()
                     print(f"\n   -> Archivo cifrado con contraseña (DEIS2026): {rescates_path}")
@@ -587,14 +607,16 @@ fecha_max_resi_str = None
 fecha_max_ocur_str = None
 ultima_se = 0
 
-if not df_resi_temp.empty and 'FECHA_DT' in df_resi_temp.columns:
-    fmax_resi = df_resi_temp['FECHA_DT'].max()
+if 'df_resi_valid_dates' in locals() and not df_resi_valid_dates.empty and 'FECHA_DT' in df_resi_valid_dates.columns:
+    fmax_resi = df_resi_valid_dates['FECHA_DT'].max()
     fecha_max_resi_str = fmax_resi.strftime("%d-%m-%Y")
     ultima_se = int((fmax_resi + pd.Timedelta(days=1)).isocalendar().week)
 
-if not df_ocur_temp.empty and 'FECHA_DT' in df_ocur_temp.columns:
-    fmax_ocur = df_ocur_temp['FECHA_DT'].max()
-    fecha_max_ocur_str = fmax_ocur.strftime("%d-%m-%Y")
+if 'df_ocur' in locals() and not df_ocur.empty and 'FECHA_INMUNIZACION' in df_ocur.columns:
+    df_ocur_dt = pd.to_datetime(df_ocur['FECHA_INMUNIZACION'], format='%Y-%m-%d', errors='coerce').dropna()
+    if not df_ocur_dt.empty:
+        fmax_ocur = df_ocur_dt.max()
+        fecha_max_ocur_str = fmax_ocur.strftime("%d-%m-%Y")
 
 fecha_referencia = fecha_max_resi_str or fecha_max_ocur_str or "Desconocido"
 

@@ -3,6 +3,7 @@ import numpy as np
 import argparse
 import sys
 import os
+import json
 
 def clean_run(run_str):
     """Limpia el RUN eliminando puntos, guiones y espacios."""
@@ -135,6 +136,11 @@ def load_and_filter_rni(filepath):
         print("ERROR: No se encontró la columna 'RUN' en la base del RNI.")
         sys.exit(1)
         
+    if 'RUN_MADRE' in df.columns:
+        df['RUN_MADRE_LIMPIO'] = df['RUN_MADRE'].apply(clean_run)
+    else:
+        df['RUN_MADRE_LIMPIO'] = "" 
+        
     # 4. Limpiar NOMBRE_VACUNA
     if 'NOMBRE_VACUNA' in df.columns:
         df['NOMBRE_VACUNA_UPPER'] = df['NOMBRE_VACUNA'].astype(str).str.strip().str.upper()
@@ -157,9 +163,11 @@ def generate_report(nac_df, rni_df, output_path):
     # Obtener conjunto de RUNs que tienen vacuna BCG
     rni_bcg = rni_df[rni_df['NOMBRE_VACUNA_UPPER'].isin(vacunas_bcg)]
     runs_vacunados_bcg = set(rni_bcg['RUN_LIMPIO'].unique())
+    runs_vacunados_bcg.update(set(rni_bcg['RUN_MADRE_LIMPIO'].unique()))
     
     # Marcar los vacunados
-    df_bcg_target['VACUNADO_BCG'] = df_bcg_target['RUN_LIMPIO'].apply(lambda x: 'SI' if x in runs_vacunados_bcg else 'NO')
+    # Double Match
+    df_bcg_target['VACUNADO_BCG'] = df_bcg_target.apply(lambda row: 'SI' if row['RUN_LIMPIO'] in runs_vacunados_bcg or (pd.notna(row['RUN_M_LIMPIO']) and row['RUN_M_LIMPIO'] != "" and row['RUN_M_LIMPIO'] in runs_vacunados_bcg) else 'NO', axis=1)
     
     cobertura_bcg = 0
     if len(df_bcg_target) > 0:
@@ -174,8 +182,10 @@ def generate_report(nac_df, rni_df, output_path):
     
     rni_hepb = rni_df[rni_df['NOMBRE_VACUNA_UPPER'].isin(vacunas_hepb)]
     runs_vacunados_hepb = set(rni_hepb['RUN_LIMPIO'].unique())
+    runs_vacunados_hepb.update(set(rni_hepb['RUN_MADRE_LIMPIO'].unique()))
     
-    df_hepb_target['VACUNADO_HEPB'] = df_hepb_target['RUN_LIMPIO'].apply(lambda x: 'SI' if x in runs_vacunados_hepb else 'NO')
+    # Double Match
+    df_hepb_target['VACUNADO_HEPB'] = df_hepb_target.apply(lambda row: 'SI' if row['RUN_LIMPIO'] in runs_vacunados_hepb or (pd.notna(row['RUN_M_LIMPIO']) and row['RUN_M_LIMPIO'] != "" and row['RUN_M_LIMPIO'] in runs_vacunados_hepb) else 'NO', axis=1)
     
     cobertura_hepb = 0
     if len(df_hepb_target) > 0:
@@ -203,10 +213,107 @@ def generate_report(nac_df, rni_df, output_path):
     cols_to_export_hepb = [c for c in cols_to_export_hepb if c in df_hepb_target.columns]
     if 'VACUNADO_HEPB' not in cols_to_export_hepb: cols_to_export_hepb.append('VACUNADO_HEPB')
     
+    import io
+    import msoffcrypto
+    import openpyxl
+    
     with pd.ExcelWriter(output_path, engine='openpyxl') as writer:
         df_resumen.to_excel(writer, sheet_name='Resumen_Cobertura', index=False)
         df_bcg_target[cols_to_export_bcg].to_excel(writer, sheet_name='Nominal_BCG', index=False)
         df_hepb_target[cols_to_export_hepb].to_excel(writer, sheet_name='Nominal_HepB', index=False)
+        
+    # Encriptar listas nominales como el dashboard v5
+    base_dir = os.path.dirname(output_path)
+    def_columns_bcg = pd.DataFrame(columns=cols_to_export_bcg)
+    def_columns_hepb = pd.DataFrame(columns=cols_to_export_hepb)
+    
+    # Archivo BCG
+    bcg_pendientes = df_bcg_target[df_bcg_target['VACUNADO_BCG'] == 'NO'][cols_to_export_bcg]
+    buffer = io.BytesIO()
+    with pd.ExcelWriter(buffer, engine='openpyxl') as writer:
+        bcg_pendientes.to_excel(writer, sheet_name="Rescates Pendientes", index=False)
+        def_columns_bcg.to_excel(writer, sheet_name="Fallecidos", index=False)
+    buffer.seek(0)
+    file = msoffcrypto.OfficeFile(buffer)
+    bcg_out = os.path.join(base_dir, 'Rescates_BCG_Pendientes_2026.xlsx')
+    with open(bcg_out, "wb") as f_out:
+        file.encrypt("DEIS2026", f_out)
+        
+    # Archivo Hep B
+    hepb_pendientes = df_hepb_target[df_hepb_target['VACUNADO_HEPB'] == 'NO'][cols_to_export_hepb]
+    buffer = io.BytesIO()
+    with pd.ExcelWriter(buffer, engine='openpyxl') as writer:
+        hepb_pendientes.to_excel(writer, sheet_name="Rescates Pendientes", index=False)
+        def_columns_hepb.to_excel(writer, sheet_name="Fallecidos", index=False)
+    buffer.seek(0)
+    file = msoffcrypto.OfficeFile(buffer)
+    hepb_out = os.path.join(base_dir, 'Rescates_HepB_Pendientes_2026.xlsx')
+    with open(hepb_out, "wb") as f_out:
+        file.encrypt("DEIS2026", f_out)
+
+        
+    # Extraer exclusiones y JSON para la UI web
+    import json
+    
+    # Exclusiones de ejemplo (ajusta si tienes el dato real de excluidos)
+    # Por defecto, la UI muestra "Universo: X", "Excluidos del seguimiento: Y"
+    
+    base_dir = os.path.dirname(output_path)
+    
+    bcg_missing = len(df_bcg_target[df_bcg_target['VACUNADO_BCG'] == 'NO'])
+    hepb_missing = len(df_hepb_target[df_hepb_target['VACUNADO_HEPB'] == 'NO'])
+    bcg_vac = len(df_bcg_target[df_bcg_target['VACUNADO_BCG'] == 'SI'])
+    hepb_vac = len(df_hepb_target[df_hepb_target['VACUNADO_HEPB'] == 'SI'])
+    bcg_excluidos = len(nac_df) - len(df_bcg_target)
+    hepb_excluidos = len(nac_df) - len(df_hepb_target)
+    
+    # Load existing json if possible
+    json_path = os.path.join(base_dir, 'data_neonatal.json')
+    js_data = {}
+    if os.path.exists(json_path):
+        with open(json_path, 'r', encoding='utf-8') as f:
+            try:
+                js_data = json.load(f)
+            except: pass
+            
+    js_data["2026"] = {
+        "total_nacidos": len(nac_df),
+        "bcg": {
+            "universo": len(nac_df),
+            "excluidos": bcg_excluidos,
+            "elegibles": len(df_bcg_target),
+            "vacunados": bcg_vac,
+            "pendientes": bcg_missing,
+            "fallecidos": bcg_excluidos, # Asumiendo fallecidos o excluidos peso
+            "rechazados": 0,
+            "distribucion_hospital": {},
+            "hospital_elegibles": {},
+            "mes_elegibles": {},
+            "causales_exclusion": {"Bajo Peso/Fallecimiento": bcg_excluidos},
+            "calidad_dato": {"rechazos": 0}
+        },
+        "hepb": {
+            "universo": len(nac_df),
+            "excluidos": hepb_excluidos,
+            "elegibles": len(df_hepb_target),
+            "vacunados": hepb_vac,
+            "pendientes": hepb_missing,
+            "fallecidos": hepb_excluidos,
+            "rechazados": 0,
+            "distribucion_hospital": {},
+            "hospital_elegibles": {},
+            "mes_elegibles": {},
+            "causales_exclusion": {},
+            "calidad_dato": {"rechazos": 0}
+        }
+    }
+    
+    with open(json_path, 'w', encoding='utf-8') as f:
+        json.dump(js_data, f, indent=2)
+        
+    js_path = os.path.join(base_dir, 'data_neonatal.js')
+    with open(js_path, 'w', encoding='utf-8') as f:
+        f.write("window.dataNeonatal = " + json.dumps(js_data, indent=2) + ";")
         
     print(f"=== RESULTADOS ===")
     print(f"Cobertura BCG: {cobertura_bcg:.2f}% (Meta: {len(df_bcg_target)} RN >= 2kg)")

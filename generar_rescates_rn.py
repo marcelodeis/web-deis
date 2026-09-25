@@ -16,7 +16,21 @@ from datetime import datetime
 
 BASE_DIR = r"C:\Antigravity IDE\WEB DEIS\BASE DATOS MINSAL"
 OUTPUT_DIR = r"C:\Antigravity IDE\WEB DEIS\Programáticas_Web"
-PASSWORD = "DEIS2026"
+EXCEL_DIR = r"C:\Antigravity IDE\WEB DEIS\Reportes_Privados\Programaticas"
+
+def get_password():
+    try:
+        with open(r"C:\Antigravity_Secrets\rni.env", "r") as f:
+            for line in f:
+                if "=" in line:
+                    k, v = line.strip().split("=", 1)
+                    if k == "EXCEL_PASSWORD":
+                        return v.strip('"')
+    except Exception:
+        pass
+    return "Fallback1234"
+
+PASSWORD = get_password()
 YEARS = [2020, 2021, 2022, 2023, 2024, 2025, 2026]
 
 # Establecimientos SSO (comparación case-insensitive)
@@ -221,6 +235,8 @@ def leer_vacunados_programaticas(year):
                 
                 run_raw = row.get("RUN", "").strip()
                 run_clean = clean_run_quitar_dv(run_raw)
+                run_madre_raw = row.get("RUN_MADRE", "").strip()
+                run_madre_clean = clean_run_quitar_dv(run_madre_raw)
                 
                 # Verificar filtros DEIS obligatorios
                 vac_admin = row.get("VACUNA_ADMINISTRADA", "").strip().upper()
@@ -261,16 +277,19 @@ def leer_vacunados_programaticas(year):
                 if dosis == "EPRO":
                     continue
                 
-                if not run_clean:
-                    continue
-                
                 if es_bcg:
-                    if run_clean not in vacunados_bcg:
+                    if run_clean and run_clean not in vacunados_bcg:
                         vacunados_bcg.add(run_clean)
                         total_bcg += 1
+                    if run_madre_clean and run_madre_clean not in vacunados_bcg:
+                        vacunados_bcg.add(run_madre_clean)
+                        total_bcg += 1
                 if es_hepb:
-                    if run_clean not in vacunados_hepb:
+                    if run_clean and run_clean not in vacunados_hepb:
                         vacunados_hepb.add(run_clean)
+                        total_hepb += 1
+                    if run_madre_clean and run_madre_clean not in vacunados_hepb:
+                        vacunados_hepb.add(run_madre_clean)
                         total_hepb += 1
     
     # Añadir excluidos manualmente
@@ -319,8 +338,8 @@ def leer_defunciones():
     return fallecidos
 
 
-def generar_excel(pendientes, rechazos, output_filename, hoja_pendientes, hoja_rechazos):
-    """Genera un Excel con 2 hojas: pendientes y rechazos, con formato profesional."""
+def generar_excel(pendientes, rechazos, fallecidos_list, output_filename, hoja_pendientes, hoja_rechazos, hoja_fallecidos="Menores Fallecidos"):
+    """Genera un Excel con 3 hojas: pendientes, rechazos, y fallecidos."""
     import openpyxl
     from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 
@@ -463,8 +482,60 @@ def generar_excel(pendientes, rechazos, output_filename, hoja_pendientes, hoja_r
     ws2.freeze_panes = "A2"
     ws2.auto_filter.ref = ws2.dimensions
 
+    # ── Hoja 3: Fallecidos ──
+    ws3 = wb.create_sheet(title=hoja_fallecidos)
+
+    headers_fallecidos = [
+        "RUN Menor", "Nombre Completo", "Sexo", "Fecha Nacimiento",
+        "Establecimiento Nacimiento", "Comuna Residencia"
+    ]
+
+    fallecido_fill = PatternFill(start_color="333333", end_color="333333", fill_type="solid")
+    fallecido_font = Font(name="Calibri", size=11, bold=True, color="FFFFFF")
+    fallecido_row_even = PatternFill(start_color="EAEAEA", end_color="EAEAEA", fill_type="solid")
+    fallecido_row_odd = PatternFill(start_color="FFFFFF", end_color="FFFFFF", fill_type="solid")
+
+    for col_idx, header in enumerate(headers_fallecidos, 1):
+        cell = ws3.cell(row=1, column=col_idx, value=header)
+        cell.fill = fallecido_fill
+        cell.font = fallecido_font
+        cell.alignment = wrap_center
+        cell.border = thin_border
+
+    for row_idx, fall in enumerate(fallecidos_list, 2):
+        is_even = (row_idx % 2 == 0)
+        fill = fallecido_row_even if is_even else fallecido_row_odd
+        sexo_text = "Masculino" if fall.get("SEXO") == "1" else ("Femenino" if fall.get("SEXO") == "2" else fall.get("SEXO", ""))
+
+        valores = [
+            fall.get("RUN_FORMATTED", ""),
+            fall.get("NOMBRE_FORMATEADO", ""),
+            sexo_text,
+            fall.get("FECHA_NACIMIENTO", ""),
+            fall.get("ESTAB", ""),
+            fall.get("DOM_COMUNA", "")
+        ]
+        for col_idx, val in enumerate(valores, 1):
+            cell = ws3.cell(row=row_idx, column=col_idx, value=val)
+            cell.border = thin_border
+            cell.font = data_font
+            cell.fill = fill
+            cell.alignment = left_align if col_idx in [2, 5, 6] else center_align
+
+    for col_idx in range(1, len(headers_fallecidos) + 1):
+        max_len = len(str(headers_fallecidos[col_idx - 1]))
+        for r in range(2, min(len(fallecidos_list) + 2, 100)):
+            cell_val = ws3.cell(row=r, column=col_idx).value
+            if cell_val:
+                max_len = max(max_len, len(str(cell_val)))
+        ws3.column_dimensions[openpyxl.utils.get_column_letter(col_idx)].width = min(max_len + 3, 40)
+
+    ws3.freeze_panes = "A2"
+    ws3.auto_filter.ref = ws3.dimensions
+
     # Guardar
-    output_path = os.path.join(OUTPUT_DIR, output_filename)
+    os.makedirs(EXCEL_DIR, exist_ok=True)
+    output_path = os.path.join(EXCEL_DIR, output_filename)
     wb.save(output_path)
     return output_path
 
@@ -512,6 +583,8 @@ def main():
         
         pendientes_bcg = []
         pendientes_hepb = []
+        fallecidos_bcg = []
+        fallecidos_hepb = []
         
         stats = {
             "total_nacidos": len(nacidos),
@@ -554,6 +627,7 @@ def main():
             if run_menor and run_menor in fallecidos:
                 stats["bcg_fallecido"] += 1
                 stats["bcg_causas"]["Fallecimiento"] += 1
+                fallecidos_bcg.append(reg)
             elif run_menor and run_menor in rechazos_bcg_causas:
                 stats["bcg_rechazo"] += 1
                 stats["bcg_causas"][rechazos_bcg_causas[run_menor]] += 1
@@ -583,6 +657,7 @@ def main():
             if run_menor and run_menor in fallecidos:
                 stats["hepb_fallecido"] += 1
                 stats["hepb_causas"]["Fallecimiento"] += 1
+                fallecidos_hepb.append(reg)
             elif run_menor and run_menor in rechazos_hepb_causas:
                 stats["hepb_rechazo"] += 1
                 stats["hepb_causas"][rechazos_hepb_causas[run_menor]] += 1
@@ -615,14 +690,14 @@ def main():
         
         # Generar Excels
         path_bcg = generar_excel(
-            pendientes_bcg, rechazos_bcg,
+            pendientes_bcg, rechazos_bcg, fallecidos_bcg,
             output_filename=f"Rescates_BCG_Pendientes_{year}.xlsx",
             hoja_pendientes="Nacidos Vivos sin BCG",
             hoja_rechazos="Rechazos BCG"
         )
         
         path_hepb = generar_excel(
-            pendientes_hepb, rechazos_hepb,
+            pendientes_hepb, rechazos_hepb, fallecidos_hepb,
             output_filename=f"Rescates_HepB_Pendientes_{year}.xlsx",
             hoja_pendientes="Nacidos Vivos sin HepB",
             hoja_rechazos="Rechazos HepB"
