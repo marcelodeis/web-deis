@@ -743,21 +743,70 @@
                 </div>
 
                 <!-- BLOQUE 1: AUTOCONSULTA -->
-                <section id="bloque-autoconsulta" style="background: white; border-radius: 12px; padding: 30px; margin-bottom: 40px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06); border-top: 4px solid #3b82f6;">
-                    <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px; border-bottom: 2px solid #f1f5f9; padding-bottom: 15px;">
-                        <div style="background: #eff6ff; color: #3b82f6; width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
-                            <i class="fas fa-search-plus"></i>
+                <section id="bloque-autoconsulta" style="margin-bottom: 40px;">
+
+                    <!-- Banner compacto estándar (igual que Influenza / VPH / VRS / Covid) -->
+                    <div class="autoconsulta-banner" style="display: flex; align-items: center; justify-content: space-between; background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%); border: 1px solid #e2e8f0; border-top: 4px solid #3b82f6; border-radius: 12px; padding: 20px 30px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); transition: all 0.3s ease; margin-bottom: 20px; flex-wrap: wrap; gap: 20px;">
+
+                        <div style="display: flex; align-items: center; gap: 20px; flex: 1; min-width: 300px;">
+                            <div style="background: #eff6ff; color: #3b82f6; width: 50px; height: 50px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; box-shadow: inset 0 2px 4px rgba(255,255,255,0.5), 0 2px 4px rgba(59,130,246,0.1); flex-shrink: 0;">
+                                <i class="fas fa-file-excel"></i>
+                            </div>
+                            <div>
+                                <h3 style="margin: 0; color: #0f172a; font-size: 1.2rem; font-weight: 700;">Autoconsulta Masiva de Vacunación</h3>
+                                <p style="margin: 4px 0 0 0; color: #64748b; font-size: 0.9rem;">Cargue un archivo Excel (.xlsx) con una columna RUT para consultar automáticamente el estado vacunal.</p>
+                            </div>
                         </div>
-                        <div>
-                            <h3 style="margin: 0; color: #0f172a; font-size: 1.3rem;">Consultar estado de vacunación desde archivo Excel</h3>
-                            <p style="margin: 5px 0 0 0; color: #64748b; font-size: 0.95rem;">Cargue una nómina en formato Excel para consultar automáticamente el estado de vacunación de los registros incluidos.</p>
+
+                        <div class="autoconsulta-action" style="display: flex; align-items: center; gap: 15px; flex-wrap: wrap;">
+                            <button onclick="if(window.downloadTemplate) window.downloadTemplate(); else alert('Plantilla no disponible para este módulo.');" style="background: white; border: 1px solid #cbd5e1; border-radius: 8px; padding: 12px 16px; color: #475569; font-weight: 600; cursor: pointer; transition: all 0.2s ease; display: flex; align-items: center; gap: 8px;" onmouseover="this.style.background='#f1f5f9'; this.style.borderColor='#94a3b8';" onmouseout="this.style.background='white'; this.style.borderColor='#cbd5e1';">
+                                <i class="fas fa-download"></i>
+                                <span>Plantilla</span>
+                            </button>
+                            <input type="file" id="autoconsultaFileInput" accept=".xlsx,.xls,.xlsm,.csv" style="display: none;" />
+                            <div id="autoconsultaDropZone" onclick="document.getElementById('autoconsultaFileInput').click()" style="background: white; border: 2px dashed #cbd5e1; border-radius: 8px; padding: 12px 24px; color: #475569; font-weight: 600; cursor: pointer; transition: all 0.2s ease; display: flex; align-items: center; gap: 10px;" onmouseover="this.style.borderColor='#3b82f6'; this.style.color='#3b82f6'; this.style.background='#eff6ff'; this.querySelector('i').style.transform='translateY(-2px)';" onmouseout="this.style.borderColor='#cbd5e1'; this.style.color='#475569'; this.style.background='white'; this.querySelector('i').style.transform='translateY(0)';">
+                                <i class="fas fa-cloud-upload-alt" style="font-size: 1.2rem; transition: transform 0.2s ease;"></i>
+                                <span>Subir archivo o arrastrar aquí</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Progreso -->
+                    <div id="autoconsultaProgress" style="display: none; text-align: center; padding: 30px 0; background: white; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; margin-bottom: 20px;">
+                        <h3 id="autoconsultaProgressText" style="color: #334155; margin-bottom: 20px;">Iniciando...</h3>
+                        <div style="width: 80%; margin: 0 auto; height: 10px; background: #e2e8f0; border-radius: 5px; overflow: hidden;">
+                            <div id="autoconsultaProgressBar" style="height: 100%; width: 0%; background: #3b82f6; transition: width 0.3s;"></div>
                         </div>
                     </div>
-                    
-                    <!-- Zona de Drop Principal -->
-                    <div class="autoconsulta-drop-zone" id="autoconsultaDropZone" onclick="document.getElementById('autoconsultaFileInput').click()" style="margin-bottom: 20px; border: 2px dashed #cbd5e1; border-radius: 12px; padding: 40px; text-align: center; cursor: pointer; transition: all 0.3s ease; background: #f8fafc;" onmouseover="this.style.borderColor='#3b82f6'; this.style.background='#eff6ff';" onmouseout="this.style.borderColor='#cbd5e1'; this.style.background='#f8fafc';">
-                        <input type="file" id="autoconsultaFileInput" accept=".xlsx,.xls,.xlsm,.csv" style="display: none;" />
-                        <div class="autoconsulta-drop-icon" style="height: 120px; display: flex; align-items: center; justify-content: center; margin-bottom: 15px;">
+
+                    <!-- Resultados -->
+                    <div id="autoconsultaResults" style="display: none; text-align: center; background: white; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; padding: 30px;">
+                        <div style="background: #f5f3ff; border: 1px solid #ddd6fe; border-radius: 8px; padding: 20px; margin-bottom: 20px;">
+                            <i class="fas fa-check-circle" style="font-size: 3rem; color: #8b5cf6; margin-bottom: 10px;"></i>
+                            <h3 style="color: #5b21b6; margin: 0 0 15px 0;">¡Cruce Completado!</h3>
+                            <div style="display: flex; justify-content: space-around;">
+                                <div>
+                                    <div style="font-size: 1.5rem; font-weight: bold; color: #4c1d95;" id="acTotalProcesados">0</div>
+                                    <div style="color: #5b21b6; font-size: 0.85rem;">Registros Totales</div>
+                                </div>
+                                <div>
+                                    <div style="font-size: 1.5rem; font-weight: bold; color: #4c1d95;" id="acTotalVacunados">0</div>
+                                    <div style="color: #5b21b6; font-size: 0.85rem;">Con Vacunas</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                            <button id="autoconsultaBtnReset" style="background: white; color: #475569; border: 1px solid #cbd5e1; padding: 12px 24px; border-radius: 8px; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 8px;" onmouseover="this.style.background='#f8fafc';" onmouseout="this.style.background='white';">
+                                <i class="fas fa-undo"></i> Nueva Consulta
+                            </button>
+                            <button id="autoconsultaBtnDownload" style="background: linear-gradient(135deg, #10b981, #059669); color: white; border: none; padding: 12px 28px; border-radius: 8px; font-weight: 600; cursor: pointer; box-shadow: 0 4px 12px rgba(16,185,129,0.3); display: flex; align-items: center; gap: 8px;" onmouseover="this.style.transform='translateY(-2px)';" onmouseout="this.style.transform='translateY(0)';">
+                                <i class="fas fa-file-excel"></i> Descargar Excel
+                            </button>
+                        </div>
+                    </div>
+
+                </section>
                             <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;">
                                 <defs>
                                     <filter id="anim-shadow" x="-20%" y="-20%" width="140%" height="140%">
@@ -814,54 +863,7 @@
                                     <rect x="40" y="45" width="40" height="30" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="2" filter="url(#anim-shadow)" />
                                     <path d="M 50 75 L 70 75 L 75 82 L 45 82 Z" fill="#94a3b8" />
                                     <rect x="43" y="48" width="34" height="24" rx="1" class="sys-screen" />
-                                    <circle cx="60" cy="60" r="6" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-dasharray="10 6" stroke-linecap="round" class="sys-spinner" />
-                                </g>
-                            </svg>
-                        </div>
-                        <h3 class="autoconsulta-drop-title" style="color: #334155; font-size: 1.2rem; margin-bottom: 8px;">Suba su archivo para comenzar</h3>
-                        <p class="autoconsulta-drop-subtitle" style="color: #64748b; font-size: 0.95rem; margin-bottom: 20px;">Arrastre aquí su archivo Excel o haga clic para seleccionarlo.<br>Debe contener una columna con RUT.</p>
-                        <div class="autoconsulta-actions">
-                            <button class="btn-primary-action" style="background: #3b82f6; color: white; border: none; padding: 10px 20px; border-radius: 8px; font-weight: 600; cursor: pointer; transition: background 0.3s;" onmouseover="this.style.background='#2563eb'" onmouseout="this.style.background='#3b82f6'" onclick="event.stopPropagation(); document.getElementById('autoconsultaFileInput').click()">
-                                <i class="fas fa-folder-open"></i> Seleccionar archivo
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- Progreso -->
-                    <div id="autoconsultaProgress" style="display: none; text-align: center; padding: 30px 0;">
-                        <h3 id="autoconsultaProgressText" style="color: #334155; margin-bottom: 20px;">Iniciando...</h3>
-                        <div style="width: 100%; height: 10px; background: #e2e8f0; border-radius: 5px; overflow: hidden;">
-                            <div id="autoconsultaProgressBar" style="height: 100%; width: 0%; background: #8b5cf6; transition: width 0.3s;"></div>
-                        </div>
-                    </div>
-
-                    <!-- Resultados -->
-                    <div id="autoconsultaResults" style="display: none; text-align: center;">
-                        <div style="background: #f5f3ff; border: 1px solid #ddd6fe; border-radius: 8px; padding: 20px; margin-bottom: 20px;">
-                            <i class="fas fa-check-circle" style="font-size: 3rem; color: #8b5cf6; margin-bottom: 10px;"></i>
-                            <h3 style="color: #5b21b6; margin: 0 0 15px 0;">¡Cruce Completado!</h3>
-                            <div style="display: flex; justify-content: space-around;">
-                                <div>
-                                    <div style="font-size: 1.5rem; font-weight: bold; color: #4c1d95;" id="acTotalProcesados">0</div>
-                                    <div style="color: #5b21b6; font-size: 0.85rem;">Registros Totales</div>
-                                </div>
-                                <div>
-                                    <div style="font-size: 1.5rem; font-weight: bold; color: #4c1d95;" id="acTotalVacunados">0</div>
-                                    <div style="color: #5b21b6; font-size: 0.85rem;">Con Vacunas</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px; margin-bottom: 20px; flex-wrap: wrap;">
-                            <button id="autoconsultaBtnReset" style="background: white; color: #475569; border: 1px solid #cbd5e1; padding: 14px 28px; border-radius: 10px; font-weight: 600; font-size: 1rem; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center; gap: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);" onmouseover="this.style.background='#f8fafc'; this.style.borderColor='#94a3b8'; this.style.transform='translateY(-2px)';" onmouseout="this.style.background='white'; this.style.borderColor='#cbd5e1'; this.style.transform='translateY(0)';">
-                                <i class="fas fa-undo"></i> Nueva Consulta
-                            </button>
-                            <button id="autoconsultaBtnDownload" style="background: linear-gradient(135deg, #10b981, #059669); color: white; border: none; padding: 14px 32px; border-radius: 10px; font-weight: 600; font-size: 1rem; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 6px 20px rgba(16, 185, 129, 0.3); display: flex; align-items: center; gap: 10px;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 8px 25px rgba(16, 185, 129, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 6px 20px rgba(16, 185, 129, 0.3)';">
-                                <i class="fas fa-file-excel" style="font-size: 1.1rem;"></i> Descargar Excel
-                            </button>
-                        </div>
-                    </div>
-                </section>
-                
+                                    <circle cx="60" cy="60" r="6" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-dasharray="10 6" stroke-linecap="round" 
                 <!-- BLOQUE 2: RECIÉN NACIDOS -->
                 <section id="bloque-neonatal" style="background: white; border-radius: 12px; padding: 30px; margin-bottom: 40px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06); border-top: 4px solid #10b981;">
 
