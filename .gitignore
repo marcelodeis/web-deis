@@ -15,6 +15,7 @@ node_modules/
 # Archivos de datos pesados y temporales
 *.xlsx
 !Rescates_*.xlsx
+!Rescate_*.xlsx
 *.csv
 *.zip
 *.pdf
@@ -22,6 +23,7 @@ node_modules/
 
 # Carpetas de despliegue generadas automáticamente
 cloudflare/
+Entregas_Cloudflare/
 
 # Respaldos
 Respaldos/
