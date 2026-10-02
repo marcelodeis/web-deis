@@ -1,0 +1,2723 @@
+{
+  "metadata": {
+    "titulo": "Avance Semanal VPH Escolar 2026",
+    "subtitulo": "Servicio de Salud Osorno — Monitoreo Operativo de Vacunación Escolar",
+    "indicador": "Avance de vacunación VPH en cohorte escolar de 4.° básico 2026",
+    "pregunta_responde": "¿Cómo está avanzando durante 2026 la vacunación de la cohorte escolar objetivo?",
+    "fecha_datos_hasta": "17-09-2026",
+    "ultima_se": "SE37",
+    "timestamp_generacion": "21/09/2026 11:06",
+    "fuente_numerador": "Registro Nacional de Inmunizaciones (RNI) — Programáticas_Ocurrencia_2026.csv",
+    "fuente_denominador": "Matrícula MINEDUC 2026 — COBERTURA ESCOLAR POR COMUNA 2026-08-31.xlsx",
+    "criterio_territorial": "Ocurrencia (COMUNA_OCURR)",
+    "advertencia_territorial": "El numerador RNI por comuna de vacunación (COMUNA_OCURR) se utiliza como aproximación operativa a la territorialidad escolar MINEDUC; no existe correspondencia individual por RBD en la base RNI disponible. Para el indicador provincial esta limitación tiene menor impacto, pero debe conservarse para el análisis comunal.",
+    "filtros_aplicados": [
+      "VACUNA_ADMINISTRADA == 'SI'",
+      "REGISTRO_ELIMINADO != 'SI' (== 'NO')",
+      "Exclusión de CRITERIO_ELEGIBILIDAD == 'EPRO'",
+      "Exclusión de DOSIS == 'EPRO'",
+      "NOMBRE_VACUNA contiene VPH/PAPILOMA/GARDASIL/CERVARIX",
+      "CRITERIO_ELEGIBILIDAD contiene '4° básico'",
+      "COD_SERV = '23' (SS Osorno)",
+      "Deduplicación por RUN"
+    ],
+    "criterios_incluidos": [
+      "4° básico (Est. Educacional)",
+      "4° básico (Est. de Salud)"
+    ],
+    "esquema_vigente": "VPH Nonavalente — Dosis Única",
+    "nota_modulo": "Este módulo es independiente del indicador histórico de cobertura VPH a los 15 años."
+  },
+  "conciliacion": {
+    "total_vph_ss23": 3145,
+    "bruto_4to_basico": 2524,
+    "excl_vacuna_administrada": 36,
+    "excl_registro_eliminado": 19,
+    "excl_epro_criterio": 0,
+    "excl_epro_dosis": 2,
+    "excl_duplicado_run": 0,
+    "numerador_final": 2467,
+    "registros_fuera_4to": 621,
+    "detalle_fuera_4to": {
+      "Casos especiales": 258,
+      "Otros cursos dosis pendientes": 171,
+      "8º básico dosis pendiente": 47,
+      "5º básico (Est. Educacional)": 41,
+      "VVS por decreto": 25,
+      "P18": 24,
+      "PrEP": 15,
+      "7º  básico dosis pendiente": 14,
+      "5º básico (Est. de Salud)": 11,
+      "6º básico dosis pendiente": 9,
+      "Vacunación privada": 3,
+      "7º básico dosis pendiente": 3
+    }
+  },
+  "auditoria_modalidad": {
+    "Est. Educacional": 2397,
+    "Est. de Salud": 70
+  },
+  "resumen_provincial": {
+    "vacunados": 2467,
+    "meta": 2910,
+    "cobertura": 84.78,
+    "brecha": 443,
+    "meta_superada": 0,
+    "vacunados_3108": 2210,
+    "cobertura_3108": 75.95,
+    "variacion_vs_3108_pp": 8.83
+  },
+  "ranking_comunal": [
+    {
+      "comuna": "Puerto Octay",
+      "codigo": "10302",
+      "vacunados": 109,
+      "meta": 115,
+      "cobertura": 94.78,
+      "brecha": 6,
+      "meta_superada": 0,
+      "vacunados_3108": 108,
+      "cobertura_3108": 93.91,
+      "variacion_vs_3108_pp": 0.87,
+      "posicion": 1
+    },
+    {
+      "comuna": "San Pablo",
+      "codigo": "10307",
+      "vacunados": 106,
+      "meta": 113,
+      "cobertura": 93.81,
+      "brecha": 7,
+      "meta_superada": 0,
+      "vacunados_3108": 102,
+      "cobertura_3108": 90.27,
+      "variacion_vs_3108_pp": 3.54,
+      "posicion": 2
+    },
+    {
+      "comuna": "Puyehue",
+      "codigo": "10304",
+      "vacunados": 132,
+      "meta": 144,
+      "cobertura": 91.67,
+      "brecha": 12,
+      "meta_superada": 0,
+      "vacunados_3108": 124,
+      "cobertura_3108": 86.11,
+      "variacion_vs_3108_pp": 5.56,
+      "posicion": 3
+    },
+    {
+      "comuna": "Río Negro",
+      "codigo": "10305",
+      "vacunados": 120,
+      "meta": 134,
+      "cobertura": 89.55,
+      "brecha": 14,
+      "meta_superada": 0,
+      "vacunados_3108": 119,
+      "cobertura_3108": 88.81,
+      "variacion_vs_3108_pp": 0.75,
+      "posicion": 4
+    },
+    {
+      "comuna": "Purranque",
+      "codigo": "10303",
+      "vacunados": 238,
+      "meta": 276,
+      "cobertura": 86.23,
+      "brecha": 38,
+      "meta_superada": 0,
+      "vacunados_3108": 204,
+      "cobertura_3108": 73.91,
+      "variacion_vs_3108_pp": 12.32,
+      "posicion": 5
+    },
+    {
+      "comuna": "San Juan de la Costa",
+      "codigo": "10306",
+      "vacunados": 60,
+      "meta": 72,
+      "cobertura": 83.33,
+      "brecha": 12,
+      "meta_superada": 0,
+      "vacunados_3108": 47,
+      "cobertura_3108": 65.28,
+      "variacion_vs_3108_pp": 18.06,
+      "posicion": 6
+    },
+    {
+      "comuna": "Osorno",
+      "codigo": "10301",
+      "vacunados": 1702,
+      "meta": 2056,
+      "cobertura": 82.78,
+      "brecha": 354,
+      "meta_superada": 0,
+      "vacunados_3108": 1506,
+      "cobertura_3108": 73.25,
+      "variacion_vs_3108_pp": 9.53,
+      "posicion": 7
+    }
+  ],
+  "mayor_avance": "Puerto Octay",
+  "menor_avance": "Osorno",
+  "kpis": {
+    "vacunados_acumulados": 2467,
+    "meta_provincial": 2910,
+    "cobertura_provincial": 84.78,
+    "brecha_provincial": 443,
+    "meta_superada": 0,
+    "dosis_ultima_semana": 34,
+    "variacion_pp_ultima_semana": 1.17,
+    "ultima_se": "SE37",
+    "fecha_datos_hasta": "17-09-2026"
+  },
+  "serie_semanal_provincial": [
+    {
+      "semana": "SE3",
+      "se_num": 3,
+      "dosis_semana": 1,
+      "vacunados_acumulados": 1,
+      "cobertura_acumulada": 0.03,
+      "variacion_pp": 0.03,
+      "brecha": 2909
+    },
+    {
+      "semana": "SE4",
+      "se_num": 4,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 1,
+      "cobertura_acumulada": 0.03,
+      "variacion_pp": 0.0,
+      "brecha": 2909
+    },
+    {
+      "semana": "SE5",
+      "se_num": 5,
+      "dosis_semana": 1,
+      "vacunados_acumulados": 2,
+      "cobertura_acumulada": 0.07,
+      "variacion_pp": 0.03,
+      "brecha": 2908
+    },
+    {
+      "semana": "SE6",
+      "se_num": 6,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 2,
+      "cobertura_acumulada": 0.07,
+      "variacion_pp": 0.0,
+      "brecha": 2908
+    },
+    {
+      "semana": "SE7",
+      "se_num": 7,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 2,
+      "cobertura_acumulada": 0.07,
+      "variacion_pp": 0.0,
+      "brecha": 2908
+    },
+    {
+      "semana": "SE8",
+      "se_num": 8,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 2,
+      "cobertura_acumulada": 0.07,
+      "variacion_pp": 0.0,
+      "brecha": 2908
+    },
+    {
+      "semana": "SE9",
+      "se_num": 9,
+      "dosis_semana": 1,
+      "vacunados_acumulados": 3,
+      "cobertura_acumulada": 0.1,
+      "variacion_pp": 0.03,
+      "brecha": 2907
+    },
+    {
+      "semana": "SE10",
+      "se_num": 10,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 3,
+      "cobertura_acumulada": 0.1,
+      "variacion_pp": 0.0,
+      "brecha": 2907
+    },
+    {
+      "semana": "SE11",
+      "se_num": 11,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 3,
+      "cobertura_acumulada": 0.1,
+      "variacion_pp": 0.0,
+      "brecha": 2907
+    },
+    {
+      "semana": "SE12",
+      "se_num": 12,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 3,
+      "cobertura_acumulada": 0.1,
+      "variacion_pp": 0.0,
+      "brecha": 2907
+    },
+    {
+      "semana": "SE13",
+      "se_num": 13,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 3,
+      "cobertura_acumulada": 0.1,
+      "variacion_pp": 0.0,
+      "brecha": 2907
+    },
+    {
+      "semana": "SE14",
+      "se_num": 14,
+      "dosis_semana": 1,
+      "vacunados_acumulados": 4,
+      "cobertura_acumulada": 0.14,
+      "variacion_pp": 0.03,
+      "brecha": 2906
+    },
+    {
+      "semana": "SE15",
+      "se_num": 15,
+      "dosis_semana": 2,
+      "vacunados_acumulados": 6,
+      "cobertura_acumulada": 0.21,
+      "variacion_pp": 0.07,
+      "brecha": 2904
+    },
+    {
+      "semana": "SE16",
+      "se_num": 16,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 6,
+      "cobertura_acumulada": 0.21,
+      "variacion_pp": 0.0,
+      "brecha": 2904
+    },
+    {
+      "semana": "SE17",
+      "se_num": 17,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 6,
+      "cobertura_acumulada": 0.21,
+      "variacion_pp": 0.0,
+      "brecha": 2904
+    },
+    {
+      "semana": "SE18",
+      "se_num": 18,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 6,
+      "cobertura_acumulada": 0.21,
+      "variacion_pp": 0.0,
+      "brecha": 2904
+    },
+    {
+      "semana": "SE19",
+      "se_num": 19,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 6,
+      "cobertura_acumulada": 0.21,
+      "variacion_pp": 0.0,
+      "brecha": 2904
+    },
+    {
+      "semana": "SE20",
+      "se_num": 20,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 6,
+      "cobertura_acumulada": 0.21,
+      "variacion_pp": 0.0,
+      "brecha": 2904
+    },
+    {
+      "semana": "SE21",
+      "se_num": 21,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 6,
+      "cobertura_acumulada": 0.21,
+      "variacion_pp": 0.0,
+      "brecha": 2904
+    },
+    {
+      "semana": "SE22",
+      "se_num": 22,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 6,
+      "cobertura_acumulada": 0.21,
+      "variacion_pp": 0.0,
+      "brecha": 2904
+    },
+    {
+      "semana": "SE23",
+      "se_num": 23,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 6,
+      "cobertura_acumulada": 0.21,
+      "variacion_pp": 0.0,
+      "brecha": 2904
+    },
+    {
+      "semana": "SE24",
+      "se_num": 24,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 6,
+      "cobertura_acumulada": 0.21,
+      "variacion_pp": 0.0,
+      "brecha": 2904
+    },
+    {
+      "semana": "SE25",
+      "se_num": 25,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 6,
+      "cobertura_acumulada": 0.21,
+      "variacion_pp": 0.0,
+      "brecha": 2904
+    },
+    {
+      "semana": "SE26",
+      "se_num": 26,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 6,
+      "cobertura_acumulada": 0.21,
+      "variacion_pp": 0.0,
+      "brecha": 2904
+    },
+    {
+      "semana": "SE27",
+      "se_num": 27,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 6,
+      "cobertura_acumulada": 0.21,
+      "variacion_pp": 0.0,
+      "brecha": 2904
+    },
+    {
+      "semana": "SE28",
+      "se_num": 28,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 6,
+      "cobertura_acumulada": 0.21,
+      "variacion_pp": 0.0,
+      "brecha": 2904
+    },
+    {
+      "semana": "SE29",
+      "se_num": 29,
+      "dosis_semana": 0,
+      "vacunados_acumulados": 6,
+      "cobertura_acumulada": 0.21,
+      "variacion_pp": 0.0,
+      "brecha": 2904
+    },
+    {
+      "semana": "SE30",
+      "se_num": 30,
+      "dosis_semana": 55,
+      "vacunados_acumulados": 61,
+      "cobertura_acumulada": 2.1,
+      "variacion_pp": 1.89,
+      "brecha": 2849
+    },
+    {
+      "semana": "SE31",
+      "se_num": 31,
+      "dosis_semana": 576,
+      "vacunados_acumulados": 637,
+      "cobertura_acumulada": 21.89,
+      "variacion_pp": 19.79,
+      "brecha": 2273
+    },
+    {
+      "semana": "SE32",
+      "se_num": 32,
+      "dosis_semana": 606,
+      "vacunados_acumulados": 1243,
+      "cobertura_acumulada": 42.71,
+      "variacion_pp": 20.82,
+      "brecha": 1667
+    },
+    {
+      "semana": "SE33",
+      "se_num": 33,
+      "dosis_semana": 632,
+      "vacunados_acumulados": 1875,
+      "cobertura_acumulada": 64.43,
+      "variacion_pp": 21.72,
+      "brecha": 1035
+    },
+    {
+      "semana": "SE34",
+      "se_num": 34,
+      "dosis_semana": 333,
+      "vacunados_acumulados": 2208,
+      "cobertura_acumulada": 75.88,
+      "variacion_pp": 11.44,
+      "brecha": 702
+    },
+    {
+      "semana": "SE35",
+      "se_num": 35,
+      "dosis_semana": 124,
+      "vacunados_acumulados": 2332,
+      "cobertura_acumulada": 80.14,
+      "variacion_pp": 4.26,
+      "brecha": 578
+    },
+    {
+      "semana": "SE36",
+      "se_num": 36,
+      "dosis_semana": 101,
+      "vacunados_acumulados": 2433,
+      "cobertura_acumulada": 83.61,
+      "variacion_pp": 3.47,
+      "brecha": 477
+    },
+    {
+      "semana": "SE37",
+      "se_num": 37,
+      "dosis_semana": 34,
+      "vacunados_acumulados": 2467,
+      "cobertura_acumulada": 84.78,
+      "variacion_pp": 1.17,
+      "brecha": 443
+    }
+  ],
+  "series_semanales_comunales": {
+    "Osorno": [
+      {
+        "semana": "SE3",
+        "se_num": 3,
+        "dosis_semana": 1,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.05,
+        "variacion_pp": 0.05,
+        "brecha": 2055
+      },
+      {
+        "semana": "SE4",
+        "se_num": 4,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.05,
+        "variacion_pp": 0.0,
+        "brecha": 2055
+      },
+      {
+        "semana": "SE5",
+        "se_num": 5,
+        "dosis_semana": 1,
+        "vacunados_acumulados": 2,
+        "cobertura_acumulada": 0.1,
+        "variacion_pp": 0.05,
+        "brecha": 2054
+      },
+      {
+        "semana": "SE6",
+        "se_num": 6,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 2,
+        "cobertura_acumulada": 0.1,
+        "variacion_pp": 0.0,
+        "brecha": 2054
+      },
+      {
+        "semana": "SE7",
+        "se_num": 7,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 2,
+        "cobertura_acumulada": 0.1,
+        "variacion_pp": 0.0,
+        "brecha": 2054
+      },
+      {
+        "semana": "SE8",
+        "se_num": 8,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 2,
+        "cobertura_acumulada": 0.1,
+        "variacion_pp": 0.0,
+        "brecha": 2054
+      },
+      {
+        "semana": "SE9",
+        "se_num": 9,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 2,
+        "cobertura_acumulada": 0.1,
+        "variacion_pp": 0.0,
+        "brecha": 2054
+      },
+      {
+        "semana": "SE10",
+        "se_num": 10,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 2,
+        "cobertura_acumulada": 0.1,
+        "variacion_pp": 0.0,
+        "brecha": 2054
+      },
+      {
+        "semana": "SE11",
+        "se_num": 11,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 2,
+        "cobertura_acumulada": 0.1,
+        "variacion_pp": 0.0,
+        "brecha": 2054
+      },
+      {
+        "semana": "SE12",
+        "se_num": 12,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 2,
+        "cobertura_acumulada": 0.1,
+        "variacion_pp": 0.0,
+        "brecha": 2054
+      },
+      {
+        "semana": "SE13",
+        "se_num": 13,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 2,
+        "cobertura_acumulada": 0.1,
+        "variacion_pp": 0.0,
+        "brecha": 2054
+      },
+      {
+        "semana": "SE14",
+        "se_num": 14,
+        "dosis_semana": 1,
+        "vacunados_acumulados": 3,
+        "cobertura_acumulada": 0.15,
+        "variacion_pp": 0.05,
+        "brecha": 2053
+      },
+      {
+        "semana": "SE15",
+        "se_num": 15,
+        "dosis_semana": 2,
+        "vacunados_acumulados": 5,
+        "cobertura_acumulada": 0.24,
+        "variacion_pp": 0.1,
+        "brecha": 2051
+      },
+      {
+        "semana": "SE16",
+        "se_num": 16,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 5,
+        "cobertura_acumulada": 0.24,
+        "variacion_pp": 0.0,
+        "brecha": 2051
+      },
+      {
+        "semana": "SE17",
+        "se_num": 17,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 5,
+        "cobertura_acumulada": 0.24,
+        "variacion_pp": 0.0,
+        "brecha": 2051
+      },
+      {
+        "semana": "SE18",
+        "se_num": 18,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 5,
+        "cobertura_acumulada": 0.24,
+        "variacion_pp": 0.0,
+        "brecha": 2051
+      },
+      {
+        "semana": "SE19",
+        "se_num": 19,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 5,
+        "cobertura_acumulada": 0.24,
+        "variacion_pp": 0.0,
+        "brecha": 2051
+      },
+      {
+        "semana": "SE20",
+        "se_num": 20,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 5,
+        "cobertura_acumulada": 0.24,
+        "variacion_pp": 0.0,
+        "brecha": 2051
+      },
+      {
+        "semana": "SE21",
+        "se_num": 21,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 5,
+        "cobertura_acumulada": 0.24,
+        "variacion_pp": 0.0,
+        "brecha": 2051
+      },
+      {
+        "semana": "SE22",
+        "se_num": 22,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 5,
+        "cobertura_acumulada": 0.24,
+        "variacion_pp": 0.0,
+        "brecha": 2051
+      },
+      {
+        "semana": "SE23",
+        "se_num": 23,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 5,
+        "cobertura_acumulada": 0.24,
+        "variacion_pp": 0.0,
+        "brecha": 2051
+      },
+      {
+        "semana": "SE24",
+        "se_num": 24,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 5,
+        "cobertura_acumulada": 0.24,
+        "variacion_pp": 0.0,
+        "brecha": 2051
+      },
+      {
+        "semana": "SE25",
+        "se_num": 25,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 5,
+        "cobertura_acumulada": 0.24,
+        "variacion_pp": 0.0,
+        "brecha": 2051
+      },
+      {
+        "semana": "SE26",
+        "se_num": 26,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 5,
+        "cobertura_acumulada": 0.24,
+        "variacion_pp": 0.0,
+        "brecha": 2051
+      },
+      {
+        "semana": "SE27",
+        "se_num": 27,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 5,
+        "cobertura_acumulada": 0.24,
+        "variacion_pp": 0.0,
+        "brecha": 2051
+      },
+      {
+        "semana": "SE28",
+        "se_num": 28,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 5,
+        "cobertura_acumulada": 0.24,
+        "variacion_pp": 0.0,
+        "brecha": 2051
+      },
+      {
+        "semana": "SE29",
+        "se_num": 29,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 5,
+        "cobertura_acumulada": 0.24,
+        "variacion_pp": 0.0,
+        "brecha": 2051
+      },
+      {
+        "semana": "SE30",
+        "se_num": 30,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 5,
+        "cobertura_acumulada": 0.24,
+        "variacion_pp": 0.0,
+        "brecha": 2051
+      },
+      {
+        "semana": "SE31",
+        "se_num": 31,
+        "dosis_semana": 250,
+        "vacunados_acumulados": 255,
+        "cobertura_acumulada": 12.4,
+        "variacion_pp": 12.16,
+        "brecha": 1801
+      },
+      {
+        "semana": "SE32",
+        "se_num": 32,
+        "dosis_semana": 418,
+        "vacunados_acumulados": 673,
+        "cobertura_acumulada": 32.73,
+        "variacion_pp": 20.33,
+        "brecha": 1383
+      },
+      {
+        "semana": "SE33",
+        "se_num": 33,
+        "dosis_semana": 519,
+        "vacunados_acumulados": 1192,
+        "cobertura_acumulada": 57.98,
+        "variacion_pp": 25.24,
+        "brecha": 864
+      },
+      {
+        "semana": "SE34",
+        "se_num": 34,
+        "dosis_semana": 312,
+        "vacunados_acumulados": 1504,
+        "cobertura_acumulada": 73.15,
+        "variacion_pp": 15.18,
+        "brecha": 552
+      },
+      {
+        "semana": "SE35",
+        "se_num": 35,
+        "dosis_semana": 78,
+        "vacunados_acumulados": 1582,
+        "cobertura_acumulada": 76.95,
+        "variacion_pp": 3.79,
+        "brecha": 474
+      },
+      {
+        "semana": "SE36",
+        "se_num": 36,
+        "dosis_semana": 87,
+        "vacunados_acumulados": 1669,
+        "cobertura_acumulada": 81.18,
+        "variacion_pp": 4.23,
+        "brecha": 387
+      },
+      {
+        "semana": "SE37",
+        "se_num": 37,
+        "dosis_semana": 33,
+        "vacunados_acumulados": 1702,
+        "cobertura_acumulada": 82.78,
+        "variacion_pp": 1.61,
+        "brecha": 354
+      }
+    ],
+    "Puerto Octay": [
+      {
+        "semana": "SE3",
+        "se_num": 3,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE4",
+        "se_num": 4,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE5",
+        "se_num": 5,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE6",
+        "se_num": 6,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE7",
+        "se_num": 7,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE8",
+        "se_num": 8,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE9",
+        "se_num": 9,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE10",
+        "se_num": 10,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE11",
+        "se_num": 11,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE12",
+        "se_num": 12,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE13",
+        "se_num": 13,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE14",
+        "se_num": 14,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE15",
+        "se_num": 15,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE16",
+        "se_num": 16,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE17",
+        "se_num": 17,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE18",
+        "se_num": 18,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE19",
+        "se_num": 19,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE20",
+        "se_num": 20,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE21",
+        "se_num": 21,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE22",
+        "se_num": 22,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE23",
+        "se_num": 23,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE24",
+        "se_num": 24,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE25",
+        "se_num": 25,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE26",
+        "se_num": 26,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE27",
+        "se_num": 27,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE28",
+        "se_num": 28,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE29",
+        "se_num": 29,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 115
+      },
+      {
+        "semana": "SE30",
+        "se_num": 30,
+        "dosis_semana": 13,
+        "vacunados_acumulados": 13,
+        "cobertura_acumulada": 11.3,
+        "variacion_pp": 11.3,
+        "brecha": 102
+      },
+      {
+        "semana": "SE31",
+        "se_num": 31,
+        "dosis_semana": 70,
+        "vacunados_acumulados": 83,
+        "cobertura_acumulada": 72.17,
+        "variacion_pp": 60.87,
+        "brecha": 32
+      },
+      {
+        "semana": "SE32",
+        "se_num": 32,
+        "dosis_semana": 21,
+        "vacunados_acumulados": 104,
+        "cobertura_acumulada": 90.43,
+        "variacion_pp": 18.26,
+        "brecha": 11
+      },
+      {
+        "semana": "SE33",
+        "se_num": 33,
+        "dosis_semana": 3,
+        "vacunados_acumulados": 107,
+        "cobertura_acumulada": 93.04,
+        "variacion_pp": 2.61,
+        "brecha": 8
+      },
+      {
+        "semana": "SE34",
+        "se_num": 34,
+        "dosis_semana": 1,
+        "vacunados_acumulados": 108,
+        "cobertura_acumulada": 93.91,
+        "variacion_pp": 0.87,
+        "brecha": 7
+      },
+      {
+        "semana": "SE35",
+        "se_num": 35,
+        "dosis_semana": 1,
+        "vacunados_acumulados": 109,
+        "cobertura_acumulada": 94.78,
+        "variacion_pp": 0.87,
+        "brecha": 6
+      },
+      {
+        "semana": "SE36",
+        "se_num": 36,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 109,
+        "cobertura_acumulada": 94.78,
+        "variacion_pp": 0.0,
+        "brecha": 6
+      },
+      {
+        "semana": "SE37",
+        "se_num": 37,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 109,
+        "cobertura_acumulada": 94.78,
+        "variacion_pp": 0.0,
+        "brecha": 6
+      }
+    ],
+    "Purranque": [
+      {
+        "semana": "SE3",
+        "se_num": 3,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE4",
+        "se_num": 4,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE5",
+        "se_num": 5,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE6",
+        "se_num": 6,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE7",
+        "se_num": 7,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE8",
+        "se_num": 8,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE9",
+        "se_num": 9,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE10",
+        "se_num": 10,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE11",
+        "se_num": 11,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE12",
+        "se_num": 12,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE13",
+        "se_num": 13,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE14",
+        "se_num": 14,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE15",
+        "se_num": 15,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE16",
+        "se_num": 16,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE17",
+        "se_num": 17,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE18",
+        "se_num": 18,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE19",
+        "se_num": 19,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE20",
+        "se_num": 20,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE21",
+        "se_num": 21,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE22",
+        "se_num": 22,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE23",
+        "se_num": 23,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE24",
+        "se_num": 24,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE25",
+        "se_num": 25,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE26",
+        "se_num": 26,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE27",
+        "se_num": 27,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE28",
+        "se_num": 28,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE29",
+        "se_num": 29,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 276
+      },
+      {
+        "semana": "SE30",
+        "se_num": 30,
+        "dosis_semana": 18,
+        "vacunados_acumulados": 18,
+        "cobertura_acumulada": 6.52,
+        "variacion_pp": 6.52,
+        "brecha": 258
+      },
+      {
+        "semana": "SE31",
+        "se_num": 31,
+        "dosis_semana": 72,
+        "vacunados_acumulados": 90,
+        "cobertura_acumulada": 32.61,
+        "variacion_pp": 26.09,
+        "brecha": 186
+      },
+      {
+        "semana": "SE32",
+        "se_num": 32,
+        "dosis_semana": 27,
+        "vacunados_acumulados": 117,
+        "cobertura_acumulada": 42.39,
+        "variacion_pp": 9.78,
+        "brecha": 159
+      },
+      {
+        "semana": "SE33",
+        "se_num": 33,
+        "dosis_semana": 77,
+        "vacunados_acumulados": 194,
+        "cobertura_acumulada": 70.29,
+        "variacion_pp": 27.9,
+        "brecha": 82
+      },
+      {
+        "semana": "SE34",
+        "se_num": 34,
+        "dosis_semana": 10,
+        "vacunados_acumulados": 204,
+        "cobertura_acumulada": 73.91,
+        "variacion_pp": 3.62,
+        "brecha": 72
+      },
+      {
+        "semana": "SE35",
+        "se_num": 35,
+        "dosis_semana": 24,
+        "vacunados_acumulados": 228,
+        "cobertura_acumulada": 82.61,
+        "variacion_pp": 8.7,
+        "brecha": 48
+      },
+      {
+        "semana": "SE36",
+        "se_num": 36,
+        "dosis_semana": 10,
+        "vacunados_acumulados": 238,
+        "cobertura_acumulada": 86.23,
+        "variacion_pp": 3.62,
+        "brecha": 38
+      },
+      {
+        "semana": "SE37",
+        "se_num": 37,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 238,
+        "cobertura_acumulada": 86.23,
+        "variacion_pp": 0.0,
+        "brecha": 38
+      }
+    ],
+    "Puyehue": [
+      {
+        "semana": "SE3",
+        "se_num": 3,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE4",
+        "se_num": 4,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE5",
+        "se_num": 5,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE6",
+        "se_num": 6,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE7",
+        "se_num": 7,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE8",
+        "se_num": 8,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE9",
+        "se_num": 9,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE10",
+        "se_num": 10,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE11",
+        "se_num": 11,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE12",
+        "se_num": 12,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE13",
+        "se_num": 13,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE14",
+        "se_num": 14,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE15",
+        "se_num": 15,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE16",
+        "se_num": 16,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE17",
+        "se_num": 17,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE18",
+        "se_num": 18,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE19",
+        "se_num": 19,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE20",
+        "se_num": 20,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE21",
+        "se_num": 21,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE22",
+        "se_num": 22,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE23",
+        "se_num": 23,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE24",
+        "se_num": 24,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE25",
+        "se_num": 25,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE26",
+        "se_num": 26,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE27",
+        "se_num": 27,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE28",
+        "se_num": 28,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE29",
+        "se_num": 29,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE30",
+        "se_num": 30,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 144
+      },
+      {
+        "semana": "SE31",
+        "se_num": 31,
+        "dosis_semana": 73,
+        "vacunados_acumulados": 73,
+        "cobertura_acumulada": 50.69,
+        "variacion_pp": 50.69,
+        "brecha": 71
+      },
+      {
+        "semana": "SE32",
+        "se_num": 32,
+        "dosis_semana": 33,
+        "vacunados_acumulados": 106,
+        "cobertura_acumulada": 73.61,
+        "variacion_pp": 22.92,
+        "brecha": 38
+      },
+      {
+        "semana": "SE33",
+        "se_num": 33,
+        "dosis_semana": 9,
+        "vacunados_acumulados": 115,
+        "cobertura_acumulada": 79.86,
+        "variacion_pp": 6.25,
+        "brecha": 29
+      },
+      {
+        "semana": "SE34",
+        "se_num": 34,
+        "dosis_semana": 9,
+        "vacunados_acumulados": 124,
+        "cobertura_acumulada": 86.11,
+        "variacion_pp": 6.25,
+        "brecha": 20
+      },
+      {
+        "semana": "SE35",
+        "se_num": 35,
+        "dosis_semana": 7,
+        "vacunados_acumulados": 131,
+        "cobertura_acumulada": 90.97,
+        "variacion_pp": 4.86,
+        "brecha": 13
+      },
+      {
+        "semana": "SE36",
+        "se_num": 36,
+        "dosis_semana": 1,
+        "vacunados_acumulados": 132,
+        "cobertura_acumulada": 91.67,
+        "variacion_pp": 0.69,
+        "brecha": 12
+      },
+      {
+        "semana": "SE37",
+        "se_num": 37,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 132,
+        "cobertura_acumulada": 91.67,
+        "variacion_pp": 0.0,
+        "brecha": 12
+      }
+    ],
+    "Río Negro": [
+      {
+        "semana": "SE3",
+        "se_num": 3,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 134
+      },
+      {
+        "semana": "SE4",
+        "se_num": 4,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 134
+      },
+      {
+        "semana": "SE5",
+        "se_num": 5,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 134
+      },
+      {
+        "semana": "SE6",
+        "se_num": 6,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 134
+      },
+      {
+        "semana": "SE7",
+        "se_num": 7,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 134
+      },
+      {
+        "semana": "SE8",
+        "se_num": 8,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 134
+      },
+      {
+        "semana": "SE9",
+        "se_num": 9,
+        "dosis_semana": 1,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.75,
+        "brecha": 133
+      },
+      {
+        "semana": "SE10",
+        "se_num": 10,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE11",
+        "se_num": 11,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE12",
+        "se_num": 12,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE13",
+        "se_num": 13,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE14",
+        "se_num": 14,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE15",
+        "se_num": 15,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE16",
+        "se_num": 16,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE17",
+        "se_num": 17,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE18",
+        "se_num": 18,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE19",
+        "se_num": 19,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE20",
+        "se_num": 20,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE21",
+        "se_num": 21,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE22",
+        "se_num": 22,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE23",
+        "se_num": 23,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE24",
+        "se_num": 24,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE25",
+        "se_num": 25,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE26",
+        "se_num": 26,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE27",
+        "se_num": 27,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE28",
+        "se_num": 28,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE29",
+        "se_num": 29,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.75,
+        "variacion_pp": 0.0,
+        "brecha": 133
+      },
+      {
+        "semana": "SE30",
+        "se_num": 30,
+        "dosis_semana": 21,
+        "vacunados_acumulados": 22,
+        "cobertura_acumulada": 16.42,
+        "variacion_pp": 15.67,
+        "brecha": 112
+      },
+      {
+        "semana": "SE31",
+        "se_num": 31,
+        "dosis_semana": 31,
+        "vacunados_acumulados": 53,
+        "cobertura_acumulada": 39.55,
+        "variacion_pp": 23.13,
+        "brecha": 81
+      },
+      {
+        "semana": "SE32",
+        "se_num": 32,
+        "dosis_semana": 56,
+        "vacunados_acumulados": 109,
+        "cobertura_acumulada": 81.34,
+        "variacion_pp": 41.79,
+        "brecha": 25
+      },
+      {
+        "semana": "SE33",
+        "se_num": 33,
+        "dosis_semana": 10,
+        "vacunados_acumulados": 119,
+        "cobertura_acumulada": 88.81,
+        "variacion_pp": 7.46,
+        "brecha": 15
+      },
+      {
+        "semana": "SE34",
+        "se_num": 34,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 119,
+        "cobertura_acumulada": 88.81,
+        "variacion_pp": 0.0,
+        "brecha": 15
+      },
+      {
+        "semana": "SE35",
+        "se_num": 35,
+        "dosis_semana": 1,
+        "vacunados_acumulados": 120,
+        "cobertura_acumulada": 89.55,
+        "variacion_pp": 0.75,
+        "brecha": 14
+      },
+      {
+        "semana": "SE36",
+        "se_num": 36,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 120,
+        "cobertura_acumulada": 89.55,
+        "variacion_pp": 0.0,
+        "brecha": 14
+      },
+      {
+        "semana": "SE37",
+        "se_num": 37,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 120,
+        "cobertura_acumulada": 89.55,
+        "variacion_pp": 0.0,
+        "brecha": 14
+      }
+    ],
+    "San Juan de la Costa": [
+      {
+        "semana": "SE3",
+        "se_num": 3,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE4",
+        "se_num": 4,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE5",
+        "se_num": 5,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE6",
+        "se_num": 6,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE7",
+        "se_num": 7,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE8",
+        "se_num": 8,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE9",
+        "se_num": 9,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE10",
+        "se_num": 10,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE11",
+        "se_num": 11,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE12",
+        "se_num": 12,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE13",
+        "se_num": 13,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE14",
+        "se_num": 14,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE15",
+        "se_num": 15,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE16",
+        "se_num": 16,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE17",
+        "se_num": 17,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE18",
+        "se_num": 18,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE19",
+        "se_num": 19,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE20",
+        "se_num": 20,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE21",
+        "se_num": 21,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE22",
+        "se_num": 22,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE23",
+        "se_num": 23,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE24",
+        "se_num": 24,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE25",
+        "se_num": 25,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE26",
+        "se_num": 26,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE27",
+        "se_num": 27,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE28",
+        "se_num": 28,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE29",
+        "se_num": 29,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 72
+      },
+      {
+        "semana": "SE30",
+        "se_num": 30,
+        "dosis_semana": 2,
+        "vacunados_acumulados": 2,
+        "cobertura_acumulada": 2.78,
+        "variacion_pp": 2.78,
+        "brecha": 70
+      },
+      {
+        "semana": "SE31",
+        "se_num": 31,
+        "dosis_semana": 28,
+        "vacunados_acumulados": 30,
+        "cobertura_acumulada": 41.67,
+        "variacion_pp": 38.89,
+        "brecha": 42
+      },
+      {
+        "semana": "SE32",
+        "se_num": 32,
+        "dosis_semana": 4,
+        "vacunados_acumulados": 34,
+        "cobertura_acumulada": 47.22,
+        "variacion_pp": 5.56,
+        "brecha": 38
+      },
+      {
+        "semana": "SE33",
+        "se_num": 33,
+        "dosis_semana": 12,
+        "vacunados_acumulados": 46,
+        "cobertura_acumulada": 63.89,
+        "variacion_pp": 16.67,
+        "brecha": 26
+      },
+      {
+        "semana": "SE34",
+        "se_num": 34,
+        "dosis_semana": 1,
+        "vacunados_acumulados": 47,
+        "cobertura_acumulada": 65.28,
+        "variacion_pp": 1.39,
+        "brecha": 25
+      },
+      {
+        "semana": "SE35",
+        "se_num": 35,
+        "dosis_semana": 10,
+        "vacunados_acumulados": 57,
+        "cobertura_acumulada": 79.17,
+        "variacion_pp": 13.89,
+        "brecha": 15
+      },
+      {
+        "semana": "SE36",
+        "se_num": 36,
+        "dosis_semana": 3,
+        "vacunados_acumulados": 60,
+        "cobertura_acumulada": 83.33,
+        "variacion_pp": 4.17,
+        "brecha": 12
+      },
+      {
+        "semana": "SE37",
+        "se_num": 37,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 60,
+        "cobertura_acumulada": 83.33,
+        "variacion_pp": 0.0,
+        "brecha": 12
+      }
+    ],
+    "San Pablo": [
+      {
+        "semana": "SE3",
+        "se_num": 3,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE4",
+        "se_num": 4,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE5",
+        "se_num": 5,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE6",
+        "se_num": 6,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE7",
+        "se_num": 7,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE8",
+        "se_num": 8,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE9",
+        "se_num": 9,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE10",
+        "se_num": 10,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE11",
+        "se_num": 11,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE12",
+        "se_num": 12,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE13",
+        "se_num": 13,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE14",
+        "se_num": 14,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE15",
+        "se_num": 15,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE16",
+        "se_num": 16,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE17",
+        "se_num": 17,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE18",
+        "se_num": 18,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE19",
+        "se_num": 19,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE20",
+        "se_num": 20,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE21",
+        "se_num": 21,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE22",
+        "se_num": 22,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE23",
+        "se_num": 23,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE24",
+        "se_num": 24,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE25",
+        "se_num": 25,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE26",
+        "se_num": 26,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE27",
+        "se_num": 27,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE28",
+        "se_num": 28,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE29",
+        "se_num": 29,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 0,
+        "cobertura_acumulada": 0.0,
+        "variacion_pp": 0.0,
+        "brecha": 113
+      },
+      {
+        "semana": "SE30",
+        "se_num": 30,
+        "dosis_semana": 1,
+        "vacunados_acumulados": 1,
+        "cobertura_acumulada": 0.88,
+        "variacion_pp": 0.88,
+        "brecha": 112
+      },
+      {
+        "semana": "SE31",
+        "se_num": 31,
+        "dosis_semana": 52,
+        "vacunados_acumulados": 53,
+        "cobertura_acumulada": 46.9,
+        "variacion_pp": 46.02,
+        "brecha": 60
+      },
+      {
+        "semana": "SE32",
+        "se_num": 32,
+        "dosis_semana": 47,
+        "vacunados_acumulados": 100,
+        "cobertura_acumulada": 88.5,
+        "variacion_pp": 41.59,
+        "brecha": 13
+      },
+      {
+        "semana": "SE33",
+        "se_num": 33,
+        "dosis_semana": 2,
+        "vacunados_acumulados": 102,
+        "cobertura_acumulada": 90.27,
+        "variacion_pp": 1.77,
+        "brecha": 11
+      },
+      {
+        "semana": "SE34",
+        "se_num": 34,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 102,
+        "cobertura_acumulada": 90.27,
+        "variacion_pp": 0.0,
+        "brecha": 11
+      },
+      {
+        "semana": "SE35",
+        "se_num": 35,
+        "dosis_semana": 3,
+        "vacunados_acumulados": 105,
+        "cobertura_acumulada": 92.92,
+        "variacion_pp": 2.65,
+        "brecha": 8
+      },
+      {
+        "semana": "SE36",
+        "se_num": 36,
+        "dosis_semana": 0,
+        "vacunados_acumulados": 105,
+        "cobertura_acumulada": 92.92,
+        "variacion_pp": 0.0,
+        "brecha": 8
+      },
+      {
+        "semana": "SE37",
+        "se_num": 37,
+        "dosis_semana": 1,
+        "vacunados_acumulados": 106,
+        "cobertura_acumulada": 93.81,
+        "variacion_pp": 0.88,
+        "brecha": 7
+      }
+    ]
+  },
+  "metas_comunales": {
+    "Osorno": 2056,
+    "Puerto Octay": 115,
+    "Purranque": 276,
+    "Puyehue": 144,
+    "Río Negro": 134,
+    "San Juan de la Costa": 72,
+    "San Pablo": 113
+  }
+}

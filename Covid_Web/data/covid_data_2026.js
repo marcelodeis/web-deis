@@ -1,11 +1,11 @@
 window.COVID_DATA_2026 = {
   "fuente": "Servidor DEIS–MINSAL",
-  "fecha_procesamiento": "24-09-2026 12:52",
-  "fecha_actualizacion": "16-09-2026",
-  "datos_disponibles_hasta": "16-09-2026",
-  "fecha_max_residencia": "16-09-2026",
-  "fecha_max_ocurrencia": "16-09-2026",
-  "ultima_se": 38,
+  "fecha_procesamiento": "01-10-2026 09:16",
+  "fecha_actualizacion": "30-09-2026",
+  "datos_disponibles_hasta": "30-09-2026",
+  "fecha_max_residencia": "30-09-2026",
+  "fecha_max_ocurrencia": "30-09-2026",
+  "ultima_se": 40,
   "headers": [
     "Moderna LP.8.1",
     "Pfizer LP.8.1"
@@ -2036,7 +2036,7 @@ window.COVID_DATA_2026 = {
         "Pfizer LP.8.1": {
           "6": 16,
           "7": 2,
-          "9": 3
+          "9": 8
         }
       },
       "datos_se": {
@@ -2047,10 +2047,11 @@ window.COVID_DATA_2026 = {
           "26": 1,
           "28": 1,
           "29": 1,
-          "38": 3
+          "38": 3,
+          "40": 5
         }
       },
-      "total": 21
+      "total": 26
     },
     {
       "comuna": "Osorno",
@@ -2205,7 +2206,8 @@ window.COVID_DATA_2026 = {
         },
         "Pfizer LP.8.1": {
           "6": 6,
-          "7": 5
+          "7": 5,
+          "9": 1
         }
       },
       "datos_se": {
@@ -2225,10 +2227,11 @@ window.COVID_DATA_2026 = {
           "24": 3,
           "25": 1,
           "26": 1,
-          "28": 5
+          "28": 5,
+          "40": 1
         }
       },
-      "total": 180
+      "total": 181
     },
     {
       "comuna": "Osorno",
@@ -3891,7 +3894,7 @@ window.COVID_DATA_2026 = {
           "5": 3,
           "6": 77,
           "7": 7,
-          "9": 3
+          "9": 8
         }
       },
       "datos_se": {
@@ -3904,10 +3907,11 @@ window.COVID_DATA_2026 = {
           "27": 4,
           "28": 4,
           "29": 1,
-          "38": 3
+          "38": 3,
+          "40": 5
         }
       },
-      "total": 90
+      "total": 95
     },
     {
       "comuna": "Osorno",
@@ -4240,7 +4244,8 @@ window.COVID_DATA_2026 = {
           "5": 15,
           "6": 107,
           "7": 23,
-          "8": 1
+          "8": 1,
+          "9": 1
         }
       },
       "datos_se": {
@@ -4268,10 +4273,11 @@ window.COVID_DATA_2026 = {
           "27": 9,
           "28": 14,
           "29": 3,
-          "35": 1
+          "35": 1,
+          "40": 1
         }
       },
-      "total": 1291
+      "total": 1292
     },
     {
       "comuna": "Puerto Octay",
@@ -16471,9 +16477,9 @@ window.COVID_DATA_2026 = {
   },
   "estab_privados": [
     "Clínica Alemana de Osorno",
+    "Centro de Salud Mutual CCHC Osorno",
     "Vacunatorio Sociedad Centro Médico Cochrane SA",
     "Vacunatorio VAXPLUS",
-    "Clínica de la ACHS Osorno",
-    "Centro de Salud Mutual CCHC Osorno"
+    "Clínica de la ACHS Osorno"
   ]
 };

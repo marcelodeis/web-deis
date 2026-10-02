@@ -1,0 +1,166 @@
+        <section id="modulo-rechazos" style="margin-top: 4rem; margin-bottom: 2rem;">
+            <div class="glass minsal-border" style="padding: 1.5rem; border-top-color: #6366f1;">
+                
+                <!-- NIVEL 1: PANORAMA PROVINCIAL -->
+                <div style="margin-bottom: 2.5rem;">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem; flex-wrap: wrap; gap: 15px;">
+                        <div>
+                            <div style="font-size: 0.75rem; color: #6366f1; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 0.25rem;">
+                                PANORAMA PROVINCIAL
+                            </div>
+                            <h2 style="color: #4f46e5; margin-bottom: 0.25rem; font-size: 1.25rem; display: flex; align-items: center; gap: 8px;">
+                                <i class="fas fa-user-xmark"></i> Rechazos registrados | Campaña Influenza
+                                <button class="chart-help-btn" onclick="openRechazosHelpModal(this)" title="Ayuda Interpretativa" style="margin-left: 8px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-icon">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="12" y1="16" x2="12" y2="12"></line>
+                                        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                    </svg>
+                                </button>
+                            </h2>
+                            <p style="color: #64748b; font-size: 0.85rem; font-weight: 500; margin-bottom: 0.5rem;">
+                                Análisis de personas con rechazo registrado, distribución territorial y comparación histórica por grupo objetivo.
+                            </p>
+                        </div>
+                        <div>
+                            <select id="rechazosGrupoFilter" class="glass-input main-filter" style="background: rgba(255,255,255,0.8); color: #333; border: 1px solid rgba(0,0,0,0.2); min-width: 200px;">
+                                <option value="all">&#127760; Todos los Grupos Objetivo</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Tarjetas Ejecutivas -->
+                    <div class="rescate-summary-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 1.5rem;">
+                        <div class="rescate-card glass" style="padding: 1rem; border-left: 4px solid #4f46e5;">
+                            <div id="rechazos-card1-title" style="font-size: 0.75rem; color: #64748b; font-weight: 700; text-transform: uppercase;">Total personas con rechazo</div>
+                            <div id="rechazos-total" style="font-size: 1.5rem; font-weight: 700; color: #1e293b; margin-top: 0.25rem;">-</div>
+                            <div id="rechazos-card1-subtitle" style="font-size: 0.75rem; color: #94a3b8; font-weight: 500; margin-top: 0.25rem;">RUT únicos registrados</div>
+                        </div>
+                        <div class="rescate-card glass" style="padding: 1rem; border-left: 4px solid #ef4444;">
+                            <div id="rechazos-card2-title" style="font-size: 0.75rem; color: #64748b; font-weight: 700; text-transform: uppercase;">Grupo con más rechazos</div>
+                            <div id="rechazos-top-grupo" style="font-size: 0.95rem; font-weight: 700; color: #1e293b; margin-top: 0.25rem; line-height: 1.2;">-</div>
+                            <div id="rechazos-top-grupo-stats" style="font-size: 0.8rem; color: #64748b; margin-top: 0.15rem;"></div>
+                        </div>
+                        <div class="rescate-card glass" style="padding: 1rem; border-left: 4px solid #f59e0b;">
+                            <div id="rechazos-card3-title" style="font-size: 0.75rem; color: #64748b; font-weight: 700; text-transform: uppercase;">Comuna con más rechazos</div>
+                            <div id="rechazos-top-comuna" style="font-size: 1.1rem; font-weight: 700; color: #1e293b; margin-top: 0.25rem;">-</div>
+                            <div id="rechazos-top-comuna-stats" style="font-size: 0.8rem; color: #64748b; margin-top: 0.15rem;"></div>
+                        </div>
+                        <div class="rescate-card glass" style="padding: 1rem; border-left: 4px solid #10b981;" id="rechazos-var-card">
+                            <div id="rechazos-card4-title" style="font-size: 0.75rem; color: #64748b; font-weight: 700; text-transform: uppercase;">Variación vs. año anterior</div>
+                            <div id="rechazos-variacion" style="font-size: 1.25rem; font-weight: 700; color: #1e293b; margin-top: 0.25rem;">-</div>
+                            <div id="rechazos-variacion-abs" style="font-size: 0.8rem; color: #64748b; margin-top: 0.15rem;"></div>
+                        </div>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+                        <!-- Ranking Automático de los 3 grupos -->
+                        <div style="background: rgba(248, 250, 252, 0.5); border: 1px solid rgba(226, 232, 240, 0.8); border-radius: 8px; padding: 1.25rem;">
+                            <h3 style="font-size: 1rem; margin-bottom: 1rem; color: #1e293b; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem;">
+                                <i class="fas fa-trophy" style="color: #f59e0b; margin-right: 6px;"></i><span id="rechazos-ranking-title">Grupos con más rechazos</span>
+                            </h3>
+                            <div id="rechazos-ranking-container" style="display: flex; flex-direction: column; gap: 0.75rem;">
+                            </div>
+                        </div>
+                        <!-- Gráfico Distribución Todos los Grupos -->
+                        <div>
+                            <h3 id="rechazos-distribucion-title" style="font-size: 1rem; margin-bottom: 0.2rem; color: #1e293b;">Distribución por grupo objetivo</h3>
+                            <div id="rechazos-distribucion-subtitle" style="font-size: 0.75rem; color: #64748b; margin-bottom: 1rem; display: none;">Se muestra el ranking provincial completo; el grupo activo aparece destacado.</div>
+                            <div style="position: relative; height: 280px; width: 100%;">
+                                <canvas id="rechazosGruposChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NIVEL 2: ANÁLISIS TERRITORIAL POR RESIDENCIA -->
+                <div style="margin-bottom: 3rem; background: rgba(248, 250, 252, 0.3); border-top: 1px solid #e2e8f0; padding-top: 1.5rem;">
+                    <div style="margin-bottom: 1.5rem;">
+                        <div style="font-size: 0.75rem; color: #4f46e5; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 0.25rem; display: flex; align-items: center; gap: 8px;">
+                            PERSPECTIVA POBLACIONAL · RESIDENCIA
+                            <span id="rechazos-territory-tag" style="background-color: #f1f5f9; color: #475569; padding: 3px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: 600; border: 1px solid #cbd5e1;">BASE RESIDENCIA 2026</span>
+                        </div>
+                        <h3 style="font-size: 1.15rem; margin-bottom: 0.25rem; color: #1e293b;">Análisis Territorial por Residencia <span id="rechazos-tabla-title-suffix" style="font-size: 0.8rem; color: #4f46e5; font-weight: 600; margin-left: 8px;"></span></h3>
+                        <div style="font-size: 0.85rem; color: #64748b; display: flex; align-items: center; gap: 6px;">
+                            <i class="fas fa-home" style="color: #94a3b8;"></i> Dónde viven las personas con rechazo registrado.
+                        </div>
+                    </div>
+                    
+                    <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: flex-start;">
+                        <div style="flex: 1 1 300px;">
+                            <div style="overflow-x: auto;">
+                                <table class="rescate-table" style="width: 100%; border-collapse: collapse; font-size: 0.85rem; text-align: left;">
+                                    <thead>
+                                        <tr style="border-bottom: 2px solid rgba(0,0,0,0.1); color: #64748b;">
+                                            <th style="padding: 8px;">Comuna</th>
+                                            <th style="padding: 8px; text-align: right;">Personas con rechazo</th>
+                                            <th style="padding: 8px; text-align: right;">% del total</th>
+                                            <th style="padding: 8px; text-align: center;">Variación Anual</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="rechazos-comunas-body">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div style="flex: 1 1 300px;">
+                            <h4 style="font-size: 0.9rem; margin-top: 0; margin-bottom: 0.5rem; color: #475569;">Comparación Histórica (2025-2026)</h4>
+                            <div style="position: relative; height: 250px; width: 100%;">
+                                <canvas id="rechazosHistoricoChart"></canvas>
+                            </div>
+                            <div id="rechazos-hist-leyenda" style="font-size: 0.75rem; color: #94a3b8; margin-top: 10px; text-align: right;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NIVEL 3: ANÁLISIS OPERACIONAL POR OCURRENCIA -->
+                <div style="margin-bottom: 2rem; background: rgba(240, 253, 250, 0.3); border-top: 2px solid #5eead4; padding-top: 1.5rem; padding-left: 1rem; padding-right: 1rem; border-radius: 0 0 8px 8px;">
+                    <div style="margin-bottom: 1.5rem;">
+                        <div style="font-size: 0.75rem; color: #0d9488; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 0.25rem; display: flex; align-items: center; gap: 8px;">
+                            PERSPECTIVA OPERACIONAL · OCURRENCIA
+                            <span style="background-color: #f0fdfa; color: #0f766e; padding: 3px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: 600; border: 1px solid #99f6e4;">BASE OCURRENCIA 2026</span>
+                        </div>
+                        <h3 style="font-size: 1.15rem; margin-bottom: 0.25rem; color: #1e293b;">Análisis Operacional por Ocurrencia</h3>
+                        <div style="font-size: 0.85rem; color: #64748b; display: flex; align-items: center; gap: 6px;">
+                            <i class="fas fa-hospital" style="color: #94a3b8;"></i> Dónde se registraron los rechazos y qué establecimientos concentran los registros.
+                        </div>
+                    </div>
+
+                    <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: stretch;">
+                        
+                        <!-- Panel de Detalle Comunal Dinámico (OCURRENCIA) -->
+                        <div id="rechazos-detalle-establecimientos" style="padding: 1.25rem; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); min-height: 150px; flex: 3 1 350px;">
+                            <div style="margin-bottom: 1.2rem;">
+                                <label for="rechazosOcurrenciaSelect" style="display: block; font-size: 0.8rem; font-weight: 600; color: #475569; margin-bottom: 0.4rem;">Filtro por Comuna de Ocurrencia:</label>
+                                <select id="rechazosOcurrenciaSelect" style="width: 100%; padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.85rem; color: #334155; background-color: #f8fafc; cursor: pointer; appearance: auto;">
+                                    <option value="all">Todas las comunas de ocurrencia</option>
+                                </select>
+                            </div>
+
+                            <div id="rechazos-est-content" style="color: #475569; font-size: 0.9rem;">
+                                Seleccione una comuna de ocurrencia para visualizar los establecimientos.
+                            </div>
+                        </div>
+                        
+                        <!-- HERRAMIENTA DE GESTIÓN (Auditoría Nominal) -->
+                        <div style="padding: 1.25rem; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; flex: 1 1 250px;">
+                            <div style="font-size: 0.7rem; color: #10b981; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 0.5rem;">
+                                HERRAMIENTA DE GESTIÓN
+                            </div>
+                            <h4 style="color: #0f172a; font-size: 0.95rem; font-weight: 700; margin: 0 0 8px 0;"><i class="fas fa-file-excel" style="color: #10b981; margin-right: 6px;"></i>Auditoría Nominal</h4>
+                            <div style="background: #fffbeb; color: #b45309; border: 1px solid #fde68a; padding: 6px 10px; border-radius: 6px; font-size: 0.75rem; margin-bottom: 1rem; display: inline-flex; align-items: flex-start; gap: 6px; text-align: left;">
+                                <i class="fas fa-lock" style="margin-top: 2px;"></i>
+                                <span>Descarga protegida para gestión y revisión de rechazos.</span>
+                            </div>
+                            <a href="Rechazos_Influenza_General_2026.xlsx" download style="background: #10b981; color: white; border: none; padding: 10px 16px; border-radius: 6px; font-weight: 600; font-size: 0.9rem; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 6px -1px rgba(16, 185, 129, 0.3); transition: all 0.2s; width: 100%; justify-content: center;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 10px -1px rgba(16, 185, 129, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px -1px rgba(16, 185, 129, 0.3)';">
+                                <i class="fas fa-download"></i> Descargar Excel
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 2.5rem; padding: 1.25rem; background: rgba(241, 245, 249, 0.5); border-radius: 8px; border-left: 3px solid #cbd5e1; font-size: 0.85rem; line-height: 1.5; color: #475569;">
+                    <b style="color: #334155;">Nota Técnica:</b> La unidad de análisis corresponde a personas con rechazo registrado para la Campaña Influenza. La identificación se realiza mediante RUT y el conteo considera personas únicas dentro de cada campaña. El análisis territorial utiliza comuna de residencia y se restringe al territorio definido para el reporte. Los porcentajes del ranking de grupos se calculan respecto del total provincial de personas con rechazo del año seleccionado. Las comparaciones entre años se realizan únicamente cuando existen datos válidos y grupos homologables; la ausencia de información se presenta como N/D y no como cero.
+                </div>
+            </div>
+        </section>

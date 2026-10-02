@@ -1,0 +1,3525 @@
+window.rescatesDataV5 = {
+  "fecha_corte_evaluacion": "11-09-2026",
+  "base_procesada": "16-09-2026 15:34:17",
+  "Hexavalente 2.ª": {
+    "totales": {
+      "COHORTE_INICIAL": 1251,
+      "CONFIRMADOS_R10": 1240,
+      "SIN_EVIDENCIA_R10": 11
+    },
+    "comunas": {
+      "OSORNO": {
+        "Centro Comunitario de Salud Familiar Manuel Rodríguez": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 9,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro Comunitario de Salud Familiar Murrinumo": {
+          "RESCATE_ACTIVO": 2,
+          "AUN_NO_CORRESPONDE": 4,
+          "ESQUEMA_AL_DIA": 14,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 9,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 2,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams": {
+          "RESCATE_ACTIVO": 6,
+          "AUN_NO_CORRESPONDE": 29,
+          "ESQUEMA_AL_DIA": 96,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 430,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 3,
+            "b_31_90": 0,
+            "b_91_180": 3,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Dr. Pedro Jáuregui": {
+          "RESCATE_ACTIVO": 6,
+          "AUN_NO_CORRESPONDE": 24,
+          "ESQUEMA_AL_DIA": 57,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 225,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 3,
+            "b_31_90": 1,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Ovejería": {
+          "RESCATE_ACTIVO": 2,
+          "AUN_NO_CORRESPONDE": 18,
+          "ESQUEMA_AL_DIA": 53,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 114,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Pampa Alegre": {
+          "RESCATE_ACTIVO": 2,
+          "AUN_NO_CORRESPONDE": 17,
+          "ESQUEMA_AL_DIA": 66,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 65,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 1,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Quinto Centenario": {
+          "RESCATE_ACTIVO": 8,
+          "AUN_NO_CORRESPONDE": 23,
+          "ESQUEMA_AL_DIA": 91,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 1,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 372,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 5,
+            "b_31_90": 2,
+            "b_91_180": 0,
+            "b_181_365": 1,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Rahue Alto": {
+          "RESCATE_ACTIVO": 4,
+          "AUN_NO_CORRESPONDE": 19,
+          "ESQUEMA_AL_DIA": 55,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 1,
+          "SUMA_DIAS_ATRASO": 57,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 3,
+            "b_31_90": 1,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Clínica Alemana de Osorno": {
+          "RESCATE_ACTIVO": 24,
+          "AUN_NO_CORRESPONDE": 67,
+          "ESQUEMA_AL_DIA": 181,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 9,
+          "FUERA_COHORTE_EDAD": 1,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 2483,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 8,
+            "b_31_90": 1,
+            "b_91_180": 9,
+            "b_181_365": 5,
+            "b_mas_365": 0
+          }
+        },
+        "Hospital Base San José de Osorno": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 6,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Cancura": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 7,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Pichi Damas": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 2,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Vacunatorio Sociedad Centro Médico Cochrane SA": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 1,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Vacunatorio VAXPLUS": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 9,
+          "ESQUEMA_AL_DIA": 12,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "PUERTO OCTAY": {
+        "Hospital de Puerto Octay": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 9,
+          "ESQUEMA_AL_DIA": 18,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Cascadas": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 3,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural La Calo": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Pellinada": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Piedras Negras": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 2,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Rupanco": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 50,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 1,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "PURRANQUE": {
+        "Centro Comunitario de Salud Familiar Barrio Estación": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro Comunitario de Salud Familiar Corte Alto": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 4,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Purranque": {
+          "RESCATE_ACTIVO": 8,
+          "AUN_NO_CORRESPONDE": 17,
+          "ESQUEMA_AL_DIA": 60,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 349,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 4,
+            "b_31_90": 2,
+            "b_91_180": 0,
+            "b_181_365": 1,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Colonia Ponce": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "PUYEHUE": {
+        "Centro de Salud Familiar Entre Lagos": {
+          "RESCATE_ACTIVO": 3,
+          "AUN_NO_CORRESPONDE": 16,
+          "ESQUEMA_AL_DIA": 43,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 13,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 3,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "RIO NEGRO": {
+        "Centro Comunitario de Salud Familiar Riachuelo": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 3,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 7,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)": {
+          "RESCATE_ACTIVO": 5,
+          "AUN_NO_CORRESPONDE": 11,
+          "ESQUEMA_AL_DIA": 42,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 205,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 2,
+            "b_31_90": 1,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Huilma": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "SAN JUAN DE LA COSTA": {
+        "Centro de Salud Familiar Bahía Mansa": {
+          "RESCATE_ACTIVO": 2,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 3,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 190,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Puaucho": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 8,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 1,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Hospital Futa Sruka Lawenche Kunko Mapu Mo": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 4,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "SAN PABLO": {
+        "Centro de Salud Familiar San Pablo": {
+          "RESCATE_ACTIVO": 5,
+          "AUN_NO_CORRESPONDE": 5,
+          "ESQUEMA_AL_DIA": 35,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 578,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 4,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Hospital Pu Mulen Quilacahuín": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 2,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      }
+    }
+  },
+  "Hexavalente 3.ª": {
+    "totales": {
+      "COHORTE_INICIAL": 1255,
+      "CONFIRMADOS_R10": 1239,
+      "SIN_EVIDENCIA_R10": 16
+    },
+    "comunas": {
+      "OSORNO": {
+        "Centro Comunitario de Salud Familiar Manuel Rodríguez": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 11,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro Comunitario de Salud Familiar Murrinumo": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 4,
+          "ESQUEMA_AL_DIA": 11,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams": {
+          "RESCATE_ACTIVO": 7,
+          "AUN_NO_CORRESPONDE": 30,
+          "ESQUEMA_AL_DIA": 97,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 205,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 5,
+            "b_31_90": 2,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Dr. Pedro Jáuregui": {
+          "RESCATE_ACTIVO": 6,
+          "AUN_NO_CORRESPONDE": 21,
+          "ESQUEMA_AL_DIA": 58,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 307,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 2,
+            "b_31_90": 2,
+            "b_91_180": 2,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Ovejería": {
+          "RESCATE_ACTIVO": 3,
+          "AUN_NO_CORRESPONDE": 13,
+          "ESQUEMA_AL_DIA": 52,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 326,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 1,
+            "b_91_180": 2,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Pampa Alegre": {
+          "RESCATE_ACTIVO": 11,
+          "AUN_NO_CORRESPONDE": 17,
+          "ESQUEMA_AL_DIA": 62,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 914,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 2,
+            "b_31_90": 5,
+            "b_91_180": 3,
+            "b_181_365": 1,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Quinto Centenario": {
+          "RESCATE_ACTIVO": 5,
+          "AUN_NO_CORRESPONDE": 24,
+          "ESQUEMA_AL_DIA": 93,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 97,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 4,
+            "b_31_90": 1,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Rahue Alto": {
+          "RESCATE_ACTIVO": 8,
+          "AUN_NO_CORRESPONDE": 17,
+          "ESQUEMA_AL_DIA": 53,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 337,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 4,
+            "b_31_90": 3,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Clínica Alemana de Osorno": {
+          "RESCATE_ACTIVO": 33,
+          "AUN_NO_CORRESPONDE": 62,
+          "ESQUEMA_AL_DIA": 177,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 14,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 2927,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 11,
+            "b_31_90": 4,
+            "b_91_180": 8,
+            "b_181_365": 8,
+            "b_mas_365": 0
+          }
+        },
+        "Hospital Base San José de Osorno": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 2,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 106,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Cancura": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 5,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 26,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Pichi Damas": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 2,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Vacunatorio VAXPLUS": {
+          "RESCATE_ACTIVO": 2,
+          "AUN_NO_CORRESPONDE": 9,
+          "ESQUEMA_AL_DIA": 13,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 141,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "PUERTO OCTAY": {
+        "Hospital de Puerto Octay": {
+          "RESCATE_ACTIVO": 2,
+          "AUN_NO_CORRESPONDE": 8,
+          "ESQUEMA_AL_DIA": 16,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 5,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 2,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Cascadas": {
+          "RESCATE_ACTIVO": 2,
+          "AUN_NO_CORRESPONDE": 2,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 38,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 1,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural La Calo": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 2,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Pellinada": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Piedras Negras": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Rupanco": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "PURRANQUE": {
+        "Centro Comunitario de Salud Familiar Barrio Estación": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro Comunitario de Salud Familiar Corte Alto": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 4,
+          "ESQUEMA_AL_DIA": 2,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Purranque": {
+          "RESCATE_ACTIVO": 12,
+          "AUN_NO_CORRESPONDE": 12,
+          "ESQUEMA_AL_DIA": 54,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 1015,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 3,
+            "b_31_90": 3,
+            "b_91_180": 5,
+            "b_181_365": 1,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Concordia": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "PUYEHUE": {
+        "Centro de Salud Familiar Entre Lagos": {
+          "RESCATE_ACTIVO": 2,
+          "AUN_NO_CORRESPONDE": 5,
+          "ESQUEMA_AL_DIA": 59,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 2,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 199,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 1,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "RIO NEGRO": {
+        "Centro Comunitario de Salud Familiar Riachuelo": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 2,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)": {
+          "RESCATE_ACTIVO": 12,
+          "AUN_NO_CORRESPONDE": 10,
+          "ESQUEMA_AL_DIA": 39,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 966,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 4,
+            "b_31_90": 3,
+            "b_91_180": 4,
+            "b_181_365": 1,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Huilma": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "SAN JUAN DE LA COSTA": {
+        "Centro de Salud Familiar Bahía Mansa": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 5,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 2,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Puaucho": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 10,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Hospital Futa Sruka Lawenche Kunko Mapu Mo": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 3,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "SAN PABLO": {
+        "Centro de Salud Familiar San Pablo": {
+          "RESCATE_ACTIVO": 3,
+          "AUN_NO_CORRESPONDE": 7,
+          "ESQUEMA_AL_DIA": 39,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 47,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 2,
+            "b_31_90": 1,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Hospital Pu Mulen Quilacahuín": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 2,
+          "ESQUEMA_AL_DIA": 3,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      }
+    }
+  },
+  "Neumocócica 2.ª": {
+    "totales": {
+      "COHORTE_INICIAL": 1269,
+      "CONFIRMADOS_R10": 1257,
+      "SIN_EVIDENCIA_R10": 12
+    },
+    "comunas": {
+      "OSORNO": {
+        "Centro Comunitario de Salud Familiar Manuel Rodríguez": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 9,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro Comunitario de Salud Familiar Murrinumo": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 4,
+          "ESQUEMA_AL_DIA": 14,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 7,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams": {
+          "RESCATE_ACTIVO": 6,
+          "AUN_NO_CORRESPONDE": 29,
+          "ESQUEMA_AL_DIA": 96,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 430,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 3,
+            "b_31_90": 0,
+            "b_91_180": 3,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Dr. Pedro Jáuregui": {
+          "RESCATE_ACTIVO": 7,
+          "AUN_NO_CORRESPONDE": 24,
+          "ESQUEMA_AL_DIA": 57,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 244,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 4,
+            "b_31_90": 1,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Ovejería": {
+          "RESCATE_ACTIVO": 2,
+          "AUN_NO_CORRESPONDE": 18,
+          "ESQUEMA_AL_DIA": 53,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 114,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Pampa Alegre": {
+          "RESCATE_ACTIVO": 2,
+          "AUN_NO_CORRESPONDE": 17,
+          "ESQUEMA_AL_DIA": 66,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 65,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 1,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Quinto Centenario": {
+          "RESCATE_ACTIVO": 10,
+          "AUN_NO_CORRESPONDE": 22,
+          "ESQUEMA_AL_DIA": 87,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 1,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 446,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 6,
+            "b_31_90": 3,
+            "b_91_180": 0,
+            "b_181_365": 1,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Rahue Alto": {
+          "RESCATE_ACTIVO": 4,
+          "AUN_NO_CORRESPONDE": 19,
+          "ESQUEMA_AL_DIA": 56,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 57,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 3,
+            "b_31_90": 1,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Clínica Alemana de Osorno": {
+          "RESCATE_ACTIVO": 26,
+          "AUN_NO_CORRESPONDE": 67,
+          "ESQUEMA_AL_DIA": 193,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 10,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 2659,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 8,
+            "b_31_90": 2,
+            "b_91_180": 10,
+            "b_181_365": 5,
+            "b_mas_365": 0
+          }
+        },
+        "Hospital Base San José de Osorno": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 13,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Cancura": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 6,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Pichi Damas": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 2,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Vacunatorio Sociedad Centro Médico Cochrane SA": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 1,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Vacunatorio VAXPLUS": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 9,
+          "ESQUEMA_AL_DIA": 12,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "PUERTO OCTAY": {
+        "Hospital de Puerto Octay": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 9,
+          "ESQUEMA_AL_DIA": 18,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Cascadas": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 3,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural La Calo": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 2,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Pellinada": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Piedras Negras": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Rupanco": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 2,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "PURRANQUE": {
+        "Centro Comunitario de Salud Familiar Barrio Estación": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro Comunitario de Salud Familiar Corte Alto": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 4,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Purranque": {
+          "RESCATE_ACTIVO": 8,
+          "AUN_NO_CORRESPONDE": 17,
+          "ESQUEMA_AL_DIA": 60,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 349,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 4,
+            "b_31_90": 2,
+            "b_91_180": 0,
+            "b_181_365": 1,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Colonia Ponce": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "PUYEHUE": {
+        "Centro de Salud Familiar Entre Lagos": {
+          "RESCATE_ACTIVO": 3,
+          "AUN_NO_CORRESPONDE": 16,
+          "ESQUEMA_AL_DIA": 44,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 13,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 3,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "RIO NEGRO": {
+        "Centro Comunitario de Salud Familiar Riachuelo": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 3,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 7,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)": {
+          "RESCATE_ACTIVO": 6,
+          "AUN_NO_CORRESPONDE": 10,
+          "ESQUEMA_AL_DIA": 42,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 232,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 3,
+            "b_31_90": 1,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Huilma": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "SAN JUAN DE LA COSTA": {
+        "Centro de Salud Familiar Bahía Mansa": {
+          "RESCATE_ACTIVO": 2,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 3,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 190,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Puaucho": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 8,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 1,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Hospital Futa Sruka Lawenche Kunko Mapu Mo": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 4,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "SAN PABLO": {
+        "Centro de Salud Familiar San Pablo": {
+          "RESCATE_ACTIVO": 5,
+          "AUN_NO_CORRESPONDE": 5,
+          "ESQUEMA_AL_DIA": 35,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 578,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 4,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Hospital Pu Mulen Quilacahuín": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 2,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      }
+    }
+  },
+  "Meningocócica B 2.ª": {
+    "totales": {
+      "COHORTE_INICIAL": 1436,
+      "CONFIRMADOS_R10": 1420,
+      "SIN_EVIDENCIA_R10": 16
+    },
+    "comunas": {
+      "OSORNO": {
+        "Centro Comunitario de Salud Familiar Manuel Rodríguez": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 9,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro Comunitario de Salud Familiar Murrinumo": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 5,
+          "ESQUEMA_AL_DIA": 14,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 4,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams": {
+          "RESCATE_ACTIVO": 5,
+          "AUN_NO_CORRESPONDE": 31,
+          "ESQUEMA_AL_DIA": 95,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 1,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 494,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 4,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Dr. Pedro Jáuregui": {
+          "RESCATE_ACTIVO": 3,
+          "AUN_NO_CORRESPONDE": 27,
+          "ESQUEMA_AL_DIA": 57,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 1,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 176,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 2,
+            "b_31_90": 0,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Ovejería": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 19,
+          "ESQUEMA_AL_DIA": 53,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 109,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Pampa Alegre": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 18,
+          "ESQUEMA_AL_DIA": 66,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 30,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Quinto Centenario": {
+          "RESCATE_ACTIVO": 7,
+          "AUN_NO_CORRESPONDE": 25,
+          "ESQUEMA_AL_DIA": 91,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 1,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 375,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 4,
+            "b_31_90": 2,
+            "b_91_180": 0,
+            "b_181_365": 1,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Rahue Alto": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 22,
+          "ESQUEMA_AL_DIA": 55,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 1,
+          "SUMA_DIAS_ATRASO": 16,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Clínica Alemana de Osorno": {
+          "RESCATE_ACTIVO": 26,
+          "AUN_NO_CORRESPONDE": 68,
+          "ESQUEMA_AL_DIA": 178,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 9,
+          "FUERA_COHORTE_EDAD": 20,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 2699,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 8,
+            "b_31_90": 2,
+            "b_91_180": 12,
+            "b_181_365": 4,
+            "b_mas_365": 0
+          }
+        },
+        "Hospital Base San José de Osorno": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 6,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 5,
+          "FUERA_COHORTE_EDAD": 153,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Cancura": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 7,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Pichi Damas": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 2,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Vacunatorio Sociedad Centro Médico Cochrane SA": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 1,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Vacunatorio VAXPLUS": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 9,
+          "ESQUEMA_AL_DIA": 12,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "PUERTO OCTAY": {
+        "Hospital de Puerto Octay": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 9,
+          "ESQUEMA_AL_DIA": 18,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Cascadas": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 3,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural La Calo": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 2,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Pellinada": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Piedras Negras": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 2,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Rupanco": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 2,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 19,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "PURRANQUE": {
+        "Centro Comunitario de Salud Familiar Barrio Estación": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro Comunitario de Salud Familiar Corte Alto": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 4,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Purranque": {
+          "RESCATE_ACTIVO": 3,
+          "AUN_NO_CORRESPONDE": 22,
+          "ESQUEMA_AL_DIA": 60,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 1,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 289,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 1,
+            "b_91_180": 0,
+            "b_181_365": 1,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Colonia Ponce": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "PUYEHUE": {
+        "Centro de Salud Familiar Entre Lagos": {
+          "RESCATE_ACTIVO": 2,
+          "AUN_NO_CORRESPONDE": 17,
+          "ESQUEMA_AL_DIA": 43,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 3,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 2,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "RIO NEGRO": {
+        "Centro Comunitario de Salud Familiar Riachuelo": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 3,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)": {
+          "RESCATE_ACTIVO": 3,
+          "AUN_NO_CORRESPONDE": 13,
+          "ESQUEMA_AL_DIA": 42,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 173,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 1,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Huilma": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "SAN JUAN DE LA COSTA": {
+        "Centro de Salud Familiar Bahía Mansa": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 4,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 168,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Puaucho": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 8,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Hospital Futa Sruka Lawenche Kunko Mapu Mo": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 4,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "SAN PABLO": {
+        "Centro de Salud Familiar San Pablo": {
+          "RESCATE_ACTIVO": 4,
+          "AUN_NO_CORRESPONDE": 6,
+          "ESQUEMA_AL_DIA": 35,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 572,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 4,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Hospital Pu Mulen Quilacahuín": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 2,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      }
+    }
+  },
+  "SRP 2.ª": {
+    "totales": {
+      "COHORTE_INICIAL": 1257,
+      "CONFIRMADOS_R10": 1254,
+      "SIN_EVIDENCIA_R10": 3
+    },
+    "comunas": {
+      "OSORNO": {
+        "Centro Comunitario de Salud Familiar Manuel Rodríguez": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 11,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 2,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro Comunitario de Salud Familiar Murrinumo": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 13,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 2,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 149,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 7,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 192,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 1,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Dr. Pedro Jáuregui": {
+          "RESCATE_ACTIVO": 2,
+          "AUN_NO_CORRESPONDE": 98,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 3,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 19,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 2,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Ovejería": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 73,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 10,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 141,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Pampa Alegre": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 86,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 8,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Quinto Centenario": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 118,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 12,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Rahue Alto": {
+          "RESCATE_ACTIVO": 2,
+          "AUN_NO_CORRESPONDE": 80,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 8,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 48,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 2,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Clínica Alemana de Osorno": {
+          "RESCATE_ACTIVO": 3,
+          "AUN_NO_CORRESPONDE": 134,
+          "ESQUEMA_AL_DIA": 3,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 3,
+          "FUERA_COHORTE_EDAD": 11,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 362,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 1,
+            "b_91_180": 1,
+            "b_181_365": 1,
+            "b_mas_365": 0
+          }
+        },
+        "Hospital Base San José de Osorno": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 2,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Cancura": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 3,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 4,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Vacunatorio Sociedad Centro Médico Cochrane SA": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Vacunatorio VAXPLUS": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 36,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 2,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "PUERTO OCTAY": {
+        "Hospital de Puerto Octay": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 25,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 2,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Cascadas": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 2,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Coihueco (Puerto Octay)": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 1,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural La Calo": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 4,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Pellinada": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 3,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Rupanco": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 2,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "PURRANQUE": {
+        "Centro Comunitario de Salud Familiar Corte Alto": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 11,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Purranque": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 95,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 6,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "PUYEHUE": {
+        "Centro Comunitario de Salud Familiar El Encanto": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Entre Lagos": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 60,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 7,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "RIO NEGRO": {
+        "Centro Comunitario de Salud Familiar Riachuelo": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 3,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 48,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 1,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 158,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Huilma": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 1,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Tres Esteros": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "SAN JUAN DE LA COSTA": {
+        "Centro de Salud Familiar Bahía Mansa": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 18,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Puaucho": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 14,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 1,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 31,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 1,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Hospital Futa Sruka Lawenche Kunko Mapu Mo": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 5,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "SAN PABLO": {
+        "Centro de Salud Familiar San Pablo": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 39,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 6,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Hospital Pu Mulen Quilacahuín": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 7,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      }
+    }
+  },
+  "Varicela 2.ª": {
+    "totales": {
+      "COHORTE_INICIAL": 1365,
+      "CONFIRMADOS_R10": 1352,
+      "SIN_EVIDENCIA_R10": 13
+    },
+    "comunas": {
+      "OSORNO": {
+        "Centro Comunitario de Salud Familiar Manuel Rodríguez": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 9,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro Comunitario de Salud Familiar Murrinumo": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 14,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Dr. Marcelo Lopetegui Adams": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 149,
+          "ESQUEMA_AL_DIA": 3,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 24,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Dr. Pedro Jáuregui": {
+          "RESCATE_ACTIVO": 2,
+          "AUN_NO_CORRESPONDE": 96,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 1,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 93,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Ovejería": {
+          "RESCATE_ACTIVO": 2,
+          "AUN_NO_CORRESPONDE": 83,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 157,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 2,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Pampa Alegre": {
+          "RESCATE_ACTIVO": 3,
+          "AUN_NO_CORRESPONDE": 106,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 132,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 1,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Quinto Centenario": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 125,
+          "ESQUEMA_AL_DIA": 2,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Rahue Alto": {
+          "RESCATE_ACTIVO": 3,
+          "AUN_NO_CORRESPONDE": 84,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 1,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 193,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 1,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Clínica Alemana de Osorno": {
+          "RESCATE_ACTIVO": 3,
+          "AUN_NO_CORRESPONDE": 136,
+          "ESQUEMA_AL_DIA": 3,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 10,
+          "FUERA_COHORTE_EDAD": 17,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 347,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 1,
+            "b_91_180": 2,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Hospital Base San José de Osorno": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 1,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Cancura": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 5,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Pichi Damas": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Vacunatorio Sociedad Centro Médico Cochrane SA": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 5,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 1,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Vacunatorio VAXPLUS": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 26,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "PUERTO OCTAY": {
+        "Hospital de Puerto Octay": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 29,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Cascadas": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 8,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Coihueco (Puerto Octay)": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 149,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural La Calo": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 4,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 2,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Pellinada": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 0,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 17,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 1,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Piedras Negras": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 3,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Rupanco": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 11,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "PURRANQUE": {
+        "Centro Comunitario de Salud Familiar Barrio Estación": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro Comunitario de Salud Familiar Corte Alto": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 4,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Purranque": {
+          "RESCATE_ACTIVO": 4,
+          "AUN_NO_CORRESPONDE": 119,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 1,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 426,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 1,
+            "b_91_180": 3,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Hueyusca": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "PUYEHUE": {
+        "Centro Comunitario de Salud Familiar El Encanto": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 7,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Entre Lagos": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 86,
+          "ESQUEMA_AL_DIA": 2,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 1,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 158,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "RIO NEGRO": {
+        "Centro Comunitario de Salud Familiar Riachuelo": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 2,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Practicante Pablo Araya (Ex Río Negro)": {
+          "RESCATE_ACTIVO": 6,
+          "AUN_NO_CORRESPONDE": 68,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 307,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 3,
+            "b_31_90": 1,
+            "b_91_180": 2,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "PSR Chan Chan Río Negro": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Posta de Salud Rural Tres Esteros": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 1,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "SAN JUAN DE LA COSTA": {
+        "Centro de Salud Familiar Bahía Mansa": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 13,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Centro de Salud Familiar Puaucho": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 21,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Hospital Futa Sruka Lawenche Kunko Mapu Mo": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 9,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      },
+      "SAN PABLO": {
+        "Centro de Salud Familiar San Pablo": {
+          "RESCATE_ACTIVO": 1,
+          "AUN_NO_CORRESPONDE": 50,
+          "ESQUEMA_AL_DIA": 1,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 97,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 1,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        },
+        "Hospital Pu Mulen Quilacahuín": {
+          "RESCATE_ACTIVO": 0,
+          "AUN_NO_CORRESPONDE": 5,
+          "ESQUEMA_AL_DIA": 0,
+          "FALLECIDO": 0,
+          "SIN_EVIDENCIA_RESIDENCIA": 0,
+          "FUERA_COHORTE_EDAD": 0,
+          "ERROR_SECUENCIA": 0,
+          "SUMA_DIAS_ATRASO": 0,
+          "CUBETAS_ATRASO": {
+            "b_1_30": 0,
+            "b_31_90": 0,
+            "b_91_180": 0,
+            "b_181_365": 0,
+            "b_mas_365": 0
+          }
+        }
+      }
+    }
+  }
+};

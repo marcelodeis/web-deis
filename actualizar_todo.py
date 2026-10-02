@@ -16,8 +16,9 @@ SCRIPTS = [
     r"generar_rechazos_influenza.py", # ADDED! Generates Rechazos Excel files
     
     # Programaticas
-    # Replaced generate_data_2026 with generar_rescates_v5 since it handles everything now
     r"Programáticas_Web\generar_rescates_v5.py",
+    r"Programáticas_Web\generate_data_2026.py",
+    r"Programáticas_Web\generate_autoconsulta_index.py",
     
     # VRS
     r"VRS\Scripts_Procesamiento\parse_vrs.py", # This also generates Excel files for VRS
@@ -29,7 +30,8 @@ SCRIPTS = [
     r"VPH_Web\integrar_ocurrencia.py",
     r"VPH_Web\scripts\generar_indice_vph.py",
     
-    # Actualizar Cache Busters
+    # Actualizar Cache Busters y Fechas
+    r"update_dates.py",
     r"update_cache_busters.py",
     
     # Finalmente construir para Cloudflare
@@ -46,18 +48,19 @@ def run_script(script_path):
     print(f"{'='*50}")
     
     # Determinar el directorio de trabajo basándose en la ubicación del script
-    parts = os.path.normpath(script_path).split(os.sep)
-    if len(parts) > 1 and parts[0] != script_path:
-        cwd = os.path.abspath(parts[0])
+    # Se debe ejecutar desde la misma carpeta donde reside el script
+    script_dir = os.path.dirname(os.path.abspath(script_path))
+    if script_dir:
+        cwd = script_dir
     else:
         cwd = os.path.abspath('.')
         
     try:
-        # Run relative to cwd
-        rel_path = os.path.relpath(os.path.abspath(script_path), cwd)
+        # Run using just the basename since we are already in cwd
+        script_basename = os.path.basename(script_path)
         
         result = subprocess.run(
-            [sys.executable, rel_path],
+            [sys.executable, script_basename],
             cwd=cwd,
             check=True
         )

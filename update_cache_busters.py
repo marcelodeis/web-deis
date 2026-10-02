@@ -17,13 +17,19 @@ for root, dirs, files in os.walk('.'):
     for name in files:
         if name == 'index.html':
             filepath = os.path.join(root, name)
-            with open(filepath, 'r', encoding='utf-8') as f:
-                content = f.read()
+            try:
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                encoding_used = 'utf-8'
+            except UnicodeDecodeError:
+                with open(filepath, 'r', encoding='latin-1') as f:
+                    content = f.read()
+                encoding_used = 'latin-1'
             
             new_content = pattern.sub(increment_version, content)
             
             if new_content != content:
-                with open(filepath, 'w', encoding='utf-8') as f:
+                with open(filepath, 'w', encoding=encoding_used) as f:
                     f.write(new_content)
                 count += 1
                 print(f'Updated cache busters in {filepath}')

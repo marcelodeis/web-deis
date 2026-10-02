@@ -1,0 +1,203 @@
+window.dataNeonatal = {
+  "2025": {
+    "total_nacidos": 1827,
+    "bcg": {
+      "universo": 1827,
+      "excluidos": 9,
+      "elegibles": 1818,
+      "vacunados": 1811,
+      "pendientes": 7,
+      "fallecidos": 8,
+      "rechazados": 1,
+      "distribucion_hospital": {
+        "HOSPITAL DE OSORNO": 7
+      },
+      "hospital_elegibles": {
+        "CLINICA ALEMANA DE OSORNO": 425,
+        "HOSPITAL DE OSORNO": 1390,
+        "Hospital de Purranque": 2,
+        "Hospital Rio Negro": 1
+      },
+      "distribucion_comuna": {
+        "OSORNO": 2,
+        "PUYEHUE": 1,
+        "RÍO NEGRO": 2,
+        "LA UNIÓN": 2
+      },
+      "evolucion_mensual": {
+        "02": 2,
+        "05": 1,
+        "04": 2,
+        "03": 2
+      },
+      "mes_elegibles": {
+        "02": 127,
+        "06": 153,
+        "11": 146,
+        "07": 144,
+        "03": 176,
+        "04": 184,
+        "09": 129,
+        "08": 155,
+        "01": 159,
+        "05": 128,
+        "12": 154,
+        "10": 163
+      },
+      "causales_exclusion": {
+        "Fallecimiento": 8,
+        "Solicitud del padre/madre o responsable": 1
+      },
+      "calidad_dato": {
+        "rechazos": 1
+      }
+    },
+    "hepb": {
+      "universo": 1827,
+      "excluidos": 10,
+      "elegibles": 1817,
+      "vacunados": 1813,
+      "pendientes": 4,
+      "fallecidos": 8,
+      "rechazados": 2,
+      "distribucion_hospital": {
+        "HOSPITAL DE OSORNO": 4
+      },
+      "hospital_elegibles": {
+        "CLINICA ALEMANA DE OSORNO": 425,
+        "HOSPITAL DE OSORNO": 1389,
+        "Hospital de Purranque": 2,
+        "Hospital Rio Negro": 1
+      },
+      "distribucion_comuna": {
+        "OSORNO": 2,
+        "PURRANQUE": 1,
+        "PUYEHUE": 1
+      },
+      "evolucion_mensual": {
+        "08": 1,
+        "01": 1,
+        "04": 2
+      },
+      "mes_elegibles": {
+        "02": 127,
+        "06": 153,
+        "11": 146,
+        "07": 144,
+        "03": 176,
+        "04": 184,
+        "09": 129,
+        "08": 155,
+        "01": 159,
+        "05": 128,
+        "12": 153,
+        "10": 163
+      },
+      "causales_exclusion": {
+        "Fallecimiento": 8,
+        "Solicitud del padre/madre o responsable": 2
+      },
+      "calidad_dato": {
+        "rechazos": 2
+      }
+    }
+  },
+  "2026": {
+    "total_nacidos": 1320,
+    "bcg": {
+      "universo": 1320,
+      "excluidos": 8,
+      "elegibles": 1312,
+      "vacunados": 1302,
+      "pendientes": 10,
+      "fallecidos": 6,
+      "rechazados": 2,
+      "distribucion_hospital": {
+        "HOSPITAL DE OSORNO": 10
+      },
+      "hospital_elegibles": {
+        "HOSPITAL DE OSORNO": 992,
+        "CLINICA ALEMANA DE OSORNO": 319,
+        "CESFAM BAHIA MANSA": 1
+      },
+      "distribucion_comuna": {
+        "OSORNO": 5,
+        "PURRANQUE": 4,
+        "RÍO BUENO": 1
+      },
+      "evolucion_mensual": {
+        "09": 3,
+        "06": 1,
+        "03": 1,
+        "05": 1,
+        "08": 3,
+        "04": 1
+      },
+      "mes_elegibles": {
+        "07": 166,
+        "02": 129,
+        "04": 155,
+        "05": 160,
+        "09": 78,
+        "01": 159,
+        "08": 164,
+        "03": 157,
+        "06": 144
+      },
+      "causales_exclusion": {
+        "Fallecimiento": 6,
+        "Solicitud del padre/madre o responsable": 1,
+        "Contraindicación médica": 1
+      },
+      "calidad_dato": {
+        "rechazos": 2
+      }
+    },
+    "hepb": {
+      "universo": 1320,
+      "excluidos": 6,
+      "elegibles": 1314,
+      "vacunados": 1304,
+      "pendientes": 10,
+      "fallecidos": 6,
+      "rechazados": 0,
+      "distribucion_hospital": {
+        "HOSPITAL DE OSORNO": 9,
+        "CLINICA ALEMANA DE OSORNO": 1
+      },
+      "hospital_elegibles": {
+        "HOSPITAL DE OSORNO": 993,
+        "CLINICA ALEMANA DE OSORNO": 320,
+        "CESFAM BAHIA MANSA": 1
+      },
+      "distribucion_comuna": {
+        "OSORNO": 6,
+        "PURRANQUE": 3,
+        "PAILLACO": 1
+      },
+      "evolucion_mensual": {
+        "01": 4,
+        "09": 3,
+        "06": 2,
+        "08": 1
+      },
+      "mes_elegibles": {
+        "07": 166,
+        "02": 129,
+        "04": 155,
+        "05": 160,
+        "09": 78,
+        "01": 160,
+        "08": 164,
+        "03": 157,
+        "06": 145
+      },
+      "causales_exclusion": {
+        "Fallecimiento": 6
+      },
+      "calidad_dato": {
+        "rechazos": 0
+      }
+    }
+  }
+};
