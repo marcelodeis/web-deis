@@ -806,6 +806,30 @@ def main():
         "Rescate Neumo23 — Población Per Cápita Rezagados (<= 1960)"
     )
 
+    # Paso 5: Cifrar archivos con contraseña DEIS2026 y copiar a Programáticas_Web
+    password_deis = "DEIS2026"
+    prog_web_dir = os.path.join(PROJECT_DIR, "Programáticas_Web")
+    import shutil
+    try:
+        import win32com.client
+        excel_app = win32com.client.Dispatch("Excel.Application")
+        excel_app.DisplayAlerts = False
+        excel_app.Visible = False
+        print(f"\nCifrando archivos con contraseña '{password_deis}'...")
+        for rep_path in [OUTPUT_REPORTE1, OUTPUT_REPORTE2, output_reporte3]:
+            abs_p = os.path.abspath(rep_path)
+            wb_enc = excel_app.Workbooks.Open(abs_p)
+            wb_enc.Password = password_deis
+            wb_enc.SaveAs(abs_p, Password=password_deis)
+            wb_enc.Close()
+            # Copiar a Programáticas_Web
+            if os.path.exists(prog_web_dir):
+                shutil.copy2(abs_p, os.path.join(prog_web_dir, os.path.basename(abs_p)))
+        excel_app.Quit()
+        print("  ✓ Archivos cifrados y copiados a Programáticas_Web con éxito.")
+    except Exception as e:
+        print(f"  ⚠ Advertencia al cifrar: {e}")
+
     # Resumen final
     elapsed = time.time() - t_inicio
     print("\n" + "=" * 70)
