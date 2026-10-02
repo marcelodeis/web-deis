@@ -13,8 +13,8 @@ Genera DOS reportes Excel de rescate para vacunación Neumocócica polisacárida
   Reporte 2: Población Per Cápita inscrita (universo ampliado)
 
 Lógica:
-  1. Construir set de RUNs fallecidos (DEF 2016-2026)
-  2. Construir set de RUNs con Neumo23 válida (Programáticas 2016-2026)
+  1. Construir set de RUNs fallecidos (DEF 2014-2026)
+  2. Construir set de RUNs con Neumo23 válida (Programáticas 2014-2026)
   3. Cruzar cada universo y generar Excel de rescate
 
 Filtros MINSAL obligatorios (Programáticas):
@@ -67,8 +67,11 @@ OUTPUT_REPORTE2 = os.path.join(OUTPUT_DIR, "Rescate_Neumo23_PerCapita_1961.xlsx"
 
 ANO_COHORTE = 1961
 
-# Archivos de Programáticas Residencia (2016-2026)
+# Archivos de Programáticas Residencia (2014-2026)
+# Incluimos desde 2014 por ser el año de incorporación de Neumo23 al PNI de adultos mayores
 PROGRAMATICAS_FILES = {
+    2014: os.path.join(BD_2000_2024, "Programáticas_Residencia_2014"),
+    2015: os.path.join(BD_2000_2024, "Programáticas_Residencia_2015"),
     2016: os.path.join(BD_2000_2024, "Programáticas_Residencia_2016"),
     2017: os.path.join(BD_2000_2024, "Programáticas_Residencia_2017"),
     2018: os.path.join(BD_2000_2024, "Programáticas_Residencia_2018"),
@@ -82,8 +85,10 @@ PROGRAMATICAS_FILES = {
     2026: os.path.join(BD_2026, "Programáticas_Residencia_2026.csv"),
 }
 
-# Archivos de Defunciones (2016-2026)
+# Archivos de Defunciones (2014-2026)
 DEFUNCIONES_FILES = {
+    2014: os.path.join(BD_2000_2024, "DEF2014.xlsx"),
+    2015: os.path.join(BD_2000_2024, "DEF2015.xlsx"),
     2016: os.path.join(BD_2000_2024, "DEF2016.xlsx"),
     2017: os.path.join(BD_2000_2024, "DEF2017.xlsx"),
     2018: os.path.join(BD_2000_2024, "DEF2018.csv"),
@@ -174,7 +179,7 @@ def construir_set_fallecidos():
     Recorre DEF 2016-2026 y construye un set con todos los RUNs fallecidos.
     """
     print("\n" + "=" * 70)
-    print("PASO 1: Construir set de RUNs fallecidos (DEF 2016-2026)")
+    print("PASO 1: Construir set de RUNs fallecidos (DEF 2014-2026)")
     print("=" * 70)
 
     fallecidos = set()
@@ -248,7 +253,7 @@ def construir_set_vacunados_neumo23():
     Retorna: dict { run: { 'fecha': fecha_inmunización, 'año': año_base } }
     """
     print("\n" + "=" * 70)
-    print("PASO 2: Buscar vacunados Neumo23 en Programáticas (2016-2026)")
+    print("PASO 2: Buscar vacunados Neumo23 en Programáticas (2014-2026)")
     print("=" * 70)
 
     # Dict: run → { 'fecha': str, 'ano': int, 'establecimiento': str }
