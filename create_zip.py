@@ -3,7 +3,7 @@ import zipfile
 import shutil
 
 source_dir = r"C:\Antigravity IDE\WEB DEIS"
-zip_path = r"C:\Antigravity IDE\WEB DEIS\Cloudflare_Deploy_Final.zip"
+zip_path = r"C:\Antigravity IDE\WEB DEIS\Entregas_Cloudflare\Cloudflare_Deploy_Final.zip"
 
 directories_to_copy = [
     "Covid_Web",
